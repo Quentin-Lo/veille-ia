@@ -322,8 +322,8 @@ def score_articles(model, articles: list, stats: dict, max_articles: int = MAX_I
         if history_file and idx % 5 == 0:
             save_json(history_file, articles)
             log.info(f"Sauvegarde intermediaire : {len(scored_map)} articles scores")
-        # 8s sleep keeps us under 7 RPM, within Gemini free-tier 10 RPM limit
-        time.sleep(8)
+        # 12s sleep → 5 RPM max, safe buffer for Gemini free-tier limits
+        time.sleep(12)
 
     save_stats(stats)
     return articles

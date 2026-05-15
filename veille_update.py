@@ -109,7 +109,7 @@ def main():
                 if "url" in r:
                     r["score_composite"] = score_composite(r)
                     new_scored_map[r["url"]] = r
-            time.sleep(8)
+            time.sleep(12)
 
     # Score backlog (max 20)
     pending = [a for a in history if a.get("score_pending", True) and article_matches_keywords(a)]
@@ -126,7 +126,7 @@ def main():
                 if "url" in r:
                     r["score_composite"] = score_composite(r)
                     new_scored_map[r["url"]] = r
-            time.sleep(8)
+            time.sleep(12)
 
     for a in history:
         if a["url"] in new_scored_map:
