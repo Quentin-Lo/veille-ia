@@ -696,7 +696,11 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <div class="hero">
   <div class="badge">Article du jour</div>
   <h1>{TITLE}</h1>
-  <div class="date-line">Genere le {DATE_GENERATION} &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Voir tous les articles</a></div>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">{ARTICLE_DATE}</strong>
+    &nbsp;·&nbsp; Veille generee le {DATE_GENERATION}
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
 </div>
 
 <div class="container">
@@ -785,6 +789,7 @@ def save_html_article(article_info: dict, test_mode: bool = False) -> Path:
     full_html = HTML_TEMPLATE.format(
         TITLE=article.get("titre", "Article du jour"),
         CONTENT=content_html,
+        ARTICLE_DATE=article.get("date", "date inconnue"),
         DATE_GENERATION=datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
     )
     with open(filepath, "w", encoding="utf-8") as f:
