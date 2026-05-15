@@ -19,13 +19,18 @@ from datetime import datetime, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
+import html as html_lib
+from datetime import timedelta
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
 import feedparser
 import requests
 from dotenv import load_dotenv
 import google.generativeai as genai
 
 # Force unbuffered stdout for real-time output in subprocess/CI
-sys.stdout.reconfigure(line_buffering=True) if hasattr(sys.stdout, 'reconfigure') else None
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(line_buffering=True)
 
 load_dotenv(Path(__file__).parent / ".env")
 
@@ -74,19 +79,29 @@ def url_hash(url: str) -> str:
 
 
 def load_json(path: Path, default):
-    if path.exists():
-        try:
-            with open(path, encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            return default
-    return default
+    if not path.exists():
+        return default
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except json.JSONDecodeError as e:
+        backup = path.with_suffix(f".corrupt.{int(time.time())}.json")
+        path.rename(backup)
+        log.error(f"JSON corrompu {path.name}, sauvegarde en {backup.name}: {e}")
+        return default
+    except Exception as e:
+        log.error(f"Erreur lecture {path.name}: {e}")
+        return default
 
 
 def save_json(path: Path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
+    tmp = path.with_suffix(".tmp")
+    with open(tmp, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+        f.flush()
+        os.fsync(f.fileno())
+    os.replace(tmp, path)
 
 
 def load_stats() -> dict:
@@ -113,9 +128,14 @@ def reset_daily_stats_if_needed(stats: dict) -> dict:
     return stats
 
 
+_KEYWORDS_RE = re.compile(
+    r"\b(" + "|".join(re.escape(k) for k in KEYWORDS) + r")\b",
+    re.IGNORECASE,
+)
+
 def article_matches_keywords(article: dict) -> bool:
-    text = (article.get("titre", "") + " " + article.get("resume", "")).lower()
-    return any(kw.lower() in text for kw in KEYWORDS)
+    text = (article.get("titre", "") or "") + " " + (article.get("resume", "") or "")
+    return bool(_KEYWORDS_RE.search(text))
 
 
 def score_composite(a: dict) -> float:
@@ -140,10 +160,13 @@ def fetch_feed(source: dict, start_date: str) -> list:
             cutoff = datetime.fromisoformat(start_date).replace(tzinfo=timezone.utc)
             for entry in feed.entries:
                 pub = None
-                if hasattr(entry, "published_parsed") and entry.published_parsed:
-                    pub = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
-                elif hasattr(entry, "updated_parsed") and entry.updated_parsed:
-                    pub = datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
+                try:
+                    if hasattr(entry, "published_parsed") and entry.published_parsed:
+                        pub = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
+                    elif hasattr(entry, "updated_parsed") and entry.updated_parsed:
+                        pub = datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
+                except (ValueError, TypeError):
+                    pub = None
                 if pub is None or pub < cutoff:
                     continue
                 link = entry.get("link", "")
@@ -151,7 +174,7 @@ def fetch_feed(source: dict, start_date: str) -> list:
                     continue
                 resume = ""
                 if hasattr(entry, "summary"):
-                    resume = re.sub(r"<[^>]+>", "", entry.summary)[:500]
+                    resume = html_lib.unescape(re.sub(r"<[^>]+>", "", entry.summary))[:500]
                 articles.append({
                     "url": link,
                     "url_hash": url_hash(link),
@@ -176,20 +199,27 @@ def collect_history(sources: list, start_date: str, test_mode: bool = False) -> 
     known_hashes = {a["url_hash"] for a in history}
     all_new = []
     total = len(sources)
+    results = {}
+
+    workers = min(8, total)
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(fetch_feed, s, start_date): s for s in sources}
+        for fut in as_completed(futures):
+            source = futures[fut]
+            try:
+                results[source["name"]] = fut.result()
+            except Exception as e:
+                log.warning(f"Erreur collecte {source['name']}: {e}")
+                results[source["name"]] = []
+
     for i, source in enumerate(sources, 1):
-        try:
-            safe_print(f"[{i}/{total}] Collecte : {source['name']}...")
-        except Exception:
-            pass
-        articles = fetch_feed(source, start_date)
+        articles = results.get(source["name"], [])
         new_arts = [a for a in articles if a["url_hash"] not in known_hashes]
         for a in new_arts:
             known_hashes.add(a["url_hash"])
         all_new.extend(new_arts)
-        try:
-            safe_print(f"  -> {len(new_arts)} nouveaux articles")
-        except Exception:
-            pass
+        safe_print(f"[{i}/{total}] {source['name']}: {len(new_arts)} nouveaux")
+
     history.extend(all_new)
     save_json(ARTICLES_HISTORY_FILE, history)
     log.info(f"Collecte terminee : {len(all_new)} nouveaux articles, total historique : {len(history)}")
@@ -272,7 +302,13 @@ def extract_json_from_response(text: str):
 
 def score_batch(model, batch: list, stats: dict) -> list:
     articles_for_prompt = [
-        {"url": a["url"], "titre": a["titre"], "resume": a.get("resume", ""), "date": a.get("date", "")}
+        {
+            "url_hash": a["url_hash"],
+            "url": a["url"],
+            "titre": a["titre"],
+            "resume": a.get("resume", ""),
+            "date": a.get("date", ""),
+        }
         for a in batch
     ]
     prompt = SCORING_PROMPT.replace("{ARTICLES_JSON}", json.dumps(articles_for_prompt, ensure_ascii=False))
@@ -301,6 +337,8 @@ def score_articles(model, articles: list, stats: dict, max_articles: int = MAX_I
     log.info(f"Scoring : {len(to_score)} articles a scorer")
 
     scored_map = {}
+    # Index by url_hash for O(1) lookup instead of O(n) scan per batch
+    by_hash = {a["url_hash"]: a for a in articles}
     batches = [to_score[i:i+BATCH_SIZE] for i in range(0, len(to_score), BATCH_SIZE)]
 
     for idx, batch in enumerate(batches, 1):
@@ -310,20 +348,21 @@ def score_articles(model, articles: list, stats: dict, max_articles: int = MAX_I
         safe_print(f"  Batch {idx}/{len(batches)} ({len(batch)} articles)...")
         results = score_batch(model, batch, stats)
         for r in results:
-            if "url" in r:
+            h = r.get("url_hash") or url_hash(r.get("url", ""))
+            if h and h in by_hash:
                 r["score_composite"] = score_composite(r)
-                scored_map[r["url"]] = r
-        # Apply scored results incrementally to articles list
-        for a in articles:
-            if a["url"] in scored_map and a.get("score_pending", True):
-                a.update(scored_map[a["url"]])
-                a["score_pending"] = False
+                scored_map[h] = r
+                a = by_hash[h]
+                if a.get("score_pending", True):
+                    a.update(r)
+                    a["score_pending"] = False
         # Save intermediate progress every 5 batches to survive crashes
         if history_file and idx % 5 == 0:
             save_json(history_file, articles)
             log.info(f"Sauvegarde intermediaire : {len(scored_map)} articles scores")
         # 12s sleep → 5 RPM max, safe buffer for Gemini free-tier limits
-        time.sleep(12)
+        if idx < len(batches):
+            time.sleep(12)
 
     save_stats(stats)
     return articles
@@ -414,8 +453,13 @@ def generate_article_du_jour(model, ranking: list, stats: dict, test_mode: bool 
     prompt = prompt.replace("{SCORE_IA}", str(main_article.get("pertinence_passionné_ia", 0)))
     prompt = prompt.replace("{SCORE_E}", str(main_article.get("pertinence_entrepreneur", 0)))
     prompt = prompt.replace("{SOURCE}", main_article.get("source_name", ""))
-    prompt = prompt.replace("{SECONDARY_JSON}", json.dumps(secondary, ensure_ascii=False))
-    prompt = prompt.replace("{WEEKLY_JSON}", json.dumps(weekly, ensure_ascii=False))
+    def slim(articles):
+        return [{"titre": a.get("titre", ""), "url": a.get("url", ""),
+                 "score": a.get("score", 0), "categorie": a.get("categorie", "")}
+                for a in articles]
+
+    prompt = prompt.replace("{SECONDARY_JSON}", json.dumps(slim(secondary), ensure_ascii=False))
+    prompt = prompt.replace("{WEEKLY_JSON}", json.dumps(slim(weekly), ensure_ascii=False))
 
     safe_print("\nGeneration de l'article du jour via Gemini...")
     raw_content = call_gemini_with_retry(model, prompt, stats)
@@ -836,7 +880,7 @@ def send_email(article_info: dict, html_filepath: Path, test_mode: bool = False)
     article = article_info["article"]
     content_md = article_info["contenu_markdown"]
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    titre_court = article.get("titre", "")[:60]
+    titre_court = (article.get("titre", "") or "").strip().replace("\n", " ")[:60]
     score = article.get("score", 0)
 
     prefix = "[TEST] " if test_mode else ""
@@ -895,7 +939,7 @@ def send_email(article_info: dict, html_filepath: Path, test_mode: bool = False)
         msg["To"] = recipient
         msg.attach(MIMEText(body_html, "html", "utf-8"))
 
-        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=30) as server:
             server.login(gmail_addr, gmail_pwd)
             server.sendmail(gmail_addr, recipient, msg.as_string())
 

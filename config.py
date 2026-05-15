@@ -159,6 +159,7 @@ AUTOMATISATION, DEV_ASSISTE, NOCODE_LOWCODE, CLOUD_DATA, SECURITE_IA, BUSINESS_I
 Retourne UNIQUEMENT ce JSON valide, sans markdown, sans commentaire :
 [
   {
+    "url_hash": "...",
     "url": "...",
     "titre": "...",
     "date": "YYYY-MM-DD",

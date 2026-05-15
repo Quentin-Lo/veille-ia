@@ -8,9 +8,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: veille-ia-main
+  cancel-in-progress: false
+
 jobs:
   veille:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
@@ -28,11 +33,15 @@ jobs:
 
       - name: Create .env from secrets
         run: |
-          printf 'GEMINI_API_KEY=%s\nGMAIL_ADDRESS=%s\nGMAIL_APP_PASSWORD=%s\nEMAIL_DESTINATAIRE=%s\nSCORE_MINIMUM_INCLUSION=4\nNB_ARTICLES_SECONDAIRES=6\nJOURS_RETENTION=120\n' \
-            "${{ secrets.GEMINI_API_KEY }}" \
-            "${{ secrets.GMAIL_ADDRESS }}" \
-            "${{ secrets.GMAIL_APP_PASSWORD }}" \
-            "${{ secrets.EMAIL_DESTINATAIRE }}" > .env
+          {
+            echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}"
+            echo "GMAIL_ADDRESS=${{ secrets.GMAIL_ADDRESS }}"
+            echo "GMAIL_APP_PASSWORD=${{ secrets.GMAIL_APP_PASSWORD }}"
+            echo "EMAIL_DESTINATAIRE=${{ secrets.EMAIL_DESTINATAIRE }}"
+            echo "SCORE_MINIMUM_INCLUSION=4"
+            echo "NB_ARTICLES_SECONDAIRES=6"
+            echo "JOURS_RETENTION=120"
+          } > .env
 
       - name: Run Veille IA update
         run: python veille_update.py
@@ -42,10 +51,25 @@ jobs:
           git config user.email "bot@veille-ia.local"
           git config user.name "Veille IA Bot"
 
-      - name: Commit updated data
+      - name: Commit and push updated data
         run: |
           git add data/ranking_global.json data/articles_history.json data/articles_du_jour.json data/stats.json data/articles_generes/ || true
           git diff --cached --quiet || git commit -m "Veille IA - $(date +%Y-%m-%d)"
+          git pull --rebase --autostash origin main
+          git push
 
-      - name: Push changes
-        run: git push
+      - name: Alert on failure
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.GMAIL_ADDRESS }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          subject: "⚠️ Veille IA - Echec du job GitHub Actions"
+          to: ${{ secrets.EMAIL_DESTINATAIRE }}
+          from: Veille IA Bot
+          body: |
+            Le job GitHub Actions "Veille IA Quotidienne" a echoue.
+            Verifie les logs sur : https://github.com/Quentin-Lo/veille-ia/actions
