@@ -1,0 +1,55 @@
+name: Veille IA Quotidienne
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create .env from secrets
+        run: |
+          cat > .env << EOF
+          GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
+          GMAIL_ADDRESS=${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD=${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_DESTINATAIRE=${{ secrets.EMAIL_DESTINATAIRE }}
+          SCORE_MINIMUM_INCLUSION=4
+          NB_ARTICLES_SECONDAIRES=6
+          JOURS_RETENTION=120
+          EOF
+
+      - name: Run Veille IA update
+        run: python veille_update.py
+
+      - name: Configure git
+        run: |
+          git config user.email "bot@veille-ia.local"
+          git config user.name "Veille IA Bot"
+
+      - name: Commit updated data
+        run: |
+          git add data/ranking_global.json data/articles_du_jour.json data/stats.json data/articles_generes/ || true
+          git diff --cached --quiet || git commit -m "Veille IA - $(date +%Y-%m-%d)"
+
+      - name: Push changes
+        run: git push
