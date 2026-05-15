@@ -330,103 +330,63 @@ def score_articles(model, articles: list, stats: dict, max_articles: int = MAX_I
 
 
 # ── Génération article du jour ─────────────────────────────────────────────────
-GENERATION_PROMPT = """Tu es un journaliste expert en IA, Data Engineering, Business Intelligence et entrepreneuriat tech, qui ecrit pour un consultant BI senior passionne d'IA, d'automatisation et de creation de valeur business.
-Ton lecteur est expert technique. Il veut de la profondeur et de l'actionnable.
+GENERATION_PROMPT = """Tu es un vulgarisateur passionne d'IA et de tech, qui ecrit une newsletter quotidienne pour des juniors (etudiants, jeunes professionnels, curieux) qui decouvrent le monde de l'IA, de la data et de l'automatisation.
 
-Redirige en FRANCAIS. Utilise du Markdown bien structure.
+Ton style : enthousiaste, clair, accessible. Tu expliques les concepts avec des analogies simples. Tu donnes envie d'explorer. Pas de jargon sans explication. Phrases courtes et dynamiques.
+
+Ecris en FRANCAIS. Utilise du Markdown structure et vivant (emojis bienvenus, listes courtes, mots en gras pour les points cles).
 
 Article principal : {TITRE} ({URL})
 Contexte : {RESUME}
 Date : {DATE}
-Score : {SCORE}/10 | Categorie : {CATEGORIE}
-Pertinence BI : {SCORE_BI}/10 | IA : {SCORE_IA}/10 | Entrepreneur : {SCORE_E}/10
+Score d'impact : {SCORE}/10 | Categorie : {CATEGORIE}
+Source : [{SOURCE}]({URL})
 
-Articles secondaires pour la section "Autres sujets notables" :
+Articles secondaires :
 {SECONDARY_JSON}
 
-Articles de la semaine pour le Radar tendances (score >= 7) :
+Articles de la semaine (score >= 7) :
 {WEEKLY_JSON}
 
-Structure OBLIGATOIRE (utilise exactement ces sections) :
+Structure OBLIGATOIRE :
 
-## {TITRE_ACCROCHEUR}
+## {TITRE_ACCROCHEUR_SIMPLE_ET_ENGAGEANT}
 
-> **{PHRASE_ACCROCHE_EN_UNE_LIGNE}**
+> {UNE_PHRASE_QUI_DONNE_ENVIE_DE_LIRE}
 
-| Metrique | Valeur |
-|----------|--------|
-| Score d'impact | {SCORE}/10 |
-| Categorie | {CATEGORIE} |
-| Pertinence Consultant BI | {SCORE_BI}/10 |
-| Pertinence Passionne IA | {SCORE_IA}/10 |
-| Pertinence Entrepreneur | {SCORE_E}/10 |
-| Date | {DATE} |
-| Source | [{SOURCE}]({URL}) |
+### C'est quoi exactement ? 🔍
+[Explique ce qui s'est passe comme si tu le racontais a un ami curieux mais non-expert. 2-3 paragraphes courts et clairs. Utilise une analogie si le sujet est technique.]
 
-### Pourquoi c'est important maintenant
-[2-3 paragraphes denses]
+### Pourquoi c'est cool (ou important) ? 🚀
+[Ce que ca change dans le monde de l'IA/data, pourquoi ca fait du bruit, qu'est-ce que ca rend possible. Ton enthousiaste et positif. 1-2 paragraphes.]
 
-### Ce qui s'est passe exactement
-[Faits precis, chiffres, benchmarks, architecture si disponibles]
+### Ce que tu peux faire des maintenant 🛠️
+- **[Action concrete 1]** : [description en une ligne, avec lien si possible]
+- **[Action concrete 2]** : [outil gratuit ou tuto accessible]
+- **[Mini-defi]** : [une petite experience faisable en moins d'une heure]
 
-### Impact pour le Consultant BI
-**Ce que ca change sur tes missions clients :**
-- [Point concret 1]
-- [Point concret 2]
+### Les mots a connaitre 📖
+- **[Terme 1]** : [definition simple en 1 phrase]
+- **[Terme 2]** : [definition simple en 1 phrase]
 
-**Outils/pratiques a tester immediatement :**
-- [Outil specifique avec lien]
-
-**Question a poser a ton prochain client :**
-- [Question strategique]
-
-### Impact pour le Passionne IA/Automatisation
-**Ce que tu peux experimenter des maintenant :**
-- [Experience concrete faisable avec outils gratuits]
-
-**Connexions avec ton stack :**
-- [Lien avec n8n / Python / Gemini / Claude Code]
-
-**Ressource a bookmarker :**
-- [Lien repo GitHub, paper, tutorial]
-
-### Impact pour l'Entrepreneur
-**Opportunite business identifiee :**
-- [Idee concrete de produit, service ou automatisation monetisable]
-
-**Outils gratuits ou low-cost pour tester l'idee :**
-- [Stack minimal viable]
-
-**Risque ou menace a anticiper :**
-- [Ce que ca menace ou rend obsolete]
-
-### Signaux faibles a surveiller
-[2-3 tendances emergentes, prochaines etapes attendues dans 30-90 jours]
+### Pour aller plus loin 🔗
+- [{TITRE_RESSOURCE}]({URL}) — {pourquoi cette ressource vaut le coup}
 
 ---
 
-## Autres sujets notables aujourd'hui
+## Les autres actus du jour 📰
 
-[Pour chacun des articles secondaires fournis, une mini-analyse de 2-3 phrases avec le score et les pertinences]
-
----
-
-## Radar tendances - 7 derniers jours
-
-**Tendance #1 : {NOM}**
-[Ce qui monte en frequence et en score - 3 phrases]
-
-**Tendance #2 : {NOM}**
-[Tendance de fond qui s'installe - 3 phrases]
-
-**Signal faible : {NOM}**
-[Sujet peu couvert mais qui pourrait exploser - 2 phrases]
+[Pour chaque article secondaire : une ligne de titre stylisee suivi de 1-2 phrases simples et engageantes. Score entre parentheses. Pas de jargon.]
 
 ---
 
-## Ressources de la semaine
-[3 ressources concretes extraites des articles scores >= 7 cette semaine]
-- [{TITRE}]({URL}) - {1 phrase de valeur}
+## Ce qui monte en ce moment 📈
+
+**{Tendance 1}** — [2 phrases simples sur ce sujet qui prend de l'ampleur]
+
+**{Tendance 2}** — [2 phrases simples sur cette tendance de fond]
+
+**A surveiller** — [1 sujet emergent explique simplement]
 """
 
 
@@ -473,34 +433,237 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{TITLE}</title>
+<title>{TITLE} — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
-  body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; color: #1a1a1a; line-height: 1.7; }}
-  h1, h2, h3 {{ color: #0f172a; }}
-  h2 {{ border-bottom: 2px solid #3b82f6; padding-bottom: 8px; margin-top: 40px; }}
-  h3 {{ color: #1e40af; margin-top: 28px; }}
-  blockquote {{ border-left: 4px solid #3b82f6; margin: 0; padding: 12px 20px; background: #eff6ff; border-radius: 0 8px 8px 0; font-style: italic; }}
-  table {{ width: 100%; border-collapse: collapse; margin: 20px 0; }}
-  th, td {{ padding: 10px 14px; text-align: left; border: 1px solid #e2e8f0; }}
-  th {{ background: #f1f5f9; font-weight: 600; }}
-  tr:nth-child(even) {{ background: #f8fafc; }}
-  a {{ color: #3b82f6; text-decoration: none; }}
-  a:hover {{ text-decoration: underline; }}
-  code {{ background: #f1f5f9; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }}
-  pre {{ background: #1e293b; color: #e2e8f0; padding: 20px; border-radius: 8px; overflow-x: auto; }}
-  pre code {{ background: none; color: inherit; }}
-  .meta {{ background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; margin: 20px 0; }}
-  .date {{ color: #64748b; font-size: 0.9em; }}
-  hr {{ border: none; border-top: 1px solid #e2e8f0; margin: 40px 0; }}
-  ul, ol {{ padding-left: 24px; }}
-  li {{ margin: 6px 0; }}
-  strong {{ color: #0f172a; }}
+  *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
+
+  body {{
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.75;
+    font-size: 16px;
+  }}
+
+  /* Header */
+  .site-header {{
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }}
+  .site-header .logo {{ font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }}
+  .site-header .tagline {{ font-size: 0.8rem; opacity: 0.65; margin-left: auto; }}
+
+  /* Hero */
+  .hero {{
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }}
+  .hero .badge {{
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }}
+  .hero h1 {{
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }}
+  .hero .date-line {{
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }}
+
+  /* Container */
+  .container {{
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }}
+
+  /* Blockquote accroche */
+  blockquote {{
+    background: #eff6ff;
+    border-left: 4px solid #3b82f6;
+    border-radius: 0 10px 10px 0;
+    padding: 18px 24px;
+    margin: 32px 0;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 1.05rem;
+    color: #1e40af;
+    line-height: 1.7;
+  }}
+
+  /* Sections */
+  h2 {{
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 44px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }}
+  h3 {{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1e40af;
+    margin: 32px 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }}
+
+  p {{ margin: 12px 0; color: #334155; }}
+
+  /* Cards */
+  .card {{
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }}
+
+  /* Lists */
+  ul, ol {{ padding-left: 22px; margin: 12px 0; }}
+  li {{
+    margin: 8px 0;
+    color: #334155;
+    padding-left: 4px;
+  }}
+  li::marker {{ color: #3b82f6; }}
+
+  /* Links */
+  a {{ color: #2563eb; text-decoration: none; font-weight: 500; }}
+  a:hover {{ text-decoration: underline; color: #1d4ed8; }}
+
+  /* Code */
+  code {{
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }}
+  pre {{
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }}
+  pre code {{ background: none; border: none; color: inherit; padding: 0; }}
+
+  /* Tables */
+  table {{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+    font-size: 0.93rem;
+  }}
+  th {{
+    background: #1e3a5f;
+    color: white;
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }}
+  td {{
+    padding: 11px 16px;
+    border-bottom: 1px solid #f1f5f9;
+    color: #334155;
+  }}
+  tr:last-child td {{ border-bottom: none; }}
+  tr:nth-child(even) td {{ background: #f8fafc; }}
+
+  /* Strong */
+  strong {{ color: #0f172a; font-weight: 600; }}
+  em {{ color: #475569; font-style: italic; }}
+
+  /* HR */
+  hr {{
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }}
+
+  /* Footer */
+  .footer {{
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }}
+  .footer a {{ color: #60a5fa; font-weight: 400; }}
+
+  /* Responsive */
+  @media (max-width: 600px) {{
+    .hero {{ padding: 36px 16px 32px; }}
+    .container {{ padding: 0 12px 40px; }}
+    h2 {{ font-size: 1.15rem; }}
+  }}
 </style>
 </head>
 <body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>{TITLE}</h1>
+  <div class="date-line">Genere le {DATE_GENERATION} &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Voir tous les articles</a></div>
+</div>
+
+<div class="container">
 {CONTENT}
-<hr>
-<p class="date">Article genere le {DATE_GENERATION} par Veille IA Bot | <a href="index.html">Retour a l'index</a></p>
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le {DATE_GENERATION}<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
 </body>
 </html>"""
 

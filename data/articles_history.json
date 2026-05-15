@@ -2352,8 +2352,22 @@
     "date": "2026-02-19",
     "source_name": "OpenAI Blog",
     "categorie_source": "IA_MODELES",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "L'annonce d'un investissement majeur ($7.5M) par OpenAI pour la recherche indépendante sur l'alignement de l'IA est une avancée significative. Cela soutient la pratique entrepreneuriale dans un domaine critique de l'IA.",
+    "tags": [
+      "AI alignment",
+      "OpenAI",
+      "research funding",
+      "AGI safety",
+      "entrepreneurship"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 7.25
   },
   {
     "url": "https://openai.com/index/openai-for-india",
@@ -2374,8 +2388,23 @@
     "date": "2026-02-18",
     "source_name": "OpenAI Blog",
     "categorie_source": "IA_MODELES",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'introduction d'EVMbench est une avancée significative car elle propose un nouveau benchmark documenté et reproductible pour évaluer les IA agents dans un domaine critique (sécurité des smart contracts).",
+    "tags": [
+      "EVMbench",
+      "AI agents",
+      "smart contracts",
+      "security",
+      "benchmark",
+      "OpenAI"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
   },
   {
     "url": "https://openai.com/index/new-result-theoretical-physics",
@@ -3529,8 +3558,22 @@
     "date": "2026-02-19",
     "source_name": "DeepMind Blog",
     "categorie_source": "IA_MODELES",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Le lancement de Gemini 3.1 Pro représente une mise à jour majeure d'un modèle existant avec des capacités améliorées pour des tâches complexes. Il s'agit d'une évolution significative dans les modèles d'IA.",
+    "tags": [
+      "Gemini",
+      "DeepMind",
+      "AI model",
+      "large language model",
+      "AI capabilities"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
   },
   {
     "url": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
@@ -3540,8 +3583,22 @@
     "date": "2026-02-18",
     "source_name": "DeepMind Blog",
     "categorie_source": "IA_MODELES",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "La capacité de Gemini à créer de la musique à partir de texte ou d'images représente une nouvelle capacité d'IA appliquée documentée et accessible. C'est une évolution significative dans le domaine de la génération créative.",
+    "tags": [
+      "Gemini",
+      "AI music generation",
+      "Lyria 3",
+      "AI creativity",
+      "DeepMind"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.300000000000001
   },
   {
     "url": "https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/",
@@ -4192,8 +4249,23 @@
     "date": "2026-02-20",
     "source_name": "HuggingFace Blog",
     "categorie_source": "IA_MODELES",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "L'intégration de GGML et llama.cpp à Hugging Face représente une avancée significative pour l'IA locale. C'est un effort majeur pour assurer la pérennité de modèles open-source compétitifs et leur accessibilité.",
+    "tags": [
+      "GGML",
+      "llama.cpp",
+      "Hugging Face",
+      "local AI",
+      "open-source",
+      "AI models"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.05
   },
   {
     "url": "https://huggingface.co/blog/unsloth-jobs",
@@ -4214,8 +4286,23 @@
     "date": "2026-02-18",
     "source_name": "HuggingFace Blog",
     "categorie_source": "IA_MODELES",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article présente une nouvelle méthodologie (IT-Bench et MAST) pour diagnostiquer les échecs des agents d'entreprise, offrant une capacité documentée et reproductible. C'est une avancée significative dans la compréhension et l'amélioration des IA agents.",
+    "tags": [
+      "IT-Bench",
+      "MAST",
+      "AI agents",
+      "enterprise AI",
+      "IBM Research",
+      "UC Berkeley"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
   },
   {
     "url": "https://huggingface.co/blog/gradio-html-one-shot-apps",
@@ -5607,8 +5694,22 @@
     "date": "2026-02-23",
     "source_name": "BD Tech Talks",
     "categorie_source": "IA_APPLIQUEE",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "L'article aborde une avancée technique significative dans l'architecture des LLMs, améliorant leur capacité à gérer de longs contextes. Il décrit une nouvelle capacité reproductible qui résout un goulot d'étranglement majeur pour les IA agents.",
+    "tags": [
+      "LLM",
+      "sparse attention",
+      "long context",
+      "memory bottleneck",
+      "AI agents"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
   },
   {
     "url": "https://bdtechtalks.com/2026/02/16/how-semantic-chaining-jailbreaks-image-generation-models/?utm_source=rss&utm_medium=rss&utm_campaign=how-semantic-chaining-jailbreaks-image-generation-models",
@@ -5618,8 +5719,22 @@
     "date": "2026-02-16",
     "source_name": "BD Tech Talks",
     "categorie_source": "IA_APPLIQUEE",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "L'article révèle une nouvelle technique ('semantic chaining') qui exploite les failles des modèles de génération d'images, montrant une nouvelle capacité avec des implications documentées. C'est une avancée significative dans la compréhension de la sécurité des IA multimodales.",
+    "tags": [
+      "semantic chaining",
+      "image generation",
+      "AI safety",
+      "multimodal models",
+      "jailbreaking"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.300000000000001
   },
   {
     "url": "https://bdtechtalks.com/2026/02/02/sakana-ai-repo-llm-token-positions/?utm_source=rss&utm_medium=rss&utm_campaign=sakana-ai-repo-llm-token-positions",
@@ -7093,8 +7208,23 @@
     "date": "2026-02-23",
     "source_name": "SQLBI",
     "categorie_source": "BI_OUTILS",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article propose une technique de débogage avancée et documentée pour DAX, améliorant la pratique des développeurs BI. Bien qu'utile, il ne s'agit pas d'une mise à jour majeure d'un outil.",
+    "tags": [
+      "DAX",
+      "Power BI",
+      "debugging",
+      "TOJSON",
+      "TOCSV",
+      "SQLBI"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.449999999999999
   },
   {
     "url": "https://www.sqlbi.com/tv/displaying-injury-data-on-the-human-body-by-using-synoptic-panel-in-power-bi/",
@@ -7104,8 +7234,22 @@
     "date": "2026-02-19",
     "source_name": "SQLBI",
     "categorie_source": "BI_OUTILS",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article présente un nouveau cas d'usage créatif pour Power BI et le Synoptic Panel, documenté avec une démonstration pratique. C'est une évolution notable pour les pratiques BI existantes.",
+    "tags": [
+      "Power BI",
+      "Synoptic Panel",
+      "data visualization",
+      "medical data",
+      "BI practices"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
   },
   {
     "url": "https://www.sqlbi.com/tv/understanding-dateadd-parameters-with-calendar-based-time-intelligence/",
