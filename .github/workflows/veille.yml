@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: veille-ia-main
@@ -57,6 +59,14 @@ jobs:
           git diff --cached --quiet || git commit -m "Veille IA - $(date +%Y-%m-%d)"
           git pull --rebase --autostash origin main
           git push
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./data/articles_generes
+          publish_branch: gh-pages
+          commit_message: "Pages - $(date +%Y-%m-%d)"
 
       - name: Alert on failure
         if: failure()

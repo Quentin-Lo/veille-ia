@@ -25,6 +25,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import feedparser
 import requests
+from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 import google.generativeai as genai
 
@@ -145,6 +146,73 @@ def score_composite(a: dict) -> float:
         + a.get("pertinence_passionné_ia", 0) * 0.2
         + a.get("pertinence_entrepreneur", 0) * 0.15
     )
+
+
+# ── Article scraping ──────────────────────────────────────────────────────────
+_SCRAPE_HEADERS = {"User-Agent": "Mozilla/5.0 (VeilleIA/1.0; +https://github.com/Quentin-Lo/veille-ia)"}
+_SCRAPE_SELECTORS = ["article", "main", "[role='main']", ".post-content",
+                     ".entry-content", ".article-body", ".content", "body"]
+
+def scrape_article_text(url: str, max_chars: int = 2000) -> str:
+    try:
+        resp = requests.get(url, timeout=10, headers=_SCRAPE_HEADERS)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.content, "html.parser")
+        for tag in soup(["script", "style", "nav", "header", "footer", "aside", "form", "iframe"]):
+            tag.decompose()
+        for selector in _SCRAPE_SELECTORS:
+            container = soup.select_one(selector)
+            if container:
+                text = re.sub(r'\s+', ' ', container.get_text(separator=" ", strip=True))
+                if len(text) > 300:
+                    return text[:max_chars]
+        return ""
+    except Exception:
+        return ""
+
+
+def enrich_articles_with_full_text(articles: list) -> list:
+    """Scrape full text for articles that don't have it yet (parallel, best-effort)."""
+    to_scrape = [a for a in articles if not a.get("full_text")]
+    if not to_scrape:
+        return articles
+
+    safe_print(f"  Scraping du texte complet pour {len(to_scrape)} articles...")
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        futures = {pool.submit(scrape_article_text, a["url"]): a for a in to_scrape}
+        for fut in as_completed(futures):
+            article = futures[fut]
+            try:
+                text = fut.result()
+                if text:
+                    article["full_text"] = text
+            except Exception:
+                pass
+    return articles
+
+
+# ── Topic deduplication ───────────────────────────────────────────────────────
+def deduplicate_by_topic(articles: list) -> list:
+    """Keep only the top-scored article per topic (category + title word overlap > 40%)."""
+    selected = []
+    selected_words = []
+
+    for article in articles:
+        title_words = set(re.findall(r'\b\w{4,}\b', article.get("titre", "").lower()))
+        category = article.get("categorie", "")
+        duplicate = False
+        for i, sw in enumerate(selected_words):
+            if not sw or not title_words:
+                continue
+            overlap = len(title_words & sw) / max(len(title_words | sw), 1)
+            if overlap > 0.4 and selected[i].get("categorie", "") == category:
+                duplicate = True
+                break
+        if not duplicate:
+            selected.append(article)
+            selected_words.append(title_words)
+
+    return selected
 
 
 # ── RSS Collecte ──────────────────────────────────────────────────────────────
@@ -306,7 +374,7 @@ def score_batch(model, batch: list, stats: dict) -> list:
             "url_hash": a["url_hash"],
             "url": a["url"],
             "titre": a["titre"],
-            "resume": a.get("resume", ""),
+            "resume": a.get("full_text") or a.get("resume", ""),
             "date": a.get("date", ""),
         }
         for a in batch
@@ -335,6 +403,7 @@ def score_articles(model, articles: list, stats: dict, max_articles: int = MAX_I
 
     safe_print(f"\nScoring de {len(to_score)} articles via Gemini (batches de {BATCH_SIZE})...")
     log.info(f"Scoring : {len(to_score)} articles a scorer")
+    enrich_articles_with_full_text(to_score)
 
     scored_map = {}
     # Index by url_hash for O(1) lookup instead of O(n) scan per batch
@@ -436,6 +505,7 @@ def generate_article_du_jour(model, ranking: list, stats: dict, test_mode: bool 
         return None
 
     scored.sort(key=lambda x: x.get("score_composite", 0), reverse=True)
+    scored = deduplicate_by_topic(scored)
     main_article = scored[0]
     secondary = scored[1:7]
 
