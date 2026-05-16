@@ -33,7 +33,7 @@
     "source_name": "DeepMind Blog",
     "categorie_source": "IA_MODELES",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_MODELES",
     "raison_score": "Annonce de nouveaux modèles open-source définissant de nouvelles capacités frontières, promettant un raisonnement avancé et des workflows agentiques. Ceci représente une avancée majeure potentielle dans le domaine des IA open-source.",
@@ -873,6 +873,31 @@
     "score_composite": 7.2
   },
   {
+    "url": "https://docs.getdbt.com/blog/semantic-layer-vs-text-to-sql-2026",
+    "url_hash": "ffc1c4bf729baecbc1fc063b5b1dcc58",
+    "titre": "Semantic Layer vs. Text-to-SQL: 2026 Benchmark Update",
+    "resume": "With 2026's best models, the dbt Semantic Layer hits near-100% accuracy for covered queries. Here's what changed and what didn't in our updated benchmark.",
+    "date": "2026-04-07",
+    "source_name": "dbt Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cette mise à jour de benchmark fournit des données quantifiées sur l'évolution des performances des modèles Text-to-SQL par rapport à la couche sémantique de dbt. Elle détaille l'amélioration de la précision et les changements dans le paysage des modèles.",
+    "tags": [
+      "dbt",
+      "semantic layer",
+      "text-to-sql",
+      "benchmark",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 7.15
+  },
+  {
     "url": "https://towardsdatascience.com/the-counterintuitive-networking-decisions-behind-openais-131000-gpu-training-fabric/",
     "url_hash": "3877a44c21f214f5faa67d4d4cb0c522",
     "titre": "The Counterintuitive Networking Decisions Behind OpenAI’s 131,000-GPU Training Fabric",
@@ -995,6 +1020,31 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 6,
+    "score_composite": 7.050000000000001
+  },
+  {
+    "url": "https://bdtechtalks.com/2026/04/06/ai-harness-engineering-claude-code-leak/?utm_source=rss&utm_medium=rss&utm_campaign=ai-harness-engineering-claude-code-leak",
+    "url_hash": "e5c861df0a418861de05ceffd49f07aa",
+    "titre": "Why harness engineering is becoming the new AI moat",
+    "resume": "The recent leak of Anthropic's Claude Code reveals a hard truth: as LLMs become commoditized, the sophisticated engineering harness built around them is becoming the real moat.\nThe post Why harness engineering is becoming the new AI moat first appeared on TechTalks.",
+    "date": "2026-04-06",
+    "source_name": "BD Tech Talks",
+    "categorie_source": "IA_APPLIQUEE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "L'article met en lumière l'importance croissante de l'ingénierie des 'harness' autour des LLM comme avantage concurrentiel, suite à une fuite de code. Il documente une nouvelle pratique entrepreneuriale en IA qui définit la valeur.",
+    "tags": [
+      "IA",
+      "LLM",
+      "harness engineering",
+      "stratégie produit",
+      "avantage concurrentiel"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
     "score_composite": 7.050000000000001
   },
   {
@@ -1495,6 +1545,31 @@
     "score_composite": 6.95
   },
   {
+    "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+    "url_hash": "cf9ab79d536b4ff2ee68204ed0cc9d9d",
+    "titre": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+    "resume": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
+    "date": "2026-04-13",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Annonce d'une intégration majeure qui permet aux entreprises de construire et déployer des agents IA via Cloudflare Agent Cloud en utilisant les modèles OpenAI. Cela représente une nouvelle capacité documentée et reproductible pour des workflows d'agents.",
+    "tags": [
+      "agents IA",
+      "Cloudflare",
+      "OpenAI",
+      "workflows",
+      "entreprises"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.900000000000001
+  },
+  {
     "url": "https://blog.n8n.io/mercedes-benz-n8n/",
     "url_hash": "dd081c15b4ea5282725200f1270ddd9e",
     "titre": "How n8n is powering the next wave of AI automation at Mercedes-Benz",
@@ -1866,6 +1941,32 @@
     "score_composite": 6.7
   },
   {
+    "url": "https://newsletter.pragmaticengineer.com/p/scaling-uber-with-thuan-pham-ubers",
+    "url_hash": "914d17cdf233cdebc3a9ec1241cc3d1b",
+    "titre": "Scaling Uber with Thuan Pham (Uber’s first CTO)",
+    "resume": "Thuan Pham (Uber's first CTO) on scaling Uber from constant outages to global infrastructure, the shift to microservices and platform teams, and how AI is reshaping engineering.",
+    "date": "2026-04-01",
+    "source_name": "Pragmatic Engineer",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article offre un retour d'expérience approfondi sur la mise à l'échelle d'une plateforme technologique majeure (Uber) et l'intégration de l'IA. Il documente un cas d'usage entrepreneurial pertinent.",
+    "tags": [
+      "scaling",
+      "Uber",
+      "CTO",
+      "infrastructure",
+      "IA",
+      "entrepreneuriat"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.7
+  },
+  {
     "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
     "url_hash": "9025f0fa948654d9a8f7d796dfcb65e0",
     "titre": "Components of A Coding Agent",
@@ -2111,6 +2212,32 @@
     "score_composite": 6.600000000000001
   },
   {
+    "url": "https://bdtechtalks.com/2026/03/30/ghostclaw-malware-targets-openclaw-ai-agents/?utm_source=rss&utm_medium=rss&utm_campaign=ghostclaw-malware-targets-openclaw-ai-agents",
+    "url_hash": "29b426110e0b244611bd4c214efbffa1",
+    "titre": "How GhostClaw malware targets the OpenClaw AI agent boom",
+    "resume": "As developers rush to run local AI agents on Mac Minis, GhostClaw malware exploits macOS binaries to silently harvest credentials.\nThe post How GhostClaw malware targets the OpenClaw AI agent boom first appeared on TechTalks.",
+    "date": "2026-03-30",
+    "source_name": "BD Tech Talks",
+    "categorie_source": "IA_APPLIQUEE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Cet article aborde une nouvelle menace de sécurité affectant les agents IA locaux, mettant en évidence la nouvelle surface d'attaque créée par l'adoption de ces technologies. Il documente un cas d'usage de sécurité lié aux agents IA.",
+    "tags": [
+      "IA",
+      "agents IA",
+      "malware",
+      "sécurité",
+      "OpenClaw",
+      "cybercriminalité"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.600000000000001
+  },
+  {
     "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
     "url_hash": "3a63ffe19879f864cf1c23da83b6adac",
     "titre": "Speeding up agentic workflows with WebSockets in the Responses API",
@@ -2325,6 +2452,30 @@
       "Accessibilité",
       "GitHub Copilot",
       "Développement"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
+    "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+    "url_hash": "9a11515276af7735aee22a464c2c2d6c",
+    "titre": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+    "resume": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
+    "date": "2026-05-16",
+    "source_name": "Sebastian Raschka",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Décrit des avancées techniques significatives dans les architectures de LLM, avec des exemples concrets de nouveaux modèles open-weight réduisant les coûts de contexte long.  Ces développements sont compétitifs et promettent d'améliorer l'efficacité des modèles.",
+    "tags": [
+      "LLM",
+      "architecture",
+      "open-weight",
+      "context long"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -2770,6 +2921,30 @@
       "modèles",
       "agents",
       "quantification"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.1
+  },
+  {
+    "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+    "url_hash": "f846584e94ff774dd312356d2d2a6612",
+    "titre": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+    "resume": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
+    "date": "2026-04-13",
+    "source_name": "DeepMind Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Présente une avancée significative dans le domaine de la robotique grâce au modèle Gemini, en améliorant le raisonnement incarné. C'est une nouvelle capacité documentée et potentiellement reproductible pour des tâches robotiques réelles.",
+    "tags": [
+      "robotique",
+      "Gemini",
+      "embodied reasoning",
+      "IA incarnée"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
@@ -3871,6 +4046,30 @@
     "score_composite": 5.5
   },
   {
+    "url": "https://bdtechtalks.com/2026/04/13/llm-self-distillation-tradeoffs/?utm_source=rss&utm_medium=rss&utm_campaign=llm-self-distillation-tradeoffs",
+    "url_hash": "40bb90aafff61c180e7f7a0b358e82cb",
+    "titre": "The paradox of LLM self-distillation: Faster reasoning, weaker generalization",
+    "resume": "Optimizing LLMs for concise answers can destroy their ability to explore alternative solutions on difficult problems. New study reveals the hidden cost of self-distillation.\nThe post The paradox of LLM self-distillation: Faster reasoning, weaker generalization first appeared on TechTalks.",
+    "date": "2026-04-13",
+    "source_name": "BD Tech Talks",
+    "categorie_source": "IA_APPLIQUEE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Cet article documente un cas d'usage spécifique de l'IA (auto-distillation LLM) avec des métriques sur ses compromis, notamment la vitesse versus la généralisation. Il s'agit d'une information utile sur une pratique établie mais avec de nouvelles observations.",
+    "tags": [
+      "LLM",
+      "self-distillation",
+      "reasoning",
+      "generalization"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.45
+  },
+  {
     "url": "https://towardsdatascience.com/how-to-build-a-claude-code-powered-knowledge-base/",
     "url_hash": "1eb4a6cdf5c63782936cfe222fd39216",
     "titre": "How to Build a Claude Code-Powered Knowledge Base",
@@ -3892,6 +4091,30 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.45
+  },
+  {
+    "url": "https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code",
+    "url_hash": "c8562edeb4325c1ecfe42ce4481ba0de",
+    "titre": "DHH’s new way of writing code",
+    "resume": "David Heinemeier Hansson shares why he shifted to an agent-first AI workflow, and what it means for how software is built and who builds it.",
+    "date": "2026-04-08",
+    "source_name": "Pragmatic Engineer",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Cet article documente un nouveau cas d'usage dans le développement assisté par IA, où un entrepreneur clé adopte un flux de travail orienté agent. Il présente une pratique entrepreneuriale nouvelle et documentée dans le domaine de l'IA.",
+    "tags": [
+      "DHH",
+      "AI workflow",
+      "agent-first",
+      "software development"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
     "score_composite": 5.45
   },
   {
@@ -3991,6 +4214,55 @@
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 5,
     "score_composite": 5.3500000000000005
+  },
+  {
+    "url": "https://openai.com/index/introducing-openai-safety-fellowship",
+    "url_hash": "f6c272c7f0d807d2afa56cf4c3637bb1",
+    "titre": "Announcing the OpenAI Safety Fellowship",
+    "resume": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
+    "date": "2026-04-06",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Ce programme vise à former la prochaine génération de chercheurs en sécurité et alignement de l'IA. Bien que pertinent pour l'écosystème IA, il s'agit plus d'une initiative de développement de talent que d'une avancée technique majeure.",
+    "tags": [
+      "OpenAI",
+      "sécurité IA",
+      "alignement IA",
+      "recherche IA",
+      "formation"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.300000000000001
+  },
+  {
+    "url": "https://huggingface.co/blog/multimodal-sentence-transformers",
+    "url_hash": "aeed5283fa2292a239084f82e2ac66b8",
+    "titre": "Multimodal Embedding & Reranker Models with Sentence Transformers",
+    "resume": "",
+    "date": "2026-04-09",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Présente un tutoriel avancé sur l'utilisation de modèles de transformers multimodaux pour les embeddings et le reranking. Cela offre une information utile sur une technique avancée dans le domaine de l'IA.",
+    "tags": [
+      "multimodal",
+      "embeddings",
+      "sentence transformers",
+      "reranking"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 5.250000000000001
   },
   {
     "url": "https://www.producthunt.com/products/agentrail",
@@ -4115,6 +4387,31 @@
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 8,
     "score_composite": 5.2
+  },
+  {
+    "url": "https://www.sqlbi.com/tv/how-to-navigate-the-lattice-of-visual-calculations/",
+    "url_hash": "f9758d4f0bfdc2f3633417fd626e7fe8",
+    "titre": "How to navigate the lattice of visual calculations",
+    "resume": "This video explains how to navigate the lattice of visual calculations in DAX. The visual context goes beyond the row context and filter context by adding the concept of levels within the lattice. The video shows how to use COLLAPSEALL&#8230;",
+    "date": "2026-04-06",
+    "source_name": "SQLBI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Ce tutoriel avancé explique une technique spécifique de DAX pour améliorer la navigation dans les calculs visuels. Il s'agit d'une évolution notable pour les praticiens de BI utilisant Power BI.",
+    "tags": [
+      "DAX",
+      "Power BI",
+      "visualisations",
+      "calculs",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
   },
   {
     "url": "https://www.sqlbi.com/tv/displaying-injury-data-on-the-human-body-by-using-synoptic-panel-in-power-bi/",
@@ -4263,6 +4560,30 @@
     "score_composite": 5.05
   },
   {
+    "url": "https://blog.n8n.io/orchestration-vs-choreography/",
+    "url_hash": "b898b192ae2e660b86bba7d3a1432429",
+    "titre": "Orchestration vs. Choreography: Which One to Choose – or Use Both?",
+    "resume": "Microservices orchestration vs. choreography: Compare sagas and see how security and observability shape failure modes, hybrid patterns, and decision matrix.",
+    "date": "2026-04-09",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Article qui détaille une pratique importante dans l'automatisation et l'architecture logicielle, en comparant orchestration et chorégraphie. Il s'agit d'une information utile sur une pratique établie, bien que moins axée sur l'IA spécifiquement.",
+    "tags": [
+      "automatisation",
+      "orchestration",
+      "choreography",
+      "microservices"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.05
+  },
+  {
     "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-industry-leaders-return",
     "url_hash": "55650fed7ee2215bff91776e9443a27a",
     "titre": "The Pulse: Industry leaders return to coding with AI",
@@ -4404,6 +4725,31 @@
     "score_composite": 4.949999999999999
   },
   {
+    "url": "https://medium.com/@nehapranami.2486/building-an-e-commerce-sales-analytics-dashboard-using-python-and-power-bi-0386fe8c4c3e?source=rss------power_bi-5",
+    "url_hash": "71be104fbb3f9e7807572b4180430dd2",
+    "titre": "Building an E-Commerce Sales Analytics Dashboard Using Python and Power BI",
+    "resume": "Building an E-Commerce Sales Analytics Dashboard Using Python and Power BIContinue reading on Medium »",
+    "date": "2026-05-16",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Présente un cas d'usage concret et documenté d'un tableau de bord analytique e-commerce. Bien qu'utile, il s'agit d'une application standard plutôt que d'une avancée majeure ou d'une évolution disruptive.",
+    "tags": [
+      "e-commerce",
+      "analytics",
+      "dashboard",
+      "Power BI",
+      "Python"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
     "url": "https://medium.com/microsoft-power-bi/how-i-fixed-power-bi-auto-refresh-with-supabase-using-the-rest-api-9e7778b30a6b?source=rss------power_bi-5",
     "url_hash": "8cf32f04aeee5f13bba4179a0d1727d1",
     "titre": "How I Fixed Power BI Auto-Refresh with Supabase Using the REST API",
@@ -4450,6 +4796,56 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionne_ia": 8,
     "pertinence_entrepreneur": 7,
+    "score_composite": 4.8500000000000005
+  },
+  {
+    "url": "https://www.sqlbi.com/blog/marco/2026/04/01/the-third-edition-of-the-mastering-dax-video-course-unplugged/",
+    "url_hash": "8e9fa512aa3e0464cc76e95a25eb7d87",
+    "titre": "The Third Edition of the Mastering DAX Video Course – unplugged",
+    "resume": "Alberto and I recorded an unplugged session to talk about the new edition of the Mastering DAX Video Course. You can watch it above, but if you prefer a quick read, here are some thoughts. The question we heard the&#8230;",
+    "date": "2026-04-01",
+    "source_name": "SQLBI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Il s'agit d'une annonce concernant une nouvelle édition d'un cours vidéo sur DAX. Bien qu'importante pour les utilisateurs de ce langage, elle représente une évolution d'outil plutôt qu'une innovation majeure.",
+    "tags": [
+      "DAX",
+      "Mastering DAX",
+      "formation BI",
+      "SQLBI",
+      "Power BI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.8500000000000005
+  },
+  {
+    "url": "https://www.sqlbi.com/tv/mastering-dax-3rd-edition-unplugged/",
+    "url_hash": "8d4e1c650532a30376cf4c79e4c5ee26",
+    "titre": "Mastering DAX 3rd Edition Unplugged",
+    "resume": "Alberto and I discuss the third edition of the Mastering DAX Video Course: what changed, why we redesigned it to be more accessible, and what new content we added. &#160;",
+    "date": "2026-04-01",
+    "source_name": "SQLBI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Similaire à l'article de blog associé, cet article annonce une nouvelle édition d'un cours sur DAX. Il détaille les changements et les améliorations, représentant une mise à jour importante d'une ressource pédagogique.",
+    "tags": [
+      "DAX",
+      "formation BI",
+      "SQLBI",
+      "Power BI",
+      "vidéo"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
     "score_composite": 4.8500000000000005
   },
   {

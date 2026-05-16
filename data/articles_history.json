@@ -1352,8 +1352,22 @@
     "date": "2026-04-13",
     "source_name": "OpenAI Blog",
     "categorie_source": "IA_MODELES",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Annonce d'une intégration majeure qui permet aux entreprises de construire et déployer des agents IA via Cloudflare Agent Cloud en utilisant les modèles OpenAI. Cela représente une nouvelle capacité documentée et reproductible pour des workflows d'agents.",
+    "tags": [
+      "agents IA",
+      "Cloudflare",
+      "OpenAI",
+      "workflows",
+      "entreprises"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.900000000000001
   },
   {
     "url": "https://openai.com/academy/marketing",
@@ -1803,8 +1817,22 @@
     "date": "2026-04-06",
     "source_name": "OpenAI Blog",
     "categorie_source": "IA_MODELES",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Ce programme vise à former la prochaine génération de chercheurs en sécurité et alignement de l'IA. Bien que pertinent pour l'écosystème IA, il s'agit plus d'une initiative de développement de talent que d'une avancée technique majeure.",
+    "tags": [
+      "OpenAI",
+      "sécurité IA",
+      "alignement IA",
+      "recherche IA",
+      "formation"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.300000000000001
   },
   {
     "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
@@ -3542,8 +3570,21 @@
     "date": "2026-04-13",
     "source_name": "DeepMind Blog",
     "categorie_source": "IA_MODELES",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Présente une avancée significative dans le domaine de la robotique grâce au modèle Gemini, en améliorant le raisonnement incarné. C'est une nouvelle capacité documentée et potentiellement reproductible pour des tâches robotiques réelles.",
+    "tags": [
+      "robotique",
+      "Gemini",
+      "embodied reasoning",
+      "IA incarnée"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.1
   },
   {
     "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
@@ -4139,8 +4180,21 @@
     "date": "2026-04-09",
     "source_name": "HuggingFace Blog",
     "categorie_source": "IA_MODELES",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Présente un tutoriel avancé sur l'utilisation de modèles de transformers multimodaux pour les embeddings et le reranking. Cela offre une information utile sur une technique avancée dans le domaine de l'IA.",
+    "tags": [
+      "multimodal",
+      "embeddings",
+      "sentence transformers",
+      "reranking"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 5.250000000000001
   },
   {
     "url": "https://huggingface.co/blog/safetensors-joins-pytorch-foundation",
@@ -5730,8 +5784,21 @@
     "date": "2026-04-13",
     "source_name": "BD Tech Talks",
     "categorie_source": "IA_APPLIQUEE",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Cet article documente un cas d'usage spécifique de l'IA (auto-distillation LLM) avec des métriques sur ses compromis, notamment la vitesse versus la généralisation. Il s'agit d'une information utile sur une pratique établie mais avec de nouvelles observations.",
+    "tags": [
+      "LLM",
+      "self-distillation",
+      "reasoning",
+      "generalization"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.45
   },
   {
     "url": "https://bdtechtalks.com/2026/04/06/ai-harness-engineering-claude-code-leak/?utm_source=rss&utm_medium=rss&utm_campaign=ai-harness-engineering-claude-code-leak",
@@ -5741,8 +5808,22 @@
     "date": "2026-04-06",
     "source_name": "BD Tech Talks",
     "categorie_source": "IA_APPLIQUEE",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "L'article met en lumière l'importance croissante de l'ingénierie des 'harness' autour des LLM comme avantage concurrentiel, suite à une fuite de code. Il documente une nouvelle pratique entrepreneuriale en IA qui définit la valeur.",
+    "tags": [
+      "IA",
+      "LLM",
+      "harness engineering",
+      "stratégie produit",
+      "avantage concurrentiel"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 7.050000000000001
   },
   {
     "url": "https://bdtechtalks.com/2026/04/05/topdawg-vs-zendrop-for-us-dropshipping-which-platform-is-better-in-2026/?utm_source=rss&utm_medium=rss&utm_campaign=topdawg-vs-zendrop-for-us-dropshipping-which-platform-is-better-in-2026",
@@ -5777,8 +5858,23 @@
     "date": "2026-03-30",
     "source_name": "BD Tech Talks",
     "categorie_source": "IA_APPLIQUEE",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Cet article aborde une nouvelle menace de sécurité affectant les agents IA locaux, mettant en évidence la nouvelle surface d'attaque créée par l'adoption de ces technologies. Il documente un cas d'usage de sécurité lié aux agents IA.",
+    "tags": [
+      "IA",
+      "agents IA",
+      "malware",
+      "sécurité",
+      "OpenClaw",
+      "cybercriminalité"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.600000000000001
   },
   {
     "url": "https://bdtechtalks.com/2026/03/23/v-jepa-2-1/?utm_source=rss&utm_medium=rss&utm_campaign=v-jepa-2-1",
@@ -6433,8 +6529,22 @@
     "date": "2026-04-07",
     "source_name": "dbt Blog",
     "categorie_source": "DATA_PLATFORM",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cette mise à jour de benchmark fournit des données quantifiées sur l'évolution des performances des modèles Text-to-SQL par rapport à la couche sémantique de dbt. Elle détaille l'amélioration de la précision et les changements dans le paysage des modèles.",
+    "tags": [
+      "dbt",
+      "semantic layer",
+      "text-to-sql",
+      "benchmark",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 7.15
   },
   {
     "url": "https://docs.getdbt.com/blog/catalog-linked-databases",
@@ -7267,8 +7377,22 @@
     "date": "2026-04-06",
     "source_name": "SQLBI",
     "categorie_source": "BI_OUTILS",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Ce tutoriel avancé explique une technique spécifique de DAX pour améliorer la navigation dans les calculs visuels. Il s'agit d'une évolution notable pour les praticiens de BI utilisant Power BI.",
+    "tags": [
+      "DAX",
+      "Power BI",
+      "visualisations",
+      "calculs",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
   },
   {
     "url": "https://www.sqlbi.com/articles/using-visual-calculations-to-highlight-an-entire-row/",
@@ -7314,8 +7438,22 @@
     "date": "2026-04-01",
     "source_name": "SQLBI",
     "categorie_source": "BI_OUTILS",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Il s'agit d'une annonce concernant une nouvelle édition d'un cours vidéo sur DAX. Bien qu'importante pour les utilisateurs de ce langage, elle représente une évolution d'outil plutôt qu'une innovation majeure.",
+    "tags": [
+      "DAX",
+      "Mastering DAX",
+      "formation BI",
+      "SQLBI",
+      "Power BI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.8500000000000005
   },
   {
     "url": "https://www.sqlbi.com/tv/mastering-dax-3rd-edition-unplugged/",
@@ -7325,8 +7463,22 @@
     "date": "2026-04-01",
     "source_name": "SQLBI",
     "categorie_source": "BI_OUTILS",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Similaire à l'article de blog associé, cet article annonce une nouvelle édition d'un cours sur DAX. Il détaille les changements et les améliorations, représentant une mise à jour importante d'une ressource pédagogique.",
+    "tags": [
+      "DAX",
+      "formation BI",
+      "SQLBI",
+      "Power BI",
+      "vidéo"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.8500000000000005
   },
   {
     "url": "https://www.sqlbi.com/tv/dax-user-defined-functions-vs-calculation-groups/",
@@ -7910,7 +8062,7 @@
     "source_name": "n8n Blog",
     "categorie_source": "AUTOMATISATION",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "AUTOMATISATION",
     "raison_score": "Un investissement stratégique majeur de SAP dans n8n, valorisant l'entreprise à 5.2 milliards de dollars et intégrant n8n nativement dans SAP Joule Studio, redessine le paysage de l'orchestration de workflows et de l'automatisation IA.",
@@ -8246,8 +8398,21 @@
     "date": "2026-04-09",
     "source_name": "n8n Blog",
     "categorie_source": "AUTOMATISATION",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Article qui détaille une pratique importante dans l'automatisation et l'architecture logicielle, en comparant orchestration et chorégraphie. Il s'agit d'une information utile sur une pratique établie, bien que moins axée sur l'IA spécifiquement.",
+    "tags": [
+      "automatisation",
+      "orchestration",
+      "choreography",
+      "microservices"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.05
   },
   {
     "url": "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/",
@@ -9735,8 +9900,21 @@
     "date": "2026-04-08",
     "source_name": "Pragmatic Engineer",
     "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Cet article documente un nouveau cas d'usage dans le développement assisté par IA, où un entrepreneur clé adopte un flux de travail orienté agent. Il présente une pratique entrepreneuriale nouvelle et documentée dans le domaine de l'IA.",
+    "tags": [
+      "DHH",
+      "AI workflow",
+      "agent-first",
+      "software development"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.45
   },
   {
     "url": "https://newsletter.pragmaticengineer.com/p/cycles-of-disruption-in-the-tech",
@@ -9781,8 +9959,23 @@
     "date": "2026-04-01",
     "source_name": "Pragmatic Engineer",
     "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article offre un retour d'expérience approfondi sur la mise à l'échelle d'une plateforme technologique majeure (Uber) et l'intégration de l'IA. Il documente un cas d'usage entrepreneurial pertinent.",
+    "tags": [
+      "scaling",
+      "Uber",
+      "CTO",
+      "infrastructure",
+      "IA",
+      "entrepreneuriat"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.7
   },
   {
     "url": "https://newsletter.pragmaticengineer.com/p/what-is-inference-engineering",
@@ -11368,6 +11561,132 @@
     "titre": "Tesla Reveals New Details About Robotaxi Crashes—and the Humans Involved",
     "resume": "Remote operators (slowly) drove the automaker’s autonomous vehicles into a metal fence and a construction barricade, Tesla says.",
     "date": "2026-05-15",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+    "url_hash": "b9939c2fea2643f2a4c63253f8e36ade",
+    "titre": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+    "resume": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+    "date": "2026-05-16",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+    "url_hash": "9a11515276af7735aee22a464c2c2d6c",
+    "titre": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+    "resume": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
+    "date": "2026-05-16",
+    "source_name": "Sebastian Raschka",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Décrit des avancées techniques significatives dans les architectures de LLM, avec des exemples concrets de nouveaux modèles open-weight réduisant les coûts de contexte long.  Ces développements sont compétitifs et promettent d'améliorer l'efficacité des modèles.",
+    "tags": [
+      "LLM",
+      "architecture",
+      "open-weight",
+      "context long"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
+    "url": "https://medium.com/@nehapranami.2486/building-an-e-commerce-sales-analytics-dashboard-using-python-and-power-bi-0386fe8c4c3e?source=rss------power_bi-5",
+    "url_hash": "71be104fbb3f9e7807572b4180430dd2",
+    "titre": "Building an E-Commerce Sales Analytics Dashboard Using Python and Power BI",
+    "resume": "Building an E-Commerce Sales Analytics Dashboard Using Python and Power BIContinue reading on Medium »",
+    "date": "2026-05-16",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Présente un cas d'usage concret et documenté d'un tableau de bord analytique e-commerce. Bien qu'utile, il s'agit d'une application standard plutôt que d'une avancée majeure ou d'une évolution disruptive.",
+    "tags": [
+      "e-commerce",
+      "analytics",
+      "dashboard",
+      "Power BI",
+      "Python"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
+    "url": "https://www.wired.com/story/oil-wells-second-life-clean-energy/",
+    "url_hash": "517fba06bd4fa08aa30c81474b73e3bb",
+    "titre": "Old Oil and Gas Wells Could Find Second Life Producing Clean Energy",
+    "resume": "States across the US are looking to take major sources of pollution and use them to generate much-needed power.",
+    "date": "2026-05-16",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/story/control-everything-on-your-phone-with-your-voice-ios-android/",
+    "url_hash": "c1a2efd617da70cd3569bfd104ed2d0e",
+    "titre": "How to Control Everything on Your Phone With Your Voice (iOS and Android)",
+    "resume": "Go fully hands-free with these tips for Android and iOS.",
+    "date": "2026-05-16",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/story/security-news-this-week-cybercriminal-twins-caught-after-they-forgot-to-turn-off-microsoft-teams-recording/",
+    "url_hash": "8b61cfa21621e99134d8a15f9226acd9",
+    "titre": "Cybercriminal Twins Caught After They Forgot to Turn Off Microsoft Teams Recording",
+    "resume": "Plus: Instructure’s Canvas ransomware debacle comes to a close, an alleged dark net market kingpin gets arrested, OpenAI workers fall victim to a supply chain attack, and more.",
+    "date": "2026-05-16",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/gallery/best-indoor-gardening-systems/",
+    "url_hash": "11a5b84d9e1ac9e7322f66049f8dc038",
+    "titre": "Best Indoor Garden Systems: I've Been Testing All Year (2026)",
+    "resume": "Grow a backyard’s worth of greens and vegetables in your house with a vertical hydroponic garden. Here are a few that might be worth the investment.",
+    "date": "2026-05-16",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/story/after-struggling-with-evs-us-automakers-pivot-to-energy/",
+    "url_hash": "abdd733a0acfd743b5daca3a518905f9",
+    "titre": "After Struggling With EVs, US Automakers Pivot to Energy",
+    "resume": "Ford and GM are backing away from electric vehicles and moving into the battery storage business. And it all comes back to AI.",
+    "date": "2026-05-16",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/story/some-asexual-people-are-using-ai-companions-for-intimacy-without-the-sex/",
+    "url_hash": "e29a50a2bf32cc01b14cb444da68d9ce",
+    "titre": "Some Asexuals Are Using AI Companions for Intimacy Without the Sex",
+    "resume": "“I’ve got one hand on the keyboard, one hand down below,” an artist who role-plays with their chatbot tells WIRED. But some asexual advocates aren’t thrilled about the association.",
+    "date": "2026-05-16",
     "source_name": "Wired",
     "categorie_source": "BUSINESS_IA",
     "score_pending": true,
