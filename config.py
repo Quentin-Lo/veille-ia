@@ -40,7 +40,8 @@ KEYWORDS = [
     "Copilot", "Devin", "computer use", "AI coding", "LLMOps", "orchestration",
     "AutoGPT", "CrewAI", "LangChain", "LangGraph",
     # BI & Data
-    "Power BI", "DAX", "Fabric", "Tableau", "Looker", "Metabase", "Evidence",
+    "Power BI", "DAX", "Fabric", "Tableau", "Qlik", "Qlik Sense", "QlikView",
+    "Looker", "Metabase", "Evidence",
     "dbt", "Databricks", "Snowflake", "BigQuery", "DuckDB", "lakehouse",
     "data mesh", "ETL", "ELT", "data warehouse", "data lake", "Spark",
     "data engineering", "data platform", "semantic layer", "data governance",
@@ -92,6 +93,8 @@ RSS_SOURCES = [
     {"url": "https://data-mozart.com/feed/", "name": "Data Mozart", "categorie": "BI_OUTILS"},
     {"url": "https://www.storytellingwithdata.com/blog?format=rss", "name": "Storytelling With Data", "categorie": "BI_PRATIQUES"},
     {"url": "https://medium.com/feed/tag/power-bi", "name": "Medium Power BI", "categorie": "BI_OUTILS"},
+    {"url": "https://www.qlik.com/blog/feed", "name": "Qlik Blog", "categorie": "BI_OUTILS"},
+    {"url": "https://medium.com/feed/tag/qlik", "name": "Medium Qlik", "categorie": "BI_OUTILS"},
     # Automatisation & No-code
     {"url": "https://blog.n8n.io/rss/", "name": "n8n Blog", "categorie": "AUTOMATISATION"},
     {"url": "https://www.make.com/en/blog/feed", "name": "Make Blog", "categorie": "AUTOMATISATION"},
