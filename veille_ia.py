@@ -972,9 +972,7 @@ def send_email(article_info: dict, html_filepath: Path, test_mode: bool = False)
 <style>
   body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; background: #f8fafc; }}
   .container {{ max-width: 680px; margin: 20px auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }}
-  .header {{ background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); color: white; padding: 28px 32px; }}
-  .header h1 {{ margin: 0 0 8px 0; font-size: 1.1em; font-weight: 400; opacity: 0.9; }}
-  .header h2 {{ margin: 0; font-size: 1.4em; line-height: 1.4; }}
+  .header {{ background: #1e40af; color: white; padding: 28px 32px; }}
   .content {{ padding: 28px 32px; }}
   h2 {{ color: #1e40af; border-bottom: 2px solid #dbeafe; padding-bottom: 8px; }}
   h3 {{ color: #1e40af; }}
@@ -994,8 +992,8 @@ def send_email(article_info: dict, html_filepath: Path, test_mode: bool = False)
 <span style="display:none;font-size:1px;color:#fff;max-height:0;overflow:hidden;">{preheader}</span>
 <div class="container">
   <div class="header">
-    <h1>Veille IA - {date_str}</h1>
-    <h2>{article.get('titre', '')}</h2>
+    <h1 style="margin:0 0 8px 0;font-size:1em;font-weight:400;color:rgba(255,255,255,0.85);">Veille IA &mdash; {date_str}</h1>
+    <h2 style="margin:0;font-size:1.4em;line-height:1.4;color:#ffffff;font-weight:700;">{article.get('titre', '')}</h2>
   </div>
   <div class="content">
     {content_html}
