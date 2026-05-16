@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Announcing SAP’s strategic investment in n8n — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>Announcing SAP’s strategic investment in n8n</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-05-12</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-05-16 12:10 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>SAP investit massivement dans n8n pour l'automatisation visuelle</h2>
+<blockquote>SAP intègre n8n dans Joule Studio et valorise l'entreprise à 5,2 milliards $.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+<p>SAP annonce un investissement stratégique dans n8n. Cet investissement propulse la valorisation de n8n à 5,2 milliards $, doublant presque sa valeur en moins d'un an. L'accord inclut l'intégration native de n8n dans Joule Studio, la plateforme d'IA conversationnelle de SAP.</p>
+<p>Ce partenariat positionne n8n comme un acteur clé pour l'orchestration des workflows visuels au sein de l'écosystème SAP. L'objectif est de démocratiser l'automatisation et l'IA pour les entreprises.</p>
+<blockquote>L'investissement valorise n8n à 5,2 milliards $.</blockquote>
+<h3>Pourquoi ca compte 🎯</h3>
+<p>L'intégration de n8n dans SAP va permettre aux utilisateurs d'automatiser des tâches complexes sans coder. Cela ouvre la voie à une adoption plus large de l'automatisation et de l'IA au sein des entreprises clientes de SAP. Les workflows visuels rendent l'automatisation plus accessible.</p>
+<p>SAP cherche à renforcer son offre autour de l'IA conversationnelle et de l'automatisation. Ce mouvement stratégique confirme la tendance des grands éditeurs à intégrer des solutions d'automatisation flexibles dans leurs plateformes.</p>
+<table>
+<tr><th>Acteur</th><th>Offre principale</th></tr>
+<tr><td>SAP</td><td>ERP, solutions cloud, IA conversationnelle (Joule)</td></tr>
+<tr><td>n8n</td><td>Automatisation visuelle de workflows</td></tr>
+</table>
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Explorer l'intégration</strong> : La documentation officielle sera bientôt disponible.</li>
+<li><strong>Tester n8n</strong> : Essaye gratuitement la plateforme n8n pour créer tes premiers workflows.</li>
+<li><strong>Défis rapide</strong> : Automatise l'envoi d'un email basé sur une condition dans n8n en moins de 30 minutes.</li>
+</ul>
+<blockquote>L'automatisation visuelle devient une composante essentielle des plateformes d'entreprise.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>Automatisation visuelle</strong> : Création de flux de travail par glisser-déposer d'éléments graphiques.</li>
+<li><strong>Workflow</strong> : Séquence d'actions ou d'étapes pour accomplir une tâche.</li>
+<li><strong>IA Conversationnelle</strong> : Systèmes capables de dialoguer avec les humains de manière naturelle.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://blog.n8n.io/n8n-sap/">SAP announces strategic investment in n8n</a> — Comprendre la stratégie derrière ce partenariat.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<strong>OpenAI explore la "Vibe Physics" avec Alex Lupsasca</strong> (9/10) L'ancien chercheur d'OpenAI discute de la modélisation des interactions complexes pour améliorer la compréhension des modèles d'IA. Un aperçu des recherches fondamentales poussant les limites de l'IA.
+<strong>Gemma 4, le nouveau modèle multimodal d'IA sur appareil</strong> (9/10) Google lance Gemma 4, un modèle d'IA capable de comprendre et de générer du texte et des images localement. Promet des applications d'IA plus privées et réactives sur les appareils.
+<strong>Anthropic et SpaceX visent une puissance de calcul massive pour leur IA</strong> (9/10) Un accord de 300MW et 5 milliards $ par an entre Anthropic et SpaceX pour alimenter le futur modèle d'IA Colossus I. Cela souligne les besoins énergétiques croissants des grands modèles. ⚡
+<strong>L'IA commence-t-elle à s'auto-construire ?</strong> (8/10) Le TechCrunch explore les implications des systèmes d'IA capables de générer et d'optimiser du code, potentiellement pour se créer eux-mêmes. Une piste vers une IA plus autonome.
+<strong>OpenAI et PwC collaborent pour réinventer la finance d'entreprise</strong> (8/10) Un partenariat visant à exploiter l'IA pour transformer les fonctions de directeur financier (CFO). Des outils IA pour l'analyse financière et la prise de décision.
+<strong>Des agents IA vendus par paires pour 257 $</strong> (8/10) Un article sur la façon dont des agents IA sont utilisés pour automatiser et perturber des marchés, tuant une application SaaS de 4000 $ en une heure. La productivité décuplée par l'IA.
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>Le débat sur le "contrôle" des agents IA s'intensifie.</strong> Les entreprises cherchent des solutions pour gérer efficacement des flottes d'agents IA. Le défi n'est plus tant de créer des agents, mais de les orchestrer.
+<strong>L'évaluation des agents IA devient cruciale.</strong> Face à la multiplication des agents, des frameworks d'évaluation rigoureux sont développés pour mesurer leur performance et leur fiabilité en production.
+<strong>A surveiller</strong> : Les entreprises qui parviennent à intégrer efficacement des agents IA dans leurs processus métiers existants prendront une longueur d'avance significative.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-05-16 12:10 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
