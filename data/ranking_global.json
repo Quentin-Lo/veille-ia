@@ -8,7 +8,7 @@
     "source_name": "OpenAI Blog",
     "categorie_source": "IA_MODELES",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "BUSINESS_IA",
     "raison_score": "Cet article décrit une recherche qui identifie comment les entreprises leaders approfondissent leur adoption de l'IA et l'étendent à des flux de travail agentiques, ce qui représente une avancée majeure dans la compréhension de l'impact stratégique de l'IA sur les avantages concurrentiels.",
@@ -453,6 +453,31 @@
     "score_composite": 7.750000000000001
   },
   {
+    "url": "https://openai.com/index/introducing-gpt-rosalind",
+    "url_hash": "b6d50c92151fe56157d91fede7020af1",
+    "titre": "Introducing GPT-Rosalind for life sciences research",
+    "resume": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
+    "date": "2026-04-16",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "GPT-Rosalind représente une avancée majeure en IA appliquée aux sciences de la vie, avec un modèle 'frontier' conçu pour accélérer la découverte de médicaments et la recherche scientifique. C'est une percée significative.",
+    "tags": [
+      "GPT-Rosalind",
+      "life sciences",
+      "drug discovery",
+      "AI research",
+      "frontier model"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.699999999999999
+  },
+  {
     "url": "https://bdtechtalks.com/2026/05/04/memory-sparse-attention/?utm_source=rss&utm_medium=rss&utm_campaign=memory-sparse-attention",
     "url_hash": "d7cb78ef84f029757e934ff51f8abbd5",
     "titre": "How Memory Sparse Attention scales LLM memory to 100 million tokens",
@@ -673,6 +698,79 @@
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 9,
     "score_composite": 7.45
+  },
+  {
+    "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+    "url_hash": "a14aecd407b78ab926d12372a5022cd1",
+    "titre": "Accelerating the cyber defense ecosystem that protects us all",
+    "resume": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
+    "date": "2026-04-16",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "SECURITE_IA",
+    "raison_score": "L'annonce d'un programme ciblé avec GPT-5.4-Cyber et des subventions API pour la cyberdéfense est une avancée significative. Cela démontre une nouvelle capacité de l'IA dans un domaine critique.",
+    "tags": [
+      "cyber defense",
+      "AI security",
+      "GPT-5.4-Cyber",
+      "trusted access"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3500000000000005
+  },
+  {
+    "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
+    "url_hash": "8ae7ef478aa42cd7d92ceb3db166a5fa",
+    "titre": "Trusted access for the next era of cyber defense",
+    "resume": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.",
+    "date": "2026-04-14",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "SECURITE_IA",
+    "raison_score": "L'expansion du programme Trusted Access for Cyber et l'introduction de GPT-5.4-Cyber renforcent les capacités de cyberdéfense grâce à l'IA. C'est une avancée significative dans l'application de l'IA à la sécurité.",
+    "tags": [
+      "cyber defense",
+      "AI security",
+      "GPT-5.4-Cyber",
+      "trusted access"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3500000000000005
+  },
+  {
+    "url": "https://bdtechtalks.com/2026/04/20/anthropic-mcp-vulnerability/?utm_source=rss&utm_medium=rss&utm_campaign=anthropic-mcp-vulnerability",
+    "url_hash": "76376cb3ea8c26fecb7d481e87dc2ebb",
+    "titre": "Anthropic’s MCP vulnerability: When ‘expected behavior’ becomes a supply chain nightmare",
+    "resume": "Security researchers have uncovered a massive architectural flaw in Anthropic's Model Context Protocol, exposing millions of AI applications to remote takeovers.\nThe post Anthropic’s MCP vulnerability: When ‘expected behavior’ becomes a supply chain nightmare first appeared on TechTalks.",
+    "date": "2026-04-20",
+    "source_name": "BD Tech Talks",
+    "categorie_source": "IA_APPLIQUEE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Avancée significative et potentiellement disruptive dans le domaine de la sécurité IA. La découverte d'une faille architecturale majeure dans un protocole d'IA pourrait avoir des implications importantes pour l'écosystème.",
+    "tags": [
+      "IA",
+      "Sécurité",
+      "Vulnérabilité",
+      "Anthropic",
+      "Supply chain"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.300000000000001
   },
   {
     "url": "https://blog.n8n.io/production-ai-playbook-evaluation-and-monitoring/",
@@ -897,6 +995,30 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 6,
+    "score_composite": 7.050000000000001
+  },
+  {
+    "url": "https://docs.getdbt.com/blog/building-a-better-data-agent-benchmark",
+    "url_hash": "f4b4d51882dce6da2edb1fc2f21afd30",
+    "titre": "Building a better data agent benchmark",
+    "resume": "An update on ADE-bench, why context is critical to agentic workflows, and how you can improve your own team's agent eval loop.",
+    "date": "2026-04-15",
+    "source_name": "dbt Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article décrit la création d'un benchmark pour les agents de données, abordant l'importance du contexte pour les workflows agentiques. C'est une avancée significative pour l'évaluation et l'amélioration des agents IA.",
+    "tags": [
+      "data agents",
+      "AI benchmark",
+      "agentic workflows",
+      "dbt"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
     "score_composite": 7.050000000000001
   },
   {
@@ -1769,6 +1891,30 @@
     "score_composite": 6.7
   },
   {
+    "url": "https://openai.com/index/codex-for-almost-everything",
+    "url_hash": "a0464d4374d6d6dfda4d74b47f8c98b0",
+    "titre": "Codex for (almost) everything",
+    "resume": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
+    "date": "2026-04-16",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "La mise à jour de Codex avec de nouvelles capacités comme la génération d'images et les plugins représente une avancée significative pour les développeurs. Cela améliore considérablement les workflows existants.",
+    "tags": [
+      "Codex",
+      "developer tools",
+      "AI assistant",
+      "productivity"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.650000000000001
+  },
+  {
     "url": "https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/",
     "url_hash": "7549fba836491ef24457f55b97aab46b",
     "titre": "From Vibe Coding to Spec-Driven Development",
@@ -1965,6 +2111,31 @@
     "score_composite": 6.600000000000001
   },
   {
+    "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+    "url_hash": "3a63ffe19879f864cf1c23da83b6adac",
+    "titre": "Speeding up agentic workflows with WebSockets in the Responses API",
+    "resume": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+    "date": "2026-04-22",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Avancée significative dans le domaine des agents IA. L'article présente une nouvelle capacité technique améliorant significativement la latence et l'efficacité des flux de travail des agents grâce aux WebSockets.",
+    "tags": [
+      "IA",
+      "Agents",
+      "WebSockets",
+      "API",
+      "Latence"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
     "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
     "url_hash": "3bee7290591a4075e78bf158dc6c227f",
     "titre": "Building Blocks for Foundation Model Training and Inference on AWS",
@@ -2104,6 +2275,31 @@
       "apprentissage non supervisé",
       "agents IA",
       "analyse IA"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
+    "url": "https://blog.n8n.io/how-to-evaluate-the-performance-of-ai-agents/",
+    "url_hash": "6ba1c2a8cd0b06b604077518f34a7ddb",
+    "titre": "How to evaluate the performance of AI agents?",
+    "resume": "Evaluate AI agents effectively: learn offline vs. online testing, key metrics, and methods like deterministic checks, LLM-as-a-judge, and human review to improve performance and reliability.",
+    "date": "2026-04-21",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Avancée significative dans le domaine des agents IA. L'article documente une nouvelle capacité reproductible : l'évaluation de la performance des agents IA avec des méthodes et métriques claires.",
+    "tags": [
+      "IA",
+      "Agents",
+      "Évaluation",
+      "Performance",
+      "LLM"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -2258,6 +2454,30 @@
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 8,
     "score_composite": 6.4
+  },
+  {
+    "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+    "url_hash": "1bce4c3eeade6ff3dbc03f957bdfecf3",
+    "titre": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+    "resume": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
+    "date": "2026-04-15",
+    "source_name": "DeepMind Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "L'introduction de Gemini 3.1 Flash TTS avec un contrôle précis sur la voix représente une avancée significative dans la génération vocale par IA. Cette nouvelle capacité améliore l'expressivité et le contrôle.",
+    "tags": [
+      "Gemini",
+      "TTS",
+      "AI speech",
+      "multimodal AI"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.350000000000001
   },
   {
     "url": "https://newsletter.pragmaticengineer.com/p/ubuntu-and-ai",
@@ -2656,6 +2876,30 @@
     "score_composite": 6.000000000000001
   },
   {
+    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-April-2026-Feature-Summary/ba-p/5173904",
+    "url_hash": "7fc92c1d60aa617908f79acc73c75fd0",
+    "titre": "Power BI April 2026 Feature Summary",
+    "resume": "Welcome to the April Power BI update!Power BI’s April 2026 update is here, bringing continued improvements across Copilot and AI, reporting, visuals, and modeling. This release includes more flexibility when working with layouts and visuals, expanded Copilot experiences—especially on mobile—and several preview features that continue to enhance performance and authoring workflows. You’ll also find important announcements and deprecation notices to keep in mind as you plan ahead. With FabCon fresh",
+    "date": "2026-05-14",
+    "source_name": "Power BI Blog",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Mise à jour importante d'un outil existant. L'article détaille les nouvelles fonctionnalités de Power BI, notamment les améliorations Copilot et IA, l'expérience mobile et de nouvelles fonctionnalités en avant-première.",
+    "tags": [
+      "Power BI",
+      "Mises à jour",
+      "IA",
+      "Copilot"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 6.0
+  },
+  {
     "url": "https://openai.com/index/running-codex-safely",
     "url_hash": "09a84312cc4b2e231453d0d32d700da2",
     "titre": "Running Codex safely at OpenAI",
@@ -2752,6 +2996,30 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 7,
+    "score_composite": 5.95
+  },
+  {
+    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Translytical-Task-Flows-Generally-Available/ba-p/5173907",
+    "url_hash": "31d0a2240decad812e07903d830bf9a7",
+    "titre": "Translytical Task Flows (Generally Available)",
+    "resume": "Translytical task flows take interactive Power BI reports to the next level where users can update records, add annotations, and trigger actions in external systems—all without leaving the report.\n\nWith translytical task flows, report consumers become active participants. Instead of viewing data and then switching to another application to take action, users can complete their entire workflow within the Power BI interface.\n\nTranslytical task flows connect Power BI reports to Fabric User Data Fun",
+    "date": "2026-04-20",
+    "source_name": "Power BI Blog",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Évolution notable dans les outils BI. La mise à disposition générale des 'Translytical Task Flows' dans Power BI permet d'enrichir les rapports avec des actions directes sur les systèmes externes.",
+    "tags": [
+      "Power BI",
+      "BI",
+      "Translytical",
+      "Fonctionnalités"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
     "score_composite": 5.95
   },
   {
@@ -3043,6 +3311,31 @@
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 5,
     "score_composite": 5.800000000000001
+  },
+  {
+    "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+    "url_hash": "b0b87f1d965c430e113fccbe0b196989",
+    "titre": "OpenAI helps Hyatt advance AI among colleagues",
+    "resume": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
+    "date": "2026-04-20",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Évolution notable dans le domaine de l'IA appliquée en entreprise. Il présente un cas d'usage documenté avec des métriques potentielles sur l'adoption de ChatGPT Enterprise pour améliorer la productivité et l'expérience client.",
+    "tags": [
+      "IA",
+      "ChatGPT Enterprise",
+      "Hyatt",
+      "Cas d'usage",
+      "Productivité"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.75
   },
   {
     "url": "https://openai.com/academy/customer-success",
@@ -3628,6 +3921,30 @@
     "score_composite": 5.449999999999999
   },
   {
+    "url": "https://blog.n8n.io/workflow-vs-orchestration/",
+    "url_hash": "9b62ac2bdb68fe3fe9a8d375c98ba487",
+    "titre": "Workflow Automation vs. Orchestration: Architectural Differences That Matter at Scale",
+    "resume": "Workflow vs. orchestration for engineers: Define terms, avoid tool sprawl, and choose a production control plane with security and reliability.",
+    "date": "2026-04-14",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "L'article clarifie les différences architecturales entre automatisation des workflows et orchestration à grande échelle. C'est une évolution notable pour les praticiens cherchant à optimiser leurs processus.",
+    "tags": [
+      "workflow automation",
+      "orchestration",
+      "scalability",
+      "architecture"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.449999999999999
+  },
+  {
     "url": "https://openai.com/academy/codex-automations",
     "url_hash": "6e517fdbc3294cba69025a9663bb4654",
     "titre": "Automations",
@@ -3650,6 +3967,30 @@
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 6,
     "score_composite": 5.4
+  },
+  {
+    "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+    "url_hash": "fbf6d8cdeec5f3e394acce242ebf144d",
+    "titre": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
+    "resume": "",
+    "date": "2026-04-16",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Cet article détaille des techniques pour entraîner des modèles multimodaux avec des métriques, représentant une évolution notable dans le domaine des modèles d'embeddings. C'est un tutoriel avancé utile.",
+    "tags": [
+      "multimodal AI",
+      "sentence transformers",
+      "embeddings",
+      "finetuning"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3500000000000005
   },
   {
     "url": "https://www.producthunt.com/products/agentrail",
@@ -3823,6 +4164,55 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 8,
+    "score_composite": 5.15
+  },
+  {
+    "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+    "url_hash": "200ccf22b4732b199020e3e33ca2c538",
+    "titre": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
+    "resume": "",
+    "date": "2026-04-21",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Évolution notable dans le domaine des modèles IA. La création d'un leaderboard pour les LLM arabes avec une approche axée sur la qualité est une contribution intéressante à l'évaluation des modèles.",
+    "tags": [
+      "IA",
+      "LLM",
+      "Leaderboard",
+      "Arabe",
+      "Évaluation"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.15
+  },
+  {
+    "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+    "url_hash": "80b979b70536d088d4e570da77d2a16d",
+    "titre": "My Workflow for Understanding LLM Architectures",
+    "resume": "A learning-oriented workflow for understanding new open-weight model releases",
+    "date": "2026-04-18",
+    "source_name": "Sebastian Raschka",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_MODELES",
+    "raison_score": "Propose un workflow pour comprendre les architectures de LLM, ce qui est une évolution notable pour les praticiens. Cependant, il ne s'agit pas d'une percée ou d'un changement de paradigme.",
+    "tags": [
+      "LLM",
+      "architecture",
+      "workflow",
+      "learning"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
     "score_composite": 5.15
   },
   {
@@ -4404,6 +4794,80 @@
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 5,
     "score_composite": 4.4
+  },
+  {
+    "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-tokenmaxxing-as-a-weird",
+    "url_hash": "8beeb0f033f5fc5af2b91c99d9f76cc4",
+    "titre": "The Pulse: ‘Tokenmaxxing’ as a weird new trend",
+    "resume": "&#8230; which will probably be the shortest-lived trend because it&#8217;s so wasteful. Also: coding AI agent subsidies could be ending, Cal.com going closed source and blaming it on AI, and more.",
+    "date": "2026-04-16",
+    "source_name": "Pragmatic Engineer",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article aborde des tendances nouvelles et potentiellement éphémères ('tokenmaxxing') et des évolutions dans le financement des agents IA, offrant une information utile sur les dynamiques entrepreneuriales et de marché.",
+    "tags": [
+      "tokenmaxxing",
+      "AI agents",
+      "startup trends",
+      "VC funding"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 4.4
+  },
+  {
+    "url": "https://www.sqlbi.com/tv/parameter-types-in-dax-user-defined-functions-udf/",
+    "url_hash": "42115ada64a76538e4d75251fb3abcaf",
+    "titre": "Parameter types in DAX user defined functions UDF",
+    "resume": "Learn how to specify the parameter types in DAX user-defined functions using MEASUREREF, COLUMNREF, TABLEREF, and CALENDARREF.",
+    "date": "2026-04-21",
+    "source_name": "SQLBI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Information utile sur une pratique établie en BI. L'article est un tutoriel avancé sur un aspect technique spécifique de DAX, utile pour les praticiens.",
+    "tags": [
+      "DAX",
+      "BI",
+      "UDF",
+      "Programmation",
+      "SQLBI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 4.25
+  },
+  {
+    "url": "https://www.sqlbi.com/articles/understanding-parameter-types-in-dax-user-defined-functions-udf/",
+    "url_hash": "af0ed31284090bd7f5fd9fc11f81c2a5",
+    "titre": "Understanding parameter types in DAX user-defined functions (UDF)",
+    "resume": "This article describes the parameter types available in DAX user-defined functions, focusing on the specialized reference types MEASUREREF, COLUMNREF, TABLEREF, and CALENDARREF. In a previous article, Introducing user-defined functions in DAX, we described the syntax for creating user-defined functions, including&#8230;",
+    "date": "2026-04-20",
+    "source_name": "SQLBI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Information utile sur une pratique établie en BI. L'article approfondit la compréhension des types de paramètres dans les fonctions définies par l'utilisateur en DAX, un sujet technique important.",
+    "tags": [
+      "DAX",
+      "BI",
+      "UDF",
+      "Programmation",
+      "SQLBI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 4.25
   },
   {
     "url": "https://techcrunch.com/2026/05/14/cerebras-ipo-makes-billions-for-benchmark-but-vc-eric-vishria-almost-didnt-take-the-meeting/",
