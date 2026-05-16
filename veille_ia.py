@@ -438,62 +438,89 @@ def score_articles(model, articles: list, stats: dict, max_articles: int = MAX_I
 
 
 # ── Génération article du jour ─────────────────────────────────────────────────
-GENERATION_PROMPT = """Tu rediges une newsletter quotidienne de veille tech en francais. Ton lecteur est curieux et actif dans la tech, il lit vite et veut comprendre l'essentiel sans perdre de temps.
+GENERATION_PROMPT = """Tu rediges une newsletter quotidienne de veille tech en francais. Ton lecteur est actif dans la tech, il lit vite et veut comprendre l'essentiel sans perdre de temps.
 
-REGLES DE STYLE — applique-les sans exception :
-- Ton naturel, direct, humain. Ni scolaire ni commercial.
-- Phrases courtes. Une idee par phrase. Pas de longueurs inutiles.
-- ZERO preamble : ne commence pas par "Bien sur", "Voici", "Absolument", "Bonjour". Commence directement par le titre.
-- Pas de point d'exclamation a chaque phrase. Reserve-les aux vraies annonces importantes.
-- Gras uniquement sur les mots vraiment cles, pas pour decorer.
-- Listes avec tirets (-), jamais d'asterisques (*).
-- Maximum 2 emojis par section, places avec intention, pas en decoration.
-- Evite les superlatifs vides ("revolutionnaire", "incroyable", "fascinant"). Dis ce qui change concretement.
+━━ REGLES DE STYLE — respecte-les a la lettre ━━
 
-CONTENU :
-- Article principal : {TITRE}
-  Source : {SOURCE} | Date : {DATE} | Score : {SCORE}/10 | Categorie : {CATEGORIE}
-  Lien : {URL}
-  Contexte : {RESUME}
+Ton : naturel, direct, humain. Ni scolaire ni commercial.
+Phrases : courtes. Une idee par phrase. Jamais de longueurs inutiles.
+Demarrage : ZERO preamble. Ne commence pas par "Bien sur", "Voici", "Absolument", "Bonjour". Premiere ligne = le titre ##.
+Points d'exclamation : reserves aux vraies annonces. Pas un par phrase.
+Gras : uniquement sur 3-5 mots vraiment cles par section. Pas decoratif.
+Listes : tirets (-) uniquement. Jamais d'asterisques (*).
+Emojis : maximum 2 par section, places avec intention. Pas en decoration.
+Superlatifs : interdits sans preuve. Dis ce qui change concretement, pas "revolutionnaire" ou "incroyable".
 
-- Articles secondaires du jour : {SECONDARY_JSON}
+━━ RICHESSE VISUELLE — utilise ces elements pour aerer et rythmer ━━
 
-- Tendances de la semaine (score >= 7) : {WEEKLY_JSON}
+Blockquotes (> ) : utilise-les 2-3 fois dans l'article, pas seulement en accroche.
+  - Pour mettre en avant un chiffre cle ou une citation courte
+  - Pour resumer "la phrase a retenir" d'une section
+  - Pour un avertissement ou une nuance importante
+  Exemple : > Google affirme que Gemma 4 surpasse GPT-4o sur 6 benchmarks sur 8.
 
-STRUCTURE OBLIGATOIRE — produis exactement ce Markdown :
+Tableaux : utilise-en un si tu compares des choses (avant/apres, outil A vs outil B, chiffres).
+  Format : | Colonne 1 | Colonne 2 | Colonne 3 |
+           |-----------|-----------|-----------|
+           | valeur    | valeur    | valeur    |
 
-## [Titre en francais, direct et precis — pas de jeu de mots force, pas de majuscules inutiles]
+Rythme : varie la structure. Ne fais pas que des paragraphes. Alterne :
+  paragraphe court → liste → blockquote → paragraphe → tableau si utile
 
-> [Une phrase d'accroche : l'enjeu central en 15 mots max. Factuelle et intrigante.]
+━━ CONTENU ━━
+
+Article principal : {TITRE}
+Source : {SOURCE} | Date : {DATE} | Score : {SCORE}/10 | Categorie : {CATEGORIE}
+Lien : {URL}
+Contexte : {RESUME}
+
+Articles secondaires du jour : {SECONDARY_JSON}
+
+Tendances de la semaine (score >= 7) : {WEEKLY_JSON}
+
+━━ STRUCTURE OBLIGATOIRE ━━
+
+## [Titre en francais, direct et precis — pas de jeu de mots force]
+
+> [Accroche : l'enjeu en 15 mots max. Factuelle et intrigante.]
 
 ### Ce qui s'est passe 🔍
 
-[2-3 paragraphes. Raconte les faits dans l'ordre logique. Si un concept est technique, glisse une analogie courte entre parentheses ou apres un tiret. Pas de suspense artificiel : dis le principal des le premier paragraphe.]
+[2-3 paragraphes courts. Faits dans l'ordre logique. Analogie courte si concept technique.
+Dis le principal des le premier paragraphe. Pas de suspense.]
+
+[Utilise un blockquote pour le chiffre ou la stat la plus marquante de cette section.]
 
 ### Pourquoi ca compte 🎯
 
-[1-2 paragraphes. Dis precisement ce que ca change, pour qui, et pourquoi maintenant plutot qu'avant. Concret et sobre — pas "ca va tout changer", mais "ca permet de faire X sans avoir besoin de Y".]
+[1-2 paragraphes. Ce qui change, pour qui, pourquoi maintenant.
+Concret : "ca permet de faire X sans avoir besoin de Y".]
+
+[Si pertinent : un tableau comparatif avant/apres ou outil A vs outil B.]
 
 ### Ce que tu peux en faire 🛠️
 
-- **[Action 1]** : une ligne, avec lien si disponible
+- **[Action 1]** : une ligne, lien si disponible
 - **[Action 2]** : outil ou ressource gratuite accessible aujourd'hui
 - **Defi rapide** : une experience faisable en moins de 30 minutes
+
+> [Une phrase qui resume le benefice concret de cette section.]
 
 ### A retenir 📖
 
 - **[Terme 1]** : definition en une phrase simple, sans jargon dans la definition
 - **[Terme 2]** : definition en une phrase simple
+- **[Terme 3 si pertinent]** : definition en une phrase simple
 
 ### Pour aller plus loin
 
-- [[Titre de la ressource]]({URL}) — une ligne sur ce qu'on y apprend concretement
+- [Titre ressource]({URL}) — ce qu'on y apprend concretement
 
 ---
 
 ## Autres actus du jour 📰
 
-[Pour chaque article secondaire : **Titre reformule en francais** suivi d'une ou deux phrases directes sur le contenu. Score entre parentheses a la fin. Pas d'exclamation systematique. Pas de jargon non explique.]
+[Pour chaque article secondaire : **Titre reformule en francais** + 1-2 phrases directes. Score entre parentheses. Pas d'exclamation systematique.]
 
 ---
 
@@ -501,9 +528,9 @@ STRUCTURE OBLIGATOIRE — produis exactement ce Markdown :
 
 **[Tendance 1]** — deux phrases : ce qui se passe et pourquoi c'est a suivre.
 
-**[Tendance 2]** — deux phrases concretes sur cette dynamique.
+**[Tendance 2]** — deux phrases concretes.
 
-**A surveiller** — un sujet emergent explique en deux phrases max.
+**A surveiller** — un sujet emergent en deux phrases max.
 """
 
 
@@ -567,8 +594,10 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     background: #f0f4f8;
     color: #1e293b;
-    line-height: 1.75;
-    font-size: 16px;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }}
 
   /* Header */
@@ -625,41 +654,71 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
   /* Blockquote accroche */
   blockquote {{
-    background: #eff6ff;
-    border-left: 4px solid #3b82f6;
-    border-radius: 0 10px 10px 0;
-    padding: 18px 24px;
-    margin: 32px 0;
-    font-family: 'Merriweather', serif;
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
     font-style: italic;
-    font-size: 1.05rem;
-    color: #1e40af;
+    font-size: 1.18rem;
+    color: #1e3a8a;
     line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
   }}
+  blockquote::before {{
+    content: '\201C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }}
+  blockquote strong {{ color: #1d4ed8; }}
 
   /* Sections */
   h2 {{
-    font-size: 1.35rem;
-    font-weight: 700;
+    font-size: 1.55rem;
+    font-weight: 800;
     color: #0f172a;
-    margin: 44px 0 18px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #e2e8f0;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
   }}
   h3 {{
-    font-size: 1.1rem;
+    font-size: 1.22rem;
     font-weight: 700;
-    color: #1e40af;
-    margin: 32px 0 12px;
-    display: flex;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
   }}
 
-  p {{ margin: 12px 0; color: #334155; }}
+  p {{
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }}
 
   /* Cards */
   .card {{
@@ -672,13 +731,21 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   }}
 
   /* Lists */
-  ul, ol {{ padding-left: 22px; margin: 12px 0; }}
-  li {{
-    margin: 8px 0;
-    color: #334155;
-    padding-left: 4px;
+  ul, ol {{
+    padding-left: 26px;
+    margin: 16px 0 22px;
   }}
-  li::marker {{ color: #3b82f6; }}
+  li {{
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }}
+  li::marker {{
+    color: #2563eb;
+    font-weight: 700;
+  }}
+  li strong:first-child {{ color: #1d4ed8; }}
 
   /* Links */
   a {{ color: #2563eb; text-decoration: none; font-weight: 500; }}
@@ -710,33 +777,36 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   table {{
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 28px 0;
     background: white;
-    border-radius: 10px;
+    border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.07);
-    font-size: 0.93rem;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
   }}
   th {{
-    background: #1e3a5f;
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
     color: white;
-    padding: 12px 16px;
+    padding: 14px 18px;
     text-align: left;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 0.82rem;
     text-transform: uppercase;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.5px;
   }}
   td {{
-    padding: 11px 16px;
-    border-bottom: 1px solid #f1f5f9;
-    color: #334155;
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
   }}
+  td strong {{ color: #1d4ed8; }}
   tr:last-child td {{ border-bottom: none; }}
   tr:nth-child(even) td {{ background: #f8fafc; }}
 
   /* Strong */
-  strong {{ color: #0f172a; font-weight: 600; }}
+  strong {{ color: #1d4ed8; font-weight: 700; }}
+  h2 strong, h3 strong {{ color: inherit; }}
   em {{ color: #475569; font-style: italic; }}
 
   /* HR */
@@ -759,9 +829,14 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
   /* Responsive */
   @media (max-width: 600px) {{
+    body {{ font-size: 16px; line-height: 1.78; }}
     .hero {{ padding: 36px 16px 32px; }}
     .container {{ padding: 0 12px 40px; }}
-    h2 {{ font-size: 1.15rem; }}
+    h2 {{ font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }}
+    h3 {{ font-size: 1.12rem; }}
+    blockquote {{ font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }}
+    p {{ margin-bottom: 16px; }}
+    li {{ margin: 8px 0; }}
   }}
 </style>
 </head>
