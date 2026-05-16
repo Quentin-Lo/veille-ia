@@ -438,63 +438,72 @@ def score_articles(model, articles: list, stats: dict, max_articles: int = MAX_I
 
 
 # ── Génération article du jour ─────────────────────────────────────────────────
-GENERATION_PROMPT = """Tu es un vulgarisateur passionne d'IA et de tech, qui ecrit une newsletter quotidienne pour des juniors (etudiants, jeunes professionnels, curieux) qui decouvrent le monde de l'IA, de la data et de l'automatisation.
+GENERATION_PROMPT = """Tu rediges une newsletter quotidienne de veille tech en francais. Ton lecteur est curieux et actif dans la tech, il lit vite et veut comprendre l'essentiel sans perdre de temps.
 
-Ton style : enthousiaste, clair, accessible. Tu expliques les concepts avec des analogies simples. Tu donnes envie d'explorer. Pas de jargon sans explication. Phrases courtes et dynamiques.
+REGLES DE STYLE — applique-les sans exception :
+- Ton naturel, direct, humain. Ni scolaire ni commercial.
+- Phrases courtes. Une idee par phrase. Pas de longueurs inutiles.
+- ZERO preamble : ne commence pas par "Bien sur", "Voici", "Absolument", "Bonjour". Commence directement par le titre.
+- Pas de point d'exclamation a chaque phrase. Reserve-les aux vraies annonces importantes.
+- Gras uniquement sur les mots vraiment cles, pas pour decorer.
+- Listes avec tirets (-), jamais d'asterisques (*).
+- Maximum 2 emojis par section, places avec intention, pas en decoration.
+- Evite les superlatifs vides ("revolutionnaire", "incroyable", "fascinant"). Dis ce qui change concretement.
 
-Ecris en FRANCAIS. Utilise du Markdown structure et vivant (emojis bienvenus, listes courtes, mots en gras pour les points cles).
+CONTENU :
+- Article principal : {TITRE}
+  Source : {SOURCE} | Date : {DATE} | Score : {SCORE}/10 | Categorie : {CATEGORIE}
+  Lien : {URL}
+  Contexte : {RESUME}
 
-Article principal : {TITRE} ({URL})
-Contexte : {RESUME}
-Date : {DATE}
-Score d'impact : {SCORE}/10 | Categorie : {CATEGORIE}
-Source : [{SOURCE}]({URL})
+- Articles secondaires du jour : {SECONDARY_JSON}
 
-Articles secondaires :
-{SECONDARY_JSON}
+- Tendances de la semaine (score >= 7) : {WEEKLY_JSON}
 
-Articles de la semaine (score >= 7) :
-{WEEKLY_JSON}
+STRUCTURE OBLIGATOIRE — produis exactement ce Markdown :
 
-Structure OBLIGATOIRE :
+## [Titre en francais, direct et precis — pas de jeu de mots force, pas de majuscules inutiles]
 
-## {TITRE_ACCROCHEUR_SIMPLE_ET_ENGAGEANT}
+> [Une phrase d'accroche : l'enjeu central en 15 mots max. Factuelle et intrigante.]
 
-> {UNE_PHRASE_QUI_DONNE_ENVIE_DE_LIRE}
+### Ce qui s'est passe 🔍
 
-### C'est quoi exactement ? 🔍
-[Explique ce qui s'est passe comme si tu le racontais a un ami curieux mais non-expert. 2-3 paragraphes courts et clairs. Utilise une analogie si le sujet est technique.]
+[2-3 paragraphes. Raconte les faits dans l'ordre logique. Si un concept est technique, glisse une analogie courte entre parentheses ou apres un tiret. Pas de suspense artificiel : dis le principal des le premier paragraphe.]
 
-### Pourquoi c'est cool (ou important) ? 🚀
-[Ce que ca change dans le monde de l'IA/data, pourquoi ca fait du bruit, qu'est-ce que ca rend possible. Ton enthousiaste et positif. 1-2 paragraphes.]
+### Pourquoi ca compte 🎯
 
-### Ce que tu peux faire des maintenant 🛠️
-- **[Action concrete 1]** : [description en une ligne, avec lien si possible]
-- **[Action concrete 2]** : [outil gratuit ou tuto accessible]
-- **[Mini-defi]** : [une petite experience faisable en moins d'une heure]
+[1-2 paragraphes. Dis precisement ce que ca change, pour qui, et pourquoi maintenant plutot qu'avant. Concret et sobre — pas "ca va tout changer", mais "ca permet de faire X sans avoir besoin de Y".]
 
-### Les mots a connaitre 📖
-- **[Terme 1]** : [definition simple en 1 phrase]
-- **[Terme 2]** : [definition simple en 1 phrase]
+### Ce que tu peux en faire 🛠️
 
-### Pour aller plus loin 🔗
-- [{TITRE_RESSOURCE}]({URL}) — {pourquoi cette ressource vaut le coup}
+- **[Action 1]** : une ligne, avec lien si disponible
+- **[Action 2]** : outil ou ressource gratuite accessible aujourd'hui
+- **Defi rapide** : une experience faisable en moins de 30 minutes
+
+### A retenir 📖
+
+- **[Terme 1]** : definition en une phrase simple, sans jargon dans la definition
+- **[Terme 2]** : definition en une phrase simple
+
+### Pour aller plus loin
+
+- [[Titre de la ressource]]({URL}) — une ligne sur ce qu'on y apprend concretement
 
 ---
 
-## Les autres actus du jour 📰
+## Autres actus du jour 📰
 
-[Pour chaque article secondaire : une ligne de titre stylisee suivi de 1-2 phrases simples et engageantes. Score entre parentheses. Pas de jargon.]
+[Pour chaque article secondaire : **Titre reformule en francais** suivi d'une ou deux phrases directes sur le contenu. Score entre parentheses a la fin. Pas d'exclamation systematique. Pas de jargon non explique.]
 
 ---
 
-## Ce qui monte en ce moment 📈
+## Ce qui monte 📈
 
-**{Tendance 1}** — [2 phrases simples sur ce sujet qui prend de l'ampleur]
+**[Tendance 1]** — deux phrases : ce qui se passe et pourquoi c'est a suivre.
 
-**{Tendance 2}** — [2 phrases simples sur cette tendance de fond]
+**[Tendance 2]** — deux phrases concretes sur cette dynamique.
 
-**A surveiller** — [1 sujet emergent explique simplement]
+**A surveiller** — un sujet emergent explique en deux phrases max.
 """
 
 
@@ -830,8 +839,9 @@ def markdown_to_html(md: str) -> str:
     if in_table:
         result_lines.append('</table>')
     html = '\n'.join(result_lines)
-    # Lists
-    html = re.sub(r'^- (.+)$', r'<li>\1</li>', html, flags=re.MULTILINE)
+    # Lists (handle both - and * bullet styles)
+    html = re.sub(r'^\*{1,3}\s+(.+)$', r'<li>\1</li>', html, flags=re.MULTILINE)
+    html = re.sub(r'^-\s+(.+)$', r'<li>\1</li>', html, flags=re.MULTILINE)
     html = re.sub(r'(<li>.*</li>\n?)+', lambda m: '<ul>' + m.group() + '</ul>', html)
     # Paragraphs
     paragraphs = html.split('\n\n')
