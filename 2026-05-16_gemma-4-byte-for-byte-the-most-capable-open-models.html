@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gemma 4: Byte for byte, the most capable open models — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.75;
+    font-size: 16px;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: #eff6ff;
+    border-left: 4px solid #3b82f6;
+    border-radius: 0 10px 10px 0;
+    padding: 18px 24px;
+    margin: 32px 0;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 1.05rem;
+    color: #1e40af;
+    line-height: 1.7;
+  }
+
+  /* Sections */
+  h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 44px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1e40af;
+    margin: 32px 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  p { margin: 12px 0; color: #334155; }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol { padding-left: 22px; margin: 12px 0; }
+  li {
+    margin: 8px 0;
+    color: #334155;
+    padding-left: 4px;
+  }
+  li::marker { color: #3b82f6; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+    font-size: 0.93rem;
+  }
+  th {
+    background: #1e3a5f;
+    color: white;
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+  td {
+    padding: 11px 16px;
+    border-bottom: 1px solid #f1f5f9;
+    color: #334155;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #0f172a; font-weight: 600; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.15rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>Gemma 4: Byte for byte, the most capable open models</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-04-02</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-05-16 09:28 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<p>Absolument ! Prépare-toi pour une newsletter qui va secouer tes neurones et te donner envie d'explorer le monde fascinant de l'IA et de la tech ! 🚀</p>
+<hr>
+<h2>Gemma 4 : Les IA Open Source qui vont te faire halluciner ! 🤯</h2>
+<blockquote>Prépare-toi à découvrir les modèles d'IA les plus intelligents jamais créés pour le grand public, capables de raisonner comme jamais auparavant !</blockquote>
+<h3>C'est quoi exactement ? 🔍</h3>
+<p>Imagine que les IA sont comme des cerveaux. Jusqu'à maintenant, les plus gros et les plus performants étaient gardés secrets par quelques grandes entreprises. C'est comme avoir un chef-d'œuvre de musée enfermé à double tour ! Mais là, Google, avec ses nouveaux modèles Gemma 4, ouvre les portes. Ils les rendent "open source", c'est-à-dire que tout le monde, toi compris, peut y accéder, les étudier et même les améliorer.</p>
+<p>Ces nouveaux Gemma 4 sont particulièrement doués pour comprendre des instructions complexes et créer des chaînes d'actions intelligentes. C'est un peu comme leur donner une recette de cuisine ultra détaillée et les voir non seulement préparer le plat, mais aussi ajuster les ingrédients pour qu'il soit parfait, voire inventer une nouvelle recette à partir de ça !</p>
+<h3>Pourquoi c'est cool (ou important) ? 🚀</h3>
+<p>C'est une révolution pour l'innovation ! En rendant ces IA super puissantes accessibles à tous, Google permet à une communauté mondiale de développeurs, de chercheurs et même de simples curieux comme toi de <strong>construire des choses incroyables</strong>. Plus besoin d'avoir des supercalculateurs pour travailler avec de l'IA de pointe. Ça va accélérer la création de nouvelles applications, de nouvelles découvertes et peut-être même de solutions à des problèmes qui nous semblent insolubles aujourd'hui. C'est comme distribuer des outils de chantier ultra performants à tout le monde : imagine tout ce qu'on va pouvoir construire ensemble !</p>
+<h3>Ce que tu peux faire des maintenant 🛠️</h3>
+<p>*   <strong>Explorer Gemma 4 sur Hugging Face</strong> : Plonge dans la documentation et découvre ce que ces modèles ont dans le ventre. <a href="https://huggingface.co/blog/gemma4">Hugging Face Blog</a>
+*   <strong>Tester des modèles d'IA open source</strong> : De nombreux tutoriels existent pour débuter avec des modèles comme Llama, Mistral ou les anciens Gemma. Cherche "tutoriel IA open source débutant".
+*   <strong>Mini-défi</strong> : Essaie d'écrire une petite instruction (un "prompt") pour demander à une IA existante de générer une histoire courte ou un poème. Observe comment elle réagit et essaie d'affiner ta demande pour obtenir un meilleur résultat.</p>
+<h3>Les mots a connaitre 📖</h3>
+<p>*   <strong>Open Source</strong> : Un logiciel ou un modèle dont le code est accessible à tous, permettant sa libre utilisation, modification et distribution.
+*   <strong>Modèles d'IA</strong> : Des programmes informatiques entraînés sur d'énormes quantités de données pour effectuer des tâches spécifiques comme la génération de texte, la traduction ou la reconnaissance d'images.</p>
+<h3>Pour aller plus loin 🔗</h3>
+<p>*   <a href="https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/">Gemma 4: Byte for byte, the most capable open models</a> — L'article officiel de DeepMind pour comprendre toute la puissance de ces nouveaux modèles.</p>
+<hr>
+<h2>Les autres actus du jour 📰</h2>
+<p>*   <strong>SAP mise gros sur n8n !</strong> 🤝 SAP, le géant des logiciels d'entreprise, investit stratégiquement dans n8n, une plateforme d'automatisation de workflows. C'est un signe fort pour l'automatisation visuelle ! (Score 9)
+*   <strong>Quand l'IA se construit elle-même...</strong> 🤖 Une question fascinante : que se passe-t-il quand les intelligences artificielles commencent à s'améliorer elles-mêmes ? Prépare-toi à une réflexion profonde ! (Score 8)
+*   <strong>Anthropic et SpaceXAI font un deal de dingue !</strong> 🚀 Une alliance titanesque pour l'IA avec un accord de 5 milliards de dollars par an. Ça sent la croissance exponentielle ! (Score 9)
+*   <strong>Le futur des bureaux repensé par OpenAI et PwC !</strong> 💼 Une collaboration prometteuse pour réinventer le travail des directeurs financiers (CFO) grâce à l'IA. (Score 8)
+*   <strong>Runway veut défier Google dans le monde de l'IA !</strong> 💥 Parti pour aider les cinéastes, Runway lorgne désormais vers le sommet en voulant concurrencer les géants de l'IA. (Score 8)
+*   <strong>Claude se prépare à la guerre des agents d'entreprise !</strong> ⚔️ Le prochain grand défi pour Anthropic (derrière Claude) ne serait pas les modèles eux-mêmes, mais la gestion de ces agents IA dans les entreprises. (Score 8)
+*   <strong>Les meilleurs agents IA pour le développement logiciel classés !</strong> 💻 Une analyse pointue des outils IA qui révolutionnent la création de logiciels. (Score 8)
+*   <strong>Construire une "ferme d'évaluation" pour les agents IA en production.</strong> 🏗️ Comment s'assurer que nos agents IA fonctionnent parfaitement dans le monde réel ? Une méthodologie en 12 métriques à découvrir. (Score 8)</p>
+<hr>
+<h2>Ce qui monte en ce moment 📈</h2>
+<strong>Les Agents IA Autonomes</strong> — Ces systèmes d'IA ne se contentent plus de répondre à des requêtes, ils peuvent désormais prendre des initiatives, planifier des tâches et agir dans le monde numérique (et bientôt physique) pour atteindre des objectifs. C'est un peu comme passer d'un assistant personnel qui prend des notes à un collègue qui lance des projets !
+<strong>L'Optimisation des LLM sans ré-entraînement</strong> — Des techniques émergent pour améliorer les performances des grands modèles de langage (LLM) sans avoir à les ré-entraîner entièrement. C'est comme donner un coup de polish et un nouveau set de pneus à une voiture pour la rendre plus performante, sans changer le moteur !
+<strong>A surveiller</strong> — <strong>L'IA qui construit l'IA elle-même</strong>. Cette idée, abordée dans les actus, est au cœur des réflexions les plus avancées. Si les IA deviennent capables de se concevoir et de s'améliorer, cela pourrait marquer une étape clé dans l'évolution de l'intelligence artificielle, avec des implications encore difficiles à imaginer.
+<hr>
+<p>Voilà pour aujourd'hui ! J'espère que ça t'a donné envie d'en savoir plus. N'hésite pas à partager cette newsletter si tu penses qu'elle pourrait intéresser d'autres personnes curieuses ! À demain pour de nouvelles découvertes tech ! ✨</p>
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-05-16 09:28 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
