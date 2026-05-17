@@ -58,7 +58,7 @@
     "source_name": "n8n Blog",
     "categorie_source": "AUTOMATISATION",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "AUTOMATISATION",
     "raison_score": "Un investissement stratégique majeur de SAP dans n8n, valorisant l'entreprise à 5.2 milliards de dollars et intégrant n8n nativement dans SAP Joule Studio, redessine le paysage de l'orchestration de workflows et de l'automatisation IA.",
@@ -700,6 +700,31 @@
     "score_composite": 7.45
   },
   {
+    "url": "https://www.saastr.com/magicalforecastai/",
+    "url_hash": "2f0cfc768263b5b60d118e90dd074d6e",
+    "titre": "Our AI VP of Marketing Updates Our Revenue Forecasts in Real Time, Without Bias. That Alone is Magical.",
+    "resume": "If you haven’t heard of 10K: it’s our AI VP of Marketing at SaaStr, built on Replit. We tried to buy something that did what we needed — an AI agent that could actually orchestrate marketing, not just write mediocre content — and couldn’t find it. So we built our own. The name “10k” comes... Continue Reading",
+    "date": "2026-05-16",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Annonce d'un cas d'usage d'IA (agent marketing) avec un impact business quantifié (prévisions en temps réel, sans biais). Bien que le nom soit marketing, le concept est une avancée significative pour l'automatisation du marketing et la prise de décision.",
+    "tags": [
+      "IA",
+      "marketing",
+      "automatisation",
+      "prévisions",
+      "agent"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 7.45
+  },
+  {
     "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
     "url_hash": "a14aecd407b78ab926d12372a5022cd1",
     "titre": "Accelerating the cyber defense ecosystem that protects us all",
@@ -771,6 +796,31 @@
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 8,
     "score_composite": 7.300000000000001
+  },
+  {
+    "url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
+    "url_hash": "161f77b8cd2329df0b91ed205e11abe7",
+    "titre": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+    "resume": "Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise.",
+    "date": "2026-03-26",
+    "source_name": "DeepMind Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce Gemini 3.1 Flash Live, un modèle vocal qui rend l'IA audio plus naturelle et fiable avec une précision améliorée et une latence réduite. C'est une avancée significative dans les modèles d'IA pour l'audio.",
+    "tags": [
+      "IA",
+      "Gemini",
+      "audio IA",
+      "modèle vocal",
+      "DeepMind"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3
   },
   {
     "url": "https://blog.n8n.io/production-ai-playbook-evaluation-and-monitoring/",
@@ -2287,6 +2337,30 @@
     "score_composite": 6.550000000000001
   },
   {
+    "url": "https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/",
+    "url_hash": "55c12cf8162cb11b42823161e7bb7e60",
+    "titre": "Improving the academic workflow: Introducing two AI agents for better figures and peer review",
+    "resume": "Generative AI",
+    "date": "2026-04-08",
+    "source_name": "Google Research Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Présente deux agents IA pour améliorer le flux de travail académique, spécifiquement pour la génération de figures et la revue par les pairs. Cela démontre une nouvelle capacité d'agent documentée et potentiellement reproductible pour des tâches complexes.",
+    "tags": [
+      "IA",
+      "agents",
+      "workflow académique",
+      "productivité"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/15/supertone-releases-supertonic-v3-on-device-text-to-speech-model-with-31-language-support-fewer-reading-failures-and-expression-tags/",
     "url_hash": "98b5c50cecc235c52c208fa1e0766ca8",
     "titre": "Supertone Releases Supertonic v3: On-Device Text-to-Speech Model with 31-Language Support, Fewer Reading Failures, and Expression Tags",
@@ -2483,6 +2557,31 @@
     "score_composite": 6.550000000000001
   },
   {
+    "url": "https://openai.com/index/safety-bug-bounty",
+    "url_hash": "a1bdc83d63f1a4ac3f169d47530874ae",
+    "titre": "Introducing the OpenAI Safety Bug Bounty program",
+    "resume": "OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.",
+    "date": "2026-03-25",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Lancement du programme 'OpenAI Safety Bug Bounty' pour identifier les risques de sécurité liés aux IA, incluant les vulnérabilités des agents. Cela représente une nouvelle capacité documentée et reproductible dans le domaine de la sécurité IA.",
+    "tags": [
+      "IA",
+      "sécurité IA",
+      "bug bounty",
+      "agents",
+      "OpenAI"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.500000000000001
+  },
+  {
     "url": "https://www.producthunt.com/products/basedash",
     "url_hash": "edd0f2ce2f8a929824c0c73f84b32505",
     "titre": "Basedash MCP Connectors",
@@ -2530,6 +2629,30 @@
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 7,
     "score_composite": 6.500000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/16/nous-research-proposes-lighthouse-attention-a-training-only-selection-based-hierarchical-attention-that-delivers-1-4-1-7x-pretraining-speedup-at-long-context/",
+    "url_hash": "a94a3a58575e371aa15949d1a4a9d0d3",
+    "titre": "Nous Research Proposes Lighthouse Attention: A Training-Only Selection-Based Hierarchical Attention That Delivers 1.4–1.7× Pretraining Speedup at Long Context",
+    "resume": "Nous Research has published Lighthouse Attention, a selection-based hierarchical attention mechanism that wraps around standard scaled dot-product attention during pretraining and is removed afterward. Unlike prior methods such as NSA and HISA that pool only keys and values, Lighthouse pools Q, K, and V symmetrically across a multi-resolution pyramid, reducing the attention call from O(N·S·d) to O(S²·d) and running stock FlashAttention on a small dense sub-sequence. Tested on a 530M Llama-3-styl",
+    "date": "2026-05-16",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Présente une avancée technique significative dans l'optimisation de l'entraînement des modèles de langage longs. L'amélioration de la vitesse de pré-entraînement est une avancée majeure pour l'écosystème IA.",
+    "tags": [
+      "IA",
+      "modèles",
+      "performance",
+      "R&D"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.450000000000001
   },
   {
     "url": "https://openai.com/index/sea-david-chen",
@@ -2805,6 +2928,31 @@
     "score_composite": 6.300000000000001
   },
   {
+    "url": "https://www.marktechpost.com/2026/05/16/meet-litellm-agent-platform-a-kubernetes-based-self-hosted-infrastructure-layer-for-isolated-agent-sandboxes-and-persistent-session-management-in-production/",
+    "url_hash": "351d303bce6a1a6b32c52e666ca2e47a",
+    "titre": "Meet LiteLLM Agent Platform: A Kubernetes-Based, Self-Hosted Infrastructure Layer for Isolated Agent Sandboxes and Persistent Session Management in Production",
+    "resume": "Running AI agents in a local script is straightforward. Running them reliably in production across teams, across restarts, with isolated environments per context is a different problem entirely. BerriAI, the company behind the LiteLLM AI Gateway, is now open-sourcing a purpose-built answer to that problem: the LiteLLM Agent Platform. The platform is described as a […]\nThe post Meet LiteLLM Agent Platform: A Kubernetes-Based, Self-Hosted Infrastructure Layer for Isolated Agent Sandboxes and Persi",
+    "date": "2026-05-16",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Propose une solution open-source pour le déploiement robuste d'agents IA en production, abordant des problèmes critiques comme l'isolation et la persistance. Ce type de plateforme est essentiel pour l'adoption des agents IA.",
+    "tags": [
+      "IA",
+      "agents",
+      "production",
+      "open-source",
+      "infrastructure"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.25
+  },
+  {
     "url": "https://openai.com/index/singular-bank",
     "url_hash": "54dff98022e0611d74ad9ff1cff958e4",
     "titre": "Singular Bank helps bankers move fast with ChatGPT and Codex",
@@ -2945,6 +3093,31 @@
       "Gemini",
       "embodied reasoning",
       "IA incarnée"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.1
+  },
+  {
+    "url": "https://research.google/blog/vibe-coding-xr-accelerating-ai-xr-prototyping-with-xr-blocks-and-gemini/",
+    "url_hash": "50c30f20e3d302cf03e5aa265b19882b",
+    "titre": "Vibe Coding XR: Accelerating AI + XR prototyping with XR Blocks and Gemini",
+    "resume": "Human-Computer Interaction and Visualization",
+    "date": "2026-03-25",
+    "source_name": "Google Research Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Présente Vibe Coding XR, qui utilise des XR Blocks et Gemini pour accélérer le prototypage IA+XR. C'est un nouveau cas d'usage IA appliqué documenté, montrant l'intégration de l'IA dans un domaine émergent.",
+    "tags": [
+      "IA",
+      "XR",
+      "prototypage",
+      "Gemini",
+      "réalité étendue"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
@@ -3294,6 +3467,29 @@
     "score_composite": 5.9
   },
   {
+    "url": "https://medium.com/@twilize5/your-bi-analyst-just-got-replaced-by-a-prompt-11e26549808c?source=rss------power_bi-5",
+    "url_hash": "677de288a66ebb8f31e40de812edf704",
+    "titre": "Your BI Analyst Just Got Replaced by a Prompt",
+    "resume": "How ReportForge turns plain English into production-ready Power BI dashboards — in secondsContinue reading on Medium »",
+    "date": "2026-05-17",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Démontre une automatisation potentielle d'une tâche BI via IA, mais reste un cas d'usage spécifique et non une rupture globale. Le 'prompt' remplace-t-il le rôle entier ou une partie ? À vérifier.",
+    "tags": [
+      "Power BI",
+      "automatisation",
+      "IA"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.9
+  },
+  {
     "url": "https://towardsdatascience.com/hybrid-search-and-re-ranking-in-production-rag/",
     "url_hash": "38cd4bb9878d6fd590601a70d7e5a5ee",
     "titre": "Hybrid Search and Re-Ranking in Production RAG",
@@ -3485,6 +3681,31 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.800000000000001
+  },
+  {
+    "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-is-github-still-best-for",
+    "url_hash": "a9e111d41621e803a4533fbaa06fd3f6",
+    "titre": "The Pulse: is GitHub still best for AI-native development?",
+    "resume": "Poor availability has dogged GitHub for months and raises questions about its status and focus. Plus, Microsoft promises Windows will not be &#8220;Microslop&#8221;, a massive LLM supply chain attack, and more",
+    "date": "2026-03-26",
+    "source_name": "Pragmatic Engineer",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Discute de la pertinence de GitHub pour le développement natif IA, soulevant des questions sur sa disponibilité et sa focalisation. Il s'agit d'un nouvel aperçu d'une pratique entrepreneuriale dans le domaine de l'IA.",
+    "tags": [
+      "IA",
+      "développement natif IA",
+      "GitHub",
+      "entrepreneuriat",
+      "plateforme"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 8,
     "score_composite": 5.800000000000001
   },
   {
@@ -3820,6 +4041,31 @@
       "Modèles IA",
       "IBM",
       "Hugging Face"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.550000000000001
+  },
+  {
+    "url": "https://research.google/blog/evaluating-alignment-of-behavioral-dispositions-in-llms/",
+    "url_hash": "44de458fa6787fa1fdf19f22cc9891c6",
+    "titre": "Evaluating alignment of behavioral dispositions in LLMs",
+    "resume": "Generative AI",
+    "date": "2026-04-03",
+    "source_name": "Google Research Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Aborde l'évaluation de l'alignement des dispositions comportementales dans les LLMs, un aspect important pour la fiabilité et la sécurité des modèles. Il s'agit d'une évolution notable dans la recherche sur la robustesse des IA.",
+    "tags": [
+      "IA",
+      "LLM",
+      "alignement",
+      "recherche",
+      "sécurité IA"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
@@ -4192,6 +4438,56 @@
     "score_composite": 5.4
   },
   {
+    "url": "https://www.sqlbi.com/tv/dax-user-defined-functions-vs-calculation-groups/",
+    "url_hash": "a0566ac4797aa98ff1d918a775894901",
+    "titre": "DAX User-Defined Functions vs Calculation Groups",
+    "resume": "Should you use DAX user-defined functions (UDF) or calculation groups? Learn when to use either, and how they complement each other in the design of a semantic model in Power BI.",
+    "date": "2026-03-26",
+    "source_name": "SQLBI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article comparant les fonctions définies par l'utilisateur DAX et les groupes de calcul pour la conception de modèles sémantiques. Il s'agit d'un tutoriel avancé sur une pratique BI établie.",
+    "tags": [
+      "DAX",
+      "Power BI",
+      "modélisation sémantique",
+      "pratiques BI",
+      "SQLBI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.3999999999999995
+  },
+  {
+    "url": "https://www.sqlbi.com/articles/dax-user-defined-functions-udf-vs-calculation-groups/",
+    "url_hash": "5190600573f098306f5d6793c03f1a98",
+    "titre": "DAX user-defined functions (UDF) vs. calculation groups",
+    "resume": "This article describes the different roles of user-defined functions and calculation groups, explaining when to use either, and how they complement each other in the design of a semantic model. The introduction of user-defined functions (UDFs) in DAX changes the&#8230;",
+    "date": "2026-03-25",
+    "source_name": "SQLBI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article explique les rôles des fonctions définies par l'utilisateur DAX et des groupes de calcul et quand les utiliser. Il s'agit d'un tutoriel avancé sur les pratiques relatives à DAX dans Power BI.",
+    "tags": [
+      "DAX",
+      "Power BI",
+      "modélisation",
+      "pratiques BI",
+      "SQLBI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.3999999999999995
+  },
+  {
     "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
     "url_hash": "fbf6d8cdeec5f3e394acce242ebf144d",
     "titre": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
@@ -4510,6 +4806,31 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.15
+  },
+  {
+    "url": "https://techcrunch.com/2026/05/16/marketing-operating-system-nectar-social-raises-30m-series-a-in-round-led-by-menlo/",
+    "url_hash": "a88f95380a63c778d64aa5bba1538b3f",
+    "titre": "Marketing operating system Nectar Social raises $30M Series A led by Menlo",
+    "resume": "AI-powered marketing platform Nectar Social announced Thursday that it raised a $30 million Series A round led by Menlo Ventures and its Anthology Fund, which was created alongside Anthropic.",
+    "date": "2026-05-16",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Levée de fonds significative pour une plateforme marketing IA. Indique une tendance et un potentiel de croissance dans le domaine de l'automatisation et de l'IA appliquée au marketing, mais pas une rupture technologique en soi.",
+    "tags": [
+      "IA",
+      "marketing",
+      "startup",
+      "levée de fonds",
+      "automatisation"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 8,
     "score_composite": 5.15
   },
   {
@@ -4995,6 +5316,30 @@
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 4,
     "score_composite": 4.699999999999999
+  },
+  {
+    "url": "https://medium.com/@sophiachen_82986/the-power-query-skill-gap-thats-costing-bi-professionals-thousands-of-hours-a-year-4e670c6431a7?source=rss------power_bi-5",
+    "url_hash": "1afa1702dd0e6e253ed8deab7fb65d60",
+    "titre": "The Power Query Skill Gap That’s Costing BI Professionals Thousands of Hours a Year",
+    "resume": "Everyone’s studying DAX. Nobody’s fixing the layer underneath it.Continue reading on Medium »",
+    "date": "2026-05-16",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Met en lumière un problème pratique et récurrent pour les professionnels BI concernant une compétence spécifique. Bien qu'utile, ce n'est pas une avancée technique.",
+    "tags": [
+      "Power BI",
+      "Power Query",
+      "compétences",
+      "productivité"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.65
   },
   {
     "url": "https://openai.com/academy/codex-settings",
@@ -5511,6 +5856,29 @@
     "score_composite": 3.7
   },
   {
+    "url": "https://medium.com/powerbi-microsoft-fabric/5-hyderabad-startups-hiring-for-power-bi-roles-in-2026-ace78738b2f6?source=rss------power_bi-5",
+    "url_hash": "be2031e8106e3761c98830efa2edc8c5",
+    "titre": "5 Hyderabad Startups Hiring for Power BI Roles in 2026",
+    "resume": "The demand for Microsoft Power BI professionals is growing rapidly in India, and Hyderabad is becoming one of the biggest hiring hubs for…Continue reading on PowerBI + Microsoft Fabric »",
+    "date": "2026-05-17",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Information utile sur le marché de l'emploi BI dans une région spécifique. Ne présente pas d'avancée technique ou de rupture.",
+    "tags": [
+      "Power BI",
+      "emploi",
+      "marché"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 3.7
+  },
+  {
     "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
     "url_hash": "3a7e43483526cfd42792c93faa2a9420",
     "titre": "OpenAI is reportedly preparing legal action against Apple; it wouldn’t be the first partner to feel burned",
@@ -5557,6 +5925,30 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 6,
+    "score_composite": 3.65
+  },
+  {
+    "url": "https://pub.towardsai.net/the-power-bi-mistake-that-quietly-skewed-our-numbers-for-three-months-a13ea308dd3d?source=rss------power_bi-5",
+    "url_hash": "d23a0bd5ec781db834fc6833114bf8aa",
+    "titre": "The Power BI Mistake That Quietly Skewed Our Numbers for Three Months",
+    "resume": "The relationship I got wrong in a customer model — and why nobody caught it until a stakeholder asked the wrong question.Continue reading on Towards AI »",
+    "date": "2026-05-16",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Retour d'expérience sur une erreur de modélisation dans Power BI. Utile pour éviter des problèmes similaires, mais n'apporte pas d'information nouvelle sur une pratique ou un outil.",
+    "tags": [
+      "Power BI",
+      "erreurs",
+      "modélisation",
+      "retour d'expérience"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 2,
     "score_composite": 3.65
   },
   {
@@ -5938,6 +6330,29 @@
     "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 3,
     "score_composite": 1.9000000000000001
+  },
+  {
+    "url": "https://medium.com/@ibzzyung/today-i-finished-collating-all-pages-of-my-inventory-management-analysis-dashboard-in-power-bi-0478ac180321?source=rss------power_bi-5",
+    "url_hash": "a2c7e9f0ede5f7960d721791383e3e6f",
+    "titre": "Today, I finished collating all pages of my Inventory Management Analysis Dashboard in Power BI.",
+    "resume": "This project focused on analysing stock levels, supplier performance, warehouse distribution, reorder strategies, and inventory costs to…Continue reading on Medium »",
+    "date": "2026-05-16",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 2,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article de blog personnel décrivant l'achèvement d'un projet BI. Faible valeur ajoutée technique ou informative.",
+    "tags": [
+      "Power BI",
+      "dashboard",
+      "gestion des stocks"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 1,
+    "score_composite": 1.9
   },
   {
     "url": "https://www.wired.com/review/buzz-bicycles-centris-2/",
