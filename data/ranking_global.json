@@ -258,7 +258,7 @@
     "source_name": "TechCrunch",
     "categorie_source": "BUSINESS_IA",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "IA_MODELES",
     "raison_score": "Présente un concept de startup ambitieux visant à créer une IA auto-améliorante, potentiellement une percée significative dans la recherche et le développement d'IA avancées. L'annonce d'un financement important renforce cette avancée.",
@@ -646,6 +646,31 @@
       "vulnérabilité",
       "fuite de données",
       "API keys"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.750000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/25/workos-releases-auth-md-an-open-agent-registration-protocol-built-on-oauth-standards/",
+    "url_hash": "17278c95de34a74df222d8f5869faf6b",
+    "titre": "WorkOS Releases auth.md: An Open Agent Registration Protocol Built on OAuth Standards",
+    "resume": "Most web applications still have no structured way for an AI agent to register. auth.md proposes a fix: a Markdown file apps publish at their domain that tells agents which registration flows are supported, which scopes to request, and how to get credentials tied to a real user — without a human filling out a form.\nThe post WorkOS Releases auth.md: An Open Agent Registration Protocol Built on OAuth Standards appeared first on MarkTechPost.",
+    "date": "2026-05-25",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Il s'agit d'une avancée significative pour l'intégration des agents IA, proposant un protocole standardisé basé sur OAuth pour leur enregistrement.",
+    "tags": [
+      "AI Agents",
+      "Authentication",
+      "OAuth",
+      "Protocol",
+      "Integration"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 8,
@@ -1895,6 +1920,30 @@
     "score_composite": 7.1000000000000005
   },
   {
+    "url": "https://venturebeat.com/orchestration/ai-agents-are-quietly-generating-chaos-engineering-failures-enterprises-dont-track-yet",
+    "url_hash": "5f1606aaf043ed6dd10561f9c5beb8ce",
+    "titre": "AI agents are quietly generating chaos engineering failures enterprises don’t track yet",
+    "resume": "There is a category of production incident that engineering teams are not tracking yet — because it doesn't fit any existing postmortem template. The agent initiated an action. The action was technically correct given the agent's context. The context was incomplete. The infrastructure cascaded. And, by the time the incident review happened, three teams were arguing about whether it was an agent failure or an infrastructure failure,  because the frameworks for thinking about these two things have",
+    "date": "2026-05-24",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Soulève un problème émergent et potentiellement disruptif de la gestion des défaillances causées par les agents IA, difficiles à tracker avec les méthodes actuelles. C'est une nouvelle capacité d'agent documentée et à fort potentiel d'impact.",
+    "tags": [
+      "Agents IA",
+      "Chaos Engineering",
+      "Cybersécurité",
+      "Gestion des incidents"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.1000000000000005
+  },
+  {
     "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
     "url_hash": "3d30727982c4bbdd0de1072137ae3dda",
     "titre": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
@@ -1970,6 +2019,30 @@
     "score_composite": 7.050000000000001
   },
   {
+    "url": "https://www.saastr.com/the-agents-episode-005-is-out-our-2-ai-vps-cost-257-month-a-website-willed-itself-into-becoming-an-agent-and-qb-sent-83-personalized-emails-at-1220am/",
+    "url_hash": "82aaaef78d00119fb9a3863362f98d42",
+    "titre": "The Agents Episode #005 is Out! Our 2 AI VPs Cost $257/Month, a Website Willed Itself Into Becoming an Agent, and QB Sent 83 Personalized Emails at 12:20am",
+    "resume": "Amelia and I just recorded Episode 005 of The Agents right before 2026 SaaStr AI Annual.  You may have missed it in all the fun of the big event, here’s your chance to catch up! Most importantly: we both got the cost number completely wrong for our AI Agents. Our AI VP of Marketing (10K)... Continue Reading",
+    "date": "2026-05-24",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Présente des retours d'expérience concrets et chiffrés sur l'utilisation d'agents IA dans un contexte entrepreneurial (coût, automatisation d'emails, transformation d'un site web).",
+    "tags": [
+      "Agents IA",
+      "Entrepreneuriat",
+      "Automatisation",
+      "IA appliquée"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 7.050000000000001
+  },
+  {
     "url": "https://huggingface.co/blog/ggml-joins-hf",
     "url_hash": "e4d4cd0957d79f17f42c08df1b46a967",
     "titre": "GGML and llama.cpp join HF to ensure the long-term progress of Local AI",
@@ -1989,6 +2062,31 @@
       "local AI",
       "open-source",
       "AI models"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.05
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/24/stepfun-releases-stepaudio-2-5-realtime-an-end-to-end-voice-model-with-roleplay-specific-rlhf-and-paralinguistic-comprehension/",
+    "url_hash": "87b78dadfc9ea188a2de1363f34d77d3",
+    "titre": "StepFun Releases StepAudio 2.5 Realtime: An End-to-End Voice Model with Roleplay-Specific RLHF and Paralinguistic Comprehension",
+    "resume": "StepFun, the Shanghai-based AI lab, released StepAudio 2.5 Realtime in May 2026 — an end-to-end real-time speech large language model with fully customizable persona capabilities. The model connects via a WebSocket API, supports Chinese and English, and ranked first across all five benchmark dimensions tested in April 2026, including an 80.41 human evaluation score and 82.18 on paralinguistic comprehension.\nThe post StepFun Releases StepAudio 2.5 Realtime: An End-to-End Voice Model with Roleplay",
+    "date": "2026-05-24",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce d'un nouveau modèle de voix temps réel performant avec des capacités avancées (RLHF spécifique au jeu de rôle, compréhension paralinguistique). Les résultats de benchmark sont cités.",
+    "tags": [
+      "Modèle de voix",
+      "IA",
+      "LLM",
+      "RLHF",
+      "Paralinguistique"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 9,
@@ -3089,6 +3187,30 @@
     "score_composite": 6.750000000000001
   },
   {
+    "url": "https://www.marktechpost.com/2026/05/25/best-authentication-platforms-for-ai-agents-and-mcp-servers-in-2026/",
+    "url_hash": "e8f281819148f12c6826b4100de968a5",
+    "titre": "Best Authentication Platforms for AI Agents and MCP Servers in 2026",
+    "resume": "As MCP crosses 97 million monthly SDK downloads and AI agents move into production workflows, authentication has become the most critical infrastructure decision teams face. This guide ranks the eight leading platforms — WorkOS, Stytch, Auth0 by Okta, Composio, Nango, Arcade, TrueFoundry, and Cloudflare — on spec compliance, enterprise identity depth, integration breadth, and real-world fit for 2026 deployments.\nThe post Best Authentication Platforms for AI Agents and MCP Servers in 2026 appeare",
+    "date": "2026-05-25",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Cet article présente une revue comparative d'outils critiques pour la sécurité et l'intégration des agents IA, un sujet d'actualité croissant.",
+    "tags": [
+      "AI Agents",
+      "Authentication",
+      "Security",
+      "MCP Servers"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.750000000000001
+  },
+  {
     "url": "https://openai.com/index/introducing-evmbench",
     "url_hash": "7850ae10d710f5ddb56b149fcf68d027",
     "titre": "Introducing EVMbench",
@@ -3331,6 +3453,31 @@
       "coût",
       "production",
       "optimisation"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/24/build-a-complete-langfuse-observability-and-evaluation-pipeline-for-tracing-prompt-management-scoring-and-experiments/",
+    "url_hash": "ffaeea76f4a9f0e2563224edae04b085",
+    "titre": "Build a Complete Langfuse Observability and Evaluation Pipeline for Tracing, Prompt Management, Scoring, and Experiments",
+    "resume": "In this tutorial, we implement the Langfuse (an open-source LLM engineering platform) pipeline for tracing, prompt management, scoring, datasets, and experiments. We build a complete workflow that works with either a real OpenAI key or a deterministic mock LLM, so we can understand every major Langfuse feature without depending on paid model access. We start […]\nThe post Build a Complete Langfuse Observability and Evaluation Pipeline for Tracing, Prompt Management, Scoring, and Experiments appea",
+    "date": "2026-05-24",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Article de fond sur la mise en place d'une pipeline d'observabilité et d'évaluation pour les LLMs, avec un focus sur Langfuse, une plateforme open-source. Il propose un tutoriel reproductible.",
+    "tags": [
+      "Langfuse",
+      "LLM",
+      "Observabilité",
+      "Prompt Management",
+      "IA Engineering"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -4122,6 +4269,30 @@
       "AI coding",
       "production systems",
       "AI agents"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.500000000000001
+  },
+  {
+    "url": "https://www.producthunt.com/products/pi-coding-agent-3",
+    "url_hash": "2c2dffbbe3a6ea562f4590e3a6d7792e",
+    "titre": "Pi Coding Agent",
+    "resume": "\n            The coding-agent harness you can make your own\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-05-25",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Lancement d'un nouvel outil d'agent de codage potentiellement compétitif, offrant une nouvelle capacité reproductible pour le développement assisté par l'IA.",
+    "tags": [
+      "AI Agents",
+      "Coding Assistant",
+      "Developer Tools",
+      "Open Source"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -6603,6 +6774,30 @@
     "score_composite": 5.65
   },
   {
+    "url": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
+    "url_hash": "8907bc01316042624e01bea7e0d251ea",
+    "titre": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out",
+    "resume": "Like other AI wearables, Amazon's Bee offers an odd combination of convenience and privacy anxiety.",
+    "date": "2026-05-24",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Article de fond sur un nouveau produit wearable intégrant l'IA, explorant les cas d'usage et les implications en matière de vie privée. C'est une nouvelle intégration IA dans un produit grand public.",
+    "tags": [
+      "Wearable",
+      "IA",
+      "Amazon",
+      "Vie privée"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.65
+  },
+  {
     "url": "https://www.producthunt.com/products/standboy",
     "url_hash": "ad7d7a7b915f938cc3a09e93113e8995",
     "titre": "Standboy",
@@ -6651,6 +6846,30 @@
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 7,
     "score_composite": 5.6000000000000005
+  },
+  {
+    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Tenant-Migration-Trade-offs-risks-and-realities/ba-p/5187013",
+    "url_hash": "b4436a58f9c25acc0f56084b98591b98",
+    "titre": "Power BI Tenant Migration: Trade-offs, risks, and realities",
+    "resume": "Author: Winnie Li, Cloud Solution Architect",
+    "date": "2026-05-21",
+    "source_name": "Power BI Blog",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Article technique abordant les aspects pratiques et les défis d'une migration de tenant Power BI, un sujet pertinent pour les administrateurs et consultants BI.",
+    "tags": [
+      "Power BI",
+      "Migration",
+      "Fabric",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.6
   },
   {
     "url": "https://openai.com/index/building-codex-windows-sandbox",
@@ -7461,6 +7680,31 @@
     "score_composite": 5.300000000000001
   },
   {
+    "url": "https://medium.com/@ayeshams199/what-customer-churn-taught-me-about-data-storytelling-918238cf75a6?source=rss------power_bi-5",
+    "url_hash": "1e9ad92aa3e3500e36bcb0e06776bdaf",
+    "titre": "What Customer Churn Taught Me About Data Storytelling",
+    "resume": "A real-world analytics project exploring how SQL and Power BI uncover customer retention risks.Continue reading on Medium »",
+    "date": "2026-05-21",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cas d'usage documenté sur l'analyse du churn client à l'aide de SQL et Power BI, mettant en avant l'importance de la data storytelling. Il s'agit d'une application pratique avec métriques implicites.",
+    "tags": [
+      "Data Storytelling",
+      "Power BI",
+      "SQL",
+      "Analyse client",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3
+  },
+  {
     "url": "https://medium.com/@liquidtechnologie/power-bi-services-transform-your-business-data-into-actionable-insights-03bd2fee112c?source=rss------power_bi-5",
     "url_hash": "85531f081ae26d9ec3d6bf96e0ccb677",
     "titre": "Power BI Services: Transform Your Business Data into Actionable Insights",
@@ -7932,6 +8176,30 @@
     "score_composite": 5.1499999999999995
   },
   {
+    "url": "https://www.producthunt.com/products/mashupack",
+    "url_hash": "69c7e1d10392884ddee6e898a4a07ff8",
+    "titre": "MashuPack",
+    "resume": "\n            Turn codebases into a clean file for Claude and ChatGPT\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-05-25",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Il s'agit d'un nouveau produit qui simplifie la préparation de code pour les LLMs, offrant une évolution notable pour les développeurs assistés par l'IA.",
+    "tags": [
+      "AI",
+      "LLMs",
+      "Code Preparation",
+      "Developer Tools"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.050000000000001
+  },
+  {
     "url": "https://openai.com/academy/prompting",
     "url_hash": "651182ff4e21812619e76c4ff282dbe6",
     "titre": "Prompting fundamentals",
@@ -8319,6 +8587,54 @@
     "score_composite": 4.9
   },
   {
+    "url": "https://medium.com/microsoft-power-bi/imputing-nulls-with-median-values-in-power-query-pbix-included-bd63100492df?source=rss------power_bi-5",
+    "url_hash": "42a9254d75d9e2598af4696708fd64ea",
+    "titre": "Imputing Nulls With Median Values in Power Query(.pbix included)",
+    "resume": "Handling missing data is one of the most common challenges in data preparation. Inconsistent or incomplete datasets can distort analysis…Continue reading on Power BI »",
+    "date": "2026-05-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Un tutoriel avancé sur une technique de préparation de données courante et importante (imputation de valeurs nulles) dans Power Query.",
+    "tags": [
+      "Power BI",
+      "Power Query",
+      "Data Preparation",
+      "Null Values"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.8999999999999995
+  },
+  {
+    "url": "https://medium.com/@malikumarali45/5-power-bi-tricks-most-analysts-dont-know-but-should-2fe5cada4d42?source=rss------power_bi-5",
+    "url_hash": "c43b3722d88f21da0071d9d9fdac77b9",
+    "titre": "5 Power BI Tricks Most Analysts Don’t Know (But Should)",
+    "resume": "The gap between a good dashboard and a great one isn’t the data, it’s what you do before anyone sees it.Continue reading on Medium »",
+    "date": "2026-05-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Présente des astuces pratiques pour améliorer l'efficacité et la qualité des rapports Power BI, apportant une valeur ajoutée à l'utilisateur.",
+    "tags": [
+      "Power BI",
+      "Tips",
+      "Tricks",
+      "Data Analysis"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.8999999999999995
+  },
+  {
     "url": "https://towardsdatascience.com/i-let-codespeak-take-over-my-repository/",
     "url_hash": "6be5c0037e07d59ccce52570ca584498",
     "titre": "I Let CodeSpeak Take Over My Repository",
@@ -8488,6 +8804,30 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 6,
+    "score_composite": 4.75
+  },
+  {
+    "url": "https://towardsdatascience.com/the-ultimate-beginners-guide-to-building-an-ai-agent-in-python/",
+    "url_hash": "e53a4c2ee60cd796406ecdd9bece1c66",
+    "titre": "The Ultimate Beginners’ Guide to Building an AI Agent in Python",
+    "resume": "Simple step-by-step tutorial to building an AI agent in Python\nThe post The Ultimate Beginners’ Guide to Building an AI Agent in Python appeared first on Towards Data Science.",
+    "date": "2026-05-24",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Tutoriel pour débutants sur la création d'un agent IA en Python. Bien qu'utile, il s'agit d'une introduction plutôt qu'une percée.",
+    "tags": [
+      "Agents IA",
+      "Python",
+      "Tutoriel",
+      "Développement IA"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 4,
     "score_composite": 4.75
   },
   {
@@ -9325,6 +9665,54 @@
     "score_composite": 3.9000000000000004
   },
   {
+    "url": "https://medium.com/@mossakowski.mateusz/power-bi-predefined-slicer-selections-with-no-generic-labels-9f1759015141?source=rss------power_bi-5",
+    "url_hash": "93167efb470a4e822c1c7dfa68fc376f",
+    "titre": "Power BI predefined slicer selections with no generic labels.",
+    "resume": "Today I would like to showcase an alternative to the predefined selection in Power BI slicers. Usually you need to use generic labels (for…Continue reading on Medium »",
+    "date": "2026-05-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Fournit une astuce technique spécifique pour améliorer l'utilisation des slicers dans Power BI, améliorant l'expérience utilisateur.",
+    "tags": [
+      "Power BI",
+      "Slicers",
+      "Data Visualization",
+      "User Experience"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.9000000000000004
+  },
+  {
+    "url": "https://medium.com/@tamariskanath/why-sharepoint-is-so-popular-as-a-data-source-and-platform-for-power-bi-part-3-7793158d5e4c?source=rss------power_bi-5",
+    "url_hash": "8a3462096fe3177fdcad9e33dafc1b11",
+    "titre": "Why SharePoint Is So Popular as a Data Source and Platform for Power BI (Part 3)",
+    "resume": "Building on the previous discussion, now we will dive into native integration with the Power Platform (Power BI, Power Automate, and Power…Continue reading on Medium »",
+    "date": "2026-05-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article de fond expliquant l'intégration et l'utilisation d'une plateforme existante (SharePoint) avec Power BI.",
+    "tags": [
+      "Power BI",
+      "SharePoint",
+      "Data Source",
+      "Integration"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.9000000000000004
+  },
+  {
     "url": "https://bdtechtalks.com/2026/04/05/topdawg-vs-zendrop-for-us-dropshipping-which-platform-is-better-in-2026/?utm_source=rss&utm_medium=rss&utm_campaign=topdawg-vs-zendrop-for-us-dropshipping-which-platform-is-better-in-2026",
     "url_hash": "bd7c01e3fd3b245b3e16cfa9b3cd6d81",
     "titre": "TopDawg vs Zendrop for US Dropshipping – Which Platform Is Better in 2026?",
@@ -9563,6 +9951,30 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 2,
+    "score_composite": 3.65
+  },
+  {
+    "url": "https://www.wired.com/story/these-privacy-conscious-gay-dating-apps-want-to-dethrone-grindr/",
+    "url_hash": "5720becbca64a3a263cd459e26ab3f2c",
+    "titre": "These Privacy-Conscious Gay Dating Apps Want to Dethrone Grindr",
+    "resume": "As public backlash against Big Dating mounts, a batch of new gay hookup apps offer community-powered alternatives.",
+    "date": "2026-05-25",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Article sur des startups dans le secteur des applications de rencontre, mettant en avant une proposition de valeur axée sur la vie privée. Il s'agit d'un retour d'expérience sur une niche de marché.",
+    "tags": [
+      "Startup",
+      "Applications de rencontre",
+      "Vie privée",
+      "Entrepreneuriat"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 6,
     "score_composite": 3.65
   },
   {
@@ -9902,6 +10314,30 @@
     "score_composite": 3.2
   },
   {
+    "url": "https://www.producthunt.com/products/tldx",
+    "url_hash": "e5886300fb97361b705bc52a01b6cd7f",
+    "titre": "tldx",
+    "resume": "\n            Fast CLI to bulk-check domains via RDAP & MCP\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-05-24",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Présentation d'un outil CLI pour la vérification de domaines. Bien qu'utile pour l'automatisation, il s'agit d'un outil spécifique et pas d'une percée majeure.",
+    "tags": [
+      "CLI",
+      "Automatisation",
+      "Domaines",
+      "Outil"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 3.1
+  },
+  {
     "url": "https://towardsdatascience.com/pyspark-for-beginners-mastering-the-basics/",
     "url_hash": "d0f554dc50c14845f55235afe9fceea6",
     "titre": "PySpark for Beginners: Mastering the Basics",
@@ -10065,6 +10501,54 @@
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 3,
     "score_composite": 2.9000000000000004
+  },
+  {
+    "url": "https://medium.com/@ibzzyung/today-was-focused-on-moving-from-data-preparation-into-analysis-for-the-email-campaign-performance-377021402ab5?source=rss------power_bi-5",
+    "url_hash": "cde36a90b4ef9be40c029e0784ec8312",
+    "titre": "Today was focused on moving from data preparation into analysis for the Email Campaign Performance…",
+    "resume": "After completing the inspection and cleaning process in Power Query, I moved into writing the key DAX measures that would drive the…Continue reading on Medium »",
+    "date": "2026-05-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Retour d'expérience personnel sur l'utilisation de DAX pour l'analyse, un article de fond sur une pratique BI établie.",
+    "tags": [
+      "Power BI",
+      "DAX",
+      "Data Analysis",
+      "Email Campaigns"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 2.9
+  },
+  {
+    "url": "https://medium.com/powerbi-microsoft-fabric/components-of-power-bi-complete-beginner-friendly-guide-9b7f919ceb93?source=rss------power_bi-5",
+    "url_hash": "f2b98fcbe1e07938224b5180f0454fa4",
+    "titre": "Components of Power BI: Complete Beginner-Friendly Guide",
+    "resume": "Power BI is one of the most powerful Business Intelligence tools used by companies worldwide for data analysis, reporting, and…Continue reading on PowerBI + Microsoft Fabric »",
+    "date": "2026-05-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Guide d'introduction aux composants de Power BI, utile pour les débutants mais n'apportant pas d'informations nouvelles pour les experts.",
+    "tags": [
+      "Power BI",
+      "Beginner Guide",
+      "Components",
+      "BI Tools"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 2.9
   },
   {
     "url": "https://openai.com/academy/getting-started",
