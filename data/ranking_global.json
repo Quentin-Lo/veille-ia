@@ -176,6 +176,29 @@
     "score_composite": 8.299999999999999
   },
   {
+    "url": "https://www.wired.com/story/illinois-pass-major-ai-safety-law-pritzker/",
+    "url_hash": "b8e2adf51915d8aec1d7a0c61be4b62f",
+    "titre": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill",
+    "resume": "The bill requires companies like OpenAI, Anthropic, and Google to have third parties confirm they’re following safety standards. Illinois governor JB Pritzker says he’ll sign it.",
+    "date": "2026-05-28",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Annonce réglementaire majeure aux États-Unis sur la sécurité de l'IA. Cela représente un changement de paradigme potentiel pour le développement et le déploiement de l'IA.",
+    "tags": [
+      "REGLEMENTATION_IA",
+      "SECURITE_IA",
+      "ETATS_UNIS"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 8.299999999999999
+  },
+  {
     "url": "https://venturebeat.com/technology/googles-new-ai-agent-can-draft-your-emails-monitor-your-inbox-and-eventually-spend-your-money",
     "url_hash": "46660da5dc5a7eea7ed1ae6d38c01fdb",
     "titre": "Google’s new AI agent can draft your emails, monitor your inbox and eventually spend your money",
@@ -283,7 +306,7 @@
     "source_name": "OpenAI Blog",
     "categorie_source": "IA_MODELES",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "BUSINESS_IA",
     "raison_score": "La collaboration entre OpenAI et PwC pour réimaginer la fonction du CFO avec des agents IA pour automatiser les flux financiers représente une nouvelle capacité d'agent documentée et reproductible avec un impact métier concret.",
@@ -349,6 +372,32 @@
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 8,
+    "score_composite": 8.0
+  },
+  {
+    "url": "https://venturebeat.com/infrastructure/merck-and-mastercard-are-seeing-real-agentic-ai-results-both-say-the-plumbing-came-first",
+    "url_hash": "be4155ef5d892c2b301ac089f177587e",
+    "titre": "Merck and Mastercard are seeing real agentic AI results. Both say the plumbing came first.",
+    "resume": "Merck is using AI agents to cut drug discovery cycles by a third and ship compliant marketing materials up to 80% faster — but VP of Digital Platforms Sean Finnerty says the only reason it's working is because they built the infrastructure first.And the pharmaceutical manufacturer is seeing promising early results: AI is generating marketing drafts that are “99% right” when it comes to compliance, shrinking review cycles from months to days and accelerating delivery by 70% to 80%. In the company",
+    "date": "2026-05-27",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "This article provides concrete examples of how major companies like Merck and Mastercard are achieving significant results with agentic AI, emphasizing the critical role of robust infrastructure. It's a valuable case study for practical AI implementation.",
+    "tags": [
+      "agentic AI",
+      "case study",
+      "infrastructure",
+      "business results",
+      "Merck",
+      "Mastercard"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 9,
     "score_composite": 8.0
   },
   {
@@ -1597,6 +1646,30 @@
     "score_composite": 7.200000000000001
   },
   {
+    "url": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
+    "url_hash": "b920d871e577527fa9f705946f0e0626",
+    "titre": "Rethinking organizational design in the age of agentic AI",
+    "resume": "Amid rapidly growing adoption of enterprise-level AI agents, there’s a disconnect emerging between ambition and execution.  Although 85% of organizations say they want to be agentic within the next three years, 76% say their current operations and infrastructure can’t support that change. They cite a lack of readiness across people, processes, and workflows.  The sticky…",
+    "date": "2026-05-26",
+    "source_name": "MIT Tech Review AI",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "This article highlights a significant disconnect between the ambition for agentic AI and organizational readiness. It addresses a crucial challenge for businesses adopting AI, making it an important insight for strategic planning.",
+    "tags": [
+      "agentic AI",
+      "organizational design",
+      "business strategy",
+      "AI adoption"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.200000000000001
+  },
+  {
     "url": "https://openai.com/index/choco",
     "url_hash": "329b8042445f727f281b63c28c4dfd12",
     "titre": "Choco automates food distribution with AI agents",
@@ -1667,6 +1740,30 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 9,
+    "score_composite": 7.2
+  },
+  {
+    "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+    "url_hash": "5899b169bc6e85e6fdae8c09142af06a",
+    "titre": "Building self-improving tax agents with Codex",
+    "resume": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
+    "date": "2026-05-27",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Documentation d'une nouvelle capacité d'agent IA (auto-amélioration) et d'un cas d'usage concret (agents fiscaux). Cela représente une avancée significative dans l'automatisation des tâches complexes.",
+    "tags": [
+      "IA_AGENTS",
+      "AUTOMATISATION",
+      "CODEX",
+      "FINANCE"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
     "score_composite": 7.2
   },
   {
@@ -1768,6 +1865,31 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 9,
     "pertinence_entrepreneur": 6,
+    "score_composite": 7.15
+  },
+  {
+    "url": "https://openai.com/index/warp",
+    "url_hash": "919d46e19bc38176ebccc4b9e6210a98",
+    "titre": "Warp’s big bet on building open source with GPT-5.5",
+    "resume": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+    "date": "2026-05-27",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Lancement d'un projet open-source ambitieux utilisant un modèle avancé (GPT-5.5) pour coordonner des agents. Cela représente une avancée significative pour l'écosystème open-source et le développement logiciel assisté par IA.",
+    "tags": [
+      "IA_MODELES",
+      "DEV_ASSISTE",
+      "OPEN_SOURCE",
+      "GPT-5.5",
+      "IA_AGENTS"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
     "score_composite": 7.15
   },
   {
@@ -2087,6 +2209,31 @@
       "LLM",
       "RLHF",
       "Paralinguistique"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.05
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/28/perplexity-ai-open-sources-unigram-tokenizer-that-achieves-5x-lower-p50-latency-than-hugging-face-tokenizers-crate/",
+    "url_hash": "7b81543afecfa3bdb3ce901b1e13e16b",
+    "titre": "Perplexity AI Open-Sources Unigram Tokenizer That Achieves 5x Lower p50 Latency Than Hugging Face tokenizers Crate",
+    "resume": "Perplexity AI open-sources a rewritten Unigram tokenizer that reduces reranker latency and cuts production CPU utilization by 5-6x.\nThe post Perplexity AI Open-Sources Unigram Tokenizer That Achieves 5x Lower p50 Latency Than Hugging Face tokenizers Crate appeared first on MarkTechPost.",
+    "date": "2026-05-28",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Publication d'un nouveau modèle open-source compétitif pour les tokenizers, offrant une amélioration significative de la latence et de l'utilisation CPU par rapport aux solutions existantes.",
+    "tags": [
+      "AI",
+      "Open Source",
+      "Tokenizer",
+      "Latency",
+      "Perplexity AI"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 9,
@@ -2960,6 +3107,30 @@
     "score_composite": 6.8500000000000005
   },
   {
+    "url": "https://venturebeat.com/security/datagrail-report-finds-your-vendor-may-be-sending-data-to-ai-models-you-never-approved",
+    "url_hash": "5758a5a97635ed9e319625af712349cc",
+    "titre": "DataGrail report finds your vendor may be sending data to AI models you never approved",
+    "resume": "The data processing agreement (DPA) — the bedrock contract companies use to evaluate how vendors handle personal data — can no longer be trusted at face value. That is the central, and arguably most alarming, conclusion of DataGrail's Privacy and AI Trends Report 2026, released today.The San Francisco-based privacy platform analyzed 2,400 popular business software providers and found that 63.6% of vendors that prominently advertise AI capabilities do not disclose a third-party AI subprocessor in",
+    "date": "2026-05-27",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "SECURITE_IA",
+    "raison_score": "This report highlights a critical security and privacy concern regarding vendor data usage with AI models. It points to a significant gap in transparency and trust, which is vital for enterprise AI adoption.",
+    "tags": [
+      "AI security",
+      "data privacy",
+      "vendor risk",
+      "AI compliance"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.8500000000000005
+  },
+  {
     "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
     "url_hash": "3fabcf9934d1c4c5a21ffa87c8027122",
     "titre": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
@@ -3485,6 +3656,30 @@
     "score_composite": 6.7
   },
   {
+    "url": "https://www.marktechpost.com/2026/05/26/meet-omnivoice-studio-a-local-open-source-alternative-to-elevenlabs/",
+    "url_hash": "4af5aee7f963d145622798a07348a27e",
+    "titre": "Meet OmniVoice Studio: A Local, Open-Source Alternative to ElevenLabs",
+    "resume": "OmniVoice Studio runs voice cloning, video dubbing, real-time dictation, and speaker diarization entirely on your own hardware. No API keys, no cloud account, and no subscription required. The project supports 646 languages for TTS and exposes an MCP server for integration with Claude, Cursor, or any MCP client.\nThe post Meet OmniVoice Studio: A Local, Open-Source Alternative to ElevenLabs appeared first on MarkTechPost.",
+    "date": "2026-05-26",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "OmniVoice Studio offers a local, open-source alternative for voice cloning and dubbing, addressing privacy and cost concerns. Its broad language support and integration capabilities make it a significant advancement.",
+    "tags": [
+      "voice cloning",
+      "open source",
+      "local AI",
+      "TTS"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
     "url": "https://openai.com/index/codex-for-almost-everything",
     "url_hash": "a0464d4374d6d6dfda4d74b47f8c98b0",
     "titre": "Codex for (almost) everything",
@@ -3704,6 +3899,55 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 5,
+    "score_composite": 6.65
+  },
+  {
+    "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+    "url_hash": "6c6d47b51097d500597b5996bcea9db4",
+    "titre": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+    "resume": "",
+    "date": "2026-05-27",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Publication d'une étude quantifiée sur les performances de modèles avancés sur des tâches IT agentiques, introduisant un nouveau benchmark. Cela représente une avancée significative pour l'évaluation des agents IA dans un contexte d'entreprise.",
+    "tags": [
+      "IA_AGENTS",
+      "BENCHMARK",
+      "ENTREPRISE",
+      "IA_EVALUATION"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.65
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/27/sakana-ai-proposes-diffusionblocks-a-block-wise-training-framework-that-converts-residual-networks-into-independently-trainable-denoising-modules/",
+    "url_hash": "044f8d29ddcc9a344d591d0f5e1d07c6",
+    "titre": "Sakana AI Proposes DiffusionBlocks: a Block-wise Training Framework That Converts Residual Networks into Independently Trainable Denoising Modules",
+    "resume": "DiffusionBlocks converts residual networks into independently trainable blocks by interpreting layer updates as reverse diffusion denoising steps.\nThe post Sakana AI Proposes DiffusionBlocks: a Block-wise Training Framework That Converts Residual Networks into Independently Trainable Denoising Modules appeared first on MarkTechPost.",
+    "date": "2026-05-28",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Présentation d'un nouveau framework d'entraînement pour les modèles de diffusion, 'DiffusionBlocks', qui permet un entraînement indépendant des modules de débruitage, représentant une avancée significative dans l'efficacité de l'entraînement des modèles IA.",
+    "tags": [
+      "AI",
+      "Diffusion Models",
+      "Training Framework",
+      "Sakana AI",
+      "Research"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 6,
     "score_composite": 6.65
   },
   {
@@ -4171,6 +4415,55 @@
       "wearables",
       "Google",
       "Gemini"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/27/nvidia-releases-polar-a-token-faithful-rollout-framework-for-grpo-training-across-codex-claude-code-and-qwen-code/",
+    "url_hash": "aaab7738d381d69a7504e30761ed6a25",
+    "titre": "NVIDIA Releases Polar, a Token-Faithful Rollout Framework for GRPO Training Across Codex, Claude Code, and Qwen Code",
+    "resume": "NVIDIA researchers have introduced Polar, a rollout framework that trains language agents using reinforcement learning without modifying their agent harnesses. Polar places a model API proxy between the harness and the inference server, capturing token-level interactions and reconstructing trainer-ready trajectories. Using GRPO on a Qwen3.5-4B base model, Polar improves SWE-Bench Verified pass@1 by 22.6 points under the Codex harness, 4.8 points under Claude Code, and 6.2 points under Pi. The fr",
+    "date": "2026-05-27",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Lancement d'un nouveau framework (Polar) pour l'entraînement d'agents IA, avec des améliorations quantifiées sur des benchmarks. Cela représente une avancée significative dans le domaine de l'entraînement des LLMs pour des tâches spécifiques.",
+    "tags": [
+      "IA_MODELES",
+      "IA_AGENTS",
+      "GRPO",
+      "TRAINING",
+      "NVIDIA"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
+    "url": "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole",
+    "url_hash": "585f7cca70a628d51b1663f56460a92f",
+    "titre": "DeepSWE blows up the AI coding leaderboard, crowns GPT-5.5, and finds Claude Opus exploiting a benchmark loophole",
+    "resume": "For months, the leading AI coding benchmarks have told enterprise buyers a comforting but misleading story: the top models are all roughly the same. OpenAI's GPT-5 family, Anthropic's Claude Opus, and Google's Gemini Pro have clustered within a narrow band on Scale AI's SWE-Bench Pro leaderboard, making it nearly impossible for engineering leaders to determine which agent will actually perform best inside their codebases.On Monday, a startup called Datacurve released a benchmark it says shatters",
+    "date": "2026-05-26",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "DeepSWE's benchmark reveals significant flaws in current AI coding evaluations and identifies potential vulnerabilities in popular models. This is an important update on the performance and evaluation of LLMs for coding.",
+    "tags": [
+      "AI coding",
+      "LLM benchmarks",
+      "GPT-5.5",
+      "Claude Opus"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -4949,6 +5242,30 @@
     "score_composite": 6.300000000000001
   },
   {
+    "url": "https://www.producthunt.com/products/robinhood",
+    "url_hash": "2a6a2deeccf7f2ddd0ca1c88fb336e28",
+    "titre": "Robinhood Agentic Trading",
+    "resume": "\n            Let your agent trade\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-05-28",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Lancement d'un nouvel outil ou concept lié aux agents autonomes pour le trading, avec un potentiel disruptif dans le domaine de l'automatisation financière.",
+    "tags": [
+      "AI Agents",
+      "Trading",
+      "Automation",
+      "Fintech"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.3
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/16/meet-litellm-agent-platform-a-kubernetes-based-self-hosted-infrastructure-layer-for-isolated-agent-sandboxes-and-persistent-session-management-in-production/",
     "url_hash": "351d303bce6a1a6b32c52e666ca2e47a",
     "titre": "Meet LiteLLM Agent Platform: A Kubernetes-Based, Self-Hosted Infrastructure Layer for Isolated Agent Sandboxes and Persistent Session Management in Production",
@@ -5223,6 +5540,31 @@
     "score_composite": 6.2
   },
   {
+    "url": "https://medium.com/@teminabitemplates/how-i-built-a-logistics-executive-dashboard-in-power-bi-for-shipment-sla-analytics-c649accb3eaf?source=rss------power_bi-5",
+    "url_hash": "17830ca4a1f55c24c2bbfc1377428cbe",
+    "titre": "How I Built a Logistics Executive Dashboard in Power BI for Shipment & SLA Analytics",
+    "resume": "A plug-and-play Power BI dashboard designed for shipment monitoring, carrier SLA tracking, delivery performance analysisContinue reading on Medium »",
+    "date": "2026-05-28",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Exemple concret et documenté d'un cas d'usage en BI, présentant la création d'un tableau de bord pour l'analyse des SLAs de livraison avec des métriques claires.",
+    "tags": [
+      "Power BI",
+      "Dashboard",
+      "Logistics",
+      "Analytics",
+      "SLA"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.2
+  },
+  {
     "url": "https://openai.com/index/parloa",
     "url_hash": "b655fa9f550b1534336c627d3682ff96",
     "titre": "Parloa builds service agents customers want to talk to",
@@ -5370,6 +5712,31 @@
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 6,
     "score_composite": 6.15
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/28/a-coding-guide-to-implement-a-pgvector-powered-semantic-hybrid-sparse-and-quantized-vector-search-system/",
+    "url_hash": "d8bb637c41516941092103c864e318e4",
+    "titre": "A Coding Guide to Implement a pgvector-Powered Semantic, Hybrid, Sparse, and Quantized Vector Search System",
+    "resume": "In this tutorial, we build a complete pgvector playground inside Google Colab and explore how PostgreSQL can work as a powerful vector database for modern AI applications. We start by installing PostgreSQL, compiling the pgvector extension, connecting through Psycopg, and registering vector types for smooth Python integration. Then, we create embeddings with SentenceTransformers, store them […]\nThe post A Coding Guide to Implement a pgvector-Powered Semantic, Hybrid, Sparse, and Quantized Vector",
+    "date": "2026-05-28",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Article proposant un tutoriel avancé pour implémenter un système de recherche vectorielle sophistiqué, intégrant pgvector et améliorant les capacités des bases de données relationnelles pour l'IA.",
+    "tags": [
+      "pgvector",
+      "Vector Search",
+      "Database",
+      "AI",
+      "Tutorial"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.1000000000000005
   },
   {
     "url": "https://openai.com/index/what-parameter-golf-taught-us",
@@ -5719,6 +6086,30 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 8,
+    "score_composite": 6.050000000000001
+  },
+  {
+    "url": "https://www.databricks.com/blog/reliable-llm-inference-scale",
+    "url_hash": "cd7bd66f1916858535c2b223d4887983",
+    "titre": "Reliable LLM Inference at Scale",
+    "resume": "At Databricks, we’ve built a unique inference platform that serves every frontier...",
+    "date": "2026-05-27",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Databricks shares insights on their platform for reliable LLM inference at scale. While not a revolutionary breakthrough, it offers practical solutions for a critical aspect of AI deployment.",
+    "tags": [
+      "LLM inference",
+      "Databricks",
+      "AI platform",
+      "scalability"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
     "score_composite": 6.050000000000001
   },
   {
@@ -6481,6 +6872,30 @@
     "score_composite": 5.800000000000001
   },
   {
+    "url": "https://www.marktechpost.com/2026/05/26/memo-a-modular-framework-for-training-a-dedicated-memory-model-on-new-knowledge-without-modifying-llm-parameters/",
+    "url_hash": "48ced02649d83cee1ed662a46e113978",
+    "titre": "MEMO: A Modular Framework for Training a Dedicated Memory Model on New Knowledge Without Modifying LLM Parameters",
+    "resume": "Researchers from NUS, MIT, and A*STAR propose MEMO, a modular framework that encodes corpus knowledge into a separate trainable MEMORY model.\nThe post MEMO: A Modular Framework for Training a Dedicated Memory Model on New Knowledge Without Modifying LLM Parameters appeared first on MarkTechPost.",
+    "date": "2026-05-27",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Proposition d'un nouveau framework (MEMO) pour entraîner des modèles de mémoire dédiés sans modifier les paramètres des LLM. C'est une évolution notable pour la gestion des connaissances dans les systèmes d'IA.",
+    "tags": [
+      "IA_MODELES",
+      "LLM",
+      "FRAMEWORK",
+      "MEMOIRE"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.800000000000001
+  },
+  {
     "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
     "url_hash": "b0b87f1d965c430e113fccbe0b196989",
     "titre": "OpenAI helps Hyatt advance AI among colleagues",
@@ -6848,6 +7263,31 @@
     "score_composite": 5.6000000000000005
   },
   {
+    "url": "https://techcrunch.com/2026/05/28/vertu-wants-ceos-to-run-companies-from-an-ai-foldable-starting-at-6880/",
+    "url_hash": "b16689dc6815e82797fa0a7804d32aec",
+    "titre": "Vertu wants CEOs to run companies from an AI foldable starting at $6,880",
+    "resume": "Built on top of the open-source Hermes project, Vertu's new foldable combines AI-agent workflows, enterprise integrations, and ultra-premium luxury finishes.",
+    "date": "2026-05-28",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Annonce d'un nouveau produit combinant hardware de luxe et IA pour les workflows d'entreprise, présentant un nouveau cas d'usage pour l'IA appliquée au monde des affaires et à l'entrepreneuriat.",
+    "tags": [
+      "AI",
+      "Enterprise",
+      "Hardware",
+      "Entrepreneurship",
+      "Luxury"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 5.6000000000000005
+  },
+  {
     "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Tenant-Migration-Trade-offs-risks-and-realities/ba-p/5187013",
     "url_hash": "b4436a58f9c25acc0f56084b98591b98",
     "titre": "Power BI Tenant Migration: Trade-offs, risks, and realities",
@@ -7134,6 +7574,30 @@
       "OpenMythos",
       "tutorial",
       "deep learning"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.550000000000001
+  },
+  {
+    "url": "https://www.latent.space/p/esmfold2",
+    "url_hash": "14d5b439e9cd2ad79f2bbd48cf35e9aa",
+    "titre": "🔬ESMFold2: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
+    "resume": "Datasets vs. inductive bias, world models, and programmable biology",
+    "date": "2026-05-27",
+    "source_name": "Latent Space",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "This article discusses ESMFold2 and its implications for protein science, drawing parallels to the 'bitter lesson' in AI. It's an insightful analysis of applying large-scale models to scientific domains.",
+    "tags": [
+      "protein folding",
+      "AI in science",
+      "ESMFold2",
+      "large language models"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
@@ -7482,6 +7946,54 @@
     "score_composite": 5.4
   },
   {
+    "url": "https://www.marktechpost.com/2026/05/27/meet-eagle-3-1-the-speculative-decoding-algorithm-that-fixes-attention-drift-in-llm-inference/",
+    "url_hash": "6391afe0d64e412d9da2f117cce9a7ce",
+    "titre": "Meet EAGLE 3.1: The Speculative Decoding Algorithm That Fixes Attention Drift in LLM Inference",
+    "resume": "The EAGLE team, vLLM, and TorchSpec jointly release EAGLE 3.1 to fix speculative decoding instability in production.\nThe post Meet EAGLE 3.1: The Speculative Decoding Algorithm That Fixes Attention Drift in LLM Inference appeared first on MarkTechPost.",
+    "date": "2026-05-27",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Présentation d'une amélioration d'un algorithme de décodage spéculatif pour l'inférence LLM. C'est une évolution notable qui optimise les performances et la stabilité des modèles.",
+    "tags": [
+      "IA_MODELES",
+      "LLM",
+      "INFERENCE",
+      "ALGORITHME"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.4
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/",
+    "url_hash": "e49dc2a61c4b4b96834ee5403a2ae64b",
+    "titre": "It’s time to address the looming crisis in entry-level work.",
+    "resume": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable, and recent assessments have found limited evidence that AI has shifted the headline numbers. But a troubling change may be hiding beneath the surface: the quiet weakening of the first rung of the career…",
+    "date": "2026-05-26",
+    "source_name": "MIT Tech Review AI",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "The article discusses the potential impact of AI on entry-level jobs, noting a subtle weakening of the career ladder rather than mass unemployment. This is an important observation for the future of work and skill development.",
+    "tags": [
+      "AI impact",
+      "future of work",
+      "entry-level jobs",
+      "labor market"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.4
+  },
+  {
     "url": "https://www.sqlbi.com/tv/dax-user-defined-functions-vs-calculation-groups/",
     "url_hash": "a0566ac4797aa98ff1d918a775894901",
     "titre": "DAX User-Defined Functions vs Calculation Groups",
@@ -7673,6 +8185,30 @@
       "alignement IA",
       "recherche IA",
       "formation"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.300000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/05/26/stability-ai-releases-stable-audio-3-a-family-of-fast-latent-diffusion-models-for-audio-generation-and-editing/",
+    "url_hash": "3e19060395fa5bc5a6bc66d806ad83e5",
+    "titre": "Stability AI Releases Stable Audio 3: A Family of Fast Latent Diffusion Models for Audio Generation and Editing",
+    "resume": "Stability AI has released Stable Audio 3, a family of latent diffusion models for instrumental music and sound effects generation. The release includes open weights for the small and medium variants. Small runs on a MacBook Pro M4 CPU. Medium fits on consumer GPUs with 8 GB of VRAM. Both generate stereo audio at 44.1 kHz using a three-stage training pipeline: flow matching, distillation warmup, and adversarial post-training. On the BBC Sound Effects benchmark at 5 seconds, SA3 medium scores FAD ",
+    "date": "2026-05-26",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Stability AI releases Stable Audio 3, featuring latent diffusion models for audio generation. The availability of open weights for smaller variants with local execution capabilities suggests an evolution of existing models rather than a groundbreaking change.",
+    "tags": [
+      "audio generation",
+      "latent diffusion",
+      "stability ai",
+      "open weights"
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 7,
@@ -7926,6 +8462,30 @@
     "score_composite": 5.2
   },
   {
+    "url": "https://www.marktechpost.com/2026/05/26/design-a-complete-multimodal-rlvr-pipeline-with-open-mm-rl-vision-language-prompting-reward-scoring-and-grpo-export/",
+    "url_hash": "843a99b483b611b80f176b2f0fbe5a78",
+    "titre": "Design a Complete Multimodal RLVR Pipeline with Open-MM-RL, Vision-Language Prompting, Reward Scoring, and GRPO Export",
+    "resume": "In this tutorial, we explore the TuringEnterprises/Open-MM-RL dataset as a practical foundation for multimodal reasoning and reinforcement learning with verifiable rewards. We load the dataset, inspect its schema, analyze domains, formats, question lengths, answer types, and image distributions, and visualize representative examples from each domain. We also build a lightweight reward function that checks exact, […]\nThe post Design a Complete Multimodal RLVR Pipeline with Open-MM-RL, Vision-Lang",
+    "date": "2026-05-26",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "This article presents a tutorial on building a multimodal RLVR pipeline using a specific dataset and tools. While it offers practical guidance, it's more of an advanced tutorial on an established area.",
+    "tags": [
+      "multimodal AI",
+      "reinforcement learning",
+      "vision-language",
+      "tutorial"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.2
+  },
+  {
     "url": "https://www.sqlbi.com/tv/how-to-navigate-the-lattice-of-visual-calculations/",
     "url_hash": "f9758d4f0bfdc2f3633417fd626e7fe8",
     "titre": "How to navigate the lattice of visual calculations",
@@ -8046,6 +8606,30 @@
       "KPI",
       "best practices",
       "reporting"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
+  },
+  {
+    "url": "https://medium.com/@BIWave/traditional-etl-is-overrated-here-is-what-actually-works-d4f845c70c36?source=rss------power_bi-5",
+    "url_hash": "9822f22b8b616bce341a6f5fca60763e",
+    "titre": "Traditional ETL is Overrated. Here is What Actually Works",
+    "resume": "What No One Tells You About Query Folding and Data Model Optimization.Continue reading on Medium »",
+    "date": "2026-05-28",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article de fond discutant des pratiques ETL et de l'optimisation des modèles de données, offrant une perspective utile sur les méthodologies établies.",
+    "tags": [
+      "ETL",
+      "Data Integration",
+      "Data Modeling",
+      "BI Practices"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 3,
@@ -8337,6 +8921,54 @@
       "DAX",
       "M Language",
       "apprentissage"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 5.05
+  },
+  {
+    "url": "https://medium.com/@mail_66209/lost-in-power-bis-model-view-one-dax-measure-gives-you-a-live-configurable-er-diagram-a6f33ab53ca9?source=rss------power_bi-5",
+    "url_hash": "1e938be41ab56cadc91f2cc7317182cb",
+    "titre": "Lost in Power BI’s Model View? One DAX Measure Gives You a Live, Configurable ER Diagram",
+    "resume": "How to generate a live entity-relationship diagram for any Power BI Semantic Model using a DAX user-defined function and the free Markdown…Continue reading on Medium »",
+    "date": "2026-05-28",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article proposant une astuce avancée pour améliorer la visualisation des modèles de données dans Power BI, utile pour les praticiens.",
+    "tags": [
+      "Power BI",
+      "DAX",
+      "Data Modeling",
+      "ER Diagram"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 5.05
+  },
+  {
+    "url": "https://medium.com/microsoft-power-bi/label-encoding-categorical-columns-in-power-query-pbix-included-d31d2ad628e4?source=rss------power_bi-5",
+    "url_hash": "34f4a21122d07f7c516b832a9520feb7",
+    "titre": "Label Encoding Categorical Columns in Power Query(.pbix included)",
+    "resume": "When working with data in Power Query, one of the common challenges is handling categorical variables.Continue reading on Power BI »",
+    "date": "2026-05-28",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Tutoriel avancé expliquant une technique de pré-traitement de données courante ('label encoding') dans Power Query, utile pour les praticiens BI.",
+    "tags": [
+      "Power BI",
+      "Power Query",
+      "Data Preparation",
+      "Categorical Data"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 3,
@@ -8955,6 +9587,29 @@
     "score_composite": 4.65
   },
   {
+    "url": "https://www.wired.com/story/vertu-alphafold-folding-phone-powered-by-hermes-agent-ai/",
+    "url_hash": "ea744a427a5a2fb1a859646f19c71917",
+    "titre": "Vertu Is Back With a Folding Phone Powered by—Surprise—an AI Agent",
+    "resume": "The beleaguered luxury phone maker is pushing the AlphaFold, which has decent specs and comes with Vertu’s new Hermes Agent on board, to wealthy would-be buyers.",
+    "date": "2026-05-28",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Lancement d'un produit intégrant une nouvelle fonctionnalité IA (agent). Cela montre une évolution notable de l'application de l'IA dans le hardware grand public.",
+    "tags": [
+      "IA_AGENTS",
+      "BUSINESS_IA",
+      "HARDWARE"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.65
+  },
+  {
     "url": "https://medium.com/@hitesh88it/power-bi-finally-gets-set-as-landing-page-a-small-feature-that-solves-a-big-everyday-problem-8128ce6e085b?source=rss------power_bi-5",
     "url_hash": "d6badcd1969f80f298a8cfc64d69a251",
     "titre": "Power BI Finally Gets “Set as Landing Page” — A Small Feature That Solves a Big Everyday Problem",
@@ -9367,6 +10022,30 @@
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 3,
     "score_composite": 4.4
+  },
+  {
+    "url": "https://medium.com/@datapedia24/power-bi-vs-oneclick-bi-which-is-better-for-business-data-analysis-in-2026-bd203e19420e?source=rss------power_bi-5",
+    "url_hash": "19d3a8e1458029708e14caad05d3be8e",
+    "titre": "Power BI vs OneClick BI: Which Is Better for Business Data Analysis in 2026?",
+    "resume": "Power BI vs OneClick BI: Which Is Better for Business Data Analysis in 2026?Continue reading on Medium »",
+    "date": "2026-05-28",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Comparatif d'outils BI, fournissant des informations potentiellement utiles pour le choix d'une solution.",
+    "tags": [
+      "Power BI",
+      "BI Tools",
+      "Comparison",
+      "Data Analysis"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.35
   },
   {
     "url": "https://www.marktechpost.com/2026/05/19/upstash-for-redis-vs-supabase-vs-neon-which-one-fits-vibe-coding-workflows-in-2026/",
@@ -10797,6 +11476,29 @@
     "tags": [
       "promo",
       "bien-être"
+    ],
+    "pertinence_bi_consultant": 1,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 1,
+    "score_composite": 1.0
+  },
+  {
+    "url": "https://www.wired.com/story/bag-check-rave-cotopaxi-allpa-35l-travel-pack-del-dia-dark/",
+    "url_hash": "171b2f6803da20793a5730b54bf37275",
+    "titre": "Cotopaxi Allpa 35L Travel Pack Del Día Dark: Sustainable and Chic",
+    "resume": "Created from fabric scraps that would otherwise end up in a landfill, this thoughtfully constructed bag looks great and can carry everything you need for a weeklong trip.",
+    "date": "2026-05-28",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 1,
+    "categorie": "NON_APPLICABLE",
+    "raison_score": "Article marketing sans substance technique liée à l'IA, au Data Engineering, à la BI, à l'automatisation ou à l'entrepreneuriat tech.",
+    "tags": [
+      "MARKETING",
+      "MODE",
+      "DURABILITE"
     ],
     "pertinence_bi_consultant": 1,
     "pertinence_passionné_ia": 1,
