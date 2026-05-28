@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-05-28</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-05-28 11:37 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>L'Illinois encadre l'IA avec une loi de sécurité stricte</h2>
+<blockquote>L'Illinois vote la plus forte loi de sécurité IA des USA. Le gouverneur signera.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+<p>Les législateurs de l'Illinois ont voté une loi qui impose des normes de sécurité plus strictes aux entreprises d'IA. Elle exige des audits par des tiers pour vérifier la conformité aux règles de sécurité. Cela concerne les grands acteurs comme OpenAI, Anthropic et Google. Le gouverneur JB Pritzker a annoncé qu'il la signerait.</p>
+<blockquote>Cette loi fait de l'Illinois le premier État à imposer des tests d'impact et des audits indépendants pour les systèmes d'IA.</blockquote>
+<p>Le texte vise à prévenir les risques liés à l'intelligence artificielle, notamment ceux liés à la sécurité et aux biais. Les entreprises devront prouver que leurs modèles sont sûrs avant leur déploiement.</p>
+<h3>Pourquoi ca compte 🎯</h3>
+<p>Cette loi pourrait servir de modèle au reste des États-Unis, voire à d'autres pays. Elle impose une responsabilité plus forte aux développeurs d'IA. Cela pourrait ralentir l'innovation rapide, mais garantir une approche plus prudente.</p>
+<table>
+<tr><th>Impact sur les entreprises d'IA</th><th>Avant la loi</th><th>Après la loi</th></tr>
+<tr><td>Audits de sécurité</td><td>Optionnel</td><td>Obligatoire</td></tr>
+<tr><td>Transparence des risques</td><td>Limitée</td><td>Requise</td></tr>
+<tr><td>Responsabilité</td><td>Fluide</td><td>Accrue</td></tr>
+</table>
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Analyser les risques</strong> : Comprendre comment les nouvelles réglementations affecteront les déploiements IA.</li>
+<li><strong>Veiller aux audits IA</strong> : Rechercher des entreprises proposant des services d'audit de sécurité IA.</li>
+<li><strong>Défi rapide</strong> : Lire les principes de sécurité de votre outil IA préféré et comparer avec les exigences potentielles de cette loi.</li>
+</ul>
+<blockquote>Une régulation précoce pour l'IA peut favoriser une adoption plus responsable et fiable des technologies.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>Audit Tiers</strong> : Une évaluation indépendante de la conformité d'un système.</li>
+<li><strong>Normes de Sécurité IA</strong> : Règles établies pour minimiser les risques liés à l'IA.</li>
+<li><strong>Loi de Sécurité IA</strong> : Réglementation spécifique visant à encadrer le développement et l'usage de l'IA.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://www.wired.com/story/illinois-pass-major-ai-safety-law-pritzker/">L'Illinois adopte la loi la plus importante sur la sécurité de l'IA aux États-Unis</a> — Un aperçu détaillé des implications de cette nouvelle législation.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<ul><li><strong>Deux VPs IA pour 257$ : Une startup utilise des agents IA pour tuer une application SaaS en 60 minutes</strong> (8/10) : L'épisode 005 de "The Agents" montre comment des agents IA autonomes peuvent démanteler des entreprises. C'est un aperçu rapide des capacités des agents IA avancés.</li>
+<li><strong>Introduction de GPT-5.5</strong> (8/10) : OpenAI annonce une nouvelle version de son modèle. Les détails sont encore limités, mais cela suggère une évolution continue des capacités des LLM.</li>
+<li><strong>Merck et Mastercard constatent des résultats concrets avec l'IA agentique, mais soulignent l'importance de l'infrastructure</strong> (8/10) : Ces entreprises ont obtenu des succès grâce à l'IA, mais insistent sur le fait que l'infrastructure sous-jacente (le "plumbing") est essentielle. La qualité des données et des systèmes est la clé.</li>
+<li><strong>Le prochain combat de Claude pour les entreprises ne sera pas les modèles, mais le plan de contrôle des agents</strong> (8/10) : Anthropic se concentre sur la manière dont les entreprises géreront et contrôleront les agents IA, plutôt que sur la performance brute des modèles. La gestion est le nouveau défi.</li>
+<li><strong>Figma surperforme, mais sa valorisation reste inférieure à 10x ARR malgré un bond de 12%</strong> (8/10) : L'entreprise présente de bons résultats et une forte croissance, mais le marché semble encore la valoriser prudemment par rapport à d'autres entreprises SaaS.</li>
+<li><strong>Google redessine la barre de recherche pour la première fois en 25 ans : pourquoi c'est plus important que vous ne le pensez</strong> (8/10) : Ce changement subtil dans l'interface de recherche Google pourrait marquer un tournant vers une IA plus intégrée dans les requêtes quotidiennes.</li>
+</ul>
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>Sécurité IA</strong> — L'Illinois ouvre la voie avec une législation ambitieuse. D'autres États et pays pourraient suivre, forçant les entreprises d'IA à une plus grande responsabilité.
+<strong>IA Agentique et Agents Autonomes</strong> — Le SaaS de 4000$ tombé en 60 minutes par des agents IA montre leur potentiel destructeur. La gestion et le contrôle de ces agents deviennent le nouveau champ de bataille.
+<strong>A surveiller</strong> — Les modèles d'IA comme Qwen3.7-Max et Command A+ proposent des fenêtres contextuelles immenses et des capacités avancées pour les agents. La question est maintenant de savoir comment les intégrer efficacement dans les flux de travail.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-05-28 11:37 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
