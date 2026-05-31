@@ -358,7 +358,7 @@
     "source_name": "SaaStr",
     "categorie_source": "ENTREPRENEURIAT",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "ENTREPRENEURIAT",
     "raison_score": "Cet article documente un nouveau framework entrepreneurial très concret pour l'utilisation d'agents IA, avec des résultats chiffrés impressionnants sur la réduction des coûts et l'augmentation du revenu. Il démontre l'impact de l'IA sur les métiers.",
@@ -968,6 +968,31 @@
       "AWS",
       "OpenAI",
       "Agents IA"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.550000000000001
+  },
+  {
+    "url": "https://pub.towardsai.net/fabric-data-agents-just-hit-ga-94f459c68dcc?source=rss------power_bi-5",
+    "url_hash": "91801b2140c8d8b1ef78737e2530eac4",
+    "titre": "Fabric Data Agents Just Hit GA.",
+    "resume": "Microsoft moved Fabric data agents to general availability at FabCon 2026 in March. Roughly six weeks later, I built one for a client…Continue reading on Towards AI »",
+    "date": "2026-05-30",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "L'article annonce la disponibilité générale (GA) des Fabric Data Agents, une nouvelle capacité d'automatisation et d'IA pour les plateformes de données. C'est une mise à jour majeure d'un outil de data platform.",
+    "tags": [
+      "microsoft fabric",
+      "data agents",
+      "general availability",
+      "automation",
+      "data platform"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 7,
@@ -3113,6 +3138,31 @@
     "score_composite": 6.95
   },
   {
+    "url": "https://www.saastr.com/aiappweekdelightloop/",
+    "url_hash": "ed7fe87fb71bd3ea390410fca0d1abf3",
+    "titre": "AI App of the Week: Delightloop, the AI Agent That Closes Deals With Physical Gifts",
+    "resume": "For years, B2B gifting was a manual, expensive afterthought. A field marketer would spend 200 hours a quarter sourcing tchotchkes, guessing addresses, hoping the package landed before the rep gave up on the account. The conversion math rarely worked. Most programs were spray-and-pray, and they got cut first when budgets tightened. Then a strange thing... Continue Reading",
+    "date": "2026-05-30",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "L'article présente une nouvelle application IA disruptive (Delightloop) qui utilise des agents pour un processus commercial complexe. Il s'agit d'un lancement d'outil avec un angle entrepreneurial.",
+    "tags": [
+      "ai app",
+      "ai agent",
+      "entrepreneurship",
+      "sales automation",
+      "disruptive"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.95
+  },
+  {
     "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
     "url_hash": "cf9ab79d536b4ff2ee68204ed0cc9d9d",
     "titre": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
@@ -4080,6 +4130,31 @@
     "score_composite": 6.7
   },
   {
+    "url": "https://towardsdatascience.com/embeddings-arent-magic-the-predictable-failure-modes-of-rag-retrieval-enterprise-document-intelligence-vol-1-2/",
+    "url_hash": "1f88032d9ce619d7ea3ebf8cdb8a6502",
+    "titre": "Embeddings Aren’t Magic: The Predictable Failure Modes of RAG Retrieval",
+    "resume": "Enterprise Document Intelligence [Vol. 1 #2] Why the same vector search that handles synonyms and paraphrase silently fails on negation, exact identifiers, and your company’s acronyms, and what to use when it does.\nThe post Embeddings Aren’t Magic: The Predictable Failure Modes of RAG Retrieval appeared first on Towards Data Science.",
+    "date": "2026-05-30",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Article de fond décrivant les limites des modèles RAG actuels, particulièrement pertinent pour l'application en entreprise. Il apporte une compréhension nuancée des agents.",
+    "tags": [
+      "rag",
+      "embeddings",
+      "llm",
+      "failure modes",
+      "enterprise ai"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
     "url": "https://openai.com/index/codex-for-almost-everything",
     "url_hash": "a0464d4374d6d6dfda4d74b47f8c98b0",
     "titre": "Codex for (almost) everything",
@@ -4896,6 +4971,54 @@
     "score_composite": 6.550000000000001
   },
   {
+    "url": "https://zapier.com/blog/multi-agent-systems-mcp",
+    "url_hash": "145c0690362c75a0fff2a30341e127fe",
+    "titre": "How to build multi-agent systems with MCP",
+    "resume": "Assign a task with a single focus to an AI agent, and it'll get the job done without a hitch. But ask it to handle work that spans multiple tools, formats, and decisions, and that same agent could hit a wall, its reasoning degrading under the weight of your request. Multi-agent systems fix that by splitting up the work. Instead of one agent doing everything, you've got a team of them, each handling a smaller piece of the job. The tricky part is getting each agent to share tools, pass outputs, an",
+    "date": "2026-05-29",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Guide pratique sur la construction de systèmes multi-agents, une nouvelle capacité d'agent documentée et reproductible. L'article explique comment diviser le travail entre plusieurs agents pour surmonter les limites d'un agent unique.",
+    "tags": [
+      "systèmes multi-agents",
+      "IA",
+      "automatisation",
+      "agents"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
+    "url": "https://zapier.com/blog/ai-agent-orchestration",
+    "url_hash": "34779169bc4953bc38fbe43713ba665f",
+    "titre": "What is AI agent orchestration?",
+    "resume": "You start with one AI agent to save time. A month later, you've got prompts in a doc, outputs in Slack, half-finished automations in three places, and the same request getting handled a dozen different ways depending on who saw it first. That's what happens when businesses try to \"do AI\" by building roughly 43 agents with no plan in place to coordinate them. AI agent orchestration solves this problem. Instead of relying on a single, general-purpose AI agent to do everything (which rarely works),",
+    "date": "2026-05-29",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Explication de l'orchestration des agents IA, abordant un nouveau concept ou une nouvelle pratique pour gérer efficacement plusieurs agents. L'article souligne la nécessité d'un plan pour coordonner les agents afin d'éviter le chaos.",
+    "tags": [
+      "orchestration IA",
+      "agents IA",
+      "automatisation",
+      "gestion IA"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
     "url": "https://openai.com/index/safety-bug-bounty",
     "url_hash": "a1bdc83d63f1a4ac3f169d47530874ae",
     "titre": "Introducing the OpenAI Safety Bug Bounty program",
@@ -5194,6 +5317,30 @@
     "score_composite": 6.450000000000001
   },
   {
+    "url": "https://www.saastr.com/one-unexpected-benefit-of-our-ai-vp-customer-success-customers-yell-a-lot-less-everything-is-just-more-calm/",
+    "url_hash": "453a93fca1ed4fe0c75109d380b068a3",
+    "titre": "One Unexpected Benefit of Our AI VP Customer Success: Customers Yell a Lot Less. Everything Is Just … More Calm.",
+    "resume": "Agents Really > Humans in Many Cases. If the AI Agent is Really Well Trained and Designed. There’s a part of running AI agents in production that nobody writes about. It’s not the cost. It’s not the hallucinations. It’s not the setup. It’s that customers treat agents better than they treat humans. And the agents... Continue Reading",
+    "date": "2026-05-30",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "L'article documente un nouveau cas d'usage d'IA appliquée au succès client, démontrant un impact quantifié (moins de cris). Il met en avant l'efficacité des agents bien entraînés.",
+    "tags": [
+      "ai",
+      "customer success",
+      "ai agents",
+      "business impact"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.450000000000001
+  },
+  {
     "url": "https://openai.com/index/sea-david-chen",
     "url_hash": "73eb815ab647d89faf48507d9549a934",
     "titre": "Sea's View on the Future of Agentic Software Development with Codex",
@@ -5316,6 +5463,30 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 8,
+    "score_composite": 6.4
+  },
+  {
+    "url": "https://www.saastr.com/how-our-ai-agent-booked-614-meetings-from-442k-chats-why-b-leads-are-pure-gold-if-you-add-ai-and-8-other-top-learnings-from-the-final-day-of-saastr-ai-annual-2026/",
+    "url_hash": "e926965850b147fc029871d7f0b270ea",
+    "titre": "How Our AI Agent Booked 614 Meetings from 442K Chats, And Why B Leads Are Pure Gold If You Add AI. The Top Learnings from Agent’s Day of SaaStr AI Annual 2026",
+    "resume": "The final day at SaaStr AI Annual was our agent stack deep dive day. Amelia and I walked through the 20+ agents we run our business on. Adam Guild from Owner.com showed how they crossed $100M ARR by going all-in on AI three years ago. Andrew Bialecki from Klaviyo broke down how a public company... Continue Reading",
+    "date": "2026-05-29",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Présentation d'un nouveau cas d'usage concret et documenté d'un agent IA (réservation de réunions) avec des métriques. Le succès quantifié le rend une évolution notable dans l'application de l'IA pour le business.",
+    "tags": [
+      "agent IA",
+      "vente",
+      "marketing IA",
+      "résultats commerciaux"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
     "score_composite": 6.4
   },
   {
@@ -5732,6 +5903,31 @@
       "Trading",
       "Automation",
       "Fintech"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.3
+  },
+  {
+    "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+    "url_hash": "fe0f51562a5624d35bae09df5b2ea163",
+    "titre": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+    "resume": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
+    "date": "2026-05-29",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Levée de fonds majeure pour une startup IA dans le hardware (Groq), après un événement significatif avec Nvidia. Ce type d'annonce de financement est un indicateur d'avancée significative dans le secteur des puces IA et potentiellement une redéfinition des acteurs.",
+    "tags": [
+      "Groq",
+      "startup IA",
+      "levée de fonds",
+      "hardware IA",
+      "Nvidia"
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 7,
@@ -7637,6 +7833,30 @@
     "score_composite": 5.700000000000001
   },
   {
+    "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+    "url_hash": "efe0c0c4c881fe14a51b4b2000a18156",
+    "titre": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful",
+    "resume": "Gemini Spark helps automate everyday tasks, from inbox summaries to local event planning, but it’s unclear why Google made it a separate product.",
+    "date": "2026-05-30",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Présentation d'un nouvel assistant IA de Google (Gemini Spark) qui automatise des tâches quotidiennes. Bien que l'article mentionne son utilité, il soulève également des questions sur sa différenciation produit, ce qui le place dans une évolution notable.",
+    "tags": [
+      "Google Gemini",
+      "assistant IA",
+      "automatisation",
+      "tâches quotidiennes"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.700000000000001
+  },
+  {
     "url": "https://medium.com/@chintalasuman/automating-power-bi-deployments-with-gitlab-ci-cd-324d4b59743b?source=rss------power_bi-5",
     "url_hash": "52a87905ba514cfdbdf72a9893164fac",
     "titre": "Automating Power BI Deployments with GitLab CI/CD",
@@ -8494,6 +8714,31 @@
     "score_composite": 5.5
   },
   {
+    "url": "https://medium.com/@ridwanayoola39/nhs-a-e-performance-service-analysis-dashboard-a-complete-sql-power-bi-healthcare-analytics-3c965f6f8900?source=rss------power_bi-5",
+    "url_hash": "f611b1c0c5356a3f0604081632d0a40c",
+    "titre": "NHS A&E Performance & Service Analysis Dashboard: A Complete SQL & Power BI Healthcare Analytics",
+    "resume": "How I built an end-to-end NHS operational reporting solution using SQL, Power BI, and NHS England open healthcare datasets.Continue reading on Medium »",
+    "date": "2026-05-30",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Nouveau cas d'usage documenté et reproductible dans le secteur de la santé, avec des métriques sur un tableau de bord complet utilisant SQL et Power BI.",
+    "tags": [
+      "power bi",
+      "healthcare analytics",
+      "sql",
+      "dashboard",
+      "case study"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.5
+  },
+  {
     "url": "https://openai.com/index/braintrust",
     "url_hash": "ce0322c55738d3a62c4969608d584eb8",
     "titre": "How Braintrust turns customer requests into code with Codex",
@@ -8885,6 +9130,30 @@
     "score_composite": 5.35
   },
   {
+    "url": "https://www.saastr.com/salesforce-just-reaccelerated-growth-at-45b-scale-it-took-the-entire-kitchen-sink-5-learnings/",
+    "url_hash": "7f22276faef56f5e2a1564c5ded4301f",
+    "titre": "Salesforce Just Reaccelerated Growth at $45B+ ARR. It Took the Entire Kitchen Sink. 5 Learnings.",
+    "resume": "Reaccelerating growth at scale is the hardest thing in B2B. Almost no one does it. The law of large numbers is tough to defeat: the bigger you get, the more new revenue you need just to hold the same growth rate, and eventually the math wins. HubSpot, Workday, even the great ones have spent the... Continue Reading",
+    "date": "2026-05-29",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Retour d'expérience d'une entreprise majeure (Salesforce) sur la ré-accélération de sa croissance, impliquant probablement des stratégies IA. C'est une information utile sur le déploiement de stratégies business IA à grande échelle.",
+    "tags": [
+      "Salesforce",
+      "croissance",
+      "stratégie business IA",
+      "retour d'expérience"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.35
+  },
+  {
     "url": "https://openai.com/index/introducing-openai-safety-fellowship",
     "url_hash": "f6c272c7f0d807d2afa56cf4c3637bb1",
     "titre": "Announcing the OpenAI Safety Fellowship",
@@ -9002,6 +9271,31 @@
       "dashboard",
       "data preparation",
       "visualization"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3
+  },
+  {
+    "url": "https://medium.com/@masoud.khodadadi/risk-management-beyond-the-risk-register-turning-uncertainty-into-measurable-business-intelligence-0cb06e56b576?source=rss------power_bi-5",
+    "url_hash": "dc8c194981fb49f1e7ae636faeaba044",
+    "titre": "Risk Management Beyond the Risk Register: Turning Uncertainty into Measurable Business Intelligence",
+    "resume": "How organizations can quantify, visualize, monitor, and control risk using Monte Carlo simulation, Power BI, EVM, and data-driven…Continue reading on Medium »",
+    "date": "2026-05-31",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "L'article propose un nouveau cas d'usage documenté pour le management des risques en le rendant mesurable avec des outils BI. Il présente des métriques sur l'application de ces techniques.",
+    "tags": [
+      "risk management",
+      "business intelligence",
+      "monte carlo simulation",
+      "power bi",
+      "evm"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 4,
@@ -9445,6 +9739,54 @@
       "meilleures pratiques",
       "workspace",
       "rafraîchissement"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
+  },
+  {
+    "url": "https://jadangpooiling.medium.com/accounts-receivable-case-study-dax-expressions-for-power-bi-115d4ffcb809?source=rss------power_bi-5",
+    "url_hash": "a288f7b6b8a1a3b6e885940340b766bb",
+    "titre": "Accounts Receivable Case Study | DAX Expressions for Power BI",
+    "resume": "Power BI uses a semantic model because data must first be connected, transformed in Power Query, and modeled (by creating relationships…Continue reading on Medium »",
+    "date": "2026-05-31",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Il s'agit d'un tutoriel avancé sur l'utilisation de DAX dans Power BI pour un cas d'usage spécifique. Il est bien documenté et montre des exemples concrets.",
+    "tags": [
+      "dax",
+      "power bi",
+      "case study",
+      "accounts receivable"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
+  },
+  {
+    "url": "https://medium.com/@cseprs_54978/this-may-i-went-deep-on-dax-udfs-heres-everything-i-found-0ab455d92ff1?source=rss------power_bi-5",
+    "url_hash": "594a882501d6f044d54c92b88af75c6e",
+    "titre": "This May, I Went Deep on DAX UDFs — Here’s Everything I Found",
+    "resume": "Hello everyone 👋Continue reading on Medium »",
+    "date": "2026-05-30",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Tutoriel avancé sur une fonctionnalité spécifique de DAX (UDFs) dans Power BI. Offre une exploration approfondie et des apprentissages pratiques.",
+    "tags": [
+      "dax",
+      "power bi",
+      "udfs",
+      "tutorial"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 3,
@@ -9910,6 +10252,30 @@
     "score_composite": 4.95
   },
   {
+    "url": "https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/",
+    "url_hash": "1091c10f9199a98c09e6c2dee75c523f",
+    "titre": "The groupthink boom: what three top VCs really think about the AI frenzy",
+    "resume": "\"If you're 22 years old in San Francisco and building something in AI, there may be a seed term sheet in your inbox — but if you're 19, oh my God, this means you're really good; you might already have a Series A [offer],\" said one, half-kiddingly.",
+    "date": "2026-05-30",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Analyse de l'opinion de VCs sur la frénésie de l'IA, abordant l'aspect 'groupthink'. C'est une information utile sur la perception du marché et les tendances d'investissement dans le domaine de l'IA.",
+    "tags": [
+      "VC",
+      "investissement IA",
+      "frénésie IA",
+      "entrepreneuriat tech"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 4.95
+  },
+  {
     "url": "https://openai.com/academy/projects",
     "url_hash": "24f471f193a9cec03c77290beeb7743d",
     "titre": "Using projects in ChatGPT",
@@ -10327,6 +10693,54 @@
     "score_composite": 4.75
   },
   {
+    "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+    "url_hash": "4b1d7fc08047e0c2f8f2ad020bb8c5bd",
+    "titre": "Cognition’s Scott Wu says AI coding agents shouldn’t replace humans",
+    "resume": "Cognition makes Devin, the first and arguably most successful AI coding agent. But famed coder Wu says it isn't designed to supplant human programmers.",
+    "date": "2026-05-29",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Discussion sur le rôle des agents de codage IA, provenant d'un acteur majeur (Cognition avec Devin). L'article présente un point de vue important sur l'évolution des outils IA pour les développeurs, ce qui constitue une évolution notable.",
+    "tags": [
+      "agents de codage IA",
+      "Devin",
+      "développeurs",
+      "IA"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.7
+  },
+  {
+    "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+    "url_hash": "54225d41602ff9685d2bee0e0125ab62",
+    "titre": "‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs",
+    "resume": "The golden age of Microsoft's Github Copilot appears to be at an end.",
+    "date": "2026-05-30",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Changement de modèle de facturation pour un outil d'aide au développement bien établi. L'article met en lumière la réaction négative des développeurs, ce qui est une évolution notable dans l'utilisation et le coût des outils IA pour la programmation.",
+    "tags": [
+      "Github Copilot",
+      "facturation",
+      "développeurs",
+      "outils IA"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.7
+  },
+  {
     "url": "https://openai.com/index/how-chatgpt-protects-privacy",
     "url_hash": "e0eb086fca901c3907edb6b3ad9e00b9",
     "titre": "How ChatGPT learns about the world while protecting privacy",
@@ -10474,6 +10888,30 @@
     "score_composite": 4.65
   },
   {
+    "url": "https://zapier.com/blog/zapier-vs-workato-for-enterprise-agents",
+    "url_hash": "1d101206b65867754040f03fd538a809",
+    "titre": "Zapier vs. Workato for enterprise agents: Which is best? [2026]",
+    "resume": "Agents have always come with limits. Real estate agents can list your house, but they can't sell your car. Agent 007 can neutralize a threat, but he can't invade a country or detonate a nuclear warhead. (Bond, famously, did not always get the memo.) Enterprise agents work the same way. Your boundaries determine the apps they can access, the credentials they use, and the actions they can take. But you're not the only one setting limits: the platform you choose has its own constraints, and the wro",
+    "date": "2026-05-29",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Comparaison d'outils (Zapier vs Workato) pour les agents d'entreprise, avec des données chiffrées potentielles. Cet article est une information utile pour les entreprises cherchant à implémenter des agents IA.",
+    "tags": [
+      "Zapier",
+      "Workato",
+      "agents d'entreprise",
+      "comparatif outils"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.65
+  },
+  {
     "url": "https://medium.com/@hitesh88it/power-bi-finally-gets-set-as-landing-page-a-small-feature-that-solves-a-big-everyday-problem-8128ce6e085b?source=rss------power_bi-5",
     "url_hash": "d6badcd1969f80f298a8cfc64d69a251",
     "titre": "Power BI Finally Gets “Set as Landing Page” — A Small Feature That Solves a Big Everyday Problem",
@@ -10517,6 +10955,30 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 4,
+    "score_composite": 4.6
+  },
+  {
+    "url": "https://www.producthunt.com/products/tabtasker",
+    "url_hash": "ad5821baeafd41b83dc038feb881a760",
+    "titre": "TabTasker",
+    "resume": "\n            Zero servers. Total privacy. Your new favorite toolbox.\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-05-29",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "NOCODE_LOWCODE",
+    "raison_score": "Lancement d'un nouvel outil no-code/low-code axé sur la vie privée, ce qui constitue une évolution notable dans cet espace.",
+    "tags": [
+      "No-code",
+      "Low-code",
+      "Privacy",
+      "Product Launch"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 7,
     "score_composite": 4.6
   },
   {
@@ -11076,6 +11538,29 @@
       "Power BI",
       "business intelligence",
       "data visualization"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.15
+  },
+  {
+    "url": "https://medium.com/powerbi-microsoft-fabric/calculated-column-vs-measure-in-power-bi-the-difference-every-developer-should-know-2c770265ffe6?source=rss------power_bi-5",
+    "url_hash": "e038e2e36534675fd6d0caf4f36e7fdd",
+    "titre": "Calculated Column vs Measure in Power BI: The Difference Every Developer Should Know",
+    "resume": "One of the first concepts Power BI developers encounter is the distinction between Calculated Columns and Measures. While both are created…Continue reading on PowerBI + Microsoft Fabric »",
+    "date": "2026-05-31",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Information utile sur une distinction fondamentale dans le développement Power BI, expliquée clairement pour les développeurs.",
+    "tags": [
+      "power bi",
+      "dax",
+      "developer"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
@@ -11755,6 +12240,29 @@
       "dashboard",
       "pharmaceutique",
       "cas d'usage"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.55
+  },
+  {
+    "url": "https://medium.com/@contact.kiran1997/highlight-any-date-range-on-a-power-bi-line-chart-0c2e1bd48280?source=rss------power_bi-5",
+    "url_hash": "5686a879f2b387519fd5b6cc8bf656e7",
+    "titre": "Highlight Any Date Range on a Power BI Line Chart",
+    "resume": "Step 1: Set up the VisualContinue reading on Medium »",
+    "date": "2026-05-31",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Article utile décrivant une pratique établie pour améliorer la visualisation dans Power BI. Il est simple mais factuel.",
+    "tags": [
+      "power bi",
+      "data visualization",
+      "line chart"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 2,
