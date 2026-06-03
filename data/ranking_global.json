@@ -58,7 +58,7 @@
     "source_name": "VentureBeat AI",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_MODELES",
     "raison_score": "Cet article annonce une rupture majeure : un nouveau modèle IA (MiniMax M3) qui surperforme les modèles leaders sur des benchmarks clés, pour une fraction du coût. C'est un changement de donne potentiel sur le marché des grands modèles IA.",
@@ -453,6 +453,31 @@
     "score_composite": 8.0
   },
   {
+    "url": "https://venturebeat.com/orchestration/openais-codex-update-lets-agents-build-interactive-enterprise-workspaces-via-sites-and-role-specific-plugins",
+    "url_hash": "5eef0aa74879fa20e81b8211760a369e",
+    "titre": "OpenAI's Codex update lets agents build interactive enterprise workspaces via Sites and role-specific plugins",
+    "resume": "Agentic AI is moving rapidly from the developer terminal to the corporate world.On Tuesday, OpenAI announced a major update of its agentic AI platform Codex, introducing domain-specific workflows, a rapid, semi-private web hosting feature within it for enterprises called \"Sites,\" and an in-place editing tool named \"Annotations\". The release marks a deliberate strategy to transform Codex from a specialized programming assistant into an everyday operating environment for business professionals. No",
+    "date": "2026-06-02",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Mise à jour majeure de Codex permettant aux agents de construire des espaces de travail interactifs en entreprise, représentant une avancée significative pour l'application des agents.",
+    "tags": [
+      "Agents IA",
+      "Codex",
+      "Entreprise",
+      "Workspaces",
+      "OpenAI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 8.0
+  },
+  {
     "url": "https://venturebeat.com/orchestration/claudes-next-enterprise-battle-is-not-models-its-the-agent-control-plane",
     "url_hash": "dafa799855b71e88d75938467f3ce05f",
     "titre": "Claude’s next enterprise battle is not models: it’s the agent control plane",
@@ -550,6 +575,31 @@
     "pertinence_passionné_ia": 9,
     "pertinence_entrepreneur": 8,
     "score_composite": 7.95
+  },
+  {
+    "url": "https://venturebeat.com/infrastructure/microsoft-debuts-surface-rtx-spark-dev-box-to-run-large-ai-models-without-cloud-costs",
+    "url_hash": "f275023484a8030f1b11ba4c06563d82",
+    "titre": "Microsoft debuts Surface RTX Spark Dev Box to run large AI models without cloud costs",
+    "resume": "Microsoft on Monday unveiled the Surface RTX Spark Dev Box, a compact desktop computer designed to let software developers run large AI models on their desks instead of paying for cloud computing — a move that directly challenges the per-token pricing model that has defined the AI industry's economics since ChatGPT launched three and a half years ago.The device, announced at Microsoft Build 2026, packs Nvidia’s new Blackwell-architecture RTX Spark processor and 128 gigabytes of unified memory in",
+    "date": "2026-06-02",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Début d'une nouvelle solution matérielle (Dev Box) pour exécuter de grands modèles IA localement, changeant potentiellement le modèle économique de l'industrie.",
+    "tags": [
+      "Modèles IA",
+      "Matériel IA",
+      "Local",
+      "Coût",
+      "Microsoft"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 7.9
   },
   {
     "url": "https://blog.n8n.io/n8n-partners-with-sap-to-bring-visual-ai-workflow-orchestration-to-enterprise/",
@@ -829,6 +879,30 @@
     "score_composite": 7.750000000000001
   },
   {
+    "url": "https://venturebeat.com/technology/perplexity-ai-unveils-hybrid-local-cloud-inference-system-at-computex-2026",
+    "url_hash": "f69a41d0dc92505aefc3b9e65c00ee6e",
+    "titre": "Perplexity AI unveils hybrid local-cloud inference system at Computex 2026",
+    "resume": "Perplexity AI, the fast-growing search startup now valued at $20 billion, unveiled what it calls the first hybrid local-server inference orchestrator at Computex 2026 on Monday night, demonstrating software that autonomously decides — in real time and mid-task — which AI workloads stay on a user's device and which get routed to frontier models in the cloud.CEO Aravind Srinivas demonstrated the system onstage alongside Intel CEO Lip-Bu Tan during Intel's keynote address, using Perplexity's \"Perso",
+    "date": "2026-06-02",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Lancement d'un système d'inférence hybride local-cloud par Perplexity AI, offrant une nouvelle approche architecturale pour l'utilisation des modèles IA. Ceci représente une avancée significative pour l'efficacité et la flexibilité des applications IA.",
+    "tags": [
+      "IA",
+      "système hybride",
+      "inférence",
+      "Perplexity AI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.750000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/21/qwen-introduces-qwen3-7-max-a-reasoning-agent-model-with-a-1m-token-context-window/",
     "url_hash": "963aca643bfeeb1702c364574905f9d6",
     "titre": "Qwen Introduces Qwen3.7-Max: A Reasoning Agent Model With a 1M-Token Context Window",
@@ -995,6 +1069,31 @@
       "réglementation",
       "sécurité",
       "éthique"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.6000000000000005
+  },
+  {
+    "url": "https://venturebeat.com/security/microsoft-launches-mxc-an-os-level-sandbox-for-ai-agents-with-openai-and-nvidia-already-on-board",
+    "url_hash": "402b4fbdd5e6d78e066df6fa9714ab5c",
+    "titre": "Microsoft launches MXC, an OS-level sandbox for AI agents, with OpenAI and Nvidia already on board",
+    "resume": "For the past two years, the technology industry has raced to make AI agents more capable — teaching them to write code, navigate software interfaces, manage files, and orchestrate multi-step workflows with increasing autonomy. What the industry has not done, at least not with any consistency, is answer the question that keeps chief information security officers awake at night: what happens when an agent goes wrong?On Tuesday at its annual Build developer conference, Microsoft offered what may be",
+    "date": "2026-06-02",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Lancement de MXC par Microsoft, une solution de sandbox au niveau OS pour les agents IA, qui adresse directement un problème de sécurité critique pour les entreprises. C'est une avancée significative dans le domaine de la sécurité des IA.",
+    "tags": [
+      "IA",
+      "sécurité",
+      "agents",
+      "sandbox",
+      "Microsoft"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 8,
@@ -1724,6 +1823,56 @@
     "score_composite": 7.300000000000001
   },
   {
+    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Building-in-the-Agentic-Era-with-Power-BI-and-Fabric/ba-p/5190754",
+    "url_hash": "fa15d7fc8060ee626f829b2cdb533ad8",
+    "titre": "Building in the Agentic Era with Power BI and Fabric",
+    "resume": "Microsoft Build 2026 marks a major shift in how developers build data experiences with AI agents. Today we're announcing two capabilities that bring agentic analytics to the forefront: Agent Skills for Power BI, which let developers prompt an AI agent to build and refine semantic models and reports, and Fabric Apps for Semantic Models, which enable AI agents to build and deploy Fabric-native web apps on semantic models. Both capabilities will accelerate the time it takes to go from raw data to a",
+    "date": "2026-06-02",
+    "source_name": "Power BI Blog",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article annonce des nouvelles capacités majeures pour Power BI et Fabric dans le contexte des agents IA (Agent Skills, Fabric Apps). Il introduit une nouvelle capacité agent documentée et reproductible.",
+    "tags": [
+      "Power BI",
+      "Microsoft Fabric",
+      "agents IA",
+      "analytics",
+      "modèles sémantiques"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.300000000000001
+  },
+  {
+    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-at-Microsoft-Build-2026-The-Agentic-Era-of-analytics/ba-p/5191671",
+    "url_hash": "58c84e7642c8b0ecb523139d59c1c408",
+    "titre": "Power BI at Microsoft Build 2026: The Agentic Era of analytics",
+    "resume": "Microsoft Build 2026 brings the next generation of intelligent analytics to Power BI—where agents do the building, apps deliver insights everywhere, and the platform gets more powerful for every user.",
+    "date": "2026-06-02",
+    "source_name": "Power BI Blog",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "BI_OUTILS",
+    "raison_score": "L'article décrit la nouvelle ère 'agentic' pour Power BI, marquant une évolution significative des capacités d'analyse grâce aux agents IA. Il s'agit d'une nouvelle capacité agent documentée dans un outil mainstream.",
+    "tags": [
+      "Power BI",
+      "Microsoft Build",
+      "agents IA",
+      "analytics",
+      "automatisation"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.300000000000001
+  },
+  {
     "url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
     "url_hash": "161f77b8cd2329df0b91ed205e11abe7",
     "titre": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
@@ -1940,6 +2089,30 @@
       "organizational design",
       "business strategy",
       "AI adoption"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.200000000000001
+  },
+  {
+    "url": "https://venturebeat.com/resources/the-agentic-reckoning-enterprise-ai-organizations-have-a-runtime-problem-not-a-model-problem",
+    "url_hash": "f74ade91ac54e2ead7cdb1d5c4a1c6ca",
+    "titre": "The Agentic Reckoning: Enterprise AI organizations have a runtime problem, not a model problem — and most are building the wrong solution",
+    "resume": "In Q1 2026, VentureBeat's Pulse Research surfaced the “Governance Mirage”: the gap between the governance org charts enterprises had drawn and the control layers they had actually built. Forty-three percent said a central team owned AI governance; 23% couldn't agree on who owned it at all; and 31% named vendor opacity as the single biggest obstacle.This new wave of research asks the next question: Once you've admitted the governance problem, what breaks first when you try to fix it? The answer f",
+    "date": "2026-06-02",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Analyse approfondie du problème de runtime des agents IA en entreprise, proposant une nouvelle perspective et une pratique entrepreneuriale documentée.",
+    "tags": [
+      "Agents IA",
+      "Entreprise",
+      "Runtime",
+      "Stratégie IA"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 6,
@@ -2442,6 +2615,30 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 8,
+    "score_composite": 7.1000000000000005
+  },
+  {
+    "url": "https://www.wired.com/story/nvidia-rtx-spark-laptop-disruption/",
+    "url_hash": "7d173a0d62bbb2e4c15b67eee5eabdae",
+    "titre": "Nvidia’s RTX Spark Laptops Look Hell-Bent on Disruption",
+    "resume": "The company’s RTX Spark chips might finally turn the “AI PC” into reality.",
+    "date": "2026-06-03",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article annonce potentiellement une avancée significative avec les puces RTX Spark de Nvidia, visant à concrétiser le concept de \"PC IA\". C'est une évolution qui pourrait redéfinir l'accès et l'utilisation de l'IA sur les appareils personnels, marquant une capacité nouvelle et prometteuse.",
+    "tags": [
+      "Nvidia",
+      "PC IA",
+      "hardware",
+      "intelligence artificielle"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
     "score_composite": 7.1000000000000005
   },
   {
@@ -3341,6 +3538,29 @@
     "score_composite": 6.95
   },
   {
+    "url": "https://www.databricks.com/blog/cross-industry-technology-and-functional-genie-partner-solutions",
+    "url_hash": "11a077db28892edc8c704d12bbb35832",
+    "titre": "Scaling Enterprise Conversational Intelligence: Cross-industry Technology and Functional Solutions Powered by Databricks Genie",
+    "resume": "As we explored in our first blog, Databricks Genie is redefining industry-specific...",
+    "date": "2026-06-03",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "L'article présente une solution pour l'intelligence conversationnelle d'entreprise, potentiellement une avancée pour l'application de l'IA dans des secteurs variés via une plateforme. Il documente une nouvelle capacité d'agent avec une approche orientée solution.",
+    "tags": [
+      "intelligence conversationnelle",
+      "Databricks Genie",
+      "IA d'entreprise"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
     "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
     "url_hash": "cf9ab79d536b4ff2ee68204ed0cc9d9d",
     "titre": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
@@ -3555,6 +3775,31 @@
       "confidentialité",
       "PII",
       "open-weight"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.850000000000001
+  },
+  {
+    "url": "https://venturebeat.com/data/enterprise-ai-agents-keep-creating-data-silos-microsofts-build-answer-is-microsoft-iq-and-rayfin",
+    "url_hash": "237ed067d5e33d2b168a31ef2d583b56",
+    "titre": "Enterprise AI agents keep creating data silos. Microsoft's Build answer is Microsoft IQ and Rayfin.",
+    "resume": "Every new AI agent your team deploys starts from scratch: no memory of how the business works, where data lives, or what rules apply. And as agentic coding tools spin up applications faster than anyone can govern them, each one risks becoming another silo outside your data layer entirely. Microsoft is addressing both problems directly at Build 2026.According to VentureBeat's VB Pulse's Q1 2026 RAG Infrastructure Market Tracker, hybrid retrieval intent among 100-plus employee organizations triple",
+    "date": "2026-06-02",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Microsoft propose des solutions (Microsoft IQ, Rayfin) pour résoudre le problème des silos de données créés par les agents IA en entreprise, indiquant une nouvelle capacité et une réponse architecturale documentée.",
+    "tags": [
+      "IA",
+      "agents",
+      "données",
+      "silos",
+      "Microsoft"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 7,
@@ -4432,6 +4677,30 @@
     "score_composite": 6.7
   },
   {
+    "url": "https://www.latent.space/p/github",
+    "url_hash": "dcfd97d2b0d35a43516dc1eba30363d5",
+    "titre": "GitHub's plan for Agents — Kyle Daigle, GitHub",
+    "resume": "GitHub pioneered the modern AI coding era with Copilot, and the resulting explosion in agentic coding has led to notable strains on the most popular developer platform in the world. Here's the plan.",
+    "date": "2026-06-02",
+    "source_name": "Latent Space",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article détaille un plan concret pour l'intégration des agents chez GitHub, une plateforme centrale pour les développeurs. Il aborde une nouvelle capacité agent documentée et reproductible dans un contexte de développement logiciel.",
+    "tags": [
+      "GitHub Copilot",
+      "agents",
+      "développement logiciel",
+      "plateforme développeur"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
     "url": "https://openai.com/index/codex-for-almost-everything",
     "url_hash": "a0464d4374d6d6dfda4d74b47f8c98b0",
     "titre": "Codex for (almost) everything",
@@ -4700,6 +4969,30 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 9,
     "pertinence_entrepreneur": 6,
+    "score_composite": 6.65
+  },
+  {
+    "url": "https://venturebeat.com/technology/alibabas-qwen3-7-plus-supports-text-video-and-imagery-inputs-at-low-cost-of-0-4-1-6-per-1m-token-but-its-proprietary",
+    "url_hash": "270397becd0631795ee8c87db6f82481",
+    "titre": "Alibaba's Qwen3.7-Plus supports text, video and imagery inputs at low cost of $0.4/$1.6 per 1M token — but it's proprietary",
+    "resume": "Alibaba this week released Qwen3.7-Plus, the latest AI large language model (LLM) in its globally beloved and increasingly expansive Qwen family, boasting more multimodal capabilities and a 60% lower cost than the prior, text-only Qwen3.7-Max model released just weeks ago. However, like its immediate predecessor Qwen3.7-Plus is available only under a \"closed\" commercial license via proprietary application programming interfaces (API) and Qwen Chat. That marks a big departure from the Qwen strate",
+    "date": "2026-06-02",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce d'une mise à jour majeure du modèle Qwen3.7-Plus avec des capacités multimodales accrues et un coût réduit, bien que son caractère propriétaire limite son impact open-source.",
+    "tags": [
+      "IA",
+      "modèle",
+      "multimodal",
+      "coût"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 5,
     "score_composite": 6.65
   },
   {
@@ -5314,6 +5607,54 @@
       "modèles",
       "génération",
       "traitement"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
+    "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+    "url_hash": "9b923bad35afe3ad927ac520d5b48035",
+    "titre": "Codex for every role, tool, and workflow",
+    "resume": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+    "date": "2026-06-02",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Annonce de nouvelles capacités pour Codex, visant à améliorer la productivité dans divers rôles et flux de travail, ce qui représente une avancée significative pour le développement assisté par l'IA.",
+    "tags": [
+      "IA",
+      "développement",
+      "Codex",
+      "productivité"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
+    "url": "https://huggingface.co/blog/Hcompany/holo31",
+    "url_hash": "c9edca228384606cca8b4cda2b762e8a",
+    "titre": "Holo3.1: Fast & Local Computer Use Agents",
+    "resume": "",
+    "date": "2026-06-02",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Présente Holo3.1, un nouveau modèle d'agents d'IA axé sur la rapidité et l'utilisation locale, représentant une nouvelle capacité documentée et potentiellement reproductible dans le domaine des agents IA.",
+    "tags": [
+      "IA",
+      "agents",
+      "local",
+      "performance"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -7334,6 +7675,31 @@
     "score_composite": 6.050000000000001
   },
   {
+    "url": "https://towardsdatascience.com/from-regex-to-vision-models-which-rag-technique-fits-which-problem/",
+    "url_hash": "4c458e9ae5cee6e64ce224f0c437ef0a",
+    "titre": "From Regex to Vision Models: Which RAG Technique Fits Which Problem",
+    "resume": "Enterprise Document Intelligence [Vol.1 #4] - A diagnostic across PDFs and questions, and a map of the techniques the rest of the series will cover\nThe post From Regex to Vision Models: Which RAG Technique Fits Which Problem appeared first on Towards Data Science.",
+    "date": "2026-06-02",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article propose un tutoriel avancé sur les différentes techniques RAG et leur application à divers problèmes, y compris les modèles de vision. Il est utile pour comprendre quand utiliser quelle méthode RAG.",
+    "tags": [
+      "RAG",
+      "Retrieval-Augmented Generation",
+      "modèles de langage",
+      "vision par ordinateur",
+      "PDF"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.050000000000001
+  },
+  {
     "url": "https://www.latent.space/p/ainews-ai-engineer-worlds-fair-autoresearch",
     "url_hash": "a93e2b797ce69f0ac04d33d497a222e9",
     "titre": "[AINews] AI Engineer World's Fair — Autoresearch, Memory, World Models, Tokenmaxxing, Agentic Commerce, and Vertical AI Call for Speakers",
@@ -7996,6 +8362,29 @@
     "score_composite": 5.85
   },
   {
+    "url": "https://www.producthunt.com/products/dropstone-2",
+    "url_hash": "2bae7486a91b0c45948b2850458c7a3f",
+    "titre": "Dropstone 1.5",
+    "resume": "\n            2× Claude Code Pro's usage at $15/mo\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-06-03",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article présente une mise à jour d'un outil qui semble améliorer l'utilisation de modèles IA (Claude Code Pro). Bien qu'il ne soit pas une rupture, l'amélioration de l'accès et du coût d'utilisation de modèles puissants constitue une avancée significative pour l'application de l'IA.",
+    "tags": [
+      "IA",
+      "Claude Code Pro",
+      "optimisation"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.85
+  },
+  {
     "url": "https://openai.com/index/gpt-5-5-system-card",
     "url_hash": "915b6ff115f0885dca2ea04c60c1489a",
     "titre": "GPT-5.5 System Card",
@@ -8288,6 +8677,30 @@
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 5,
     "score_composite": 5.800000000000001
+  },
+  {
+    "url": "https://www.wired.com/story/whats-worth-more-than-san-francisco-real-estate-anthropic-stock/",
+    "url_hash": "5649ee1b609b58eb589a060dd45bd3c2",
+    "titre": "What’s Worth More Than Cash in San Francisco Real Estate? Anthropic Stock",
+    "resume": "Several real estate listings in the San Francisco Bay Area are offering to exchange a home for a piece of the AI startup.",
+    "date": "2026-06-03",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "L'article met en évidence l'évaluation extrême d'une startup IA, reflétant une dynamique d'investissement notable mais pas un changement architectural ou une percée scientifique.",
+    "tags": [
+      "IA",
+      "startup",
+      "investissement",
+      "évaluation"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 5.750000000000001
   },
   {
     "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
@@ -8776,6 +9189,30 @@
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 4,
+    "score_composite": 5.6
+  },
+  {
+    "url": "https://www.producthunt.com/products/replicas",
+    "url_hash": "a69e6a1af111f81feb77452fd3d24fe2",
+    "titre": "Replicas",
+    "resume": "\n            Run Claude Code and Codex in the cloud\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-06-03",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Il s'agit d'un nouveau produit qui permet d'exécuter des modèles de langage comme Claude Code et Codex dans le cloud, offrant une nouvelle capacité reproductible pour le développement assisté par IA. L'aspect compétitif est présent car il offre un accès à des modèles puissants.",
+    "tags": [
+      "IA",
+      "code generation",
+      "cloud",
+      "développement assisté"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
     "score_composite": 5.6
   },
   {
@@ -10030,6 +10467,30 @@
     "score_composite": 5.3
   },
   {
+    "url": "https://www.databricks.com/blog/query-tags-context-your-warehouse-queries-have-been-missing",
+    "url_hash": "0b219b342a9000e79eef50206f796aeb",
+    "titre": "Query Tags: The Context Your Warehouse Queries Have Been Missing",
+    "resume": "Databricks SQL logs key attributes of every query automatically: who ran it, on which...",
+    "date": "2026-06-02",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Il s'agit d'une mise à jour importante d'un outil existant (Databricks SQL) qui ajoute une fonctionnalité de 'query tags' pour améliorer le contexte des requêtes. C'est une évolution notable pour la gestion des data warehouses.",
+    "tags": [
+      "Databricks SQL",
+      "data warehouse",
+      "gestion des requêtes",
+      "métadonnées"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3
+  },
+  {
     "url": "https://huggingface.co/blog/multimodal-sentence-transformers",
     "url_hash": "aeed5283fa2292a239084f82e2ac66b8",
     "titre": "Multimodal Embedding & Reranker Models with Sentence Transformers",
@@ -10539,6 +11000,31 @@
       "best practices",
       "business intelligence",
       "data modeling"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
+  },
+  {
+    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/DAX-User-Defined-Functions-Generally-Available/ba-p/5185738",
+    "url_hash": "05f14d6f06449c386388041b093de430",
+    "titre": "DAX User-Defined Functions (Generally Available)",
+    "resume": "DAX user-defined functions are now production-ready based on community feedback and internal validation. Their adoption during preview shows that DAX UDFs are quickly becoming a mainstay of Power BI semantic models.",
+    "date": "2026-06-02",
+    "source_name": "Power BI Blog",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "L'annonce de la disponibilité générale des Fonctions Définies par l'Utilisateur DAX représente une mise à jour importante pour Power BI, permettant une meilleure flexibilité et réutilisabilité dans les modèles sémantiques.",
+    "tags": [
+      "DAX",
+      "Power BI",
+      "fonctions définies par l'utilisateur",
+      "modèles sémantiques",
+      "Business Intelligence"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 3,
@@ -11226,6 +11712,30 @@
     "score_composite": 4.9
   },
   {
+    "url": "https://www.wired.com/story/redditors-are-using-ai-to-beat-obscene-fifa-world-cup-ticket-prices/",
+    "url_hash": "db1e8e71aabdb2ddf409e8e4b65fab63",
+    "titre": "Redditors Are Using AI to Beat Obscene World Cup Ticket Prices",
+    "resume": "Soccer fans on r/WorldCup2026Tickets are using Claude to build DIY ticketing software, exchanging on back channels, and leaving scalpers scrambling.",
+    "date": "2026-06-03",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Décrit l'utilisation pratique et innovante d'IA par des individus pour contourner les prix élevés des billets, illustrant un cas d'usage créatif mais limité dans son impact sectoriel.",
+    "tags": [
+      "IA",
+      "cas d'usage",
+      "automatisation",
+      "billetterie"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.9
+  },
+  {
     "url": "https://medium.com/microsoft-power-bi/imputing-nulls-with-median-values-in-power-query-pbix-included-bd63100492df?source=rss------power_bi-5",
     "url_hash": "42a9254d75d9e2598af4696708fd64ea",
     "titre": "Imputing Nulls With Median Values in Power Query(.pbix included)",
@@ -11271,6 +11781,54 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 4,
+    "score_composite": 4.8999999999999995
+  },
+  {
+    "url": "https://iswzr.medium.com/how-to-build-a-power-bi-calendar-heat-map-without-any-custom-visuals-step-by-step-b207f4f9a114?source=rss------power_bi-5",
+    "url_hash": "a227d7c5a27a0c4c6177401a1015223f",
+    "titre": "How to Build a Power BI Calendar Heat Map Without Any Custom Visuals (Step-by-Step)",
+    "resume": "Stop downloading AppSource visuals you don’t need. The native Matrix visual already does this — most developers just don’t know how.Continue reading on Medium »",
+    "date": "2026-06-03",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un tutoriel avancé montrant une méthode pour réaliser une visualisation spécifique dans Power BI sans recourir à des éléments externes. Il s'agit d'une évolution notable dans les pratiques de visualisation.",
+    "tags": [
+      "Power BI",
+      "visualisation",
+      "heat map",
+      "tutoriel"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 4.8999999999999995
+  },
+  {
+    "url": "https://medium.com/powerbi-microsoft-fabric/cardinality-in-power-bi-the-foundation-of-effective-data-modeling-fdb67b713879?source=rss------power_bi-5",
+    "url_hash": "b3cfc1de4d39d82da2961b78720c672f",
+    "titre": "Cardinality in Power BI: The Foundation of Effective Data Modeling",
+    "resume": "When building Power BI reports, most developers focus on visuals, DAX measures, and dashboards. However, one of the most critical aspects…Continue reading on PowerBI + Microsoft Fabric »",
+    "date": "2026-06-03",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article traite d'un concept fondamental en modélisation de données dans Power BI : la cardinalité. Il documente un cas d'usage BI important et apporte des métriques implicites sur la performance, représentant une évolution notable dans la compréhension des bonnes pratiques.",
+    "tags": [
+      "Power BI",
+      "modélisation de données",
+      "cardinalité",
+      "DAX"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 2,
     "score_composite": 4.8999999999999995
   },
   {
@@ -12372,6 +12930,30 @@
     "score_composite": 4.35
   },
   {
+    "url": "https://medium.com/microsoft-power-bi/when-things-get-weird-with-the-custom-calendars-in-tabular-models-d5a365c9f076?source=rss------power_bi-5",
+    "url_hash": "6fbb0a4de6f12e0e83a10d36da70818c",
+    "titre": "When things get weird with the Custom Calendars in Tabular models",
+    "resume": "With the Calendar-based Time Intelligence in Tabular models we have a lot of possibilities. But what about the issues and weird things?Continue reading on Power BI »",
+    "date": "2026-06-03",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "L'article aborde des problématiques et des solutions pour les calendriers personnalisés dans les modèles Tabular de Power BI. Il s'agit d'une information utile pour les utilisateurs avancés, représentant une évolution notable sur un sujet technique spécifique.",
+    "tags": [
+      "Power BI",
+      "Tabular models",
+      "calendrier personnalisé",
+      "modélisation de données"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 1,
+    "score_composite": 4.300000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/19/upstash-for-redis-vs-supabase-vs-neon-which-one-fits-vibe-coding-workflows-in-2026/",
     "url_hash": "5ce130c0c4e682ec75d0f77984de2170",
     "titre": "Upstash for Redis vs Supabase vs Neon: Which One Fits Vibe Coding Workflows in 2026?",
@@ -12518,6 +13100,29 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 7,
+    "score_composite": 4.2
+  },
+  {
+    "url": "https://medium.com/@fionatonythomas/top-7-power-bi-alternatives-for-data-backed-decision-making-in-2026-1c49bc016d85?source=rss------power_bi-5",
+    "url_hash": "ae9863b355c9f072acc8bbb22a25833e",
+    "titre": "Top 7 Power BI Alternatives for Data-Backed Decision Making in 2026",
+    "resume": "Looking for the best Power BI alternatives to transform raw data into actionable business insights? While Microsoft Power BI remains a…Continue reading on Medium »",
+    "date": "2026-06-03",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article compare plusieurs outils BI alternatifs à Power BI. Bien qu'utile pour une veille technologique, il ne présente pas de contenu disruptif ou de nouvelle capacité mais une comparaison d'outils existants.",
+    "tags": [
+      "Power BI",
+      "alternatives BI",
+      "comparatif outils"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
     "score_composite": 4.2
   },
   {
@@ -12687,6 +13292,30 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 3,
+    "score_composite": 3.95
+  },
+  {
+    "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+    "url_hash": "ffa5f8be5836e3d8c51da331d2ee360d",
+    "titre": "Advancing youth safety and opportunity through global leadership",
+    "resume": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+    "date": "2026-06-02",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "SECURITE_IA",
+    "raison_score": "L'article aborde des sujets importants de sécurité et d'opportunité pour les jeunes liés à l'IA, mais il s'agit davantage d'une discussion stratégique et éthique que d'une avancée technique concrète.",
+    "tags": [
+      "IA",
+      "sécurité",
+      "éthique",
+      "jeunesse"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
     "score_composite": 3.95
   },
   {
@@ -13223,6 +13852,29 @@
     "score_composite": 3.5500000000000003
   },
   {
+    "url": "https://zapier.com/blog/client-management-app",
+    "url_hash": "fecf103ea874fc3e903024eb27cb5d92",
+    "titre": "The 6 best client management apps in 2026",
+    "resume": "The more clients you win, the more taxing it becomes to track, contact, and manage all of them. If you're here, you've probably learned firsthand that email and spreadsheets can only get you so far, and you've decided it's time to look at dedicated client management software. Good choice.  The market is flooded with CRMs and lead management tools, so I sifted through the top offerings—all of which have been vetted and tested by the Zapier team—and put together a list of standout apps that make m",
+    "date": "2026-06-04",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article liste des applications de gestion client, un domaine où l'IA peut être appliquée pour améliorer l'efficacité. Il est utile pour comprendre les outils existants mais ne propose pas de percée technologique.",
+    "tags": [
+      "CRM",
+      "gestion client",
+      "automatisation"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 3.5500000000000003
+  },
+  {
     "url": "https://medium.com/@cpdsamarasinghe/from-raw-numbers-to-real-insights-your-first-steps-with-power-bi-17238a36d70f?source=rss------power_bi-5",
     "url_hash": "3686ed565ab784801d34f90513809b40",
     "titre": "From Raw Numbers to Real Insights: Your First Steps with Power BI",
@@ -13700,6 +14352,30 @@
     "pertinence_bi_consultant": 2,
     "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 6,
+    "score_composite": 3.0
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/03/the-worlds-largest-privately-owned-laser-just-turned-on/",
+    "url_hash": "c3ba441ec6ca7ecac4d80d7fead3eb94",
+    "titre": "The world’s largest privately owned laser just turned on",
+    "resume": "Fusion startup Xcimer fired up the world's largest privately owned laser.",
+    "date": "2026-06-03",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "L'activation du plus grand laser privé au monde est une nouvelle technologique impressionnante liée à l'innovation entrepreneuriale dans un domaine de pointe. L'impact est plus dans la démonstration de capacité technologique que dans une application directe pour le BI ou l'IA.",
+    "tags": [
+      "physique",
+      "laser",
+      "startup",
+      "innovation"
+    ],
+    "pertinence_bi_consultant": 1,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 5,
     "score_composite": 3.0
   },
   {
