@@ -127,6 +127,33 @@
     "score_composite": 8.549999999999999
   },
   {
+    "url": "https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/",
+    "url_hash": "05e4c743f870e15ec654f8447303b880",
+    "titre": "NVIDIA Releases Cosmos 3: A Two-Tower Mixture-of-Transformers Foundation Model Unifying Physical Reasoning, World Generation, and Action Generation",
+    "resume": "NVIDIA released Cosmos 3, open omnimodal world models pairing an autoregressive VLM reasoner with a diffusion generator for physical AI.\nThe post NVIDIA Releases Cosmos 3: A Two-Tower Mixture-of-Transformers Foundation Model Unifying Physical Reasoning, World Generation, and Action Generation appeared first on MarkTechPost.",
+    "date": "2026-06-03",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "Publication d'un nouveau modèle fondamental ('foundation model') par NVIDIA qui unifie raisonnement physique, génération de monde et d'action. Changement de paradigme dans la modélisation IA omnimodale.",
+    "tags": [
+      "Cosmos 3",
+      "NVIDIA",
+      "foundation model",
+      "omnimodal",
+      "physical reasoning",
+      "world generation",
+      "action generation"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 10,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 8.549999999999999
+  },
+  {
     "url": "https://blog.n8n.io/n8n-sap/",
     "url_hash": "7a846c9e51fec41ee6a27f6845df35bb",
     "titre": "Announcing SAP’s strategic investment in n8n",
@@ -461,7 +488,7 @@
     "source_name": "VentureBeat AI",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "IA_AGENTS",
     "raison_score": "Mise à jour majeure de Codex permettant aux agents de construire des espaces de travail interactifs en entreprise, représentant une avancée significative pour l'application des agents.",
@@ -1301,6 +1328,59 @@
     "score_composite": 7.55
   },
   {
+    "url": "https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/",
+    "url_hash": "24a453d6ccaea6576ee85252778e579d",
+    "titre": "Google DeepMind Releases Gemma 4 12B: An Encoder-Free Multimodal Model with Native audio that runs on a 16 GB laptop",
+    "resume": "Gemma 4 12B feeds vision and audio straight into the LLM backbone, running locally under an Apache 2.0 license.\nThe post Google DeepMind Releases Gemma 4 12B: An Encoder-Free Multimodal Model with Native audio that runs on a 16 GB laptop appeared first on MarkTechPost.",
+    "date": "2026-06-03",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Lancement d'un modèle multimodal open-source performant et accessible (fonctionne sur 16GB RAM) avec une architecture novatrice (encoder-free). Avancée significative pour la démocratisation des modèles complexes.",
+    "tags": [
+      "Gemma 4 12B",
+      "Google DeepMind",
+      "multimodal",
+      "audio",
+      "modèle open-source",
+      "local execution"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.55
+  },
+  {
+    "url": "https://venturebeat.com/technology/googles-new-open-source-gemma-4-12b-analyzes-audio-video-and-runs-entirely-locally-on-a-typical-16gb-enterprise-laptop",
+    "url_hash": "d2bfbbad525601443f4b5c9f1bb8c3b7",
+    "titre": "Google's new open source Gemma 4 12B analyzes audio, video — and runs entirely locally on a typical 16GB enterprise laptop",
+    "resume": "While many AI open source model providers are pursuing larger and more powerful models, Google is still giving attention to the smaller, more local side of the market. Today, the tech giant released Gemma 4 12B, an 11.95-billion-parameter open-weights model with permissive Apache 2.0 license optimized to execute locally on a standard enterprise laptop using just 16GB of VRAM or unified memory.That means those enterprise users looking to keep working with AI while on a flight without WiFi, or try",
+    "date": "2026-06-03",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce d'un modèle open-source multimodal performant (Gemma 4 12B) optimisé pour fonctionner localement sur du matériel standard. Avancée significative pour l'accessibilité et l'utilisation 'edge'.",
+    "tags": [
+      "Gemma 4 12B",
+      "Google",
+      "open source",
+      "multimodal",
+      "local AI",
+      "edge AI",
+      "entreprise"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.55
+  },
+  {
     "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
     "url_hash": "6a3f232352e84718ff03ed1b32db1917",
     "titre": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
@@ -1791,6 +1871,32 @@
       "IA",
       "mode rapide",
       "agents"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3500000000000005
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/02/tinyfish-launches-bigset-an-open-source-multi-agent-system-that-builds-structured-live-datasets-from-plain-english-descriptions/",
+    "url_hash": "84c658763ec9aadc1937999d31c5274e",
+    "titre": "TinyFish Launches BigSet: An Open-Source Multi-Agent System That Builds Structured Live Datasets from Plain-English Descriptions",
+    "resume": "Describe a dataset in one sentence; Bigset's orchestrator and parallel sub-agents research the live web and return structured tables.\nThe post TinyFish Launches BigSet: An Open-Source Multi-Agent System That Builds Structured Live Datasets from Plain-English Descriptions appeared first on MarkTechPost.",
+    "date": "2026-06-02",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Lancement d'un système multi-agents open-source innovant pour la création de datasets structurés à partir de descriptions en langage naturel. Capacité à automatiser la construction de données.",
+    "tags": [
+      "IA",
+      "agents IA",
+      "open-source",
+      "datasets",
+      "automatisation",
+      "langage naturel"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -4798,6 +4904,33 @@
     "score_composite": 6.650000000000001
   },
   {
+    "url": "https://openai.com/index/wasmer",
+    "url_hash": "0af0c5c7221882c040c047bd5a4e0a42",
+    "titre": "How Wasmer used Codex to build a Node.js runtime for the edge",
+    "resume": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+    "date": "2026-06-03",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Démontre une amélioration significative des performances (10x-20x) et des délais de livraison grâce à l'utilisation de modèles IA (Codex avec GPT-5.5). Cas d'usage concret d'accélération de développement.",
+    "tags": [
+      "Wasmer",
+      "Codex",
+      "GPT-5.5",
+      "Node.js",
+      "edge computing",
+      "développement",
+      "automatisation"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.650000000000001
+  },
+  {
     "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
     "url_hash": "e3d1e8ca7a4ba78c0dc51bc32387a6db",
     "titre": "How enterprises are scaling AI",
@@ -6009,6 +6142,31 @@
     "score_composite": 6.450000000000001
   },
   {
+    "url": "https://www.databricks.com/blog/introducing-cross-engine-abac",
+    "url_hash": "3ea8039a12907c0b3faaabb1928744a9",
+    "titre": "Introducing Cross-Engine ABAC",
+    "resume": "In December, we shared our vision for completing the lakehouse: open storage, open...",
+    "date": "2026-06-02",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "L'introduction de l'ABAC inter-moteurs représente une avancée significative pour la gouvernance et la sécurité des données dans les architectures lakehouse.",
+    "tags": [
+      "databricks",
+      "lakehouse",
+      "ABAC",
+      "data governance",
+      "security"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.450000000000001
+  },
+  {
     "url": "https://openai.com/index/sea-david-chen",
     "url_hash": "73eb815ab647d89faf48507d9549a934",
     "titre": "Sea's View on the Future of Agentic Software Development with Codex",
@@ -6300,6 +6458,32 @@
       "prompt injection",
       "anthropic",
       "vulnerabilite"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.350000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/03/nous-research-releases-hermes-desktop-a-native-cross-platform-front-end-for-hermes-agent-v0-15-2-with-streaming-tool-output/",
+    "url_hash": "cb448062966c994f0e8d1e73aec15375",
+    "titre": "Nous Research Releases Hermes Desktop: A Native Cross-Platform Front End for Hermes Agent v0.15.2 with Streaming Tool Output",
+    "resume": "Hermes Desktop is a no-terminal GUI sharing one agent core, skills, and memory with the Hermes Agent CLI.\nThe post Nous Research Releases Hermes Desktop: A Native Cross-Platform Front End for Hermes Agent v0.15.2 with Streaming Tool Output appeared first on MarkTechPost.",
+    "date": "2026-06-03",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Lancement d'une interface graphique pour un agent IA, améliorant son accessibilité et son interactivité avec le streaming des sorties d'outils. Nouvelle capacité agent documentée et reproductible.",
+    "tags": [
+      "Hermes Desktop",
+      "Hermes Agent",
+      "IA agents",
+      "GUI",
+      "tool output streaming",
+      "no-code"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -7700,6 +7884,76 @@
     "score_composite": 6.050000000000001
   },
   {
+    "url": "https://www.marktechpost.com/2026/06/04/miso-labs-releases-misotts-an-8b-emotive-text-to-speech-model-with-open-weights/",
+    "url_hash": "cd563203be35cfbba8eb246aa5f1f214",
+    "titre": "Miso Labs Releases MisoTTS: An 8B Emotive Text-to-Speech Model with Open Weights",
+    "resume": "Miso Labs has released MisoTTS, an open-weights 8B text-to-speech model. It uses residual vector quantization (RVQ) to scale its sonic range without scaling parameters, and conditions on both text and audio context to respond to speaker tone. The architecture pairs a 7.7B backbone with a 300M depth decoder.\nThe post Miso Labs Releases MisoTTS: An 8B Emotive Text-to-Speech Model with Open Weights appeared first on MarkTechPost.",
+    "date": "2026-06-04",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Publication d'un nouveau modèle open-source de génération de parole avec une architecture conséquente et des capacités avancées.",
+    "tags": [
+      "TTS",
+      "open-source",
+      "AI model"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.050000000000001
+  },
+  {
+    "url": "https://medium.com/@simon.buchi.sb/how-power-bi-quietly-became-one-of-the-most-valuable-business-skills-695f56b9110b?source=rss------power_bi-5",
+    "url_hash": "60d95ab64e3919f4dd8fc99d1562249d",
+    "titre": "How Power BI Quietly Became One of the Most Valuable Business Skills",
+    "resume": "A practical workshop that mirrors how modern companies make decisionsContinue reading on Medium »",
+    "date": "2026-06-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article explore la valeur croissante de Power BI en tant que compétence métier essentielle, soulignant son impact sur la prise de décision.",
+    "tags": [
+      "Power BI",
+      "business skills",
+      "data-driven decisions"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.05
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/03/benchmark-raises-its-first-ever-growth-fund-as-part-of-2b-capital-raise/",
+    "url_hash": "788f5071a2fbf1121561de7a4952eb81",
+    "titre": "Benchmark raises its first-ever growth fund as part of $2B capital raise",
+    "resume": "The legendary abandons its more than 20 year tradition of keeping its funds to about $425 million.",
+    "date": "2026-06-04",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Levée de fonds majeure pour un fonds de capital-risque historique, signalant une orientation stratégique vers le financement de croissance et potentiellement des startups IA.",
+    "tags": [
+      "Venture Capital",
+      "funding",
+      "tech industry",
+      "growth fund"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.05
+  },
+  {
     "url": "https://www.latent.space/p/ainews-ai-engineer-worlds-fair-autoresearch",
     "url_hash": "a93e2b797ce69f0ac04d33d497a222e9",
     "titre": "[AINews] AI Engineer World's Fair — Autoresearch, Memory, World Models, Tokenmaxxing, Agentic Commerce, and Vertical AI Call for Speakers",
@@ -7770,6 +8024,30 @@
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 4,
+    "score_composite": 6.0
+  },
+  {
+    "url": "https://www.producthunt.com/products/boxes-dev",
+    "url_hash": "8df61762a774b77ca2271396ade64682",
+    "titre": "Boxes.dev",
+    "resume": "\n            Run Claude Code and Codex in your own cloud environment\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-06-04",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Lancement d'un outil permettant d'exécuter des modèles de langage d'IA (Claude Code, Codex) dans un environnement cloud privé, offrant une nouvelle capacité aux développeurs.",
+    "tags": [
+      "AI",
+      "cloud",
+      "developer tools",
+      "LLM"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
     "score_composite": 6.0
   },
   {
@@ -8092,6 +8370,54 @@
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 5,
     "score_composite": 5.95
+  },
+  {
+    "url": "https://www.producthunt.com/products/microsoft-terminal",
+    "url_hash": "a20e28b431a29788d33de26066d983b6",
+    "titre": "Intelligent Terminal",
+    "resume": "\n            Windows Terminal with native agent integration\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-06-04",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Annonce d'une nouvelle capacité d'intégration d'agent dans un outil développeur mainstream (Windows Terminal), offrant une nouvelle façon d'interagir.",
+    "tags": [
+      "Windows Terminal",
+      "AI agent",
+      "developer tools",
+      "integration"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.95
+  },
+  {
+    "url": "https://medium.com/@gavin.ellis/how-power-bi-consulting-services-accelerate-enterprise-reporting-modernization-5f5d679f3c3b?source=rss------power_bi-5",
+    "url_hash": "53ec91a63863ffc9ee4f854e49cadb3b",
+    "titre": "How Power BI Consulting Services Accelerate Enterprise Reporting Modernization",
+    "resume": "Data is created by an ERP system, CRM system, cloud application, customer portal, supply chain network, and even operational databases in…Continue reading on Medium »",
+    "date": "2026-06-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il détaille comment les services de conseil Power BI peuvent moderniser les processus de reporting d'entreprise, en mettant l'accent sur l'accélération.",
+    "tags": [
+      "Power BI",
+      "consulting",
+      "reporting",
+      "modernization"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.949999999999999
   },
   {
     "url": "https://openai.com/index/autoscout24",
@@ -8970,6 +9296,57 @@
     "score_composite": 5.7
   },
   {
+    "url": "https://www.databricks.com/blog/apache-spark-real-time-mode-gaming-better-way-do-real-time-sessionization",
+    "url_hash": "6cf6de7f4937da1c2691ac3e8787465f",
+    "titre": "Apache Spark Real-Time Mode for Gaming: A Better Way to Do Real-Time Sessionization",
+    "resume": "In the gaming industry, every millisecond counts. To drive in-game personalization,...",
+    "date": "2026-06-03",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Présente une nouvelle approche ('real-time mode') pour la sessionisation avec Apache Spark, ciblant spécifiquement le secteur du jeu vidéo. Évolution notable pour les plateformes de données temps réel.",
+    "tags": [
+      "Apache Spark",
+      "real-time",
+      "sessionization",
+      "gaming",
+      "Databricks",
+      "data platform"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.7
+  },
+  {
+    "url": "https://medium.com/@mzfoluke/pharmaceutical-sales-performance-distribution-analysis-using-power-bi-2e11e89bccc3?source=rss------power_bi-5",
+    "url_hash": "f938426426c23847960933bdd6468961",
+    "titre": "Pharmaceutical Sales Performance & Distribution Analysis Using Power BI",
+    "resume": "This project analyzes a comprehensive historical dataset tracking the performance of 240 pharmaceutical products distributed across 749…Continue reading on Medium »",
+    "date": "2026-06-03",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article documente un cas d'usage BI spécifique (analyse des ventes pharmaceutiques) avec des métriques potentielles sur la performance et la distribution.",
+    "tags": [
+      "power bi",
+      "pharmaceuticals",
+      "sales analysis",
+      "distribution",
+      "analytics"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.7
+  },
+  {
     "url": "https://techcrunch.com/2026/05/20/indian-travel-fintech-scapia-more-than-doubles-valuation-to-over-500m-in-a-year/",
     "url_hash": "42bca99affa19c50b24ddb64f3ec49a6",
     "titre": "General Catalyst just led a $63M bet on India’s travel payments market",
@@ -9090,6 +9467,32 @@
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 3,
+    "score_composite": 5.65
+  },
+  {
+    "url": "https://towardsdatascience.com/i-built-a-c-backend-so-my-gpu-would-stop-eating-air/",
+    "url_hash": "ce430cca0073830f22c5cc18c061cdb1",
+    "titre": "I Built a C++ Backend So My GPU Would Stop Eating Air",
+    "resume": "A comprehensive guide to optimizing LLM inference by eliminating padding overhead with hardware-aware sequence packing.\nThe post I Built a C++ Backend So My GPU Would Stop Eating Air appeared first on Towards Data Science.",
+    "date": "2026-06-03",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Article technique expliquant une optimisation concrète pour l'inférence LLM ('hardware-aware sequence packing') via un backend C++. Nouveau cas d'usage documenté avec une problématique technique résolue.",
+    "tags": [
+      "LLM inference",
+      "optimization",
+      "C++ backend",
+      "GPU",
+      "sequence packing",
+      "performance"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 4,
     "score_composite": 5.65
   },
   {
@@ -9633,6 +10036,30 @@
     "score_composite": 5.55
   },
   {
+    "url": "https://www.wired.com/story/quantum-computing-is-having-its-public-market-moment-quantinuum/",
+    "url_hash": "88ef63e42bac7af15fa7ec7c30bd113a",
+    "titre": "Quantum Computing Is Having Its Public Market Moment",
+    "resume": "Quantinuum, a quantum computing startup, is losing millions. Investors want in anyway.",
+    "date": "2026-06-04",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Article de fond sur la montée en puissance du calcul quantique sur le marché public, illustré par le cas d'une startup, indiquant une tendance sectorielle.",
+    "tags": [
+      "Quantum Computing",
+      "startup",
+      "public market",
+      "tech trends"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.55
+  },
+  {
     "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
     "url_hash": "2d7f3b660987a7fb4ae0c354077d202e",
     "titre": "Introducing ChatGPT Futures: Class of 2026",
@@ -9850,6 +10277,30 @@
     "pertinence_bi_consultant": 9,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 3,
+    "score_composite": 5.5
+  },
+  {
+    "url": "https://medium.com/@attitudeacademy513/how-power-bi-and-python-help-create-smart-data-driven-decisions-a5ef4c87c68d?source=rss------power_bi-5",
+    "url_hash": "346bf7d55f7dde192375cac43e8450f6",
+    "titre": "How Power BI and Python Help Create Smart Data-Driven Decisions",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-06-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "L'article explique comment la combinaison de Power BI et Python permet de prendre des décisions intelligentes basées sur les données.",
+    "tags": [
+      "Power BI",
+      "Python",
+      "data-driven decisions",
+      "analytics"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
     "score_composite": 5.5
   },
   {
@@ -11032,6 +11483,31 @@
     "score_composite": 5.199999999999999
   },
   {
+    "url": "https://www.sqlbi.com/tv/all-vs-allselected-vs-allexcept-vs-removefilters/",
+    "url_hash": "f19bd277b9dbeefe6e706298022cc89c",
+    "titre": "ALL vs ALLSELECTED vs ALLEXCEPT vs REMOVEFILTERS",
+    "resume": "Learn the differences between similar but different DAX functions that remove filters from the filter context.",
+    "date": "2026-06-02",
+    "source_name": "SQLBI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article est un tutoriel avancé sur des fonctions DAX clés, expliquant les différences entre des fonctions couramment utilisées pour manipuler le contexte de filtre.",
+    "tags": [
+      "dax",
+      "power bi",
+      "sqlbi",
+      "filters",
+      "performance"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
+  },
+  {
     "url": "https://techcrunch.com/2026/05/15/indian-uber-rival-rapido-raises-240m-at-3b-valuation/",
     "url_hash": "397bfe6497a0257060974341c210a909",
     "titre": "Indian Uber rival Rapido raises $240M at $3B valuation",
@@ -11131,6 +11607,31 @@
     "score_composite": 5.15
   },
   {
+    "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+    "url_hash": "1a654943dc71d850da0ceecc45798327",
+    "titre": "Introducing new capabilities to GPT-Rosalind",
+    "resume": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+    "date": "2026-06-03",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Annonce d'avancées pour un modèle spécialisé dans les sciences de la vie. Indique de nouvelles capacités mais ne s'agit pas d'un modèle frontière généraliste ou d'une percée scientifique majeure.",
+    "tags": [
+      "GPT-Rosalind",
+      "sciences de la vie",
+      "biologie",
+      "chimie médicinale",
+      "génomique"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.15
+  },
+  {
     "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Modern-Visual-Tooltips-in-Power-BI-Generally-Available/ba-p/5173946",
     "url_hash": "784b16aa8f9bf21f4b1d131d7952aaa0",
     "titre": "Modern Visual Tooltips in Power BI (Generally Available)",
@@ -11148,6 +11649,29 @@
       "tooltips",
       "UI/UX",
       "reporting"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.1499999999999995
+  },
+  {
+    "url": "https://medium.com/@contact.kiran1997/power-bi-bar-visuals-that-people-actually-love-354b09e43643?source=rss------power_bi-5",
+    "url_hash": "90b9ae3d0776c3025cd7682b4b80b72e",
+    "titre": "Power BI bar visuals that people actually love.",
+    "resume": "How far are we from the target if we consider what’s done, in progress, and queued up? This question pops up everywhere:Continue reading on Medium »",
+    "date": "2026-06-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "L'article propose des conseils pratiques pour améliorer la conception des visuels dans Power BI, orienté vers l'engagement utilisateur.",
+    "tags": [
+      "Power BI",
+      "visualisation de données",
+      "best practices"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 4,
@@ -11535,6 +12059,30 @@
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 4.95
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/03/firstclub-doubles-valuation-to-255m-in-nine-months-on-quality-first-grocery-bet/",
+    "url_hash": "4d01e464d2bd2784f7c3120f3a8f4e2d",
+    "titre": "Quick commerce FirstClub doubles valuation to $255M in nine months",
+    "resume": "The Bengaluru startup has crossed 1 million orders and reached a $50 million annualized GMV run rate within a year of launch.",
+    "date": "2026-06-04",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Exemple d'une startup tech (e-commerce rapide) qui double sa valorisation rapidement, montrant un modèle d'entreprise en croissance avec des métriques chiffrées.",
+    "tags": [
+      "startup",
+      "e-commerce",
+      "valuation",
+      "growth"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 8,
     "score_composite": 4.95
   },
@@ -12318,6 +12866,32 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 5,
+    "score_composite": 4.65
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/02/how-to-fine-tune-lfm2-using-qlora-and-dpo-a-complete-step-by-step-coding-tutorial-on-google-colab/",
+    "url_hash": "9da378e98184e57f7300583e46456770",
+    "titre": "How to Fine-Tune LFM2 Using QLoRA and DPO: A Complete Step-by-Step Coding Tutorial on Google Colab",
+    "resume": "Learn to fine-tune LFM2 with QLoRA, supervised fine-tuning, DPO, and adapter merging using TRL and PEFT on Colab.\nThe post How to Fine-Tune LFM2 Using QLoRA and DPO: A Complete Step-by-Step Coding Tutorial on Google Colab appeared first on MarkTechPost.",
+    "date": "2026-06-03",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_MODELES",
+    "raison_score": "Tutoriel avancé et documenté sur le fine-tuning d'un modèle spécifique (LFM2) avec des techniques précises (QLoRA, DPO). Utile pour les praticiens, mais pas une avancée ou une rupture.",
+    "tags": [
+      "fine-tuning",
+      "LFM2",
+      "QLoRA",
+      "DPO",
+      "Google Colab",
+      "tutorial"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 3,
     "score_composite": 4.65
   },
   {
@@ -13169,6 +13743,31 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 4,
+    "score_composite": 4.15
+  },
+  {
+    "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+    "url_hash": "951093ddfc8673d11c32b359af42d6fe",
+    "titre": "Adding MCP Tools to Reachy Mini",
+    "resume": "",
+    "date": "2026-06-03",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Mise à jour d'un outil (Reachy Mini) avec de nouvelles fonctionnalités (MCP Tools). Indique une évolution notable dans les capacités du robot, sans pour autant être une rupture.",
+    "tags": [
+      "Reachy Mini",
+      "MCP Tools",
+      "robotique",
+      "hardware",
+      "IA embarquée"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 3,
     "score_composite": 4.15
   },
   {
