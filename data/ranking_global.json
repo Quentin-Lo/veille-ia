@@ -135,7 +135,7 @@
     "source_name": "MarkTechPost",
     "categorie_source": "IA_MODELES",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_MODELES",
     "raison_score": "Publication d'un nouveau modèle fondamental ('foundation model') par NVIDIA qui unifie raisonnement physique, génération de monde et d'action. Changement de paradigme dans la modélisation IA omnimodale.",
@@ -427,6 +427,30 @@
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 10,
     "score_composite": 8.05
+  },
+  {
+    "url": "https://venturebeat.com/technology/anthropic-says-80-of-its-new-production-code-is-now-authored-by-claude-how-your-enterprise-can-keep-up",
+    "url_hash": "66ea935039228c1b6486aedd64d62f6a",
+    "titre": "Anthropic says 80% of its new production code is now authored by Claude — how your enterprise can keep up",
+    "resume": "Anthropic co-founder and CEO Dario Amodei said it was coming, but it still feels like a milestone: More than 80% of the code merged into Anthropic’s production codebase in May wasn't authored by humans, but by its own AI model, Claude, according to a new report shared by the record-breaking AI startup today.This transformation has triggered an 8x increase in the volume of code shipped per engineer per quarter compared to the company’s 2021–2025 baseline, which the company notes means even more c",
+    "date": "2026-06-04",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "80% du code de production généré par IA est une percée majeure, démontrant une nouvelle capacité d'IA qui transforme le développement logiciel. Cela implique un changement d'ère pour la productivité des ingénieurs.",
+    "tags": [
+      "IA",
+      "Claude",
+      "développement logiciel",
+      "productivité"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 10,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 8.049999999999999
   },
   {
     "url": "https://openai.com/index/introducing-gpt-5-5",
@@ -1547,6 +1571,32 @@
       "IA industrielle",
       "data center",
       "stratégie"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.45
+  },
+  {
+    "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+    "url_hash": "16b629a3fac6418f4b85a629f890938e",
+    "titre": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+    "resume": "",
+    "date": "2026-06-04",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "L'annonce de Nemotron 3.5 par Nvidia est une avancée significative dans la sécurité du contenu multimodal pour les modèles d'IA. La personnalisation pour les entreprises et l'aspect multimodal en font une capacité nouvelle et importante.",
+    "tags": [
+      "Nvidia",
+      "IA",
+      "sécurité contenu",
+      "multimodal",
+      "modèles IA",
+      "entreprise"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 9,
@@ -2844,6 +2894,30 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 9,
+    "score_composite": 7.050000000000001
+  },
+  {
+    "url": "https://www.databricks.com/blog/3x-faster-search-parallel-test-time-scaling-instructed-retriever-1",
+    "url_hash": "4431b8617b0203d56b2c3e578708f6f3",
+    "titre": "3x Faster Search: Parallel Test-Time Scaling with Instructed-Retriever-1",
+    "resume": "Today we’re announcing a major update that makes Agent Bricks Knowledge Assistant both faster and higher quality. ...",
+    "date": "2026-06-04",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'annonce d'une mise à jour majeure améliorant significativement la vitesse et la qualité des assistants de connaissance basés sur des agents. La capacité d'agent est documentée et reproductible, montrant une avancée significative.",
+    "tags": [
+      "Databricks",
+      "agents IA",
+      "recherche",
+      "amélioration"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
     "score_composite": 7.050000000000001
   },
   {
@@ -6218,6 +6292,56 @@
     "score_composite": 6.45
   },
   {
+    "url": "https://huggingface.co/blog/hf-cli-for-agents",
+    "url_hash": "4da7ced3f30a41f2b21e0aea0ae59d1c",
+    "titre": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+    "resume": "",
+    "date": "2026-06-04",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "La conception du CLI de Hugging Face optimisé pour les agents représente une nouvelle capacité documentée et reproductible pour interagir avec les modèles IA via une interface en ligne de commande. Cela facilite le développement d'agents.",
+    "tags": [
+      "Hugging Face",
+      "CLI",
+      "agents IA",
+      "interface commande",
+      "développement IA"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.45
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
+    "url_hash": "94d4f7da1b037c03dd469fbcf9da14aa",
+    "titre": "The Meta hack shows there’s more to AI security than Mythos",
+    "resume": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account and made pro-Iran…",
+    "date": "2026-05-06",
+    "source_name": "MIT Tech Review AI",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Cet article met en lumière des vulnérabilités de sécurité critiques dans les agents IA, démontrant un risque réel et immédiat pour les utilisateurs et les entreprises. Il souligne la nécessité d'une approche plus robuste de la sécurité IA.",
+    "tags": [
+      "sécurité IA",
+      "agents IA",
+      "vulnérabilités",
+      "Meta",
+      "hack"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.45
+  },
+  {
     "url": "https://openai.com/index/simplex",
     "url_hash": "dbde3b0f9ce6031be16c927523c60e13",
     "titre": "Simplex rethinks software development with Codex",
@@ -8051,6 +8175,31 @@
     "score_composite": 6.0
   },
   {
+    "url": "https://beyondkeysystems.medium.com/how-power-bi-integrates-with-microsoft-fabric-9568f796e312?source=rss------power_bi-5",
+    "url_hash": "0b6e369f9b0423bca3e66031d595269c",
+    "titre": "How Power BI Integrates with Microsoft Fabric",
+    "resume": "Most organizations are not short on data. They are short on a coherent system to manage it. According to a Forrester report, silos across…Continue reading on Medium »",
+    "date": "2026-05-06",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "L'article explique l'intégration de Power BI avec Microsoft Fabric, une mise à jour importante qui affecte la manière dont les données sont gérées et analysées. C'est une évolution notable pour les plateformes de données.",
+    "tags": [
+      "Power BI",
+      "Microsoft Fabric",
+      "intégration",
+      "plateforme de données",
+      "cloud"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.0
+  },
+  {
     "url": "https://openai.com/index/running-codex-safely",
     "url_hash": "09a84312cc4b2e231453d0d32d700da2",
     "titre": "Running Codex safely at OpenAI",
@@ -8396,6 +8545,54 @@
     "score_composite": 5.95
   },
   {
+    "url": "https://towardsdatascience.com/how-to-navigate-the-shift-from-prompt-based-tools-to-workflow-driven-ai/",
+    "url_hash": "ff449bfdf2b47b4b008561c0c24b6cb7",
+    "titre": "How to Navigate the Shift from Prompt-Based Tools to Workflow-Driven AI",
+    "resume": "Abacus.AI and the case for unified AI workflows\nThe post How to Navigate the Shift from Prompt-Based Tools to Workflow-Driven AI appeared first on Towards Data Science.",
+    "date": "2026-06-04",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article traite de l'évolution des outils IA, passant des approches basées sur les prompts à des flux de travail plus intégrés. Il décrit un nouveau cas d'usage émergent en BI/Startup.",
+    "tags": [
+      "IA",
+      "flux de travail",
+      "outils IA",
+      "évolution"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.95
+  },
+  {
+    "url": "https://pub.towardsai.net/translytical-task-flows-just-hit-ga-they-quietly-change-what-a-power-bi-report-actually-is-5ee6c93de43d?source=rss------power_bi-5",
+    "url_hash": "ac095e948465ab07665a828ed7af48ae",
+    "titre": "Translytical Task Flows Just Hit GA. They Quietly Change What a Power BI Report Actually Is.",
+    "resume": "Microsoft moved Translytical Task Flows from preview to general availability at FabCon 2026 in March. The feature lets users take action —…Continue reading on Towards AI »",
+    "date": "2026-06-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "L'annonce de la disponibilité générale de Translytical Task Flows dans Power BI représente une évolution notable d'un outil BI existant. Cela permet d'intégrer des actions dans les rapports.",
+    "tags": [
+      "Power BI",
+      "Translytical Task Flows",
+      "BI",
+      "outil"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.95
+  },
+  {
     "url": "https://medium.com/@gavin.ellis/how-power-bi-consulting-services-accelerate-enterprise-reporting-modernization-5f5d679f3c3b?source=rss------power_bi-5",
     "url_hash": "53ec91a63863ffc9ee4f854e49cadb3b",
     "titre": "How Power BI Consulting Services Accelerate Enterprise Reporting Modernization",
@@ -8612,6 +8809,31 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.9
+  },
+  {
+    "url": "https://medium.com/@contact.kiran1997/write-dax-code-once-use-it-everywhere-9a0f682c2fc9?source=rss------power_bi-5",
+    "url_hash": "8ef7f38d4691e765d90bea1383a841e0",
+    "titre": "Write DAX Code Once, Use It Everywhere",
+    "resume": "User-Defined Functions (UDFs) have finally made their way to Power BI, and this is a game-changer for DAX. They make it easier to write…Continue reading on Medium »",
+    "date": "2026-05-06",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "L'introduction des fonctions définies par l'utilisateur (UDFs) dans Power BI pour DAX représente une évolution notable, améliorant la réutilisabilité et la maintenabilité du code. C'est une information utile pour les développeurs DAX.",
+    "tags": [
+      "DAX",
+      "Power BI",
+      "UDF",
+      "optimisation",
+      "code"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 3,
     "score_composite": 5.9
   },
   {
@@ -8998,6 +9220,31 @@
       "infrastructure",
       "local",
       "vLLM"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.800000000000001
+  },
+  {
+    "url": "https://motherduck.com/blog/obsidian-vault-duckdb-ai-agents",
+    "url_hash": "6cae76d491087984dc1d22fdef04574c",
+    "titre": "Your Obsidian Vault Can Now Run SQL (and Your Agent Can Read It)",
+    "resume": "Run DuckDB SQL inside your Obsidian notes and freeze the results as plain markdown tables, local files or MotherDuck cloud data alike. Your vault becomes a local knowledge base your AI agent can read without ever querying the warehouse",
+    "date": "2026-06-04",
+    "source_name": "MotherDuck Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Présente un cas d'usage documenté d'intégration d'agents IA avec une base de connaissances locale (Obsidian Vault) via DuckDB. Cela montre une nouvelle approche d'utilisation des agents IA.",
+    "tags": [
+      "IA",
+      "agents",
+      "DuckDB",
+      "Obsidian",
+      "base de connaissances"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -11508,6 +11755,32 @@
     "score_composite": 5.199999999999999
   },
   {
+    "url": "https://medium.com/@asbpintu/how-i-built-an-interactive-uber-data-analysis-dashboard-using-power-bi-python-and-sql-4d524313e6ec?source=rss------power_bi-5",
+    "url_hash": "ec5724a6364e57a5bfbfddadd5233e7b",
+    "titre": "How I Built an Interactive Uber Data Analysis Dashboard Using Power BI, Python, and SQL",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-05-06",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un cas d'usage documenté de création de tableau de bord BI interactif, combinant plusieurs outils (Power BI, Python, SQL). L'information est utile pour ceux qui cherchent des exemples concrets.",
+    "tags": [
+      "Power BI",
+      "Python",
+      "SQL",
+      "dashboard",
+      "analyse de données",
+      "cas d'usage"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
+  },
+  {
     "url": "https://techcrunch.com/2026/05/15/indian-uber-rival-rapido-raises-240m-at-3b-valuation/",
     "url_hash": "397bfe6497a0257060974341c210a909",
     "titre": "Indian Uber rival Rapido raises $240M at $3B valuation",
@@ -12201,6 +12474,30 @@
       "Power BI",
       "writeback",
       "réutilisabilité",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
+    "url": "https://medium.com/@seamooredata/saas-customer-churn-revenue-retention-dashboard-power-bi-678f97ecb416?source=rss------power_bi-5",
+    "url_hash": "041379e88c274d827fa88dabdd4691e9",
+    "titre": "SaaS Customer Churn & Revenue Retention Dashboard | Power BI",
+    "resume": "This project analyzed customer churn, retention trends, and recurring revenue performance for a SaaS business using the RavenStack dataset…Continue reading on Medium »",
+    "date": "2026-06-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article décrit un nouveau cas d'usage documenté pour un tableau de bord Power BI axé sur la rétention client. Il apporte des métriques concrètes pour ce cas d'usage.",
+    "tags": [
+      "Power BI",
+      "dashboard",
+      "analyse client",
       "BI"
     ],
     "pertinence_bi_consultant": 7,
@@ -13259,6 +13556,30 @@
     "score_composite": 4.5
   },
   {
+    "url": "https://zapier.com/blog/popular-zaps",
+    "url_hash": "6a1c77bb0695edbde06393f2b9573720",
+    "titre": "14 popular ways to use Zapier to scale your work securely",
+    "resume": "Manual work might (eventually) get the job done, but it rarely scales. Whether it's following up with leads, sharing updates, or wrangling data across teams, as your processes grow more complex, so does the need for workflows that scale with you. That's where Zapier comes in. You can start by automating individual tasks with simple workflows—what we call Zap workflows—and grow into orchestrating entire systems across apps, teams, and data. With tools like Tables, Forms, Zapier MCP, and Zapier SD",
+    "date": "2026-06-04",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Il s'agit d'un article présentant des cas d'usage documentés et populaires pour l'outil d'automatisation Zapier, avec un focus sur la mise à l'échelle des processus de travail.",
+    "tags": [
+      "Zapier",
+      "automatisation",
+      "flux de travail",
+      "productivité"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.5
+  },
+  {
     "url": "https://www.producthunt.com/products/autograph-video-beta",
     "url_hash": "6c56e018c0610ab6e8a7a009b6e6a164",
     "titre": "Autograph.video Beta",
@@ -13501,6 +13822,30 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 4,
+    "score_composite": 4.35
+  },
+  {
+    "url": "https://zapier.com/blog/zendesk-alternatives",
+    "url_hash": "153ba76e7feedb0113f875a3cf769312",
+    "titre": "The 6 best Zendesk alternatives in 2026",
+    "resume": "Zendesk has been around for almost two decades, and in that time, it's become a kind of default choice for businesses looking for help desk software. And while it's a reliable, feature-rich option—one we use every day here at Zapier—it doesn't have to be your default choice. The Zapier team has spent a ridiculous amount of time testing software. Based on that experience—and more than our fair share of customer support meltdowns—I've put together this list of the six best Zendesk alternatives. Th",
+    "date": "2026-06-04",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "L'article liste et compare des alternatives à Zendesk, fournissant des informations utiles pour les entreprises cherchant des solutions de gestion de la relation client ou de support.",
+    "tags": [
+      "Zendesk",
+      "Alternatives",
+      "CRM",
+      "Support client"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 6,
     "score_composite": 4.35
   },
   {
@@ -13820,6 +14165,30 @@
     "score_composite": 4.1
   },
   {
+    "url": "https://medium.com/@smlsmohan111/automating-cordis-incremental-refresh-in-microsoft-fabric-with-pipeline-monitoring-custom-email-8f15d112ee9e?source=rss------power_bi-5",
+    "url_hash": "5b9495df8708e3bb5db2c9169de07fe4",
+    "titre": "Automating CORDIS Incremental Refresh in Microsoft Fabric with Pipeline Monitoring, Custom Email…",
+    "resume": "In my previous blog, I explained how I designed the CORDIS project using Medallion Architecture in Microsoft Fabric. That blog focused on…Continue reading on Medium »",
+    "date": "2026-06-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Cet article présente un retour d'expérience d'entreprise sur le déploiement d'une automatisation pour la gestion de données dans Microsoft Fabric. Il est utile mais ne représente pas une avancée majeure.",
+    "tags": [
+      "Microsoft Fabric",
+      "automatisation",
+      "data pipeline",
+      "retour d'expérience"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.05
+  },
+  {
     "url": "https://towardsdatascience.com/whats-the-best-way-to-brainwash-an-llm/",
     "url_hash": "555f2f4173b2cacaacc900bd6121b71e",
     "titre": "What’s the Best Way to Brainwash an LLM?",
@@ -13841,6 +14210,31 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 3,
+    "score_composite": 4.0
+  },
+  {
+    "url": "https://medium.com/@susheel.visualpath/join-sap-ai-training-and-build-skills-for-modern-sap-roles-718c6194bb27?source=rss------power_bi-5",
+    "url_hash": "7b8a76ea5c05ba03abd30907b7504ea4",
+    "titre": "Join SAP AI Training and Build Skills for Modern SAP Roles",
+    "resume": "SAP AI vs Power BI: Where AI Actually Adds ValueContinue reading on Medium »",
+    "date": "2026-05-06",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "L'article parle de formation pour intégrer l'IA dans les rôles SAP, ce qui est une information utile pour les professionnels concernés. Il mentionne une comparaison rapide avec Power BI mais le focus est sur la formation.",
+    "tags": [
+      "SAP",
+      "IA",
+      "formation",
+      "compétences",
+      "rôles IT"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
     "score_composite": 4.0
   },
   {
@@ -14378,6 +14772,31 @@
     "score_composite": 3.65
   },
   {
+    "url": "https://medium.com/@contact.kiran1997/your-kpis-need-this-progress-bar-in-power-bi-9c2907748daa?source=rss------power_bi-5",
+    "url_hash": "76c696f9213929bf6576145fec76ed92",
+    "titre": "Your KPIs need this progress bar in Power BI",
+    "resume": "If a metric really matters, it should stand out and feel important.Continue reading on Medium »",
+    "date": "2026-05-06",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article propose une technique de visualisation (barre de progression pour les KPIs) qui est une pratique courante en BI pour améliorer la clarté. L'information est utile mais pas révolutionnaire.",
+    "tags": [
+      "KPI",
+      "Power BI",
+      "visualisation",
+      "dashboard",
+      "meilleures pratiques"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 3.65
+  },
+  {
     "url": "https://www.wired.com/story/openai-reorg-greg-brockman-product/",
     "url_hash": "16e3b9d670b76ccfa78a0f137bf04259",
     "titre": "Greg Brockman Officially Takes Control of OpenAI’s Products in Latest Shake-Up",
@@ -14686,6 +15105,79 @@
     "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 2,
     "score_composite": 3.4
+  },
+  {
+    "url": "https://zapier.com/blog/n8n-vs-zapier",
+    "url_hash": "718e85601b939e56f536d8924778329c",
+    "titre": "Zapier vs. n8n comparison: Which is best for your organization? [2026]",
+    "resume": "I'm the kind of person who likes saving money with DIY hacks. I've built a standing desk, buzzed my own hair, and biked to work through the woods to save on gas. Once, when my car's sunroof was leaking and none of my attempts to fix it worked, I decided to cover it with packaging tape instead of going to the mechanic. (It stayed that way for years.) Now that you have that context, you probably think I'd be the perfect candidate to run my own automation infrastructure. Right? Wrong. Broken workfl",
+    "date": "2026-06-04",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Cet article compare deux outils d'automatisation populaires (Zapier et n8n), fournissant des données chiffrées pour aider à la décision. Il s'agit d'une information utile sur des pratiques établies.",
+    "tags": [
+      "Zapier",
+      "n8n",
+      "automatisation",
+      "comparatif"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 3.35
+  },
+  {
+    "url": "https://zapier.com/blog/gumloop-vs-n8n",
+    "url_hash": "633afbcc9acf0b4b34d222c3a2a66e2d",
+    "titre": "Gumloop vs. n8n: Which is best? [2026]",
+    "resume": "We live in an era of absurd abundance when it comes to workflow automation platforms. There are so many options that choosing one has become its own unautomated nightmare. The latest matchup demanding attention? Gumloop vs. n8n.  Both promise to liberate you from the monotony of repetitive tasks. Both promise to put AI inside your workflows (because nothing is allowed to exist anymore without AI inside it like a turducken of enterprise software). But the thing is, they go about it in completely",
+    "date": "2026-06-04",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Ce comparatif d'outils d'automatisation (Gumloop vs n8n) fournit des données chiffrées pour aider à choisir. Il offre une information utile sur le marché de l'automatisation.",
+    "tags": [
+      "Gumloop",
+      "n8n",
+      "automatisation",
+      "comparatif"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 3.35
+  },
+  {
+    "url": "https://www.wired.com/story/why-apple-might-put-cameras-into-its-next-airpods/",
+    "url_hash": "dacbe2a5b47029e7e3ea9880824867bf",
+    "titre": "Why Apple Might Put Cameras Into Its Next AirPods",
+    "resume": "From battery life to privacy, there are many hurdles to the idea taking off.",
+    "date": "2026-05-06",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "L'article spécule sur l'intégration de caméras dans les AirPods d'Apple, potentiellement pour des fonctionnalités IA. C'est une information d'actualité intéressante mais sans détails techniques ni cas d'usage concrets immédiats.",
+    "tags": [
+      "Apple",
+      "AirPods",
+      "caméras",
+      "IA",
+      "produits grand public"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 3.3000000000000003
   },
   {
     "url": "https://medium.com/@Dev_Coder/professional-power-bi-consulting-services-for-business-intelligence-solutions-c23d1403f7e7?source=rss------power_bi-5",
@@ -15322,6 +15814,29 @@
     "tags": [
       "astrophysique",
       "science"
+    ],
+    "pertinence_bi_consultant": 1,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 1,
+    "score_composite": 1.4
+  },
+  {
+    "url": "https://medium.com/@whmcreativesearchmktg/bringing-real-life-panache-to-a-virtual-event-99f613ca1370?source=rss------qlik-5",
+    "url_hash": "26b975bcbe2c0bdce8f449a9ab50f862",
+    "titre": "Bringing Real-life Panache to a Virtual Event",
+    "resume": "Working closely together, WHM helped Qlik create an elevated virtual event with all the energy and buzz of a live, in-person experience.Continue reading on Medium »",
+    "date": "2026-05-06",
+    "source_name": "Medium Qlik",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 2,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article est très général et marketing, décrivant comment WHM a aidé Qlik à améliorer un événement virtuel. Il n'apporte pas de substance technique ou d'information pertinente pour les domaines ciblés.",
+    "tags": [
+      "événement virtuel",
+      "marketing",
+      "Qlik"
     ],
     "pertinence_bi_consultant": 1,
     "pertinence_passionné_ia": 1,
