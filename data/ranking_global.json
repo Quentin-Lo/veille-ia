@@ -230,6 +230,31 @@
     "score_composite": 8.35
   },
   {
+    "url": "https://www.marktechpost.com/2026/06/04/nvidia-ai-releases-nemotron-3-ultra-an-open-550b-mixture-of-experts-hybrid-mamba-transformer-for-long-running-agents/",
+    "url_hash": "0206b03edc2619e10785191b46032a6f",
+    "titre": "NVIDIA AI Releases Nemotron 3 Ultra: An Open 550B Mixture-of-Experts Hybrid Mamba-Transformer for Long-Running Agents",
+    "resume": "NVIDIA has released Nemotron 3 Ultra, a 550B total (55B active) open Mixture-of-Experts hybrid Mamba-Transformer for long-running agents. It pairs a 1M-token context with up to ~6x higher inference throughput than comparable open LLMs at on-par accuracy, and ships with open weights, training data, and recipes under OpenMDW-1.1.\nThe post NVIDIA AI Releases Nemotron 3 Ultra: An Open 550B Mixture-of-Experts Hybrid Mamba-Transformer for Long-Running Agents appeared first on MarkTechPost.",
+    "date": "2026-06-04",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "Lancement d'un modèle frontier open-source de grande taille (550B) combinant des architectures avancées pour des agents de longue durée, redéfinissant les capacités actuelles des LLM.",
+    "tags": [
+      "LLM",
+      "Mixture-of-Experts",
+      "Mamba-Transformer",
+      "open-source",
+      "NVIDIA"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 8.35
+  },
+  {
     "url": "https://huggingface.co/blog/gemma4",
     "url_hash": "a38a6a43bd72f6fe5d180c4eaf9bf982",
     "titre": "Welcome Gemma 4: Frontier multimodal intelligence on device",
@@ -437,7 +462,7 @@
     "source_name": "VentureBeat AI",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "DEV_ASSISTE",
     "raison_score": "80% du code de production généré par IA est une percée majeure, démontrant une nouvelle capacité d'IA qui transforme le développement logiciel. Cela implique un changement d'ère pour la productivité des ingénieurs.",
@@ -2921,6 +2946,79 @@
     "score_composite": 7.050000000000001
   },
   {
+    "url": "https://www.marktechpost.com/2026/06/05/nvidia-ai-releases-dynamo-snapshot-a-criu-based-fast-startup-system-for-ai-inference-on-kubernetes/",
+    "url_hash": "5b7ecddc9b6c0a67e97c798a6d0eff68",
+    "titre": "NVIDIA AI Releases Dynamo Snapshot: A CRIU-Based Fast Startup System for AI Inference on Kubernetes",
+    "resume": "NVIDIA Dynamo Snapshot checkpoints and restores vLLM inference workers on Kubernetes using CRIU and cuda-checkpoint tools.\nThe post NVIDIA AI Releases Dynamo Snapshot: A CRIU-Based Fast Startup System for AI Inference on Kubernetes appeared first on MarkTechPost.",
+    "date": "2026-06-05",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Lancement d'un système de démarrage rapide pour l'inférence IA sur Kubernetes, améliorant significativement l'efficacité opérationnelle des infrastructures IA.",
+    "tags": [
+      "NVIDIA AI",
+      "Kubernetes",
+      "AI inference",
+      "performance"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.050000000000001
+  },
+  {
+    "url": "https://venturebeat.com/security/meta-ai-support-agent-recovery-email-takeover-soc-audit-grid",
+    "url_hash": "af052afcfd7e760287c355f372e2a8f0",
+    "titre": "Meta's AI support agent bound recovery emails for anyone who asked. Your SOC never saw an alert.",
+    "resume": "Meta's AI support agent bound recovery emails to accounts for whoever asked, and SOCs never saw an alert. An authorized agent writes a log of legitimate transactions, so nothing in the detection stack fired. Attackers asked the bot to make the change, took the one-time code it sent, and ran the password reset, 404 Media reported.No malware, no stolen credentials, and no prompt injection in the sense most security teams drill for. The agent did exactly what Meta built it to do. That is what shoul",
+    "date": "2026-06-05",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Met en évidence une vulnérabilité de sécurité critique exploitant le comportement attendu d'un agent IA. Illustre un nouveau vecteur d'attaque et un manque de visibilité pour les équipes de sécurité.",
+    "tags": [
+      "AI security",
+      "vulnerability",
+      "attack vector",
+      "SOC",
+      "agent"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.050000000000001
+  },
+  {
+    "url": "https://towardsdatascience.com/automate-writing-your-llm-prompts/",
+    "url_hash": "038d028769c92e78b5156de237fc75b0",
+    "titre": "Automate Writing Your LLM Prompts",
+    "resume": "Using DSPy to automatically create, evaluate, and optimize your prompts\nThe post Automate Writing Your LLM Prompts appeared first on Towards Data Science.",
+    "date": "2026-06-05",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Introduit une approche pour automatiser la création, l'évaluation et l'optimisation de prompts LLM, ce qui est une capacité nouvelle et reproductible. L'utilisation de DSPy suggère un nouveau framework pratique.",
+    "tags": [
+      "LLM prompts",
+      "automation",
+      "DSPy",
+      "prompt engineering"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 7.050000000000001
+  },
+  {
     "url": "https://huggingface.co/blog/ggml-joins-hf",
     "url_hash": "e4d4cd0957d79f17f42c08df1b46a967",
     "titre": "GGML and llama.cpp join HF to ensure the long-term progress of Local AI",
@@ -3741,6 +3839,30 @@
     "score_composite": 6.95
   },
   {
+    "url": "https://venturebeat.com/orchestration/ai-agents-are-learning-on-the-job-just-not-for-your-whole-team",
+    "url_hash": "c2a5de2dea82f19b1b1610cabcde23a6",
+    "titre": "AI agents are learning on the job — just not for your whole team",
+    "resume": "When someone on a team corrects an AI agent — better prompts, better feedback, better context — that improvement disappears the moment a colleague opens the same tool. The correction doesn't transfer, and the next person starts from zero.The problem compounds in multi-agent workflows, where teams expect agents to share context across users and tasks. Without a shared memory layer, every team member effectively trains a different version of the same agent — and those versions never sync.That gap ",
+    "date": "2026-06-05",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Définit un problème majeur dans l'apprentissage des agents IA en équipe (manque de mémoire partagée). Documente une nouvelle capacité potentielle pour les agents IA collaboratifs.",
+    "tags": [
+      "AI agents",
+      "collaboration",
+      "learning",
+      "workflow"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
     "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
     "url_hash": "cf9ab79d536b4ff2ee68204ed0cc9d9d",
     "titre": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
@@ -3980,6 +4102,31 @@
       "données",
       "silos",
       "Microsoft"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.850000000000001
+  },
+  {
+    "url": "https://towardsdatascience.com/my-ai-couldnt-see-my-files-i-built-a-zero-dependency-mcp-server/",
+    "url_hash": "f06f5066247787b2c6e3ab156ad13e5b",
+    "titre": "My AI Couldn’t See My Files — I Built a Zero-Dependency MCP Server",
+    "resume": "I got tired of copying files into an AI chat just to get feedback. So I built a pure Python MCP server that gives AI tools direct access to my local project—no frameworks, no dependencies. It runs over stdio for local use and switches to HTTP/SSE for concurrent clients with a single flag. The result: 5 clients, under 50ms, and a design that stays simple without sacrificing capability.\nThe post My AI Couldn’t See My Files — I Built a Zero-Dependency MCP Server appeared first on Towards Data Scien",
+    "date": "2026-06-05",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Présente une solution technique concrète (serveur MCP) pour un cas d'usage courant d'interaction IA/fichiers locaux. Démontre une nouvelle capacité pour l'accès aux données par les IA, avec des métriques de performance.",
+    "tags": [
+      "AI access",
+      "local files",
+      "Python",
+      "MCP server",
+      "performance"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 7,
@@ -4357,6 +4504,30 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 6,
+    "score_composite": 6.800000000000001
+  },
+  {
+    "url": "https://motherduck.com/blog/vibe-coding-dangerous-agentic-engineering-wes-mckinney",
+    "url_hash": "dbf1d06900e6bff64f4571db1fbf1b0b",
+    "titre": "Vibe Coding Is Dangerous, Agentic Engineering Isn't ft. Wes McKinney",
+    "resume": "Wes McKinney, creator of pandas and co-creator of Apache Arrow, shares how he works with AI coding agents: spec-driven workflows with superpowers, continuous AI code review with Roborev, token economics, and why vibe coding is dangerous but agentic engineering isn't.",
+    "date": "2026-06-05",
+    "source_name": "MotherDuck Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Propose un nouveau framework entrepreneurial pour l'ingénierie d'agents IA, distinguant les approches sécurisées des approches risquées. L'avis d'un expert comme Wes McKinney apporte une valeur significative.",
+    "tags": [
+      "agentic engineering",
+      "entrepreneurship",
+      "AI workflow",
+      "Wes McKinney"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
     "score_composite": 6.800000000000001
   },
   {
@@ -6465,6 +6636,30 @@
     "score_composite": 6.4
   },
   {
+    "url": "https://venturebeat.com/orchestration/microsofts-ai-futurist-explains-how-he-uses-copilot-and-the-real-world-problems-enterprises-are-solving-with-agents",
+    "url_hash": "459e411b31d6af62a18e4be07b351af5",
+    "titre": "Microsoft's AI Futurist explains how he uses Copilot — and the real-world problems enterprises are solving with agents",
+    "resume": "Microsoft used its Build 2026 conference this week to push a clear message: agents are rapidly moving into production throughout enterprise systems, and the winning platform will be the one that gives them reliable context, governance, identity, memory — and secure access to enterprise data. The company announced Microsoft IQ as a context layer across GitHub Copilot, Microsoft Foundry and Copilot Studio; Work IQ APIs coming June 16; Fabric IQ for structured business data; Foundry IQ for retrieva",
+    "date": "2026-06-05",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Présentation de cas d'usage concrets d'agents IA dans les entreprises, avec des informations sur les problèmes réels résolus par Copilot et des annonces sur des couches contextuelles.",
+    "tags": [
+      "Microsoft Copilot",
+      "AI agents",
+      "enterprise AI",
+      "use cases"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.4
+  },
+  {
     "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
     "url_hash": "1bce4c3eeade6ff3dbc03f957bdfecf3",
     "titre": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
@@ -7410,6 +7605,30 @@
     "score_composite": 6.2
   },
   {
+    "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+    "url_hash": "4acad91f30f3b71bd8a6edf359a5ac08",
+    "titre": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
+    "resume": "",
+    "date": "2026-06-05",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Déploiement d'une économie multi-agent sur un modèle de 3 milliards de paramètres, démontrant une nouvelle capacité d'agent reproductible.",
+    "tags": [
+      "multi-agent systems",
+      "LLMs",
+      "simulation",
+      "hackathon"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.2
+  },
+  {
     "url": "https://openai.com/index/parloa",
     "url_hash": "b655fa9f550b1534336c627d3682ff96",
     "titre": "Parloa builds service agents customers want to talk to",
@@ -7731,6 +7950,30 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 9,
+    "score_composite": 6.1
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/06/moonshot-ai-releases-kimi-code-cli-a-terminal-ai-coding-agent-built-in-typescript-for-next-gen-agents/",
+    "url_hash": "67ffa1534268986f2b6819edeea7277a",
+    "titre": "Moonshot AI Releases Kimi Code CLI: A Terminal AI Coding Agent Built in TypeScript for Next-Gen Agents",
+    "resume": "Kimi Code CLI is Moonshot AI's open-source terminal coding agent, written in TypeScript with subagents and MCP configuration.\nThe post Moonshot AI Releases Kimi Code CLI: A Terminal AI Coding Agent Built in TypeScript for Next-Gen Agents appeared first on MarkTechPost.",
+    "date": "2026-06-06",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Lancement d'un nouvel agent de codage IA open-source dans le terminal. La documentation et la reproductibilité des capacités des agents sont des critères clés.",
+    "tags": [
+      "AI coding agent",
+      "open-source",
+      "TypeScript",
+      "terminal"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
     "score_composite": 6.1
   },
   {
@@ -8340,6 +8583,31 @@
       "agents",
       "modèles",
       "laboratoires de recherche"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.950000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/05/microsoft-fara-tutorial-run-a-browser-use-agent-in-google-colab-with-a-mock-openai-compatible-endpoint/",
+    "url_hash": "651e613dd816496a2355dfed9fbd7427",
+    "titre": "Microsoft Fara Tutorial: Run a Browser-Use Agent in Google Colab with a Mock OpenAI-Compatible Endpoint",
+    "resume": "A hands-on guide to running Microsoft Fara in Colab, testing the browser agent loop with a mock endpoint.\nThe post Microsoft Fara Tutorial: Run a Browser-Use Agent in Google Colab with a Mock OpenAI-Compatible Endpoint appeared first on MarkTechPost.",
+    "date": "2026-06-05",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Tutoriel avancé sur l'utilisation d'un agent de type navigateur avec un endpoint compatible OpenAI, illustrant une pratique d'automatisation avancée.",
+    "tags": [
+      "Microsoft Fara",
+      "AI agent",
+      "Google Colab",
+      "tutorial",
+      "RAG"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -10307,6 +10575,31 @@
     "score_composite": 5.55
   },
   {
+    "url": "https://pub.towardsai.net/i-sketch-every-power-bi-report-in-figma-before-touching-the-data-5509b3a785df?source=rss------power_bi-5",
+    "url_hash": "44f148aa4e825daad5179c434e021417",
+    "titre": "I Sketch Every Power BI Report in Figma Before Touching the Data",
+    "resume": "Fifteen minutes of paper-and-pixel work that saves me a week of stakeholder iteration cycles — and the UI/UX principles I quietly borrow…Continue reading on Towards AI »",
+    "date": "2026-06-05",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Documente un nouveau cas d'usage pour l'utilisation de Figma dans le processus de conception de rapports Power BI, avec des métriques implicites d'efficacité.",
+    "tags": [
+      "Power BI",
+      "Figma",
+      "report design",
+      "UI/UX",
+      "BI practices"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.55
+  },
+  {
     "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
     "url_hash": "2d7f3b660987a7fb4ae0c354077d202e",
     "titre": "Introducing ChatGPT Futures: Class of 2026",
@@ -10544,6 +10837,31 @@
       "Python",
       "data-driven decisions",
       "analytics"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.5
+  },
+  {
+    "url": "https://medium.com/@Manu_MS/transforming-power-bi-reports-with-html-integration-from-functional-to-visually-stunning-1c7df2edd539?source=rss------power_bi-5",
+    "url_hash": "ed1688d6fb142c860f48517f9dd4c2cc",
+    "titre": "Transforming Power BI Reports with HTML Integration: From Functional to Visually Stunning",
+    "resume": "If you’ve ever wished your reports looked more like modern web applications than traditional dashboards, HTML integration may be the…Continue reading on Medium »",
+    "date": "2026-06-05",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Décrit une intégration IA (HTML/web) dans un outil mainstream (Power BI) pour améliorer l'apparence des rapports. Documente un nouveau cas d'usage pour l'intégration de fonctionnalités web.",
+    "tags": [
+      "Power BI",
+      "HTML integration",
+      "visualisation",
+      "BI tools",
+      "web development"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 5,
@@ -11189,6 +11507,30 @@
     "score_composite": 5.3
   },
   {
+    "url": "https://medium.com/@mzfoluke/healthcare-operations-clinical-outcomes-analysis-using-power-bi-48ddca6d226a?source=rss------power_bi-5",
+    "url_hash": "060ae6551657d049a3e6932029f5870d",
+    "titre": "Healthcare Operations & Clinical Outcomes Analysis Using Power BI",
+    "resume": "This project analyzes comprehensive healthcare records for 55,500 patients across 10 major U.SContinue reading on Medium »",
+    "date": "2026-06-06",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Nouveau cas d'usage BI documenté dans le secteur de la santé, potentiellement avec des métriques d'impact.",
+    "tags": [
+      "Power BI",
+      "healthcare analytics",
+      "business intelligence",
+      "clinical outcomes"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3
+  },
+  {
     "url": "https://huggingface.co/blog/multimodal-sentence-transformers",
     "url_hash": "aeed5283fa2292a239084f82e2ac66b8",
     "titre": "Multimodal Embedding & Reranker Models with Sentence Transformers",
@@ -11774,6 +12116,30 @@
       "dashboard",
       "analyse de données",
       "cas d'usage"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
+  },
+  {
+    "url": "https://medium.com/@tharunkumarr98/managed-power-bi-semantic-model-with-6500-measures-smartly-818b91202c91?source=rss------power_bi-5",
+    "url_hash": "9faf8b15b48c9a6bf4eba0012fb0891c",
+    "titre": "Managed Power BI Semantic Model with 6500+ Measures Smartly",
+    "resume": "For a smoother reading experience with clearer screenshots and easy code copying, I suggest reading this article on my website. It’s free…Continue reading on Medium »",
+    "date": "2026-06-06",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article documentant un cas d'usage BI avec métriques potentielles sur la gestion d'un modèle sémantique Power BI complexe.",
+    "tags": [
+      "Power BI",
+      "Semantic Model",
+      "data modeling",
+      "BI best practices"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 3,
@@ -12775,6 +13141,31 @@
     "score_composite": 4.85
   },
   {
+    "url": "https://towardsdatascience.com/how-to-fine-tune-an-slm-for-emotion-recognition/",
+    "url_hash": "10f7e93c94421093d6d83350e046e06d",
+    "titre": "How to Fine-Tune an SLM for Emotion Recognition",
+    "resume": "Python tutorial for fine-tuning a Mistral Small 3.1 on an imbalanced training set to classify 15 emotions in social media communication\nThe post How to Fine-Tune an SLM for Emotion Recognition appeared first on Towards Data Science.",
+    "date": "2026-06-05",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_MODELES",
+    "raison_score": "Fournit un tutoriel avancé sur le fine-tuning d'un modèle pour une tâche spécifique (reconnaissance d'émotions), documentant un nouveau cas d'usage avec métriques potentielles.",
+    "tags": [
+      "fine-tuning",
+      "SLM",
+      "emotion recognition",
+      "Python",
+      "tutorial"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.8
+  },
+  {
     "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
     "url_hash": "15d2a96bac2bfe86f5d8e69a3c04bfec",
     "titre": "Introducing Trusted Contact in ChatGPT",
@@ -13601,6 +13992,30 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionne_ia": 3,
     "pertinence_entrepreneur": 7,
+    "score_composite": 4.45
+  },
+  {
+    "url": "https://blog.n8n.io/cloud-integration-platforms/",
+    "url_hash": "c5027a33b9c27f87d69b5872263a881a",
+    "titre": "Comparing 8 Cloud Integration Platforms for Enterprise IT",
+    "resume": "Compare the top cloud integration platforms for enterprise IT. Evaluate deployment models, connector depth, and governance, and see where n8n fits.",
+    "date": "2026-06-05",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Fournit un comparatif d'outils d'intégration cloud basé sur des données chiffrées concernant les modèles de déploiement et la profondeur des connecteurs, ce qui est une information utile pour l'automatisation.",
+    "tags": [
+      "cloud integration",
+      "enterprise IT",
+      "automation platforms",
+      "comparison"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 5,
     "score_composite": 4.45
   },
   {
@@ -15107,6 +15522,54 @@
     "score_composite": 3.4
   },
   {
+    "url": "https://venturebeat.com/technology/microsoft-ai-chief-says-company-was-set-free-from-openai-to-pursue-superintelligence",
+    "url_hash": "1e588e61972d9aa323d739e72905f975",
+    "titre": "Microsoft AI chief says company was “set free” from OpenAI to pursue superintelligence",
+    "resume": "For three years, Microsoft's artificial intelligence story has been inseparable from OpenAI. The partnership — cemented by a cumulative investment exceeding $13 billion — gave Microsoft early access to the most advanced AI models on the planet, catapulting its Copilot products into the enterprise mainstream and adding hundreds of billions of dollars to its market capitalization. To the outside world, Microsoft's AI strategy was OpenAI.Mustafa Suleyman wants to change that narrative.In an exclusi",
+    "date": "2026-06-05",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Article d'opinion/perspective sur la stratégie d'une grande entreprise dans le domaine de l'IA, utile pour comprendre le paysage concurrentiel.",
+    "tags": [
+      "Microsoft AI",
+      "OpenAI",
+      "superintelligence",
+      "tech strategy"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 3.4
+  },
+  {
+    "url": "https://medium.com/@vijiselvapathy/5-common-mistakes-beginners-make-while-cleaning-data-in-power-bi-223200ed6743?source=rss------power_bi-5",
+    "url_hash": "41bf519450a43a31ed24e4e4ddc968d8",
+    "titre": "5 Common Mistakes Beginners Make While Cleaning Data in Power BI",
+    "resume": "I was excited when I started off with Power BI. I wanted to jump right in and explore the different charts and the various ways I can…Continue reading on Medium »",
+    "date": "2026-06-05",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Fournit des informations utiles sur les pratiques établies de nettoyage de données dans Power BI pour les débutants.",
+    "tags": [
+      "Power BI",
+      "data cleaning",
+      "beginner mistakes",
+      "BI practices"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 3.4
+  },
+  {
     "url": "https://zapier.com/blog/n8n-vs-zapier",
     "url_hash": "718e85601b939e56f536d8924778329c",
     "titre": "Zapier vs. n8n comparison: Which is best for your organization? [2026]",
@@ -15837,6 +16300,29 @@
       "événement virtuel",
       "marketing",
       "Qlik"
+    ],
+    "pertinence_bi_consultant": 1,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 1,
+    "score_composite": 1.4
+  },
+  {
+    "url": "https://medium.com/@hr.learnmoretechnologiea/power-bi-training-in-marathahalli-learnmore-technologies-f4f7dde85fb6?source=rss------power_bi-5",
+    "url_hash": "c112c2446a5059a20d63865b800f06fc",
+    "titre": "Power BI Training in Marathahalli — Learnmore Technologies",
+    "resume": "In today’s data-driven world, organizations rely on powerful analytics tools to transform raw data into meaningful insights. Microsoft…Continue reading on Medium »",
+    "date": "2026-06-06",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 2,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Contenu promotionnel pour une formation Power BI sans apport technique ou informationnel nouveau.",
+    "tags": [
+      "Power BI training",
+      "BI education",
+      "marketing"
     ],
     "pertinence_bi_consultant": 1,
     "pertinence_passionné_ia": 1,
