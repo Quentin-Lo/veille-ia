@@ -238,7 +238,7 @@
     "source_name": "MarkTechPost",
     "categorie_source": "IA_MODELES",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_MODELES",
     "raison_score": "Lancement d'un modèle frontier open-source de grande taille (550B) combinant des architectures avancées pour des agents de longue durée, redéfinissant les capacités actuelles des LLM.",
@@ -678,6 +678,30 @@
     "score_composite": 7.9
   },
   {
+    "url": "https://medium.com/towards-data-engineering/from-power-bi-dashboards-to-microsoft-fabric-data-agents-the-future-of-self-service-analytics-6bf318f052dd?source=rss------power_bi-5",
+    "url_hash": "aa1f73acc1065299e5d94aa1aacb818a",
+    "titre": "From Power BI Dashboards to Microsoft Fabric Data Agents: The Future of Self-Service Analytics",
+    "resume": "Power BI dashboards have become the monitoring backbone for many analytics teams. They surface trusted KPIs, track business performance…Continue reading on Towards Data Engineering »",
+    "date": "2026-06-06",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Annonce d'une évolution majeure avec l'intégration d'agents de données dans Microsoft Fabric, redéfinissant le paysage de l'analytique en libre-service. Ceci représente une avancée significative pour la plateforme et les pratiques BI.",
+    "tags": [
+      "Microsoft Fabric",
+      "data agents",
+      "self-service analytics",
+      "Power BI"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.9
+  },
+  {
     "url": "https://blog.n8n.io/n8n-partners-with-sap-to-bring-visual-ai-workflow-orchestration-to-enterprise/",
     "url_hash": "c4dc241332fae713c6a392700a805937",
     "titre": "n8n Partners with SAP to bring Visual AI Workflow Orchestration to Enterprise",
@@ -1051,6 +1075,30 @@
     "pertinence_passionné_ia": 9,
     "pertinence_entrepreneur": 7,
     "score_composite": 7.699999999999999
+  },
+  {
+    "url": "https://medium.com/@piyush.rai_zs/agentic-led-migration-the-future-of-enterprise-reporting-data-platform-modernization-f65260e5e4d1?source=rss------power_bi-5",
+    "url_hash": "839236d6295b74918ba289bf3358961a",
+    "titre": "Agentic-Led Migration: The Future of Enterprise Reporting & Data Platform Modernization",
+    "resume": "Why deploying specialized AI agents — not larger manual teams — is the next leap in how enterprises modernize their analytics ecosystemsContinue reading on Medium »",
+    "date": "2026-06-07",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article propose une nouvelle capacité d'agent reproductible pour la modernisation des plateformes de données et du reporting d'entreprise. Il aborde un changement de paradigme dans la manière dont les entreprises abordent ces migrations.",
+    "tags": [
+      "IA agents",
+      "data platform",
+      "modernisation",
+      "migration"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.65
   },
   {
     "url": "https://venturebeat.com/infrastructure/aws-nabs-white-hot-gen-ai-media-creation-startup-fal-becoming-its-preferred-cloud-provider",
@@ -1979,6 +2027,31 @@
     "score_composite": 7.3500000000000005
   },
   {
+    "url": "https://www.saastr.com/inside-the-ai-agent-stacks-at-saastr-owner-com-klaviyo-the-deep-dives-from-saastr-ai-2026/",
+    "url_hash": "a18e50d8683b99e1f416949738ad3673",
+    "titre": "Inside the AI Agent Stacks at SaaStr, Owner.com & Klaviyo | The Deep Dives From SaaStr AI 2026",
+    "resume": "Inside the AI Agent Stacks at SaaStr, Owner.com & Klaviyo | SaaStr AI Annual 2026 Final Day Three companies. Three different stages. Three different markets. But all three have done the same thing in 2025 and 2026: rebuilt their internal operations and their customer-facing products around AI agents, not around humans. SaaStr is a sub-10-person... Continue Reading",
+    "date": "2026-06-05",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article explore les architectures d'agents IA utilisées par des entreprises concrètes, offrant un aperçu de cas d'usage et de stratégies. Il constitue une avancée significative dans la compréhension des applications pratiques des agents IA.",
+    "tags": [
+      "IA Agents",
+      "Architectures IA",
+      "Cas d'Usage IA",
+      "SaaStr AI 2026",
+      "Entreprises"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.3500000000000005
+  },
+  {
     "url": "https://bdtechtalks.com/2026/04/20/anthropic-mcp-vulnerability/?utm_source=rss&utm_medium=rss&utm_campaign=anthropic-mcp-vulnerability",
     "url_hash": "76376cb3ea8c26fecb7d481e87dc2ebb",
     "titre": "Anthropic’s MCP vulnerability: When ‘expected behavior’ becomes a supply chain nightmare",
@@ -2442,6 +2515,31 @@
       "frontier models",
       "codex",
       "cloud data"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.2
+  },
+  {
+    "url": "https://blog.n8n.io/what-metrics-should-i-track-for-ai-agent-performance/",
+    "url_hash": "1ab477673db0aa780d3e5f19db69cde3",
+    "titre": "AI agent performance metrics: what to track and why",
+    "resume": "Learn which AI agent metrics to track and how to match them to your deployment stage. Discover execution, quality, efficiency, and safety metrics with practical tracking guidance for n8n.",
+    "date": "2026-06-05",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article détaille les métriques clés pour évaluer la performance des agents IA, offrant des conseils pratiques pour leur suivi. C'est une avancée significative pour la gestion et l'optimisation des déploiements d'agents IA.",
+    "tags": [
+      "IA Agents",
+      "Performance IA",
+      "Métriques IA",
+      "n8n",
+      "Suivi"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 8,
@@ -4531,6 +4629,56 @@
     "score_composite": 6.800000000000001
   },
   {
+    "url": "https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/",
+    "url_hash": "a40a1f1bc5d5cc00e0c45652b1da1797",
+    "titre": "Reid Hoffman is leaving Microsoft’s board to go ‘founder mode’ with startup Manus",
+    "resume": "After a very profitable decade on Microsoft's board, Reid Hoffman is stepping down to focus on his AI drug discovery startup Manus.",
+    "date": "2026-06-05",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cette annonce concerne le retour de Reid Hoffman à la création d'une startup IA, signalant une potentielle nouvelle dynamique dans le secteur de la découverte de médicaments assistée par IA. Il s'agit d'une avancée significative par son implication entrepreneuriale.",
+    "tags": [
+      "Entrepreneuriat Tech",
+      "IA",
+      "Drug Discovery",
+      "Startup",
+      "Reid Hoffman"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.800000000000001
+  },
+  {
+    "url": "https://medium.com/@twilize5/create-a-pbix-file-from-data-automatically-with-ai-no-copilot-licence-required-efab657d285e?source=rss------power_bi-5",
+    "url_hash": "9bb223c46cb2d13ffdd14cc632041faa",
+    "titre": "Create a PBIX File from Data Automatically with AI — No Copilot Licence Required",
+    "resume": "Every Power BI developer knows the feeling: you receive a CSV from a client at 4 pm and you need a working dashboard on their desk by…Continue reading on Medium »",
+    "date": "2026-06-06",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "L'article présente une nouvelle capacité d'automatisation utilisant l'IA pour générer des fichiers PBIX sans licence Copilot, ce qui représente une solution potentiellement disruptive et reproductible pour les développeurs Power BI.",
+    "tags": [
+      "automatisation",
+      "IA",
+      "Power BI",
+      "PBIX",
+      "sans licence"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.800000000000001
+  },
+  {
     "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
     "url_hash": "ba162ec2cb94c6ccbd04ec7f277d7285",
     "titre": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
@@ -6040,6 +6188,31 @@
     "score_composite": 6.550000000000001
   },
   {
+    "url": "https://huggingface.co/blog/build-small-hackathon/her-blog",
+    "url_hash": "fd6a1c47d26fce1b5802702d0deaa8b4",
+    "titre": "Her · हेर — a detective for your Claude Code sessions",
+    "resume": "",
+    "date": "2026-06-07",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article décrit la création d'un agent spécifique ('Her') pour assister dans les sessions de codage avec Claude. Il s'agit d'une nouvelle capacité d'agent documentée et potentiellement reproductible.",
+    "tags": [
+      "IA agents",
+      "Claude",
+      "codage",
+      "développement",
+      "Hugging Face"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
     "url": "https://openai.com/index/safety-bug-bounty",
     "url_hash": "a1bdc83d63f1a4ac3f169d47530874ae",
     "titre": "Introducing the OpenAI Safety Bug Bounty program",
@@ -6509,6 +6682,31 @@
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.45
+  },
+  {
+    "url": "https://blog.n8n.io/data-mapping-best-practices/",
+    "url_hash": "369d65d1db58c9e4f223d4f22a8897b0",
+    "titre": "Data Mapping Best Practices for Cross-System Integration",
+    "resume": "Discover data mapping best practices for cross-system integration at scale and learn how automating with n8n ensures reliable, production-grade data flows.",
+    "date": "2026-06-05",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Cet article propose des bonnes pratiques pour le data mapping et l'automatisation, particulièrement pertinent pour l'intégration de systèmes. Il apporte une évolution notable dans les pratiques d'automatisation.",
+    "tags": [
+      "Data Mapping",
+      "Intégration Systèmes",
+      "Automatisation",
+      "n8n",
+      "ETL"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 7,
     "score_composite": 6.45
   },
@@ -9520,6 +9718,31 @@
     "score_composite": 5.800000000000001
   },
   {
+    "url": "https://venturebeat.com/orchestration/when-claude-changed-everything-changed-managing-ai-blast-radius-in-production",
+    "url_hash": "ce11913b6867b0e43e9c88a3d2819251",
+    "titre": "When Claude changed, everything changed: Managing AI blast radius in production",
+    "resume": "Our system did one thing, and it did it well: It turned natural-language questions into API calls.The users were analysts, account managers, and operations leads. They knew what data they needed, but assembling it manually meant pulling from four dashboards, two BI tools, and a Salesforce report builder. With our system, they typed the request in plain English. A request like \"Compile a report on sales volume for January through March 2026 for the Northeast region, broken down by city\" was trans",
+    "date": "2026-06-06",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article documente un cas d'usage d'automatisation de la génération de rapports via un agent conversationnel (Claude). Il met en lumière les métriques potentielles liées à l'efficacité et à la gestion des risques.",
+    "tags": [
+      "Claude",
+      "automatisation",
+      "rapports",
+      "production",
+      "gestion des risques"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.800000000000001
+  },
+  {
     "url": "https://www.wired.com/story/whats-worth-more-than-san-francisco-real-estate-anthropic-stock/",
     "url_hash": "5649ee1b609b58eb589a060dd45bd3c2",
     "titre": "What’s Worth More Than Cash in San Francisco Real Estate? Anthropic Stock",
@@ -10447,6 +10670,30 @@
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.550000000000001
+  },
+  {
+    "url": "https://medium.com/@mukul11211/from-raw-education-data-to-ai-powered-policy-insights-building-puleputhi-ai-with-google-gemini-62b844edb010?source=rss------power_bi-5",
+    "url_hash": "1d8f105bf1ee5674aaa5d92b91b9ebad",
+    "titre": "From Raw Education Data to AI-Powered Policy Insights: Building PulePuthi AI with Google Gemini",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-06-06",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Documente un nouveau cas d'usage d'IA appliquée aux données éducatives pour générer des insights politiques. L'utilisation de Google Gemini et les métriques potentielles rendent cet article pertinent.",
+    "tags": [
+      "IA appliquée",
+      "éducation",
+      "insights politiques",
+      "Google Gemini"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 6,
     "score_composite": 5.550000000000001
   },
@@ -12147,6 +12394,31 @@
     "score_composite": 5.199999999999999
   },
   {
+    "url": "https://zapier.com/blog/zapier-formatter-guide",
+    "url_hash": "5425b73f2f57228ba6c4eb72ab236016",
+    "titre": "Zapier Formatter: Automatically format text the way you want",
+    "resume": "So near, and yet so far. That's the feeling more often than not when trying to get apps to work together. You export data out of one app, try to import it into another—and it looks perfect, right until it doesn't. Turns out, the text is in the wrong format or order, names are together when they should be split into first and last, dates and phone numbers are formatted incorrectly, and so on. Back to the drawing board. You could manually edit everything, splitting first and last names by hand or",
+    "date": "2026-06-05",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Cet article présente une fonctionnalité spécifique de Zapier pour le formatage de texte, améliorant un outil existant. Il s'agit d'une évolution notable pour l'automatisation des tâches simples.",
+    "tags": [
+      "Zapier",
+      "Automatisation",
+      "Formatage de Texte",
+      "No-code",
+      "Intégration"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.199999999999999
+  },
+  {
     "url": "https://techcrunch.com/2026/05/15/indian-uber-rival-rapido-raises-240m-at-3b-valuation/",
     "url_hash": "397bfe6497a0257060974341c210a909",
     "titre": "Indian Uber rival Rapido raises $240M at $3B valuation",
@@ -12268,6 +12540,30 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 4,
+    "score_composite": 5.15
+  },
+  {
+    "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+    "url_hash": "c0733419b1418f46359f6ed08eb58255",
+    "titre": "LLM Research Papers: The 2026 List (January to May)",
+    "resume": "A curated roundup of notable LLM research papers that came out this year",
+    "date": "2026-06-06",
+    "source_name": "Sebastian Raschka",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_MODELES",
+    "raison_score": "Il s'agit d'une compilation utile de publications de recherche sur les LLM, offrant un aperçu des évolutions récentes. Bien que pas révolutionnaire en soi, elle informe sur les avancées potentielles.",
+    "tags": [
+      "LLM",
+      "recherche",
+      "publications",
+      "modèles IA"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
     "score_composite": 5.15
   },
   {
@@ -12556,6 +12852,31 @@
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 3,
+    "score_composite": 5.05
+  },
+  {
+    "url": "https://techcrunch.com/video/the-most-interesting-startups-right-now-want-to-get-you-off-your-phone/",
+    "url_hash": "79cc28ab279bcc16417d1d9d02f795b5",
+    "titre": "The most interesting startups right now want to get you off your phone",
+    "resume": "While the AI fundraising machine keeps breaking its own records, some founders are building in the other direction.  Mirror founder Brynn Putnam just raised money for Board, a startup focused on bringing people together through in-person games and social experiences. Cyberdeck creators are going viral crafting whimsical DIY computers that literally encourage users to touch grass. Unlike the AI-free browser crowd, this doesn’t just feel like backlash, […]",
+    "date": "2026-06-05",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "L'article met en avant de nouvelles tendances entrepreneuriales axées sur le 'déconnectage' et les expériences physiques, malgré le boom de l'IA. Il documente un nouveau cas d'usage et une tendance émergente.",
+    "tags": [
+      "Entrepreneuriat",
+      "Tendances Tech",
+      "Startups",
+      "Expérience Utilisateur",
+      "IA"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
     "score_composite": 5.05
   },
   {
@@ -12865,6 +13186,31 @@
       "dashboard",
       "analyse client",
       "BI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
+    "url": "https://medium.com/@jmin54492/power-bi-semantic-model-%EC%8B%A4%EC%8A%B5-%EB%B0%98%EB%B3%B5%EB%90%98%EB%8A%94-%EB%A7%A4%EC%B6%9C%EA%B0%92-%EB%AC%B8%EC%A0%9C%EB%A5%BC-%EA%B4%80%EA%B3%84-%EA%B3%84%EC%B8%B5-dax-measure%EB%A1%9C-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0-41279ac247dd?source=rss------power_bi-5",
+    "url_hash": "dac0f30e85534dec239d34814f3998c7",
+    "titre": "Power BI Semantic Model 실습: 반복되는 매출값 문제를 관계·계층·DAX Measure로 해결하기",
+    "resume": "From repeated totals to a usable semantic modelContinue reading on Medium »",
+    "date": "2026-06-06",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Il s'agit d'un tutoriel avancé sur l'utilisation de DAX Measure pour résoudre des problèmes de modèles sémantiques dans Power BI. L'aspect pratique et les métriques implicites le rendent utile.",
+    "tags": [
+      "Power BI",
+      "modèle sémantique",
+      "DAX",
+      "mesures",
+      "modélisation de données"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
@@ -13383,6 +13729,31 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 5,
+    "score_composite": 4.7
+  },
+  {
+    "url": "https://www.saastr.com/400m-arr-with-under-200-people-what-lovables-head-of-growth-elena-verna-says-actually-works-in-b2b-now/",
+    "url_hash": "02bb7dd0fb653be28392cb036d8ab73e",
+    "titre": "$400M ARR With Under 200 People: What Lovable’s Head of Growth Elena Verna Says Actually Works in B2B Now",
+    "resume": "When Elena Verna, Head of Growth at Lovable, took the stage at SaaStr AI, she’d just hit her one-year anniversary at the company. She walked through the question many B2B leaders are wrestling with: when AI writes 80%+ of your code and anyone can vibe code your feature set in an afternoon, what’s actually left... Continue Reading",
+    "date": "2026-06-05",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article partage un retour d'expérience sur la croissance B2B à succès, abordant l'impact de l'IA dans ce contexte. C'est une information utile sur une pratique de croissance dans le secteur tech.",
+    "tags": [
+      "Croissance B2B",
+      "Entrepreneuriat Tech",
+      "IA",
+      "SaaS",
+      "Retour d'Expérience"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 7,
     "score_composite": 4.7
   },
   {
@@ -14387,6 +14758,31 @@
     "score_composite": 4.25
   },
   {
+    "url": "https://techcrunch.com/2026/06/05/as-vc-backed-e-bike-startups-went-bankrupt-bootstrapped-lectric-grew/",
+    "url_hash": "4c33757f9bcdaf341909e2e94e1678f0",
+    "titre": "As VC-backed e-bike startups went bankrupt, bootstrapped Lectric grew",
+    "resume": "Lectric, which says the U.S. market is ripe for competition and choice, has launched three new brands in the past six months.",
+    "date": "2026-06-05",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article offre un retour d'expérience sur un modèle entrepreneurial (bootstrapping vs VC) dans le secteur des e-bikes. C'est une information utile sur des stratégies de croissance différentes.",
+    "tags": [
+      "Entrepreneuriat",
+      "Bootstrapping",
+      "Startup",
+      "E-bike",
+      "Business Model"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 4.25
+  },
+  {
     "url": "https://techcrunch.com/2026/05/14/cerebras-ipo-makes-billions-for-benchmark-but-vc-eric-vishria-almost-didnt-take-the-meeting/",
     "url_hash": "1b48bd8bbc55a670926447bbc4a1614d",
     "titre": "Cerebras IPO makes billions for Benchmark but VC Eric Vishria almost didn’t take the meeting",
@@ -14842,6 +15238,31 @@
       "SharePoint",
       "Data Source",
       "Integration"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.9000000000000004
+  },
+  {
+    "url": "https://medium.com/riccardo-perico/power-bi-and-snowflake-keypair-authentication-mystery-solved-65a2d4e8b01e?source=rss------power_bi-5",
+    "url_hash": "b64af7cd9324fe48a5eef325f19fdfbc",
+    "titre": "Power BI and Snowflake KeyPair authentication, mystery solved",
+    "resume": "Double check the connection string!Continue reading on Rik in a Data Journey »",
+    "date": "2026-06-06",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Il s'agit d'un retour d'expérience utile sur la résolution d'un problème technique spécifique de connexion entre Power BI et Snowflake. L'information est pratique pour les utilisateurs concernés.",
+    "tags": [
+      "Power BI",
+      "Snowflake",
+      "authentification",
+      "connexion",
+      "data engineering"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 3,
@@ -15809,6 +16230,31 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 3,
+    "score_composite": 3.2
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
+    "url_hash": "5f705da3009f13d8b44777caa4da5081",
+    "titre": "Startup Battlefield 200 applications officially close in 3 days",
+    "resume": "Applications for Startup Battlefield 200 officially close on June 8, 11:59 p.m. PT. Don't wait any longer. Secure your shot at competing on the Disrupt Stage at TechCrunch Disrupt 2026 this October at San Francisco's Moscone West.",
+    "date": "2026-06-05",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article est une information utile concernant un événement de mise en avant de startups. Il a une valeur limitée pour les experts mais est pertinent pour les entrepreneurs recherchant des opportunités.",
+    "tags": [
+      "Startup",
+      "Entrepreneuriat",
+      "TechCrunch Disrupt",
+      "Levée de fonds",
+      "Networking"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 6,
     "score_composite": 3.2
   },
   {
