@@ -562,7 +562,7 @@
     "source_name": "TechCrunch",
     "categorie_source": "BUSINESS_IA",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "ENTREPRENEURIAT",
     "raison_score": "La levée de fonds de Supabase qui double sa valorisation à 10 milliards de dollars en 8 mois représente un événement majeur qui redessine le secteur des plateformes de données open-source, largement influencé par les outils d'IA.",
@@ -1055,6 +1055,31 @@
     "score_composite": 7.7
   },
   {
+    "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
+    "url_hash": "25761d5880ff6ebdde94be0752c26fa4",
+    "titre": "Learning to lead in a hybrid human-AI enterprise",
+    "resume": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce.  Unlike existing enterprise-level automation that relies on manual input, AI agents are capable of autonomously coordinating complex tasks, interacting with multiple tools and environments across…",
+    "date": "2026-06-09",
+    "source_name": "MIT Tech Review AI",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Aborde l'impact quantifié de l'adoption des agents IA sur les équipes de direction et les implications stratégiques. Met en avant l'autonomie et la complexité des tâches que les agents peuvent gérer.",
+    "tags": [
+      "AI agents",
+      "leadership",
+      "hybrid workforce",
+      "enterprise automation",
+      "strategy"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 7.7
+  },
+  {
     "url": "https://openai.com/index/introducing-gpt-rosalind",
     "url_hash": "b6d50c92151fe56157d91fede7020af1",
     "titre": "Introducing GPT-Rosalind for life sciences research",
@@ -1522,6 +1547,30 @@
       "Ingénierie logicielle",
       "Automatisation",
       "Productivité"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.55
+  },
+  {
+    "url": "https://venturebeat.com/orchestration/researchers-trained-an-open-source-ai-search-agent-harness-1-that-outperforms-gpt-5-4-on-recalling-relevant-information",
+    "url_hash": "fb355d3493936f60b1038b0612193b76",
+    "titre": "Researchers trained an open source AI search agent, Harness-1, that outperforms GPT-5.4 on recalling relevant information",
+    "resume": "A joint research collaboration between researchers at the University of Illinois at Urbana-Champaign (UIUC), UC Berkeley, and the open source AI-native vector database platform Chroma unveiled Harness-1, a 20-billion parameter open-source search agent built atop OpenAI's gpt-oss-20B open source model that fundamentally redesigns how AI executes complex retrieval tasks. Harness-1 achieves a massive leap in performance, scoring 73% average on its ability to recall relevant information correctly fr",
+    "date": "2026-06-08",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Il s'agit d'un agent de recherche open-source (Harness-1) qui surpasse des modèles existants dans le rappel d'informations pertinentes, représentant une avancée notable dans le domaine des agents IA.",
+    "tags": [
+      "agent de recherche",
+      "open-source",
+      "performance",
+      "GPT-5.4"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 9,
@@ -2750,6 +2799,31 @@
     "score_composite": 7.15
   },
   {
+    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/AI-Powered-Power-BI-reporting-From-design-to-deployment-with/ba-p/5190703",
+    "url_hash": "285f8155fd74527532befa3d27b01cac",
+    "titre": "AI-Powered Power BI reporting: From design to deployment with agent skills (Preview)",
+    "resume": "AI powered Power BI reporting skills is a collection of multiple skills that enables AI agents to automate report creation, from designing pages to publishing to Fabric. Now available through the Power BI authoring plugin  in Skills for Fabric —a first-party catalog of agent skills for Microsoft Fabric optimized for GitHub Copilot CLI—this capability allows agents to author reports through natural language, write schema-correct PBIR files, reload Power BI Desktop, capture screenshots, and iterat",
+    "date": "2026-06-08",
+    "source_name": "Power BI Blog",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article annonce des fonctionnalités d'IA avancées pour Power BI, permettant aux agents d'automatiser la création et le déploiement de rapports. Il s'agit d'une mise à jour majeure pour un outil BI existant.",
+    "tags": [
+      "Power BI",
+      "IA",
+      "automatisation",
+      "reporting",
+      "Fabric"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 7.15
+  },
+  {
     "url": "https://pub.towardsai.net/i-connected-claude-to-3-real-client-power-bi-models-via-mcp-cc75289f859a?source=rss------power_bi-5",
     "url_hash": "0eb4027ed9b74a3f5217b8e2154a2d5d",
     "titre": "I Connected Claude to 3 Real Client Power BI Models Via MCP.",
@@ -3533,6 +3607,31 @@
       "Mises à jour",
       "Fonctionnalités",
       "BI"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.950000000000001
+  },
+  {
+    "url": "https://medium.com/@infosprint.seo/6-things-enterprise-teams-discover-too-late-before-moving-to-microsoft-fabric-262897b59ba0?source=rss------power_bi-5",
+    "url_hash": "94e3789ae1c9545637425c74944ec277",
+    "titre": "6 Things Enterprise Teams Discover Too Late Before Moving to Microsoft Fabric",
+    "resume": "Microsoft Fabric is quickly becoming a strategic platform for modern analytics, business intelligence, and data management. Many…Continue reading on Medium »",
+    "date": "2026-06-09",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Annonce une mise à jour majeure et une nouvelle stratégie pour Microsoft Fabric, plateforme d'analytique moderne. L'article identifie des défis et des aspects critiques pour les entreprises.",
+    "tags": [
+      "Microsoft Fabric",
+      "data platform",
+      "analytics",
+      "enterprise adoption",
+      "data management"
     ],
     "pertinence_bi_consultant": 9,
     "pertinence_passionné_ia": 5,
@@ -5317,6 +5416,30 @@
       "agents",
       "développement logiciel",
       "plateforme développeur"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
+    "url": "https://blog.n8n.io/production-ai-playbook-complex-agent-patterns/",
+    "url_hash": "331930d171d128f7dc819b131aabc544",
+    "titre": "Production AI Playbook: Complex Agent Patterns",
+    "resume": "Your first AI agent worked great. Then you added three more and the system became impossible to debug. This post covers multi-agent architectures, sub-workflow composition, memory management, and failure handling patterns that keep complex agent systems modular and production-ready.",
+    "date": "2026-06-09",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article propose des patterns pour gérer des systèmes multi-agents complexes, apportant des solutions à des problèmes de production et de maintenabilité.",
+    "tags": [
+      "multi-agent",
+      "orchestration",
+      "production-ready",
+      "debug"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -7479,6 +7602,30 @@
     "score_composite": 6.300000000000001
   },
   {
+    "url": "https://huggingface.co/blog/openenv-agentic-rl",
+    "url_hash": "4cd526a0df04440c3659be16352a6ee9",
+    "titre": "The Open Source Community is backing OpenEnv for Agentic RL",
+    "resume": "",
+    "date": "2026-06-08",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "L'article met en avant le soutien de la communauté open-source pour OpenEnv, un nouvel outil dans le domaine de l'apprentissage par renforcement agentique, suggérant une avancée significative dans ce domaine.",
+    "tags": [
+      "open-source",
+      "agentic RL",
+      "communauté",
+      "Hugging Face"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.300000000000001
+  },
+  {
     "url": "https://www.producthunt.com/products/robinhood",
     "url_hash": "2a6a2deeccf7f2ddd0ca1c88fb336e28",
     "titre": "Robinhood Agentic Trading",
@@ -8937,6 +9084,31 @@
     "score_composite": 5.950000000000001
   },
   {
+    "url": "https://blog.n8n.io/llm-observability/",
+    "url_hash": "38aa6a40fc9e88fbb79ec0438fa3e1d6",
+    "titre": "LLM Observability: What To Instrument and How To Act on It",
+    "resume": "Understand what LLM observability is and which metrics to track. Maintain a visible trail, iterate your process, and close a solid feedback loop.",
+    "date": "2026-06-08",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "L'article aborde l'observabilité des LLM, expliquant comment instrumenter et agir sur les métriques. Il offre des informations pratiques pour le déploiement et la maintenance de systèmes basés sur les LLM.",
+    "tags": [
+      "LLM",
+      "observabilité",
+      "métriques",
+      "production",
+      "maintenance"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.950000000000001
+  },
+  {
     "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
     "url_hash": "3938b1e238f6786e2166d8e6516eb0e3",
     "titre": "New ways to buy ChatGPT ads",
@@ -9176,6 +9348,31 @@
       "Translytical Task Flows",
       "BI",
       "outil"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.95
+  },
+  {
+    "url": "https://medium.com/@srishtirawat2/building-a-sales-profit-analysis-dashboard-in-power-bi-a-contoso-case-study-aa5004d19b47?source=rss------power_bi-5",
+    "url_hash": "b6cddd4e3d8cd862f2b3bb9038e0eac4",
+    "titre": "Building a Sales & Profit Analysis Dashboard in Power BI: A Contoso Case Study",
+    "resume": "Data becomes valuable only when it helps businesses make better decisions.Continue reading on Medium »",
+    "date": "2026-06-09",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Présente un cas d'usage concret de création de tableau de bord dans Power BI avec des métriques (analyse des ventes et profits). Il démontre une application pratique et documentée.",
+    "tags": [
+      "Power BI",
+      "dashboard",
+      "sales analysis",
+      "profit analysis",
+      "case study"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 4,
@@ -10011,6 +10208,31 @@
     "score_composite": 5.75
   },
   {
+    "url": "https://medium.com/data-science-at-microsoft/calculating-classification-metrics-in-power-bi-4f9f3a2583df?source=rss------power_bi-5",
+    "url_hash": "36c9425b16ede571aa564c36db99ce7e",
+    "titre": "Calculating classification metrics in Power BI",
+    "resume": "From notebooks to dashboards: Evaluating ML models in Power BIContinue reading on Data Science + AI at Microsoft »",
+    "date": "2026-06-09",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Fournit un tutoriel avancé sur la manière de calculer des métriques de classification directement dans Power BI. Cela enrichit l'utilisation de l'outil pour l'évaluation de modèles ML.",
+    "tags": [
+      "Power BI",
+      "classification metrics",
+      "machine learning",
+      "data science",
+      "ML evaluation"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.75
+  },
+  {
     "url": "https://zapier.com/blog/agent-harness",
     "url_hash": "65ee11f48dca6566d04d6a3fefbec380",
     "titre": "What is an agent harness?",
@@ -10077,6 +10299,31 @@
       "vidéo",
       "xAI",
       "Grok Imagine"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.700000000000001
+  },
+  {
+    "url": "https://blog.n8n.io/how-to-monitor-usage-and-performance-of-ai-steps/",
+    "url_hash": "1fe5d332fa6496068896516809b0a369",
+    "titre": "How to monitor usage and performance of AI steps",
+    "resume": "Knowing your agent is running is different from what it's doing. Learn how to monitor AI agents in production: structured outputs, memory state and early warning signals.",
+    "date": "2026-06-08",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Décrit des pratiques importantes pour la surveillance des étapes IA en production, y compris les sorties structurées et les signaux d'alerte précoces, offrant une guidance pratique.",
+    "tags": [
+      "IA",
+      "AI Steps",
+      "Monitoring",
+      "Performance",
+      "Production"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
@@ -10527,6 +10774,31 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 8,
+    "score_composite": 5.6000000000000005
+  },
+  {
+    "url": "https://blog.n8n.io/trace-n8n-workflow-and-node-executions-with-opentelemetry/",
+    "url_hash": "75e4afd18e18d9b737742ca15e0cb5ed",
+    "titre": "Trace n8n workflow and node executions with OpenTelemetry",
+    "resume": "n8n now supports OpenTelemetry natively, allowing every workflow execution to be emitted as a trace, so n8n shows up inside the same observability stack your team already uses for the rest of production.There is no sidecar to run and no patching to maintain, and because everything is built on",
+    "date": "2026-06-08",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Cet article décrit l'intégration d'OpenTelemetry pour le traçage des exécutions de workflows n8n, améliorant l'observabilité et la maintenance des processus automatisés.",
+    "tags": [
+      "n8n",
+      "OpenTelemetry",
+      "automatisation",
+      "observabilité",
+      "workflow"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
     "score_composite": 5.6000000000000005
   },
   {
@@ -11673,6 +11945,31 @@
       "santé",
       "optimisation",
       "BI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.3999999999999995
+  },
+  {
+    "url": "https://medium.com/@ashu9559singh/5-power-bi-features-that-changed-how-i-analyze-data-40b32e4a4bf4?source=rss------power_bi-5",
+    "url_hash": "e69d30c18048bc1456c78fe028058796",
+    "titre": "5 Power BI Features That Changed How I Analyze Data",
+    "resume": "Data is everywhere, but turning raw data into actionable insights is what creates value. While learning Power BI, I discovered that a few…Continue reading on Medium »",
+    "date": "2026-06-09",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Mise à jour importante d'un outil existant, mettant en avant des fonctionnalités spécifiques de Power BI qui améliorent l'analyse de données. L'impact est documenté par une expérience utilisateur.",
+    "tags": [
+      "Power BI",
+      "data analysis",
+      "features",
+      "business intelligence",
+      "user experience"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 4,
@@ -12837,6 +13134,30 @@
     "score_composite": 5.15
   },
   {
+    "url": "https://towardsdatascience.com/sequential-fitting-a-different-perspective-on-the-spectral-bias-of-neural-networks/",
+    "url_hash": "ba965fea3f0ccff0ca1e877b1ec863ce",
+    "titre": "Sequential Fitting: A Different Perspective on the Spectral Bias of Neural Networks",
+    "resume": "What Fourier analysis misses\nThe post Sequential Fitting: A Different Perspective on the Spectral Bias of Neural Networks appeared first on Towards Data Science.",
+    "date": "2026-06-08",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Cet article explore une perspective différente sur le biais spectral des réseaux neuronaux, apportant une information utile et potentiellement nouvelle pour les chercheurs et praticiens en IA.",
+    "tags": [
+      "réseaux neuronaux",
+      "biais spectral",
+      "apprentissage machine",
+      "recherche IA"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.15
+  },
+  {
     "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Modern-Visual-Tooltips-in-Power-BI-Generally-Available/ba-p/5173946",
     "url_hash": "784b16aa8f9bf21f4b1d131d7952aaa0",
     "titre": "Modern Visual Tooltips in Power BI (Generally Available)",
@@ -13341,6 +13662,30 @@
     "score_composite": 4.95
   },
   {
+    "url": "https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/",
+    "url_hash": "938706edb86fbe731a78953b57764ba7",
+    "titre": "4 New Techniques to Maximize Claude Code",
+    "resume": "Get the most out of Claude Code with these four techniques\nThe post 4 New Techniques to Maximize Claude Code appeared first on Towards Data Science.",
+    "date": "2026-06-08",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "L'article propose des techniques avancées pour optimiser l'utilisation de Claude Code, un outil d'aide au développement. Il s'agit d'une évolution notable pour les développeurs.",
+    "tags": [
+      "Claude Code",
+      "techniques",
+      "optimisation",
+      "développement assisté"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.95
+  },
+  {
     "url": "https://openai.com/academy/projects",
     "url_hash": "24f471f193a9cec03c77290beeb7743d",
     "titre": "Using projects in ChatGPT",
@@ -13560,6 +13905,31 @@
     "score_composite": 4.949999999999999
   },
   {
+    "url": "https://medium.com/@tamariskanath/why-sharepoint-is-so-popular-as-a-data-source-and-platform-for-power-bi-part-4-27c2c3bde00e?source=rss------power_bi-5",
+    "url_hash": "ca0d421422fe091b9a76fb5cdb37592a",
+    "titre": "Why SharePoint Is So Popular as a Data Source and Platform for Power BI (Part 4)",
+    "resume": "Continuing from the previous section on native integration with the Power Platform, now we will discuss SharePoint as a Data Backbone…Continue reading on Medium »",
+    "date": "2026-06-09",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Décrit une intégration IA importante dans un outil business mainstream (SharePoint comme plateforme pour Power BI). L'article détaille une intégration spécifique d'un outil existant.",
+    "tags": [
+      "Power BI",
+      "SharePoint",
+      "data source",
+      "integration",
+      "data platform"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
     "url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
     "url_hash": "8da73ea93b530998eeb1d90d6dde98b0",
     "titre": "Helping developers build safer AI experiences for teens",
@@ -13632,6 +14002,30 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 6,
+    "score_composite": 4.9
+  },
+  {
+    "url": "https://huggingface.co/blog/build-small-hackathon/neurobait-adhd",
+    "url_hash": "fcabcc311dcede3dcbb5c3af702b076e",
+    "titre": "NeuroBait: I fine-tuned a model to spark dopamine for ADHD brain",
+    "resume": "",
+    "date": "2026-06-09",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Présente un nouveau cas d'usage documenté d'un modèle fine-tuné. Les métriques précises de l'impact sur le comportement ne sont pas détaillées dans le résumé, mais l'approche est concrète.",
+    "tags": [
+      "LLM",
+      "fine-tuning",
+      "ADHD",
+      "neuroscience"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 4,
     "score_composite": 4.9
   },
   {
@@ -13876,6 +14270,55 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 4,
+    "score_composite": 4.8
+  },
+  {
+    "url": "https://medium.com/@Aegis-Softtech/why-power-bi-consulting-services-are-essential-for-successful-bi-implementation-50f04f0766d9?source=rss------power_bi-5",
+    "url_hash": "09091586d0883f56f6e61c57948b39c1",
+    "titre": "Why Power BI Consulting Services Are Essential for Successful BI Implementation",
+    "resume": "In today’s business intelligence world, organizations have more data than ever from multiple sources, including customer interactions…Continue reading on Medium »",
+    "date": "2026-06-09",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article de fond expliquant l'importance des services de conseil pour Power BI. Il s'agit d'une pratique établie qui est utile mais pas innovante.",
+    "tags": [
+      "Power BI",
+      "BI implementation",
+      "consulting",
+      "business intelligence"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.8
+  },
+  {
+    "url": "https://medium.com/microsoft-power-bi/ribbon-chart-in-power-bi-track-category-rankings-over-time-693f299579f4?source=rss------power_bi-5",
+    "url_hash": "94a0276961182daaa5c193d7ae9e39a2",
+    "titre": "Ribbon Chart in Power BI: Track Category Rankings Over Time",
+    "resume": "When I want to compare category performance over time, my first instinct is usually to create a line chart or a stacked column chart. They…Continue reading on Power BI »",
+    "date": "2026-06-09",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Présente une nouvelle capacité ou une mise à jour importante d'un outil existant (graphique Ruban dans Power BI) pour un cas d'usage spécifique (suivi des classements).",
+    "tags": [
+      "Power BI",
+      "ribbon chart",
+      "data visualization",
+      "reporting",
+      "category ranking"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
     "score_composite": 4.8
   },
   {
@@ -15000,6 +15443,55 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 3,
+    "score_composite": 4.4
+  },
+  {
+    "url": "https://medium.com/@samuacharya05/power-bi-and-data-analytics-turning-data-into-meaningful-insights-1f8b295a94ea?source=rss------power_bi-5",
+    "url_hash": "ee649bf5ccbfcf09aadd8174b23df367",
+    "titre": "Power BI and Data Analytics: Turning Data into Meaningful Insights",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-06-09",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article de fond sur le rôle de Power BI dans la transformation des données en insights. Il s'agit d'une information générale sur une pratique établie.",
+    "tags": [
+      "Power BI",
+      "data analytics",
+      "business intelligence",
+      "insights"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.4
+  },
+  {
+    "url": "https://blog.n8n.io/n8n-uk-international-expansion/",
+    "url_hash": "f0030fc4bc7c5a9ce70bf05312c81ec4",
+    "titre": "n8n targets a 200 person UK team by 2029 as it makes the UK an integral part of its international expansion",
+    "resume": "Germany's most valuable AI startup announces its commitment during London Tech Week, building on a year in which its UK team has already tripled in sizeLONDON and BERLIN, 9 June 2026 – n8n, the AI orchestration platform, today announced a target of 200 UK-based employees by 2029.",
+    "date": "2026-06-08",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Il s'agit d'une annonce d'expansion pour une entreprise spécialisée dans l'orchestration IA. Bien qu'intéressant pour le secteur, l'impact direct est plus limité.",
+    "tags": [
+      "entreprise",
+      "expansion",
+      "IA",
+      "startup",
+      "Royaume-Uni"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
     "score_composite": 4.4
   },
   {
@@ -17054,6 +17546,30 @@
     "pertinence_passionné_ia": 1,
     "pertinence_entrepreneur": 5,
     "score_composite": 2.6500000000000004
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/09/anker-backed-evotrex-raises-30m-to-build-its-off-grid-rv/",
+    "url_hash": "4dc79fbeefad9647ce76ee4e67ef7212",
+    "titre": "Evotrex raises $30M to build the RV that doesn’t need a charging station",
+    "resume": "The startup is one of many entering the RV space, but it's banking on a hybrid power system that can go far beyond campsites.",
+    "date": "2026-06-09",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 2,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Il s'agit d'une annonce de levée de fonds pour un produit dans le domaine des véhicules de loisirs, avec une innovation technologique mais peu de lien avec l'IA, le Data Engineering ou la BI.",
+    "tags": [
+      "levée de fonds",
+      "vehicule",
+      "innovation",
+      "startup"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 2.4
   },
   {
     "url": "https://medium.com/powerbi-microsoft-fabric/5-pune-startups-hiring-for-power-bi-data-roles-in-2026-d95493baa69a?source=rss------power_bi-5",

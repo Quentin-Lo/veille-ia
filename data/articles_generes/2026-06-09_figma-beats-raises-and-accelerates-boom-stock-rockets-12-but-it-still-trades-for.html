@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Figma Beats, Raises and Accelerates! Boom! Stock Rockets 12%! But … It Still Trades for Less than 10X ARR — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>Figma Beats, Raises and Accelerates! Boom! Stock Rockets 12%! But … It Still Trades for Less than 10X ARR</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-05-15</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-06-09 10:59 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>Figma bat les attentes, accélère et lève des fonds</h2>
+<blockquote>La valorisation de Figma reste sous la barre des 10x ARR malgré des performances solides.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+<p>Figma a présenté ses résultats du premier trimestre. Ils sont qualifiés de "clean beat and raise and accelerate". Le chiffre d'affaires a progressé pour le deuxième trimestre consécutif. Le taux de rétention nette (NDR) a atteint un pic sur plus de deux ans.</p>
+<p>La monétisation via l'IA, initialement redoutée par les analystes, semble porter ses fruits. Cela contribue à la dynamique positive de l'entreprise.</p>
+<blockquote>Figma affiche une croissance solide, une accélération du revenu et une amélioration de la rétention.</blockquote>
+<h3>Pourquoi ca compte 🎯</h3>
+<p>Malgré des performances impressionnantes, la valorisation de l'entreprise reste prudente. Cela suggère que le marché attend encore des preuves de durabilité de cette croissance. L'entreprise devrait continuer à innover sur son modèle économique lié à l'IA.</p>
+<table>
+<tr><th>Indicateur</th><th>T1 2026</th><th>Progression</th></tr>
+<tr><td>Chiffre d'affaires</td><td>+X%</td><td>Accéléré</td></tr>
+<tr><td>NDR</td><td>Y%</td><td>Plus haut</td></tr>
+</table>
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Analyser les rapports de Figma</strong> : voir les éléments clés de leur succès.</li>
+<li><strong>Explorer la monétisation IA</strong> : comprendre comment Figma intègre l'IA dans ses offres.</li>
+<li><strong>Défier ton analyse</strong> : compare la valorisation de Figma à d'autres SaaS du marché.</li>
+</ul>
+<blockquote>Les chiffres de Figma montrent une entreprise en pleine forme, mais le marché reste mesuré sur la valorisation.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>Beat and Raise and Accelerate</strong> : résultats financiers meilleurs que prévu, avec des prévisions relevées et une croissance accélérée.</li>
+<li><strong>NDR (Net Dollar Retention)</strong> : indicateur clé de la croissance des revenus existants. Un NDR supérieur à 100% signifie que la croissance des revenus des clients existants dépasse les pertes des clients partis.</li>
+<li><strong>ARR (Annual Recurring Revenue)</strong> : revenus annuels récurrents. Un multiple d'ARR est un ratio utilisé pour valoriser les entreprises SaaS.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://www.saastr.com/figma-beats-raises-and-accelerates-boom-stock-rockets-12-but-it-still-trades-for-less-than-10x-arr/">Figma beats, raises and accelerates! Boom! Stock rockets 12%! But … it still trades for less than 10x ARR</a> — Comprendre le contexte de valorisation des entreprises SaaS.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<strong>Google repense sa barre de recherche pour la première fois en 25 ans</strong> (8) Google intègre des éléments d'IA pour une expérience plus interactive et personnalisée.
+<strong>MiniMax lance M3 avec une architecture MSA</strong> (8) Ce modèle supporte un contexte de 1 million de tokens, la multimodalité native et le codage agentique.
+<strong>Microsoft Surface RTX Spark Dev Box pour l'IA locale</strong> (8) Une nouvelle station de développement pour exécuter de grands modèles d'IA sans passer par le cloud.
+<strong>L'avenir de l'analytique self-service avec Microsoft Fabric</strong> (8) Passage des dashboards Power BI aux agents de données Fabric pour une approche plus intégrée.
+<strong>n8n s'associe à SAP pour l'orchestration visuelle d'IA</strong> (8) L'objectif est d'apporter l'IA aux workflows d'entreprise via une interface visuelle.
+<strong>DeepSeek-V4 propose un contexte d'un million de tokens utilisable par les agents</strong> (8) Ce modèle vise à améliorer les capacités des agents IA grâce à une mémoire étendue.
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>Les modèles IA de NVIDIA explosent.</strong> NVIDIA publie Cosmos 3 et Nemotron 3 Ultra, des modèles fondationnels innovants qui unifient raisonnement physique, génération de mondes et actions. Ces sorties montrent la course à la puissance et à la polyvalence des grands modèles.
+<strong>L'IA prend le contrôle du code.</strong> Anthropic annonce que 80% de son nouveau code de production est généré par Claude. Cela souligne l'intégration croissante des IA dans le développement logiciel.
+<strong>A surveiller</strong> : L'essor des systèmes d'inférence hybrides local-cloud, comme celui présenté par Perplexity AI. L'objectif est de combiner la performance du cloud avec la confidentialité et la latence réduite du local.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-06-09 10:59 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
