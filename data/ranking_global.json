@@ -303,6 +303,30 @@
     "score_composite": 8.299999999999999
   },
   {
+    "url": "https://venturebeat.com/technology/on-device-ai-agents-hit-a-hard-memory-limit-apples-new-architecture-routes-around-it",
+    "url_hash": "dab7a18c14a07695ee1c536c3e4068a2",
+    "titre": "On-device AI agents hit a hard memory limit. Apple's new architecture routes around it.",
+    "resume": "On-device AI models have stayed small because the entire weight set has to live in DRAM, capping practical parameter counts well below what server-side deployments use. Enterprise architects evaluating agentic workloads have had to choose between capable cloud-dependent models and limited on-device ones. Apple's third-generation foundation models, announced at WWDC26, break that constraint by moving the weight set off DRAM entirely.The AFM 3 family was developed in collaboration with Google and ",
+    "date": "2026-06-09",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Apple propose une nouvelle architecture pour les agents IA embarqués qui contourne les limites de mémoire DRAM. C'est une percée majeure pour l'IA sur appareil, ouvrant de nouvelles possibilités.",
+    "tags": [
+      "on-device AI",
+      "Apple",
+      "AI agents",
+      "memory architecture"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 8.25
+  },
+  {
     "url": "https://venturebeat.com/technology/googles-new-ai-agent-can-draft-your-emails-monitor-your-inbox-and-eventually-spend-your-money",
     "url_hash": "46660da5dc5a7eea7ed1ae6d38c01fdb",
     "titre": "Google’s new AI agent can draft your emails, monitor your inbox and eventually spend your money",
@@ -614,7 +638,7 @@
     "source_name": "SaaStr",
     "categorie_source": "ENTREPRENEURIAT",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "BUSINESS_IA",
     "raison_score": "Cet article présente une étude de cas quantifiée sur l'impact de l'IA sur une entreprise SaaS comme Figma, démontrant une accélération de la croissance et une monétisation réussie de l'IA. C'est une avancée significative.",
@@ -677,6 +701,31 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 9,
     "pertinence_entrepreneur": 8,
+    "score_composite": 7.95
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/08/a-new-study-from-harvard-and-perplexity-finds-ai-agents-perform-26-minutes-of-autonomous-work-per-session-vs-33-seconds-for-search/",
+    "url_hash": "1f9dc1c40caadfa5c37f848ecf1f431f",
+    "titre": "A New Study from Harvard and Perplexity Finds AI Agents Perform 26 Minutes of Autonomous Work per Session vs 33 Seconds for Search",
+    "resume": "A new Harvard and Perplexity paper uses matched-pair sessions to compare an autonomous agent with a search assistant. It finds large gains in autonomy, time, and cost, plus broader scope of work attempted.\nThe post A New Study from Harvard and Perplexity Finds AI Agents Perform 26 Minutes of Autonomous Work per Session vs 33 Seconds for Search appeared first on MarkTechPost.",
+    "date": "2026-06-09",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Il s'agit d'une étude quantifiée sur l'impact de l'IA (agents) sur les métiers, comparant l'autonomie et l'efficacité par rapport à la recherche traditionnelle. C'est une avancée significative.",
+    "tags": [
+      "IA agents",
+      "étude",
+      "productivité",
+      "recherche",
+      "autonomie"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
     "score_composite": 7.95
   },
   {
@@ -1179,6 +1228,30 @@
     "score_composite": 7.6499999999999995
   },
   {
+    "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+    "url_hash": "5071c4550990a241f148c17e3d04ef2f",
+    "titre": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+    "resume": "",
+    "date": "2026-06-09",
+    "source_name": "DeepMind Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "C'est une rupture majeure car il s'agit d'un nouveau modèle frontière unifié et sans encodeur, redéfinissant potentiellement les capacités multimodales.",
+    "tags": [
+      "Gemma",
+      "multimodal",
+      "modèle frontière",
+      "sans encodeur"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 10,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.6499999999999995
+  },
+  {
     "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
     "url_hash": "ff43ae6fb48b8184e5e8478d8ad4f0da",
     "titre": "Introducing workspace agents in ChatGPT",
@@ -1270,6 +1343,54 @@
       "agents",
       "sandbox",
       "Microsoft"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.6000000000000005
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/08/google-research-adds-agentic-rag-to-gemini-enterprise-agent-platform-with-a-sufficient-context-agent-for-multi-hop-queries/",
+    "url_hash": "188b3916a4d8d347fdbe5468362287e3",
+    "titre": "Google Research Adds Agentic RAG to Gemini Enterprise Agent Platform with a Sufficient Context Agent for multi-hop queries",
+    "resume": "Google Research details an agentic RAG framework in Gemini Enterprise Agent Platform. A Sufficient Context Agent re-searches until multi-hop, multi-source queries have enough grounding to answer. The framework raises factuality accuracy up to 34% versus standard RAG.\nThe post Google Research Adds Agentic RAG to Gemini Enterprise Agent Platform with a Sufficient Context Agent for multi-hop queries appeared first on MarkTechPost.",
+    "date": "2026-06-08",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Introduction d'un nouveau framework agentique RAG innovant pour gérer des requêtes complexes multi-sauts, améliorant significativement la factualité. Cela représente une avancée significative pour les plateformes d'agents.",
+    "tags": [
+      "RAG",
+      "Google Gemini",
+      "agentic AI",
+      "multi-hop queries"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.6000000000000005
+  },
+  {
+    "url": "https://venturebeat.com/technology/anthropic-brings-mythos-to-the-masses-with-claude-fable-5-its-most-powerful-generally-available-model-ever",
+    "url_hash": "9633954f61a5c4945d3bb31dec9f1816",
+    "titre": "Anthropic brings Mythos to the masses with Claude Fable 5, its most powerful generally available model ever",
+    "resume": "Anthropic today launched two new AI models — Claude Fable 5 and Claude Mythos 5 — marking the company’s first broad release of the powerful “Mythos-class” AI capabilities it previously made available only to participating organizations in its restricted cybersecurity program, Project Glasswing, which it announced two months ago.The company says Fable 5, which is the version most users and developers will get starting today, exceeds every Claude model it has previously made generally available — ",
+    "date": "2026-06-09",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Lancement de Claude Fable 5, un modèle très puissant d'Anthropic. Il représente une avancée significative en termes de capacités pour les modèles d'IA généralement disponibles.",
+    "tags": [
+      "Anthropic",
+      "Claude Fable 5",
+      "LLM",
+      "AI model"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 8,
@@ -1596,6 +1717,30 @@
       "Cybersécurité",
       "IA appliquée",
       "Défense"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.500000000000001
+  },
+  {
+    "url": "https://venturebeat.com/technology/cohere-open-sources-a-coding-agent-that-runs-on-a-single-h100",
+    "url_hash": "3a4dd3f53ba9cc5068fecba6f293903a",
+    "titre": "Cohere open-sources a coding agent that runs on a single H100",
+    "resume": "Engineering teams building agentic coding pipelines now have a concrete open-source alternative to managed models like Claude Fable 5 — one that runs on a single H100. The tradeoff: Cohere's North Mini Code, which launched Tuesday, generated three times the output tokens of comparable models in independent testing, a verbosity cost that compounds in high-volume production workloads.The new open-source model is a 30 billion parameter mixture-of-experts (MoE) model with 3 billion parameters active",
+    "date": "2026-06-09",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cohere rend open-source un agent de codage performant, accessible sur un seul H100. C'est une avancée significative offrant une alternative compétitive pour le développement d'agents de codage.",
+    "tags": [
+      "open-source",
+      "coding agent",
+      "Cohere",
+      "H100"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -4308,6 +4453,30 @@
     "score_composite": 6.900000000000001
   },
   {
+    "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+    "url_hash": "6d8d3867b1f2d4e595578cf49ee8ce5e",
+    "titre": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+    "resume": "",
+    "date": "2026-06-09",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article présente une nouvelle capacité d'agent documentée et reproductible, montrant comment un agent a construit une galerie 3D en chaînant des espaces.",
+    "tags": [
+      "agents",
+      "Hugging Face Spaces",
+      "3D",
+      "reproductible"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.900000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/13/nous-research-releases-token-superposition-training-to-speed-up-llm-pre-training-by-up-to-2-5x-across-270m-to-10b-parameter-models/",
     "url_hash": "7feb4acf8eef6a26c48aa73c3647740c",
     "titre": "Nous Research Releases Token Superposition Training to Speed Up LLM Pre-Training by Up to 2.5x Across 270M to 10B Parameter Models",
@@ -4871,6 +5040,30 @@
       "Power BI",
       "PBIX",
       "sans licence"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.800000000000001
+  },
+  {
+    "url": "https://www.databricks.com/blog/claude-fable-5-now-available-databricks-fully-governed-through-unity-ai-gateway",
+    "url_hash": "d661716ae548ac0155aa70042a15ea65",
+    "titre": "Claude Fable 5 is now available on Databricks, fully governed through Unity AI Gateway",
+    "resume": "Databricks and Anthropic share a conviction: the most powerful AI is the AI that...",
+    "date": "2026-06-09",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Annonce de la disponibilité de Claude Fable 5 sur Databricks, avec une gouvernance intégrée via Unity AI Gateway. C'est une intégration importante qui rend un modèle avancé plus accessible et gérable pour les entreprises.",
+    "tags": [
+      "Databricks",
+      "Claude Fable 5",
+      "Unity AI Gateway",
+      "governance"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 6,
@@ -6460,6 +6653,54 @@
     "score_composite": 6.550000000000001
   },
   {
+    "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+    "url_hash": "9e2b59b245eeb33dd4956652b0ed6180",
+    "titre": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+    "resume": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
+    "date": "2026-06-09",
+    "source_name": "DeepMind Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Ce modèle offre une nouvelle capacité d'agent, la traduction vocale en temps réel, ce qui est une avancée significative. La démonstration et la reproductibilité sont implicites par son intégration dans des produits Google.",
+    "tags": [
+      "Gemini",
+      "traduction vocale",
+      "temps réel",
+      "agents"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/09/google-releases-gemini-3-5-live-translate-a-streaming-speech-to-speech-audio-model-covering-70-languages-across-meet-translate-and-the-live-api/",
+    "url_hash": "98c30c813d6e55657a6ce513e8ebedd5",
+    "titre": "Google Releases Gemini 3.5 Live Translate, a Streaming Speech-to-Speech Audio Model Covering 70+ Languages Across Meet, Translate, and the Live API",
+    "resume": "Gemini 3.5 Live Translate streams speech-to-speech translation across 70+ languages. It generates audio continuously, staying a few seconds behind the speaker. The model reaches developers via the Gemini Live API, plus Google Meet and the Translate app.\nThe post Google Releases Gemini 3.5 Live Translate, a Streaming Speech-to-Speech Audio Model Covering 70+ Languages Across Meet, Translate, and the Live API appeared first on MarkTechPost.",
+    "date": "2026-06-09",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Il s'agit d'une avancée significative car elle introduit une nouvelle capacité d'agent (traduction vocale en continu) documentée et applicable à travers plusieurs plateformes.",
+    "tags": [
+      "Gemini",
+      "traduction vocale",
+      "streaming",
+      "agents"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
     "url": "https://openai.com/index/safety-bug-bounty",
     "url_hash": "a1bdc83d63f1a4ac3f169d47530874ae",
     "titre": "Introducing the OpenAI Safety Bug Bounty program",
@@ -6958,6 +7199,31 @@
     "score_composite": 6.45
   },
   {
+    "url": "https://www.marktechpost.com/2026/06/10/anthropic-releases-claude-fable-5-and-claude-mythos-5-same-underlying-model-different-safeguards-new-mythos-class-tier/",
+    "url_hash": "9b4554aa5fc45352ccc2c9661a7b30ca",
+    "titre": "Anthropic Releases Claude Fable 5 and Claude Mythos 5: Same Underlying Model, Different Safeguards, New Mythos-Class Tier",
+    "resume": "Claude Fable 5 ships generally available with classifiers; Mythos 5 stays limited, cyber safeguards lifted, through Project Glasswing.\nThe post Anthropic Releases Claude Fable 5 and Claude Mythos 5: Same Underlying Model, Different Safeguards, New Mythos-Class Tier appeared first on MarkTechPost.",
+    "date": "2026-06-10",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce de nouvelles versions de modèles IA (Claude Fable 5 et Mythos 5) avec des différences notables en matière de sécurité. Ceci représente une évolution des capacités des modèles IA.",
+    "tags": [
+      "IA",
+      "LLM",
+      "Modèles",
+      "Anthropic",
+      "Sécurité"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.45
+  },
+  {
     "url": "https://openai.com/index/simplex",
     "url_hash": "dbde3b0f9ce6031be16c927523c60e13",
     "titre": "Simplex rethinks software development with Codex",
@@ -7248,6 +7514,30 @@
       "GUI",
       "tool output streaming",
       "no-code"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.350000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/08/microsoft-ai-introduces-mai-transcribe-1-5-2-4-wer-on-artificial-analysis-best-in-class-fleurs-accuracy-and-up-to-5x-faster-long-audio-transcription/",
+    "url_hash": "f2ecc274f7910a30d63c802cdd456897",
+    "titre": "Microsoft AI Introduces MAI-Transcribe-1.5: 2.4% WER on Artificial Analysis, Best-in-Class FLEURS Accuracy, and Up to 5x Faster Long-Audio Transcription",
+    "resume": "Microsoft AI has released MAI-Transcribe-1.5, the second iteration of its in-house speech-to-text family. The model covers 43 languages, adds keyword (entity) biasing for domain-specific terms, posts a 2.4% Word-Error-Rate on the Artificial Analysis leaderboard, and transcribes an hour of audio in under 15 seconds. It is generally available in Azure AI Foundry.\nThe post Microsoft AI Introduces MAI-Transcribe-1.5: 2.4% WER on Artificial Analysis, Best-in-Class FLEURS Accuracy, and Up to 5x Faster",
+    "date": "2026-06-08",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Amélioration significative d'un modèle de transcription audio existant avec des métriques de performance claires et une disponibilité en Azure. C'est une avancée notable pour les applications de traitement de la parole.",
+    "tags": [
+      "speech-to-text",
+      "Microsoft AI",
+      "WER",
+      "FLEURS"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -8446,6 +8736,31 @@
     "score_composite": 6.1
   },
   {
+    "url": "https://www.producthunt.com/products/timmy-tui",
+    "url_hash": "dfd210023a164bde33dba8ec09d99b56",
+    "titre": "Timmy-TUI",
+    "resume": "\n            Local-first agent trust console with a safe local workspace\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-06-10",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Présentation d'un nouvel outil (Timmy-TUI) qui semble être une nouvelle capacité d'agent IA documentée, axée sur la confiance et la sécurité des agents locaux. Le format Product Hunt suggère un lancement d'outil.",
+    "tags": [
+      "IA",
+      "Agents",
+      "Sécurité",
+      "Développement",
+      "Outils"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.1
+  },
+  {
     "url": "https://openai.com/signals/research/2026q1-update",
     "url_hash": "45f994a154506ce019e1843247861ad0",
     "titre": "How ChatGPT adoption broadened in early 2026",
@@ -8739,6 +9054,31 @@
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.050000000000001
+  },
+  {
+    "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+    "url_hash": "56ac2785e7ef66b33857c5b6bd2d0fad",
+    "titre": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+    "resume": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
+    "date": "2026-06-08",
+    "source_name": "DeepMind Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cette étude quantifie l'impact de l'IA (Gemini's Guided Learning) sur l'apprentissage, démontrant un nouveau cas d'usage concret avec des métriques mesurables.",
+    "tags": [
+      "IA",
+      "éducation",
+      "impact",
+      "apprentissage",
+      "Gemini"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 6,
     "score_composite": 6.050000000000001
   },
@@ -9741,6 +10081,31 @@
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 7,
+    "score_composite": 5.85
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/10/ai-coding-agents-development-platforms-2026/",
+    "url_hash": "10fa5cf767ed1d2221522fbe4fb30ccf",
+    "titre": "Top AI Coding Agents and Development Platforms in 2026: Atoms, Devin, Windsurf, Cursor, Warp, and More Compared",
+    "resume": "Software development has changed. Engineers no longer type most code by hand. They describe intent, and AI agents do the work. Modern tools plan tasks, edit across files, run tests, and open pull requests. Many now ship to production with limited supervision. No single tool fits every need. This guide covers the AI coding agents […]\nThe post Top AI Coding Agents and Development Platforms in 2026: Atoms, Devin, Windsurf, Cursor, Warp, and More Compared appeared first on MarkTechPost.",
+    "date": "2026-06-10",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Article compare plusieurs agents de codage IA, une nouvelle capacité d'agent documentée et reproductible. Il aborde l'évolution des plateformes de développement assistées par l'IA.",
+    "tags": [
+      "IA",
+      "DevOps",
+      "Outils",
+      "Agents",
+      "Code"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
     "score_composite": 5.85
   },
   {
@@ -12148,6 +12513,56 @@
     "score_composite": 5.300000000000001
   },
   {
+    "url": "https://www.marktechpost.com/2026/06/09/nvidia-cutile-python-tutorial-building-tiled-gpu-kernels-for-vector-addition-matrix-addition-and-matrix-multiplication-in-colab/",
+    "url_hash": "08f656013b6db29d2b3b235facea7a23",
+    "titre": "NVIDIA cuTile Python Tutorial: Building Tiled GPU Kernels for Vector Addition, Matrix Addition, and Matrix Multiplication in Colab",
+    "resume": "In this tutorial, we implement a hands-on workflow for NVIDIA cuTile Python, a tile-based GPU programming interface for CUDA-style kernels in Python. We prepare a Colab-friendly environment and check GPU, driver, CUDA, and cuTile availability before running kernels. We then build tiled vector addition, matrix addition, and matrix multiplication, keeping a PyTorch fallback so the notebook stays executable. We validate correctness against PyTorch and benchmark median runtimes at every stage.\nThe p",
+    "date": "2026-06-09",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Il s'agit d'un tutoriel avancé sur une pratique établie (programmation GPU avec cuTile), apportant une valeur ajoutée utile pour le développement assisté par IA.",
+    "tags": [
+      "NVIDIA",
+      "cuTile",
+      "GPU",
+      "tutoriel",
+      "Python"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.300000000000001
+  },
+  {
+    "url": "https://www.wired.com/story/artificial-intelligence-sneaks-into-the-world-cup-thanks-to-google-gemini/",
+    "url_hash": "0007e7a329898c4d74e66226aa6b31a6",
+    "titre": "Artificial Intelligence Sneaks Into the World Cup Thanks to Google Gemini",
+    "resume": "The Argentine national team will be Google’s test bench and technological showcase during the World Cup.",
+    "date": "2026-06-10",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Article sur l'intégration de Google Gemini pour l'équipe nationale argentine pendant la Coupe du Monde. Il s'agit d'un nouveau cas d'usage documenté de l'IA dans le sport, avec une pertinence business.",
+    "tags": [
+      "IA",
+      "Sport",
+      "Google",
+      "Gemini",
+      "Analyse"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.300000000000001
+  },
+  {
     "url": "https://medium.com/@ayeshams199/what-customer-churn-taught-me-about-data-storytelling-918238cf75a6?source=rss------power_bi-5",
     "url_hash": "1e9ad92aa3e3500e36bcb0e06776bdaf",
     "titre": "What Customer Churn Taught Me About Data Storytelling",
@@ -13229,6 +13644,31 @@
     "score_composite": 5.1499999999999995
   },
   {
+    "url": "https://www.latent.space/p/ainews-anthropic-claude-fable-5-mythos",
+    "url_hash": "8134faf52d29b1383d928ad43a57a58d",
+    "titre": "[AINews] Anthropic Claude Fable 5 — Mythos but Safe, with Controversial Terms",
+    "resume": "The much anticipated launch of the Mythos-class model was marred by some controversial usage policies",
+    "date": "2026-06-10",
+    "source_name": "Latent Space",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Article qui complète l'annonce de Claude Fable 5 et Mythos 5, en soulignant les aspects de sécurité et les politiques d'utilisation controversées. C'est une évolution notable sur l'aspect gouvernance des modèles.",
+    "tags": [
+      "IA",
+      "LLM",
+      "Modèles",
+      "Anthropic",
+      "Politique"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.1000000000000005
+  },
+  {
     "url": "https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/",
     "url_hash": "edca86a2d564c1abb0ab22c0398a6af8",
     "titre": "RAG Is Not Machine Learning, and the ML Toolkit Solves the Wrong Problem",
@@ -13492,6 +13932,31 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 7,
+    "score_composite": 5.05
+  },
+  {
+    "url": "https://www.databricks.com/blog/modern-bsaaml-compliance-databricks",
+    "url_hash": "eb0c8c997c1873a22a4b0ef5561bb54f",
+    "titre": "Modern BSA/AML compliance on Databricks",
+    "resume": "The anti-money laundering (AML) function in financial services has historically been...",
+    "date": "2026-06-10",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Article présentant un nouveau cas d'usage documenté sur l'utilisation de Databricks pour la conformité BSA/AML dans le secteur financier. Il montre l'intégration IA dans des outils data mainstream pour des besoins spécifiques.",
+    "tags": [
+      "Data",
+      "Compliance",
+      "Fintech",
+      "Databricks",
+      "IA"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
     "score_composite": 5.05
   },
   {
@@ -13923,6 +14388,31 @@
       "data source",
       "integration",
       "data platform"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
+    "url": "https://medium.com/@echekwaceejay/e-commerce-sales-analysis-f9196f0bdbf2?source=rss------power_bi-5",
+    "url_hash": "9c0c0548e63600fd51e604f835cfe1b1",
+    "titre": "E-commerce Sales Analysis",
+    "resume": "Background\nThis project analyses a Superstore retail dataset using Power BI to understand sales performance, profitability, customer…Continue reading on Medium »",
+    "date": "2026-06-10",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Présente un nouveau cas d'usage concret d'analyse des ventes e-commerce avec Power BI, documenté par des métriques. Il s'agit d'une pratique BI établie illustrée par un exemple.",
+    "tags": [
+      "BI",
+      "Power BI",
+      "E-commerce",
+      "Analyse",
+      "Ventes"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
@@ -14810,6 +15300,56 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 3,
+    "score_composite": 4.65
+  },
+  {
+    "url": "https://openai.com/index/nextdoor",
+    "url_hash": "de0a2342d5aae8686fc1282cac16f250",
+    "titre": "How engineers at Nextdoor use Codex to build without limits",
+    "resume": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+    "date": "2026-06-09",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Retour d'expérience documenté sur l'utilisation de Codex (OpenAI) par les ingénieurs de Nextdoor. Il illustre une intégration IA dans un processus de développement existant, avec des bénéfices quantifiés.",
+    "tags": [
+      "IA",
+      "DevOps",
+      "OpenAI",
+      "Codex",
+      "Développement"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.65
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/10/waymo-says-it-built-a-better-benchmark-for-comparing-robotaxis-to-humans/",
+    "url_hash": "5af56692decf95785df5fdf84ee7c921",
+    "titre": "Waymo says it built a better benchmark for comparing robotaxis to humans",
+    "resume": "Waymo created a new computer model to help it better understand how humans behave in crash scenarios that its robotaxis encounter.",
+    "date": "2026-06-10",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Annonce d'un nouveau benchmark créé par Waymo pour évaluer les robotaxis. C'est un exemple documenté d'application IA pour l'évaluation, bien que pas une rupture majeure.",
+    "tags": [
+      "IA",
+      "Robotique",
+      "Véhicules autonomes",
+      "Waymo",
+      "Benchmark"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
     "score_composite": 4.65
   },
   {
@@ -17119,6 +17659,31 @@
     "score_composite": 3.3
   },
   {
+    "url": "https://medium.com/@rupesh.kr.sinha/why-you-cant-afford-to-miss-this-free-power-bi-course-on-swayam-launching-for-the-3rd-time-in-563e31da9767?source=rss------power_bi-5",
+    "url_hash": "639be57372822479d37e35d7499c2bdf",
+    "titre": "Why You Can’t Afford to Miss This Free Power BI Course on SWAYAM — Launching for the 3rd Time in…",
+    "resume": "Over 12,000 learners across two runs. A free, nationally recognized online course.Continue reading on Medium »",
+    "date": "2026-06-10",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Article sur un cours gratuit de Power BI, soulignant son succès répété et son accessibilité. Il s'agit d'une information utile sur une ressource d'apprentissage pour une pratique établie.",
+    "tags": [
+      "BI",
+      "Power BI",
+      "Formation",
+      "Gratuit",
+      "Apprentissage"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.3
+  },
+  {
     "url": "https://openai.com/academy/what-is-ai",
     "url_hash": "a9620e92ad73779d3f8856bce29e39e6",
     "titre": "AI fundamentals",
@@ -17281,6 +17846,53 @@
       "training",
       "Business Intelligence",
       "data visualization"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.05
+  },
+  {
+    "url": "https://www.databricks.com/blog/announcing-winners-2026-databricks-customer-awards",
+    "url_hash": "3d009c560334e653dd0e3e444ef3e818",
+    "titre": "Announcing the winners of the 2026 Databricks Customer Awards",
+    "resume": "The 2026 Databricks Customer Awards recognize organizations and leaders who are using...",
+    "date": "2026-06-09",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Annonce des lauréats des prix clients Databricks 2026. Il s'agit d'une reconnaissance des succès existants, mais l'article lui-même n'apporte pas de nouvelle information technique ou stratégique majeure.",
+    "tags": [
+      "Databricks",
+      "Customer Awards",
+      "success stories"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.05
+  },
+  {
+    "url": "https://www.databricks.com/blog/announcing-2026-databricks-customer-awards-industry-winners",
+    "url_hash": "24eaf30ac41318d32299072cd435fc0e",
+    "titre": "Announcing the 2026 Databricks Customer Awards Industry winners",
+    "resume": "Every industry has its own unique challenges. The Databricks Customer Awards Industry...",
+    "date": "2026-06-09",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Similaire à l'article précédent, cet article met en avant les lauréats sectoriels des prix clients Databricks. L'information est utile pour comprendre les applications réussies, mais n'est pas une avancée technique.",
+    "tags": [
+      "Databricks",
+      "Customer Awards",
+      "industry winners",
+      "use cases"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 2,
