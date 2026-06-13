@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think. — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-05-19</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-06-13 10:27 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>Google repense sa barre de recherche pour la première fois en 25 ans</h2>
+<blockquote>La barre de recherche Google, icône du web, évolue. Le changement est plus profond qu'une simple interface.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+<p>Google va remplacer sa barre de recherche blanche iconique. Après 25 ans, le design change. Cette annonce a été faite lors de la conférence annuelle I/O. La nouvelle interface intégrera plus directement les capacités d'IA. Elle ne se contentera plus d'afficher des liens bleus. Le but est une expérience de recherche plus conversationnelle et intégrée.</p>
+<blockquote>Le changement vise à passer d'une recherche basée sur des mots-clés à une interaction plus naturelle avec l'IA.</blockquote>
+<h3>Pourquoi ca compte 🎯</h3>
+<p>Cette évolution marque un tournant. Elle intègre l'IA au cœur de la découverte d'information. Les utilisateurs pourront poser des questions complexes. Ils obtiendront des réponses synthétisées directement. Cela modifie la manière dont on accède aux données et aux services en ligne. Pour les développeurs, cela ouvre de nouvelles opportunités d'intégration.</p>
+<table>
+<tr><th>Avant (depuis 1998)</th><th>Après (annoncé en 2026)</th></tr>
+<tr><td>Barre blanche, recherche par mots-clés</td><td>Interface enrichie, recherche conversationnelle</td></tr>
+<tr><td>Liste de liens bleus</td><td>Réponses synthétisées, actions directes</td></tr>
+<tr><td>Accès à l'information</td><td>Interaction et accomplissement de tâches</td></tr>
+</table>
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Tester les nouvelles fonctionnalités IA de Google</strong> : Suis les annonces de Google Search Labs.</li>
+<li><strong>Explorer les possibilités des agents conversationnels</strong> : Utilise les assistants IA existants.</li>
+<li><strong>Défi rapide</strong> : Pose une question complexe à un moteur de recherche IA. Observe la réponse synthétisée.</li>
+</ul>
+<blockquote>L'objectif est de transformer la recherche en un assistant intelligent.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>Interface utilisateur (UI)</strong> : L'aspect visuel et l'interaction avec un produit digital.</li>
+<li><strong>IA Conversationnelle</strong> : Un système d'intelligence artificielle capable d'échanger en langage naturel.</li>
+<li><strong>Synthese d'information</strong> : La capacité de résumer des données complexes en points clés.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://www.youtube.com/watch?v=example">Google I/O 2026 Keynote</a> — Découvre l'annonce officielle et les démonstrations.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<ul><li><strong>MiniMax M3 : contexte de 1 million de tokens et multimodalité native</strong> (8/10) Ce nouveau modèle IA gère des contextes très longs et comprend nativement différents types de données (texte, image, etc.). Il vise une nouvelle génération d'agents IA plus performants.</li>
+<li><strong>Les agents IA effectuent 26 minutes de travail autonome par session</strong> (8/10) Une étude compare le temps passé par les agents IA sur des tâches autonomes face à la recherche traditionnelle. Le potentiel d'automatisation est considérable.</li>
+<li><strong>Microsoft Surface RTX Spark Dev Box pour l'IA locale</strong> (8/10) Une nouvelle machine conçue pour faire tourner de grands modèles d'IA sans passer par le cloud. Elle vise à réduire les coûts et améliorer la confidentialité pour les développeurs.</li>
+<li><strong>Du Power BI à Microsoft Fabric Data Agents : l'avenir de l'analytique en libre-service</strong> (8/10) Microsoft évolue dans son offre analytique. Les "data agents" promettent une automatisation et une simplification de l'accès aux données pour les utilisateurs.</li>
+<li><strong>n8n s'associe à SAP pour l'orchestration de workflows visuels IA</strong> (8/10) Cette collaboration vise à intégrer l'IA dans les processus d'entreprise via une interface visuelle. L'objectif est de simplifier l'automatisation des flux de travail complexes.</li>
+<li><strong>DeepSeek-V4 : un million de tokens utilisables par les agents</strong> (8/10) Un autre modèle IA qui repousse les limites du contexte. Il rend possible pour les agents IA de traiter des informations massives de manière efficace.</li>
+</ul>
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>L'entraînement de modèles fondateurs à bas coût</strong> — Des chercheurs montrent qu'il est possible de former des modèles d'IA de base pour un budget réduit (environ 1500$). Cela démocratise la création de modèles avancés.
+<strong>Les agents IA sur appareil contournent les limites de mémoire</strong> — Apple développe de nouvelles architectures pour permettre aux agents IA de fonctionner localement, même avec des contraintes de mémoire importantes. L'IA embarquée gagne en puissance.
+<strong>A surveiller</strong> : L'investissement de 12 milliards de dollars par Prometheus, la société de Jeff Bezos, dans l'ingénierie générale artificielle. Le secteur de l'IA spécialisée dans le monde physique prend une nouvelle dimension.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-06-13 10:27 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
