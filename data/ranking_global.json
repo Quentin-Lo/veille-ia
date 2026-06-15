@@ -738,7 +738,7 @@
     "source_name": "MarkTechPost",
     "categorie_source": "IA_MODELES",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "IA_MODELES",
     "raison_score": "Annonce d'un nouveau modèle IA (MiniMax M3) avec des caractéristiques avancées (1M token context, multimodalité, agentic coding). C'est une avancée significative car il est présenté comme compétitif et potentiellement moins coûteux.",
@@ -5151,6 +5151,31 @@
     "score_composite": 6.850000000000001
   },
   {
+    "url": "https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/",
+    "url_hash": "4a4faa86ac82b880db8a1971447303c6",
+    "titre": "Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG",
+    "resume": "Enterprise Document Intelligence [Vol.1 #5quater] - The other parsers read the words on a page. A vision model also reads the pictures\nThe post Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG appeared first on Towards Data Science.",
+    "date": "2026-06-14",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Article présentant une nouvelle capacité reproductible des LLM de vision pour l'extraction d'informations complexes à partir de documents, applicable au RAG. Potentiel d'évolution pour la BI.",
+    "tags": [
+      "Vision LLM",
+      "RAG",
+      "extraction de données",
+      "PDF",
+      "analyse d'images"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.850000000000001
+  },
+  {
     "url": "https://www.latent.space/p/daytona",
     "url_hash": "950dba5fdefd900bade4993617303504",
     "titre": "Giving Agents Computers — Ivan Burazin, Daytona",
@@ -6417,6 +6442,56 @@
     "score_composite": 6.7
   },
   {
+    "url": "https://towardsdatascience.com/gpu-time-slicing-for-concurrent-llm-agents-on-kubernetes/",
+    "url_hash": "ad84a31f22f341cf0644f3d2b89830b9",
+    "titre": "GPU Time-Slicing for Concurrent LLM Agents on Kubernetes",
+    "resume": "A systems-level deep dive into the hidden microarchitectural costs of Kubernetes GPU time-slicing, and what it actually costs to co-locate Agentic AI workloads.\nThe post GPU Time-Slicing for Concurrent LLM Agents on Kubernetes appeared first on Towards Data Science.",
+    "date": "2026-06-14",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Approche technique avancée et documentée pour optimiser l'infrastructure des agents IA, abordant des coûts micro-architecturaux. Offre un aperçu des défis d'ingénierie pour déployer des agents à l'échelle.",
+    "tags": [
+      "Agents IA",
+      "Kubernetes",
+      "GPU",
+      "optimisation",
+      "infrastructure"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
+    "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+    "url_hash": "bfeca2ee1bfe36a7564a3dfc5a90006a",
+    "titre": "Sarvam becomes India’s newest AI unicorn with $234 million funding round led by HCLTech",
+    "resume": "Indian IT services company HCLTech is investing $150 million in the Bengaluru startup.",
+    "date": "2026-06-15",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Levée de fonds significative pour une startup IA en Inde, la positionnant comme une licorne. Cela représente une avancée importante dans le paysage entrepreneurial IA.",
+    "tags": [
+      "AI Startup",
+      "Venture Capital",
+      "Unicorn",
+      "India",
+      "Funding"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.7
+  },
+  {
     "url": "https://openai.com/index/codex-for-almost-everything",
     "url_hash": "a0464d4374d6d6dfda4d74b47f8c98b0",
     "titre": "Codex for (almost) everything",
@@ -7652,6 +7727,31 @@
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 6,
     "score_composite": 6.550000000000001
+  },
+  {
+    "url": "https://www.producthunt.com/products/idledev",
+    "url_hash": "09a38a80865d743a758abfa141f20c28",
+    "titre": "IdleDev",
+    "resume": "\n            Get paid while your AI agent thinks\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-06-14",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Lancement d'un outil innovant qui rémunère les utilisateurs pendant que leur agent IA est actif. Représente un nouveau framework entrepreneurial IA documenté, visant à monétiser l'usage des agents IA.",
+    "tags": [
+      "IA",
+      "agents IA",
+      "monétisation",
+      "entrepreneuriat",
+      "startup"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.55
   },
   {
     "url": "https://openai.com/index/safety-bug-bounty",
@@ -9366,6 +9466,31 @@
     "score_composite": 6.2
   },
   {
+    "url": "https://techcrunch.com/2026/06/14/orbio-raises-21-million-to-automate-hiring-and-onboarding-for-frontline-workers/",
+    "url_hash": "95e19e3336b0264d5615b009a995a080",
+    "titre": "Orbio raises $21 million to automate hiring and onboarding for frontline workers",
+    "resume": "Orbio announces $21 Million Series A in round led by Dawn Capital.",
+    "date": "2026-06-15",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Lancement d'une solution d'automatisation disruptive pour les processus RH. La levée de fonds de 21 millions de dollars valide l'impact et le potentiel de cette entreprise.",
+    "tags": [
+      "Automation",
+      "HR Tech",
+      "Startups",
+      "Funding",
+      "Frontline Workers"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.2
+  },
+  {
     "url": "https://openai.com/index/parloa",
     "url_hash": "b655fa9f550b1534336c627d3682ff96",
     "titre": "Parloa builds service agents customers want to talk to",
@@ -10205,6 +10330,30 @@
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.050000000000001
+  },
+  {
+    "url": "https://www.producthunt.com/products/mimo-3",
+    "url_hash": "87c916d66e6e855a16524f6f54e420d6",
+    "titre": "MiMo Code",
+    "resume": "\n            A coding agent with explicit long-term memory architecture\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-06-15",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Présente un agent de codage avec une architecture de mémoire à long terme. C'est une avancée significative dans le domaine des agents IA avec des capacités documentées.",
+    "tags": [
+      "AI Agent",
+      "Coding Agent",
+      "Long-term Memory",
+      "Developer Tools"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 6,
     "score_composite": 6.050000000000001
   },
@@ -12394,6 +12543,31 @@
     "score_composite": 5.65
   },
   {
+    "url": "https://www.producthunt.com/products/notchcode",
+    "url_hash": "96b82d00dbc781d6fae3c1df252dbc18",
+    "titre": "Notchcode",
+    "resume": "\n            Claude Code + Codex agents in your notch\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-06-14",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Lancement d'un nouvel outil qui intègre des capacités d'IA (Claude Code + Codex agents) pour l'aide au développement. Représente un cas d'usage documenté pour l'automatisation du codage.",
+    "tags": [
+      "IA",
+      "aide au développement",
+      "Claude",
+      "Codex",
+      "automatisation"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.65
+  },
+  {
     "url": "https://www.producthunt.com/products/standboy",
     "url_hash": "ad7d7a7b915f938cc3a09e93113e8995",
     "titre": "Standboy",
@@ -13840,6 +14014,31 @@
     "score_composite": 5.3500000000000005
   },
   {
+    "url": "https://www.producthunt.com/products/emailflow-ai-b2b-lead-generation",
+    "url_hash": "5373f2e90df5a01d9c4433aae9ed1fbb",
+    "titre": "EmailFlow.AI",
+    "resume": "\n            Like Claude Design for Email Newsletters\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-06-14",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Lancement d'un nouvel outil basé sur l'IA pour le génération de leads B2B, suggérant un nouveau cas d'usage documenté avec potentiel pour les startups. Positionnement intéressant dans le domaine commercial.",
+    "tags": [
+      "IA",
+      "génération de leads",
+      "B2B",
+      "automatisation marketing",
+      "startup"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 5.3500000000000005
+  },
+  {
     "url": "https://zapier.com/blog/business-automation",
     "url_hash": "c3af96a1ceab65d8c48495a10e33af22",
     "titre": "Business automation: How to transform your operations",
@@ -14405,6 +14604,30 @@
     "score_composite": 5.25
   },
   {
+    "url": "https://venturebeat.com/orchestration/mcp-solved-tool-calling-a2a-solved-coordination-what-solves-transport",
+    "url_hash": "ede3c3382a2619036ed2681d09d82c03",
+    "titre": "MCP solved tool calling. A2A solved coordination. What solves transport?",
+    "resume": "The history of distributed computing is one of protocol proliferation followed by consolidation. Common Object Request Broker Architecture (CORBA), Distributed Component Object Model (DCOM), Java remote method invocation (RMI), and early simple object access protocol (SOAP) competed for the enterprise integration market in the late 1990s before representational state transfer (REST) quietly won by being simpler and HTTP-native. Extensible Messaging and Presence Protocol (XMPP), Internet Relay Ch",
+    "date": "2026-06-14",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Discute de l'évolution des architectures de systèmes distribués et de la consolidation des protocoles. C'est une information utile sur les fondations des plateformes data.",
+    "tags": [
+      "Distributed Systems",
+      "Data Architecture",
+      "Integration",
+      "Protocols"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.25
+  },
+  {
     "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-forward-deployed-engineering",
     "url_hash": "af0849cda8fa26ccc69a51eaef76a5dc",
     "titre": "The Pulse: Forward deployed engineering heats up again",
@@ -14924,6 +15147,30 @@
     "score_composite": 5.199999999999999
   },
   {
+    "url": "https://medium.com/@christine_polly_paul/end-to-end-data-analytics-project-from-raw-sql-tables-to-a-power-bi-dashboard-06bcff481551?source=rss------power_bi-5",
+    "url_hash": "ab5fe771a1fb6496cfee0cad2a7be62a",
+    "titre": "End-to-End Data Analytics Project: From Raw SQL Tables to a Power BI Dashboard",
+    "resume": "This blog walks through a realistic end-to-end data analytics project, showing how raw SQL data becomes a business-ready Power BI…Continue reading on Medium »",
+    "date": "2026-06-15",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Décrit un cas d'usage BI concret avec des métriques potentielles. L'article détaille un flux de travail complet de données vers un tableau de bord.",
+    "tags": [
+      "Power BI",
+      "SQL",
+      "Data Analytics",
+      "Dashboarding"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
+  },
+  {
     "url": "https://techcrunch.com/2026/05/15/indian-uber-rival-rapido-raises-240m-at-3b-valuation/",
     "url_hash": "397bfe6497a0257060974341c210a909",
     "titre": "Indian Uber rival Rapido raises $240M at $3B valuation",
@@ -15209,6 +15456,30 @@
       "Modèles",
       "Anthropic",
       "Politique"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.1000000000000005
+  },
+  {
+    "url": "https://www.producthunt.com/products/agentbrush",
+    "url_hash": "b9e7087e4cb29df0e018a6c3721d6d4a",
+    "titre": "AgentBrush",
+    "resume": "\n            Your coding agent's missing tool: image generation\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-06-15",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Introduction d'un nouvel outil pour les agents de codage, axé sur la génération d'images. L'intégration de capacités multimédias pour les agents est une évolution notable.",
+    "tags": [
+      "AI Agent",
+      "Coding Agent",
+      "Image Generation",
+      "Developer Tools"
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 6,
@@ -16041,6 +16312,56 @@
     "score_composite": 4.949999999999999
   },
   {
+    "url": "https://medium.com/powerbi-microsoft-fabric/power-bi-visual-selection-guide-choosing-the-right-chart-for-the-right-story-e3914f098492?source=rss------power_bi-5",
+    "url_hash": "c7894d18ee06e5c09f2e5171014b04b1",
+    "titre": "Power BI Visual Selection Guide: Choosing the Right Chart for the Right Story",
+    "resume": "One of the biggest mistakes Power BI users make is choosing the wrong visual.Continue reading on PowerBI + Microsoft Fabric »",
+    "date": "2026-06-14",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Guide documentant un nouveau cas d'usage pertinent pour les utilisateurs de BI, axé sur la visualisation des données. Aide à choisir les bons graphiques pour une communication efficace.",
+    "tags": [
+      "Power BI",
+      "visualisation de données",
+      "BI",
+      "reporting",
+      "meilleures pratiques"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
+    "url": "https://www.producthunt.com/products/reignat",
+    "url_hash": "07a31d97f0912aa2a8696033f6e11ca3",
+    "titre": "Reignat",
+    "resume": "\n            Privacy-friendly web analytics platform built for makers\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-06-14",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Lancement d'un outil d'analytique web axé sur la confidentialité, intégrant potentiellement des aspects IA ou des approches innovantes. Cas d'usage documenté dans le domaine de l'analytique.",
+    "tags": [
+      "analytique",
+      "confidentialité",
+      "web analytics",
+      "startup",
+      "IA"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.949999999999999
+  },
+  {
     "url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
     "url_hash": "8da73ea93b530998eeb1d90d6dde98b0",
     "titre": "Helping developers build safer AI experiences for teens",
@@ -16479,6 +16800,30 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 3,
+    "score_composite": 4.8
+  },
+  {
+    "url": "https://towardsdatascience.com/4-lines-you-must-include-in-your-claude-skill/",
+    "url_hash": "0312fecd073bdf5238d2318ab73322e7",
+    "titre": "4 Lines You Should Include in Your Claude Skill",
+    "resume": "Without these, Claude will be confidently wrong.\nThe post 4 Lines You Should Include in Your Claude Skill appeared first on Towards Data Science.",
+    "date": "2026-06-14",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Article fournissant des astuces pratiques et reproductibles pour améliorer la fiabilité des agents IA. Propose des techniques spécifiques et documentées pour un outil existant.",
+    "tags": [
+      "Claude",
+      "agents IA",
+      "prompt engineering",
+      "RAG"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 4,
     "score_composite": 4.8
   },
   {
@@ -17391,6 +17736,54 @@
     "score_composite": 4.55
   },
   {
+    "url": "https://medium.com/@gavin.ellis/how-power-bi-consultants-design-executive-dashboards-for-better-decision-making-1436682b7d7d?source=rss------power_bi-5",
+    "url_hash": "305a9e0121ca1d44651024c80c1a5610",
+    "titre": "How Power BI Consultants Design Executive Dashboards for Better Decision-Making",
+    "resume": "In today’s world, businesses produce tons of data every day. Still, simply having access to data doesn’t necessarily result in good…Continue reading on Medium »",
+    "date": "2026-06-15",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Retour d'expérience sur la conception de tableaux de bord pour la prise de décision. L'article explique les méthodologies utilisées par les consultants Power BI.",
+    "tags": [
+      "Power BI",
+      "Dashboarding",
+      "Executive Dashboards",
+      "Decision Making"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.55
+  },
+  {
+    "url": "https://www.saastr.com/the-kindness-gap-in-vc-fundraising-why-a-little-grace-goes-a-long-way/",
+    "url_hash": "4293c2a2af8dd5165a9d05f8c999a8ae",
+    "titre": "The Kindness Gap in VC Fundraising: Why a Little Grace Goes a Long Way",
+    "resume": "The fundraising process is brutal. We all know this. But here’s what I keep seeing that drives me crazy: VCs say: “We passed on that one.” Founders say: “We chose not to give them an allocation.” Look, I get it. Both sides are trying to maintain some dignity in what’s essentially a rejection process. But... Continue Reading",
+    "date": "2026-06-14",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Analyse des dynamiques de levée de fonds et de la relation entre VCs et fondateurs. Il s'agit d'un nouveau cas d'usage documenté dans le domaine de l'entrepreneuriat tech.",
+    "tags": [
+      "Entrepreneuriat",
+      "VC",
+      "Levée de fonds",
+      "Startup"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 4.55
+  },
+  {
     "url": "https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere/",
     "url_hash": "6b0ce990ac41d37acefe5a8e8bb32bbf",
     "titre": "Take your local GitHub sessions anywhere",
@@ -18290,6 +18683,55 @@
     "pertinence_bi_consultant": 2,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 3,
+    "score_composite": 4.15
+  },
+  {
+    "url": "https://zhongtr0n.medium.com/power-bi-set-a-banner-for-ci-cd-environment-11712f9f6fa1?source=rss------power_bi-5",
+    "url_hash": "73ce6a79d6540715ae5596a2b8f4506b",
+    "titre": "Power BI: Set a Banner For CI/CD Environment",
+    "resume": "Using DAX and conditional formatting to add a banner to report indicating which environment you are in.Continue reading on Medium »",
+    "date": "2026-06-14",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article pratique documentant une approche spécifique avec des métriques (DAX, formatting conditionnel) pour améliorer l'expérience utilisateur dans un contexte CI/CD pour Power BI. Utile pour des pratiques établies.",
+    "tags": [
+      "Power BI",
+      "CI/CD",
+      "DAX",
+      "reporting",
+      "bonnes pratiques"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.15
+  },
+  {
+    "url": "https://www.producthunt.com/products/kickbacks-ai",
+    "url_hash": "c2130cd7ddbf040137480f2577d45b75",
+    "titre": "Kickbacks.ai",
+    "resume": "\n            Get paid to wait for Claude Code to finish\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-06-15",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Présente un nouveau modèle économique autour de l'utilisation des IA génératives. L'idée d'être rémunéré pour l'attente est une approche entrepreneuriale intéressante.",
+    "tags": [
+      "AI",
+      "Business Model",
+      "Entrepreneurship",
+      "Generative AI"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
     "score_composite": 4.15
   },
   {
@@ -19334,6 +19776,30 @@
     "score_composite": 3.55
   },
   {
+    "url": "https://medium.com/@nivethabaskar88/what-are-tableau-and-power-bi-and-how-are-they-used-in-data-analytics-ddf40928e67e?source=rss------power_bi-5",
+    "url_hash": "875f6915a81e7acc124563c9b3d0bc22",
+    "titre": "What are Tableau and Power BI, and how are they used in data analytics?",
+    "resume": "Tableau and Power BI are popular data visualization and business intelligence (BI) tools that help organizations analyze data and make…Continue reading on Medium »",
+    "date": "2026-06-15",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Informations de base sur des outils BI établis. L'article compare Tableau et Power BI dans le contexte de l'analytique de données.",
+    "tags": [
+      "Tableau",
+      "Power BI",
+      "Data Analytics",
+      "BI Tools"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.55
+  },
+  {
     "url": "https://towardsdatascience.com/how-to-write-robust-code-with-claude-code/",
     "url_hash": "b94b6cc5f38555c39854fdbfc7a0384d",
     "titre": "How to Write Robust Code with Claude Code",
@@ -19763,6 +20229,29 @@
       "Formation",
       "Gratuit",
       "Apprentissage"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.3
+  },
+  {
+    "url": "https://medium.com/@ditafebyindriani14/begini-cara-connect-excel-ke-power-bi-tanpa-ribet-dcd9339ef74f?source=rss------power_bi-5",
+    "url_hash": "d6d8aebaf11e899d53a3a61ce3756b11",
+    "titre": "Begini Cara Connect Excel ke Power BI Tanpa Ribet",
+    "resume": "Menurut Microsoft, lebih dari 500 juta pengguna menggunakan Excel di seluruh dunia untuk mengelola dan menganalisis data.Continue reading on Medium »",
+    "date": "2026-06-15",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Tutoriel utile pour une intégration de données courante. L'article explique comment connecter Excel à Power BI efficacement.",
+    "tags": [
+      "Power BI",
+      "Excel",
+      "Data Integration"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 2,
@@ -20239,6 +20728,31 @@
       "ChatGPT",
       "Getting Started",
       "AI Basics"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 2.8
+  },
+  {
+    "url": "https://www.producthunt.com/products/pass-quick-access",
+    "url_hash": "8c5c2ca79881d8ea085b26aa2f77bc79",
+    "titre": "Pass Quick Access",
+    "resume": "\n            Native quick access and SSH agent for Proton Pass for macOS\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-06-14",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Article présentant un outil d'accès rapide et agent SSH, axé sur la sécurité et la commodité pour macOS. Offre une information utile sur une pratique d'automatisation spécifique.",
+    "tags": [
+      "sécurité",
+      "SSH",
+      "automatisation",
+      "macOS",
+      "gestion de mots de passe"
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 2,
