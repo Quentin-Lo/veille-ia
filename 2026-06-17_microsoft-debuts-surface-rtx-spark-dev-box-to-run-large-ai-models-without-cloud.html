@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Microsoft debuts Surface RTX Spark Dev Box to run large AI models without cloud costs — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>Microsoft debuts Surface RTX Spark Dev Box to run large AI models without cloud costs</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-06-02</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-06-17 12:19 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>Microsoft Surface RTX Spark Dev Box : l'IA tourne sur ton bureau</h2>
+<blockquote>Fini le cloud coûteux pour les développeurs IA. Microsoft lance une machine pour faire tourner les gros modèles localement.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+Microsoft dévoile la Surface RTX Spark Dev Box. C'est un ordinateur pensé pour les développeurs de logiciels. L'idée : exécuter de grands modèles d'IA directement sur leur poste de travail. Cela permettrait d'éviter les coûts liés au cloud computing.
+<p>Le modèle économique actuel de l'IA repose beaucoup sur le paiement par token. Cette nouvelle offre de Microsoft cherche à proposer une alternative locale. Les développeurs pourraient ainsi maîtriser leurs coûts d'inférence.</p>
+<blockquote>La Dev Box intègre une carte graphique RTX 4090. Elle est aussi équipée d'un processeur Intel Core i9. L'objectif est d'offrir la puissance nécessaire sans passer par des services externes.</blockquote>
+<h3>Pourquoi ca compte 🎯</h3>
+Pour les développeurs, c'est une révolution potentielle. Ils peuvent tester et exécuter des modèles gourmands sans se soucier des factures à la fin du mois. Cela offre plus de flexibilité et de contrôle.
+<p>C'est une réponse directe à la hausse des coûts liés à l'utilisation des API de grands modèles. Les entreprises qui travaillent beaucoup avec l'IA pourraient y voir un avantage économique certain.</p>
+<table>
+<tr><th>Caractéristique</th><th>Surface RTX Spark Dev Box</th><th>Cloud Computing</th></tr>
+<tr><td>Coût d'utilisation</td><td>Forfaitaire (achat machine)</td><td>Variable (par token/heure)</td></tr>
+<tr><td>Contrôle des données</td><td>Total (local)</td><td>Dépend du fournisseur</td></tr>
+<tr><td>Latence</td><td>Très faible</td><td>Variable</td></tr>
+</table>
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Tester localement des modèles</strong> : Voir si ton projet IA tourne bien sur une machine puissante.</li>
+<li><strong>Évaluer le coût réel</strong> : Estimer le budget machine par rapport aux coûts cloud actuels.</li>
+<li><strong>Expérimenter sans limite</strong> : Lancer plusieurs modèles simultanément sans crainte.</li>
+</ul>
+<blockquote>Gagne en autonomie et réduis tes dépenses sur tes projets IA.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>Modèles d'IA</strong> : Programmes informatiques capables de réaliser des tâches qui nécessitent normalement une intelligence humaine.</li>
+<li><strong>Coût par token</strong> : Facturation d'un modèle d'IA basée sur la quantité de texte (tokens) traitée en entrée et sortie.</li>
+<li><strong>Inférence IA</strong> : Le processus d'utilisation d'un modèle d'IA entraîné pour générer des prédictions ou des sorties.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://venturebeat.com/infrastructure/microsoft-debuts-surface-rtx-spark-dev-box-to-run-large-ai-models-without-cloud-costs">Microsoft Surface RTX Spark Dev Box: Run large AI models without cloud costs</a> — Comprendre la stratégie de Microsoft face aux coûts du cloud IA.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<ul><li><strong>De Power BI à Microsoft Fabric Data Agents</strong> : L'évolution de l'analytique self-service vers des agents plus intelligents. (8)</li>
+<li><strong>n8n s'allie à SAP pour l'orchestration visuelle IA</strong> : Une collaboration pour simplifier les workflows complexes en entreprise. (8)</li>
+<li><strong>DeepSeek-V4 et son million de tokens</strong> : Un modèle IA avec un contexte extrêmement large, pensé pour les agents. (8)</li>
+<li><strong>Classement des meilleurs agents IA pour le développement</strong> : Une analyse basée sur des benchmarks pour évaluer les outils actuels. (8)</li>
+<li><strong>L'architecture de contexte remplace le RAG pour les agents IA</strong> : Les limites de la récupération d'informations poussent à de nouvelles approches. (8)</li>
+<li><strong>Google présente Gemini 3.5 Flash</strong> : Un modèle IA plus rapide et moins cher, idéal pour les agents et le codage. (8)</li>
+</ul>
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>La démocratisation de l'entraînement de modèles IA</strong> : Des chercheurs ont réussi à entraîner un modèle de fondation pour environ 1500$. Cela ouvre la porte à plus d'acteurs sur le marché de l'IA.
+<strong>L'investissement massif dans l'ingénierie IA</strong> : Jeff Bezos lève 12 milliards de dollars pour créer un "ingénieur général artificiel" pour le monde physique. Cela montre l'ambition de repousser les limites de l'IA.
+<strong>A surveiller</strong> : L'impact des millions d'agents IA interactifs. Google DeepMind s'inquiète des conséquences potentielles de leur multiplication.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-06-17 12:19 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
