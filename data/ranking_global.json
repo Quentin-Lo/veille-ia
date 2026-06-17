@@ -135,7 +135,7 @@
     "source_name": "TechCrunch",
     "categorie_source": "BUSINESS_IA",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 10,
     "categorie": "ENTREPRENEURIAT",
     "raison_score": "Acquisition majeure (SpaceX acquiert Cursor pour 60 milliards de dollars) qui redessine le secteur de l'IA. L'article mentionne également une levée de fonds record (IPO) pour Cursor.",
@@ -1253,6 +1253,31 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 9,
     "pertinence_entrepreneur": 8,
+    "score_composite": 7.7
+  },
+  {
+    "url": "https://venturebeat.com/data/databricks-says-it-solved-the-decades-old-data-pipeline-problem-thats-been-slowing-ai-agents",
+    "url_hash": "8c5bbbf4b3e379c4be961aa3b990eb68",
+    "titre": "Databricks says it solved the decades-old data pipeline problem that's been slowing AI agents",
+    "resume": "For decades, data professionals have struggled with the challenge of managing both operational and analytical databases in a unified approach that doesn't introduce latency and performance degradation.Agents made the problem structural. A system that reasons continuously and acts on live data cannot tolerate a pipeline between itself and the information it needs to act on.At the Data + AI Summit on Tuesday, Databricks announced two products aimed at collapsing that infrastructure. Lakehouse//RT ",
+    "date": "2026-06-16",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Annonce de deux produits (Lakehouse//RT) visant à résoudre un problème fondamental des pipelines de données pour les IA agents. La promesse de supprimer la latence et d'unifier les bases de données opérationnelles et analytiques représente une avancée significative.",
+    "tags": [
+      "data pipeline",
+      "AI agents",
+      "lakehouse",
+      "real-time data",
+      "Databricks"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
     "score_composite": 7.7
   },
   {
@@ -2597,6 +2622,31 @@
     "score_composite": 7.3500000000000005
   },
   {
+    "url": "https://venturebeat.com/orchestration/stanfords-delm-cuts-multi-agent-task-costs-50-without-a-central-orchestrator",
+    "url_hash": "5684f01f709d58d4e364cba8439a7b0f",
+    "titre": "Stanford's DeLM cuts multi-agent task costs 50% — without a central orchestrator",
+    "resume": "One of the assumptions behind today’s AI frameworks is that agents require a “boss” at the center; this orchestrator runs the show, routes requests, and makes sure the whole system doesn’t descend into chaos. That assumption may be wrong, and the cost of carrying it could be measured in inference dollars and coordination latency. A new Stanford framework called a decentralized language model, or DeLM, is built on the premise that agents can coordinate directly, without routing every update throu",
+    "date": "2026-06-16",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Présente un nouveau framework (DeLM) qui permet aux agents de se coordonner directement, sans orchestrateur central, réduisant les coûts de moitié. C'est une avancée significative dans l'architecture et l'efficacité des systèmes multi-agents.",
+    "tags": [
+      "multi-agent systems",
+      "AI orchestration",
+      "decentralized AI",
+      "cost reduction",
+      "Stanford"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3500000000000005
+  },
+  {
     "url": "https://bdtechtalks.com/2026/04/20/anthropic-mcp-vulnerability/?utm_source=rss&utm_medium=rss&utm_campaign=anthropic-mcp-vulnerability",
     "url_hash": "76376cb3ea8c26fecb7d481e87dc2ebb",
     "titre": "Anthropic’s MCP vulnerability: When ‘expected behavior’ becomes a supply chain nightmare",
@@ -2715,6 +2765,56 @@
       "open-source",
       "Mamba2",
       "Transformer"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/16/openai-deployment-simulation/",
+    "url_hash": "a09f37d2d3dd560466107a1af4c3a266",
+    "titre": "OpenAI’s Deployment Simulation Extends Pre-Deployment Risk Assessment to Agentic Coding Through Simulated Tool Calls",
+    "resume": "OpenAI introduced Deployment Simulation on June 16, 2026. The method replays past conversations through a new candidate model before release. It then grades the completions to estimate deployment-time rates of undesired behavior. We break down how the pipeline works, the reported 1.5x median multiplicative error, and its limits.\nThe post OpenAI’s Deployment Simulation Extends Pre-Deployment Risk Assessment to Agentic Coding Through Simulated Tool Calls appeared first on MarkTechPost.",
+    "date": "2026-06-17",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Introduction d'une nouvelle capacité d'évaluation des risques pour les agents, avec une méthodologie documentée et une validation quantitative. Ceci représente une avancée significative dans la sécurité et la fiabilité des systèmes agents.",
+    "tags": [
+      "OpenAI",
+      "agents",
+      "deployment simulation",
+      "risk assessment",
+      "tool calls"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3
+  },
+  {
+    "url": "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost",
+    "url_hash": "ad8828785b990734632353262f6212ff",
+    "titre": "Z.ai’s open-weights GLM-5.2 beats GPT-5.5 on multiple long horizon coding benchmarks for 1/6th the cost",
+    "resume": "Today, Chinese AI startup Z.ai (formerly Zhipu AI) announced the immediate release of GLM-5.2, a 753-billion parameter open-weights large language model (LLM) engineered specifically to dominate \"long-horizon\" autonomous coding and engineering tasks. Available immediately on Hugging Face, the Z.ai API, and more than 20 third-party coding environments, the model boasts a highly stable 1-million-token context window alongside enterprise subscription tiers starting at just $12.60 per month. In exce",
+    "date": "2026-06-16",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce la sortie d'un modèle open-weight performant (GLM-5.2) qui surpasse GPT-5.5 sur des tâches complexes de codage, tout en étant significativement moins coûteux. La publication open-weight et la comparaison directe avec un modèle de pointe le classent comme une avancée significative.",
+    "tags": [
+      "LLM",
+      "open-weight",
+      "coding AI",
+      "benchmark",
+      "cost-effective"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 9,
@@ -3185,6 +3285,31 @@
       "recherche",
       "entreprise",
       "automatisation"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.2
+  },
+  {
+    "url": "https://towardsdatascience.com/llm-fallbacks-break-agent-pipelines-i-built-the-missing-recovery-layer/",
+    "url_hash": "9bd165255687206afff893a8d68fdc9d",
+    "titre": "LLM Fallbacks Break Agent Pipelines — I Built the Missing Recovery Layer",
+    "resume": "LLM rate limits don't just interrupt agent pipelines—they can silently corrupt structured outputs when fallback models receive incompatible payloads. I built a recovery layer that classifies failures, adapts payloads across model tiers, preserves execution state, and maintains schema integrity during provider swaps.\nThe post LLM Fallbacks Break Agent Pipelines — I Built the Missing Recovery Layer appeared first on Towards Data Science.",
+    "date": "2026-06-16",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article présente une nouvelle capacité d'agent documentée et reproductible : une couche de récupération pour les pipelines LLM. Il résout un problème concret de robustesse des agents face aux défaillances des LLM.",
+    "tags": [
+      "LLM",
+      "Agent Pipelines",
+      "Recovery Layer",
+      "AI Agents",
+      "Robustness"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 8,
@@ -3860,6 +3985,31 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 6,
+    "score_composite": 7.050000000000001
+  },
+  {
+    "url": "https://venturebeat.com/technology/why-weibos-tiny-vibethinker-3b-has-the-ai-world-arguing-over-benchmarks-again",
+    "url_hash": "65532c445781b5a18b535dca511d24fe",
+    "titre": "Why Weibo’s tiny VibeThinker-3B has the AI world arguing over benchmarks again",
+    "resume": "On Sunday, a team of nine researchers at Sina Weibo — the Chinese social media giant better known for its microblogging platform than for cutting-edge artificial intelligence — quietly posted a 14-page technical report to arXiv that sent shockwaves through the AI research community. Their claim: a language model with just 3 billion parameters can match or exceed the reasoning performance of flagship systems from Google DeepMind, OpenAI, Anthropic, and DeepSeek that are hundreds of times larger.T",
+    "date": "2026-06-17",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce d'un modèle relativement petit (3B paramètres) qui prétend égaler ou surpasser des modèles beaucoup plus grands, provoquant un débat sur les benchmarks. C'est une avancée notable dans l'optimisation et l'efficacité des modèles.",
+    "tags": [
+      "Weibo",
+      "VibeThinker-3B",
+      "LLM",
+      "benchmarks",
+      "AI models"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
     "score_composite": 7.050000000000001
   },
   {
@@ -4875,6 +5025,30 @@
       "OKF",
       "IA",
       "format ouvert"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://www.databricks.com/blog/agent-bricks-dais-2026",
+    "url_hash": "7fe26e8c01d26ae597d7240217b061a3",
+    "titre": "Agent Bricks: Data + AI Summit 2026",
+    "resume": "Last year at the Data + AI Summit, we launched Agent Bricks, ushering in a new way...",
+    "date": "2026-06-16",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'évolution d'Agent Bricks, introduit l'année précédente, représente une avancée significative dans la manière de construire des agents IA. Il s'agit d'une mise à jour majeure d'un framework d'agents.",
+    "tags": [
+      "Databricks",
+      "Agent Bricks",
+      "IA Agents",
+      "Data + AI Summit"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -6073,6 +6247,31 @@
     "score_composite": 6.700000000000001
   },
   {
+    "url": "https://www.databricks.com/blog/introducing-opensharing-next-evolution-delta-sharing-agentic-era",
+    "url_hash": "8630458015c8068fdea8e35aebce8b42",
+    "titre": "Introducing OpenSharing: the Next Evolution of Delta Sharing for the Agentic Era",
+    "resume": "When Databricks pioneered Delta Sharing in 2021, we set out to solve a problem that...",
+    "date": "2026-06-16",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Annonce l'évolution de Delta Sharing vers 'OpenSharing', spécifiquement pour l'ère des agents. Cela indique une adaptation significative d'une plateforme de partage de données pour les nouvelles architectures IA, ce qui est une avancée importante.",
+    "tags": [
+      "data sharing",
+      "Delta Sharing",
+      "agentic era",
+      "data platform",
+      "Databricks"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.700000000000001
+  },
+  {
     "url": "https://openai.com/index/introducing-evmbench",
     "url_hash": "7850ae10d710f5ddb56b149fcf68d027",
     "titre": "Introducing EVMbench",
@@ -7036,6 +7235,31 @@
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 7,
+    "score_composite": 6.65
+  },
+  {
+    "url": "https://www.databricks.com/blog/ai-governance-data-ai-summit-2026-whats-new-unity-ai-gateway",
+    "url_hash": "e452df545babff72e24728f29311cf09",
+    "titre": "AI governance at Data + AI Summit 2026: What’s new with Unity AI Gateway",
+    "resume": "AI is becoming increasingly multi-model, multi-agent, and multi-vendor. Developers...",
+    "date": "2026-06-16",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Détaille les nouveautés de Unity AI Gateway pour la gouvernance de l'IA dans un contexte multi-modèle et multi-agent. Cette mise à jour est une avancée significative pour gérer la complexité et la sécurité des déploiements IA modernes.",
+    "tags": [
+      "AI governance",
+      "Unity AI Gateway",
+      "multi-agent",
+      "security",
+      "Databricks"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 6,
     "score_composite": 6.65
   },
   {
@@ -8871,31 +9095,6 @@
     "score_composite": 6.300000000000001
   },
   {
-    "url": "https://bdtechtalks.com/2026/02/16/how-semantic-chaining-jailbreaks-image-generation-models/?utm_source=rss&utm_medium=rss&utm_campaign=how-semantic-chaining-jailbreaks-image-generation-models",
-    "url_hash": "9512661af0736fa9c912c442e36378d0",
-    "titre": "How ‘semantic chaining’ jailbreaks image generation models",
-    "resume": "Semantic Chaining exploits the fragmented safety architecture of multimodal models, bypassing filters by hiding prohibited intent within a sequence of benign edits.\nThe post How ‘semantic chaining’ jailbreaks image generation models first appeared on TechTalks.",
-    "date": "2026-02-16",
-    "source_name": "BD Tech Talks",
-    "categorie_source": "IA_APPLIQUEE",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_APPLIQUEE",
-    "raison_score": "L'article révèle une nouvelle technique ('semantic chaining') qui exploite les failles des modèles de génération d'images, montrant une nouvelle capacité avec des implications documentées. C'est une avancée significative dans la compréhension de la sécurité des IA multimodales.",
-    "tags": [
-      "semantic chaining",
-      "image generation",
-      "AI safety",
-      "multimodal models",
-      "jailbreaking"
-    ],
-    "pertinence_bi_consultant": 4,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 6.300000000000001
-  },
-  {
     "url": "https://www.producthunt.com/products/picsart",
     "url_hash": "df21fe125f08421b359fcc8926ac5e48",
     "titre": "Picsart MCP",
@@ -9161,6 +9360,56 @@
       "agentic RL",
       "communauté",
       "Hugging Face"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.300000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/16/how-to-build-memory-efficient-transformers-with-xformers-using-packed-sequences-gqa-alibi-swiglu-and-causal-attention/",
+    "url_hash": "111f92ff9b35ebb6e8b91e0d8d8e4167",
+    "titre": "How to Build Memory-Efficient Transformers with xFormers Using Packed Sequences, GQA, ALiBi, SwiGLU, and Causal Attention",
+    "resume": "We implement xFormers, a practical toolkit for fast, memory-efficient Transformer models on GPUs. We validate memory-efficient attention against a standard implementation, then compare speed and memory across sequence lengths. We work through causal masking, packed variable-length sequences, grouped-query attention, and custom ALiBi biases. Finally, we combine these into a trainable GPT-style model with SwiGLU layers and automatic mixed-precision training.\nThe post How to Build Memory-Efficient ",
+    "date": "2026-06-17",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Article technique détaillant l'utilisation de xFormers pour améliorer l'efficacité mémoire des Transformers, avec des implémentations et des validations reproductibles. Il s'agit d'une avancée significative pour l'optimisation des modèles.",
+    "tags": [
+      "transformers",
+      "xformers",
+      "memory efficiency",
+      "attention mechanisms",
+      "GPT"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.300000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/06/16/meet-qwen-robotsuite-three-embodied-ai-models-for-vla-manipulation-video-world-modeling-and-navigation/",
+    "url_hash": "dc69f24c65be79a55313d5b573a290bd",
+    "titre": "Meet Qwen-RobotSuite: Three Embodied AI Models for VLA Manipulation, Video World Modeling, and Navigation",
+    "resume": "We break down Qwen-RobotSuite, the Qwen team's three new embodied AI models. We cover RobotManip, a Vision-Language-Action model built on Qwen3.5-4B for manipulation. We cover RobotWorld, a language-conditioned video world model with a 60-layer MMDiT. We cover RobotNav, a navigation model built on Qwen3-VL across 2B, 4B, and 8B sizes. We walk through the architecture, data pipelines, and benchmark results for each.\nThe post Meet Qwen-RobotSuite: Three Embodied AI Models for VLA Manipulation, Vid",
+    "date": "2026-06-16",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Présente trois nouveaux modèles d'IA incarnée avec des applications spécifiques (manipulation, modélisation vidéo, navigation). Le détail de l'architecture, des pipelines de données et des benchmarks suggère une avancée significative.",
+    "tags": [
+      "embodied AI",
+      "robotique",
+      "vision-language-action",
+      "modelisation video",
+      "navigation"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 8,
@@ -9690,6 +9939,56 @@
     "score_composite": 6.2
   },
   {
+    "url": "https://www.databricks.com/blog/what-is-an-agentic-cdp",
+    "url_hash": "0588088d3def65fdddbc05581688f0d0",
+    "titre": "Introducing the Agentic CDP: A New Species of CDP for a New Era of Agents",
+    "resume": "Marketing technology has seen plenty of change over the past few decades. But what...",
+    "date": "2026-06-17",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Présentation d'un nouveau concept 'Agentic CDP' qui intègre des agents IA dans les Customer Data Platforms. Ceci représente une évolution notable pour les plateformes de données client.",
+    "tags": [
+      "CDP",
+      "agentic",
+      "customer data platform",
+      "AI agents",
+      "marketing technology"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.2
+  },
+  {
+    "url": "https://www.databricks.com/blog/sciene-ai-companion-building-autonomous-customer-success-platform-databricks",
+    "url_hash": "ad1b7343e39b58c5c036c387b407a1d7",
+    "titre": "Sciene AI Companion: building an autonomous Customer Success platform on Databricks",
+    "resume": "Sciene develops AI products that standardize and scale high-volume, relationship-centered...",
+    "date": "2026-06-16",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cas d'usage documenté sur la construction d'une plateforme autonome de succès client en utilisant Databricks et l'IA. L'article présente un nouveau cas d'usage avec des métriques implicites sur l'automatisation et l'efficacité.",
+    "tags": [
+      "customer success",
+      "autonomous platform",
+      "AI companion",
+      "case study",
+      "Databricks"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.2
+  },
+  {
     "url": "https://openai.com/index/parloa",
     "url_hash": "b655fa9f550b1534336c627d3682ff96",
     "titre": "Parloa builds service agents customers want to talk to",
@@ -9907,6 +10206,31 @@
       "Microsoft Fabric",
       "métadonnées",
       "gain de temps"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.15
+  },
+  {
+    "url": "https://www.databricks.com/blog/whats-new-unity-catalog-data-ai-summit-2026",
+    "url_hash": "ef7e348c2f4d5ddc2fe5918ff2fb5a6f",
+    "titre": "What’s new with Unity Catalog at Data + AI Summit 2026",
+    "resume": "The agentic era is here. Hundreds of thousands of agents are now acting on enterprise...",
+    "date": "2026-06-16",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Présente les nouveautés de Unity Catalog dans le contexte de l'ère 'agentic'. Ces évolutions apportent des capacités accrues pour gérer et gouverner les données dans un environnement où les agents IA sont prédominants. C'est une évolution notable de l'outil.",
+    "tags": [
+      "Unity Catalog",
+      "data governance",
+      "agentic era",
+      "data catalog",
+      "Databricks"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 5,
@@ -11734,6 +12058,31 @@
     "score_composite": 5.85
   },
   {
+    "url": "https://www.databricks.com/blog/announcing-apps-databricks-marketplace",
+    "url_hash": "9b7fc204350d5e154b5e83d5b68ed09b",
+    "titre": "Announcing Apps on Databricks Marketplace",
+    "resume": "Data intelligence is reshaping how organizations turn data into outcomes. Teams no...",
+    "date": "2026-06-16",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Lancement de la fonctionnalité 'Apps' sur le Databricks Marketplace, visant à faciliter la transformation des données en résultats grâce à l'intelligence data. Il s'agit d'une évolution notable en termes d'écosystème et de facilité d'accès aux solutions.",
+    "tags": [
+      "Databricks Marketplace",
+      "data apps",
+      "data intelligence",
+      "ecosystem",
+      "data platform"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.85
+  },
+  {
     "url": "https://openai.com/index/gpt-5-5-system-card",
     "url_hash": "915b6ff115f0885dca2ea04c60c1489a",
     "titre": "GPT-5.5 System Card",
@@ -12616,6 +12965,30 @@
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 5,
     "score_composite": 5.7
+  },
+  {
+    "url": "https://websyn.medium.com/power-bi-dashboards-drive-real-time-decision-making-53f980ba2b85?source=rss------power_bi-5",
+    "url_hash": "9faf50256facc4c30c95d10ad2596e61",
+    "titre": "How Can Power BI Dashboards Drive Real-Time Decision-Making?",
+    "resume": "In today’s fast-moving digital economy, waiting for weekly or monthly reports can slow down critical business decisions. Power BI…Continue reading on Medium »",
+    "date": "2026-06-17",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Démontre un cas d'usage concret et documenté sur la manière dont les tableaux de bord Power BI peuvent améliorer la prise de décision en temps réel. Une évolution notable dans l'application de BI.",
+    "tags": [
+      "Power BI",
+      "dashboards",
+      "real-time decision making",
+      "business intelligence"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.699999999999999
   },
   {
     "url": "https://techcrunch.com/2026/05/20/indian-travel-fintech-scapia-more-than-doubles-valuation-to-over-500m-in-a-year/",
@@ -13502,6 +13875,31 @@
     "score_composite": 5.550000000000001
   },
   {
+    "url": "https://www.databricks.com/blog/enabling-governed-vibe-coding-enterprise-apps-databricks",
+    "url_hash": "bcbfeac72dc90e7f891051793d328e1a",
+    "titre": "Enabling Governed Vibe Coding for Enterprise Apps on Databricks",
+    "resume": "Vibe coding needs context and control to work in the enterpriseThe rise of coding agents has been hard to miss...",
+    "date": "2026-06-16",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Article décrivant l'intégration de 'Vibe coding' (probablement un assistant de codage IA) dans un contexte d'entreprise sur Databricks, mettant l'accent sur la gouvernance. C'est une évolution notable car il documente un cas d'usage et son intégration.",
+    "tags": [
+      "AI coding assistant",
+      "enterprise AI",
+      "governance",
+      "Databricks",
+      "developer tools"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.550000000000001
+  },
+  {
     "url": "https://medium.com/powerbi-microsoft-fabric/how-microsoft-fabric-is-different-from-power-bi-c495674c1fc5?source=rss------power_bi-5",
     "url_hash": "eae6c99644e9cc692dae0959f324214a",
     "titre": "How Microsoft Fabric is Different from Power BI",
@@ -13669,6 +14067,30 @@
       "BI",
       "analyse",
       "cas d'usage"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.55
+  },
+  {
+    "url": "https://medium.com/@arunkumard.isme/implementing-row-level-security-rls-and-data-governance-in-power-bi-ac1baebc5dec?source=rss------power_bi-5",
+    "url_hash": "bc19206b521270873e41552b1e23bf5a",
+    "titre": "Implementing Row-Level Security (RLS) and Data Governance in Power BI",
+    "resume": "Designing reports that don’t just inform — but also protectContinue reading on Medium »",
+    "date": "2026-06-17",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article expliquant la mise en œuvre de la sécurité au niveau des lignes (RLS) et de la gouvernance des données dans Power BI. C'est un tutoriel avancé sur une pratique BI établie.",
+    "tags": [
+      "Power BI",
+      "RLS",
+      "data governance",
+      "security"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 4,
@@ -15984,6 +16406,30 @@
     "score_composite": 5.1
   },
   {
+    "url": "https://reyvanmaulid.medium.com/cara-membuat-sales-dashboard-di-power-bi-dalam-3-langkah-mudah-5bdc59842544?source=rss------power_bi-5",
+    "url_hash": "cb178fd8c06374004bf7fbc1fd2fddee",
+    "titre": "Cara Membuat Sales Dashboard di Power BI dalam 3 Langkah Mudah",
+    "resume": "Data penjualan merupakan salah satu aset paling berharga bagi sebuah bisnis. Namun, data yang tersimpan dalam spreadsheet atau database…Continue reading on Medium »",
+    "date": "2026-06-17",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Guide pratique pour créer un tableau de bord de ventes dans Power BI en 3 étapes simples. Cela documente un cas d'usage BI avec une approche simplifiée.",
+    "tags": [
+      "Power BI",
+      "sales dashboard",
+      "BI development",
+      "tutorial"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.1
+  },
+  {
     "url": "https://www.producthunt.com/products/mashupack",
     "url_hash": "69c7e1d10392884ddee6e898a4a07ff8",
     "titre": "MashuPack",
@@ -16980,6 +17426,31 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 7,
+    "score_composite": 4.9
+  },
+  {
+    "url": "https://towardsdatascience.com/run-a-local-llm-with-openclaw-on-your-mac-mini/",
+    "url_hash": "6d040d3f1f4e612ccde6deaf5ad0cd78",
+    "titre": "Run a Local LLM with OpenClaw on Your Mac Mini",
+    "resume": "Tired of your monthly API bill? Follow this tested guide to set up a high-performance local LLM on your Mac Mini without the headaches. \nThe post Run a Local LLM with OpenClaw on Your Mac Mini appeared first on Towards Data Science.",
+    "date": "2026-06-16",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_MODELES",
+    "raison_score": "Cet article fournit un tutoriel avancé sur l'exécution d'un LLM local avec OpenClaw sur un Mac Mini, ce qui est utile pour les développeurs souhaitant réduire les coûts d'API. C'est une évolution notable dans l'utilisation locale des modèles.",
+    "tags": [
+      "LLM",
+      "OpenClaw",
+      "Local LLM",
+      "Mac Mini",
+      "AI"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
     "score_composite": 4.9
   },
   {
@@ -18932,6 +19403,30 @@
       "Database",
       "Comparison",
       "Cloud"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.3
+  },
+  {
+    "url": "https://medium.com/@Elance_Learning/why-every-commerce-student-should-learn-excel-and-power-bi-2eb59e951ac5?source=rss------power_bi-5",
+    "url_hash": "529d1da94f685ce1ec9a038bb5579f45",
+    "titre": "Why Every Commerce Student Should Learn Excel and Power BI?",
+    "resume": "For years, commerce education has focused on building strong conceptual knowledge in accounting, taxation, auditing, and finance. While…Continue reading on Medium »",
+    "date": "2026-06-17",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article de fond expliquant l'importance d'Excel et Power BI pour les étudiants en commerce. Il s'agit d'une information utile sur des pratiques établies.",
+    "tags": [
+      "Excel",
+      "Power BI",
+      "business education",
+      "data literacy"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 3,
@@ -20905,6 +21400,30 @@
     "score_composite": 3.3
   },
   {
+    "url": "https://reyvanmaulid.medium.com/cara-mengimpor-data-ke-power-bi-untuk-pemula-gampang-3c19d0dda8c2?source=rss------power_bi-5",
+    "url_hash": "d1077748ad8a391167ea200cb97bf381",
+    "titre": "Cara Mengimpor Data ke Power BI untuk Pemula, Gampang!",
+    "resume": "Saat pertama kali menggunakan Power BI, salah satu fitur terpenting yang perlu dipahami adalah Get Data. Fitur ini menjadi tiket masuk…Continue reading on Medium »",
+    "date": "2026-06-17",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Tutoriel pour débutants sur l'importation de données dans Power BI. Il s'agit d'une information utile pour une pratique établie mais basique.",
+    "tags": [
+      "Power BI",
+      "data import",
+      "beginner tutorial",
+      "BI tools"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.3
+  },
+  {
     "url": "https://openai.com/academy/what-is-ai",
     "url_hash": "a9620e92ad73779d3f8856bce29e39e6",
     "titre": "AI fundamentals",
@@ -21685,6 +22204,30 @@
     "pertinence_passionné_ia": 1,
     "pertinence_entrepreneur": 1,
     "score_composite": 1.4
+  },
+  {
+    "url": "https://www.wired.com/story/the-big-interview-podcast-tim-heidecker/",
+    "url_hash": "e3ca22c89b206ecfeca7dd47860d9d37",
+    "titre": "Tim Heidecker Wants to Turn Infowars Into Adult Swim for the Internet",
+    "resume": "Infowars’ would-be creative director talks Sandy Hook, comedy’s MAGA turn, and why the future of satire may look more like a streaming startup than a late-night show.",
+    "date": "2026-06-17",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 1,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Article d'opinion et d'interview sur une personnalité médiatique et ses ambitions de contenu. Il manque de substance technique ou d'impact direct sur les domaines d'expertise demandés.",
+    "tags": [
+      "Tim Heidecker",
+      "media",
+      "satire",
+      "infowars"
+    ],
+    "pertinence_bi_consultant": 1,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 1.1500000000000001
   },
   {
     "url": "https://www.wired.com/review/buzz-bicycles-centris-2/",
