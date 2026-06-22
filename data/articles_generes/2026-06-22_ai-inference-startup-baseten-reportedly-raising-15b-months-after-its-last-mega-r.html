@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI inference startup Baseten reportedly raising $1.5B months after its last mega-round — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>AI inference startup Baseten reportedly raising $1.5B months after its last mega-round</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-06-18</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-06-22 13:35 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>Baseten lève 1,5 milliard de dollars dans la course à l'inférence IA 💰</h2>
+<blockquote>La jeune pousse Baseten lève une somme colossale, confirmant la frénésie autour de l'inférence IA.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+<p>La startup Baseten serait sur le point de finaliser une levée de fonds de 1,5 milliard de dollars. Cette opération valoriserait l'entreprise à 13 milliards de dollars. Cette nouvelle intervient seulement quelques mois après son précédent tour de table majeur. Le secteur de l'inférence IA connaît une "ruée vers l'or".</p>
+<blockquote>La valorisation de Baseten pourrait atteindre 13 milliards de dollars lors de cette nouvelle levée.</blockquote>
+<p>Les modèles d'IA sont de plus en plus performants. Leur déploiement à grande échelle nécessite une infrastructure capable de les exécuter rapidement et à moindre coût. C'est le créneau de Baseten : optimiser cette phase cruciale d'inférence.</p>
+<h3>Pourquoi ca compte 🎯</h3>
+<p>Cette levée de fonds massive montre la confiance des investisseurs dans le potentiel de Baseten. Ils parient sur sa capacité à résoudre un goulot d'étranglement majeur dans le déploiement des IA. Une infrastructure d'inférence efficace est la clé pour rendre l'IA accessible et rentable.</p>
+<table>
+<tr><th>Secteur</th><th>Enjeu</th></tr>
+<tr><td>Inférence IA</td><td>Exécution rapide et économique des modèles</td></tr>
+<tr><td>Infrastructure</td><td>Supporte le déploiement à grande échelle</td></tr>
+<tr><td>Rentabilité IA</td><td>Rend les applications IA viables</td></tr>
+</table>
+<p>Baseten permet aux entreprises d'exécuter leurs modèles d'IA sans avoir à gérer une infrastructure complexe et coûteuse. Cela accélère la mise sur le marché de nouvelles applications IA.</p>
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Explorer les solutions d'inférence IA</strong> : recherche les fournisseurs sur le marché.</li>
+<li><strong>Suivre l'évolution des coûts d'inférence</strong> : compare les benchmarks.</li>
+<li><strong>Défi rapide</strong> : identifie une tâche IA que tu exécutes souvent et cherche comment l'optimiser.</li>
+</ul>
+<blockquote>Moins de friction dans l'inférence, c'est plus d'IA concrète pour tout le monde.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>Inférence IA</strong> : processus qui consiste à exécuter un modèle d'IA entraîné pour obtenir des prédictions.</li>
+<li><strong>Goulot d'étranglement</strong> : étape d'un processus qui limite sa vitesse globale.</li>
+<li><strong>Infrastructure IA</strong> : ensemble des ressources matérielles et logicielles nécessaires au fonctionnement des systèmes d'IA.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/">Baseten, levée de fonds et course à l'inférence IA</a> — Comprendre pourquoi cette étape est critique pour l'adoption de l'IA.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<strong>Dives remplace l'outil de BI chez Motherduck</strong> : La plateforme de données annonce avoir abandonné son outil de Business Intelligence au profit de Dives, promettant une expérience plus intégrée. (8)
+<strong>Hypernetworks, une alternative à Fine-tuning et RAG pour les agents IA</strong> : Une nouvelle approche pour construire des modèles personnalisés pour les agents, résolvant les limitations des méthodes actuelles. (8)
+<strong>Perplexity lance "Brain", un système de mémoire auto-améliorant pour les agents IA</strong> : L'outil crée un graphe de contexte de travail et apprend de manière autonome pendant la nuit. (8)
+<strong>Microsoft Fabric Data Agents redéfinit l'analytique self-service</strong> : L'évolution des dashboards Power BI vers des agents autonomes promet une nouvelle ère pour l'analyse de données. (8)
+<strong>Des failles de sécurité découvertes sur 7 000 serveurs Langflow</strong> : LangGraph et LangChain présentent des vulnérabilités similaires, soulignant l'importance de la sécurisation des plateformes IA. (8)
+<strong>n8n s'associe à SAP pour l'orchestration visuelle de flux de travail IA</strong> : L'objectif est d'intégrer la puissance de l'IA visuelle dans les processus d'entreprise. (8)
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>Les startups remettent en question les limites des LLM</strong> : Une nouvelle approche promet de débloquer des performances inédites pour les grands modèles de langage. Les recherches s'intensifient pour dépasser les contraintes actuelles.
+<strong>SpaceX acquiert Cursor pour 60 milliards de dollars en actions</strong> : Cette acquisition majeure intervient peu après l'introduction en bourse réussie de Cursor, marquant une consolidation d'envergure.
+<strong>Amazon se lance dans la course aux puces IA contre Nvidia</strong> : Le géant du cloud cherche à concurrencer directement Nvidia en proposant ses propres puces IA. L'objectif est de renforcer son offre cloud.
+<strong>A surveiller</strong> : L'évolution des technologies permettant aux agents IA d'apprendre et de s'adapter en continu. Cela ouvre la voie à des systèmes plus autonomes et efficaces.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-06-22 13:35 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
