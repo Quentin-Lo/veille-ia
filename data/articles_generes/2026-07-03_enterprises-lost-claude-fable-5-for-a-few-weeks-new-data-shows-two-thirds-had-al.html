@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enterprises lost Claude Fable 5 for a few weeks. New data shows two-thirds had already built their hedge — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>Enterprises lost Claude Fable 5 for a few weeks. New data shows two-thirds had already built their hedge</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-07-03</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-07-03 10:36 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>Les entreprises diversifient leurs IA après les déboires de Claude 5</h2>
+<blockquote>Deux tiers des entreprises anticipent des pannes de leurs modèles IA.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+<p>La disponibilité limitée du modèle Claude 5 d'Anthropic a mis en lumière un risque majeur pour les entreprises. Pendant quelques semaines, le modèle le plus performant du marché a été inaccessible aux États-Unis suite à une décision de contrôle des exportations. Cette interruption a rappelé la dépendance de nombreuses organisations vis-à-vis d'un fournisseur unique.</p>
+<blockquote>Deux tiers des entreprises ont déjà mis en place des stratégies de diversification pour leurs modèles d'IA.</blockquote>
+<h3>Pourquoi ca compte 🎯</h3>
+<p>Cette situation confirme la pertinence de la diversification. Les entreprises ne veulent plus dépendre d'un seul fournisseur, craignant des ruptures d'approvisionnement ou des décisions stratégiques qui les impactent négativement. Avoir plusieurs options permet de basculer rapidement en cas de problème. Cela garantit la continuité des opérations et l'accès aux technologies.</p>
+<table>
+<tr><th>Modèle IA</th><th>Fournisseur</th><th>Disponibilité Initiale</th><th>Risque de Rupture</th></tr>
+<tr><td>Claude 5</td><td>Anthropic</td><td>Haute</td><td>Modéré</td></tr>
+<tr><td>GPT-5.6</td><td>OpenAI</td><td>Limitée (Preview)</td><td>Élevé</td></tr>
+<tr><td>Modèles tiers</td><td>Divers</td><td>Variable</td><td>Faible</td></tr>
+</table>
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Évaluer tes dépendances</strong> : Identifie les modèles IA critiques pour ton activité.</li>
+<li><strong>Tester des alternatives</strong> : Explore les modèles open source ou de fournisseurs moins dominants.</li>
+<li><strong>Mettre en place une stratégie multi-fournisseurs</strong> : Prépare des plans de bascule entre différents modèles.</li>
+</ul>
+<blockquote>Minimise tes risques en ne mettant pas tous tes œufs IA dans le même panier.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>Diversification IA</strong> : Utiliser plusieurs modèles d'IA pour réduire les risques.</li>
+<li><strong>Contrôle des exportations</strong> : Mesures gouvernementales limitant l'accès à certaines technologies.</li>
+<li><strong>Stratégie de résilience</strong> : Préparer des plans pour maintenir l'activité en cas de problème.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://venturebeat.com/orchestration/enterprises-lost-claude-fable-5-for-a-few-weeks-new-data-shows-two-thirds-had-already-built-their-hedge">Enterprises lost Claude Fable 5 for a few weeks. New data shows two-thirds had already built their hedge</a> — comprendre les raisons de la diversification des entreprises.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<ul><li><strong>OpenAI dévoile GPT-5.6 avec les modèles Sol, Terra et Luna</strong> (9/10) : Les nouveaux modèles sont accessibles en avant-première limitée, conformément aux directives gouvernementales. Ils proposent des niveaux de performance variés et de nouveaux modes de raisonnement.</li>
+<li><strong>Des plateformes d'exécution des décisions émergent, au-delà des dashboards</strong> (8/10) : Databricks présente une nouvelle catégorie d'outils axés sur la mise en action des insights, transformant l'analyse de données en décisions concrètes.</li>
+<li><strong>Fine-tuning et RAG ont leurs limites, les hypernetworks construisent des modèles à la demande</strong> (8/10) : Cette approche innovante permet de générer le modèle optimal pour un agent agent, en fonction de ses besoins spécifiques et en temps réel.</li>
+<li><strong>Perplexity lance Brain, un système de mémoire auto-améliorante pour agents</strong> (8/10) : Brain crée un graphe de contexte du travail d'un agent et apprend chaque nuit, optimisant sa compréhension et ses actions.</li>
+<li><strong>Dives remplace les outils BI traditionnels chez Motherduck</strong> (8/10) : Un retour d'expérience sur l'adoption d'un nouvel outil de Business Intelligence plus intégré et potentiellement plus efficace.</li>
+<li><strong>DeepSeek open source DSpark pour accélérer l'inférence LLM jusqu'à 85%</strong> (8/10) : Un nouveau framework conçu pour améliorer significativement la vitesse de traitement des grands modèles de langage.</li>
+<li><strong>Les agents sont une nouvelle forme de logiciel selon Vercel</strong> (8/10) : Une perspective sur l'évolution des agents autonomes et leur rôle dans le futur du développement logiciel.</li>
+<li><strong>Meituan open source LongCat-2.0, un modèle de codage agentique performant</strong> (8/10) : Ce modèle de 1.6T, entraîné sur des puces chinoises, est disponible en open source et démontre des capacités impressionnantes en matière de génération de code.</li>
+</ul>
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>Nouvelles générations de modèles IA chez OpenAI</strong> : GPT-5.6 arrive avec plusieurs variantes (Sol, Terra, Luna). Ces modèles visent à offrir des performances accrues et des capacités de raisonnement améliorées, marquant une étape importante dans l'évolution des LLM.
+<strong>Les agents autonomes prennent de l'ampleur</strong> : Des innovations comme Perplexity Brain et les discussions sur les agents comme "nouvelle forme de logiciel" montrent une tendance forte vers des systèmes IA capables d'agir de manière plus indépendante et intelligente.
+<strong>A surveiller</strong> : L'intégration de ces modèles avancés et des agents dans des processus métiers concrets, ainsi que les implications réglementaires liées à leur puissance croissante.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-07-03 10:36 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
