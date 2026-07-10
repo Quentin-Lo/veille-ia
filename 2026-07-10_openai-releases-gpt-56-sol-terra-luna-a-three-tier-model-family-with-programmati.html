@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenAI Releases GPT-5.6 (Sol, Terra, Luna): A Three-Tier Model Family With Programmatic Tool Calling in the Responses API — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>OpenAI Releases GPT-5.6 (Sol, Terra, Luna): A Three-Tier Model Family With Programmatic Tool Calling in the Responses API</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-07-09</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-07-10 10:52 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>OpenAI lance GPT-5.6 : trois modèles pour tous les besoins</h2>
+<blockquote>L'IA devient plus accessible et plus performante. OpenAI fractionne son nouveau modèle.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+<p>OpenAI a rendu GPT-5.6 disponible le 9 juillet 2026. Au lieu d'un seul modèle, il y en a maintenant trois. Ces versions sont nommées Sol, Terra et Luna.</p>
+<p>Le prix varie en fonction du modèle. Sol coûte 5$ pour 1 million de tokens en entrée et 30$ en sortie. Terra est plus abordable : 2.50$ en entrée et 15$ en sortie. Luna est encore moins cher, à 1$ et 6$.</p>
+<p>Sol est le plus performant. Il atteint un score de 80 sur l'Artificial Analysis Coding Agent Index. C'est 2.8 points de plus que Claude Fable 5. Il obtient aussi 62.6% sur OSWorld 2.0.</p>
+<blockquote>GPT-5.6 Sol établit une nouvelle référence en matière d'analyse et de performance.</blockquote>
+<h3>Pourquoi ca compte 🎯</h3>
+<p>Cette approche en trois niveaux permet une meilleure adaptation aux budgets et aux besoins. Les entreprises peuvent choisir le modèle le plus adapté à leur usage. Cela rend l'IA avancée plus accessible.</p>
+<p>L'intégration avec les outils se fait directement dans les réponses. Cela simplifie grandement les flux de travail. Les développeurs peuvent intégrer des actions programmatiques sans passer par des étapes complexes.</p>
+<blockquote>Les modèles Sol, Terra et Luna offrent flexibilité tarifaire et puissance accrue.</blockquote>
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Tester Sol</strong> : si tu cherches la performance maximale. Lien disponible sur le site d'OpenAI.</li>
+<li><strong>Utiliser Terra ou Luna</strong> : pour des applications moins gourmandes en ressources ou à budget limité.</li>
+<li><strong>Définir des appels d'outils</strong> : dans tes requêtes pour des actions automatisées.</li>
+</ul>
+<blockquote>Choisis le modèle qui correspond à tes objectifs et à tes contraintes.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>Modèles Multi-niveaux</strong> : plusieurs versions d'un même produit pour différents usages.</li>
+<li><strong>Appel Programmatique d'Outils</strong> : l'IA peut déclencher des actions externes directement.</li>
+<li><strong>IA Générale Disponible (AGD)</strong> : maintenant accessible au grand public et aux entreprises.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/">OpenAI Releases GPT-5.6 (Sol, Terra, Luna): A Three-Tier Model Family With Programmatic Tool Calling</a> — Détails techniques sur la nouvelle architecture.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<ul><li><strong>ChatGPT devient un partenaire pour vos projets ambitieux</strong> (9) : L'outil se positionne comme un collaborateur pour les tâches complexes, pas juste un assistant.</li>
+<li><strong>SpaceX lance Grok 4.5 à moitié prix, défiant Anthropic et OpenAI</strong> (9) : Une stratégie agressive sur les prix qui pourrait redistribuer les cartes du marché de l'IA.</li>
+<li><strong>OpenAI lance GPT 5.6 Sol/Terra/Luna, Codex devient une super-app ChatGPT</strong> (9) : Une annonce qui confirme la stratégie de fragmentation et l'évolution de ChatGPT vers une plateforme plus intégrée.</li>
+<li><strong>Les entreprises avaient perdu Claude Fable 5, deux tiers avaient déjà leur plan B</strong> (9) : La résilience des entreprises face aux indisponibilités des grands modèles d'IA.</li>
+<li><strong>Meta lance Muse Spark 1.1 pour les tâches agentiques</strong> (8) : Meta continue de développer des modèles multimodaux axés sur l'automatisation.</li>
+<li><strong>GPT-5.6 est le modèle préféré de Microsoft 365 Copilot</strong> (8) : Une intégration forte qui confirme la relation entre OpenAI et Microsoft, malgré les rumeurs de tensions.</li>
+<li><strong>Anthropic dévoile "J-lens", une fenêtre sur le fonctionnement interne de Claude</strong> (9) : Une approche transparente pour comprendre les mécanismes de raisonnement de l'IA.</li>
+</ul>
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>L'IA comme plateforme d'exécution de décisions</strong> — Les outils comme ceux de Databricks visent à transformer les analyses en actions concrètes, allant au-delà des simples tableaux de bord. C'est un pas vers des systèmes plus autonomes et réactifs.
+<strong>La bataille des prix dans l'IA générative</strong> — La sortie de Grok 4.5 à prix réduit montre une course aux parts de marché. Les acteurs cherchent à rendre l'IA plus abordable pour une adoption plus large, mettant la pression sur les tarifs des concurrents.
+<strong>A surveiller</strong> — L'évolution rapide des modèles d'IA vers des systèmes capables d'appeler des outils externes directement. Cela ouvre la porte à des automations encore plus complexes et intégrées.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-07-10 10:52 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
