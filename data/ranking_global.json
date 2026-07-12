@@ -109,7 +109,7 @@
     "source_name": "OpenAI Blog",
     "categorie_source": "IA_MODELES",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 10,
     "categorie": "IA_MODELES",
     "raison_score": "Ce titre et ce résumé suggèrent une avancée majeure, potentiellement un nouveau modèle frontier redéfinissant les capacités actuelles. L'aspect 'intelligence qui s'adapte à votre ambition' indique une amélioration significative des performances et de la flexibilité.",
@@ -1323,6 +1323,31 @@
       "multimodal AI",
       "agentic tasks",
       "Meta"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.95
+  },
+  {
+    "url": "https://zapier.com/blog/automate-chatgpt",
+    "url_hash": "ff2d671b2fdf68d5c97952b5279caa60",
+    "titre": "How to automate ChatGPT (GPT-5.6 Sol, GPT-5.6 Terra, and more)",
+    "resume": "In a livestream on July 9, OpenAI rolled out the red carpet for not one but three new models: Sol, Terra, and Luna. These celestial models mark three tiers within the GPT-5.6 generation, each built to cut down on how often you have to re-explain your context in ChatGPT. All three are available on Zapier, so you can connect them securely to the other apps you already use in Zap workflows (what we call automations). Below, I'll share some of the most popular ChatGPT automations, plus templates you",
+    "date": "2026-07-09",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'annonce de nouveaux modèles GPT (Sol, Terra, Luna) et leur intégration avec Zapier pour l'automatisation de ChatGPT représente une capacité agent nouvelle et reproductible, ainsi qu'une mise à jour significative dans l'écosystème de l'IA conversationnelle.",
+    "tags": [
+      "ChatGPT",
+      "automatisation",
+      "IA générative",
+      "modèles IA",
+      "agents"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 9,
@@ -4044,6 +4069,30 @@
     "score_composite": 7.3
   },
   {
+    "url": "https://towardsdatascience.com/long-context-isnt-free-i-built-a-safe-prompt-pruning-layer-that-makes-llm-systems-work/",
+    "url_hash": "b776373312671ed6089447b643bd0690",
+    "titre": "Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work",
+    "resume": "LLMs don’t fail because they forget—they fail because they remember too much. As conversations grow, prompts accumulate redundant and low-value tokens, driving up cost and latency while silently degrading output quality. This article introduces a deterministic prompt-pruning layer that reduces token usage without breaking dependencies, backed by real benchmarks and production-tested design.\nThe post Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work appeare",
+    "date": "2026-07-11",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Propose une nouvelle capacité technique reproductible ('safe prompt-pruning layer') pour améliorer l'efficacité et la performance des LLM dans des contextes longs. L'article documente la construction et les benchmarks, ce qui en fait une avancée significative.",
+    "tags": [
+      "LLM",
+      "Long Context",
+      "Optimisation",
+      "Prompt Engineering"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3
+  },
+  {
     "url": "https://blog.n8n.io/production-ai-playbook-evaluation-and-monitoring/",
     "url_hash": "f40e1553d5f8182e5c09eba824af690f",
     "titre": "Production AI Playbook: Evaluation and Monitoring",
@@ -5557,6 +5606,55 @@
     "score_composite": 7.050000000000001
   },
   {
+    "url": "https://motherduck.com/blog/ducklake-architecture-deep-dive",
+    "url_hash": "2e11d556807a7cd4a266e12f9dd8feda",
+    "titre": "DuckLake Architecture Deep Dive",
+    "resume": "DuckLake is a next generation data lakehouse and open table format. It is significantly simpler and faster than Apache Iceberg or Delta Lake because it uses a SQL database for storing the catalog and metadata. This post covers an architecture deep dive with a detailed Q&A section. DuckLake consists of 3 components: storage, catalog, and compute. Each can be scaled independently, hosted locally with ease, and deployed to the cloud for production. MotherDuck offers managed DuckLake lakehouses for ",
+    "date": "2026-07-10",
+    "source_name": "MotherDuck Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "La présentation d'une nouvelle architecture de data lakehouse open-source, simplifiée et potentiellement plus performante que les solutions existantes, représente une avancée significative dans la gestion des données.",
+    "tags": [
+      "data lakehouse",
+      "open source",
+      "architecture",
+      "données",
+      "DuckDB"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.050000000000001
+  },
+  {
+    "url": "https://www.saastr.com/one-way-to-build-a-great-ai-agent-just-start-with-a-dashboard-then-add-the-agent/",
+    "url_hash": "aee211b0b38162e865ff4f47da518bb4",
+    "titre": "One Way to Build a Great AI Agent: Just Start With a Dashboard, Then Add the Agent",
+    "resume": "You can buy an AI agent to get started. There are great ones out there, and that’s a perfectly fine place to begin.  You can see our full AI Agent stack here, and just copy us. But if you want to build your own, here’s one simpler way to just … get going. Don’t start... Continue Reading",
+    "date": "2026-07-11",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Propose un nouveau framework entrepreneurial documenté pour construire des agents IA en commençant par un tableau de bord. C'est une approche structurée et pratique pour le développement d'IA appliquées.",
+    "tags": [
+      "IA Agent",
+      "Entrepreneuriat",
+      "Stratégie",
+      "Dashboard"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 7.050000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/24/stepfun-releases-stepaudio-2-5-realtime-an-end-to-end-voice-model-with-roleplay-specific-rlhf-and-paralinguistic-comprehension/",
     "url_hash": "87b78dadfc9ea188a2de1363f34d77d3",
     "titre": "StepFun Releases StepAudio 2.5 Realtime: An End-to-End Voice Model with Roleplay-Specific RLHF and Paralinguistic Comprehension",
@@ -6942,6 +7040,56 @@
     "score_composite": 6.95
   },
   {
+    "url": "https://www.producthunt.com/products/mispher-agentic-transcription-for-mac",
+    "url_hash": "5f55b7f0dc1442cd5a1dd25649802543",
+    "titre": "Mispher",
+    "resume": "\n            Dictate, rewrite, translate, and an agent in a single device\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-07-09",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Mispher propose des fonctionnalités basées sur l'IA pour la dictée, la réécriture et la traduction, fonctionnant comme un agent. La documentation de cette nouvelle capacité agent démontre son applicabilité.",
+    "tags": [
+      "IA",
+      "agents",
+      "transcription",
+      "réécriture",
+      "traduction"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://www.producthunt.com/products/muse-spark-1-1-by-meta",
+    "url_hash": "0fdf202c3423696e1f7bf25179418d14",
+    "titre": "Muse Spark 1.1 by Meta AI",
+    "resume": "\n            Multimodal reasoning model built for agentic tasks\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-07-09",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "La mise à jour de Muse Spark par Meta AI, présenté comme un modèle multimodal conçu pour des tâches agentiques, constitue une avancée significative dans le domaine des modèles d'IA.",
+    "tags": [
+      "IA",
+      "modèle IA",
+      "multimodal",
+      "Meta AI",
+      "agents"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
     "url": "https://www.latent.space/p/the-coolest-diffusion-research-isnt",
     "url_hash": "3b215a1e99445682fed1507d14824aee",
     "titre": "🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
@@ -7206,6 +7354,31 @@
       "Startups",
       "Architecture",
       "Data Engineering"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.900000000000001
+  },
+  {
+    "url": "https://www.producthunt.com/products/notion",
+    "url_hash": "ce8620f2b3648316cbe757e12a63a6a7",
+    "titre": "Ship OS by Notion",
+    "resume": "\n            The agent-native way to ship software\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-07-09",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Ship OS est présenté comme une manière native d'utiliser les agents pour le développement logiciel. Cela représente une nouvelle capacité agent documentée et potentiellement reproductible pour le secteur tech.",
+    "tags": [
+      "IA",
+      "agents",
+      "développement logiciel",
+      "Notion",
+      "productivité"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
@@ -11341,6 +11514,31 @@
     "score_composite": 6.500000000000001
   },
   {
+    "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from",
+    "url_hash": "64087355ec6a7cd20c03a309e46b2518",
+    "titre": "The Pulse: What can we learn from Bun’s rapid Rust rewrite with AI?",
+    "resume": "A rewrite done in 11 days that would have taken a small team a year to complete, for $165K in tokens. Also: coding LLM “wars” heat up, AI fakers from North Korea still a problem when hiring, and more",
+    "date": "2026-07-09",
+    "source_name": "Pragmatic Engineer",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Cet article examine la réécriture rapide d'un projet avec l'aide de l'IA, quantifiant l'impact et le coût. Il s'agit d'une étude sur l'impact de l'IA dans le développement logiciel, apportant des métriques et des enseignements précieux.",
+    "tags": [
+      "IA",
+      "développement logiciel",
+      "automatisation",
+      "coût",
+      "métriques"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.500000000000001
+  },
+  {
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
     "url_hash": "c93509b534a115d9d6eb9d1ae8c538cb",
     "titre": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
@@ -11735,6 +11933,30 @@
       "PDF",
       "Recherche",
       "Images"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.45
+  },
+  {
+    "url": "https://venturebeat.com/security/forget-typosquatting-slopsquatting-is-the-software-supply-chain-threat-created-by-ai-coding-tools",
+    "url_hash": "e67a365843c3b0456ff90338059a5c22",
+    "titre": "Forget typosquatting; slopsquatting is the software supply chain threat created by AI coding tools",
+    "resume": "Slopsquatting represents an emerging supply chain threat made possible by AI hallucinations. As developers increasingly rely on AI coding assistants, they unknowingly grant cybercriminals access to their software from day one. Understanding what slopsquatting isSlopsquatting is a new type of supply chain attack that uses large language model (LLM) hallucinations to inject malicious code into development workflows. The term combines \"AI slop\" and \"typosquatting,\" a deceptive practice where attack",
+    "date": "2026-07-11",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Identifie et nomme une nouvelle menace de sécurité ('slopsquatting') directement liée à l'émergence des outils de codage IA. C'est une avancée significative dans la compréhension des risques associés à ces technologies.",
+    "tags": [
+      "IA",
+      "Sécurité",
+      "Chaîne d'approvisionnement logicielle",
+      "LLM"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 8,
@@ -12210,6 +12432,30 @@
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.3500000000000005
+  },
+  {
+    "url": "https://medium.com/microsoft-power-bi/i-connected-claude-mcp-to-power-bi-and-it-completely-changed-my-bi-development-workflow-b405775bfb4d?source=rss------power_bi-5",
+    "url_hash": "981f6bf9fea425da2b04abe374dd2110",
+    "titre": "I Connected Claude MCP to Power BI — And It Completely Changed My BI Development Workflow",
+    "resume": "My hands-on experience using Claude with Model Context Protocol (MCP) to accelerate Power BI development while keeping privacy, security…Continue reading on Power BI »",
+    "date": "2026-07-11",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Décrit un nouveau cas d'usage pratique intégrant une IA (Claude MCP) dans un outil BI mainstream (Power BI), avec des retours d'expérience sur l'impact sur le workflow. C'est une évolution notable de l'intégration IA dans les outils BI.",
+    "tags": [
+      "Power BI",
+      "Claude",
+      "IA",
+      "Workflow BI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 5,
     "score_composite": 6.3500000000000005
   },
@@ -13519,6 +13765,30 @@
       "taux d'échec",
       "gestion des risques",
       "entreprise"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.2
+  },
+  {
+    "url": "https://zapier.com/blog/salesforce-automation-tools",
+    "url_hash": "c65f113df7befab8d5a2c145c9fcf8bf",
+    "titre": "The best Salesforce automation tools in 2026",
+    "resume": "My early days with Salesforce were a classic love-hate experience: loved its power, but resented the hours I lost to manual CSV juggling and frantic VLOOKUPs, always fearing a critical lead was gathering dust in some forgotten queue.  Things really clicked when I stopped just using Salesforce and focused on making it work for me. It wasn't about some mythical magic button—those rarely exist in enterprise software.  My goal was to pinpoint the real time sinks and systematically apply automation.",
+    "date": "2026-07-09",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "L'article propose une liste comparée d'outils d'automatisation pour Salesforce, avec des retours d'expérience sur l'impact de l'automatisation. Cela constitue une information utile et pratique pour améliorer l'efficacité des processus métier.",
+    "tags": [
+      "Salesforce",
+      "automatisation",
+      "outils",
+      "processus métier"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 5,
@@ -15795,6 +16065,29 @@
     "score_composite": 5.95
   },
   {
+    "url": "https://medium.com/codetodeploy/i-audited-12-companies-fabric-capacity-spend-9-were-overpaying-here-s-the-pattern-31e21e1ec937?source=rss------power_bi-5",
+    "url_hash": "11f395a485b056ab1ca8ca6b8ab38029",
+    "titre": "I Audited 12 Companies’ Fabric Capacity Spend. 9 Were Overpaying. Here’s the Pattern.",
+    "resume": "Capacity sizing in Microsoft Fabric is harder than it looks. F2 vs F4 vs F8 vs F64 — each decision locks in real monthly spend that…Continue reading on CodeToDeploy »",
+    "date": "2026-07-12",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Il s'agit d'une analyse de cas documentée avec des métriques sur l'optimisation des coûts d'une plateforme de données majeure. Bien que pratique, elle ne présente pas de nouveauté architecturale ou technologique.",
+    "tags": [
+      "Microsoft Fabric",
+      "Optimisation des coûts",
+      "Analyse de données"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.95
+  },
+  {
     "url": "https://medium.com/@gavin.ellis/how-power-bi-consulting-services-accelerate-enterprise-reporting-modernization-5f5d679f3c3b?source=rss------power_bi-5",
     "url_hash": "53ec91a63863ffc9ee4f854e49cadb3b",
     "titre": "How Power BI Consulting Services Accelerate Enterprise Reporting Modernization",
@@ -18051,6 +18344,30 @@
       "integration",
       "ia generative",
       "data access"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.6499999999999995
+  },
+  {
+    "url": "https://medium.com/@enosislearning/why-power-bi-is-the-most-valuable-skill-you-can-learn-in-2026-and-how-to-master-it-9c681e0b0e00?source=rss------power_bi-5",
+    "url_hash": "61f9d04f863c6a158c503f9fa75ca29f",
+    "titre": "Why Power BI is the Most Valuable Skill You Can Learn in 2026 — And How to Master It",
+    "resume": "By Enosis Learning | Published: July 2026 | Reading Time: 7 minutesContinue reading on Medium »",
+    "date": "2026-07-09",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article souligne l'importance croissante de Power BI, en fournissant des conseils pour maîtriser cet outil. Il s'agit d'une évolution notable dans le domaine de la BI et un cas d'usage important pour les professionnels.",
+    "tags": [
+      "Power BI",
+      "compétences",
+      "BI",
+      "apprentissage"
     ],
     "pertinence_bi_consultant": 9,
     "pertinence_passionné_ia": 4,
@@ -21047,6 +21364,30 @@
     "score_composite": 5.2
   },
   {
+    "url": "https://www.producthunt.com/products/storychief-io",
+    "url_hash": "9b921e9360e28fc62b46025429381d63",
+    "titre": "StoryChief Connect",
+    "resume": "\n            Publish content from Claude to your website and socials\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-07-09",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article présente un outil qui permet de publier du contenu généré par Claude vers des plateformes externes. Il s'agit d'une intégration IA dans un outil de publication, démontrant un nouveau cas d'usage appliqué.",
+    "tags": [
+      "IA",
+      "publication",
+      "contenu",
+      "automatisation"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.2
+  },
+  {
     "url": "https://www.sqlbi.com/tv/how-to-navigate-the-lattice-of-visual-calculations/",
     "url_hash": "f9758d4f0bfdc2f3633417fd626e7fe8",
     "titre": "How to navigate the lattice of visual calculations",
@@ -23121,6 +23462,29 @@
     "score_composite": 4.949999999999999
   },
   {
+    "url": "https://medium.com/@eyinadeadeshina36/how-i-built-an-executive-hr-analytics-dashboard-in-power-bi-to-improve-workforce-decision-making-8476566d648d?source=rss------power_bi-5",
+    "url_hash": "03d3dfaccfaa3e3061e24f6c48d7e155",
+    "titre": "How I Built an Executive HR Analytics Dashboard in Power BI to Improve Workforce Decision-Making",
+    "resume": "“People analytics isn’t about creating dashboards — it’s about helping organizations make better workforce decisions.”Continue reading on Medium »",
+    "date": "2026-07-12",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Présente un nouveau cas d'usage documenté de Power BI pour l'analyse RH, avec une explication du processus de création de tableau de bord. L'impact est qualifié mais pas quantifié de manière approfondie.",
+    "tags": [
+      "Power BI",
+      "Analyse RH",
+      "Tableau de bord exécutif"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
     "url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
     "url_hash": "8da73ea93b530998eeb1d90d6dde98b0",
     "titre": "Helping developers build safer AI experiences for teens",
@@ -23807,6 +24171,30 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 3,
+    "score_composite": 4.8
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/10/oratomic-raises-300m-to-build-a-viable-quantum-computer-that-needs-only-20k-qubits/",
+    "url_hash": "aeecef85adcbc884117075a3bf87fabb",
+    "titre": "Oratomic raises $300M to build a viable quantum computer that needs only 20K qubits",
+    "resume": "The massive round was co-led by ARCH Venture Partners, Spark Capital, and Khosla Ventures.",
+    "date": "2026-07-10",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Annonce d'une levée de fonds significative pour une entreprise développant une technologie de pointe (ordinateur quantique). C'est une information notable sur l'innovation technologique et l'investissement, mais le lien direct avec l'IA/Data Engineering est limité.",
+    "tags": [
+      "Quantique",
+      "Startup",
+      "Levée de fonds",
+      "Technologie"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
     "score_composite": 4.8
   },
   {
@@ -27426,6 +27814,29 @@
     "score_composite": 3.7
   },
   {
+    "url": "https://medium.com/@moyocomfort17/beyond-the-dashboard-what-power-bi-revealed-about-household-cleaning-product-sales-68979b0cc1b0?source=rss------power_bi-5",
+    "url_hash": "3d2e91c8352ee4db8fb5f6e169112c65",
+    "titre": "Beyond the Dashboard: What Power BI Revealed About Household Cleaning Product Sales",
+    "resume": "From online carts to store shelves, the data revealed how customers really shop.Continue reading on Medium »",
+    "date": "2026-07-11",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un retour d'expérience d'entreprise sur l'utilisation de Power BI pour analyser des ventes. Bien qu'utile pour comprendre l'application, il ne présente pas d'informations techniques nouvelles ou d'impact quantifié significatif.",
+    "tags": [
+      "Power BI",
+      "Analyse de ventes",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.7
+  },
+  {
     "url": "https://towardsdatascience.com/llm-themes-are-not-observations/",
     "url_hash": "a04a9f72bbb8541f2742dc1d78b9dae9",
     "titre": "LLM Themes Are Not Observations",
@@ -29133,6 +29544,53 @@
     "score_composite": 2.8500000000000005
   },
   {
+    "url": "https://techcrunch.com/2026/07/10/filing-college-app-fizz-accuses-vc-of-sharing-confidential-startup-information-with-rival-sidechat/",
+    "url_hash": "f902d1dbd81209d7e8cad99d622c1013",
+    "titre": "Filing: College app Fizz accuses VC of sharing confidential startup information with rival Sidechat",
+    "resume": "Fizz has expanded its lawsuit against rival Sidechat, alleging that a Maveron VC shared its confidential information obtained during a fundraising meeting with the competing startup.",
+    "date": "2026-07-10",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Il s'agit d'une actualité sur une affaire juridique dans le monde des startups. L'information est utile pour comprendre les dynamiques du secteur, mais ne contient pas d'analyse technique ou de conseil en IA/Data.",
+    "tags": [
+      "Startup",
+      "Levée de fonds",
+      "Affaire juridique"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 2.85
+  },
+  {
+    "url": "https://www.wired.com/story/prologium-battery-startup-betting-against-china/",
+    "url_hash": "80c291fd7e539654b4c93df9f332f640",
+    "titre": "Meet the Battery Startup Taking on China’s Giants",
+    "resume": "Solid-state batteries are safer and more capable—but harder to mass-produce. They also represent an opportunity for non-Chinese companies to get back in the game.",
+    "date": "2026-07-10",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article présente une startup dans le domaine des batteries, un secteur technologique important, mais il ne traite pas directement de l'IA, du Data Engineering, de la BI ou de l'automatisation. L'impact est donc limité pour les domaines d'expertise ciblés.",
+    "tags": [
+      "startup",
+      "batteries",
+      "technologie",
+      "marché"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 2.85
+  },
+  {
     "url": "https://medium.com/@richuemexo/power-bi-training-institute-in-electronic-city-bangalore-learn-business-intelligence-with-23945eb028f0?source=rss------power_bi-5",
     "url_hash": "3ea9d3093aa46bbca2b2b9f565a95b98",
     "titre": "Power BI Training Institute in Electronic City, Bangalore | Learn Business Intelligence with…",
@@ -29340,6 +29798,29 @@
       "institute",
       "marketing",
       "education"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 2.05
+  },
+  {
+    "url": "https://medium.com/@nilavanan.sa/introduction-to-power-bi-f22bf9da4d96?source=rss------power_bi-5",
+    "url_hash": "854057be8a41182890b006e00ad5ae3e",
+    "titre": "Introduction to Power BI",
+    "resume": "by Nilavanan S AContinue reading on Medium »",
+    "date": "2026-07-11",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 2,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Article introductif de base sur Power BI. Il offre une faible valeur ajoutée pour des professionnels déjà familiers avec l'outil, ne présentant ni technique avancée ni nouveauté.",
+    "tags": [
+      "Power BI",
+      "Introduction",
+      "BI"
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 1,

@@ -61940,7 +61940,7 @@
     "source_name": "OpenAI Blog",
     "categorie_source": "IA_MODELES",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_AGENTS",
     "raison_score": "L'annonce d'un agent ChatGPT capable d'agir sur plusieurs applications et fichiers, de travailler sur des projets longs et de transformer un objectif en travail terminé, représente une nouvelle capacité agent majeure et potentiellement disruptive.",
@@ -62565,8 +62565,21 @@
     "date": "2026-07-09",
     "source_name": "Medium Power BI",
     "categorie_source": "BI_OUTILS",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article souligne l'importance croissante de Power BI, en fournissant des conseils pour maîtriser cet outil. Il s'agit d'une évolution notable dans le domaine de la BI et un cas d'usage important pour les professionnels.",
+    "tags": [
+      "Power BI",
+      "compétences",
+      "BI",
+      "apprentissage"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.6499999999999995
   },
   {
     "url": "https://azeezatu.medium.com/dear-excel-its-not-me-it-s-you-2cfb97236b40?source=rss------power_bi-5",
@@ -62635,8 +62648,21 @@
     "date": "2026-07-09",
     "source_name": "Zapier Blog",
     "categorie_source": "AUTOMATISATION",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "L'article propose une liste comparée d'outils d'automatisation pour Salesforce, avec des retours d'expérience sur l'impact de l'automatisation. Cela constitue une information utile et pratique pour améliorer l'efficacité des processus métier.",
+    "tags": [
+      "Salesforce",
+      "automatisation",
+      "outils",
+      "processus métier"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.2
   },
   {
     "url": "https://zapier.com/blog/automate-chatgpt",
@@ -62646,8 +62672,22 @@
     "date": "2026-07-09",
     "source_name": "Zapier Blog",
     "categorie_source": "AUTOMATISATION",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'annonce de nouveaux modèles GPT (Sol, Terra, Luna) et leur intégration avec Zapier pour l'automatisation de ChatGPT représente une capacité agent nouvelle et reproductible, ainsi qu'une mise à jour significative dans l'écosystème de l'IA conversationnelle.",
+    "tags": [
+      "ChatGPT",
+      "automatisation",
+      "IA générative",
+      "modèles IA",
+      "agents"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.95
   },
   {
     "url": "https://zapier.com/blog/uipath-alternatives",
@@ -62690,8 +62730,21 @@
     "date": "2026-07-09",
     "source_name": "Product Hunt",
     "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article présente un outil qui permet de publier du contenu généré par Claude vers des plateformes externes. Il s'agit d'une intégration IA dans un outil de publication, démontrant un nouveau cas d'usage appliqué.",
+    "tags": [
+      "IA",
+      "publication",
+      "contenu",
+      "automatisation"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.2
   },
   {
     "url": "https://www.producthunt.com/products/mispher-agentic-transcription-for-mac",
@@ -62701,8 +62754,22 @@
     "date": "2026-07-09",
     "source_name": "Product Hunt",
     "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Mispher propose des fonctionnalités basées sur l'IA pour la dictée, la réécriture et la traduction, fonctionnant comme un agent. La documentation de cette nouvelle capacité agent démontre son applicabilité.",
+    "tags": [
+      "IA",
+      "agents",
+      "transcription",
+      "réécriture",
+      "traduction"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
   },
   {
     "url": "https://www.producthunt.com/products/sim-studio",
@@ -62734,8 +62801,22 @@
     "date": "2026-07-09",
     "source_name": "Product Hunt",
     "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Ship OS est présenté comme une manière native d'utiliser les agents pour le développement logiciel. Cela représente une nouvelle capacité agent documentée et potentiellement reproductible pour le secteur tech.",
+    "tags": [
+      "IA",
+      "agents",
+      "développement logiciel",
+      "Notion",
+      "productivité"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.900000000000001
   },
   {
     "url": "https://www.producthunt.com/products/repstandard",
@@ -62756,8 +62837,22 @@
     "date": "2026-07-09",
     "source_name": "Product Hunt",
     "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "La mise à jour de Muse Spark par Meta AI, présenté comme un modèle multimodal conçu pour des tâches agentiques, constitue une avancée significative dans le domaine des modèles d'IA.",
+    "tags": [
+      "IA",
+      "modèle IA",
+      "multimodal",
+      "Meta AI",
+      "agents"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
   },
   {
     "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from",
@@ -62767,8 +62862,22 @@
     "date": "2026-07-09",
     "source_name": "Pragmatic Engineer",
     "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Cet article examine la réécriture rapide d'un projet avec l'aide de l'IA, quantifiant l'impact et le coût. Il s'agit d'une étude sur l'impact de l'IA dans le développement logiciel, apportant des métriques et des enseignements précieux.",
+    "tags": [
+      "IA",
+      "développement logiciel",
+      "automatisation",
+      "coût",
+      "métriques"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.500000000000001
   },
   {
     "url": "https://www.saastr.com/20vc-x-saastr-washington-lifts-the-fable-5-ban-sam-floats-handing-the-government-5-and-why-every-tech-giant-is-racing-to-become-the-next-ibm/",
@@ -63931,8 +64040,20 @@
     "date": "2026-07-10",
     "source_name": "TechCrunch",
     "categorie_source": "BUSINESS_IA",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Il s'agit d'une actualité sur une affaire juridique dans le monde des startups. L'information est utile pour comprendre les dynamiques du secteur, mais ne contient pas d'analyse technique ou de conseil en IA/Data.",
+    "tags": [
+      "Startup",
+      "Levée de fonds",
+      "Affaire juridique"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 2.85
   },
   {
     "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
@@ -63997,8 +64118,21 @@
     "date": "2026-07-10",
     "source_name": "TechCrunch",
     "categorie_source": "BUSINESS_IA",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Annonce d'une levée de fonds significative pour une entreprise développant une technologie de pointe (ordinateur quantique). C'est une information notable sur l'innovation technologique et l'investissement, mais le lien direct avec l'IA/Data Engineering est limité.",
+    "tags": [
+      "Quantique",
+      "Startup",
+      "Levée de fonds",
+      "Technologie"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 4.8
   },
   {
     "url": "https://techcrunch.com/2026/07/10/netflix-could-be-planning-always-on-live-tv-channels/",
@@ -64107,8 +64241,21 @@
     "date": "2026-07-10",
     "source_name": "Wired",
     "categorie_source": "BUSINESS_IA",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article présente une startup dans le domaine des batteries, un secteur technologique important, mais il ne traite pas directement de l'IA, du Data Engineering, de la BI ou de l'automatisation. L'impact est donc limité pour les domaines d'expertise ciblés.",
+    "tags": [
+      "startup",
+      "batteries",
+      "technologie",
+      "marché"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 2.85
   },
   {
     "url": "https://www.wired.com/story/what-watching-soccer-final-does-to-your-body/",
@@ -64149,6 +64296,428 @@
     "titre": "How to Share Your Location on an iPhone or Android Phone (2026)",
     "resume": "Whether it’s through Google Maps or Emergency SOS, there are plenty of ways to quickly let your loved ones know where you are.",
     "date": "2026-07-10",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://venturebeat.com/security/forget-typosquatting-slopsquatting-is-the-software-supply-chain-threat-created-by-ai-coding-tools",
+    "url_hash": "e67a365843c3b0456ff90338059a5c22",
+    "titre": "Forget typosquatting; slopsquatting is the software supply chain threat created by AI coding tools",
+    "resume": "Slopsquatting represents an emerging supply chain threat made possible by AI hallucinations. As developers increasingly rely on AI coding assistants, they unknowingly grant cybercriminals access to their software from day one. Understanding what slopsquatting isSlopsquatting is a new type of supply chain attack that uses large language model (LLM) hallucinations to inject malicious code into development workflows. The term combines \"AI slop\" and \"typosquatting,\" a deceptive practice where attack",
+    "date": "2026-07-11",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Identifie et nomme une nouvelle menace de sécurité ('slopsquatting') directement liée à l'émergence des outils de codage IA. C'est une avancée significative dans la compréhension des risques associés à ces technologies.",
+    "tags": [
+      "IA",
+      "Sécurité",
+      "Chaîne d'approvisionnement logicielle",
+      "LLM"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.45
+  },
+  {
+    "url": "https://towardsdatascience.com/long-context-isnt-free-i-built-a-safe-prompt-pruning-layer-that-makes-llm-systems-work/",
+    "url_hash": "b776373312671ed6089447b643bd0690",
+    "titre": "Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work",
+    "resume": "LLMs don’t fail because they forget—they fail because they remember too much. As conversations grow, prompts accumulate redundant and low-value tokens, driving up cost and latency while silently degrading output quality. This article introduces a deterministic prompt-pruning layer that reduces token usage without breaking dependencies, backed by real benchmarks and production-tested design.\nThe post Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work appeare",
+    "date": "2026-07-11",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Propose une nouvelle capacité technique reproductible ('safe prompt-pruning layer') pour améliorer l'efficacité et la performance des LLM dans des contextes longs. L'article documente la construction et les benchmarks, ce qui en fait une avancée significative.",
+    "tags": [
+      "LLM",
+      "Long Context",
+      "Optimisation",
+      "Prompt Engineering"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3
+  },
+  {
+    "url": "https://towardsdatascience.com/that-is-embarrassing-why-frontier-ai-still-makes-things-up-and-what-to-do-about-it/",
+    "url_hash": "31f84357fc52cbe5af5061891db4f723",
+    "titre": "That Is Embarrassing: Why Frontier AI Still Makes Things Up, and What to Do About It",
+    "resume": "The best AI models still hallucinate. These hallucinations are sometimes funny, and sometimes cause actual damage. In this post we will consider recent tales of AI hallucinations, and then look under the hood to understand why they happen.\nThe post That Is Embarrassing: Why Frontier AI Still Makes Things Up, and What to Do About It appeared first on Towards Data Science.",
+    "date": "2026-07-11",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://motherduck.com/blog/ducklake-architecture-deep-dive",
+    "url_hash": "2e11d556807a7cd4a266e12f9dd8feda",
+    "titre": "DuckLake Architecture Deep Dive",
+    "resume": "DuckLake is a next generation data lakehouse and open table format. It is significantly simpler and faster than Apache Iceberg or Delta Lake because it uses a SQL database for storing the catalog and metadata. This post covers an architecture deep dive with a detailed Q&A section. DuckLake consists of 3 components: storage, catalog, and compute. Each can be scaled independently, hosted locally with ease, and deployed to the cloud for production. MotherDuck offers managed DuckLake lakehouses for ",
+    "date": "2026-07-10",
+    "source_name": "MotherDuck Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "La présentation d'une nouvelle architecture de data lakehouse open-source, simplifiée et potentiellement plus performante que les solutions existantes, représente une avancée significative dans la gestion des données.",
+    "tags": [
+      "data lakehouse",
+      "open source",
+      "architecture",
+      "données",
+      "DuckDB"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.050000000000001
+  },
+  {
+    "url": "https://medium.com/@mnurfatima29/how-gen-z-is-breaking-the-chains-of-insecurity-de96e4897823?source=rss------power_bi-5",
+    "url_hash": "befbd6e9b40a3c7054c7592c92aec946",
+    "titre": "How Gen Z is Breaking the Chains of Insecurity",
+    "resume": "While this generation faces immense digital pressure, they also possess a unique, powerful superpower: empathy and radical acceptance…Continue reading on Medium »",
+    "date": "2026-07-12",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://medium.com/@zinalucy/the-woman-from-part-1-is-now-a-bar-in-a-chart-what-it-took-to-get-her-there-8829821f4acc?source=rss------power_bi-5",
+    "url_hash": "f5f2210d1d8bb52b542292804a37944e",
+    "titre": "The Woman From Part 1 Is Now a Bar in a Chart. What It Took to Get Her There.",
+    "resume": "The third and final part of a public health analyst’s journey through 67 million American women’s health data, from raw survey files to a…Continue reading on Medium »",
+    "date": "2026-07-12",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://medium.com/@kushrshukla/24-hours-of-le-mans-the-ultimate-endurance-winner-analysis-1923-2026-8bd2a2061c4d?source=rss------power_bi-5",
+    "url_hash": "b3f3daff76ba442cc16572cb719a5347",
+    "titre": "24 Hours of Le Mans: The Ultimate Endurance Winner Analysis (1923–2026)",
+    "resume": "Motorsport is not just about who is the fastest over a single lap; sometimes, it is about who can survive the ultimate test of man and…Continue reading on Medium »",
+    "date": "2026-07-12",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://medium.com/codetodeploy/i-audited-12-companies-fabric-capacity-spend-9-were-overpaying-here-s-the-pattern-31e21e1ec937?source=rss------power_bi-5",
+    "url_hash": "11f395a485b056ab1ca8ca6b8ab38029",
+    "titre": "I Audited 12 Companies’ Fabric Capacity Spend. 9 Were Overpaying. Here’s the Pattern.",
+    "resume": "Capacity sizing in Microsoft Fabric is harder than it looks. F2 vs F4 vs F8 vs F64 — each decision locks in real monthly spend that…Continue reading on CodeToDeploy »",
+    "date": "2026-07-12",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Il s'agit d'une analyse de cas documentée avec des métriques sur l'optimisation des coûts d'une plateforme de données majeure. Bien que pratique, elle ne présente pas de nouveauté architecturale ou technologique.",
+    "tags": [
+      "Microsoft Fabric",
+      "Optimisation des coûts",
+      "Analyse de données"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.95
+  },
+  {
+    "url": "https://medium.com/@eyinadeadeshina36/how-i-built-an-executive-hr-analytics-dashboard-in-power-bi-to-improve-workforce-decision-making-8476566d648d?source=rss------power_bi-5",
+    "url_hash": "03d3dfaccfaa3e3061e24f6c48d7e155",
+    "titre": "How I Built an Executive HR Analytics Dashboard in Power BI to Improve Workforce Decision-Making",
+    "resume": "“People analytics isn’t about creating dashboards — it’s about helping organizations make better workforce decisions.”Continue reading on Medium »",
+    "date": "2026-07-12",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Présente un nouveau cas d'usage documenté de Power BI pour l'analyse RH, avec une explication du processus de création de tableau de bord. L'impact est qualifié mais pas quantifié de manière approfondie.",
+    "tags": [
+      "Power BI",
+      "Analyse RH",
+      "Tableau de bord exécutif"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
+    "url": "https://medium.com/microsoft-power-bi/i-connected-claude-mcp-to-power-bi-and-it-completely-changed-my-bi-development-workflow-b405775bfb4d?source=rss------power_bi-5",
+    "url_hash": "981f6bf9fea425da2b04abe374dd2110",
+    "titre": "I Connected Claude MCP to Power BI — And It Completely Changed My BI Development Workflow",
+    "resume": "My hands-on experience using Claude with Model Context Protocol (MCP) to accelerate Power BI development while keeping privacy, security…Continue reading on Power BI »",
+    "date": "2026-07-11",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Décrit un nouveau cas d'usage pratique intégrant une IA (Claude MCP) dans un outil BI mainstream (Power BI), avec des retours d'expérience sur l'impact sur le workflow. C'est une évolution notable de l'intégration IA dans les outils BI.",
+    "tags": [
+      "Power BI",
+      "Claude",
+      "IA",
+      "Workflow BI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.3500000000000005
+  },
+  {
+    "url": "https://medium.com/@moyocomfort17/beyond-the-dashboard-what-power-bi-revealed-about-household-cleaning-product-sales-68979b0cc1b0?source=rss------power_bi-5",
+    "url_hash": "3d2e91c8352ee4db8fb5f6e169112c65",
+    "titre": "Beyond the Dashboard: What Power BI Revealed About Household Cleaning Product Sales",
+    "resume": "From online carts to store shelves, the data revealed how customers really shop.Continue reading on Medium »",
+    "date": "2026-07-11",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un retour d'expérience d'entreprise sur l'utilisation de Power BI pour analyser des ventes. Bien qu'utile pour comprendre l'application, il ne présente pas d'informations techniques nouvelles ou d'impact quantifié significatif.",
+    "tags": [
+      "Power BI",
+      "Analyse de ventes",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.7
+  },
+  {
+    "url": "https://medium.com/@diksha.passi2006/data-analytics-course-in-pitampura-best-dics-innovation-2026-57f1e7cd10bc?source=rss------power_bi-5",
+    "url_hash": "1d024f48e29bda2879dd84db8c7e8d66",
+    "titre": "Data Analytics Course in Pitampura — Best DICS Innovation 2026",
+    "resume": "Continue reading on Medium »",
+    "date": "2026-07-11",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://medium.com/@cseprs_54978/hello-everyone-c8800799c7b5?source=rss------power_bi-5",
+    "url_hash": "7d08822d2a649da783ac9e7404c372ef",
+    "titre": "Hello everyone",
+    "resume": "How have you all been doing?Continue reading on Medium »",
+    "date": "2026-07-11",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://medium.com/@nilavanan.sa/introduction-to-power-bi-f22bf9da4d96?source=rss------power_bi-5",
+    "url_hash": "854057be8a41182890b006e00ad5ae3e",
+    "titre": "Introduction to Power BI",
+    "resume": "by Nilavanan S AContinue reading on Medium »",
+    "date": "2026-07-11",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 2,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Article introductif de base sur Power BI. Il offre une faible valeur ajoutée pour des professionnels déjà familiers avec l'outil, ne présentant ni technique avancée ni nouveauté.",
+    "tags": [
+      "Power BI",
+      "Introduction",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 2.05
+  },
+  {
+    "url": "https://www.saastr.com/one-way-to-build-a-great-ai-agent-just-start-with-a-dashboard-then-add-the-agent/",
+    "url_hash": "aee211b0b38162e865ff4f47da518bb4",
+    "titre": "One Way to Build a Great AI Agent: Just Start With a Dashboard, Then Add the Agent",
+    "resume": "You can buy an AI agent to get started. There are great ones out there, and that’s a perfectly fine place to begin.  You can see our full AI Agent stack here, and just copy us. But if you want to build your own, here’s one simpler way to just … get going. Don’t start... Continue Reading",
+    "date": "2026-07-11",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Propose un nouveau framework entrepreneurial documenté pour construire des agents IA en commençant par un tableau de bord. C'est une approche structurée et pratique pour le développement d'IA appliquées.",
+    "tags": [
+      "IA Agent",
+      "Entrepreneuriat",
+      "Stratégie",
+      "Dashboard"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 7.050000000000001
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
+    "url_hash": "9b313e7582e270d01118c9ad8c6b38af",
+    "titre": "Reed Jobs would rather talk about curing cancer than his last name",
+    "resume": "When we last sat down with Jobs at TechCrunch Disrupt nearly three years ago, his firm Yosemite was brand new and biotech was still reeling from its post-pandemic crash. Now, the venture outfit has a team of 17; a cluster of blockbuster drugs are all losing patent protection in roughly the same window, creating all kinds of new opportunities; and AI has gone from a curiosity to, in Jobs's words, a huge part of what Yosemite does. \"I didn't expect Yosemite to be moving this fast,\" he said.",
+    "date": "2026-07-12",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/11/this-slushie-machine-was-a-lifesaver-during-nycs-heat-wave/",
+    "url_hash": "2fcf210f85dc690774c6068555f3703a",
+    "titre": "This slushie machine was a lifesaver during NYC’s heat wave",
+    "resume": "Last weekend’s brutal NYC heat wave had me craving a frozen drink almost every afternoon. Normally, that would mean sweating through a walk to 7-Eleven for a slurpee. This time, though, I stayed home and put the new Ninja Slushi Twist to the test. Ninja’s latest slushie machine builds on the popularity of the original […]",
+    "date": "2026-07-11",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/",
+    "url_hash": "07a12801618025b5a147b38de5b7ec0f",
+    "titre": "Smart glasses without a camera? Even Realities bets productivity beats recording everyone",
+    "resume": "The glasses are targeted at people who might be constantly in meetings, giving presentations, and traveling to countries where different languages are spoken.",
+    "date": "2026-07-11",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+    "url_hash": "b9b468358fa658b9101f99a8ce35ce65",
+    "titre": "OpenAI bets on families as ChatGPT goes deeper into households",
+    "resume": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
+    "date": "2026-07-11",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/story/best-portable-external-storage-drives/",
+    "url_hash": "a186f523da553306d7332bec279d741d",
+    "titre": "Best External Hard Drives (2026): SSD to Store Data, Video, and More",
+    "resume": "Need an ultrafast drive for video editing or a rugged option to back up your photos in the field? We’ve got a solution for every situation.",
+    "date": "2026-07-12",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/gallery/best-pet-cameras/",
+    "url_hash": "d94d3f770278ef2dba66cd6c88daedd6",
+    "titre": "The 10 Best Pet Cameras of 2026: Furbo, Petcube, and Enabot",
+    "resume": "Whether you’re near or far, keep an eye on your fur baby with our favorite pet cameras.",
+    "date": "2026-07-12",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/review/beatbot-aquasense-x/",
+    "url_hash": "7cb7843f5c744c2bc4a7653f4870d767",
+    "titre": "Beatbot AquaSense X Review: A Pool Robot That Cleans Itself",
+    "resume": "The AquaSense X brings self-cleaning technology to pool robots for the first time, but is it worth nearly twice the price of Beatbot’s flagship cleaner?",
+    "date": "2026-07-11",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/story/skylight-digital-calendar-for-kids-who-are-touchscreen-natives/",
+    "url_hash": "a11e42f7ec4b57f6e49d6b6533fe0b55",
+    "titre": "Skylight’s Touchscreen Calendar Got my Whole Family on the Same Page",
+    "resume": "The Skylight has become the informational and organizational hub of my household. My touchscreen-native kids have also gained more agency over our family activities.",
+    "date": "2026-07-11",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/review/samsung-micro-rgb-r95h/",
+    "url_hash": "dc020724fce00920c1cb1f451773fd3c",
+    "titre": "Samsung Micro RGB R95H Review (2026): Not the Brightest",
+    "resume": "There’s a new fleet of TVs using new mini and micro RBG display tech, and Samsung’s R95H model isn’t as impressive as it should be.",
+    "date": "2026-07-11",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/story/security-news-this-week-ai-found-a-root-bug-in-linux-that-everyone-missed-for-15-years/",
+    "url_hash": "003ad66e6c52ec1d48f282a6d9466445",
+    "titre": "AI Found a Root Bug in Linux That Everyone Missed for 15 Years",
+    "resume": "Plus: The Pentagon is training amateurs to become part of its hacker army, a Flock license plate reader error led to cops surrounding a car reviewer, and more.",
+    "date": "2026-07-11",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/story/gourmet-dog-food/",
+    "url_hash": "6000b6227af069a1bedbe1533c90c942",
+    "titre": "We Make Lovely Home-Cooked Meals for Ourselves. Why Not Do the Same for Our Dogs?",
+    "resume": "More dog owners have begun cooking for their canine companions in recent years. When my own dog fell ill, I became part of this growing group.",
+    "date": "2026-07-11",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/gallery/best-hiking-boots/",
+    "url_hash": "0d00d6eede72457687e2b486781a0f9d",
+    "titre": "Best Hiking Boots (2026): Walking Shoes, Trails, Backpacking",
+    "resume": "From strenuous hikes and serious summits to weekend rambles in the park, these boots help you make the most of your time outdoors.",
+    "date": "2026-07-11",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/story/chinas-tianwen-2-space-probe-earth-quasi-moon/",
+    "url_hash": "958b142fe11cbb87d83bdbc21b072a10",
+    "titre": "China’s Tianwen-2 Space Probe Has Rendezvoused With Earth’s Quasi-Moon",
+    "resume": "The probe sent back the first pictures of the asteroid Kamo’oalewa. Next step: landing on the surface and collecting samples to send back to Earth.",
+    "date": "2026-07-11",
     "source_name": "Wired",
     "categorie_source": "BUSINESS_IA",
     "score_pending": true,
