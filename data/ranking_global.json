@@ -157,7 +157,7 @@
     "source_name": "OpenAI Blog",
     "categorie_source": "IA_MODELES",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_AGENTS",
     "raison_score": "L'annonce d'un agent ChatGPT capable d'agir sur plusieurs applications et fichiers, de travailler sur des projets longs et de transformer un objectif en travail terminé, représente une nouvelle capacité agent majeure et potentiellement disruptive.",
@@ -195,6 +195,32 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 10,
     "pertinence_entrepreneur": 9,
+    "score_composite": 8.7
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+    "url_hash": "eb2fa5e9cf60d17db9ed56268f92fe5a",
+    "titre": "An AI agent startup just let its agent run its $100M fundraise",
+    "resume": "Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round — proof, evidently, that the product actually works.",
+    "date": "2026-07-09",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article décrit un événement potentiellement disruptif : une startup utilisant son propre agent IA pour mener une levée de fonds de 100 millions de dollars. Cela démontre l'application concrète et réussie d'agents IA dans un processus entrepreneurial clé.",
+    "tags": [
+      "ia",
+      "agents-ia",
+      "levée-de-fonds",
+      "startup-ia",
+      "entrepreneuriat",
+      "disruptif"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 10,
     "score_composite": 8.7
   },
   {
@@ -2102,6 +2128,31 @@
     "score_composite": 7.65
   },
   {
+    "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+    "url_hash": "da68d51d471a4c39000040e737471f61",
+    "titre": "OpenAI launches its new family of models with GPT-5.6",
+    "resume": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
+    "date": "2026-07-09",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "L'annonce du lancement d'une nouvelle famille de modèles par OpenAI, incluant GPT-5.6, représente une avancée significative dans le domaine de l'IA. L'amélioration mentionnée en cybersécurité est particulièrement intéressante.",
+    "tags": [
+      "ia",
+      "openai",
+      "gpt-5.6",
+      "modele-ia",
+      "cybersécurité"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 7.65
+  },
+  {
     "url": "https://venturebeat.com/infrastructure/aws-nabs-white-hot-gen-ai-media-creation-startup-fal-becoming-its-preferred-cloud-provider",
     "url_hash": "bd9ed39d5c0614d5b567a187046ff87f",
     "titre": "AWS nabs white hot gen AI media creation startup fal, becoming its preferred cloud provider",
@@ -2817,6 +2868,31 @@
       "interaction",
       "ChatGPT",
       "full-duplex"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.55
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights/",
+    "url_hash": "a56e029b9f9f88cd59c9da0bea992b88",
+    "titre": "Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Customizable Model Weights",
+    "resume": "Thinking Machines Lab published \"The Future Worth Building Is Human.\" The essay frames human participation, model ownership, and decentralized alignment as technical challenges. It ties them to interaction models and Tinker's LoRA fine-tuning, where teams train and keep their own model weights.\nThe post Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Customizable Model Weights appeared first on MarkTechPost.",
+    "date": "2026-07-12",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Cet article présente une avancée significative dans la conception d'IA centrée sur l'humain, en proposant une approche technique basée sur des poids de modèles personnalisables. L'idée de permettre aux équipes de former et de posséder leurs propres poids de modèle est une évolution notable vers une IA plus alignée et contrôlable.",
+    "tags": [
+      "ia",
+      "ia-ethique",
+      "modele-ia",
+      "personnalisation",
+      "alignement-ia"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 9,
@@ -5779,6 +5855,30 @@
     "score_composite": 7.05
   },
   {
+    "url": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/",
+    "url_hash": "1718314d0170436d7ccfddc290511eb4",
+    "titre": "Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failures Into Synthetic RL Environment",
+    "resume": "Agentic LLMs keep failing the same way because they lack specific, reusable capabilities. Stanford's TRACE diagnoses those gaps from an agent's own trajectories, synthesizes one verifiable training environment per capability, trains a LoRA adapter for each, and routes tokens across experts—improving τ²-Bench by +15.3 points and reaching 73.2% Pass@1 on SWE-bench Verified.\nThe post Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failu",
+    "date": "2026-07-13",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article décrit une nouvelle capacité reproductible pour améliorer les agents LLM, en introduisant un système d'entraînement ciblé pour surmonter les échecs récurrents et améliorer les performances.",
+    "tags": [
+      "LLM Agents",
+      "RL",
+      "Training System",
+      "Capability Targeting"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.05
+  },
+  {
     "url": "https://openai.com/index/gpt-5-5-instant-system-card",
     "url_hash": "2fd4f4a9abde82640b1a491424dfd439",
     "titre": "GPT-5.5 Instant System Card",
@@ -7083,6 +7183,31 @@
       "multimodal",
       "Meta AI",
       "agents"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://towardsdatascience.com/how-to-orchestrate-100-agents-with-claude-code/",
+    "url_hash": "8767a9a9fd75f2bff9df6a950b42b28f",
+    "titre": "How to Orchestrate 100+ Agents With Claude Code",
+    "resume": "Run 100+ agents in parallel\nThe post How to Orchestrate 100+ Agents With Claude Code appeared first on Towards Data Science.",
+    "date": "2026-07-12",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article présente une nouvelle capacité d'agent documentée et reproductible : l'orchestration de plus de 100 agents en parallèle en utilisant Claude Code. Il offre des perspectives concrètes sur l'échelle possible des systèmes d'agents IA.",
+    "tags": [
+      "ia",
+      "agents-ia",
+      "orchestration",
+      "claude-ai",
+      "ia-distribuée"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -10033,6 +10158,31 @@
     "score_composite": 6.65
   },
   {
+    "url": "https://www.saastr.com/how-gamma-hit-100m-arr-with-a-team-of-50-grant-lees-4-lessons-at-saastr-ai-2026/",
+    "url_hash": "e755464955938eb9d8a3ff3cc9eef76a",
+    "titre": "How Gamma Hit $100M ARR With a Team of 50: CEO Grant Lee’s Top 4 Lessons. And Top 5 Mistakes",
+    "resume": "Gamma is the anti-PowerPoint. Grant Lee and two former Optimizely colleagues set out to kill the blank page problem, and five years later they’re at $100M ARR, 50 million users, and 600,000 paying subscribers. Profitably. With a team of 50. They did the bulk of that with zero sales and zero marketing spend. Growth came... Continue Reading",
+    "date": "2026-07-09",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "L'article partage un nouveau framework ou une pratique entrepreneuriale IA documentée : le parcours de Gamma pour atteindre 100M$ d'ARR avec une équipe de 50 personnes, en se concentrant sur la création de valeur et l'efficacité opérationnelle dans le domaine de l'IA. Les leçons tirées sont particulièrement pertinentes.",
+    "tags": [
+      "entrepreneuriat",
+      "startup-ia",
+      "produit-ia",
+      "croissance-entreprise",
+      "lessons-learned"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.65
+  },
+  {
     "url": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
     "url_hash": "6c57fc64d4eceb4c3b8a4e434ec0a440",
     "titre": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
@@ -12460,6 +12610,31 @@
     "score_composite": 6.3500000000000005
   },
   {
+    "url": "https://venturebeat.com/orchestration/deepseek-cut-prices-75-the-100x-problem-remains",
+    "url_hash": "62850fba22aacb1b83d8b560921850bf",
+    "titre": "DeepSeek cut prices 75%. The 100x problem remains",
+    "resume": "DeepSeek's recent decision to drastically cut pricing on its V4-Pro model by 75% should have been unequivocally good news for enterprise AI vendors and developers. Instead, many are discovering that cheaper models don’t automatically translate into healthier margins.The reason is simple: While inference costs plummet, agent systems are voraciously consuming tokens faster than prices are declining. For the last 2 decades, software economics was dictated by the same rule. Infra became cheaper ever",
+    "date": "2026-07-12",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "L'article identifie un problème économique clé dans le déploiement des systèmes d'IA : même si les coûts d'inférence baissent, la consommation de tokens par les agents intelligents augmente, créant un 'problème 100x'. C'est une observation utile sur l'impact financier de l'IA pour les entreprises.",
+    "tags": [
+      "ia",
+      "economie-ia",
+      "agents-ia",
+      "couts-ia",
+      "entreprises"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.3500000000000005
+  },
+  {
     "url": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
     "url_hash": "076b29791c7a33db9ea2b30ec28e11b4",
     "titre": "The CEO of Allbirds’ new AI biz has a plan, but no team",
@@ -13001,6 +13176,30 @@
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.300000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1/",
+    "url_hash": "67810eda4329280349a3ae77a792ed77",
+    "titre": "Prime Intellect Releases Verifiers v1: Composable Tasksets, Harnesses, and Runtimes for Agentic RL Training and Evaluations",
+    "resume": "Prime Intellect launched verifiers 0.2.0, previewing a rewritten \"v1\" core under the verifiers.v1 namespace. It splits an environment into a taskset (what), a harness (how), and a runtime (where), with an interception server that proxies requests and records training-ready traces. Any taskset runs under any compatible harness, with full prime-rl training support at launch.\nThe post Prime Intellect Releases Verifiers v1: Composable Tasksets, Harnesses, and Runtimes for Agentic RL Training and Eva",
+    "date": "2026-07-13",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "La sortie de Verifiers v1 apporte une approche composable pour l'entraînement et l'évaluation des agents RL, offrant une nouvelle capacité documentée et reproductible pour le domaine.",
+    "tags": [
+      "Agentic RL",
+      "Verifiers v1",
+      "Composable Tasksets",
+      "Training Framework"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 6,
     "score_composite": 6.300000000000001
   },
@@ -14119,6 +14318,32 @@
     "score_composite": 6.15
   },
   {
+    "url": "https://www.marktechpost.com/2026/07/11/a-coding-guide-to-nvidias-tile-based-gpu-programming-from-cutile-and-triton-kernels-to-flash-attention/",
+    "url_hash": "2347859ae63a697dc9e1ffca4a24b70c",
+    "titre": "A Coding Guide to NVIDIA’s Tile-Based GPU Programming: From cuTile and Triton Kernels to Flash Attention",
+    "resume": "In this tutorial, we explore NVIDIA tile-based GPU programming with TileGym, building a Colab workflow that runs across different hardware. We probe the CUDA environment, try the real cuTile backend, and fall back to Triton when standard Colab GPUs lack the cuTile stack. We learn the core tile idea: operate on whole data tiles instead of single threads, then load, compute, and store them. We implement vector addition, fused GELU, row-wise softmax, tiled matrix multiplication, and flash attention",
+    "date": "2026-07-12",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Ce tutoriel avancé sur la programmation GPU basée sur des tuiles avec NVIDIA fournit des informations techniques approfondies et reproductibles sur l'optimisation des performances des modèles IA. L'application de ces concepts à Flash Attention est particulièrement pertinente pour l'efficacité des LLMs.",
+    "tags": [
+      "ia",
+      "gpu",
+      "optimisation",
+      "programmation",
+      "flash-attention",
+      "triton"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.15
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/28/a-coding-guide-to-implement-a-pgvector-powered-semantic-hybrid-sparse-and-quantized-vector-search-system/",
     "url_hash": "d8bb637c41516941092103c864e318e4",
     "titre": "A Coding Guide to Implement a pgvector-Powered Semantic, Hybrid, Sparse, and Quantized Vector Search System",
@@ -14259,6 +14484,31 @@
       "Databricks",
       "gestion de données",
       "meilleures pratiques"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.1000000000000005
+  },
+  {
+    "url": "https://towardsdatascience.com/rag-vs-fine-tuning-explained-what-they-actually-do-and-when-to-use-each/",
+    "url_hash": "692a9b1218f2cd8d433af664e67699c4",
+    "titre": "RAG vs Fine-Tuning Explained: What They Actually Do and When to Use Each",
+    "resume": "Two techniques, two different problems, and why the question is not really \"which one wins\"\nThe post RAG vs Fine-Tuning Explained: What They Actually Do and When to Use Each appeared first on Towards Data Science.",
+    "date": "2026-07-12",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article offre un tutoriel avancé et une explication claire des techniques RAG (Retrieval-Augmented Generation) et du fine-tuning. Il clarifie leurs applications respectives, aidant à choisir la bonne méthode en fonction du problème à résoudre.",
+    "tags": [
+      "ia",
+      "rag",
+      "fine-tuning",
+      "llm",
+      "apprentissage-supervise"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 6,
@@ -16726,6 +16976,31 @@
     "score_composite": 5.85
   },
   {
+    "url": "https://medium.com/@ask.promptwise/power-bi-is-not-built-for-small-teams-heres-the-honest-alternative-962877bacb94?source=rss------power_bi-5",
+    "url_hash": "990eddce8ac934c3182bc54ae775732e",
+    "titre": "Power BI Is Not Built for Small Teams. Here’s the Honest Alternative",
+    "resume": "Power BI’s $10/user/month price makes it look affordable compared to Tableau. But for small teams without technical staff, the real cost…Continue reading on Medium »",
+    "date": "2026-07-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article offre une analyse comparative et une opinion sur les limites de Power BI pour les petites équipes, suggérant une alternative, ce qui représente une évolution notable des discussions sur les outils BI.",
+    "tags": [
+      "Power BI",
+      "Small Teams",
+      "Alternative",
+      "BI Tools",
+      "Cost Analysis"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.85
+  },
+  {
     "url": "https://openai.com/index/gpt-5-5-system-card",
     "url_hash": "915b6ff115f0885dca2ea04c60c1489a",
     "titre": "GPT-5.5 System Card",
@@ -18004,6 +18279,31 @@
     "score_composite": 5.699999999999999
   },
   {
+    "url": "https://medium.com/@sparity09/how-to-estimate-the-roi-of-a-tableau-to-power-bi-migration-55cbe872f724?source=rss------power_bi-5",
+    "url_hash": "4779f93e30d1a392c9c0b52f798a45e0",
+    "titre": "How to Estimate the ROI of a Tableau to Power BI Migration",
+    "resume": "Organizations are increasingly migrating from Tableau to Microsoft Power BI to take advantage of tighter Microsoft ecosystem integration…Continue reading on Medium »",
+    "date": "2026-07-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il fournit une méthode pour estimer le ROI d'une migration de Tableau vers Power BI, documentant un nouveau cas d'usage et une pratique avec des métriques potentielles.",
+    "tags": [
+      "Power BI",
+      "Tableau",
+      "Migration",
+      "ROI",
+      "BI Strategy"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.699999999999999
+  },
+  {
     "url": "https://techcrunch.com/2026/05/20/indian-travel-fintech-scapia-more-than-doubles-valuation-to-over-500m-in-a-year/",
     "url_hash": "42bca99affa19c50b24ddb64f3ec49a6",
     "titre": "General Catalyst just led a $63M bet on India’s travel payments market",
@@ -18319,6 +18619,31 @@
       "Data Pipelines",
       "Power BI",
       "Cloud Data"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.65
+  },
+  {
+    "url": "https://medium.com/@mgpatil1107/part-3-licensing-migration-real-world-use-cases-career-opportunities-the-future-of-microsoft-c824209fb9f0?source=rss------power_bi-5",
+    "url_hash": "8af260be00e12319b67576923d9603df",
+    "titre": "Part-3: Licensing, Migration, Real-World Use Cases, Career Opportunities & the Future of Microsoft…",
+    "resume": "In Part 1, we explored how Microsoft Fabric transformed Power BI Service into a unified analytics platform. In Part 2, we looked at the…Continue reading on Medium »",
+    "date": "2026-07-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article discute des cas d'utilisation réels et de l'avenir de Microsoft Fabric, qui est une évolution notable dans la plateforme de données et de BI.",
+    "tags": [
+      "Microsoft Fabric",
+      "Power BI",
+      "Analytics Platform",
+      "Use Cases",
+      "Future"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 5,
@@ -20255,6 +20580,56 @@
       "features",
       "business intelligence",
       "user experience"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.3999999999999995
+  },
+  {
+    "url": "https://medium.com/@kudehinbusamad/how-i-built-an-interactive-hr-attrition-analytics-dashboard-in-power-bi-13eaa10b4ad7?source=rss------power_bi-5",
+    "url_hash": "44c103183c718f729f59cf4e39b75b6b",
+    "titre": "How I Built an Interactive HR Attrition Analytics Dashboard in Power BI",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-07-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il présente un nouveau cas d'usage BI documenté avec des détails sur la création d'un tableau de bord d'analyse d'attrition RH interactif dans Power BI.",
+    "tags": [
+      "Power BI",
+      "Dashboard",
+      "HR Analytics",
+      "Interactive",
+      "Use Case"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.3999999999999995
+  },
+  {
+    "url": "https://medium.com/@saketsis/building-your-first-interactive-dashboard-a-step-by-step-walkthrough-96c12fe07585?source=rss------power_bi-5",
+    "url_hash": "806141533b6e6ffdabd7dd5342d5a217",
+    "titre": "Building Your First Interactive Dashboard: A Step‑by‑Step Walkthrough",
+    "resume": "A hands‑on tutorial that takes a beginner from a blank Power BI canvas to a working interactive dashboard with visuals, slicers, and…Continue reading on Medium »",
+    "date": "2026-07-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un tutoriel pas à pas sur la création d'un tableau de bord interactif dans Power BI, documentant un cas d'usage BI et fournissant des informations utiles pour les débutants.",
+    "tags": [
+      "Power BI",
+      "Dashboard",
+      "Interactive",
+      "Tutorial",
+      "Beginner"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 4,
@@ -23485,6 +23860,54 @@
     "score_composite": 4.949999999999999
   },
   {
+    "url": "https://zapier.com/blog/pipedream-vs-zapier",
+    "url_hash": "4ce1c2a7200eaeed9047413fbe8f7a4a",
+    "titre": "Pipedream vs. Zapier: Which is best? [2026]",
+    "resume": "\"Developer-friendly\" sounds like a good thing, and for the most part it is. But there's also an unspoken subtext: \"business-team-unfriendly.\" Automation tools that put developers first can offer greater flexibility and customization, but it often comes at the expense of usability for nontechnical users. If you're trying to scale AI and automation quickly across your organization, there's a real opportunity cost at play when only developers can build workflows and agents. Pipedream—which was acqu",
+    "date": "2026-07-13",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Cet article compare deux outils d'automatisation populaires, en se concentrant sur la différence entre les approches \"developer-friendly\" et \"business-team-friendly\". Il met en évidence l'importance de l'accessibilité pour les utilisateurs non techniques dans le déploiement rapide de l'automatisation.",
+    "tags": [
+      "automatisation",
+      "low-code",
+      "no-code",
+      "workflow"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.949999999999999
+  },
+  {
+    "url": "https://zapier.com/blog/zapier-vs-power-automate",
+    "url_hash": "0af0522b66d26385c34fc5faeb510317",
+    "titre": "Zapier vs. Power Automate: Which is best? [2026]",
+    "resume": "If your business uses Microsoft 365, you already have access to Power Automate. It's a capable automation platform that integrates deeply with Teams, SharePoint, Dynamics, and the rest of Microsoft's ecosystem. For Microsoft-to-Microsoft workflows, it's a smart place to start. But most enterprises have a substantial portion of their tech stack spread across multiple vendors. While Power Automate offers modest support for outside apps, Zapier works natively across whatever combination of apps you",
+    "date": "2026-07-13",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "L'article compare Zapier et Power Automate, en soulignant les forces de Power Automate dans l'écosystème Microsoft 365 et la flexibilité de Zapier pour les environnements multi-fournisseurs. Il aborde l'intégration inter-applications, un point clé pour les entreprises modernes.",
+    "tags": [
+      "automatisation",
+      "microsoft-365",
+      "workflow",
+      "integration"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.949999999999999
+  },
+  {
     "url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
     "url_hash": "8da73ea93b530998eeb1d90d6dde98b0",
     "titre": "Helping developers build safer AI experiences for teens",
@@ -24195,6 +24618,56 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 7,
+    "score_composite": 4.8
+  },
+  {
+    "url": "https://medium.com/microsoft-power-bi/easily-groupby-and-aggregate-values-in-power-query-pbix-included-4aaea2111ed6?source=rss------power_bi-5",
+    "url_hash": "ffe5246bcfec084141eaeff579638038",
+    "titre": "Easily Groupby and Aggregate values in Power Query(.pbix included)",
+    "resume": "Working with large datasets often requires summarizing information quickly and efficiently. In Power Query, the ability to group data and…Continue reading on Power BI »",
+    "date": "2026-07-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article présente un tutoriel avancé sur une fonction de Power Query, offrant une mise à jour importante pour un outil existant et améliorant les pratiques BI.",
+    "tags": [
+      "Power BI",
+      "Power Query",
+      "Data Aggregation",
+      "Data Transformation",
+      "Tutorial"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.8
+  },
+  {
+    "url": "https://iwasanjaya.medium.com/small-multiples-to-show-daily-trends-across-many-categories-in-power-bi-part-1-9089c2f4e91c?source=rss------power_bi-5",
+    "url_hash": "c42764c8fe7de2cc1ccc7a5c90e1ff82",
+    "titre": "Small Multiples to Show Daily Trends Across Many Categories in Power BI (Part 1)",
+    "resume": "Show one metric’s daily trend, one small chart per category, all on the same scale.Continue reading on Medium »",
+    "date": "2026-07-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article décrit une technique spécifique pour visualiser des tendances quotidiennes dans Power BI, représentant un cas d'usage BI documenté avec des métriques potentielles pour l'efficacité visuelle.",
+    "tags": [
+      "Power BI",
+      "Small Multiples",
+      "Data Visualization",
+      "Daily Trends",
+      "BI Techniques"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
     "score_composite": 4.8
   },
   {
@@ -27375,6 +27848,31 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 5,
+    "score_composite": 3.85
+  },
+  {
+    "url": "https://medium.com/@nilavanan.sa/power-bi-top-100-interview-questions-answers-f0f8b968e99d?source=rss------power_bi-5",
+    "url_hash": "03f40f3cd8090872611200c16abd0652",
+    "titre": "Power BI — Top 100 Interview Questions & Answers",
+    "resume": "by Nilavanan S AContinue reading on Medium »",
+    "date": "2026-07-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un article d'information utile compilant des questions d'entretien courantes pour Power BI, abordant une pratique établie dans le domaine.",
+    "tags": [
+      "Power BI",
+      "Interview",
+      "Questions",
+      "Answers",
+      "BI Careers"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 2,
     "score_composite": 3.85
   },
   {
