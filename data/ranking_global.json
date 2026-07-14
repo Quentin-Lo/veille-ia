@@ -206,7 +206,7 @@
     "source_name": "TechCrunch",
     "categorie_source": "BUSINESS_IA",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "ENTREPRENEURIAT",
     "raison_score": "Cet article décrit un événement potentiellement disruptif : une startup utilisant son propre agent IA pour mener une levée de fonds de 100 millions de dollars. Cela démontre l'application concrète et réussie d'agents IA dans un processus entrepreneurial clé.",
@@ -4865,6 +4865,31 @@
     "score_composite": 7.150000000000001
   },
   {
+    "url": "https://venturebeat.com/orchestration/acrouter-picks-the-smartest-ai-model-per-task-beating-opus-only-setups-by-2-6x-on-cost",
+    "url_hash": "38871dad9f65d626accf8afbb0ff4c66",
+    "titre": "ACRouter picks the smartest AI model per task, beating Opus-only setups by 2.6x on cost",
+    "resume": "Model routing is becoming a key component of the enterprise AI stack, dynamically sending prompts to the right AI model to optimize speed and costs. However, current frameworks mostly treat routing as a static classification problem, which severely limits their potential.A new open-source framework called Agent-as-a-Router tackles this bottleneck, treating the router as a dynamic, memory-building agent. It uses a Context-Action-Feedback (C-A-F) loop to track model successes and failures and upda",
+    "date": "2026-07-13",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Agent-as-a-Router est un nouveau framework open-source qui aborde le routage dynamique de modèles d'IA pour optimiser coût et performance. Il représente une approche plus intelligente que les méthodes statiques et est documenté avec des métriques de performance.",
+    "tags": [
+      "IA",
+      "routage de modèles",
+      "optimisation",
+      "open-source",
+      "entreprise"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.150000000000001
+  },
+  {
     "url": "https://docs.getdbt.com/blog/semantic-layer-vs-text-to-sql-2026",
     "url_hash": "ffc1c4bf729baecbc1fc063b5b1dcc58",
     "titre": "Semantic Layer vs. Text-to-SQL: 2026 Benchmark Update",
@@ -5405,6 +5430,31 @@
       "Decision Making",
       "Delegation",
       "AI Adoption"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.1000000000000005
+  },
+  {
+    "url": "https://bdtechtalks.com/2026/07/13/ai-agents-self-improving-harness/?utm_source=rss&utm_medium=rss&utm_campaign=ai-agents-self-improving-harness",
+    "url_hash": "a3aad061aabc2c3818db70c2cbe90e98",
+    "titre": "How self-improving harnesses are rewriting the agent engineering playbook",
+    "resume": "With harness engineering becoming a main focus of AI engineering, new frameworks allow AI agents to write their own execution logic and optimize their performance.\nThe post How self-improving harnesses are rewriting the agent engineering playbook first appeared on TechTalks.",
+    "date": "2026-07-13",
+    "source_name": "BD Tech Talks",
+    "categorie_source": "IA_APPLIQUEE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article présente le concept de 'self-improving harnesses' qui permettent aux agents IA d'écrire leur propre logique d'exécution et d'optimiser leurs performances. C'est une nouvelle pratique entrepreneuriale/ingénierie IA documentée.",
+    "tags": [
+      "IA",
+      "agents",
+      "ingénierie d'agents",
+      "auto-amélioration",
+      "framework"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -7215,6 +7265,56 @@
     "score_composite": 6.95
   },
   {
+    "url": "https://www.marktechpost.com/2026/07/13/building-a-videoagent-style-multi-agent-system-intent-parsing-graph-planning-and-tool-routing-for-video-editing-tasks/",
+    "url_hash": "8aa1f2304e3cfafc019589c8976af57d",
+    "titre": "Building a VideoAgent-Style Multi-Agent System: Intent Parsing, Graph Planning, and Tool Routing for Video Editing Tasks",
+    "resume": "In this tutorial, we reconstruct the VideoAgent workflow as a runnable, API-key-free multi-agent pipeline. We build an intent parser, an agent library, a tool router, a graph planner, and a textual-gradient optimizer that repairs the execution graph. We wire these planning components to FFmpeg, Whisper transcription, scene detection, keyframe sampling, captioning, cross-modal indexing, and beat-synced editing. By the end, we have a system that answers questions about a video, summarizes it, and ",
+    "date": "2026-07-13",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article propose un tutoriel détaillé pour reconstruire un système multi-agents de type VideoAgent, incluant l'analyse d'intention, la planification graphique et le routage d'outils. Il documente une nouvelle capacité d'agent reproductible pour l'édition vidéo.",
+    "tags": [
+      "IA",
+      "agents",
+      "multi-agents",
+      "édition vidéo",
+      "tutoriel"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+    "url_hash": "4bee902986585ed6f5704846326ecfbe",
+    "titre": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+    "resume": "With the cash, the company aims to expand its world model offering and reach customers across geographies.",
+    "date": "2026-07-14",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Levée de fonds majeure pour une startup dans un domaine de l'IA en pleine croissance (génération vidéo), indiquant un secteur en forte dynamique et validation par le marché.",
+    "tags": [
+      "Startup",
+      "IA",
+      "Génération Vidéo",
+      "Financement",
+      "PixVerse"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.95
+  },
+  {
     "url": "https://www.latent.space/p/the-coolest-diffusion-research-isnt",
     "url_hash": "3b215a1e99445682fed1507d14824aee",
     "titre": "🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
@@ -8802,6 +8902,31 @@
     "score_composite": 6.750000000000001
   },
   {
+    "url": "https://www.marktechpost.com/2026/07/13/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared/",
+    "url_hash": "1ab90ae5ecad7c9079e205917faf8908",
+    "titre": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
+    "resume": "Anthropic's Claude Sonnet 5 narrows the gap to Opus 4.8 on agentic coding, at cheaper Sonnet token pricing.\nThe post Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared appeared first on MarkTechPost.",
+    "date": "2026-07-14",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Comparaison de performances et de coûts pour différents modèles d'Anthropic dans un contexte d'agents de codage. Fournit des informations quantifiées sur l'évolution.",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "Agents",
+      "Benchmarks",
+      "API"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.750000000000001
+  },
+  {
     "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
     "url_hash": "2f358dc4a504978912f0eb9df7c976e7",
     "titre": "Strengthening societal resilience with Rosalind Biodefense",
@@ -9608,6 +9733,31 @@
       "decision making",
       "cost asymmetry",
       "confidence threshold"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/",
+    "url_hash": "084094000f128e62b684d5923bc22062",
+    "titre": "Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity",
+    "resume": "MORPHEUS from Skyfall AI is a persistent enterprise simulation platform for continual reinforcement learning. It runs worlds that never reset, using parameterisable regime shifts and a six-metric evaluation protocol. Across the platform, PPO, HER, EWC, and LCM all remain far below the theoretical upper bound.\nThe post Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity appeared first on",
+    "date": "2026-07-13",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "MORPHEUS est un nouveau benchmark de simulation d'entreprise pour l'apprentissage par renforcement continu. Son approche avec des mondes persistants et des changements de régime structurés le rend pertinent pour la recherche avancée en IA.",
+    "tags": [
+      "IA",
+      "apprentissage par renforcement",
+      "simulation",
+      "benchmark",
+      "continual learning"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -11914,6 +12064,31 @@
     "score_composite": 6.450000000000001
   },
   {
+    "url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
+    "url_hash": "5faea7f0a45c7676af173e2a3d55e06b",
+    "titre": "[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??",
+    "resume": "a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...",
+    "date": "2026-07-14",
+    "source_name": "Latent Space",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Étude quantifiée sur l'adoption massive d'un outil d'aide au développement (Codex), démontrant son impact et sa croissance.",
+    "tags": [
+      "Codex",
+      "IA",
+      "Développement",
+      "Adoption",
+      "Usage"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.450000000000001
+  },
+  {
     "url": "https://openai.com/index/sea-david-chen",
     "url_hash": "73eb815ab647d89faf48507d9549a934",
     "titre": "Sea's View on the Future of Agentic Software Development with Codex",
@@ -12107,6 +12282,30 @@
       "Sécurité",
       "Chaîne d'approvisionnement logicielle",
       "LLM"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.45
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/",
+    "url_hash": "92362661cb16cda2b579a23bf0a72ea1",
+    "titre": "Mistral AI Releases Robostral Navigate: An 8B Model Enabling Robots to Navigate Complex Environments Using a Single RGB Camera",
+    "resume": "Mistral AI introduced Robostral Navigate, an 8B embodied navigation model. It moves robots from a plain-language instruction using only a single RGB camera, with no LiDAR or depth sensors. The model reaches 76.6% success on R2R-CE validation unseen through a pointing method, prefix-caching training, and CISPO online reinforcement learning.\nThe post Mistral AI Releases Robostral Navigate: An 8B Model Enabling Robots to Navigate Complex Environments Using a Single RGB Camera appeared first on Mark",
+    "date": "2026-07-14",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce d'un nouveau modèle 8B par Mistral AI, potentiellement compétitif et axé sur une capacité d'application précise (navigation robotique).",
+    "tags": [
+      "Mistral AI",
+      "Robots",
+      "Navigation",
+      "Modèle 8B"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 8,
@@ -12632,6 +12831,31 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 8,
+    "score_composite": 6.3500000000000005
+  },
+  {
+    "url": "https://towardsdatascience.com/the-three-dimensions-of-custom-agentic-alignment-purpose-principles-and-practices/",
+    "url_hash": "d73033929dc17cd5f9793b8770110bc7",
+    "titre": "The Three Dimensions of Custom Agentic Alignment: Purpose, Principles and Practices",
+    "resume": "A framework for aligning agentic AI with enterprise intent to ensure consistent scenario‑wide autonomous behavior.\nThe post The Three Dimensions of Custom Agentic Alignment: Purpose, Principles and Practices appeared first on Towards Data Science.",
+    "date": "2026-07-13",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article propose un cadre pour l'alignement des IA agentiques avec l'intention de l'entreprise. Il documente un nouveau framework ou une pratique entrepreneuriale IA pour assurer un comportement autonome cohérent.",
+    "tags": [
+      "IA",
+      "agents",
+      "alignement",
+      "cadre",
+      "ingénierie d'agents"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
     "score_composite": 6.3500000000000005
   },
   {
@@ -13200,6 +13424,30 @@
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.300000000000001
+  },
+  {
+    "url": "https://medium.com/@allison.claramunt/microsoft-fabric-make-your-ai-agents-drive-business-value-da74c94e3197?source=rss------power_bi-5",
+    "url_hash": "9e78cfd8e3e3ba80b74a9ee75482aa45",
+    "titre": "[Microsoft Fabric] Make Your AI Agents Drive Business Value",
+    "resume": "Fabric IQ is the intelligence layer enterprise AI has been waiting for. But it only works on a data foundation you’ve actually built…Continue reading on Medium »",
+    "date": "2026-07-14",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Nouvelle intégration ou mise en avant de l'IA (agents) dans un outil data/BI mainstream (Microsoft Fabric) avec une perspective de valeur métier.",
+    "tags": [
+      "Microsoft Fabric",
+      "AI Agents",
+      "Business Value",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 6,
     "score_composite": 6.300000000000001
   },
@@ -15305,6 +15553,31 @@
     "score_composite": 6.050000000000001
   },
   {
+    "url": "https://towardsdatascience.com/agentic-rag-let-the-agent-search/",
+    "url_hash": "b125aea82615cdcdf20d97eb03fe2255",
+    "titre": "Agentic RAG: Let the Agent Search",
+    "resume": "A minimal OpenAI Agents SDK implementation where retrieval becomes a search-read-decide loop\nThe post Agentic RAG: Let the Agent Search appeared first on Towards Data Science.",
+    "date": "2026-07-13",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article présente une implémentation minimale du SDK OpenAI Agents pour le RAG où la récupération d'informations devient une boucle de recherche-lecture-décision. Il s'agit d'un tutoriel avancé sur les agents et RAG.",
+    "tags": [
+      "IA",
+      "RAG",
+      "agents",
+      "OpenAI SDK",
+      "tutoriel"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.050000000000001
+  },
+  {
     "url": "https://medium.com/@simon.buchi.sb/how-power-bi-quietly-became-one-of-the-most-valuable-business-skills-695f56b9110b?source=rss------power_bi-5",
     "url_hash": "60d95ab64e3919f4dd8fc99d1562249d",
     "titre": "How Power BI Quietly Became One of the Most Valuable Business Skills",
@@ -16757,6 +17030,56 @@
     "score_composite": 5.9
   },
   {
+    "url": "https://www.databricks.com/blog/how-unity-catalog-managed-tables-bring-interoperability-performance-and-unified-governance",
+    "url_hash": "97b327440b602494f05a214dd6da5157",
+    "titre": "How Unity Catalog managed tables bring interoperability, performance, and unified governance to the Lakehouse",
+    "resume": "Unity Catalog was designed for interoperability at scale. Enterprises have the flexibility...",
+    "date": "2026-07-13",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Cet article détaille les améliorations apportées par Unity Catalog aux 'managed tables' pour l'interopérabilité, la performance et la gouvernance unifiée dans le Lakehouse. C'est une évolution notable d'un outil de data platform existant.",
+    "tags": [
+      "Databricks",
+      "Unity Catalog",
+      "Lakehouse",
+      "gouvernance des données",
+      "performance"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.9
+  },
+  {
+    "url": "https://medium.com/data-and-beyond/power-bi-python-next-level-insights-heres-how-i-did-it-after-many-errors-ab94c74885ae?source=rss------power_bi-5",
+    "url_hash": "a6c33ff8e6d2ed0a969b4aa6e24739e6",
+    "titre": "Power BI + Python = Next-Level Insights: Here’s How I Did It (After Many Errors)",
+    "resume": "A step-by-step guide to setting up your environment, transforming data, and fixing common integration errors.Continue reading on Data And Beyond »",
+    "date": "2026-07-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article propose un tutoriel avancé sur l'intégration de Power BI et Python, expliquant comment surmonter des erreurs courantes pour obtenir des insights avancés.",
+    "tags": [
+      "power bi",
+      "python",
+      "data integration",
+      "bi practices",
+      "tutorial"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.9
+  },
+  {
     "url": "https://towardsdatascience.com/hybrid-search-and-re-ranking-in-production-rag/",
     "url_hash": "38cd4bb9878d6fd590601a70d7e5a5ee",
     "titre": "Hybrid Search and Re-Ranking in Production RAG",
@@ -17953,6 +18276,31 @@
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.700000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder/",
+    "url_hash": "2f251f4adc00cf7fe2cdb5599fa4410d",
+    "titre": "Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs From a Markdown Folder",
+    "resume": "Developer Hayden Bleasel has released Blume, an open-source, MIT-licensed documentation framework. It reads a folder of Markdown or MDX and generates a hidden Astro project, shipping static, AI-ready docs with local search, 30+ MDX components, llms.txt, and a built-in MCP server.\nThe post Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs From a Markdown Folder appeared first on MarkTechPost.",
+    "date": "2026-07-14",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Lancement d'un nouveau framework open-source pour la documentation, facilitant l'intégration 'AI-ready'. C'est une avancée pour les pratiques de développement.",
+    "tags": [
+      "Blume",
+      "Open Source",
+      "Documentation",
+      "AI-Ready",
+      "Framework"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 6,
     "score_composite": 5.700000000000001
   },
@@ -19483,6 +19831,30 @@
     "score_composite": 5.550000000000001
   },
   {
+    "url": "https://zapier.com/blog/ai-agent",
+    "url_hash": "fab37e4661bbb176e838e514a3297df2",
+    "titre": "What is an AI agent?",
+    "resume": "When you think of AI agents, do you imagine a personal AI assistant like Tony Stark's Jarvis? Perhaps a calm-under-pressure TARS from Interstellar? Or, more on the scary spectrum, an amoral HAL 9000 straight out of 2001: A Space Odyssey? Current technology doesn't come close to that kind of science fiction (yet). But the field is evolving fast. What AI agents are capable of today looks nothing like it did even just a few months ago.  Here's how AI agents actually work, what they can do right now",
+    "date": "2026-07-14",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Article de fond expliquant ce qu'est un agent IA, ses capacités actuelles et son évolution rapide, avec un focus sur la compréhension d'une technologie émergente.",
+    "tags": [
+      "AI Agents",
+      "Definition",
+      "Capacités",
+      "Technologie"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.550000000000001
+  },
+  {
     "url": "https://medium.com/powerbi-microsoft-fabric/how-microsoft-fabric-is-different-from-power-bi-c495674c1fc5?source=rss------power_bi-5",
     "url_hash": "eae6c99644e9cc692dae0959f324214a",
     "titre": "How Microsoft Fabric is Different from Power BI",
@@ -20976,6 +21348,31 @@
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.300000000000001
+  },
+  {
+    "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+    "url_hash": "228200827ba929ba9a56c1a926b47cbc",
+    "titre": "Empowering India’s next generation of innovators with ATL Saathi",
+    "resume": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
+    "date": "2026-07-13",
+    "source_name": "DeepMind Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article présente un nouveau cas d'usage d'IA (Gemini) pour l'éducation et l'innovation en Inde. Il documente une initiative concrète avec un impact potentiel sur une génération d'innovateurs.",
+    "tags": [
+      "IA",
+      "éducation",
+      "innovation",
+      "Inde",
+      "Gemini"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 6,
     "score_composite": 5.300000000000001
   },
@@ -22525,6 +22922,30 @@
     "score_composite": 5.15
   },
   {
+    "url": "https://www.producthunt.com/products/agent-card",
+    "url_hash": "9989746b52f1b04bcd232a1b87827bd8",
+    "titre": "Agentcard for companies",
+    "resume": "\n            Give your agent a debit card\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-07-14",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Lancement d'un nouvel outil/produit orienté vers les entreprises, potentiellement disruptif dans la gestion ou l'autonomisation des agents.",
+    "tags": [
+      "Agentcard",
+      "Entreprise",
+      "Produit",
+      "Fintech"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 5.15
+  },
+  {
     "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Modern-Visual-Tooltips-in-Power-BI-Generally-Available/ba-p/5173946",
     "url_hash": "784b16aa8f9bf21f4b1d131d7952aaa0",
     "titre": "Modern Visual Tooltips in Power BI (Generally Available)",
@@ -23129,6 +23550,31 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.05
+  },
+  {
+    "url": "https://towardsdatascience.com/governed-context-managing-context-rot-in-claude-code/",
+    "url_hash": "472f63a85bdca10242386d80cec640a9",
+    "titre": "Context Rot: Why Claude Code Sessions Decay, and How to Govern Them",
+    "resume": "Long sessions rot quietly, well before any token limit is reached. Here’s why, and how to govern your context in Claude Code.\nThe post Context Rot: Why Claude Code Sessions Decay, and How to Govern Them appeared first on Towards Data Science.",
+    "date": "2026-07-13",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article aborde un problème spécifique ('context rot') dans les sessions de Claude Code et propose des solutions pour le gérer. C'est un tutoriel avancé sur la gestion du contexte dans les LLM.",
+    "tags": [
+      "IA",
+      "LLM",
+      "Claude Code",
+      "gestion de contexte",
+      "tutoriel"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 4,
     "score_composite": 5.05
   },
   {
@@ -26043,6 +26489,30 @@
     "score_composite": 4.55
   },
   {
+    "url": "https://medium.com/@anandandurairaju/microsoft-fabric-5-common-challenges-of-pipelines-and-how-i-learned-to-solve-them-246e4dfc8568?source=rss------power_bi-5",
+    "url_hash": "a800b05bb5e223397b15d0f0ddc4b603",
+    "titre": "Microsoft Fabric: 5 Common Challenges of Pipelines and How I Learned to Solve Them",
+    "resume": "When I first started working with Microsoft Fabric, building analytics pipelines looked surprisingly simple. The interface was clean..Continue reading on Medium »",
+    "date": "2026-07-14",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Retour d'expérience d'entreprise sur les défis et solutions liés aux pipelines dans un outil data existant (Microsoft Fabric).",
+    "tags": [
+      "Microsoft Fabric",
+      "Data Pipelines",
+      "Challenges",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.55
+  },
+  {
     "url": "https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere/",
     "url_hash": "6b0ce990ac41d37acefe5a8e8bb32bbf",
     "titre": "Take your local GitHub sessions anywhere",
@@ -27508,6 +27978,30 @@
     "score_composite": 4.0
   },
   {
+    "url": "https://medium.com/@markchen69/power-bi-desktop-suddenly-cant-refresh-sql-server-try-windows-authentication-first-8c073721e046?source=rss------power_bi-5",
+    "url_hash": "21fe646a263fb1939b47c4aa5d47e0f2",
+    "titre": "Power BI Desktop Suddenly Can’t Refresh SQL Server? Try Windows Authentication First",
+    "resume": "One small credential change saved me from chasing the wrong problem for hours.Continue reading on Medium »",
+    "date": "2026-07-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Il s'agit d'un retour d'expérience d'entreprise sur un problème spécifique de rafraîchissement dans Power BI Desktop, offrant une solution utile pour un cas d'usage précis.",
+    "tags": [
+      "power bi",
+      "sql server",
+      "data refresh",
+      "bi troubleshooting"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.0
+  },
+  {
     "url": "https://github.blog/news-insights/policy-news-and-insights/why-age-assurance-laws-matter-for-developers/",
     "url_hash": "b3f69f37cbee157c9170ea8cc0088124",
     "titre": "Why age assurance laws matter for developers",
@@ -28167,6 +28661,31 @@
     "score_composite": 3.8
   },
   {
+    "url": "https://medium.com/@aeguchandramouli1/data-data-analytics-course-in-telugu-master-sql-excel-and-power-bi-e2d8501ab21e?source=rss------power_bi-5",
+    "url_hash": "6a3d5b176decf1cd07b0f2519d26dbd8",
+    "titre": "data Data Analytics Course in Telugu: Master SQL, Excel, and Power BI",
+    "resume": "Today’s businesses depend on data to make strategic decisions, improve customer experiences, and increase operational efficiency. To…Continue reading on Medium »",
+    "date": "2026-07-14",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Information utile sur une pratique établie (analyse de données avec SQL, Excel, Power BI) visant à former dans une langue spécifique.",
+    "tags": [
+      "Data Analytics",
+      "SQL",
+      "Excel",
+      "Power BI",
+      "Formation"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.8
+  },
+  {
     "url": "https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/",
     "url_hash": "5ffbcd2eae2ef6026bf5949e0141ffb1",
     "titre": "Apple’s Siri revamp could include auto-deleting chats",
@@ -28669,6 +29188,30 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 5,
+    "score_composite": 3.5500000000000003
+  },
+  {
+    "url": "https://venturebeat.com/infrastructure/the-desktop-infrastructure-problem-that-kubernetes-finally-solves",
+    "url_hash": "0e57c02fb020de25a2f78835763a8c46",
+    "titre": "The desktop infrastructure problem that Kubernetes finally solves",
+    "resume": "Presented by Kasm TechnologiesEnterprise infrastructure teams have spent the better part of a decade pushing workloads into Kubernetes. Applications, APIs, batch jobs, data pipelines — if it runs in a container, it belongs in the cluster. The operational benefits are well-established: declarative configuration, horizontal scaling, self-healing, native integration with CI/CD pipelines and observability tooling. Kubernetes has become the default operating model for production workloads.Except for ",
+    "date": "2026-07-13",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "CLOUD_DATA",
+    "raison_score": "Cet article explore comment Kubernetes résout des problèmes d'infrastructure de bureau. Bien qu'utile pour la gestion d'infrastructure, il n'est pas au cœur des avancées IA ou BI majeures.",
+    "tags": [
+      "Kubernetes",
+      "infrastructure",
+      "cloud",
+      "conteneurisation"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
     "score_composite": 3.5500000000000003
   },
   {
@@ -30319,6 +30862,29 @@
       "Power BI",
       "Introduction",
       "BI"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 2.05
+  },
+  {
+    "url": "https://medium.com/@athervasrivastava441/exploring-beyond-power-bi-d46cd899f597?source=rss------power_bi-5",
+    "url_hash": "25554a9bbb64491806ad27612f8dc816",
+    "titre": "Exploring Beyond Power BI",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-07-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 2,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Le titre suggère une exploration, mais le résumé est très vague. Il est probable qu'il s'agisse d'un contenu marketing sans substance technique et d'une redite d'informations connues.",
+    "tags": [
+      "power bi",
+      "bi tools",
+      "data visualization"
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 1,
