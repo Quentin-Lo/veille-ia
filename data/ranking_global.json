@@ -657,6 +657,29 @@
     "score_composite": 8.35
   },
   {
+    "url": "https://venturebeat.com/security/openais-models-broke-containment-and-cyberattacked-hugging-face-what-enterprises-need-to-know",
+    "url_hash": "fad9bd8ed5fa5849f1011e50605ea054",
+    "titre": "OpenAI's models broke containment and cyberattacked Hugging Face — what enterprises need to know",
+    "resume": "Yesterday afternoon, OpenAI and Hugging Face published a joint disclosure outlining a cybersecurity event that redefines the threat landscape for enterprise technology. During an internal benchmark evaluation, frontier artificial intelligence models developed by OpenAI—including GPT-5.6 Sol and an unreleased, higher-capability pre-release model—broke out of their sandboxed research environment, obtained raw internet access, and autonomously executed a complex cyberattack against Hugging Face’s p",
+    "date": "2026-07-22",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "La rupture de confinement et l'auto-cyberattaque par des modèles IA avancés constituent une avancée majeure redéfinissant les capacités et la sécurité des IA.",
+    "tags": [
+      "sécurité IA",
+      "rupture de confinement",
+      "modèles IA"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 8.35
+  },
+  {
     "url": "https://huggingface.co/blog/gemma4",
     "url_hash": "a38a6a43bd72f6fe5d180c4eaf9bf982",
     "titre": "Welcome Gemma 4: Frontier multimodal intelligence on device",
@@ -1241,7 +1264,7 @@
     "source_name": "VentureBeat AI",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "IA_AGENTS",
     "raison_score": "L'article propose une nouvelle approche ('Hypernetworks') pour surmonter les limitations du fine-tuning et du RAG pour les agents IA, offrant une solution potentiellement disruptive pour la gestion du contexte et la personnalisation des modèles à la volée.",
@@ -4196,6 +4219,30 @@
     "score_composite": 7.3500000000000005
   },
   {
+    "url": "https://venturebeat.com/technology/googles-gemini-3-6-flash-model-cuts-ai-agent-token-costs-by-up-to-65-on-long-horizon-engineering-tasks-and-3-5-pro-is-on-the-way",
+    "url_hash": "06a73aa195f90fbafebb41865ca18634",
+    "titre": "Google's Gemini 3.6 Flash model cuts AI agent token costs by up to 65% on long horizon engineering tasks —and 3.5 Pro is on the way",
+    "resume": "Google DeepMind today released three new proprietary AI models it says are among its most token-efficient yet: Gemini 3.6 Flash, Gemini 3.5 Flash-Lite, and Gemini 3.5 Flash Cyber. The models aim to make AI agents faster, smarter, and cheaper at scale. Google is pricing Gemini 3.6 Flash at $1.50 per one million input tokens and $7.50 per one million output tokens through its application programming interface (API), while Gemini 3.5 Flash-Lite costs a staggeringly cheap $0.30/$2.50 per million tok",
+    "date": "2026-07-21",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "L'article détaille une avancée significative dans l'efficacité des modèles IA (Gemini 3.6 Flash), réduisant les coûts et améliorant les performances des agents IA.",
+    "tags": [
+      "Gemini",
+      "coût IA",
+      "agents IA",
+      "modèles IA"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3500000000000005
+  },
+  {
     "url": "https://bdtechtalks.com/2026/04/20/anthropic-mcp-vulnerability/?utm_source=rss&utm_medium=rss&utm_campaign=anthropic-mcp-vulnerability",
     "url_hash": "76376cb3ea8c26fecb7d481e87dc2ebb",
     "titre": "Anthropic’s MCP vulnerability: When ‘expected behavior’ becomes a supply chain nightmare",
@@ -4587,6 +4634,30 @@
       "Gemini",
       "optimisation IA",
       "matériel IA"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3
+  },
+  {
+    "url": "https://www.producthunt.com/products/gemini-3-6-flash-family",
+    "url_hash": "b8179cce714eaa921837c78609e9290f",
+    "titre": "Gemini 3.6 Flash Family",
+    "resume": "\n            Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-07-21",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "L'annonce de la famille de modèles Gemini 3.6 Flash marque une mise à jour majeure d'un modèle existant, avec potentiellement de nouvelles capacités. Cela représente une avancée significative dans le domaine des modèles LLM.",
+    "tags": [
+      "IA",
+      "LLM",
+      "Gemini",
+      "models"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 9,
@@ -6157,6 +6228,29 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 8,
+    "score_composite": 7.1000000000000005
+  },
+  {
+    "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+    "url_hash": "6ba6c25e923af94f7fbb48daadbf9b16",
+    "titre": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+    "resume": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+    "date": "2026-07-21",
+    "source_name": "DeepMind Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce de nouveaux modèles Gemini performants et optimisés, représentant une mise à jour majeure dans le paysage des modèles IA disponibles.",
+    "tags": [
+      "Gemini",
+      "modèles IA",
+      "performance IA"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
     "score_composite": 7.1000000000000005
   },
   {
@@ -8532,6 +8626,29 @@
     "score_composite": 6.900000000000001
   },
   {
+    "url": "https://zapier.com/blog/mach-1-mcp",
+    "url_hash": "5cc96268cf3e90b52d577d36c0118cad",
+    "titre": "How Mach 1 uses Zapier MCP to run AI operations across 25 different companies",
+    "resume": "Most AI agents can complete a task inside a single tool. Running them reliably across an entire business is a different problem. Chris Olson is co-founder and CEO of Mach 1, an AI operations platform that helps mid-market companies deploy agents across go-to-market, customer success, sales, support, and finance operations. He developed the approach after applying AI-driven operations at a sports technology company, helping move the business from a $9 million annual cash burn to $5 million in fre",
+    "date": "2026-07-22",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Lancement d'un outil d'automatisation potentiellement disruptif (Zapier MCP) utilisé pour des opérations IA complexes à grande échelle, documenté par un cas d'usage concret.",
+    "tags": [
+      "automatisation IA",
+      "agents",
+      "plateforme d'opérations IA"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.900000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/13/nous-research-releases-token-superposition-training-to-speed-up-llm-pre-training-by-up-to-2-5x-across-270m-to-10b-parameter-models/",
     "url_hash": "7feb4acf8eef6a26c48aa73c3647740c",
     "titre": "Nous Research Releases Token Superposition Training to Speed Up LLM Pre-Training by Up to 2.5x Across 270M to 10B Parameter Models",
@@ -9768,6 +9885,30 @@
       "vision par ordinateur",
       "Azure",
       "documents d'entreprise"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.800000000000001
+  },
+  {
+    "url": "https://bdtechtalks.com/2026/07/21/mragent-active-memory-reconstruction/?utm_source=rss&utm_medium=rss&utm_campaign=mragent-active-memory-reconstruction",
+    "url_hash": "b59ebf1d46e5da6f52987ab6b3fd9f1d",
+    "titre": "Moving beyond passive RAG: How to implement active memory reconstruction for AI agents",
+    "resume": "Passive RAG floods LLM context windows with noise. MRAgent’s active memory reconstruction improves reasoning and cuts token costs.\nThe post Moving beyond passive RAG: How to implement active memory reconstruction for AI agents first appeared on TechTalks.",
+    "date": "2026-07-21",
+    "source_name": "BD Tech Talks",
+    "categorie_source": "IA_APPLIQUEE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article introduit une nouvelle capacité pour les agents IA : la reconstruction active de mémoire. Cela va au-delà des approches RAG passives et promet une amélioration du raisonnement et une réduction des coûts, ce qui constitue une avancée significative.",
+    "tags": [
+      "IA",
+      "agents",
+      "RAG",
+      "memory"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -13245,6 +13386,30 @@
       "automatisation",
       "coût",
       "métriques"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.500000000000001
+  },
+  {
+    "url": "https://www.producthunt.com/products/agentmanager",
+    "url_hash": "a0c8c4ea5a8d3c9aba47bd2b74d73ab3",
+    "titre": "AgentManager",
+    "resume": "\n            Never miss a Claude Code session waiting for your input\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-07-21",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "AgentManager est un nouvel outil présenté sur Product Hunt pour gérer les sessions d'IA, évitant ainsi de manquer des interactions. Il s'agit d'un lancement d'outil potentiellement disruptif dans la gestion des agents IA.",
+    "tags": [
+      "IA",
+      "agents",
+      "productivity",
+      "tool"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -16874,6 +17039,29 @@
     "score_composite": 6.1
   },
   {
+    "url": "https://christopher-nagl.medium.com/how-we-cut-microsoft-fabric-capacity-costs-by-32k-per-month-62c190e7342d?source=rss------power_bi-5",
+    "url_hash": "0ac70f543dce2ba67f0367133bb05c35",
+    "titre": "How We Cut Microsoft Fabric Capacity Costs by €32K per Month",
+    "resume": "A real world case studyContinue reading on Medium »",
+    "date": "2026-07-22",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Il s'agit d'un nouveau cas d'usage documenté sur l'optimisation des coûts de Microsoft Fabric, avec des métriques quantifiées, ce qui représente une évolution notable.",
+    "tags": [
+      "Microsoft Fabric",
+      "optimisation des coûts",
+      "cloud data"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.1
+  },
+  {
     "url": "https://openai.com/signals/research/2026q1-update",
     "url_hash": "45f994a154506ce019e1843247861ad0",
     "titre": "How ChatGPT adoption broadened in early 2026",
@@ -17457,6 +17645,30 @@
       "agents",
       "OpenAI SDK",
       "tutoriel"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.050000000000001
+  },
+  {
+    "url": "https://towardsdatascience.com/prompt-engineering-isnt-enough-how-four-bricks-of-context-engineering-stop-rag-hallucinations/",
+    "url_hash": "707705adec147e0eb7f3f9bb0235f371",
+    "titre": "Prompt Engineering Isn’t Enough: How Four Bricks of Context Engineering Stop RAG Hallucinations",
+    "resume": "Enterprise Document Intelligence [Vol.1 #9bis] - Your RAG isn’t hallucinating, it’s answering the wrong context faithfully. On real NIST and World Bank documents, watch each of the four bricks break, and the contract that closes it\nThe post Prompt Engineering Isn’t Enough: How Four Bricks of Context Engineering Stop RAG Hallucinations appeared first on Towards Data Science.",
+    "date": "2026-07-21",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article propose une approche avancée pour améliorer la fiabilité des systèmes RAG en se concentrant sur l'ingénierie du contexte, au-delà du simple 'prompt engineering'. Il offre un tutoriel avancé sur une technique émergente.",
+    "tags": [
+      "IA",
+      "RAG",
+      "prompt engineering",
+      "context engineering"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
@@ -18171,6 +18383,29 @@
       "Développement",
       "Mémoire",
       "Collaboration"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.950000000000001
+  },
+  {
+    "url": "https://venturebeat.com/security/evals-are-the-new-prd-expedia-ai-chief-tells-vb-transform-2026",
+    "url_hash": "f1331c7902e01e3f022125a7687fd03e",
+    "titre": "Evals are the new PRD, Expedia’s AI chief tells VB Transform 2026",
+    "resume": "“The new PRD are the evals,” Xavi Amatriain, Expedia Group’s first chief AI and data officer, told the VB Transform 2026 audience last week in Menlo Park. “So basically, you encode what you want the product to do through your evals, which might include red teaming evals and all kinds of other things, which already have a bunch of security requirements. So, you already embed that into the PRD and the product design document before you even start coding.”He pushed it further. “With AI-assisted or ",
+    "date": "2026-07-21",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article propose une nouvelle approche pour définir les exigences de développement des produits IA, en remplaçant les PRD traditionnels par des 'evals'. Bien que pertinent, il s'agit d'une évolution dans les pratiques plutôt que d'une rupture majeure.",
+    "tags": [
+      "IA",
+      "product development",
+      "AI strategy"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -19837,6 +20072,30 @@
       "Agents",
       "Architecture",
       "Déterminisme"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.800000000000001
+  },
+  {
+    "url": "https://towardsdatascience.com/i-tried-fine-tuning-a-robot-ai-model-on-colab-here-is-what-worked/",
+    "url_hash": "1429bdacd8ff9cbae053f3caba9b8c56",
+    "titre": "I Tried Fine-Tuning a Robot AI Model on Colab. Here Is What Worked",
+    "resume": "A reproducible 100-step LoRA fine-tuning run for OpenVLA, with dataset checks, Colab setup, training metrics, and W&B evidence.\nThe post I Tried Fine-Tuning a Robot AI Model on Colab. Here Is What Worked appeared first on Towards Data Science.",
+    "date": "2026-07-21",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "L'article est un tutoriel avancé et reproductible sur le fine-tuning d'un modèle d'IA robotique sur Colab, incluant des métriques et des preuves. Il documente un nouveau cas d'usage et des pratiques pour le fine-tuning.",
+    "tags": [
+      "IA",
+      "fine-tuning",
+      "robotics",
+      "Colab"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -22743,6 +23002,76 @@
       "Research",
       "Data Science",
       "Case Study"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.5
+  },
+  {
+    "url": "https://www.databricks.com/blog/why-rd-data-belongs-lakehouse-and-why-agents-need-it-there",
+    "url_hash": "768e41c8e3c868b41a1acf98f6ff4af2",
+    "titre": "Why R&D Data Belongs in the Lakehouse - and Why Agents Need It There",
+    "resume": "The setupAt cellcentric, a joint venture of Daimler Truck and Volvo Group, we develop...",
+    "date": "2026-07-21",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Cet article explique l'intérêt d'intégrer les données de R&D dans un Lakehouse, en particulier pour les agents IA. Il s'agit d'un cas d'usage documenté pour une plateforme de données existante, ce qui le rend utile mais pas disruptif.",
+    "tags": [
+      "data lakehouse",
+      "IA",
+      "R&D data"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.5
+  },
+  {
+    "url": "https://www.databricks.com/blog/how-dow-built-carbon-footprint-ledger-databricks-accelerate-sustainability-scale",
+    "url_hash": "79039275ccb1f560c3d9e29765fbc141",
+    "titre": "How Dow Built a Carbon Footprint Ledger on Databricks to Accelerate Sustainability at Scale",
+    "resume": "Why we built the Carbon Footprint LedgerAt Dow, our ambition is to be the most innovative,...",
+    "date": "2026-07-21",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "L'article décrit un cas d'usage concret d'utilisation de Databricks pour créer un registre d'empreinte carbone, démontrant l'application des données pour des objectifs de développement durable. C'est une évolution notable d'un outil existant.",
+    "tags": [
+      "sustainability",
+      "data platform",
+      "Databricks",
+      "ESG"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.5
+  },
+  {
+    "url": "https://towardsdatascience.com/how-much-of-a-data-science-workflow-can-run-on-a-gpu-today-part-1-accelerating-data-preparation/",
+    "url_hash": "fc49244d9bd4648dfcafd40b18ccc26a",
+    "titre": "How Much of a Data Science Workflow Can Run on a GPU Today? Part 1: Accelerating Data Preparation",
+    "resume": "Exploring GPU acceleration with cuDF, cudf.pandas, and the Polars GPU Engine\nThe post How Much of a Data Science Workflow Can Run on a GPU Today? Part 1: Accelerating Data Preparation appeared first on Towards Data Science.",
+    "date": "2026-07-21",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Cet article explore l'accélération des workflows de data science sur GPU, en se concentrant sur la préparation des données. Il s'agit d'une information utile sur les pratiques établies et les outils disponibles.",
+    "tags": [
+      "GPU acceleration",
+      "data preparation",
+      "data science"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 5,
@@ -25760,6 +26089,29 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 7,
+    "score_composite": 5.1499999999999995
+  },
+  {
+    "url": "https://medium.com/@ratbis19/stop-bikin-dashboard-power-bi-yang-bagus-ini-alasan-visualisasimu-diabaikan-boss-stakeholder-7c23a55e51a7?source=rss------power_bi-5",
+    "url_hash": "01c7792043451400262030e6bb4ab295",
+    "titre": "Stop Bikin Dashboard Power BI yang Bagus! Ini Alasan Visualisasimu Diabaikan Boss & Stakeholder",
+    "resume": "Makin rumit visualisasi data di Power BI, justru makin diabaikan stakeholder. Bedah kesalahan fatal ini dan cara memperbaikinya!Continue reading on Medium »",
+    "date": "2026-07-22",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "L'article aborde un nouveau cas d'usage pertinent : comment éviter que les dashboards Power BI soient ignorés, en se concentrant sur l'impact utilisateur et la communication.",
+    "tags": [
+      "Power BI",
+      "visualisation de données",
+      "communication"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
     "score_composite": 5.1499999999999995
   },
   {
@@ -30377,6 +30729,29 @@
     "score_composite": 4.4
   },
   {
+    "url": "https://medium.com/@adeniranmichaelelvis/the-dax-measure-was-correct-the-business-decision-wasnt-fa6a65b58d95?source=rss------power_bi-5",
+    "url_hash": "c5912fc18c7c260dc737efe66d46f950",
+    "titre": "The DAX Measure Was Correct. The Business Decision Wasn’t",
+    "resume": "The measure wasn’t wrong.Continue reading on Medium »",
+    "date": "2026-07-22",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article traite d'une situation courante dans l'application de DAX et de la prise de décision, offrant un retour d'expérience utile sur les limites des mesures même si elles sont correctes.",
+    "tags": [
+      "DAX",
+      "Business Intelligence",
+      "prise de décision"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.4
+  },
+  {
     "url": "https://towardsdatascience.com/i-pitted-xgboost-against-logistic-regression-on-358-matches-the-boring-model-won/",
     "url_hash": "483fb02abcf730fdf6e4e14202e9b537",
     "titre": "I Pitted XGBoost Against Logistic Regression on 358 Matches. The Boring Model Won.",
@@ -32306,6 +32681,29 @@
     "score_composite": 3.75
   },
   {
+    "url": "https://medium.com/@sultan.jamshed10/why-power-bi-is-the-best-tool-for-data-analysis-instead-of-excel-8fc0d3a34443?source=rss------power_bi-5",
+    "url_hash": "b0c10f26742fb7752b5c06664488eca2",
+    "titre": "Why Power BI Is the Best Tool for Data Analysis Instead of Excel",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-07-21",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Il s'agit d'un article comparatif qui met en avant les avantages de Power BI par rapport à Excel pour l'analyse de données. Bien qu'utile pour les débutants, il n'apporte pas d'informations nouvelles ou de perspectives techniques avancées.",
+    "tags": [
+      "Power BI",
+      "Excel",
+      "data analysis"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.75
+  },
+  {
     "url": "https://zapier.com/blog/which-is-the-best-value-zapier-vs-make",
     "url_hash": "53b0d555e431dde22a040b4fde70f092",
     "titre": "Which is the best value: Zapier vs. Make? [2026]",
@@ -32999,6 +33397,52 @@
     "score_composite": 3.55
   },
   {
+    "url": "https://medium.com/@ditafebywordpress/ini-cara-efektif-belajar-power-bi-agar-siap-melamar-kerja-22c9be5079d3?source=rss------power_bi-5",
+    "url_hash": "daa0ec1087e1217a85b5ace45d1cd145",
+    "titre": "Ini Cara Efektif Belajar Power BI agar Siap Melamar Kerja",
+    "resume": "Power BI menjadi salah satu tools yang paling banyak digunakan perusahaan untuk mengolah dan memvisualisasikan data.Continue reading on Medium »",
+    "date": "2026-07-22",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article fournit des informations utiles sur une pratique établie : l'apprentissage de Power BI pour une carrière dans la donnée.",
+    "tags": [
+      "Power BI",
+      "carrière data",
+      "apprentissage"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.55
+  },
+  {
+    "url": "https://medium.com/@ditafebyindriani14/power-bi-atau-excel-pilihan-terbaik-untuk-memulai-karier-data-analyst-4c8a93b630d5?source=rss------power_bi-5",
+    "url_hash": "95be729016d011291dfabf3607113b33",
+    "titre": "Power BI atau Excel? Pilihan Terbaik untuk Memulai Karier Data Analyst",
+    "resume": "Bagi kamu yang ingin berkarier sebagai Data Analyst, mungkin pernah bertanya-tanya: lebih baik belajar Excel atau Power BI terlebih dahulu?Continue reading on Medium »",
+    "date": "2026-07-22",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article de fond sur une pratique établie, comparant des outils pour débuter une carrière de Data Analyst.",
+    "tags": [
+      "Power BI",
+      "Excel",
+      "data analyst"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.55
+  },
+  {
     "url": "https://towardsdatascience.com/how-to-write-robust-code-with-claude-code/",
     "url_hash": "b94b6cc5f38555c39854fdbfc7a0384d",
     "titre": "How to Write Robust Code with Claude Code",
@@ -33593,6 +34037,29 @@
       "Power BI",
       "Visualisation de données",
       "Zomato"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.3
+  },
+  {
+    "url": "https://medium.com/@ditafebyindriani14/semua-yang-perlu-kamu-ketahui-tentang-analisis-data-dengan-power-bi-b094a4be6eb2?source=rss------power_bi-5",
+    "url_hash": "edaa203f084a4f43b6ce929f9efe705a",
+    "titre": "Semua yang Perlu Kamu Ketahui tentang Analisis Data dengan Power BI!",
+    "resume": "Dengan berbagai fitur yang dimilikinya, Power BI membantu kamu mengubah data mentah menjadi dashboard interaktif yang mendukung proses…Continue reading on Medium »",
+    "date": "2026-07-22",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article de fond sur une pratique établie, présentant les bases de l'analyse de données avec Power BI.",
+    "tags": [
+      "Power BI",
+      "analyse de données",
+      "introduction"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 2,
