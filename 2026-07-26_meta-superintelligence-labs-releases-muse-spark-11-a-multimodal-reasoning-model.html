@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meta Superintelligence Labs Releases Muse Spark 1.1: A Multimodal Reasoning Model for Agentic Tasks on Meta Model API — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>Meta Superintelligence Labs Releases Muse Spark 1.1: A Multimodal Reasoning Model for Agentic Tasks on Meta Model API</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-07-09</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-07-26 10:00 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>Meta Muse Spark 1.1 : l'IA qui pense vite pour les agents</h2>
+<blockquote>Meta lance un modèle IA multimodal avec une mémoire d'un million de tokens, pour des tâches d'agents complexes.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+<p>Meta Superintelligence Labs a mis en ligne Muse Spark 1.1 le 9 juillet 2026. L'annonce coïncide avec l'ouverture d'une préversion publique de l'API Meta Model. Ce nouveau modèle est conçu pour les tâches d'agents. Il se distingue par sa capacité à traiter et à compresser activement des contextes pouvant aller jusqu'à un million de tokens.</p>
+<p>Il est aussi capable de généralisation "zero-shot" vers de nouveaux outils et serveurs MCP. Cela signifie qu'il peut interagir avec des systèmes inédits sans entraînement préalable spécifique. L'objectif est de permettre aux agents IA de comprendre et d'agir dans des environnements complexes et évolutifs.</p>
+<blockquote>Muse Spark 1.1 peut gérer 1 million de tokens, une capacité clé pour les agents autonomes.</blockquote>
+<h3>Pourquoi ca compte 🎯</h3>
+<p>Muse Spark 1.1 marque une avancée pour les agents IA. Leur capacité à traiter de grandes quantités d'informations en temps réel est cruciale pour des tâches de planification et d'exécution complexes. L'efficacité de la compression de contexte permet une meilleure gestion des ressources.</p>
+<p>Cela ouvre la voie à des agents plus performants et réactifs. Ils pourront interagir de manière plus sophistiquée avec le monde numérique. La généralisation zero-shot réduit le besoin d'adaptation coûteuse pour chaque nouvelle application.</p>
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Tester l'API Meta Model</strong> : Découvre les capacités de Muse Spark 1.1 via la préversion publique.</li>
+<li><strong>Explorer les cas d'usage pour agents</strong> : Pense aux scénarios où une grande mémoire et une adaptation rapide sont nécessaires.</li>
+<li><strong>Defi rapide</strong> : Imagine une tâche complexe pour un agent IA qui nécessiterait de traiter plusieurs documents volumineux simultanément.</li>
+</ul>
+<blockquote>Une meilleure mémoire et une adaptation plus rapide pour tes agents IA.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>Agentic tasks</strong> : Tâches où un système IA agit de manière autonome pour atteindre un objectif.</li>
+<li><strong>Context window</strong> : La quantité d'informations qu'un modèle IA peut prendre en compte à un instant T.</li>
+<li><strong>Zero-shot generalization</strong> : Capacité d'un modèle à effectuer une tâche sans avoir été spécifiquement entraîné pour elle.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/">Meta Superintelligence Labs Releases Muse Spark 1.1</a> — Découvre les détails techniques du nouveau modèle de Meta.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<ul><li><strong>Automatise ChatGPT facilement</strong> (8) : Zapier propose des méthodes pour automatiser vos interactions avec les différentes versions de ChatGPT.</li>
+<li><strong>ChatGPT Work débarque</strong> (8) : OpenAI lance une solution cloud pour gérer vos tâches via email, Slack et calendrier.</li>
+<li><strong>Microsoft Fabric pour l'analytique self-service</strong> (8) : Passage des dashboards Power BI aux agents de données Fabric pour une nouvelle ère d'analyse.</li>
+<li><strong>Vulnérabilités critiques dans Langflow et LangChain</strong> (8) : 7000 serveurs sous attaque à cause de failles de sécurité communes.</li>
+<li><strong>Netflix mise gros sur l'IA cinématographique</strong> (10) : Acquisition de la startup de Ben Affleck pour 587 millions de dollars.</li>
+<li><strong>OpenWorker, l'assistant IA local d'Andrew Ng</strong> (8) : Un outil open-source qui livre des résultats concrets, pas seulement des conversations.</li>
+</ul>
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>Intelligence Artificielle Générative : Les Modèles S'émancipent</strong> — Des modèles comme ceux d'OpenAI montrent des comportements imprévus, soulevant des questions de sécurité et de gouvernance pour les entreprises. Cela pousse à une réflexion sur le contrôle et la gestion de ces systèmes avancés.
+<strong>L'Ère des Agents IA Spécialisés</strong> — Des innovations comme Cursor Router et les agents de données Fabric montrent une tendance vers des IA plus ciblées et efficaces. Ces outils promettent des performances accrues et des coûts réduits pour des tâches spécifiques.
+<strong>A surveiller</strong> — La levée de fonds de World, la startup d'identité biométrique de Sam Altman, et le financement de Natural pour réinventer les paiements des agents IA, indiquent une forte dynamique d'investissement dans les infrastructures et les services pour les futures économies d'IA.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-07-26 10:00 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
