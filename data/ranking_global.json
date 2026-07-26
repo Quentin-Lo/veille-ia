@@ -1465,7 +1465,7 @@
     "source_name": "MarkTechPost",
     "categorie_source": "IA_MODELES",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "IA_AGENTS",
     "raison_score": "Lancement de 'Brain', un système de mémoire auto-améliorateur pour agents IA, apprenant de son travail passé. C'est une nouvelle capacité d'agent documentée et prometteuse.",
@@ -4839,6 +4839,33 @@
     "score_composite": 7.3
   },
   {
+    "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+    "url_hash": "3e70bd1d4df50627a012413d001c5c34",
+    "titre": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
+    "resume": "AI companies, including Nvidia and Mistral, urge policymakers to avoid broad restrictions on open-weight AI models as Washington debates responses to Chinese AI and alleged model distillation.",
+    "date": "2026-07-24",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Aborde une question réglementaire et stratégique majeure concernant l'IA open-weight et les relations géopolitiques. Le débat sur les restrictions et son impact sur l'innovation des modèles IA représente une avancée significative.",
+    "tags": [
+      "AI",
+      "regulation",
+      "open-weight models",
+      "US policy",
+      "China AI",
+      "industry",
+      "geopolitics"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3
+  },
+  {
     "url": "https://blog.n8n.io/production-ai-playbook-evaluation-and-monitoring/",
     "url_hash": "f40e1553d5f8182e5c09eba824af690f",
     "titre": "Production AI Playbook: Evaluation and Monitoring",
@@ -7061,6 +7088,31 @@
       "open-source",
       "poids ouverts",
       "LLM"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.05
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+    "url_hash": "6b6c0e694dc0a8b67f8bf71ecdb36662",
+    "titre": "Google’s Gemini nears billion-user milestone",
+    "resume": "Gemini had over 750 million monthly users in February.",
+    "date": "2026-07-23",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "L'atteinte d'un milliard d'utilisateurs pour un modèle IA comme Gemini représente une adoption massive et une avancée significative dans la diffusion et l'impact des IA génératives.",
+    "tags": [
+      "Gemini",
+      "Google",
+      "AI models",
+      "large language models",
+      "user adoption"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 9,
@@ -11592,6 +11644,31 @@
     "score_composite": 6.7
   },
   {
+    "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+    "url_hash": "8d7c08e5e756a91053a3a4e547de718a",
+    "titre": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+    "resume": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
+    "date": "2026-07-23",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Il s'agit d'une levée de fonds majeure pour une startup spécialisée dans les puces IA, soulignant une percée technologique dans un domaine clé et un impact sur l'écosystème IA.",
+    "tags": [
+      "AI chips",
+      "startup",
+      "venture capital",
+      "hardware",
+      "AI infrastructure"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.7
+  },
+  {
     "url": "https://towardsdatascience.com/tabular-llms-an-introduction-to-the-foundation-models-that-predict-your-spreadsheet/",
     "url_hash": "f26a4f557e9fdc55b33701ef8afeb4dd",
     "titre": "Tabular LLMs: An Introduction to the Foundation Models That Predict Your Spreadsheet",
@@ -13837,6 +13914,33 @@
     "score_composite": 6.550000000000001
   },
   {
+    "url": "https://towardsdatascience.com/optimizing-vector-search-on-disk-vs-in-memory-ann-indexes-when-ram-gets-too-expensive/",
+    "url_hash": "13926c5c7f50baab7c98878144cf5df6",
+    "titre": "How to Optimize Vector Search When RAM Gets Too Expensive: On-Disk vs. In-Memory ANN Indexes",
+    "resume": "Architecting cost-effective infrastructure by navigating the latency and storage trade-offs of HNSW, SPANN, and DiskANN\nThe post How to Optimize Vector Search When RAM Gets Too Expensive: On-Disk vs. In-Memory ANN Indexes appeared first on Towards Data Science.",
+    "date": "2026-07-25",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Aborde un problème technique crucial dans le déploiement d'index vectoriels à grande échelle, offrant des solutions pratiques pour gérer les coûts de mémoire. La comparaison on-disk vs in-memory est une avancée significative pour l'optimisation des performances et des coûts.",
+    "tags": [
+      "vector search",
+      "ANN",
+      "HNSW",
+      "SPANN",
+      "DiskANN",
+      "optimisation",
+      "coût"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
     "url": "https://www.producthunt.com/products/idledev",
     "url_hash": "09a38a80865d743a758abfa141f20c28",
     "titre": "IdleDev",
@@ -14953,6 +15057,30 @@
     "score_composite": 6.4
   },
   {
+    "url": "https://www.saastr.com/ai-wont-kill-saas-but-it-will-kill-vendors-that-stopped-shipping-point-solutions-are-most-at-risk/",
+    "url_hash": "592a5c1e5a0cc8db44653dd8ed36a62c",
+    "titre": "AI Won’t Kill SaaS. But It Will Kill Vendors That Stopped Shipping. Point Solutions Are Most at Risk.",
+    "resume": "Let me start with where I actually land on build-vs-buy: I’d rather not build or vibe. Almost ever.  If you can buy it — buy it.   The 90/10 rule. ~90% of the time, you should buy. Even more, really. If you can find it, and it meets 90% of your needs, buy it. Software is... Continue Reading",
+    "date": "2026-07-23",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article présente une analyse stratégique sur l'impact de l'IA dans le secteur SaaS, en soulignant le risque pour les fournisseurs de solutions ponctuelles. Il documente une pratique entrepreneuriale IA.",
+    "tags": [
+      "AI",
+      "SaaS",
+      "entrepreneurship",
+      "strategy"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.4
+  },
+  {
     "url": "https://towardsdatascience.com/build-and-run-an-intelligent-document-processing-idp-system-in-the-cloud/",
     "url_hash": "49d377d904dabfc2eba4ede9d335ec64",
     "titre": "Build and Run an Intelligent Document Processing (IDP) System in the Cloud",
@@ -15346,6 +15474,31 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 7,
+    "score_composite": 6.3500000000000005
+  },
+  {
+    "url": "https://medium.com/@elenamateva/claude-code-and-power-bi-set-up-what-the-connection-enables-and-how-to-set-it-up-properly-1c955c052895?source=rss------power_bi-5",
+    "url_hash": "045507cd752b6ebf58259399b324f2af",
+    "titre": "Claude Code and Power BI set up: what the connection enables, and how to set it up properly",
+    "resume": "If you work with Power BI, you know that DAX has a way of becoming one person’s problem. Just because it takes long enough to get good at…Continue reading on Medium »",
+    "date": "2026-07-23",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article décrit une intégration potentielle entre un modèle IA (Claude) et un outil BI (Power BI). Il offre un tutoriel avancé sur RAG et son application pour un cas d'usage spécifique.",
+    "tags": [
+      "Power BI",
+      "Claude",
+      "DAX",
+      "AI integration",
+      "RAG"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
     "score_composite": 6.3500000000000005
   },
   {
@@ -16060,6 +16213,30 @@
       "Evaluation",
       "LangChain",
       "Reliability"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.300000000000001
+  },
+  {
+    "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-quitting-spotify-podcasts",
+    "url_hash": "3599be8291da469b3d10e5e396c63b27",
+    "titre": "The Pulse: Quitting Spotify Podcasts over reliability",
+    "resume": "Also: Chinese open models match closed ones from Anthropic and OpenAI, AWS’s “heart-attack” billing error, and more",
+    "date": "2026-07-23",
+    "source_name": "Pragmatic Engineer",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article mentionne des modèles IA open-source compétitifs et des problèmes de fiabilité dans des services basés sur l'IA, ce qui est une avancée significative dans le domaine.",
+    "tags": [
+      "AI models",
+      "open-source AI",
+      "reliability",
+      "cloud"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 8,
@@ -17625,6 +17802,32 @@
     "score_composite": 6.1000000000000005
   },
   {
+    "url": "https://medium.com/@NusratGulbarga_data_analyst/how-i-built-an-end-to-end-healthcare-analytics-platform-with-sql-ml-power-bi-fdb1170ae0d9?source=rss------power_bi-5",
+    "url_hash": "7451ff1c083c46993ecf5628db8647e1",
+    "titre": "How I Built an End-to-End Healthcare Analytics Platform with SQL, ML & Power BI",
+    "resume": "Turning 57,000+ patient records into predictive, decision-ready intelligence for hospitalsContinue reading on Medium »",
+    "date": "2026-07-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Documente un nouveau cas d'usage BI/Data/Startup impliquant SQL, ML et Power BI dans le domaine de la santé. Le caractère end-to-end et l'intégration de ML lui confèrent une évolution notable avec une orientation vers des métriques d'impact potentiel.",
+    "tags": [
+      "Power BI",
+      "SQL",
+      "ML",
+      "healthcare",
+      "analytics",
+      "data platform"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.1000000000000005
+  },
+  {
     "url": "https://openai.com/index/what-parameter-golf-taught-us",
     "url_hash": "15ea451729b25046f47bd6a907cf7687",
     "titre": "What Parameter Golf taught us about AI-assisted research",
@@ -17870,6 +18073,30 @@
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 6,
+    "score_composite": 6.1
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/23/insurance-startup-corgi-reportedly-raised-more-money-at-4b-its-third-round-in-eight-weeks/",
+    "url_hash": "c35d420edf0903f8ddfff210cf9e6eb9",
+    "titre": "Insurance startup Corgi reportedly raised more money at $4B — its third round in 8 weeks",
+    "resume": "In the AI-funding frenzy, many startups are raising back-to-back rounds at ever-increasing valuations — but even by those standards, Corgi stands out.",
+    "date": "2026-07-23",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Il s'agit d'une levée de fonds significative pour une startup IA, indiquant une dynamique d'investissement qui redessine un secteur. C'est une information de marché importante pour l'entrepreneuriat tech.",
+    "tags": [
+      "startup",
+      "AI funding",
+      "venture capital",
+      "insurance tech"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 9,
     "score_composite": 6.1
   },
   {
@@ -18504,6 +18731,31 @@
       "generation video",
       "generation audio",
       "generative AI"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.050000000000001
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+    "url_hash": "0a457876b00708b004db5591fc350d72",
+    "titre": "Anthropic updates Claude voice mode with more capable models",
+    "resume": "Claude's new voice model will let you reschedule your meeting or draft an email.",
+    "date": "2026-07-23",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Mise à jour significative d'un modèle IA (Claude) avec de nouvelles capacités vocales. Cela représente une avancée dans le domaine des agents IA et leurs interactions.",
+    "tags": [
+      "Claude",
+      "Anthropic",
+      "AI models",
+      "voice AI",
+      "AI agents"
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 8,
@@ -22816,6 +23068,32 @@
     "score_composite": 5.6
   },
   {
+    "url": "https://medium.com/@dumoaby/transforming-retail-sales-data-into-actionable-insights-an-end-to-end-power-bi-case-study-4baa34a7c177?source=rss------power_bi-5",
+    "url_hash": "17b18e38898c2b7a3db7705fdfc37dfb",
+    "titre": "Transforming Retail Sales Data into Actionable Insights: An End-to-End Power BI Case Study",
+    "resume": "How I built an interactive Sales Performance Dashboard for BrightMart using Power BI to transform raw transactional data into strategic…Continue reading on Medium »",
+    "date": "2026-07-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Présente un cas d'usage BI bien documenté avec Power BI pour transformer des données de vente. L'article apporte une valeur d'évolution notable en montrant un processus end-to-end et les métriques potentielles.",
+    "tags": [
+      "Power BI",
+      "BI",
+      "retail",
+      "cas d'usage",
+      "data analytics",
+      "tableau de bord"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.6
+  },
+  {
     "url": "https://openai.com/index/building-codex-windows-sandbox",
     "url_hash": "49a108cb408a06b5fd249aef57187ddd",
     "titre": "Building a safe, effective sandbox to enable Codex on Windows",
@@ -25848,6 +26126,56 @@
     "score_composite": 5.3
   },
   {
+    "url": "https://medium.com/munchy-bytes/my-journey-researching-ai-in-power-bi-7f84f0f2e3af?source=rss------power_bi-5",
+    "url_hash": "ccaf92e0146f9357685989bfdb23faa3",
+    "titre": "My Journey Researching AI in Power BI",
+    "resume": "Continue reading on Tech Blog »",
+    "date": "2026-07-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Documente un nouveau cas d'usage concret de l'IA dans Power BI, décrivant une expérience personnelle. L'article est une évolution notable car il partage des apprentissages pratiques, même s'il ne présente pas de nouvelles capacités technologiques.",
+    "tags": [
+      "AI",
+      "Power BI",
+      "business intelligence",
+      "apprentissage",
+      "cas d'usage"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3
+  },
+  {
+    "url": "https://medium.com/@stephenodeleye70/the-funnel-metric-that-surprised-me-when-every-channel-converts-exactly-the-same-00b1d474a37d?source=rss------power_bi-5",
+    "url_hash": "b9d6249087d3d62b7f9175acd9ea2656",
+    "titre": "The Funnel Metric That Surprised Me: When Every Channel Converts Exactly the Same",
+    "resume": "Building a Power BI marketing funnel that challenged my assumptions about customer behavior.Continue reading on Medium »",
+    "date": "2026-07-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Documente un cas d'usage BI avec Power BI axé sur l'analyse de funnel marketing. L'article présente un nouveau cas d'usage avec des métriques et un retour d'expérience qui le rendent une évolution notable.",
+    "tags": [
+      "Power BI",
+      "marketing funnel",
+      "BI",
+      "métriques",
+      "analyse client"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3
+  },
+  {
     "url": "https://huggingface.co/blog/multimodal-sentence-transformers",
     "url_hash": "aeed5283fa2292a239084f82e2ac66b8",
     "titre": "Multimodal Embedding & Reranker Models with Sentence Transformers",
@@ -27192,6 +27520,32 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.15
+  },
+  {
+    "url": "https://techcrunch.com/2026/07/25/elon-musks-boring-company-reportedly-raising-funding-at-a-20-billion-valuation/",
+    "url_hash": "9f1c697c2a57356fd8fab0b0444d8405",
+    "titre": "Elon Musk’s Boring Company reportedly raising funding at a $20 billion valuation",
+    "resume": "Elon Musk's tunneling startup is reportedly in talks for a major new funding round.",
+    "date": "2026-07-25",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Annonce une levée de fonds significative pour une entreprise tech à forte valorisation. Cela représente une évolution notable dans le paysage entrepreneurial tech, impactant le secteur de la mobilité et de l'infrastructure.",
+    "tags": [
+      "funding",
+      "startup",
+      "valuation",
+      "The Boring Company",
+      "entrepreneuriat",
+      "tech"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 8,
     "score_composite": 5.15
   },
   {
@@ -29261,6 +29615,31 @@
     "score_composite": 4.8999999999999995
   },
   {
+    "url": "https://medium.com/@ameen.ahmed/does-rising-electricity-demand-squeeze-ontario-households-6fbe4f16a3b9?source=rss------power_bi-5",
+    "url_hash": "62b6e16ede3cfb5ece6a8a2b1e16bcfb",
+    "titre": "Does Rising Electricity Demand Squeeze Ontario Households?",
+    "resume": "An Empirical Power BI Analysis Exploring the Relationship Between Electricity Demand and Household Welfare in OntarioContinue reading on Medium »",
+    "date": "2026-07-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Présente un cas d'usage BI avec Power BI pour analyser l'impact de la demande d'électricité sur les ménages. Le caractère empirique et l'utilisation de métriques pour répondre à une question spécifique en font une évolution notable.",
+    "tags": [
+      "Power BI",
+      "BI",
+      "analyse économique",
+      "données énergétiques",
+      "cas d'usage"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.8999999999999995
+  },
+  {
     "url": "https://towardsdatascience.com/i-let-codespeak-take-over-my-repository/",
     "url_hash": "6be5c0037e07d59ccce52570ca584498",
     "titre": "I Let CodeSpeak Take Over My Repository",
@@ -30415,6 +30794,30 @@
     "score_composite": 4.699999999999999
   },
   {
+    "url": "https://medium.com/@simonohenegyan90/global-hiv-trends-and-treatment-effectiveness-analysis-using-power-bi-f91ed242b611?source=rss------power_bi-5",
+    "url_hash": "783a5db536a37f1f94cf92f49263f462",
+    "titre": "Global HIV Trends and Treatment Effectiveness Analysis Using Power BI",
+    "resume": "Project OverviewContinue reading on Medium »",
+    "date": "2026-07-23",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article présente un cas d'usage concret de Power BI appliqué à une analyse de données de santé, démontrant l'utilité de l'outil pour des analyses métier.",
+    "tags": [
+      "Power BI",
+      "Business Intelligence",
+      "healthcare analytics",
+      "data analysis"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.699999999999999
+  },
+  {
     "url": "https://medium.com/@sophiachen_82986/the-power-query-skill-gap-thats-costing-bi-professionals-thousands-of-hours-a-year-4e670c6431a7?source=rss------power_bi-5",
     "url_hash": "1afa1702dd0e6e253ed8deab7fb65d60",
     "titre": "The Power Query Skill Gap That’s Costing BI Professionals Thousands of Hours a Year",
@@ -31439,6 +31842,34 @@
     "score_composite": 4.55
   },
   {
+    "url": "https://medium.com/@shubhankarbhan/5-data-visualization-bi-tools-compared-71ed1c9757ff?source=rss------power_bi-5",
+    "url_hash": "8ae30c933ad5829cdb2b26395ba3289b",
+    "titre": "5 Data Visualization & BI Tools, Compared",
+    "resume": "A hands-on look at Tableau, Power BI, Looker Studio, Excel, and Google Charts — with a real chart built in eachContinue reading on Medium »",
+    "date": "2026-07-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Offre un comparatif d'outils BI avec une approche 'hands-on' et des exemples concrets de graphiques. Il s'agit d'une information utile pour les professionnels qui cherchent à évaluer différentes solutions.",
+    "tags": [
+      "BI",
+      "Data Visualization",
+      "Tableau",
+      "Power BI",
+      "Looker Studio",
+      "Excel",
+      "Google Charts",
+      "comparatif"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.55
+  },
+  {
     "url": "https://towardsdatascience.com/how-to-get-the-most-out-of-claude-fable-5/",
     "url_hash": "faffa5faf4aa9a9f7ad716afb8c6bac8",
     "titre": "How to Get the Most Out of Claude Fable 5",
@@ -32138,6 +32569,31 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 7,
+    "score_composite": 4.4
+  },
+  {
+    "url": "https://medium.com/@sultan.jamshed10/star-schema-vs-snowflake-schema-in-power-bi-a-beginner-friendly-guide-93a1ca8a53db?source=rss------power_bi-5",
+    "url_hash": "e2f09a619ee1973f4e10c86680415afe",
+    "titre": "Star Schema vs Snowflake Schema in Power BI: A Beginner-Friendly Guide",
+    "resume": "Star Schema vs Snowflake Schema: Which Data Model Should You Use?Continue reading on Medium »",
+    "date": "2026-07-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Fournit un guide d'introduction sur les schémas étoile et flocon dans Power BI. Cet article est une information utile car il traite d'une pratique BI établie, rendue accessible aux débutants.",
+    "tags": [
+      "Power BI",
+      "data modeling",
+      "star schema",
+      "snowflake schema",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
     "score_composite": 4.4
   },
   {
@@ -36413,6 +36869,29 @@
     "score_composite": 2.7
   },
   {
+    "url": "https://medium.com/@richuemexo/power-bi-course-near-me-electronic-city-bangalore-learn-business-intelligence-with-practical-5486d7f8d425?source=rss------power_bi-5",
+    "url_hash": "76f1eeeaae20d800ac58abc2805d6e10",
+    "titre": "Power BI Course Near Me Electronic City Bangalore — Learn Business Intelligence with Practical…",
+    "resume": "Microsoft Power BI is really important for people who work in fields. It is one of the popular tools for making sense of data and creating…Continue reading on Medium »",
+    "date": "2026-07-23",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'une information sur un cours de formation Power BI. Son intérêt est localisé et ne représente pas une information de fond sur une pratique établie ou une évolution majeure.",
+    "tags": [
+      "Power BI",
+      "Business Intelligence",
+      "training"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 2.7
+  },
+  {
     "url": "https://techcrunch.com/2026/05/23/nuclear-startup-deep-fission-says-its-going-public-again-and-i-have-questions/",
     "url_hash": "85b6e7147c4984fa773c2affb71551b2",
     "titre": "Nuclear startup Deep Fission says it’s going public, again, and I have questions",
@@ -36458,6 +36937,29 @@
     "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 4,
     "score_composite": 2.5500000000000003
+  },
+  {
+    "url": "https://www.producthunt.com/products/codexbar-lite",
+    "url_hash": "7e4f9db3d5711be52f60153cddc78720",
+    "titre": "CodexBar Lite",
+    "resume": "\n            Privacy-first Codex tracker for your macOS menu bar\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-07-24",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Il s'agit d'un outil d'assistance au développement (tracker de codex). Son impact est limité à une niche et ne représente pas une avancée majeure.",
+    "tags": [
+      "developer tools",
+      "macOS",
+      "coding assistant"
+    ],
+    "pertinence_bi_consultant": 1,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 2.5
   },
   {
     "url": "https://techcrunch.com/2026/06/09/anker-backed-evotrex-raises-30m-to-build-its-off-grid-rv/",
