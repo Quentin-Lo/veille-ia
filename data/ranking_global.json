@@ -1513,7 +1513,7 @@
     "source_name": "Zapier Blog",
     "categorie_source": "AUTOMATISATION",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "IA_AGENTS",
     "raison_score": "L'annonce de nouveaux modèles GPT (Sol, Terra, Luna) et leur intégration avec Zapier pour l'automatisation de ChatGPT représente une capacité agent nouvelle et reproductible, ainsi qu'une mise à jour significative dans l'écosystème de l'IA conversationnelle.",
@@ -2147,6 +2147,30 @@
       "LiteLLM",
       "vulnérabilité",
       "audit"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.750000000000001
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+    "url_hash": "d10dbf6ad8c7c176d839400a2877b766",
+    "titre": "Building the enterprise environment for agentic AI",
+    "resume": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resilient data access, policy-aware tool use, observability, memory management, and the…",
+    "date": "2026-07-27",
+    "source_name": "MIT Tech Review AI",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article aborde la construction d'un environnement d'entreprise pour les IA agentiques, couvrant des aspects cruciaux comme la capacité CPU, l'accès aux données et la gestion des politiques.",
+    "tags": [
+      "IA Agentique",
+      "Entreprise",
+      "Environnement",
+      "Déploiement"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 8,
@@ -10803,6 +10827,30 @@
     "score_composite": 6.750000000000001
   },
   {
+    "url": "https://venturebeat.com/security/microsoft-launches-ai-cybersecurity-model-agentic-defense-platform-to-cut-enterprise-security-costs",
+    "url_hash": "b193b3bf9b8838bcb7e38d17cfdc72c8",
+    "titre": "Microsoft launches AI cybersecurity model, agentic defense platform to cut enterprise security costs",
+    "resume": "Microsoft opened a new front in the AI security wars on Monday, unveiling its first custom-built cybersecurity model and a sweeping agentic defense platform — and making an argument that could reshape how enterprises buy AI: the future belongs not to the biggest model, but to the cheapest one that's good enough, routed intelligently.The company announced MAI-Cyber-1-Flash, a compact security model developed in-house by its Microsoft AI (MAI) division, embedded inside MDASH, Microsoft's multi-age",
+    "date": "2026-07-27",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Annonce d'un nouveau modèle IA et d'une plateforme de défense agentique visant à réduire les coûts de sécurité d'entreprise, ce qui représente une avancée significative dans l'application de l'IA.",
+    "tags": [
+      "Microsoft",
+      "Cybersécurité",
+      "IA Agentique",
+      "Plateforme"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.750000000000001
+  },
+  {
     "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
     "url_hash": "2f358dc4a504978912f0eb9df7c976e7",
     "titre": "Strengthening societal resilience with Rosalind Biodefense",
@@ -12196,6 +12244,30 @@
       "Cost Optimization",
       "Enterprise AI",
       "ROI"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.650000000000001
+  },
+  {
+    "url": "https://venturebeat.com/technology/kimi-k3s-full-weights-are-here-but-theyre-open-with-a-caveat-what-enterprises-should-know",
+    "url_hash": "e7a02af3a4f6c69feee755aa60b655cc",
+    "titre": "Kimi K3's full weights are here, but they're 'open' with a caveat: What enterprises should know",
+    "resume": "Chinese AI startup Moonshot AI, creators of the increasingly famous \"Kimi K\" family of powerful, open AI models, today released the full weights for its largest and most performant version yet — Kimi K3. But enterprises evaluating the model should read the attached custom Kimi K3 usage license as carefully as the benchmark charts.VentureBeat previously covered Kimi K3 when it debuted through Moonshot's hosted API earlier this month, including its 2.8 trillion-parameter architecture, one million-",
+    "date": "2026-07-28",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Publication des poids complets d'un modèle IA performant (Kimi K3) avec une licence spécifique pour les entreprises. L'aspect 'open' avec une 'caveat' est un sujet d'actualité important.",
+    "tags": [
+      "LLM",
+      "open source",
+      "enterprise AI",
+      "licensing"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -14329,6 +14401,30 @@
     "score_composite": 6.500000000000001
   },
   {
+    "url": "https://www.marktechpost.com/2026/07/27/kimi-ai-and-kvcache-ai-open-sources-agentenv/",
+    "url_hash": "bb9255bcb9ec2e93b44df0c288b5a504",
+    "titre": "Kimi AI and kvcache-ai Open Sources ‘AgentENV’: A Distributed System that Powers Agentic Reinforcement Learning (RL) Training for Kimi K3",
+    "resume": "Moonshot AI's Kimi team and kvcache-ai open-sourced AgentENV (AENV) under MIT, as part of Kimi K3 Open Day. It runs agent sandboxes as Firecracker microVMs with millisecond snapshot, resume, and 16-way fork, behind an E2B-compatible API.\nThe post Kimi AI and kvcache-ai Open Sources ‘AgentENV’: A Distributed System that Powers Agentic Reinforcement Learning (RL) Training for Kimi K3 appeared first on MarkTechPost.",
+    "date": "2026-07-27",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Publication en open-source d'un système distribué (AgentENV) pour l'entraînement RL d'agents, spécifiquement pour Kimi K3. La mise à disposition d'une infrastructure pour l'IA agentique est significative.",
+    "tags": [
+      "AI agents",
+      "open source",
+      "reinforcement learning",
+      "distributed system"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.500000000000001
+  },
+  {
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
     "url_hash": "c93509b534a115d9d6eb9d1ae8c538cb",
     "titre": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
@@ -15494,6 +15590,55 @@
     "score_composite": 6.350000000000001
   },
   {
+    "url": "https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym/",
+    "url_hash": "9ba89d4ce57f1b7754f9a753871bf99f",
+    "titre": "Microsoft AI Releases MAI-Cyber-1-Flash: A 5B-Active-Parameter Cyber Model That Pushes MDASH to 95.95% on CyberGym",
+    "resume": "Microsoft AI has released MAI-Cyber-1-Flash, its first model built specifically for cyber defense. It is a 137B total, 5B active sparse MoE fine-tune of MAI-Code-1-Flash with a 256k context window. The model does not ship as a standalone endpoint — it runs inside MDASH, Microsoft's multi-model agentic scanning harness, where it handles up to 90% of tasks and pushes the system to 95.95% on CyberGym.\nThe post Microsoft AI Releases MAI-Cyber-1-Flash: A 5B-Active-Parameter Cyber Model That Pushes MD",
+    "date": "2026-07-28",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Annonce d'un nouveau modèle IA spécialisé pour la cybersécurité avec des performances quantifiées. L'intégration dans un système d'agents (MDASH) et un contexte large (256k) sont des avancées notables.",
+    "tags": [
+      "cybersecurity",
+      "AI model",
+      "agent",
+      "Microsoft"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.350000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/27/perplexity-releases-pplx/",
+    "url_hash": "7966439dda81be30e2d0325f1c3d9c61",
+    "titre": "Perplexity Releases pplx, a Single-Binary CLI That Puts Its Search API in the Terminal for Coding Agents",
+    "resume": "Perplexity has released pplx, an official command line client for its Search API. The tool exposes two commands — pplx search web and pplx content fetch — and returns exactly one JSON object on stdout. It ships as a checksum-verified single binary for macOS arm64 and Linux, alongside an Agent Skill for Claude Code, Codex CLI and any harness that can read a URL.\nThe post Perplexity Releases pplx, a Single-Binary CLI That Puts Its Search API in the Terminal for Coding Agents appeared first on Mark",
+    "date": "2026-07-27",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article décrit une nouvelle capacité d'agent reproductible via un outil CLI, facilitant l'intégration de l'API de recherche de Perplexity pour les développeurs.",
+    "tags": [
+      "Perplexity",
+      "CLI",
+      "API",
+      "Agents",
+      "Développement"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.350000000000001
+  },
+  {
     "url": "https://medium.datadriveninvestor.com/power-bi-is-finally-code-automating-semantic-model-governance-via-tmdl-eb7ba10d707c?source=rss------power_bi-5",
     "url_hash": "5a12a267218fbecfe4da26b670b442f4",
     "titre": "Power BI is Finally Code: Automating Semantic Model Governance via TMDL",
@@ -16361,6 +16506,30 @@
     "score_composite": 6.300000000000001
   },
   {
+    "url": "https://itzzpankaj004.medium.com/building-your-first-end-to-end-microsoft-fabric-pipeline-a-hands-on-guide-4d78372d2584?source=rss------power_bi-5",
+    "url_hash": "5c65f177419c0a768b3e69d5aacca806",
+    "titre": "Building Your First End-to-End Microsoft Fabric Pipeline: A Hands-On Guide",
+    "resume": "In Part 1, we covered why Microsoft Fabric exists and how OneLake replaces the complex glue between separate cloud services.Continue reading on Medium »",
+    "date": "2026-07-28",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Guide pratique et 'hands-on' pour construire un pipeline de données de bout en bout avec Microsoft Fabric. Illustre un cas d'usage concret sur une plateforme data moderne.",
+    "tags": [
+      "Microsoft Fabric",
+      "data pipeline",
+      "tutorial",
+      "data engineering"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.300000000000001
+  },
+  {
     "url": "https://www.producthunt.com/products/robinhood",
     "url_hash": "2a6a2deeccf7f2ddd0ca1c88fb336e28",
     "titre": "Robinhood Agentic Trading",
@@ -16873,6 +17042,31 @@
       "OpenSpace",
       "tutorial",
       "MLOps"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.200000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/07/27/designing-skill-driven-financial-analysis-agents-with-claude-python-mcp-connectors-and-automated-deliverables/",
+    "url_hash": "1f4b87705fc7481b7f6e7166776198dd",
+    "titre": "Designing Skill-Driven Financial Analysis Agents with Claude, Python, MCP Connectors, and Automated Deliverables",
+    "resume": "In this tutorial, we build an advanced workflow around Anthropic’s financial-services repository and reproduce its skill-driven architecture in pure Python. We begin by installing the required libraries, cloning the repository, and programmatically mapping its agents, vertical plugins, partner integrations, managed-agent cookbooks, and financial analysis skills. We then parse the repository’s SKILL.md files into a searchable […]\nThe post Designing Skill-Driven Financial Analysis Agents with Clau",
+    "date": "2026-07-27",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Tutoriel avancé sur la conception d'agents d'analyse financière basés sur Claude, Python et des connecteurs. Documente un cas d'usage complexe et reproductible pour des agents autonomes.",
+    "tags": [
+      "AI agents",
+      "financial analysis",
+      "Claude",
+      "Python",
+      "tutorial"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
@@ -18951,6 +19145,32 @@
     "score_composite": 6.050000000000001
   },
   {
+    "url": "https://medium.com/@vaibhavsudrik2005/building-a-supply-chain-inventory-analysis-pipeline-using-aws-s3-hadoop-hive-power-bi-41218fa31684?source=rss------power_bi-5",
+    "url_hash": "5f0183b4943b7335eac742b776b9e29f",
+    "titre": "Building a Supply Chain Inventory Analysis Pipeline Using AWS S3, Hadoop, Hive & Power BI",
+    "resume": "Every business depends on an efficient supply chain. Managing inventory, tracking warehouse stock, and analyzing delivery performance are…Continue reading on Medium »",
+    "date": "2026-07-27",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Description d'un pipeline d'analyse d'inventaire de chaîne d'approvisionnement utilisant plusieurs technologies cloud et BI, représentant un cas d'usage documenté avec métriques.",
+    "tags": [
+      "Pipeline de données",
+      "AWS",
+      "Hadoop",
+      "Hive",
+      "Power BI",
+      "Chaîne d'approvisionnement"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.050000000000001
+  },
+  {
     "url": "https://medium.com/@simon.buchi.sb/how-power-bi-quietly-became-one-of-the-most-valuable-business-skills-695f56b9110b?source=rss------power_bi-5",
     "url_hash": "60d95ab64e3919f4dd8fc99d1562249d",
     "titre": "How Power BI Quietly Became One of the Most Valuable Business Skills",
@@ -19263,6 +19483,31 @@
       "IA",
       "Copilot",
       "tableau de bord"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 6.0
+  },
+  {
+    "url": "https://medium.com/@AIAnalyticsWithNadiya/how-i-reduced-a-power-bi-visual-from-23-seconds-to-8-seconds-a-real-performance-tuning-case-study-21538321ca7f?source=rss------power_bi-5",
+    "url_hash": "b7b8dade71ede7f4b15f3e73544f377b",
+    "titre": "How I Reduced a Power BI Visual from 23 Seconds to 8 Seconds: A Real Performance Tuning Case Study",
+    "resume": "A slow Power BI report isn’t always caused by complex DAX or massive datasets.Continue reading on Medium »",
+    "date": "2026-07-27",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Étude de cas documentée avec métriques sur l'optimisation des performances d'un visuel Power BI, montrant une évolution notable dans les pratiques BI.",
+    "tags": [
+      "Power BI",
+      "Performance",
+      "Optimisation",
+      "DAX",
+      "Étude de cas"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 5,
@@ -21994,6 +22239,30 @@
     "score_composite": 5.75
   },
   {
+    "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/",
+    "url_hash": "470d3cc5669e08e80b474a9844ee89bf",
+    "titre": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
+    "resume": "Cursor says India is now its third-largest market globally and plans to expand local hiring and enterprise sales.",
+    "date": "2026-07-27",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Annonce d'une expansion majeure (Inde) et d'une stratégie de prix localisée pour Cursor, un IDE IA. Le contexte d'une acquisition imminente (SpaceX) ajoute à l'intérêt stratégique.",
+    "tags": [
+      "AI IDE",
+      "startup",
+      "market expansion",
+      "acquisition"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 5.75
+  },
+  {
     "url": "https://zapier.com/blog/agent-harness",
     "url_hash": "65ee11f48dca6566d04d6a3fefbec380",
     "titre": "What is an agent harness?",
@@ -22512,6 +22781,31 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 9,
+    "score_composite": 5.7
+  },
+  {
+    "url": "https://medium.com/@adebamowoayomide01/turning-10-000-flight-bookings-into-an-executive-power-bi-dashboard-a-skylink-travel-group-case-d1a39c6e8bb4?source=rss------power_bi-5",
+    "url_hash": "2ee86fa95104162d5b2619f462fa3491",
+    "titre": "Turning 10,000 Flight Bookings into an Executive Power BI Dashboard: A SkyLink Travel Group Case…",
+    "resume": "How I transformed raw airline booking data into a 3-page interactive dashboard delivering route profitability, traveler demand, and…Continue reading on Medium »",
+    "date": "2026-07-27",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article présente un nouveau cas d'usage BI documenté avec des métriques sur la transformation de données de réservations aériennes en un tableau de bord exécutif Power BI.",
+    "tags": [
+      "Power BI",
+      "Tableau de bord",
+      "Business Intelligence",
+      "Transport aérien",
+      "DataViz"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
     "score_composite": 5.7
   },
   {
@@ -23250,6 +23544,31 @@
       "security",
       "reward hacking",
       "LLM incident"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.6000000000000005
+  },
+  {
+    "url": "https://towardsdatascience.com/how-i-reproduced-bm25-dense-retrieval-and-splade-on-a-16gb-macbook/",
+    "url_hash": "abb96a04f2203ebab29669bc709b7fef",
+    "titre": "How I Reproduced BM25, Dense Retrieval, and SPLADE on a 16GB MacBook",
+    "resume": "A practical reproduction of three retrieval baselines, including the crashes, fixes, and score checks that matter for RAG systems.\nThe post How I Reproduced BM25, Dense Retrieval, and SPLADE on a 16GB MacBook appeared first on Towards Data Science.",
+    "date": "2026-07-27",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Un tutoriel avancé sur la reproduction de modèles de récupération, démontrant une capacité reproductible et des métriques pour des systèmes RAG sur du matériel limité.",
+    "tags": [
+      "RAG",
+      "BM25",
+      "Dense Retrieval",
+      "SPLADE",
+      "Tutoriel"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 6,
@@ -24085,6 +24404,30 @@
     "score_composite": 5.550000000000001
   },
   {
+    "url": "https://www.marktechpost.com/2026/07/28/deploying-a-1-bit-bonsai-27b-model-with-prismml-llama-cpp-and-openai-compatible-local-inference-workflows/",
+    "url_hash": "21917608727fbe76954e86ef620ec305",
+    "titre": "Deploying a 1-Bit Bonsai-27B Model with PrismML llama.cpp and OpenAI-Compatible Local Inference Workflows",
+    "resume": "In this tutorial, we deploy the 1-bit Bonsai-27B language model using the PrismML fork of llama.cpp, which provides the specialized CUDA kernels required to decode the model’s Q1_0_g128 GGUF quantization format\nThe post Deploying a 1-Bit Bonsai-27B Model with PrismML llama.cpp and OpenAI-Compatible Local Inference Workflows appeared first on MarkTechPost.",
+    "date": "2026-07-28",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Tutoriel avancé sur le déploiement d'un modèle de langage quantifié (1-bit Bonsai-27B) avec des outils spécifiques (PrismML, llama.cpp). Documente une pratique technique avancée.",
+    "tags": [
+      "LLM",
+      "quantization",
+      "local inference",
+      "tutorial"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.550000000000001
+  },
+  {
     "url": "https://medium.com/powerbi-microsoft-fabric/how-microsoft-fabric-is-different-from-power-bi-c495674c1fc5?source=rss------power_bi-5",
     "url_hash": "eae6c99644e9cc692dae0959f324214a",
     "titre": "How Microsoft Fabric is Different from Power BI",
@@ -24743,6 +25086,29 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.5
+  },
+  {
+    "url": "https://www.producthunt.com/products/lamoom",
+    "url_hash": "f90d5c629e788c7096f5ee038f9d6841",
+    "titre": "Lamoom",
+    "resume": "\n            Run agent apps inside your Claude or sell your own\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-07-28",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Présentation d'un nouvel outil (Lamoom) permettant de faire tourner des applications agents sur Claude ou de vendre les siens. Représente une évolution dans l'écosystème des agents IA.",
+    "tags": [
+      "AI agents",
+      "Claude",
+      "developer tool"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
     "score_composite": 5.5
   },
   {
@@ -28735,6 +29101,30 @@
     "score_composite": 5.0
   },
   {
+    "url": "https://medium.com/@oluwafikayore/the-dax-concepts-that-actually-save-you-time-in-power-bi-f193466f5b8f?source=rss------power_bi-5",
+    "url_hash": "0fe5c2b552253d897ad33c81e925ce2a",
+    "titre": "The DAX concepts that actually save you time in Power BI",
+    "resume": "I still remember the afternoon a client’s Power BI report crashed my laptop’s fan into overdrive.Continue reading on Medium »",
+    "date": "2026-07-27",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Un tutoriel avancé sur les concepts DAX qui permettent de gagner du temps dans Power BI, considéré comme une mise à jour importante pour les utilisateurs existants de l'outil.",
+    "tags": [
+      "Power BI",
+      "DAX",
+      "Tutoriel",
+      "Performance"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 5.0
+  },
+  {
     "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
     "url_hash": "1e29a367c6ea16065c34075b67b91e3f",
     "titre": "GPT-5.5 Bio Bug Bounty",
@@ -29800,6 +30190,57 @@
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.9
+  },
+  {
+    "url": "https://medium.com/@lpandi938/which-should-you-learn-first-python-sql-or-power-bi-2026-career-guide-830511e2d3cf?source=rss------power_bi-5",
+    "url_hash": "76460e6ab779d58158013f861d01d74a",
+    "titre": "Which Should You Learn First: Python, SQL, or Power BI? (2026 Career Guide)",
+    "resume": "The data industry is evolving faster than ever, and employers are actively looking for professionals with practical data skills. If you’re…Continue reading on Medium »",
+    "date": "2026-07-28",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Guide de carrière sur le choix des compétences à acquérir dans le domaine de la donnée. Article de fond sur une pratique établie (choix de technologies).",
+    "tags": [
+      "career advice",
+      "data analytics",
+      "Python",
+      "SQL",
+      "Power BI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.9
+  },
+  {
+    "url": "https://medium.com/@thaneitcourses01/sql-excel-python-or-power-bi-what-should-you-learn-first-for-data-analytics-836abdcd47dd?source=rss------power_bi-5",
+    "url_hash": "b9f2ac7c6868f6bed7b88c3035520f54",
+    "titre": "SQL, Excel, Python or Power BI: What Should You Learn First for Data Analytics?",
+    "resume": "In today’s data-driven world, businesses rely heavily on data to make smarter decisions.Continue reading on Medium »",
+    "date": "2026-07-28",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Similaire à l'article précédent, ce guide aborde le choix des compétences pour l'analyse de données, informant sur les outils et langages pertinents.",
+    "tags": [
+      "data analytics",
+      "career",
+      "Python",
+      "SQL",
+      "Excel",
+      "Power BI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 5,
     "score_composite": 4.9
   },
@@ -33125,6 +33566,31 @@
     "score_composite": 4.35
   },
   {
+    "url": "https://zapier.com/blog/mulesoft-vs-zapier",
+    "url_hash": "f59ee308d46efbc8dac971c6174b748d",
+    "titre": "Zapier vs. MuleSoft comparison: Which is best for your enterprise? [2026]",
+    "resume": "In The Office, bumbling boss Michael Scott famously tries to declare bankruptcy by yelling, \"I declare bankruptcy!\" Some enterprises take a similar approach to getting people to use AI—\"I declare that AI is an organizational priority!\"—while leaving all the details for later. But as fun as the move-fast-and-break-things approach is, the inevitable result is agent sprawl, shadow AI, and credentials scattered across a dozen different tools. Zapier is built with these challenges in mind. It offers",
+    "date": "2026-07-27",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Il s'agit d'un comparatif entre Zapier et MuleSoft, utile pour choisir une solution d'automatisation d'entreprise. L'article apporte des données chiffrées pour aider à la décision.",
+    "tags": [
+      "Zapier",
+      "MuleSoft",
+      "automatisation",
+      "entreprise",
+      "comparatif"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.35
+  },
+  {
     "url": "https://medium.com/microsoft-power-bi/when-things-get-weird-with-the-custom-calendars-in-tabular-models-d5a365c9f076?source=rss------power_bi-5",
     "url_hash": "6fbb0a4de6f12e0e83a10d36da70818c",
     "titre": "When things get weird with the Custom Calendars in Tabular models",
@@ -34126,6 +34592,30 @@
     "score_composite": 4.0
   },
   {
+    "url": "https://venturebeat.com/security/new-ransomware-targets-ai-model-weights-and-cant-even-collect-the-ransom",
+    "url_hash": "7103bb575e3810bc78c1faf32b89237d",
+    "titre": "New ransomware targets AI model weights and can't even collect the ransom",
+    "resume": "The same attacker broke into the same internet-facing Langflow server twice, and the second time brought ransomware built to destroy trained AI models. Sysdig's Threat Research Team documented the first campaign on July 1 and the second on July 20. The entry point never changed, but the payload changed completely.Both ran through CVE-2025-3248, a missing-authentication flaw in Langflow's code-validation endpoint that lets anyone reaching the server execute Python on it. In the first, the agent i",
+    "date": "2026-07-27",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Cet article décrit un nouveau type de ransomware ciblant les poids des modèles IA, fournissant des informations utiles sur les menaces émergentes dans le domaine de la sécurité de l'IA.",
+    "tags": [
+      "Ransomware",
+      "Sécurité IA",
+      "Modèles IA",
+      "Cyberattaque"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.0
+  },
+  {
     "url": "https://github.blog/news-insights/policy-news-and-insights/why-age-assurance-laws-matter-for-developers/",
     "url_hash": "b3f69f37cbee157c9170ea8cc0088124",
     "titre": "Why age assurance laws matter for developers",
@@ -34490,6 +34980,30 @@
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 3,
     "score_composite": 3.9000000000000004
+  },
+  {
+    "url": "https://venturebeat.com/technology/uh-oh-some-claude-shared-conversations-and-artifacts-appear-to-be-indexed-and-publicly-accessible-on-google-search",
+    "url_hash": "4e100638f1bc9e815a64ed727bbc58ff",
+    "titre": "Uh-oh: Some Claude shared conversations and Artifacts appear to be indexed and publicly accessible on Google Search",
+    "resume": "Over the weekend, Reddit user -void1 posted an alarming discovery on the r/ClaudeAI subreddit: some conversations that users of Anthropic's Claude AI chatbot had made \"shareable\" via a link were being indexed by Google Search, and could be clicked on and accessed by seemingly anyone.The conversation took off on the social networks X and Reddit, the latter with thousands of upvotes and comments, many expressing concern about user privacy and information security, and the additional finding by use",
+    "date": "2026-07-27",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Cet article révèle un problème de sécurité lié à l'indexation de conversations partagées d'un modèle IA, offrant une information utile sur les risques liés à la confidentialité.",
+    "tags": [
+      "Claude AI",
+      "Confidentialité",
+      "Sécurité",
+      "IA"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.8500000000000005
   },
   {
     "url": "https://medium.com/@Dev_Coder/why-your-business-needs-professional-power-bi-consulting-services-in-2026-7752f3635758?source=rss------power_bi-5",
