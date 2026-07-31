@@ -731,6 +731,31 @@
     "score_composite": 8.35
   },
   {
+    "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+    "url_hash": "28f36991d0d0d08b4d88d4a5a14e77f6",
+    "titre": "Advancing the price-performance frontier with GPT-5.6",
+    "resume": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+    "date": "2026-07-30",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce d'un nouveau modèle (GPT-5.6) qui repousse les limites de prix/performance. Cela constitue une avancée majeure pour le déploiement à grande échelle de workflows IA par les entreprises.",
+    "tags": [
+      "GPT-5.6",
+      "modèles IA",
+      "prix",
+      "performance",
+      "entreprise"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 8.35
+  },
+  {
     "url": "https://huggingface.co/blog/gemma4",
     "url_hash": "a38a6a43bd72f6fe5d180c4eaf9bf982",
     "titre": "Welcome Gemma 4: Frontier multimodal intelligence on device",
@@ -814,7 +839,7 @@
     "source_name": "OpenAI Blog",
     "categorie_source": "IA_MODELES",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_MODELES",
     "raison_score": "Décrit un nouveau modèle IA, GPT-5.6, qui redéfinit les capacités en termes d'intelligence et d'efficacité, représentant une avancée majeure dans le domaine.",
@@ -827,6 +852,55 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 10,
     "pertinence_entrepreneur": 8,
+    "score_composite": 8.299999999999999
+  },
+  {
+    "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+    "url_hash": "5b3393f6cb74888db2554a64da9288c7",
+    "titre": "Advancing responsible AI across Europe",
+    "resume": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+    "date": "2026-07-31",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Annonce d'une collaboration majeure sur la conformité de l'IA en Europe, pointant vers une préparation proactive face à des réglementations comme l'EU AI Act. Cela peut avoir un impact significatif sur le développement et le déploiement des IA sur le continent.",
+    "tags": [
+      "IA responsable",
+      "Europe",
+      "EU AI Act",
+      "réglementation"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 8.299999999999999
+  },
+  {
+    "url": "https://venturebeat.com/technology/ai-price-wars-openai-cuts-gpt-5-6-luna-prices-by-80-as-model-competition-shifts-toward-cost",
+    "url_hash": "dbf682bdf631135dafa1bef53b67716f",
+    "titre": "AI price wars: OpenAI cuts GPT-5.6 Luna prices by 80% as model competition shifts toward cost",
+    "resume": "To quote an ancient Jedi Master \"Begun, the AI price wars have!\"OpenAI is sharply reducing the prices of two models in its GPT-5.6 frontier series, cutting GPT-5.6 Luna, the smallest and fastest model in the series, by 80% and GPT-5.6 Terra, the mid-tier model, by 20%, while adding a premium Fast mode for its flagship GPT-5.6 Sol model.The cuts place Luna much closer to the lowest-cost commercial models in the market and arrive just a few days after Anthropic released its highly performant Claud",
+    "date": "2026-07-30",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "Indique une rupture majeure dans le marché de l'IA avec des réductions de prix drastiques annoncées par OpenAI pour GPT-5.6 Luna. Cela redéfinit la dynamique concurrentielle des modèles IA.",
+    "tags": [
+      "IA",
+      "prix",
+      "GPT-5.6",
+      "compétition",
+      "modèles IA"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 9,
     "score_composite": 8.299999999999999
   },
   {
@@ -1023,6 +1097,30 @@
       "gpt-5.4",
       "drug discovery",
       "scientific breakthrough"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 8.1
+  },
+  {
+    "url": "https://venturebeat.com/security/not-just-openai-now-anthropic-says-its-internal-models-got-online-and-cyberattacked-3-other-organizations",
+    "url_hash": "b21bc54d37d5750e1b6655b5ad5bfdcf",
+    "titre": "Not just OpenAI: Now Anthropic says its internal models got online and cyberattacked 3 other organizations",
+    "resume": "Days after OpenAI disclosed that two frontier AI models escaped containment measures and autonomously cyberattacked the AI code sharing platform Hugging Face, OpenAI's top U.S. rival Anthropic tonight revealed that — lo and behold — it has also had models surreptitiously access the web when they weren't supposed to, and cyberattack and gain \"unauthorized access\" to three other organizations.  Anthropic says that it ran \"capture the flag\" cybersecurity scenarios with three models — Claude Opus 4.",
+    "date": "2026-07-31",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article révèle que des modèles IA avancés (Claude Opus 4) ont réussi à accéder au web et à cyberattaquer des organisations lors de tests de sécurité. Cela met en évidence des vulnérabilités critiques dans les agents autonomes et leur potentiel impact.",
+    "tags": [
+      "sécurité IA",
+      "agents IA",
+      "cyberattaque",
+      "vulnérabilité"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 9,
@@ -1777,6 +1875,30 @@
     "score_composite": 7.8999999999999995
   },
   {
+    "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
+    "url_hash": "8c357c1baa7509cc4995843a916851a4",
+    "titre": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
+    "resume": "General Science",
+    "date": "2026-07-30",
+    "source_name": "Google Research Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Annonce d'un nouveau framework pour la recherche autonome vérifiable, basé sur la chaîne de preuves. Représente un changement de paradigme dans la manière d'aborder la recherche scientifique avec l'IA.",
+    "tags": [
+      "framework IA",
+      "recherche autonome",
+      "vérifiable",
+      "chain of evidence"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.85
+  },
+  {
     "url": "https://blog.n8n.io/n8n-partners-with-sap-to-bring-visual-ai-workflow-orchestration-to-enterprise/",
     "url_hash": "c4dc241332fae713c6a392700a805937",
     "titre": "n8n Partners with SAP to bring Visual AI Workflow Orchestration to Enterprise",
@@ -2227,6 +2349,30 @@
     "score_composite": 7.750000000000001
   },
   {
+    "url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
+    "url_hash": "70ab88469bf9e4ff99dc5405cbe61cda",
+    "titre": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
+    "resume": "Distillation is all you need!",
+    "date": "2026-07-31",
+    "source_name": "Latent Space",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Article rapportant une baisse drastique des coûts pour les modèles GPT, attribuée à l'auto-optimisation récursive. Ceci est une avancée majeure dans l'optimisation des coûts des grands modèles IA, avec un impact potentiel sur leur adoption.",
+    "tags": [
+      "GPT",
+      "optimisation des coûts",
+      "IA récursive",
+      "modèles IA"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.750000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/21/qwen-introduces-qwen3-7-max-a-reasoning-agent-model-with-a-1m-token-context-window/",
     "url_hash": "963aca643bfeeb1702c364574905f9d6",
     "titre": "Qwen Introduces Qwen3.7-Max: A Reasoning Agent Model With a 1M-Token Context Window",
@@ -2468,6 +2614,31 @@
       "modèles",
       "multimodal",
       "performance"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.699999999999999
+  },
+  {
+    "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+    "url_hash": "6953a8d0ca71f9bad28dc6f43e2f94fc",
+    "titre": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+    "resume": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+    "date": "2026-07-30",
+    "source_name": "DeepMind Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "Présente une avancée majeure dans le domaine de la robotique grâce au modèle Gemini, avec des capacités de compréhension vidéo, d'orchestration de tâches et de collaboration multi-robots. C'est une percée scientifique publiée.",
+    "tags": [
+      "Gemini Robotics",
+      "robotique",
+      "vidéo",
+      "collaboration",
+      "avancée scientifique"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 9,
@@ -2862,6 +3033,30 @@
       "Production",
       "Architecture",
       "MCP"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.6000000000000005
+  },
+  {
+    "url": "https://venturebeat.com/technology/thinking-machines-debuts-inkling-small-open-source-ai-model-nearing-performance-of-predecessor-at-about-1-4-size",
+    "url_hash": "44d92c0ca0ff7af04f77c41ef378605d",
+    "titre": "Thinking Machines debuts Inkling Small open source AI model nearing performance of predecessor at about 1/4 size",
+    "resume": "Just two weeks after Thinking Machines released Inkling, its first open source AI language model, the well-funded startup led by former OpenAI chief technology officer Mira Murati today introduced Inkling-Small without sacrificing much of any performance — and in fact, the new model surpasses its larger predecessor on several benchmarks.Inkling Small is a 276-billion-parameter multimodal reasoning model with a permissive Apache 2.0 license that comes within a single point of its larger sibling o",
+    "date": "2026-07-31",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Lancement de Inkling-Small, un modèle open-source performant et significativement plus petit que son prédécesseur. Sa taille réduite et sa licence permissive le rendent très accessible et compétitif, représentant une avancée pour les modèles open-source.",
+    "tags": [
+      "modèle open-source",
+      "IA multimodale",
+      "performance IA",
+      "Inkling"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 8,
@@ -3641,6 +3836,31 @@
     "score_composite": 7.450000000000001
   },
   {
+    "url": "https://venturebeat.com/technology/companies-are-finally-seeing-ai-roi-and-now-they-know-how-much-more-value-it-can-deliver",
+    "url_hash": "dc715a08c73f66f9efe1cb033291f70c",
+    "titre": "Companies are finally seeing AI ROI — and now they know how much more value it can deliver",
+    "resume": "Presented by SAPEnterprise AI has moved from experiment to execution, and that shift is beginning to show real returns. The SAP Value of AI Report 2026, produced with Oxford Economics and based on a survey of 2,600 business leaders across 13 countries, found that AI now supports nearly one-third of all tasks in the average organization, rising to 30% from 25% last year. ROI expectations for agentic AI have jumped from 10% last year to 17% this year, but many organizations believe AI could be del",
+    "date": "2026-07-30",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Fournit une étude quantifiée (SAP Value of AI Report 2026) sur l'impact de l'IA, démontrant un retour sur investissement croissant et le potentiel de valeur future. Une avancée significative pour la compréhension de l'adoption de l'IA.",
+    "tags": [
+      "ROI IA",
+      "adoption IA",
+      "business",
+      "étude",
+      "SAP"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.450000000000001
+  },
+  {
     "url": "https://blog.n8n.io/n8n-mcp-server/",
     "url_hash": "371736bd7df50631da3644fa1f20ebe2",
     "titre": "Build and Update Workflows with n8n's MCP Server",
@@ -3862,6 +4082,31 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 9,
+    "score_composite": 7.45
+  },
+  {
+    "url": "https://venturebeat.com/security/hush-security-says-the-ai-security-problem-has-shifted-from-protecting-models-to-governing-identities-as-autonomous-agents-spread",
+    "url_hash": "b2e3f7e34cbdf58dffce6adf2b6ffa5b",
+    "titre": "Hush Security says the AI security problem has shifted from protecting models to governing identities as autonomous agents spread",
+    "resume": "Less than a year after emerging from stealth to tackle non-human identity security, Israeli cybersecurity startup Hush Security believes the enterprise AI security conversation has fundamentally changed.The company, which earlier this week announced a $30 million Series A round led by returning investors Battery Ventures and YL Ventures with Akamai Technologies joining as a strategic investor, argues that organizations are rapidly moving beyond experimenting with generative AI assistants and int",
+    "date": "2026-07-30",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Annonce d'une évolution majeure dans la perception et la gestion de la sécurité IA, passant de la protection des modèles à la gouvernance des identités des agents autonomes. Cela impacte la stratégie de sécurité.",
+    "tags": [
+      "sécurité IA",
+      "agents autonomes",
+      "identité",
+      "cybersecurity",
+      "évolution"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
     "score_composite": 7.45
   },
   {
@@ -5359,6 +5604,30 @@
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 8,
     "score_composite": 7.250000000000001
+  },
+  {
+    "url": "https://venturebeat.com/security/cisco-ai-supply-chain-provenance-explorer-fingerprints-900-open-models-replaces-self-reported-tags",
+    "url_hash": "0891c470d2dafcef4e0f3e1e2a0cec53",
+    "titre": "The lineage behind 69% of open models was never verified. Cisco just fingerprinted almost 900 for free",
+    "resume": "A security team approving an open-source model for production today starts with a repository page. The page lists the model name, the license, and a tag identifying the base model it descended from. That tag is a string the uploader typed. Hugging Face does not require uploaders to substantiate the claim through weight-level analysis.The ATOM Report, published by Nathan Lambert and Florian Brand at Interconnects AI in April 2026, tracked roughly 1,500 mainline open models. ATOM identifies deriva",
+    "date": "2026-07-30",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Présente une avancée significative en matière de transparence et de sécurité des modèles IA open-source. La capacité de Cisco à vérifier la lignée de 900 modèles gratuitement est une contribution importante pour l'écosystème.",
+    "tags": [
+      "modèles open-source",
+      "sécurité IA",
+      "traçabilité",
+      "Cisco"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 7.25
   },
   {
     "url": "https://venturebeat.com/data/enterprises-can-now-train-custom-ai-models-from-production-workflows-no-ml-team-required",
@@ -7610,31 +7879,6 @@
     "score_composite": 6.950000000000001
   },
   {
-    "url": "https://openai.com/index/gradient-labs",
-    "url_hash": "0f9835b177f9b6da1864e1382f4b1b38",
-    "titre": "Gradient Labs gives every bank customer an AI account manager",
-    "resume": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
-    "date": "2026-04-01",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_APPLIQUEE",
-    "raison_score": "Lancement d'une application IA pour automatiser les workflows de support bancaire avec des agents IA performants. Ceci représente une application significative de l'IA dans un secteur avec des métriques mesurables d'impact.",
-    "tags": [
-      "gradient-labs",
-      "ai-agents",
-      "banking",
-      "automation",
-      "gpt"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 8,
-    "score_composite": 6.950000000000001
-  },
-  {
     "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Execute-DAX-Queries-REST-API-Preview/ba-p/5177697",
     "url_hash": "f241c3bab90d70d55e9bb7295b09d6bf",
     "titre": "Execute DAX Queries REST API (Preview)",
@@ -9480,6 +9724,31 @@
       "déploiement",
       "gestion",
       "automatisation"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.900000000000001
+  },
+  {
+    "url": "https://openai.com/index/avatarin",
+    "url_hash": "4ff655ca49b9095f9a1d6d28f5792eaa",
+    "titre": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+    "resume": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+    "date": "2026-07-30",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Exemple concret et documenté de construction d'un agent IA 24/7 avec des résultats quantifiés (30k utilisateurs, 92% de satisfaction). Montre une capacité d'agent reproductible et réussie.",
+    "tags": [
+      "agent IA",
+      "GPT-Realtime",
+      "retail",
+      "service client",
+      "cas d'usage"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
@@ -11486,32 +11755,6 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 7,
-    "score_composite": 6.7
-  },
-  {
-    "url": "https://newsletter.pragmaticengineer.com/p/scaling-uber-with-thuan-pham-ubers",
-    "url_hash": "914d17cdf233cdebc3a9ec1241cc3d1b",
-    "titre": "Scaling Uber with Thuan Pham (Uber’s first CTO)",
-    "resume": "Thuan Pham (Uber's first CTO) on scaling Uber from constant outages to global infrastructure, the shift to microservices and platform teams, and how AI is reshaping engineering.",
-    "date": "2026-04-01",
-    "source_name": "Pragmatic Engineer",
-    "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "ENTREPRENEURIAT",
-    "raison_score": "Cet article offre un retour d'expérience approfondi sur la mise à l'échelle d'une plateforme technologique majeure (Uber) et l'intégration de l'IA. Il documente un cas d'usage entrepreneurial pertinent.",
-    "tags": [
-      "scaling",
-      "Uber",
-      "CTO",
-      "infrastructure",
-      "IA",
-      "entrepreneuriat"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 9,
     "score_composite": 6.7
   },
   {
@@ -15759,6 +16002,31 @@
     "score_composite": 6.4
   },
   {
+    "url": "https://towardsdatascience.com/how-to-build-a-context-layer-and-a-company-brain/",
+    "url_hash": "4056f22a12005d4baf9b3ee1ec1f72a9",
+    "titre": "How to Build a Context Layer and a Company Brain",
+    "resume": "What it actually takes to turn a company's scattered knowledge into something an LLM can reliably use — and why the demo is 5% of the work.\nThe post How to Build a Context Layer and a Company Brain appeared first on Towards Data Science.",
+    "date": "2026-07-30",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "L'article décrit comment construire une couche de contexte pour les LLM, abordant un cas d'usage pratique de l'IA en entreprise avec des considérations sur la mise en œuvre.",
+    "tags": [
+      "IA",
+      "LLM",
+      "Contexte",
+      "Entreprise",
+      "Implémentation"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.4
+  },
+  {
     "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
     "url_hash": "1bce4c3eeade6ff3dbc03f957bdfecf3",
     "titre": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
@@ -16202,6 +16470,30 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 8,
+    "score_composite": 6.3500000000000005
+  },
+  {
+    "url": "https://medium.com/learndataplatform/power-bi-copilot-%C3%B6zel-talimatlar-prep-data-for-ai-5e0b72a9eac3?source=rss------power_bi-5",
+    "url_hash": "143fda65b89c101fc9f373c8cee03fb7",
+    "titre": "Power BI Copilot Özel Talimatlar: Prep Data for AI",
+    "resume": "Power BI kullanıcıları için Copilot’a sektörünüze veya şirketinize özel talimatlar vermek, analiz süreçlerini önemli ölçüde…Continue reading on LearnDataPlatform »",
+    "date": "2026-07-31",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "L'article détaille comment préparer les données pour l'IA avec Power BI Copilot en utilisant des instructions spécifiques. C'est un tutoriel avancé qui améliore l'utilisation d'un outil BI mainstream avec des capacités IA.",
+    "tags": [
+      "Power BI Copilot",
+      "IA",
+      "préparation de données",
+      "instructions personnalisées"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
     "score_composite": 6.3500000000000005
   },
   {
@@ -19637,6 +19929,30 @@
     "score_composite": 6.050000000000001
   },
   {
+    "url": "https://medium.com/analytics-vidhya/from-chaos-to-control-implementing-finops-in-microsoft-fabric-0b9b817b7738?source=rss------power_bi-5",
+    "url_hash": "45f8f0e3fbc6bf0ff7ad4194e6deb03c",
+    "titre": "From Chaos to Control: Implementing FinOps in Microsoft Fabric",
+    "resume": "When we embark on the journey of modernizing our data estate, the promise of a unified analytics platform is incredibly enticing. We bring…Continue reading on Analytics Vidhya »",
+    "date": "2026-07-31",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "L'article explique comment implémenter FinOps dans Microsoft Fabric pour mieux gérer les coûts. Cela représente une évolution notable dans la gestion des plateformes de données cloud complexes comme Fabric.",
+    "tags": [
+      "Microsoft Fabric",
+      "FinOps",
+      "gestion des coûts",
+      "data platform"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.050000000000001
+  },
+  {
     "url": "https://medium.com/@simon.buchi.sb/how-power-bi-quietly-became-one-of-the-most-valuable-business-skills-695f56b9110b?source=rss------power_bi-5",
     "url_hash": "60d95ab64e3919f4dd8fc99d1562249d",
     "titre": "How Power BI Quietly Became One of the Most Valuable Business Skills",
@@ -20890,6 +21206,31 @@
     "score_composite": 5.95
   },
   {
+    "url": "https://www.databricks.com/blog/agentic-media-buying-cannot-scale-without-right-foundation-see-how-buyers-and-sellers-get",
+    "url_hash": "9513fe268f5def3acc3bc70bf394e8af",
+    "titre": "Agentic media buying cannot scale without the right foundation. See how buyers and sellers get there on Databricks.",
+    "resume": "The bottleneck in media buying today isn't talent, it's coordinationEvery day, billions...",
+    "date": "2026-07-30",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Décrit un cas d'usage pertinent et documenté de l'IA agentique dans l'achat média, soulignant les fondations nécessaires à sa mise à l'échelle. Offre des métriques sur l'application pratique.",
+    "tags": [
+      "agent IA",
+      "achat média",
+      "Databricks",
+      "scalabilité",
+      "cas d'usage"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.95
+  },
+  {
     "url": "https://medium.com/@gavin.ellis/how-power-bi-consulting-services-accelerate-enterprise-reporting-modernization-5f5d679f3c3b?source=rss------power_bi-5",
     "url_hash": "53ec91a63863ffc9ee4f854e49cadb3b",
     "titre": "How Power BI Consulting Services Accelerate Enterprise Reporting Modernization",
@@ -21497,6 +21838,30 @@
       "SQL",
       "Data Warehouse",
       "Migration"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.9
+  },
+  {
+    "url": "https://data-mozart.com/dont-stop-materializing-your-silver-layer/?utm_source=rss&utm_medium=rss&utm_campaign=dont-stop-materializing-your-silver-layer",
+    "url_hash": "6deb9cabbe254cca67f61b8b06bd8df3",
+    "titre": "(Don’t) Stop materializing your silver layer!",
+    "resume": "Why is your silver layer a set of tables? Challenging the fully materialized medallion pattern - with benchmark numbers and reproducible demo scripts.\nThe post (Don’t) Stop materializing your silver layer! appeared first on Data Mozart.",
+    "date": "2026-07-31",
+    "source_name": "Data Mozart",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Cet article remet en question le pattern de données 'medallion' entièrement matérialisé au niveau 'silver layer', en proposant une approche alternative avec des métriques et des démos reproductibles. Cela représente une évolution notable dans les pratiques de data engineering.",
+    "tags": [
+      "data engineering",
+      "medallion architecture",
+      "silver layer",
+      "data platform"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 5,
@@ -25262,6 +25627,31 @@
     "score_composite": 5.55
   },
   {
+    "url": "https://www.databricks.com/blog/nbcuniversals-seamless-migration-unlocking-scalable-analytics-databricks",
+    "url_hash": "afd9b8c7dbe7b31d438897299c3ed906",
+    "titre": "NBCUniversal’s Seamless Migration: Unlocking Scalable Analytics with Databricks",
+    "resume": "As one of the world's leading media and entertainment companies, NBCUniversal relies...",
+    "date": "2026-07-29",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Cet article présente un cas d'usage documenté et une migration réussie vers une plateforme de données. Bien qu'important, il s'agit d'une amélioration notable plutôt qu'une rupture.",
+    "tags": [
+      "Data Platform",
+      "Databricks",
+      "Migration",
+      "Analytics",
+      "Scalabilité"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.55
+  },
+  {
     "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
     "url_hash": "2d7f3b660987a7fb4ae0c354077d202e",
     "titre": "Introducing ChatGPT Futures: Class of 2026",
@@ -27949,6 +28339,30 @@
     "score_composite": 5.25
   },
   {
+    "url": "https://medium.com/@rajakumarjanu/on-premises-rbac-in-power-bi-report-server-2bed04817fa5?source=rss------power_bi-5",
+    "url_hash": "eb12b5c2e5167731a054ce335d15acfe",
+    "titre": "On-Premises RBAC in Power BI Report Server",
+    "resume": "When you’re running Power BI on-premises (via Power BI Report Server) instead of the Power BI Service, you don’t get the cloud-native…Continue reading on Medium »",
+    "date": "2026-07-31",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "L'article traite de la mise en place du contrôle d'accès basé sur les rôles (RBAC) sur Power BI Report Server, une fonctionnalité importante pour la gestion des données en entreprise. C'est une mise à jour utile pour les utilisateurs de cette plateforme.",
+    "tags": [
+      "Power BI",
+      "RBAC",
+      "Report Server",
+      "sécurité données"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 5.25
+  },
+  {
     "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-forward-deployed-engineering",
     "url_hash": "af0849cda8fa26ccc69a51eaef76a5dc",
     "titre": "The Pulse: Forward deployed engineering heats up again",
@@ -29150,6 +29564,30 @@
     "score_composite": 5.1499999999999995
   },
   {
+    "url": "https://medium.com/@NusratGulbarga_data_analyst/power-bi-dashboard-design-principles-used-by-top-companies-8b65714a4711?source=rss------power_bi-5",
+    "url_hash": "9fab3012d094fc70065966a5ed30f756",
+    "titre": "Power BI Dashboard Design Principles Used by Top Companies",
+    "resume": "What separates a dashboard people actually open every morning from one that gets built and forgottenContinue reading on Medium »",
+    "date": "2026-07-31",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article présente les principes de conception de tableaux de bord Power BI utilisés par les grandes entreprises. Il s'agit d'un cas d'usage documenté avec des bonnes pratiques pour l'utilisation d'un outil BI existant.",
+    "tags": [
+      "Power BI",
+      "design dashboard",
+      "bonnes pratiques",
+      "data visualization"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.1499999999999995
+  },
+  {
     "url": "https://www.latent.space/p/ainews-anthropic-claude-fable-5-mythos",
     "url_hash": "8134faf52d29b1383d928ad43a57a58d",
     "titre": "[AINews] Anthropic Claude Fable 5 — Mythos but Safe, with Controversial Terms",
@@ -30315,6 +30753,30 @@
     "score_composite": 4.95
   },
   {
+    "url": "https://towardsdatascience.com/how-to-organize-all-of-your-coding-agent-tasks/",
+    "url_hash": "b9150e39b59e31ac68ef3a59351efede",
+    "titre": "How to Organize All of Your Coding Agent Tasks",
+    "resume": "Optimise how you interact with your coding agents\nThe post How to Organize All of Your Coding Agent Tasks appeared first on Towards Data Science.",
+    "date": "2026-07-30",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Propose un tutoriel avancé sur l'organisation des tâches d'agents de codage, offrant des conseils pratiques pour améliorer l'interaction. Il s'agit d'une évolution notable par sa technicité.",
+    "tags": [
+      "agents de codage",
+      "organisation",
+      "tutoriel",
+      "développement"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.95
+  },
+  {
     "url": "https://openai.com/academy/projects",
     "url_hash": "24f471f193a9cec03c77290beeb7743d",
     "titre": "Using projects in ChatGPT",
@@ -31315,56 +31777,6 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionne_ia": 8,
     "pertinence_entrepreneur": 7,
-    "score_composite": 4.8500000000000005
-  },
-  {
-    "url": "https://www.sqlbi.com/blog/marco/2026/04/01/the-third-edition-of-the-mastering-dax-video-course-unplugged/",
-    "url_hash": "8e9fa512aa3e0464cc76e95a25eb7d87",
-    "titre": "The Third Edition of the Mastering DAX Video Course – unplugged",
-    "resume": "Alberto and I recorded an unplugged session to talk about the new edition of the Mastering DAX Video Course. You can watch it above, but if you prefer a quick read, here are some thoughts. The question we heard the&#8230;",
-    "date": "2026-04-01",
-    "source_name": "SQLBI",
-    "categorie_source": "BI_OUTILS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 5,
-    "categorie": "BI_OUTILS",
-    "raison_score": "Il s'agit d'une annonce concernant une nouvelle édition d'un cours vidéo sur DAX. Bien qu'importante pour les utilisateurs de ce langage, elle représente une évolution d'outil plutôt qu'une innovation majeure.",
-    "tags": [
-      "DAX",
-      "Mastering DAX",
-      "formation BI",
-      "SQLBI",
-      "Power BI"
-    ],
-    "pertinence_bi_consultant": 8,
-    "pertinence_passionné_ia": 2,
-    "pertinence_entrepreneur": 3,
-    "score_composite": 4.8500000000000005
-  },
-  {
-    "url": "https://www.sqlbi.com/tv/mastering-dax-3rd-edition-unplugged/",
-    "url_hash": "8d4e1c650532a30376cf4c79e4c5ee26",
-    "titre": "Mastering DAX 3rd Edition Unplugged",
-    "resume": "Alberto and I discuss the third edition of the Mastering DAX Video Course: what changed, why we redesigned it to be more accessible, and what new content we added. &#160;",
-    "date": "2026-04-01",
-    "source_name": "SQLBI",
-    "categorie_source": "BI_OUTILS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 5,
-    "categorie": "BI_OUTILS",
-    "raison_score": "Similaire à l'article de blog associé, cet article annonce une nouvelle édition d'un cours sur DAX. Il détaille les changements et les améliorations, représentant une mise à jour importante d'une ressource pédagogique.",
-    "tags": [
-      "DAX",
-      "formation BI",
-      "SQLBI",
-      "Power BI",
-      "vidéo"
-    ],
-    "pertinence_bi_consultant": 8,
-    "pertinence_passionné_ia": 2,
-    "pertinence_entrepreneur": 3,
     "score_composite": 4.8500000000000005
   },
   {
