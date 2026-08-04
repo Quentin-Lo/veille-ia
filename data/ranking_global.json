@@ -1062,7 +1062,7 @@
     "source_name": "VentureBeat AI",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_AGENTS",
     "raison_score": "Cet article révèle que des modèles IA avancés (Claude Opus 4) ont réussi à accéder au web et à cyberattaquer des organisations lors de tests de sécurité. Cela met en évidence des vulnérabilités critiques dans les agents autonomes et leur potentiel impact.",
@@ -1675,6 +1675,31 @@
     "score_composite": 7.95
   },
   {
+    "url": "https://www.databricks.com/blog/databricks-completes-acquisition-panther-accelerating-security-lakehouse-era",
+    "url_hash": "29f302c2e1f141a99c3096d90b8c9105",
+    "titre": "Databricks Completes Acquisition of Panther: Accelerating the Security Lakehouse Era",
+    "resume": "Today, we are thrilled to announce that Databricks has officially completed the acquisition...",
+    "date": "2026-08-03",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Acquisition majeure qui redessine potentiellement le paysage du data lakehouse en intégrant des capacités de sécurité avancées. Cela représente une avancée stratégique significative pour Databricks.",
+    "tags": [
+      "databricks",
+      "panther",
+      "data lakehouse",
+      "security",
+      "acquisition"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 7.95
+  },
+  {
     "url": "https://venturebeat.com/infrastructure/microsoft-debuts-surface-rtx-spark-dev-box-to-run-large-ai-models-without-cloud-costs",
     "url_hash": "f275023484a8030f1b11ba4c06563d82",
     "titre": "Microsoft debuts Surface RTX Spark Dev Box to run large AI models without cloud costs",
@@ -1847,6 +1872,31 @@
     "pertinence_bi_consultant": 9,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 7,
+    "score_composite": 7.9
+  },
+  {
+    "url": "https://venturebeat.com/orchestration/asanas-ai-agents-share-memory-across-your-company-but-not-your-secrets",
+    "url_hash": "434fd6f90bd98dbf50e030819143413e",
+    "titre": "Asana's AI agents share memory across your company — but not your secrets",
+    "resume": "Enterprise teams building AI agents keep hitting the same wall: a chatbot that can answer a prompt but can't remember what the last five people asked it, and can't tell you whether last month's version actually worked.In a fireside chat with VentureBeat's Sam Witteveen at VB Transform 2026, Asana's chief product officer, Arnab Bose, unpacked how his team tackled this problem to build a new operating system: Agentic Work Management (AWM). The product treats AI agents as coachable teammates that o",
+    "date": "2026-08-03",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Nouvelle approche documentée pour des agents IA d'entreprise capables de partager une mémoire collective tout en garantissant la confidentialité des données.",
+    "tags": [
+      "AI Agents",
+      "Enterprise AI",
+      "Memory",
+      "Asana",
+      "Security"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 9,
     "score_composite": 7.9
   },
   {
@@ -2491,6 +2541,31 @@
       "Product Management",
       "Automation",
       "Business Transformation"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.7
+  },
+  {
+    "url": "https://venturebeat.com/technology/qwen3-8-max-arrives-with-a-bold-claim-it-outperforms-gpt-5-6-sol-max-and-fable-5-on-agentic-computer-use",
+    "url_hash": "fd8f692b30bf4f3ec428bdeab508806c",
+    "titre": "Qwen3.8-Max arrives with a bold claim: it outperforms GPT-5.6 Sol Max and Fable 5 on agentic computer use",
+    "resume": "Chinese e-commerce and cloud giant Alibaba's famed Qwen team of AI researchers last night unveiled Qwen3.8-Max, a new flagship 2.4-trillion-parameter mixture-of-experts (MoE) multimodal large language model (LLM) that targets one of the most competitive corners of the frontier AI market: autonomous software engineering and long-horizon enterprise work. If the company's published benchmarks hold up under broader independent testing, Qwen3.8-Max doesn't merely compete with today's leading propriet",
+    "date": "2026-08-03",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce d'un nouveau modèle multimodal open-weight avec des performances revendiquées supérieures aux modèles de pointe sur des tâches d'agentivité informatique.",
+    "tags": [
+      "LLM",
+      "Multimodal AI",
+      "AI Agents",
+      "Benchmarking",
+      "Qwen"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 9,
@@ -4133,6 +4208,31 @@
     "score_composite": 7.45
   },
   {
+    "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+    "url_hash": "9be5bdf1245f9d9a6b2713bd01d8c472",
+    "titre": "How we built a realtime system for responsive voice AI in six months",
+    "resume": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+    "date": "2026-08-03",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Démonstration d'une nouvelle capacité IA en temps réel pour des interactions vocales continues, mettant en avant une architecture à faible latence.",
+    "tags": [
+      "AI",
+      "Voice AI",
+      "Real-time",
+      "GPT-Live",
+      "OpenAI"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.45
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/18/nvidia-introduces-a-4-bit-pretraining-methodology-using-nvfp4-validated-on-a-12b-hybrid-mamba-transformer-at-10t-token-horizon/",
     "url_hash": "b028c2570f1c96b8c43dd2d743fe9c50",
     "titre": "NVIDIA Introduces a 4-Bit Pretraining Methodology Using NVFP4, Validated on a 12B Hybrid Mamba-Transformer at 10T Token Horizon",
@@ -4298,6 +4398,31 @@
       "orchestration",
       "déploiement",
       "entreprise"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.400000000000001
+  },
+  {
+    "url": "https://zapier.com/blog/zapier-tables-guide",
+    "url_hash": "b8c0611e236c0c0c8076eb900a75d46a",
+    "titre": "Zapier Tables: Store, move, and act on your data automatically",
+    "resume": "Plenty of tools can store data. But you probably don't need just a holding tank—you need your data to go somewhere and do something. And with most databases, moving data into other apps requires you to lean on integrations that may or may not work reliably. Zapier Tables was designed specifically for AI-powered automation. That means you can use it to build data tables and trigger workflows straight from them. You can even add AI steps to enhance new and existing rows. You also get granular perm",
+    "date": "2026-08-03",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Lancement d'un nouvel outil d'automatisation, Zapier Tables, spécifiquement conçu pour les workflows IA. Il offre une nouvelle capacité pour stocker et agir sur les données automatiquement.",
+    "tags": [
+      "Zapier Tables",
+      "automation",
+      "data management",
+      "AI-powered automation",
+      "new tool"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 7,
@@ -7581,6 +7706,30 @@
     "score_composite": 7.050000000000001
   },
   {
+    "url": "https://www.saastr.com/nues-guided-selling-playbook-took-2-minutes-to-build-the-implementation-still-takes-90-days/",
+    "url_hash": "ade0276562273df6e6ccd89f16d7af08",
+    "titre": "Nue’s Guided Selling Playbook Took 2 Minutes to Build. The Full Implementation Still Takes 90 Days.",
+    "resume": "James McArthur on what AI changes in quote-to-cash, live at SaaStr AI Day James McArthur, VP of Product Advocacy at Nue.io, ran a live demo at SaaStr AI Day this week and let the agent hit its limits on screen, on conference Wi-Fi, in front of everyone. That made it more useful than most vendor... Continue Reading",
+    "date": "2026-08-04",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Nouvelle approche documentée pour la création rapide de playbooks de vente assistée par IA, soulignant la différence entre création et implémentation.",
+    "tags": [
+      "AI Agents",
+      "Guided Selling",
+      "Automation",
+      "Sales"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 7.050000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/24/stepfun-releases-stepaudio-2-5-realtime-an-end-to-end-voice-model-with-roleplay-specific-rlhf-and-paralinguistic-comprehension/",
     "url_hash": "87b78dadfc9ea188a2de1363f34d77d3",
     "titre": "StepFun Releases StepAudio 2.5 Realtime: An End-to-End Voice Model with Roleplay-Specific RLHF and Paralinguistic Comprehension",
@@ -9430,6 +9579,30 @@
       "automatisation",
       "python",
       "langfuse"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://venturebeat.com/orchestration/how-ntt-data-aivista-closes-the-last-mile-of-agentic-ai-for-enterprise-agents",
+    "url_hash": "11e95122fa11bae75bf62b7f83280e26",
+    "titre": "How NTT DATA AIVista closes the last mile of agentic AI for enterprise agents",
+    "resume": "Presented by NTT DATA AIVista At VB Transform 2026, NTT DATA AIVista CEO Bratin Saha joined VentureBeat CEO and editor-in-chief Matt Marshall to discuss the last-mile challenge of operationalizing frontier models in regulated production, where reliability, context, guardrails, and security determine whether AI delivers enterprise value. The conversation centered around the question facing every enterprise now pouring money into AI: how to convert that spending into real, tangible value. \"It's no",
+    "date": "2026-08-03",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Aborde le défi de l'opérationnalisation des IA génératives en production, crucial pour la valeur d'entreprise. Propose une solution pour la dernière étape de déploiement des agents IA.",
+    "tags": [
+      "enterprise AI",
+      "agentic AI",
+      "production AI",
+      "orchestration"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -11318,6 +11491,30 @@
     "score_composite": 6.800000000000001
   },
   {
+    "url": "https://www.latent.space/p/inference-eng",
+    "url_hash": "6100b90806c8de20731c703cb99281af",
+    "titre": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+    "resume": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
+    "date": "2026-08-03",
+    "source_name": "Latent Space",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Une masterclass sur l'ingénierie de l'inférence pour les modèles autoregressifs et de diffusion. L'annonce de levée de fonds à 13 milliards $ suggère une importance significative dans le domaine.",
+    "tags": [
+      "inference engineering",
+      "AI models",
+      "autoregressive models",
+      "diffusion models"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.800000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/",
     "url_hash": "66f4015fb66ba3a1b514c7de8a2f34db",
     "titre": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch",
@@ -12668,6 +12865,30 @@
     "score_composite": 6.7
   },
   {
+    "url": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
+    "url_hash": "28bd26a7c2800ab40b52aed33d834c2d",
+    "titre": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
+    "resume": "Qwen is so back!",
+    "date": "2026-08-04",
+    "source_name": "Latent Space",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Lancement de nouveaux modèles open-weight avec des performances annoncées compétitives pour des tâches complexes.",
+    "tags": [
+      "LLM",
+      "Open-weight",
+      "Coding",
+      "AI Agents"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
     "url": "https://openai.com/index/codex-for-almost-everything",
     "url_hash": "a0464d4374d6d6dfda4d74b47f8c98b0",
     "titre": "Codex for (almost) everything",
@@ -13451,6 +13672,31 @@
       "hallucinations",
       "retrieval",
       "IA"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.65
+  },
+  {
+    "url": "https://towardsdatascience.com/prompt-context-loop-the-three-engineering-layers-every-rag-system-is-built-on/",
+    "url_hash": "6a7fcff3f2c03207912cb906593d0012",
+    "titre": "Prompt, Context, Loop: The Three Engineering Layers Every RAG System Is Built On",
+    "resume": "Enterprise Document Intelligence [Vol.1 #M2] - Every RAG system is built in three engineering layers stacked on one LLM call: prompt (the call itself), context (what fills the model’s window), loop (when the next call fires and when it stops). Knowing which layer you are standing on is half of building and debugging RAG\nThe post Prompt, Context, Loop: The Three Engineering Layers Every RAG System Is Built On appeared first on Towards Data Science.",
+    "date": "2026-08-03",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Détaille les couches d'ingénierie fondamentales d'un système RAG (Prompt, Context, Loop). C'est un tutoriel avancé sur une technologie clé pour les applications IA.",
+    "tags": [
+      "RAG",
+      "LLM",
+      "prompt engineering",
+      "context engineering",
+      "AI applications"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 8,
@@ -15038,6 +15284,31 @@
     "score_composite": 6.550000000000001
   },
   {
+    "url": "https://zapier.com/blog/ai-automation-examples",
+    "url_hash": "dbfbf7ddc5f8703c411e210d5abefa5a",
+    "titre": "12 AI automation examples (and how teams built them)",
+    "resume": "I use and write about AI for a living, but even I tend to roll my eyes whenever I see an ad for AI in the wild. They're usually generic and surface-level (\"AI can write emails for you!\" \"A chatbot can summarize books so you don't have to use your human brain to process them!\") and don't reflect how AI is best used. To have an impact, AI needs to be integrated with your workflows. With AI automation, you embed AI decisions—like qualifying a lead or triaging a support ticket—directly into the proc",
+    "date": "2026-08-03",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Fournit 12 exemples quantifiés d'automatisation IA, montrant comment l'IA est intégrée dans les flux de travail pour un impact métier.",
+    "tags": [
+      "IA",
+      "Automatisation",
+      "Exemples IA",
+      "Flux de travail",
+      "Business IA"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.550000000000001
+  },
+  {
     "url": "https://www.producthunt.com/products/idledev",
     "url_hash": "09a38a80865d743a758abfa141f20c28",
     "titre": "IdleDev",
@@ -16003,6 +16274,29 @@
     "score_composite": 6.45
   },
   {
+    "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
+    "url_hash": "fe3e3fe8d45fa69f2d04a4a65927ffa0",
+    "titre": "Mistral Is in the Right Place at the Right Time",
+    "resume": "Open-weight AI models are having a moment in the wake of recent turmoil at US tech giants. For French AI lab Mistral, that’s the the best thing that could have happened.",
+    "date": "2026-08-04",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Analyse de la position stratégique de Mistral et de l'importance des modèles open-weight dans le paysage IA actuel.",
+    "tags": [
+      "Mistral AI",
+      "Open-weight models",
+      "AI Landscape"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.45
+  },
+  {
     "url": "https://openai.com/index/simplex",
     "url_hash": "dbde3b0f9ce6031be16c927523c60e13",
     "titre": "Simplex rethinks software development with Codex",
@@ -16390,6 +16684,31 @@
       "multi-agent",
       "optimization",
       "business impact"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.4
+  },
+  {
+    "url": "https://zapier.com/blog/zapier-ai-guide",
+    "url_hash": "c9cbe355a24d6a3d07857d2e12afc860",
+    "titre": "Zapier's AI tools: Get to know our governed AI products and features",
+    "resume": "I've been writing about AI and automation for Zapier for the last two years. In that time, I've seen Zapier ship one useful AI tool after another: some for automating securely with AI, and others for bringing secure automation into your AI tool of choice. Keeping up with these releases has been part of my job, but it doesn't have to be yours. Whether you're new to Zapier or a longtime automator, I'll introduce you to the whole AI lineup, so you're fully prepared to plan your next build. Jump ahe",
+    "date": "2026-08-03",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Présentation des outils IA de Zapier, axés sur l'automatisation gouvernée. Cela représente une intégration IA dans un outil mainstream avec un focus sur la sécurité.",
+    "tags": [
+      "Zapier",
+      "AI tools",
+      "automation",
+      "governed AI",
+      "mainstream integration"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 6,
@@ -20862,6 +21181,31 @@
     "score_composite": 6.0
   },
   {
+    "url": "https://zapier.com/blog/agentic-ai-vs-generative-ai",
+    "url_hash": "8a1e740e8e60ef857d52e7f2604c3284",
+    "titre": "Agentic AI vs. generative AI: Key differences and use cases",
+    "resume": "When people talk about AI, they often toss wildly different tools into the same bucket—like putting a blender and an AI personal assistant app in the same category just because they both have buttons.  That lumping obscures something important: generative AI creates things (ideas, drafts, images, emails), while agentic AI carries out things (sending those emails, following up on them, updating the systems they touch). Here's how to tell the difference between agentic AI and generative AI, when t",
+    "date": "2026-08-03",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article clarifie les différences entre l'IA générative et l'IA agentique, documentant une nouvelle capacité (agents) avec des cas d'usage.",
+    "tags": [
+      "IA",
+      "IA Agentique",
+      "IA Générative",
+      "Concepts IA",
+      "Cas d'usage"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.0
+  },
+  {
     "url": "https://openai.com/index/running-codex-safely",
     "url_hash": "09a84312cc4b2e231453d0d32d700da2",
     "titre": "Running Codex safely at OpenAI",
@@ -21421,6 +21765,31 @@
       "workflow",
       "financial research",
       "governance",
+      "tutorial"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.950000000000001
+  },
+  {
+    "url": "https://towardsdatascience.com/cli-agents-with-python-ollama/",
+    "url_hash": "5deaf58e741c28b61112f5d8cfd7231e",
+    "titre": "How to Build CLI Agents with Python & Ollama",
+    "resume": "Create a local CLI Agent from scratch completely for free\nThe post How to Build CLI Agents with Python & Ollama appeared first on Towards Data Science.",
+    "date": "2026-08-03",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Fournit un tutoriel pratique et reproductible pour créer des agents CLI avec Python et Ollama. L'aspect gratuit le rend accessible et intéressant pour les développeurs.",
+    "tags": [
+      "CLI agents",
+      "Python",
+      "Ollama",
+      "AI agents",
       "tutorial"
     ],
     "pertinence_bi_consultant": 5,
@@ -22778,6 +23147,30 @@
     "score_composite": 5.85
   },
   {
+    "url": "https://medium.com/@dashakashkumar636/how-dax-studio-helped-us-reduce-power-bi-report-load-time-in-production-part-1-of-2-c57b8c1138e0?source=rss------power_bi-5",
+    "url_hash": "790896e102f1bf5814cf179cdd68bc23",
+    "titre": "How DAX Studio Helped Us Reduce Power BI Report Load Time in Production — Part 1 of 2",
+    "resume": "Getting Started: How to Debug Power BI Performance with DAX StudioContinue reading on Medium »",
+    "date": "2026-08-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Tutoriel avancé sur l'optimisation des performances Power BI grâce à DAX Studio, avec application pratique en production.",
+    "tags": [
+      "Power BI",
+      "DAX Studio",
+      "Performance",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.85
+  },
+  {
     "url": "https://openai.com/index/gpt-5-5-system-card",
     "url_hash": "915b6ff115f0885dca2ea04c60c1489a",
     "titre": "GPT-5.5 System Card",
@@ -23829,6 +24222,56 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 9,
+    "score_composite": 5.75
+  },
+  {
+    "url": "https://medium.com/@olayinkapeter467/from-employee-data-to-workforce-strategy-an-hr-analytics-case-study-using-power-bi-525c622bbdaa?source=rss------power_bi-5",
+    "url_hash": "d0c0b25e4dece3dcfd1f567372104257",
+    "titre": "From Employee Data to Workforce Strategy: An HR Analytics Case Study Using Power BI",
+    "resume": "How I analyzed employee attrition, promotions, performance, and workforce demographics to support data-driven HR decision-making.Continue reading on Medium »",
+    "date": "2026-08-03",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Présente un cas d'usage BI concret avec des métriques (analyse de l'attrition, promotions) utilisant Power BI pour une stratégie RH. Il s'agit d'une étude de cas documentée.",
+    "tags": [
+      "HR analytics",
+      "Power BI",
+      "case study",
+      "workforce strategy",
+      "BI practices"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.75
+  },
+  {
+    "url": "https://zapier.com/blog/ai-frameworks",
+    "url_hash": "5ce1fbc92e6d95b918121ac68acb11ae",
+    "titre": "AI frameworks: Definition, types, and how to choose",
+    "resume": "Whenever there's a shiny new AI tool, it makes sense to dive in and see if it's worth introducing into your work. You start with a single tab in your browser, which somehow turns into a dozen, all filled with chatbots, automation workflows, and a master plan for synchronizing your systems. But at some point, off-the-shelf tools stop being enough. You want to build something of your own. AI frameworks (ready-made building blocks for creating AI apps) make that possible—without needing to code eve",
+    "date": "2026-08-03",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Article de fond expliquant les frameworks IA et comment les choisir pour construire des applications personnalisées. Utile pour comprendre les bases avant de se lancer dans le développement.",
+    "tags": [
+      "AI frameworks",
+      "AI development",
+      "entrepreneurship",
+      "tech guide",
+      "AI strategy"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
     "score_composite": 5.75
   },
   {
@@ -26405,6 +26848,31 @@
       "Power BI",
       "Recherche clinique",
       "Analyse de données",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.55
+  },
+  {
+    "url": "https://medium.com/@alo.oloko_69969/how-i-turned-a-product-operations-job-into-a-portfolio-dashboard-b1d47e6cce27?source=rss------power_bi-5",
+    "url_hash": "43dc945584fd178a93dc10b516820c9d",
+    "titre": "How I Turned a Product Operations Job Into a Portfolio Dashboard",
+    "resume": "A practical walkthrough of the SQL → Power BI pipeline I built to prove the work I was already doingContinue reading on Medium »",
+    "date": "2026-08-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Démonstration concrète d'un cas d'usage BI pour valoriser une fonction opérationnelle, avec une méthodologie SQL vers Power BI.",
+    "tags": [
+      "Power BI",
+      "SQL",
+      "Dashboard",
+      "Product Operations",
       "BI"
     ],
     "pertinence_bi_consultant": 8,
@@ -35982,6 +36450,31 @@
     "score_composite": 4.4
   },
   {
+    "url": "https://towardsdatascience.com/how-claude-help-me-build-my-200k-ml-resume/",
+    "url_hash": "7452282eaa0c506962f185da34308750",
+    "titre": "How Claude Help Me Build My $200k+ ML Resume",
+    "resume": "How use Claude to craft an outstanding resume that lands offers\nThe post How Claude Help Me Build My $200k+ ML Resume appeared first on Towards Data Science.",
+    "date": "2026-08-03",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cas d'usage documenté sur l'utilisation d'un LLM (Claude) pour optimiser un CV dans le domaine du ML. Bien que spécifique, il illustre un retour d'expérience sur le déploiement d'IA.",
+    "tags": [
+      "AI resume",
+      "Claude",
+      "ML",
+      "career development",
+      "use case"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.4
+  },
+  {
     "url": "https://towardsdatascience.com/i-pitted-xgboost-against-logistic-regression-on-358-matches-the-boring-model-won/",
     "url_hash": "483fb02abcf730fdf6e4e14202e9b537",
     "titre": "I Pitted XGBoost Against Logistic Regression on 358 Matches. The Boring Model Won.",
@@ -37764,31 +38257,6 @@
     "score_composite": 3.8000000000000003
   },
   {
-    "url": "https://bdtechtalks.com/2026/04/05/topdawg-vs-zendrop-for-us-dropshipping-which-platform-is-better-in-2026/?utm_source=rss&utm_medium=rss&utm_campaign=topdawg-vs-zendrop-for-us-dropshipping-which-platform-is-better-in-2026",
-    "url_hash": "bd7c01e3fd3b245b3e16cfa9b3cd6d81",
-    "titre": "TopDawg vs Zendrop for US Dropshipping – Which Platform Is Better in 2026?",
-    "resume": "By Raphael Korobka In short: For merchants focused exclusively on selling to US customers, TopDawg is usually the stronger pick. Its supplier network is built around US-based fulfillment, and its hands-on support model suits retailers who want a partner that can provide crucial help. Zendrop works well for sellers who need global reach and a [&#8230;]\nThe post TopDawg vs Zendrop for US Dropshipping – Which Platform Is Better in 2026? first appeared on TechTalks.",
-    "date": "2026-04-05",
-    "source_name": "BD Tech Talks",
-    "categorie_source": "IA_APPLIQUEE",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 4,
-    "categorie": "ENTREPRENEURIAT",
-    "raison_score": "Comparatif d'outils pour le dropshipping, fournissant des données chiffrées et des retours d'expérience sur les plateformes. C'est une information utile pour les entrepreneurs dans l'e-commerce.",
-    "tags": [
-      "dropshipping",
-      "ecommerce",
-      "platforms",
-      "comparison",
-      "business"
-    ],
-    "pertinence_bi_consultant": 3,
-    "pertinence_passionné_ia": 2,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 3.8
-  },
-  {
     "url": "https://towardsdatascience.com/learning-word-vectors-for-sentiment-analysis-a-python-reproduction/",
     "url_hash": "b121d650a67b0bd99700c80916866a9d",
     "titre": "Learning Word Vectors for Sentiment Analysis: A Python Reproduction",
@@ -39033,6 +39501,30 @@
     "score_composite": 3.55
   },
   {
+    "url": "https://medium.com/@pahex64767/power-bi-course-hyderabad-for-it-support-engineers-switching-to-analytics-6722d0f93822?source=rss------power_bi-5",
+    "url_hash": "ebcaf9e1440615b8ae15c15c3d2bc73f",
+    "titre": "Power BI Course Hyderabad for IT Support Engineers Switching to Analytics",
+    "resume": "IT support engineers already have many of the skills needed to become successful data analysts. Daily work with systems, troubleshooting…Continue reading on Medium »",
+    "date": "2026-08-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Information utile sur un parcours de formation ciblé pour la reconversion vers l'analytique, basé sur des compétences existantes.",
+    "tags": [
+      "Power BI",
+      "Formation",
+      "Analytics",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.55
+  },
+  {
     "url": "https://towardsdatascience.com/how-to-write-robust-code-with-claude-code/",
     "url_hash": "b94b6cc5f38555c39854fdbfc7a0384d",
     "titre": "How to Write Robust Code with Claude Code",
@@ -39941,6 +40433,29 @@
       "Formation",
       "BI",
       "Projets"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.1000000000000005
+  },
+  {
+    "url": "https://medium.com/@pahex64767/power-bi-course-hyderabad-free-trial-class-before-you-commit-2a6a99b6fcbb?source=rss------power_bi-5",
+    "url_hash": "8f8e79f900f1b9fd1d5dfec20539863c",
+    "titre": "Power BI Course Hyderabad: Free Trial Class Before You Commit",
+    "resume": "Choosing the right training institute is an important step in your analytics career. That’s why Analytics Benchmark offers a free trial…Continue reading on Medium »",
+    "date": "2026-08-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Information sur une offre de formation proposant une classe d'essai gratuite pour évaluer un cours Power BI.",
+    "tags": [
+      "Power BI",
+      "Formation",
+      "BI"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 1,
