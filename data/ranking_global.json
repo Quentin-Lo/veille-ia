@@ -132,7 +132,7 @@
     "source_name": "VentureBeat AI",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_APPLIQUEE",
     "raison_score": "Cet article décrit une application potentiellement disruptive à grande échelle de 37 000 agents IA collaborant dans un domaine critique (biotech), avec une validation externe par Merck. Il s'agit d'un changement de paradigme dans l'orchestration et l'application de l'IA.",
@@ -4379,6 +4379,30 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 9,
     "pertinence_entrepreneur": 8,
+    "score_composite": 7.45
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+    "url_hash": "61f42ecb8f77cb359ad2a12aa0cf5239",
+    "titre": "OpenAI acquires presentation startup NextSlide",
+    "resume": "NextSlide says its team members are now working on ChatGPT.",
+    "date": "2026-08-08",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Acquisition par OpenAI d'une startup de présentation. Ceci est une avancée significative car elle indique une intégration d'IA dans les outils de productivité grand public et la stratégie d'expansion d'un acteur majeur de l'IA.",
+    "tags": [
+      "OpenAI",
+      "acquisition",
+      "présentation",
+      "IA appliquée"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
     "score_composite": 7.45
   },
   {
@@ -9857,6 +9881,54 @@
     "score_composite": 6.95
   },
   {
+    "url": "https://blog.n8n.io/ai-agent-sandbox/",
+    "url_hash": "e5557df5f453d2a981faedebf8d05f27",
+    "titre": "AI Agent Sandboxes: A Guide to Isolation and Secure Execution",
+    "resume": "Understand how AI agent sandboxes isolate execution and reduce risk. Learn how to enforce control boundaries across tools, memory, and external systems.",
+    "date": "2026-08-06",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article documente une nouvelle capacité d'agent IA : les sandboxes pour l'exécution isolée et sécurisée. C'est une avancée significative dans la gestion des risques et la reproductibilité des agents IA.",
+    "tags": [
+      "IA agents",
+      "sécurité",
+      "isolation",
+      "exécution"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/",
+    "url_hash": "8bfaeec838e230dcdfa21bc7a2bfed9b",
+    "titre": "Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary",
+    "resume": "Pokee AI released Pokee-Isaac 28B, a 28B text-only foundation model with a 10M-token context window built to run inside the customer boundary. It scores 93.3% on RULER at 10M tokens, where every baseline in its comparison panel returns 0.0 beyond 2M, and leads BFCL v4 at 70.94 while placing second on Terminal-Bench 2.1. Prefill reaches 137,200 tokens/s at full context on a single B200, with decode flat near 335 tokens/s. Weights are not published; deployment is licensed into VPC, on-premises, or",
+    "date": "2026-08-08",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Il annonce un nouveau modèle d'agent avec une fenêtre contextuelle de 10M tokens, conçu pour s'exécuter côté client. C'est une avancée significative dans la capacité des modèles IA pour des applications métier.",
+    "tags": [
+      "large language models",
+      "context window",
+      "AI agents",
+      "on-premise AI"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
     "url": "https://www.latent.space/p/the-coolest-diffusion-research-isnt",
     "url_hash": "3b215a1e99445682fed1507d14824aee",
     "titre": "🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
@@ -13354,6 +13426,31 @@
       "framework",
       "Python",
       "simplification"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/08/meet-shepherd-an-open-source-python-substrate-that-lets-meta-agents-fork-replay-and-revert-any-agent-run/",
+    "url_hash": "9ea0529b95041ef9f61217ab79f8af31",
+    "titre": "Meet Shepherd: An Open-Source Python Substrate That Lets Meta-Agents Fork, Replay, and Revert Any Agent Run",
+    "resume": "Long agent runs accumulate state that no transcript records — edited files, a live dev server, installed packages, a warm prompt cache. When an agent misreads a traceback at step 10 and rewrites a correct file, patching forward burns tokens and restarting re-pays every call. Researchers at Northeastern University and Stanford University released Shepherd, an MIT-licensed Python runtime substrate that records every agent-environment interaction as a typed event in a Git-like execution trace. Each",
+    "date": "2026-08-08",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Il s'agit d'un nouveau framework open-source pour la gestion des runs d'agents IA. Il offre des capacités de 'fork', 'replay' et 'revert', ce qui est une avancée significative pour le développement et la reproductibilité des agents.",
+    "tags": [
+      "AI agents",
+      "open-source",
+      "Python",
+      "reproducibility",
+      "agent development"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -16967,6 +17064,30 @@
     "score_composite": 6.45
   },
   {
+    "url": "https://www.producthunt.com/products/soup-cli",
+    "url_hash": "71835aafd4208675cac149f389a7421a",
+    "titre": "Soup CLI",
+    "resume": "\n            Fine-tune an 8B LLM on a 4 GB laptop GPU\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-08-08",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce d'un nouvel outil (Soup CLI) permettant le fine-tuning d'un LLM 8B sur un GPU de laptop, ce qui représente une avancée significative en rendant des modèles performants plus accessibles et potentiellement open-source.",
+    "tags": [
+      "LLM",
+      "fine-tuning",
+      "IA",
+      "développement"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.45
+  },
+  {
     "url": "https://openai.com/index/simplex",
     "url_hash": "dbde3b0f9ce6031be16c927523c60e13",
     "titre": "Simplex rethinks software development with Codex",
@@ -19851,29 +19972,6 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 7,
-    "score_composite": 6.15
-  },
-  {
-    "url": "https://openai.com/academy/data-analysis",
-    "url_hash": "0ec8e2b4094220b805fd03901e488ddf",
-    "titre": "Analyzing data with ChatGPT",
-    "resume": "Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.",
-    "date": "2026-04-10",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "IA_APPLIQUEE",
-    "raison_score": "Décrit un nouveau cas d'usage BI/Data avec ChatGPT pour l'analyse de données, la génération d'insights et de visualisations. Documente une application concrète avec des métriques potentielles d'aide à la décision.",
-    "tags": [
-      "ChatGPT",
-      "Data Analysis",
-      "Business Intelligence"
-    ],
-    "pertinence_bi_consultant": 8,
-    "pertinence_passionné_ia": 5,
-    "pertinence_entrepreneur": 5,
     "score_composite": 6.15
   },
   {
@@ -23302,29 +23400,6 @@
     "score_composite": 5.9
   },
   {
-    "url": "https://openai.com/academy/working-with-files",
-    "url_hash": "cad95d5ac55f4d9bf877df8675b8a345",
-    "titre": "Working with files in ChatGPT",
-    "resume": "Learn how to upload and work with files in ChatGPT to analyze data, summarize documents, and generate content from PDFs, spreadsheets, and more.",
-    "date": "2026-04-10",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "IA_APPLIQUEE",
-    "raison_score": "Décrit un nouveau cas d'usage de traitement de documents et données via ChatGPT avec des métriques implicites sur l'efficacité. Le tutoriel avancé sur l'analyse de données avec des fichiers le place dans une catégorie d'évolution notable.",
-    "tags": [
-      "ChatGPT",
-      "Data Analysis",
-      "Document Processing"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 5,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 5.9
-  },
-  {
     "url": "https://medium.com/@twilize5/your-bi-analyst-just-got-replaced-by-a-prompt-11e26549808c?source=rss------power_bi-5",
     "url_hash": "677de288a66ebb8f31e40de812edf704",
     "titre": "Your BI Analyst Just Got Replaced by a Prompt",
@@ -25084,29 +25159,6 @@
       "Hyatt",
       "Cas d'usage",
       "Productivité"
-    ],
-    "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 4,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 5.75
-  },
-  {
-    "url": "https://openai.com/academy/customer-success",
-    "url_hash": "81ca7d111db1dd994cd3d83857687c7e",
-    "titre": "ChatGPT for customer success teams",
-    "resume": "Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.",
-    "date": "2026-04-10",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "BUSINESS_IA",
-    "raison_score": "Présente un nouveau cas d'usage documenté de ChatGPT pour les équipes de succès client, avec des métriques potentielles d'amélioration de la communication et de réduction du churn. C'est une évolution notable de l'application IA.",
-    "tags": [
-      "ChatGPT",
-      "Customer Success",
-      "Business AI"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 4,
@@ -26940,6 +26992,31 @@
     "score_composite": 5.6000000000000005
   },
   {
+    "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
+    "url_hash": "435830d17c5a095d6f045008f1e39e7c",
+    "titre": "A guide to slash commands in the GitHub Copilot app",
+    "resume": "Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow.\nThe post A guide to slash commands in the GitHub Copilot app appeared first on The GitHub Blog.",
+    "date": "2026-08-06",
+    "source_name": "GitHub Blog",
+    "categorie_source": "DEV_ASSISTE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Cet article détaille l'utilisation de commandes slash dans GitHub Copilot pour planifier, collaborer et automatiser. C'est une évolution notable dans l'amélioration des flux de travail assistés par IA pour les développeurs.",
+    "tags": [
+      "GitHub Copilot",
+      "IA",
+      "développement",
+      "automatisation",
+      "commandes slash"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.6000000000000005
+  },
+  {
     "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Tenant-Migration-Trade-offs-risks-and-realities/ba-p/5187013",
     "url_hash": "b4436a58f9c25acc0f56084b98591b98",
     "titre": "Power BI Tenant Migration: Trade-offs, risks, and realities",
@@ -27104,29 +27181,6 @@
       "ChatGPT",
       "IA médicale",
       "accès IA"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 5,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 5.550000000000001
-  },
-  {
-    "url": "https://openai.com/academy/healthcare",
-    "url_hash": "ad4c1c68fc557557d573ae548b6bb0d8",
-    "titre": "Healthcare",
-    "resume": "Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.",
-    "date": "2026-04-10",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "IA_APPLIQUEE",
-    "raison_score": "Présente un nouveau cas d'usage documenté de l'IA dans le secteur de la santé, avec des métriques potentielles sur l'amélioration des diagnostics et des soins. Il illustre l'application pratique de l'IA dans un domaine clé.",
-    "tags": [
-      "ChatGPT",
-      "Healthcare",
-      "AI in Medicine"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 5,
@@ -28206,29 +28260,6 @@
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 5.5
-  },
-  {
-    "url": "https://openai.com/academy/operations",
-    "url_hash": "d66239cd8e87a2f03c59aabb1461e692",
-    "titre": "ChatGPT for operations teams",
-    "resume": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
-    "date": "2026-04-10",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "BUSINESS_IA",
-    "raison_score": "Présente un nouveau cas d'usage documenté de ChatGPT pour les équipes opérationnelles, axé sur la rationalisation des flux de travail et l'amélioration de l'exécution. C'est une évolution notable de l'application IA en entreprise.",
-    "tags": [
-      "ChatGPT",
-      "Operations",
-      "Business Process Automation"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 7,
     "score_composite": 5.5
   },
@@ -29793,6 +29824,30 @@
     "score_composite": 5.3500000000000005
   },
   {
+    "url": "https://www.producthunt.com/products/docsalot-2",
+    "url_hash": "1b6e4ea6cd7b4d2545f31d6c307e4f8a",
+    "titre": "DocsAlot CLI",
+    "resume": "\n            Let Claude or Codex create and maintain good looking docs\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-08-07",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Lancement d'un outil CLI (DocsAlot) qui utilise des modèles d'IA (Claude, Codex) pour créer et maintenir de la documentation. C'est une évolution notable dans l'assistance au développement logiciel.",
+    "tags": [
+      "documentation",
+      "IA",
+      "développement",
+      "CLI"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3500000000000005
+  },
+  {
     "url": "https://zapier.com/blog/business-automation",
     "url_hash": "c3af96a1ceab65d8c48495a10e33af22",
     "titre": "Business automation: How to transform your operations",
@@ -30131,6 +30186,29 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 7,
+    "score_composite": 5.35
+  },
+  {
+    "url": "https://www.producthunt.com/products/workflo-2",
+    "url_hash": "bc7e331fcbd972f3b1ab788fd756d006",
+    "titre": "Workflo",
+    "resume": "\n            Mac workspace automation that never sees your screen\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-08-08",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Lancement d'un outil d'automatisation pour Mac qui respecte la vie privée de l'utilisateur. C'est une évolution notable dans le domaine de l'automatisation d'interface utilisateur, avec un accent sur la confidentialité.",
+    "tags": [
+      "automatisation",
+      "Mac",
+      "productivité"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
     "score_composite": 5.35
   },
   {
@@ -30840,6 +30918,29 @@
       "election data",
       "business intelligence",
       "analytics"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3
+  },
+  {
+    "url": "https://medium.com/@sneha.shelar/election-result-analysis-using-power-bi-turning-data-into-interactive-insights-7bafad353750?source=rss------power_bi-5",
+    "url_hash": "9079044cf2f8548eb9540085a83de06d",
+    "titre": "Election Result Analysis Using Power BI: Turning Data into Interactive Insights",
+    "resume": "How Power BI can transform complex election data into an interactive and meaningful dashboardContinue reading on Medium »",
+    "date": "2026-08-08",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article présente un cas d'usage documenté de Power BI pour l'analyse de données électorales. Il met en avant la transformation de données complexes en tableaux de bord interactifs, ce qui est une évolution notable dans l'application des outils BI.",
+    "tags": [
+      "Power BI",
+      "analyse électorale",
+      "tableaux de bord"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 4,
@@ -32069,6 +32170,30 @@
     "score_composite": 5.199999999999999
   },
   {
+    "url": "https://medium.com/@jmwestendorp/the-modeling-trick-that-makes-power-bi-titles-actually-useful-8c65b3532cac?source=rss------power_bi-5",
+    "url_hash": "7af6e6179e3ef64bd1cda7fbd66978d6",
+    "titre": "The Modeling Trick That Makes Power BI Titles Actually Useful",
+    "resume": "How a simple Top N label becomes a reusable narrative block for clearer visuals and better exports.Continue reading on Medium »",
+    "date": "2026-08-09",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il présente un cas d'usage documenté pour améliorer la clarté des visualisations dans Power BI. C'est une amélioration notable pour les pratiques BI.",
+    "tags": [
+      "Power BI",
+      "data visualization",
+      "business intelligence",
+      "reporting"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
+  },
+  {
     "url": "https://techcrunch.com/2026/05/15/indian-uber-rival-rapido-raises-240m-at-3b-valuation/",
     "url_hash": "397bfe6497a0257060974341c210a909",
     "titre": "Indian Uber rival Rapido raises $240M at $3B valuation",
@@ -32803,6 +32928,31 @@
     "score_composite": 5.1
   },
   {
+    "url": "https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-agent/",
+    "url_hash": "df29abdd3db411b10d68773b694392d3",
+    "titre": "Building a Streamlit UI for My LangGraph AI Agent",
+    "resume": "Building a production-ready web interface for a stateful LangGraph agent\nThe post Building a Streamlit UI for My LangGraph AI Agent appeared first on Towards Data Science.",
+    "date": "2026-08-08",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Ce tutoriel documente un cas d'usage concret pour la création d'une interface utilisateur Streamlit pour un agent LangGraph. C'est une évolution notable pour les développeurs d'agents.",
+    "tags": [
+      "Streamlit",
+      "LangGraph",
+      "AI agents",
+      "UI development",
+      "web application"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.1
+  },
+  {
     "url": "https://www.producthunt.com/products/mashupack",
     "url_hash": "69c7e1d10392884ddee6e898a4a07ff8",
     "titre": "MashuPack",
@@ -32850,29 +33000,6 @@
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 6,
     "score_composite": 5.050000000000001
-  },
-  {
-    "url": "https://openai.com/academy/prompting",
-    "url_hash": "651182ff4e21812619e76c4ff282dbe6",
-    "titre": "Prompting fundamentals",
-    "resume": "Learn prompting fundamentals and how to write clear, effective prompts to get better, more useful responses from ChatGPT.",
-    "date": "2026-04-10",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 5,
-    "categorie": "IA_MODELES",
-    "raison_score": "Il s'agit d'un tutoriel avancé sur une pratique essentielle (le prompting) pour interagir avec les modèles IA, comme ChatGPT. Bien qu'utile, cela représente une évolution et non une avancée disruptive.",
-    "tags": [
-      "ChatGPT",
-      "Prompt Engineering",
-      "LLM"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 4,
-    "score_composite": 5.05
   },
   {
     "url": "https://www.databricks.com/blog/databricks-good-and-virtue-foundation-partnering-connect-medical-volunteers-critical-health",
@@ -33438,6 +33565,30 @@
     "score_composite": 5.0
   },
   {
+    "url": "https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs/",
+    "url_hash": "878fbed42f98ba5d323398ce4661ab89",
+    "titre": "How to Disable Gemini in Gmail and Google Docs",
+    "resume": "New AI toolbars and prompts are showing up in Google Docs and Gmail. If you don’t want Gemini’s help in writing documents and emails, here’s how to turn that stuff off.",
+    "date": "2026-08-08",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article décrit comment désactiver des fonctionnalités IA (Gemini) dans des outils mainstream (Gmail, Google Docs). Il s'agit d'une information utile sur l'intégration et le contrôle de l'IA dans les outils du quotidien.",
+    "tags": [
+      "Gemini",
+      "Google Workspace",
+      "IA appliquée",
+      "contrôle"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.0
+  },
+  {
     "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
     "url_hash": "1e29a367c6ea16065c34075b67b91e3f",
     "titre": "GPT-5.5 Bio Bug Bounty",
@@ -33896,27 +34047,29 @@
     "score_composite": 4.95
   },
   {
-    "url": "https://openai.com/academy/projects",
-    "url_hash": "24f471f193a9cec03c77290beeb7743d",
-    "titre": "Using projects in ChatGPT",
-    "resume": "Learn how to use projects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.",
-    "date": "2026-04-10",
-    "source_name": "OpenAI Blog",
+    "url": "https://www.marktechpost.com/2026/08/09/imdb-sentiment-analysis-with-distilbert-lora-tf-idf-baselines-calibration-interpretability-robustness-testing-and-semi-supervised-learning/",
+    "url_hash": "4d45d836485fc0560da89e280554ded1",
+    "titre": "IMDb Sentiment Analysis with DistilBERT LoRA, TF-IDF Baselines, Calibration, Interpretability, Robustness Testing, and Semi-Supervised Learning",
+    "resume": "This tutorial provides a comprehensive guide to building a robust sentiment analysis workflow. By combining classical TF-IDF baselines with modern parameter-efficient fine-tuning (DistilBERT + LoRA), we explore deep model interpretability, calibration, and semi-supervised techniques to achieve scalable sentiment inference\nThe post IMDb Sentiment Analysis with DistilBERT LoRA, TF-IDF Baselines, Calibration, Interpretability, Robustness Testing, and Semi-Supervised Learning appeared first on MarkT",
+    "date": "2026-08-09",
+    "source_name": "MarkTechPost",
     "categorie_source": "IA_MODELES",
     "score_pending": false,
     "article_du_jour": false,
     "score": 5,
     "categorie": "IA_APPLIQUEE",
-    "raison_score": "Décrit une mise à jour importante de l'outil ChatGPT avec la fonctionnalité 'projects' pour une meilleure organisation du travail. Ce n'est pas une rupture, mais une amélioration notable de l'expérience utilisateur et de la productivité.",
+    "raison_score": "Cet article est un tutoriel avancé sur une tâche d'IA appliquée spécifique. Il combine des techniques classiques et modernes pour une analyse de sentiment robuste.",
     "tags": [
-      "ChatGPT",
-      "Productivity",
-      "Project Management"
+      "sentiment analysis",
+      "DistilBERT",
+      "LoRA",
+      "TF-IDF",
+      "semi-supervised learning"
     ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 4,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 4.949999999999999
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.95
   },
   {
     "url": "https://medium.com/@nehapranami.2486/building-an-e-commerce-sales-analytics-dashboard-using-python-and-power-bi-0386fe8c4c3e?source=rss------power_bi-5",
@@ -34550,6 +34703,30 @@
       "publicités Facebook",
       "analyse",
       "BI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
+    "url": "https://medium.com/@fabricekamwa90/teil-2-2-funktionstrennung-und-power-bi-deployment-pipelines-30063eb0df67?source=rss------power_bi-5",
+    "url_hash": "ae9806280a532c04e4f31186bd2c5213",
+    "titre": "Teil 2/2: Funktionstrennung und Power BI Deployment Pipelines",
+    "resume": "Der gleiche Konflikt, eine Stufe früherContinue reading on Medium »",
+    "date": "2026-08-08",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il traite des pipelines de déploiement et de la séparation des fonctionnalités dans Power BI. Il s'agit d'une mise à jour importante sur les pratiques de déploiement BI.",
+    "tags": [
+      "Power BI",
+      "deployment pipelines",
+      "BI best practices",
+      "data management"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
@@ -39392,6 +39569,29 @@
     "score_composite": 4.15
   },
   {
+    "url": "https://blog.n8n.io/metabase-security-incident-update/",
+    "url_hash": "706790ce710469ba0466a111efa25c85",
+    "titre": "Metabase security incident update",
+    "resume": "We were made aware on 6 August 2026 of a security incident affecting Metabase, a third-party analytics tool used internally by n8n. The unauthorised activity took place on 3 August 2026 - Metabase has since patched the vulnerability that allowed it.We immediately began an investigation with Metabase and our",
+    "date": "2026-08-08",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Il s'agit d'une mise à jour d'information utile concernant un incident de sécurité lié à un outil d'analyse (Metabase). Bien que pertinent pour la sécurité des données et des outils BI, il ne présente pas de nouveauté majeure.",
+    "tags": [
+      "Metabase",
+      "sécurité",
+      "incident"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.15
+  },
+  {
     "url": "https://openai.com/index/our-commitment-to-community-safety",
     "url_hash": "1dc472c1198db6b9d393f7894f75ab4b",
     "titre": "Our commitment to community safety",
@@ -40460,6 +40660,29 @@
     "score_composite": 3.8
   },
   {
+    "url": "https://towardsdatascience.com/before-q-k-and-v-reconstructing-the-transformer/",
+    "url_hash": "2b4241447eb832c19b7b10beacd760ad",
+    "titre": "Before Q, K, and V: Reconstructing the Transformer",
+    "resume": "Many Transformer explainers start with the finished architecture. We ask why it looks the way it does.\nThe post Before Q, K, and V: Reconstructing the Transformer appeared first on Towards Data Science.",
+    "date": "2026-08-08",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "IA_MODELES",
+    "raison_score": "Il s'agit d'un article de fond expliquant l'architecture Transformer. Bien qu'utile pour comprendre les bases, il ne présente pas de nouveauté majeure.",
+    "tags": [
+      "Transformer architecture",
+      "deep learning",
+      "AI fundamentals"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.8
+  },
+  {
     "url": "https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/",
     "url_hash": "5ffbcd2eae2ef6026bf5949e0141ffb1",
     "titre": "Apple’s Siri revamp could include auto-deleting chats",
@@ -41438,6 +41661,54 @@
     "score_composite": 3.55
   },
   {
+    "url": "https://medium.com/@rabbiamehtab55/turning-cricket-data-into-a-story-my-first-power-bi-dashboard-b0fe6ebafcd2?source=rss------power_bi-5",
+    "url_hash": "4fb6746a6e7cc25358790047d2ea882c",
+    "titre": "Turning Cricket Data into a Story — My First Power BI Dashboard",
+    "resume": "Cricket Performance DashboardContinue reading on Medium »",
+    "date": "2026-08-08",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un retour d'expérience d'une entreprise sur la création d'un tableau de bord dans Power BI. L'information est utile pour les débutants ou pour inspiration.",
+    "tags": [
+      "Power BI",
+      "dashboard",
+      "data storytelling",
+      "business intelligence"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.55
+  },
+  {
+    "url": "https://medium.com/@sanika9252/revenue-opportunities-dashboard-using-power-bi-8a02cad83b2d?source=rss------power_bi-5",
+    "url_hash": "78f30ad4da5d30ee95fa282cdaf18d80",
+    "titre": "Revenue Opportunities Dashboard Using Power BI",
+    "resume": "Introduction:Continue reading on Medium »",
+    "date": "2026-08-08",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "C'est un exemple de cas d'usage documenté pour un tableau de bord Power BI axé sur les opportunités de revenus.",
+    "tags": [
+      "Power BI",
+      "dashboard",
+      "revenue analysis",
+      "business intelligence"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.55
+  },
+  {
     "url": "https://towardsdatascience.com/how-to-write-robust-code-with-claude-code/",
     "url_hash": "b94b6cc5f38555c39854fdbfc7a0384d",
     "titre": "How to Write Robust Code with Claude Code",
@@ -42109,6 +42380,30 @@
     "score_composite": 3.3
   },
   {
+    "url": "https://medium.com/@mordecainkereuwem8/healthcare-performance-analysis-power-bi-bccd6b634570?source=rss------power_bi-5",
+    "url_hash": "c0a79303d5d66290c6e8f78bc86e6929",
+    "titre": "Healthcare Performance Analysis — Power BI",
+    "resume": "Tools: Microsoft Excel, Microsoft Power BI Desktop, DAX, Power Query Domain: Healthcare /Hospital Operations Dataset: 2,000 patient…Continue reading on Medium »",
+    "date": "2026-08-08",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article présentant un tableau de bord Power BI pour l'analyse de la performance dans le secteur de la santé. C'est un cas d'usage documenté utile.",
+    "tags": [
+      "Power BI",
+      "healthcare analytics",
+      "dashboard",
+      "business intelligence"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.3
+  },
+  {
     "url": "https://medium.com/@lrjeevith/power-bi-transforming-data-into-smarter-business-decisions-b4688623307a?source=rss------power_bi-5",
     "url_hash": "55d8e0dc77b07c2746b75aab4b03ecc6",
     "titre": "Power BI: Transforming Data into Smarter Business Decisions",
@@ -42130,29 +42425,6 @@
     "pertinence_passionné_ia": 1,
     "pertinence_entrepreneur": 4,
     "score_composite": 3.2500000000000004
-  },
-  {
-    "url": "https://openai.com/academy/what-is-ai",
-    "url_hash": "a9620e92ad73779d3f8856bce29e39e6",
-    "titre": "AI fundamentals",
-    "resume": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.",
-    "date": "2026-04-10",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 3,
-    "categorie": "IA_MODELES",
-    "raison_score": "Article de fond sur les bases de l'IA, expliquant le fonctionnement des LLM et des outils comme ChatGPT. Il s'agit d'une information utile sur une pratique établie, mais sans apport nouveau majeur.",
-    "tags": [
-      "AI Fundamentals",
-      "LLM",
-      "ChatGPT"
-    ],
-    "pertinence_bi_consultant": 4,
-    "pertinence_passionné_ia": 3,
-    "pertinence_entrepreneur": 3,
-    "score_composite": 3.25
   },
   {
     "url": "https://www.wired.com/story/it-sure-seems-like-these-instagram-ads-think-youre-doing-cocaine-all-wrong/",
@@ -42922,29 +43194,6 @@
     "pertinence_passionné_ia": 1,
     "pertinence_entrepreneur": 1,
     "score_composite": 2.8000000000000003
-  },
-  {
-    "url": "https://openai.com/academy/getting-started",
-    "url_hash": "076e1c59813985b4b641f5b28b41bde1",
-    "titre": "Getting started with ChatGPT",
-    "resume": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-    "date": "2026-04-10",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 3,
-    "categorie": "IA_MODELES",
-    "raison_score": "Article de fond pour débutants expliquant comment utiliser ChatGPT et démarrer des conversations. Fournit une information utile sur une pratique établie, mais sans contenu technique avancé.",
-    "tags": [
-      "ChatGPT",
-      "Getting Started",
-      "AI Basics"
-    ],
-    "pertinence_bi_consultant": 3,
-    "pertinence_passionné_ia": 2,
-    "pertinence_entrepreneur": 3,
-    "score_composite": 2.8
   },
   {
     "url": "https://www.producthunt.com/products/pass-quick-access",
