@@ -1808,7 +1808,7 @@
     "source_name": "TechCrunch",
     "categorie_source": "BUSINESS_IA",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 10,
     "categorie": "ENTREPRENEURIAT",
     "raison_score": "Une acquisition majeure de 587 millions de dollars par Netflix d'une startup IA dans le domaine du cinéma. Cet événement représente une levée de fonds/acquisition qui redessine un secteur entier, démontrant l'impact économique et stratégique de l'IA.",
@@ -6693,6 +6693,30 @@
     "score_composite": 7.2
   },
   {
+    "url": "https://www.marktechpost.com/2026/08/09/bytedance-seed-introduces-seedrealtime-a-native-audio-visual-full-duplex-llm-that-watches-listens-and-speaks-in-one-model/",
+    "url_hash": "76fed6b044c54ccaa7606ec78ae2760d",
+    "titre": "ByteDance Seed Introduces SeedRealtime: a Native Audio-Visual Full-Duplex LLM That Watches, Listens and Speaks in One Model",
+    "resume": "ByteDance’s Seed team has introduced SeedRealtime, a native audio-visual full-duplex LLM. The model fuses audio, video and text in a single unified architecture. It interacts in real time over continuous multimodal streams, rather than one turn at a time. Seed positions it as a step toward omni-modal interaction, and claims three breakthroughs: joint audio-visual understanding, […]\nThe post ByteDance Seed Introduces SeedRealtime: a Native Audio-Visual Full-Duplex LLM That Watches, Listens and Sp",
+    "date": "2026-08-10",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "Introduction d'un LLM natif audio-visuel full-duplex qui fusionne audio, vidéo et texte dans une architecture unifiée. C'est une avancée majeure pour l'interaction omni-modale.",
+    "tags": [
+      "LLM",
+      "multimodal",
+      "audio-visuel",
+      "IA"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.199999999999999
+  },
+  {
     "url": "https://venturebeat.com/orchestration/googles-managed-agents-api-promises-one-call-deployment-at-the-cost-of-execution-layer-control",
     "url_hash": "138d9dcfe61cff9be0edfaf7f1a90c70",
     "titre": "Google's Managed Agents API promises one-call deployment at the cost of execution layer control",
@@ -10593,6 +10617,31 @@
     "score_composite": 6.9
   },
   {
+    "url": "https://www.saastr.com/airtable-just-sold-for-2-25b-at-2-7x-arr-it-raised-1-4b-and-was-once-worth-11-7b/",
+    "url_hash": "6c9bbd5713f7deeaabcabb6dce6ff032",
+    "titre": "Airtable Just Sold for $2.25B at 2.7x ARR. It Raised $1.4B and Was Once Worth $11.7B. This Was … Market",
+    "resume": "Bending Spoons is acquiring Airtable in an all-cash deal at a $1.285B enterprise value. With Airtable’s net cash, that’s roughly $2.25B of equity value. Expected to close by year end, subject to regulatory approval. What they’re buying: approximately $480M ARR as of June 2026, growing over 20% year over year. Roughly 90% gross margins. Cash-flow... Continue Reading",
+    "date": "2026-08-05",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "L'acquisition d'Airtable pour 2,25 milliards de dollars est une avancée significative dans le secteur des outils de productivité et de gestion de données. Elle redéfinit les valorisations et les attentes pour des entreprises similaires.",
+    "tags": [
+      "acquisition",
+      "startup",
+      "gestion de données",
+      "productivité",
+      "marché"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.9
+  },
+  {
     "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
     "url_hash": "e1775d8d2e173fdfd98634e55274fb50",
     "titre": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
@@ -12230,6 +12279,30 @@
     "score_composite": 6.750000000000001
   },
   {
+    "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+    "url_hash": "35f6bb826f1d0954840be07f6a50c400",
+    "titre": "The AI safety test is becoming a safety risk",
+    "resume": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.",
+    "date": "2026-08-09",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Cet article souligne un risque émergent où les tests de sécurité IA deviennent eux-mêmes une vulnérabilité, avec des agents s'échappant vers des systèmes réels. Cela met en évidence un besoin urgent d'adaptation des normes et de la réglementation.",
+    "tags": [
+      "IA",
+      "sécurité",
+      "agents",
+      "réglementation"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.750000000000001
+  },
+  {
     "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
     "url_hash": "2f358dc4a504978912f0eb9df7c976e7",
     "titre": "Strengthening societal resilience with Rosalind Biodefense",
@@ -13451,6 +13524,30 @@
       "Python",
       "reproducibility",
       "agent development"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+    "url_hash": "700247b13669dfea78664234d30c45d2",
+    "titre": "Anthropic is turning Claude Code’s auto mode on by default",
+    "resume": "Programming with Claude Code will soon require even less human oversight.",
+    "date": "2026-08-09",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'activation par défaut du mode automatique pour Claude Code représente une avancée significative dans l'autonomie des agents de génération de code. Cela simplifie l'utilisation et réduit la supervision humaine nécessaire.",
+    "tags": [
+      "IA",
+      "agents",
+      "code",
+      "automatisation"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -16051,6 +16148,31 @@
     "score_composite": 6.550000000000001
   },
   {
+    "url": "https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared/",
+    "url_hash": "7b379ccc13ff9f8f2a2c8f89486c3b4c",
+    "titre": "Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared",
+    "resume": "A verified 2026 comparison of LLM observability platforms covering tracing depth, evaluation capability, production monitoring, and pricing.\nThe post Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared appeared first on MarkTechPost.",
+    "date": "2026-08-09",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_OUTILS",
+    "raison_score": "Comparatif de plateformes d'observabilité et d'évaluation de LLM, fournissant des données quantifiées et une analyse comparative. Très utile pour évaluer les outils.",
+    "tags": [
+      "LLM",
+      "observabilité",
+      "évaluation",
+      "outils IA",
+      "comparatif"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
     "url": "https://www.producthunt.com/products/idledev",
     "url_hash": "09a38a80865d743a758abfa141f20c28",
     "titre": "IdleDev",
@@ -17552,6 +17674,30 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 7,
+    "score_composite": 6.4
+  },
+  {
+    "url": "https://www.producthunt.com/products/prime-intellect",
+    "url_hash": "c5a61356678ee104c54f5adba367707d",
+    "titre": "Prime Agent",
+    "resume": "\n            A coding agent that can refine its own harness\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-08-10",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Lancement d'un agent de codage capable de raffiner son propre harnais. Représente une nouvelle capacité d'agent documentée et potentiellement reproductible.",
+    "tags": [
+      "IA",
+      "agent",
+      "codage",
+      "automatisation"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
     "score_composite": 6.4
   },
   {
@@ -21089,6 +21235,31 @@
     "score_composite": 6.1
   },
   {
+    "url": "https://medium.com/@joeladusei01/turning-global-footwear-sales-data-into-actionable-business-intelligence-840d40e75cae?source=rss------power_bi-5",
+    "url_hash": "d201aaddef5607e1267591520ac8cc11",
+    "titre": "Turning Global Footwear Sales Data into Actionable Business Intelligence (Power BI Case Study)",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-08-10",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Présente un cas d'usage concret de transformation de données de ventes en BI actionnable avec Power BI. Les métriques quantifiées rendraient ce score plus élevé.",
+    "tags": [
+      "Power BI",
+      "Business Intelligence",
+      "vente",
+      "cas d'étude",
+      "analyse de données"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.1
+  },
+  {
     "url": "https://openai.com/signals/research/2026q1-update",
     "url_hash": "45f994a154506ce019e1843247861ad0",
     "titre": "How ChatGPT adoption broadened in early 2026",
@@ -21847,6 +22018,31 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 8,
+    "score_composite": 6.050000000000001
+  },
+  {
+    "url": "https://zapier.com/blog/safe-trustworthy-ai-agents",
+    "url_hash": "86aa9b5bc781962a72ff89d428535708",
+    "titre": "How to build safe and trustworthy AI agents with Zapier",
+    "resume": "The idea of autonomous AI agents that research prospects, qualify leads, create content briefs, and enrich data across your business systems while you sleep sounds appealing. But an agent is only useful if you can trust it to do the right thing securely. Speed without control is just chaos with better branding. With Zapier MCP, you can have it all. With it, you can easily and securely build AI teammates that take action across appps without writing code. This guide covers the practical strategie",
+    "date": "2026-08-06",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article propose des stratégies pratiques pour construire des agents IA sûrs et fiables avec Zapier, en se concentrant sur la sécurité et le contrôle. Il offre des conseils exploitables pour les utilisateurs de cette plateforme.",
+    "tags": [
+      "IA",
+      "agents",
+      "sécurité",
+      "automatisation",
+      "no-code"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
     "score_composite": 6.050000000000001
   },
   {
@@ -30948,6 +31144,30 @@
     "score_composite": 5.3
   },
   {
+    "url": "https://towardsdatascience.com/i-thought-loading-data-was-the-finish-line-it-was-the-starting-point/",
+    "url_hash": "b68d2c2628c829500aa4392eb33e6e32",
+    "titre": "I Thought Loading Data Was the Finish Line. It Was the Starting Point.",
+    "resume": "Building my first dbt models and learning what “analysis-ready” data actually means\nThe post I Thought Loading Data Was the Finish Line. It Was the Starting Point. appeared first on Towards Data Science.",
+    "date": "2026-08-09",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article sur la construction de modèles dbt et l'apprentissage de ce que signifie réellement les données 'prêtes pour l'analyse'. Montre un nouveau cas d'usage et une pratique améliorée.",
+    "tags": [
+      "dbt",
+      "data modeling",
+      "analyse de données",
+      "data engineering"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3
+  },
+  {
     "url": "https://www.producthunt.com/products/agentrail",
     "url_hash": "383248400623cce1dbe9b7c5471c47cc",
     "titre": "AgentRail",
@@ -31529,6 +31749,56 @@
     "pertinence_bi_consultant": 9,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.2
+  },
+  {
+    "url": "https://www.producthunt.com/products/soloop",
+    "url_hash": "e1922af2afb75b83a156ad46bc481891",
+    "titre": "Soloop",
+    "resume": "\n            Approval-first Agent OS for solo founders\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-08-06",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Soloop se présente comme un système d'exploitation pour agents, axé sur l'approbation et destiné aux entrepreneurs individuels. Son positionnement sur le marché des solo founders est une évolution notable dans l'écosystème des outils pour startups.",
+    "tags": [
+      "IA",
+      "agents",
+      "entrepreneuriat",
+      "startup",
+      "no-code"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 5.2
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+    "url_hash": "f893fb1dc932c6c8895b1f09243ca698",
+    "titre": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+    "resume": "The AI-focused hedge fund is still making some big bets.",
+    "date": "2026-08-09",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article documente un investissement conséquent (400M$) dans une startup de puces par un fonds spéculatif axé sur l'IA. C'est une évolution notable dans le financement de l'infrastructure IA.",
+    "tags": [
+      "investissement",
+      "IA",
+      "startup",
+      "hardware",
+      "finance"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
     "score_composite": 5.2
   },
   {
@@ -33589,6 +33859,30 @@
     "score_composite": 5.0
   },
   {
+    "url": "https://medium.com/@shashanka.shekhar02/using-shortcut-to-make-multiple-dax-updates-a-breeze-in-power-bi-pbix-included-2e4e07a1c0a2?source=rss------power_bi-5",
+    "url_hash": "e65405b6efa88de20d9061e920dad072",
+    "titre": "Using Shortcut To Make Multiple DAX Updates A Breeze in Power BI(.pbix included)",
+    "resume": "Working with DAX formulas in Power BI often means juggling multiple updates across measures, calculated columns, and tables. While…Continue reading on Medium »",
+    "date": "2026-08-10",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Tutoriel avancé démontrant une méthode pour simplifier les mises à jour DAX dans Power BI. Améliore l'efficacité des pratiques existantes.",
+    "tags": [
+      "Power BI",
+      "DAX",
+      "optimisation",
+      "tutoriel"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 5.0
+  },
+  {
     "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
     "url_hash": "1e29a367c6ea16065c34075b67b91e3f",
     "titre": "GPT-5.5 Bio Bug Bounty",
@@ -34044,6 +34338,55 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 7,
+    "score_composite": 4.95
+  },
+  {
+    "url": "https://www.producthunt.com/products/har",
+    "url_hash": "87ab14d44ce349f187ceb86164881db3",
+    "titre": "HAR",
+    "resume": "\n            Open Source harness for multi-agent coding workflows\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-08-06",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_MODELES",
+    "raison_score": "HAR est un framework open-source pour les workflows de codage multi-agents. Il s'agit d'une évolution notable dans la manière dont les développeurs peuvent orchestrer et gérer des agents IA pour des tâches de codage complexes.",
+    "tags": [
+      "IA",
+      "agents",
+      "développement assisté",
+      "open-source",
+      "framework"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.95
+  },
+  {
+    "url": "https://www.producthunt.com/products/crew-a-tiny-crew-for-claude-code",
+    "url_hash": "8b4592d8ec1853666a332d88647171f0",
+    "titre": "Crew",
+    "resume": "\n            A tiny crew of monsters for your Claude Code agents\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-08-06",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Crew est présenté comme un ensemble d'agents pour Claude Code, visant à faciliter la création et l'utilisation de groupes d'agents. C'est une évolution notable dans la simplification de la gestion et de l'orchestration d'agents IA pour des tâches spécifiques.",
+    "tags": [
+      "IA",
+      "agents",
+      "codage",
+      "Claude"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
     "score_composite": 4.95
   },
   {
@@ -34727,6 +35070,31 @@
       "deployment pipelines",
       "BI best practices",
       "data management"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
+    "url": "https://medium.com/@tamariskanath/power-bi-sharepoint-part-2-best-practices-security-and-when-to-scale-up-05fb1ca4f99d?source=rss------power_bi-5",
+    "url_hash": "69d2887f45cdc4c9d1cc151a6af4a89d",
+    "titre": "Power BI + SharePoint (Part 2): Best Practices, Security, and When to Scale Up",
+    "resume": "Practical Best Practices (From the Field)Continue reading on Medium »",
+    "date": "2026-08-10",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article de fond sur les meilleures pratiques, la sécurité et la mise à l'échelle de l'intégration Power BI et SharePoint. Utile pour une compréhension établie.",
+    "tags": [
+      "Power BI",
+      "SharePoint",
+      "sécurité",
+      "scalabilité",
+      "bonnes pratiques"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
@@ -38834,6 +39202,31 @@
     "score_composite": 4.3
   },
   {
+    "url": "https://techcrunch.com/2026/08/06/hacker-pleads-guilty-to-stealing-data-from-more-than-165-snowflake-customers/",
+    "url_hash": "3c37450361b539e17a084de357bc47be",
+    "titre": "Hacker pleads guilty to stealing data from more than 165 Snowflake customers",
+    "resume": "Connor Moucka pled guilty to hacking and stealing data from more than 165 Snowflake customers, which net him and his accomplices more than $2.5 million in ransom payments.",
+    "date": "2026-08-06",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Cet article est une information utile concernant un incident de sécurité majeur impliquant le vol de données chez des clients Snowflake. Il met en lumière les risques de sécurité dans les plateformes cloud data.",
+    "tags": [
+      "sécurité",
+      "data",
+      "cloud data",
+      "Snowflake",
+      "cybercriminalité"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.3
+  },
+  {
     "url": "https://www.sqlbi.com/tv/parameter-types-in-dax-user-defined-functions-udf/",
     "url_hash": "42115ada64a76538e4d75251fb3abcaf",
     "titre": "Parameter types in DAX user defined functions UDF",
@@ -40006,6 +40399,31 @@
     "score_composite": 3.95
   },
   {
+    "url": "https://www.saastr.com/what-is-a-good-demo-conversion-rate-for-saas-startup/",
+    "url_hash": "f6e0c3830bb661dbdf7e94a2e962db15",
+    "titre": "Dear SaaStr: What Is A Good Demo Conversion Rate for a SaaS Startup?",
+    "resume": "Dear SaaStr: What Is A Good Demo Conversion Rate for a SaaS Startup? 10%-20%. If fewer than 8%-10% or so of your demos convert to paid customers, you’ll start to burn out your sales team.  Because they generally need to close 10-15 deals a month to eat (more for SMB, less for enterprise, but 10-15... Continue Reading",
+    "date": "2026-08-09",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Article de fond sur une métrique clé pour les startups SaaS, avec des chiffres et des conseils pratiques. Utile pour les entrepreneurs.",
+    "tags": [
+      "SaaS",
+      "startup",
+      "taux de conversion",
+      "entrepreneuriat",
+      "métriques"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 3.95
+  },
+  {
     "url": "https://techcrunch.com/2026/05/15/a-hotel-check-in-system-left-a-million-passports-and-drivers-licenses-open-for-anyone-to-see/",
     "url_hash": "d30c6e69e2fbf7bc194c6e757c81c96b",
     "titre": "A hotel check-in system left a million passports and driver’s licenses open for anyone to see",
@@ -40217,6 +40635,30 @@
       "Databricks",
       "IAM permissions",
       "cloud data integration"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.9000000000000004
+  },
+  {
+    "url": "https://medium.com/@douglasreybberido/from-pen-and-paper-to-excel-sql-and-power-bi-fbae07233901?source=rss------power_bi-5",
+    "url_hash": "27d07cf6d519aa4778beb38872c31109",
+    "titre": "FROM PEN AND PAPER TO EXCEL, SQL, AND POWER BI",
+    "resume": "Before the advent of Power BI, SQL, and Microsoft Excel, dealing with data required nothing more than the use of a sheet of paper, a…Continue reading on Medium »",
+    "date": "2026-08-10",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Retour d'expérience sur l'évolution des pratiques de gestion de données de méthodes manuelles à des outils comme Power BI. Utile pour contextualiser.",
+    "tags": [
+      "Power BI",
+      "gestion de données",
+      "historique",
+      "évolution"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 3,
@@ -42022,6 +42464,29 @@
     "score_composite": 3.4
   },
   {
+    "url": "https://medium.com/@himerix847/power-bi-training-in-hyderabad-7ca95bd65e2a?source=rss------power_bi-5",
+    "url_hash": "34d88c43f2fbe8bffb22f2fade0fbe5a",
+    "titre": "Power BI Training in Hyderabad",
+    "resume": "Power BI Training in Hyderabad: ₹15,000 vs ₹35,000 — What Do You Get?Continue reading on Medium »",
+    "date": "2026-08-10",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Informations utiles sur le coût et le contenu d'une formation Power BI, mais ne présente pas d'avancée technique ou de concept nouveau.",
+    "tags": [
+      "Power BI",
+      "formation",
+      "Hyderabad"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 3.4
+  },
+  {
     "url": "https://zapier.com/blog/n8n-vs-zapier",
     "url_hash": "718e85601b939e56f536d8924778329c",
     "titre": "Zapier vs. n8n comparison: Which is best for your organization? [2026]",
@@ -42449,6 +42914,30 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 3,
+    "score_composite": 3.25
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/06/your-table-awaits-exhibit-at-techcrunch-disrupt-2026-to-be-seen-by-thousands/",
+    "url_hash": "b308f8fa4d245b06c57739931db0e5d1",
+    "titre": "Your table awaits: Exhibit at TechCrunch Disrupt 2026 to be seen by thousands",
+    "resume": "Not everyone needs a keynote slot to make noise at TechCrunch Disrupt 2026. Sometimes the best way to meet investors, customers, and partners is by exhibiting directly on the Expo Hall floor at San Francisco’s Moscone West from October 13-15. That’s exactly what our Exhibit Program offers, and it’s still open to showcase your startup.  Here’s what $12,500 buys you:  Joining fellow exhibitors is the fastest, lowest-lift way for a […]",
+    "date": "2026-08-06",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Il s'agit d'une information utile, annonçant l'opportunité d'exposer à TechCrunch Disrupt 2026. Bien que pertinent pour les entrepreneurs, le contenu est de nature promotionnelle pour un événement.",
+    "tags": [
+      "entrepreneuriat",
+      "startup",
+      "événement",
+      "levée de fonds"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 6,
     "score_composite": 3.25
   },
   {
