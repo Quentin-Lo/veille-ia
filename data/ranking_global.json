@@ -1883,7 +1883,7 @@
     "source_name": "VentureBeat AI",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "DATA_PLATFORM",
     "raison_score": "Cet article présente une avancée significative en abordant la difficulté de construire des pipelines de données structurés pour l'IA, un problème courant dans l'ingénierie de données. La solution proposée par DataFlow-Harness semble combler un écart notable.",
@@ -2645,6 +2645,30 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 9,
     "pertinence_entrepreneur": 8,
+    "score_composite": 7.7
+  },
+  {
+    "url": "https://venturebeat.com/data/skan-ai-raises-63-million-betting-that-watching-how-employees-actually-work-is-the-missing-layer-of-enterprise-ai",
+    "url_hash": "46391e3b8d60778e800ac071c4c3baca",
+    "titre": "Skan AI raises $63 million betting that watching how employees actually work is the missing layer of enterprise AI",
+    "resume": "Skan AI, a startup that builds what it calls a \"context graph of work\" by observing how employees actually perform their jobs across enterprise software, has raised $63 million in Series C funding co-led by Cathay Innovation and Dell Technologies Capital, the company announced Wednesday.Citi Ventures, Bloomberg Beta, State Farm Ventures, and Wipro Ventures also participated in the round, which brings the seven-year-old company's total funding to roughly $120 million. Alongside the raise, Skan is",
+    "date": "2026-08-12",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Levée de fonds significative pour une startup proposant une approche novatrice pour l'IA en entreprise axée sur l'observation du travail réel des employés. Redessine potentiellement la manière dont l'IA est appliquée en entreprise.",
+    "tags": [
+      "startup funding",
+      "enterprise AI",
+      "future of work",
+      "Skan AI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
     "score_composite": 7.7
   },
   {
@@ -4455,6 +4479,31 @@
     "score_composite": 7.45
   },
   {
+    "url": "https://venturebeat.com/technology/spacexai-debuts-grok-4-6-overtaking-kimi-k3s-performance-and-matching-gpt-5-6-sol-for-worlds-third-best-on-artificial-analysis",
+    "url_hash": "0858c12046edc942f50e3d6b892bda73",
+    "titre": "SpaceXAI debuts Grok 4.6, overtaking Kimi K3's performance and matching GPT-5.6 Sol for world's third best on Artificial Analysis",
+    "resume": "Elon Musk's company SpaceXAI, formerly known as xAI, has released Grok 4.6, its latest frontier AI model, with a focus on long-running agents, coding and knowledge work — and a pricing strategy designed to make those workloads cheaper to run.The model scores 61 on the third-party Artificial Analysis Intelligence Index, surpassing the popular open weights Chinese model from Moonshot, Kimi K3, and tying rival OpenAI's GPT-5.6 Sol Max and improving five points over Grok 4.5 High. Anthropic's Claude",
+    "date": "2026-08-12",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce d'un nouveau modèle frontier open-source (Grok 4.6) qui redéfinit les performances en se plaçant parmi les meilleurs. L'accent mis sur les agents, le codage et le travail de connaissance est significatif.",
+    "tags": [
+      "frontier AI",
+      "Grok",
+      "XAI",
+      "performance benchmarks",
+      "open-source"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.45
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/18/nvidia-introduces-a-4-bit-pretraining-methodology-using-nvfp4-validated-on-a-12b-hybrid-mamba-transformer-at-10t-token-horizon/",
     "url_hash": "b028c2570f1c96b8c43dd2d743fe9c50",
     "titre": "NVIDIA Introduces a 4-Bit Pretraining Methodology Using NVFP4, Validated on a 12B Hybrid Mamba-Transformer at 10T Token Horizon",
@@ -4545,6 +4594,30 @@
       "Modèles",
       "Frontier AI",
       "Grok 4.5"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.449999999999999
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/13/dyna-robotics-introduces-dyna-2-a-world-action-model-pre-trained-on-1-million-hours-of-human-video/",
+    "url_hash": "7badb1832b4f56b429472bad0407859a",
+    "titre": "Dyna Robotics Introduces Dyna-2: A World-Action Model Pre-Trained on 1 Million Hours of Human Video",
+    "resume": "Dyna Robotics has released Dyna-2, a world-action model pre-trained on more than one million hours of egocentric human video. The technical report establishes three results: a scaling law on human data to 1M hours, the first transfer of that law to unseen robot data, and evidence that video co-training drives cross-embodiment generalization.\nThe post Dyna Robotics Introduces Dyna-2: A World-Action Model Pre-Trained on 1 Million Hours of Human Video appeared first on MarkTechPost.",
+    "date": "2026-08-13",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "Ce modèle introduit une nouvelle approche de 'world-action' pré-entraîné sur une quantité massive de données vidéo humaines. La publication de lois de scaling et la généralisation inter-incarnations sont des percées scientifiques significatives.",
+    "tags": [
+      "robotique",
+      "vision par ordinateur",
+      "apprentissage par transfert",
+      "modèle de monde"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 9,
@@ -4865,30 +4938,6 @@
     "score": 8,
     "categorie": "SECURITE_IA",
     "raison_score": "L'annonce d'un programme ciblé avec GPT-5.4-Cyber et des subventions API pour la cyberdéfense est une avancée significative. Cela démontre une nouvelle capacité de l'IA dans un domaine critique.",
-    "tags": [
-      "cyber defense",
-      "AI security",
-      "GPT-5.4-Cyber",
-      "trusted access"
-    ],
-    "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 7.3500000000000005
-  },
-  {
-    "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
-    "url_hash": "8ae7ef478aa42cd7d92ceb3db166a5fa",
-    "titre": "Trusted access for the next era of cyber defense",
-    "resume": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.",
-    "date": "2026-04-14",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 8,
-    "categorie": "SECURITE_IA",
-    "raison_score": "L'expansion du programme Trusted Access for Cyber et l'introduction de GPT-5.4-Cyber renforcent les capacités de cyberdéfense grâce à l'IA. C'est une avancée significative dans l'application de l'IA à la sécurité.",
     "tags": [
       "cyber defense",
       "AI security",
@@ -5850,6 +5899,31 @@
     "score_composite": 7.3
   },
   {
+    "url": "https://www.marktechpost.com/2026/08/11/nvidia-ai-releases-nemotron-3-5-lightning-and-nemo-switchyard/",
+    "url_hash": "f46089dff4bb923a3c366cf30308795a",
+    "titre": "NVIDIA AI Releases Nemotron 3.5 Lightning: A 30B Open MoE with 3B Active Parameters, and NeMo Switchyard Model Router",
+    "resume": "NVIDIA's open 30B MoE targets the agent execution layer, with Switchyard routing each step to the cheapest capable model.\nThe post NVIDIA AI Releases Nemotron 3.5 Lightning: A 30B Open MoE with 3B Active Parameters, and NeMo Switchyard Model Router appeared first on MarkTechPost.",
+    "date": "2026-08-12",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Lancement d'un modèle MoE open-source compétitif (Nemotron 3.5 Lightning) avec un routeur de modèle (NeMo Switchyard) pour optimiser l'exécution. C'est une avancée significative pour la communauté IA.",
+    "tags": [
+      "MoE",
+      "open-source",
+      "NVIDIA",
+      "Nemotron",
+      "NeMo Switchyard"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3
+  },
+  {
     "url": "https://blog.n8n.io/production-ai-playbook-evaluation-and-monitoring/",
     "url_hash": "f40e1553d5f8182e5c09eba824af690f",
     "titre": "Production AI Playbook: Evaluation and Monitoring",
@@ -6143,6 +6217,30 @@
       "agents",
       "muse spark",
       "muse code"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.250000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/12/spacexai-releases-grok-4-6/",
+    "url_hash": "73a49b7e2c97ba73fcbb90b22df1b534",
+    "titre": "SpaceXAI Releases Grok 4.6: A 500K-Context Frontier Model Tuned for Long-Running Agents, Coding, and Knowledge Work",
+    "resume": "SpaceXAI released Grok 4.6 on August 12, 2026 — a post-training upgrade over Grok 4.5, not a larger base model. It ties GPT-5.6 Sol Max at 61 on the Artificial Analysis Intelligence Index, ships 500K context and a new xhigh reasoning level, and holds pricing at $2/$6 per million tokens. The coding benchmarks are where it still loses.\nThe post SpaceXAI Releases Grok 4.6: A 500K-Context Frontier Model Tuned for Long-Running Agents, Coding, and Knowledge Work appeared first on MarkTechPost.",
+    "date": "2026-08-13",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Le lancement d'un modèle frontière avec une fenêtre contextuelle de 500K et des améliorations pour les agents et le travail de connaissance représente une avancée significative. Bien que ce soit une mise à jour et non un nouveau modèle de base, ses capacités sont considérables.",
+    "tags": [
+      "LLM",
+      "agents",
+      "traitement du langage naturel",
+      "modèles frontières"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -7032,6 +7130,30 @@
       "souveraineté des données",
       "entreprise",
       "stack technologique"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.150000000000001
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+    "url_hash": "afc23a12a580d45a5cd6ffebce6a1b69",
+    "titre": "Scaling AI agents with trustworthy data",
+    "resume": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data…",
+    "date": "2026-08-12",
+    "source_name": "MIT Tech Review AI",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Met l'accent sur l'importance des données fiables pour la mise à l'échelle des agents IA, un aspect crucial pour le ROI en entreprise. Offre une perspective sur une pratique entrepreneuriale IA documentée.",
+    "tags": [
+      "AI agents",
+      "data quality",
+      "ROI",
+      "enterprise AI"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 7,
@@ -10175,6 +10297,30 @@
     "score_composite": 6.95
   },
   {
+    "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+    "url_hash": "143a56c3831ed96063dc4d04cc019442",
+    "titre": "From assistance to execution: How enterprises put AI to work",
+    "resume": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+    "date": "2026-08-12",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Décrit l'adoption d'IA agentique par les entreprises avec des cas d'usage concrets et l'identification des leaders. Permet de comprendre les tendances actuelles et futures de l'IA en entreprise.",
+    "tags": [
+      "agentic AI",
+      "enterprise adoption",
+      "ChatGPT",
+      "Codex"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
     "url": "https://www.latent.space/p/the-coolest-diffusion-research-isnt",
     "url_hash": "3b215a1e99445682fed1507d14824aee",
     "titre": "🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
@@ -12181,6 +12327,31 @@
     "score_composite": 6.800000000000001
   },
   {
+    "url": "https://motherduck.com/blog/vibe-code-data-apps-with-vercel-v0-and-MotherDuck",
+    "url_hash": "8d3ea8dc05cdfea17372aef9656ae03d",
+    "titre": "Vibe Code Data Apps with Vercel V0 & MotherDuck",
+    "resume": "Use an agent to build data apps with the combo of Vercel V0 and MotherDuck! V0 makes prototyping and deployment easy, while MotherDuck Flights provide seamless data ingestion and MotherDuck handles up to billions of rows. Your agent can even sign up for MotherDuck for you! See a full example app and the prompt that kickstarted it!",
+    "date": "2026-08-13",
+    "source_name": "MotherDuck Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article présente un nouveau cas d'usage documenté et reproductible pour la création d'applications de données grâce à un agent combinant Vercel V0 et MotherDuck. L'automatisation de l'inscription à MotherDuck par l'agent est une capacité intéressante.",
+    "tags": [
+      "agents",
+      "data apps",
+      "vercel",
+      "motherduck",
+      "automatisation"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.800000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/",
     "url_hash": "66f4015fb66ba3a1b514c7de8a2f34db",
     "titre": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch",
@@ -12518,6 +12689,30 @@
       "sécurité",
       "agents",
       "réglementation"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.750000000000001
+  },
+  {
+    "url": "https://venturebeat.com/security/four-of-five-enterprises-that-secured-ai-agent-identities-still-cant-contain-one-that-goes-rogue",
+    "url_hash": "64f385dc7ba8bfaed861d527ed0e52fb",
+    "titre": "Four of five enterprises that secured AI agent identities still can't contain one that goes rogue",
+    "resume": "Visa's president of technology, Rajat Taneja, walked the VB Transform 2026 audience through aiming Anthropic's Mythos at Visa's own payment network. The model stitched minor weaknesses into working exploit chains, and Visa open-sourced the harness that governed the hunt.That's what it looks like when an enterprise has the engineering depth to act on what it finds. Most don't get there. Just over half, or 53%, of enterprises have already had an agentic security incident or near-miss. Sixty-five p",
+    "date": "2026-08-12",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Souligne les défis persistants de sécurité avec les agents IA, même après sécurisation des identités. Un retour d'expérience entreprise sur un déploiement complexe avec des métriques sur l'échec.",
+    "tags": [
+      "AI security",
+      "agent security",
+      "enterprise risks",
+      "cybersecurity"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
@@ -17505,6 +17700,31 @@
     "score_composite": 6.45
   },
   {
+    "url": "https://www.sqlbi.com/tv/creating-dax-functions-with-ai-to-remove-duplicated-code/",
+    "url_hash": "97b6bc3a6a56641edb39a70ef853d70b",
+    "titre": "Creating DAX functions with AI to remove duplicated code",
+    "resume": "How to leverage AI to refactor existing DAX code, remove duplicated parts, and centralize the common code in user-defined functions.",
+    "date": "2026-08-11",
+    "source_name": "SQLBI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article offre un tutoriel avancé sur l'utilisation de l'IA pour refactoriser et optimiser le code DAX, une pratique courante dans le domaine de la BI. Il décrit un nouveau cas d'usage de l'IA appliquée à la BI avec des métriques d'efficacité (réduction du code dupliqué).",
+    "tags": [
+      "DAX",
+      "IA",
+      "optimisation",
+      "BI",
+      "refactoring"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 6.45
+  },
+  {
     "url": "https://openai.com/index/simplex",
     "url_hash": "dbde3b0f9ce6031be16c927523c60e13",
     "titre": "Simplex rethinks software development with Codex",
@@ -18358,6 +18578,31 @@
       "gouvernance des données",
       "contexte IA",
       "précision"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.350000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/10/webai-releases-twil-lm-a-1-7b-and-3b-formal-logic-model-family-for-autoformalization-on-local-hardware/",
+    "url_hash": "4c9391866617e62728c8300f624301d8",
+    "titre": "webAI Releases TwIL-LM: A 1.7B and 3B Formal-Logic Model Family for Autoformalization on Local Hardware",
+    "resume": "webAI has released TwIL-LM, a family of formal-logic models at 1.7B and 3B parameters that translate English into first-order logic and check whether conclusions follow from premises. The 3B runs on CPU or 4GB of VRAM; the 1.7B downloads at 1.06GB. Both ship under a non-commercial license. The model card also shows that the headline benchmark scores belong to an unreleased checkpoint, not the weights on the Hub.\nThe post webAI Releases TwIL-LM: A 1.7B and 3B Formal-Logic Model Family for Autofor",
+    "date": "2026-08-11",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Publication d'une famille de modèles axés sur la logique formelle, capables de fonctionner sur du matériel local. Cela représente une avancée significative en rendant la formalisation automatique plus accessible et potentiellement reproductible.",
+    "tags": [
+      "logique formelle",
+      "modèles IA",
+      "autoformalisation",
+      "open-source",
+      "local"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -19400,6 +19645,32 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 5,
+    "score_composite": 6.300000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/12/allenai-open-instruct-tulu-3-post-training-with-sft-dpo-rlvr-grpo-and-verifier-based-evaluation/",
+    "url_hash": "1a64fb652c30475487f52e95f4342f0a",
+    "titre": "AllenAI Open Instruct Tulu 3 Post-Training with SFT, DPO, RLVR, GRPO, and Verifier-Based Evaluation",
+    "resume": "Build a custom LLM post-training pipeline using AllenAI’s Open Instruct framework. This comprehensive guide walks through Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and Reinforcement Learning with Verifiable Rewards (GRPO), optimized to run efficiently on 16GB hardware without needing heavy distributed computing infrastructure.\nThe post AllenAI Open Instruct Tulu 3 Post-Training with SFT, DPO, RLVR, GRPO, and Verifier-Based Evaluation appeared first on MarkTechPost.",
+    "date": "2026-08-12",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Décrit un pipeline de post-entraînement LLM open-source utilisant des techniques avancées (SFT, DPO, GRPO) avec une optimisation matérielle. C'est une avancée significative pour la création de LLM personnalisés.",
+    "tags": [
+      "LLM",
+      "post-training",
+      "SFT",
+      "DPO",
+      "GRPO",
+      "open-source"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
     "score_composite": 6.300000000000001
   },
   {
@@ -20885,6 +21156,30 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 7,
+    "score_composite": 6.15
+  },
+  {
+    "url": "https://wishminds.medium.com/how-to-use-ai-powered-analytics-with-power-bi-copilot-a-practical-guide-for-business-teams-c506fb293d26?source=rss------power_bi-5",
+    "url_hash": "73dee7895b8133a0891cb37a1a745474",
+    "titre": "How to Use AI-Powered Analytics with Power BI Copilot: A Practical Guide for Business Teams",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-08-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Il s'agit d'un tutoriel avancé sur l'utilisation de Copilot dans Power BI, offrant des métriques potentielles pour l'adoption par les équipes métier. L'intégration de l'IA dans un outil mainstream comme Power BI est une évolution notable.",
+    "tags": [
+      "Power BI Copilot",
+      "IA",
+      "analyse d'affaires",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
     "score_composite": 6.15
   },
   {
@@ -22432,6 +22727,30 @@
       "NVIDIA",
       "pipeline IA",
       "tutoriel"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.050000000000001
+  },
+  {
+    "url": "https://towardsdatascience.com/before-full-agentic-rag-know-how-you-decide-and-the-parsing-methods-you-pick-from/",
+    "url_hash": "f1ba707d2d8d0b3ce95116466ee64b2b",
+    "titre": "Before Full Agentic RAG: Know How You Decide, and the Parsing Methods You Pick From",
+    "resume": "Enterprise Document Intelligence [Vol.1 #5nonies] - Nature, plan, execute, synthesize: closing brick 1 with a dispatcher that reads each PDF’s nature and picks the method that fits, fitz, Docling, PaddleOCR, EasyOCR, MinerU or Surya, then folds the outputs into one corpus\nThe post Before Full Agentic RAG: Know How You Decide, and the Parsing Methods You Pick From appeared first on Towards Data Science.",
+    "date": "2026-08-12",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article propose un tutoriel avancé sur la mise en place d'une approche RAG (Retrieval Augmented Generation) pour les agents IA, en se concentrant sur les méthodes de décision et de parsing. C'est une information utile et un tutoriel avancé sur une pratique clé.",
+    "tags": [
+      "RAG",
+      "agents IA",
+      "parsing",
+      "LLM"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
@@ -25574,6 +25893,31 @@
       "cybersécurité",
       "modèle spécialisé",
       "OpenAI"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.800000000000001
+  },
+  {
+    "url": "https://towardsdatascience.com/building-multimodal-workflows-with-a-local-llm/",
+    "url_hash": "d563a26fc22704f9040a3ae04087f81e",
+    "titre": "Building Multimodal Workflows with a Local LLM",
+    "resume": "Image inputs and structured outputs with Gemma 4 and Ollama\nThe post Building Multimodal Workflows with a Local LLM appeared first on Towards Data Science.",
+    "date": "2026-08-12",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Cet article présente un cas d'usage documenté avec métriques (implicites via la construction de workflows) pour la création de flux de travail multimodaux avec un LLM local. Il offre un tutoriel avancé sur l'utilisation de Gemma et Ollama.",
+    "tags": [
+      "LLM local",
+      "multimodal",
+      "workflow",
+      "Gemma",
+      "Ollama"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -29024,6 +29368,31 @@
     "score_composite": 5.55
   },
   {
+    "url": "https://www.marktechpost.com/2026/08/11/building-and-validating-a-quantitative-trading-strategy-with-octobot-walk-forward-backtesting-parameter-optimization-and-interactive-analysis/",
+    "url_hash": "9d9bb7bcee86b014ba9b463702c24c0e",
+    "titre": "Building and Validating a Quantitative Trading Strategy with OctoBot, Walk-Forward Backtesting, Parameter Optimization, and Interactive Analysis",
+    "resume": "In this tutorial, we build a complete quantitative backtesting workflow with OctoBot and OctoBot-Script while keeping the environment isolated from Colab’s preinstalled dependencies. We configure a rule-based trading strategy that combines RSI-based oversold signals, EMA trend confirmation, and ATR-driven adaptive stop-loss and take-profit levels, and we execute it through OctoBot’s native market-order and backtesting APIs. […]\nThe post Building and Validating a Quantitative Trading Strategy wit",
+    "date": "2026-08-11",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Tutoriel avancé sur la construction et la validation d'une stratégie de trading quantitative. Bien que pratique, il s'agit d'un cas d'usage spécifique et documenté plutôt qu'une avancée majeure.",
+    "tags": [
+      "trading quantitatif",
+      "OctoBot",
+      "backtesting",
+      "IA appliquée",
+      "finance"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.55
+  },
+  {
     "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
     "url_hash": "2d7f3b660987a7fb4ae0c354077d202e",
     "titre": "Introducing ChatGPT Futures: Class of 2026",
@@ -29776,30 +30145,6 @@
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 5,
     "score_composite": 5.45
-  },
-  {
-    "url": "https://blog.n8n.io/workflow-vs-orchestration/",
-    "url_hash": "9b62ac2bdb68fe3fe9a8d375c98ba487",
-    "titre": "Workflow Automation vs. Orchestration: Architectural Differences That Matter at Scale",
-    "resume": "Workflow vs. orchestration for engineers: Define terms, avoid tool sprawl, and choose a production control plane with security and reliability.",
-    "date": "2026-04-14",
-    "source_name": "n8n Blog",
-    "categorie_source": "AUTOMATISATION",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 5,
-    "categorie": "AUTOMATISATION",
-    "raison_score": "L'article clarifie les différences architecturales entre automatisation des workflows et orchestration à grande échelle. C'est une évolution notable pour les praticiens cherchant à optimiser leurs processus.",
-    "tags": [
-      "workflow automation",
-      "orchestration",
-      "scalability",
-      "architecture"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 4,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 5.449999999999999
   },
   {
     "url": "https://medium.com/@yusthikasf/dari-angka-menjadi-cerita-mengungkap-tren-penjualan-makeup-global-dengan-dashboard-power-bi-58706abb9bdf?source=rss------power_bi-5",
@@ -31115,6 +31460,30 @@
       "AWS",
       "Bedrock",
       "modèles"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.300000000000001
+  },
+  {
+    "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+    "url_hash": "1110b810dc4dcfbad259c21d1e88926a",
+    "titre": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+    "resume": "",
+    "date": "2026-08-12",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Présente de nouveaux embeddings pour des analyses downstream, ce qui est une évolution notable pour les chercheurs et développeurs en IA. La publication de ce type d'outil open-source est intéressante mais pas révolutionnaire.",
+    "tags": [
+      "embeddings",
+      "OlmoEarth",
+      "downstream analysis",
+      "open-source"
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 7,
@@ -33615,6 +33984,30 @@
     "score_composite": 5.1499999999999995
   },
   {
+    "url": "https://medium.com/@rabbiamehtab55/from-numbers-to-stories-my-cancer-patient-insights-dashboard-in-power-bi-2cd2e9adf2b0?source=rss------power_bi-5",
+    "url_hash": "c848f14a92aba8ca16520c45aafb19e5",
+    "titre": "From Numbers to Stories: My Cancer Patient Insights Dashboard in Power BI",
+    "resume": "CANCER PATIENT INSIGHTS DASHBOARDContinue reading on Medium »",
+    "date": "2026-08-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Il s'agit d'un nouveau cas d'usage documenté de Power BI pour la création d'un tableau de bord d'informations sur les patients atteints de cancer. L'application des données dans un domaine sensible comme la santé est une évolution notable.",
+    "tags": [
+      "Power BI",
+      "santé",
+      "analyse de données",
+      "tableaux de bord"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.1499999999999995
+  },
+  {
     "url": "https://www.latent.space/p/ainews-anthropic-claude-fable-5-mythos",
     "url_hash": "8134faf52d29b1383d928ad43a57a58d",
     "titre": "[AINews] Anthropic Claude Fable 5 — Mythos but Safe, with Controversial Terms",
@@ -35078,6 +35471,56 @@
     "score_composite": 4.95
   },
   {
+    "url": "https://www.marktechpost.com/2026/08/11/xiaomis-milm-plus-releases-prove-perception-aligned-object-removal-metrics-rc-s-and-rc-t-with-a-real-world-video-benchmark/",
+    "url_hash": "bae029fc50240ba77e1fabb97d0bc576",
+    "titre": "Xiaomi’s MiLM Plus Releases PROVE: Perception-Aligned Object Removal Metrics RC-S and RC-T With a Real-World Video Benchmark",
+    "resume": "Object removal models have improved faster than the metrics used to judge them. Diffusion erasers now reconstruct shadows, reflections and occluded structure convincingly, yet PSNR, SSIM, LPIPS, ReMOVE and CFD frequently rank their outputs the wrong way. The root cause is structural: erasure is an ill-posed, one-to-many task, so no single ground truth exists to […]\nThe post Xiaomi’s MiLM Plus Releases PROVE: Perception-Aligned Object Removal Metrics RC-S and RC-T With a Real-World Video Benchmar",
+    "date": "2026-08-12",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Présente de nouvelles métriques pour l'évaluation de modèles de suppression d'objets, abordant une limitation actuelle dans le domaine. C'est une évolution notable pour l'évaluation dans ce cas d'usage spécifique.",
+    "tags": [
+      "object removal",
+      "metrics",
+      "computer vision",
+      "benchmark",
+      "MiLM Plus"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.95
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis/",
+    "url_hash": "73b1605af863f09dbbd1d6b61e691a48",
+    "titre": "Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline with ComfyUI APIs",
+    "resume": "In this comprehensive guide, we demonstrate how to implement a complete, programmable MiniMax-H3 multimodal generation pipeline. By leveraging ComfyUI as a headless backend, we walk through setting up an automated inference environment that handles hardware profiling, model weight downloading, dynamic graph construction, and joint video-audio decoding. \nThe post Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline with ComfyUI APIs appeared first on MarkTechPost.",
+    "date": "2026-08-11",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Guide détaillé sur la mise en place d'un pipeline de génération multimodale. Il s'agit d'un tutoriel avancé sur une application spécifique de l'IA, documentant un cas d'usage complexe.",
+    "tags": [
+      "génération multimodale",
+      "vidéo",
+      "audio",
+      "ComfyUI",
+      "IA appliquée"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.95
+  },
+  {
     "url": "https://medium.com/@nehapranami.2486/building-an-e-commerce-sales-analytics-dashboard-using-python-and-power-bi-0386fe8c4c3e?source=rss------power_bi-5",
     "url_hash": "71be104fbb3f9e7807572b4180430dd2",
     "titre": "Building an E-Commerce Sales Analytics Dashboard Using Python and Power BI",
@@ -35758,6 +36201,30 @@
       "sécurité",
       "scalabilité",
       "bonnes pratiques"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
+    "url": "https://medium.com/@rabbiamehtab55/turning-e-commerce-data-into-insights-with-power-bi-ca3bfe1faa1b?source=rss------power_bi-5",
+    "url_hash": "0f8ec1dabba3944b5f9a3a890f8c396a",
+    "titre": "Turning E-Commerce Data into Insights with Power BI",
+    "resume": "E-COMMERCE SALES ANALYSIS DASHBOARDContinue reading on Medium »",
+    "date": "2026-08-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article présente un nouveau cas d'usage documenté de Power BI pour l'analyse des données d'e-commerce. La conversion de données brutes en informations exploitables est une pratique BI courante et importante.",
+    "tags": [
+      "Power BI",
+      "e-commerce",
+      "analyse de données",
+      "BI"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
@@ -36765,6 +37232,54 @@
       "visualisation de données",
       "matrice",
       "mise à jour outil"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.8
+  },
+  {
+    "url": "https://medium.com/@mydata_insights/power-bi-pricing-2026-pro-vs-ppu-vs-premium-capacity-real-cost-breakeven-points-f4e74d76a309?source=rss------power_bi-5",
+    "url_hash": "ba189af2ca6cf2889a75bb5c5c40133e",
+    "titre": "Power BI Pricing 2026: Pro vs PPU vs Premium Capacity — Real Cost Breakeven Points",
+    "resume": "Pro at $14, PPU at $24, or Fabric F64 capacity? The 2026 Power BI licensing decision, with the real US list-price breakeven points — and…Continue reading on Medium »",
+    "date": "2026-08-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article fournit une analyse utile des points d'équilibre des coûts pour les différentes options de licence Power BI, en se basant sur des données chiffrées. Il s'agit d'une information pratique pour les utilisateurs de Power BI.",
+    "tags": [
+      "Power BI",
+      "tarification",
+      "coûts",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.8
+  },
+  {
+    "url": "https://medium.com/@siddheshvasav/devops-pipeline-performance-analysis-using-power-bi-51c5fb4ae23f?source=rss------power_bi-5",
+    "url_hash": "6efeab9ffaa7941abca17f6a07b76acc",
+    "titre": "DevOps Pipeline Performance Analysis Using Power BI",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-08-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un nouveau cas d'usage documenté de Power BI pour l'analyse des performances de pipelines DevOps. Bien que le résumé soit court, l'application de Power BI à ce domaine est une évolution notable.",
+    "tags": [
+      "Power BI",
+      "DevOps",
+      "analyse de performance",
+      "BI"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
@@ -38156,6 +38671,30 @@
       "quotas",
       "utilisation ia",
       "ia appliquée"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.6
+  },
+  {
+    "url": "https://www.databricks.com/blog/databricks-network-configuration-delivery-tens-millions-serverless-vms",
+    "url_hash": "cf462f603c774aa9efbb8212e9aa3c19",
+    "titre": "Databricks Network Configuration delivery to Tens of Millions of Serverless VMs",
+    "resume": "SummaryDatabricks' serverless platform launches tens of millions of VMs daily, and...",
+    "date": "2026-08-12",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "CLOUD_DATA",
+    "raison_score": "Décrit une avancée technique dans la gestion de millions de VMs serverless chez Databricks. C'est une mise à jour importante pour les utilisateurs de la plateforme, mais moins percutante pour un public général.",
+    "tags": [
+      "Databricks",
+      "serverless",
+      "cloud infrastructure",
+      "VMs"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 5,
@@ -39889,6 +40428,54 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 6,
+    "score_composite": 4.35
+  },
+  {
+    "url": "https://medium.com/@mahimkalbande744/ice-cream-sales-vs-temperature-a-data-driven-analysis-using-power-bi-078e0159bf36?source=rss------power_bi-5",
+    "url_hash": "d763c09f35a2cdb4c15b6134c6521a85",
+    "titre": "Ice Cream Sales vs Temperature: A Data-Driven Analysis Using Power BI",
+    "resume": "Have you ever noticed that ice cream shops seem to get busier as the temperature rises? It may seem obvious that warmer weather encourages…Continue reading on Medium »",
+    "date": "2026-08-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article présente un cas d'usage documenté et simple de Power BI pour analyser la relation entre les ventes de glaces et la température. C'est un exemple concret d'application BI, même s'il n'est pas révolutionnaire.",
+    "tags": [
+      "Power BI",
+      "analyse de données",
+      "vente",
+      "météo"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.35
+  },
+  {
+    "url": "https://medium.com/@atharvrkale111/expense-analytics-dashboard-using-microsoft-power-bi-58cde3bfc778?source=rss------power_bi-5",
+    "url_hash": "b207f9daf7ff37e7d86335df41e21c1a",
+    "titre": "Expense Analytics Dashboard Using Microsoft Power BI",
+    "resume": "This blog presents an Expense Analytics Dashboard project developed using Microsoft Power BI to analyze personal financial transactions…Continue reading on Medium »",
+    "date": "2026-08-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article présente un nouveau cas d'usage documenté de Power BI pour la création d'un tableau de bord d'analyse des dépenses personnelles. C'est une application pratique de la BI.",
+    "tags": [
+      "Power BI",
+      "tableaux de bord",
+      "analyse de dépenses",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
     "score_composite": 4.35
   },
   {
