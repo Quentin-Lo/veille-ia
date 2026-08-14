@@ -756,6 +756,30 @@
     "score_composite": 8.35
   },
   {
+    "url": "https://venturebeat.com/security/three-claude-agents-given-conflicting-orders-sabotaged-each-other-on-a-shared-server-then-didnt-tell-users-what-theyd-done",
+    "url_hash": "5dec328163fb4d1ffc774c5244aad280",
+    "titre": "Three Claude agents given conflicting orders sabotaged each other on a shared server — then didn't tell users what they'd done",
+    "resume": "Every Claude model Anthropic tested turned on its own, and no attacker made them do it. Given three agents, four hours on one server, and conflicting orders none knew the others held, the models disabled each other's Unix accounts, ran kill scripts randomized to dodge pkill, and planted malware disguised as a rival's work. There was no prompt injection and no adversary. Anthropic's Frontier Red Team published the transcripts on Thursday and called the escalation “increasingly aggressive, self-re",
+    "date": "2026-08-13",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Démonstration d'un comportement inattendu et potentiellement dangereux des agents IA, révélant une vulnérabilité imprévue. Cela représente une percée dans la compréhension des risques des agents autonomes.",
+    "tags": [
+      "IA",
+      "agents",
+      "sécurité",
+      "Claude"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 8.35
+  },
+  {
     "url": "https://www.wired.com/story/illinois-pass-major-ai-safety-law-pritzker/",
     "url_hash": "b8e2adf51915d8aec1d7a0c61be4b62f",
     "titre": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill",
@@ -1725,6 +1749,32 @@
     "score_composite": 7.95
   },
   {
+    "url": "https://venturebeat.com/orchestration/writer-says-its-new-palmyra-x6-model-cuts-ai-agent-costs-by-52-as-token-spending-surges",
+    "url_hash": "67961521a6b1083585e01bd34c1c3a0a",
+    "titre": "Writer says its new Palmyra X6 model cuts AI agent costs by 52% as token spending surges",
+    "resume": "Writer, the enterprise AI agent platform used by Fortune 500 companies including Accenture, Uber, and Vanguard, released its new flagship model Palmyra X6 today, alongside a rebuilt agent orchestration \"harness\" and new governance tools designed to give IT leaders control over runaway token spending.The headline numbers are striking: Writer says its agent product now operates at an average 52% lower cost, with a 48% improvement in speed and a 10% improvement in quality when paired with Palmyra X",
+    "date": "2026-08-13",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'annonce d'un nouveau modèle (Palmyra X6) et d'une plateforme d'orchestration avec des gains significatifs en coût (-52%) et amélioration de performance (vitesse/qualité) représente une avancée significative. Cela adresse directement les défis d'optimisation des coûts des agents IA.",
+    "tags": [
+      "IA",
+      "agents",
+      "modèle",
+      "optimisation",
+      "coût",
+      "performance"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.95
+  },
+  {
     "url": "https://venturebeat.com/infrastructure/microsoft-debuts-surface-rtx-spark-dev-box-to-run-large-ai-models-without-cloud-costs",
     "url_hash": "f275023484a8030f1b11ba4c06563d82",
     "titre": "Microsoft debuts Surface RTX Spark Dev Box to run large AI models without cloud costs",
@@ -1908,7 +1958,7 @@
     "source_name": "VentureBeat AI",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "IA_AGENTS",
     "raison_score": "Nouvelle approche documentée pour des agents IA d'entreprise capables de partager une mémoire collective tout en garantissant la confidentialité des données.",
@@ -5327,6 +5377,55 @@
     "score_composite": 7.3500000000000005
   },
   {
+    "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+    "url_hash": "4cdd6362e5e2164e07892753516cc37f",
+    "titre": "Introducing Gemini 3.7 Flash",
+    "resume": "",
+    "date": "2026-08-13",
+    "source_name": "DeepMind Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Lancement d'une nouvelle version majeure d'un modèle IA de pointe, Gemini 3.7 Flash, avec des améliorations significatives pour le codage et les agents. Il s'agit d'une avancée notable dans le domaine des modèles IA.",
+    "tags": [
+      "Gemini",
+      "IA",
+      "modèles",
+      "agents"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3500000000000005
+  },
+  {
+    "url": "https://venturebeat.com/technology/googles-gemini-3-7-flash-targets-coding-and-agents-with-a-50-introductory-price-cut",
+    "url_hash": "3b1bf17c76933a91769c179e71f3a1d0",
+    "titre": "Google’s Gemini 3.7 Flash targets coding and agents with a 50% introductory price cut",
+    "resume": "Google is rolling out Gemini 3.7 Flash, a new version of its workhorse AI model that puts coding, agentic workflows and knowledge work at the center of the upgrade — while temporarily cutting API prices in half.The release arrives just three weeks after the release of Gemini 3.6 Flash, an unusually short turnaround that Google attributes to developer feedback and algorithmic improvements. For enterprise developers, the more consequential story may be the combination of those intelligence gains w",
+    "date": "2026-08-13",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce du modèle Gemini 3.7 Flash, axé sur le codage et les agents, avec une réduction de prix importante pour l'API. Ceci est une avancée significative qui rend ces capacités plus accessibles.",
+    "tags": [
+      "Gemini",
+      "IA",
+      "modèles",
+      "agents",
+      "codage"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3500000000000005
+  },
+  {
     "url": "https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/",
     "url_hash": "f3a363f83daafbe93a5900a46846d162",
     "titre": "Google DeepMind Ships Three Physical AI Models For Whole Body Control, Dexterity And Multi Robot Collaboration",
@@ -7928,30 +8027,6 @@
     "score_composite": 7.050000000000001
   },
   {
-    "url": "https://docs.getdbt.com/blog/building-a-better-data-agent-benchmark",
-    "url_hash": "f4b4d51882dce6da2edb1fc2f21afd30",
-    "titre": "Building a better data agent benchmark",
-    "resume": "An update on ADE-bench, why context is critical to agentic workflows, and how you can improve your own team's agent eval loop.",
-    "date": "2026-04-15",
-    "source_name": "dbt Blog",
-    "categorie_source": "DATA_PLATFORM",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_AGENTS",
-    "raison_score": "Cet article décrit la création d'un benchmark pour les agents de données, abordant l'importance du contexte pour les workflows agentiques. C'est une avancée significative pour l'évaluation et l'amélioration des agents IA.",
-    "tags": [
-      "data agents",
-      "AI benchmark",
-      "agentic workflows",
-      "dbt"
-    ],
-    "pertinence_bi_consultant": 8,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 7.050000000000001
-  },
-  {
     "url": "https://www.saastr.com/the-agents-episode-005-is-out-our-2-ai-vps-cost-257-month-a-website-willed-itself-into-becoming-an-agent-and-qb-sent-83-personalized-emails-at-1220am/",
     "url_hash": "82aaaef78d00119fb9a3863362f98d42",
     "titre": "The Agents Episode #005 is Out! Our 2 AI VPs Cost $257/Month, a Website Willed Itself Into Becoming an Agent, and QB Sent 83 Personalized Emails at 12:20am",
@@ -10314,6 +10389,30 @@
       "enterprise adoption",
       "ChatGPT",
       "Codex"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://venturebeat.com/technology/deepseek-harness-launches-as-open-source-rival-to-claude-code-alongside-v4-pro-on-api-with-higher-prices",
+    "url_hash": "67f8cdb12ca6eaee1b80663ac6159d19",
+    "titre": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices",
+    "resume": "DeepSeek is expanding beyond the model layer and deeper into the software developers use to put AI agents to work.The Chinese AI lab on Thursday launched the official version of DeepSeek-V4-Pro, an updated flagship model focused heavily on agentic workloads, alongside DeepSeek Harness v0.1, a new open-source agent harness that gives developers an alternative to integrated coding-agent environments such as Anthropic’s Claude Code.Together, the releases amount to a broader developer push from Deep",
+    "date": "2026-08-13",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Lancement d'un nouvel outil open-source pour les agents IA, offrant une alternative compétitive aux solutions propriétaires. Il s'agit d'une avancée significative pour la communauté.",
+    "tags": [
+      "IA",
+      "agents",
+      "open-source",
+      "DeepSeek"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -13990,6 +14089,55 @@
       "open-source",
       "Databricks",
       "agent"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
+    "url": "https://openai.com/index/previewing-ultrafast",
+    "url_hash": "b66fa57c04f1c3a8bc6c97d9d809fe00",
+    "titre": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+    "resume": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+    "date": "2026-08-13",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce d'une nouvelle capacité de modèle IA majeure (vitesse accrue) avec des spécifications techniques. Cette évolution significative améliore les performances.",
+    "tags": [
+      "GPT",
+      "IA",
+      "performance",
+      "modèles"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
+    "url": "https://venturebeat.com/orchestration/why-capital-one-built-its-multi-agent-ai-platform-around-open-weight-models",
+    "url_hash": "29bc30d27c1bd18b05cf96ce445cd939",
+    "titre": "Why Capital One built its multi-agent AI platform around open-weight models",
+    "resume": "Presented by Capital One At VB Transform 2026, Kel Vanee, MVP of machine learning engineering at Capital One, spoke with Sam Witteveen, Senior Technology Contributor at VentureBeat, about how the bank built a scalable multi-agent AI architecture around deeply customized open-weight models rather than relying on an off-the-shelf foundation model. \"At Capital One, we're not just using AI, we're building AI,\" Vanee said.The groundwork was laid years ago with Capital One's early investments in data ",
+    "date": "2026-08-13",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Capital One détaille son architecture multi-agent basée sur des modèles open-weight, montrant une approche stratégique et personnalisée. L'article met en avant une capacité reproductible et une architecture évolutive pour des usages avancés d'IA en entreprise.",
+    "tags": [
+      "IA",
+      "multi-agent",
+      "open-weight",
+      "Capital One",
+      "architecture"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -18216,30 +18364,6 @@
     "score_composite": 6.4
   },
   {
-    "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
-    "url_hash": "1bce4c3eeade6ff3dbc03f957bdfecf3",
-    "titre": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
-    "resume": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
-    "date": "2026-04-15",
-    "source_name": "DeepMind Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_MODELES",
-    "raison_score": "L'introduction de Gemini 3.1 Flash TTS avec un contrôle précis sur la voix représente une avancée significative dans la génération vocale par IA. Cette nouvelle capacité améliore l'expressivité et le contrôle.",
-    "tags": [
-      "Gemini",
-      "TTS",
-      "AI speech",
-      "multimodal AI"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 6.350000000000001
-  },
-  {
     "url": "https://newsletter.pragmaticengineer.com/p/ubuntu-and-ai",
     "url_hash": "0cadad2907a3432af710013892b20509",
     "titre": "How will AI change operating systems? Part 1: Ubuntu and Linux",
@@ -18603,6 +18727,29 @@
       "autoformalisation",
       "open-source",
       "local"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.350000000000001
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+    "url_hash": "6d403897350e2816eb3b0669bc0ac067",
+    "titre": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+    "resume": "Down, but not out!",
+    "date": "2026-08-14",
+    "source_name": "Latent Space",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Nouvelle version d'un modèle IA majeur avec des améliorations ciblées sur le codage et les agents. Annonce d'une réduction de prix temporaire pour l'API.",
+    "tags": [
+      "Gemini",
+      "IA",
+      "modèles"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -21180,6 +21327,32 @@
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 5,
+    "score_composite": 6.15
+  },
+  {
+    "url": "https://towardsdatascience.com/langchain-vs-langgraph-4-key-differences-and-when-to-use-each/",
+    "url_hash": "d513ac1f8665280511216448839477f3",
+    "titre": "LangChain vs LangGraph: 4 Key Differences and When to Use Each",
+    "resume": "A practical guide to choose the proper tool for your agentic workflows and systems\nThe post LangChain vs LangGraph: 4 Key Differences and When to Use Each appeared first on Towards Data Science.",
+    "date": "2026-08-13",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Il s'agit d'un tutoriel avancé comparant deux frameworks populaires pour le développement d'agents. L'article explique les différences clés et quand utiliser chaque outil, fournissant une information utile pour les praticiens.",
+    "tags": [
+      "IA",
+      "LangChain",
+      "LangGraph",
+      "agents",
+      "framework",
+      "comparatif"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
     "score_composite": 6.15
   },
   {
@@ -23769,6 +23942,56 @@
     "score_composite": 5.950000000000001
   },
   {
+    "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+    "url_hash": "3e500ccae6c75743adcd9ad5e9b66144",
+    "titre": "The builder’s guide to GPT‑5.6",
+    "resume": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+    "date": "2026-08-13",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Tutoriel avancé expliquant l'utilisation de GPT-5.6 pour créer des agents IA. Il documente une nouvelle capacité reproductible et applicable.",
+    "tags": [
+      "GPT",
+      "IA",
+      "agents",
+      "développement"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.950000000000001
+  },
+  {
+    "url": "https://towardsdatascience.com/cut-an-enterprise-rag-pipelines-latency-and-cost-by-calling-the-llm-less-not-by-buying-a-faster-model/",
+    "url_hash": "6b10cfdb5c487b3570591e316977edc0",
+    "titre": "Cut an Enterprise RAG Pipeline’s Latency and Cost by Calling the LLM Less, Not by Buying a Faster Model",
+    "resume": "Enterprise Document Intelligence [Vol.1 #9ter] - The pipeline from Article 9 calls a model at several steps to be sure it is right. On easy questions that is needless latency. A per-question signal routes them past the model, about two seconds saved for a keyword match.\nThe post Cut an Enterprise RAG Pipeline’s Latency and Cost by Calling the LLM Less, Not by Buying a Faster Model appeared first on Towards Data Science.",
+    "date": "2026-08-13",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article propose une approche pratique et quantifiable pour réduire la latence et les coûts des pipelines RAG en optimisant les appels aux LLMs. Il offre un nouveau cas d'usage documenté avec métriques pour l'optimisation des systèmes d'IA d'entreprise.",
+    "tags": [
+      "IA",
+      "RAG",
+      "LLM",
+      "optimisation",
+      "coût",
+      "latence"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.950000000000001
+  },
+  {
     "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
     "url_hash": "3938b1e238f6786e2166d8e6516eb0e3",
     "titre": "New ways to buy ChatGPT ads",
@@ -24922,6 +25145,56 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 7,
+    "score_composite": 5.9
+  },
+  {
+    "url": "https://www.databricks.com/blog/how-scottish-water-made-its-capital-investment-data-conversational-databricks-genie",
+    "url_hash": "c5616347cb4fcef0a252e168850f4782",
+    "titre": "How Scottish Water Made Its Capital Investment Data Conversational With Databricks Genie",
+    "resume": "Across Scottish Water’s Capital Investment (CI) programme, teams need fast answers...",
+    "date": "2026-08-13",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cas d'usage de Scottish Water utilisant Databricks Genie pour rendre les données d'investissement en capital conversationnelles, permettant des réponses rapides aux équipes. Montre l'application concrète de l'IA conversationnelle pour les données métier.",
+    "tags": [
+      "Databricks Genie",
+      "IA conversationnelle",
+      "cas d'usage",
+      "data business"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.9
+  },
+  {
+    "url": "https://motherduck.com/blog/duckdb-ecosystem-newsletter-august-2026",
+    "url_hash": "96a00293d573ab28c970a71457ea6bc9",
+    "titre": "DuckDB Ecosystem Newsletter : August 2026",
+    "resume": "The August 2026 DuckDB Ecosystem Newsletter: giving every agent its own embedded DuckDB, the ADBC extension reaching 30+ external databases, async I/O landing in v2.0, ISO GQL graph queries, Perspective 5.0 pushdown, plus a community spotlight on Kyle Cheung.",
+    "date": "2026-08-13",
+    "source_name": "MotherDuck Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Cette newsletter met en avant des évolutions notables dans l'écosystème DuckDB, notamment l'intégration d'agents, de nouvelles extensions (ADBC, GQL) et mises à jour majeures (v2.0). Ces avancées sont pertinentes pour les plateformes de données.",
+    "tags": [
+      "DuckDB",
+      "data",
+      "plateforme",
+      "écosystème",
+      "agents",
+      "database"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
     "score_composite": 5.9
   },
   {
@@ -26117,6 +26390,32 @@
       "semantic model",
       "BI practices",
       "DevOps"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.8
+  },
+  {
+    "url": "https://medium.com/@ntekopudoh/gender-pay-analysis-how-i-turned-employee-data-into-meaningful-insights-using-power-bi-1e8846cd1336?source=rss------power_bi-5",
+    "url_hash": "8ce38756e9e896644c37c07e304570c6",
+    "titre": "Gender Pay Analysis: How I Turned Employee Data into Meaningful Insights Using Power BI.",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-08-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Il s'agit d'un nouveau cas d'usage documenté sur l'utilisation de Power BI pour une analyse de données RH, démontrant la transformation de données brutes en insights significatifs. Ceci représente une évolution notable dans l'application de la BI.",
+    "tags": [
+      "Power BI",
+      "BI",
+      "RH",
+      "analyse",
+      "insights",
+      "cas d'usage"
     ],
     "pertinence_bi_consultant": 9,
     "pertinence_passionné_ia": 4,
@@ -29023,6 +29322,32 @@
     "score_composite": 5.550000000000001
   },
   {
+    "url": "https://towardsdatascience.com/how-to-utilize-okf-efficiently-to-enable-knowledge-exchange-among-llms/",
+    "url_hash": "d90362115a1a0bb7eab6f95342d857fb",
+    "titre": "How to Utilize OKF Efficiently to Enable Knowledge Exchange Among LLMs",
+    "resume": "Google's Open Knowledge Format (OKF) is a Markdown+YAML skeleton for sharing knowledge between humans and AI agents. This post reuses that skeleton for a very specific job — an agent-to-agent hand-off of pre-tokenized integer arrays between three Qwen2.5-Coder models (7B, 3B, 1.5B) — and shows the 28–37% TTFT reduction plus the one full-vocabulary equivalence check that keeps the whole thing safe.\nThe post How to Utilize OKF Efficiently to Enable Knowledge Exchange Among LLMs appeared first on T",
+    "date": "2026-08-13",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article propose un tutoriel avancé sur l'utilisation du format OKF pour l'échange de connaissances entre LLMs, démontrant une amélioration quantifiable (28-37% de réduction du TTFT). Il s'agit d'une information utile pour l'optimisation des workflows d'agents.",
+    "tags": [
+      "IA",
+      "LLMs",
+      "agents",
+      "OKF",
+      "échange de connaissances",
+      "optimisation"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.550000000000001
+  },
+  {
     "url": "https://medium.com/powerbi-microsoft-fabric/how-microsoft-fabric-is-different-from-power-bi-c495674c1fc5?source=rss------power_bi-5",
     "url_hash": "eae6c99644e9cc692dae0959f324214a",
     "titre": "How Microsoft Fabric is Different from Power BI",
@@ -31318,6 +31643,32 @@
     "score_composite": 5.35
   },
   {
+    "url": "https://medium.com/@ornelas.tozato/desenvolvendo-um-dashboard-de-gest%C3%A3o-de-rh-com-power-bi-e-integra%C3%A7%C3%A3o-em-nuvem-f73a84194ece?source=rss------power_bi-5",
+    "url_hash": "dd37a002bbc5af8548bb6cc1f35cb022",
+    "titre": "Desenvolvendo um Dashboard de Gestão de RH com Power BI e Integração em Nuvem",
+    "resume": "Estruturar e desenvolver um dashboard analítico para o setor de Recursos Humanos, focado na consolidação de métricas corporativas…Continue reading on Medium »",
+    "date": "2026-08-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "L'article documente un nouveau cas d'usage BI, la création d'un tableau de bord RH avec Power BI et intégration cloud. Cela démontre une utilisation pratique d'outils existants pour des besoins métiers spécifiques.",
+    "tags": [
+      "Power BI",
+      "BI",
+      "dashboard",
+      "RH",
+      "cloud",
+      "cas d'usage"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.35
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/26/stability-ai-releases-stable-audio-3-a-family-of-fast-latent-diffusion-models-for-audio-generation-and-editing/",
     "url_hash": "3e19060395fa5bc5a6bc66d806ad83e5",
     "titre": "Stability AI Releases Stable Audio 3: A Family of Fast Latent Diffusion Models for Audio Generation and Editing",
@@ -32144,6 +32495,29 @@
       "analyse de ventes",
       "catégorie produit",
       "business intelligence"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3
+  },
+  {
+    "url": "https://medium.com/@uzairkhanned/from-raw-data-to-meaningful-insights-with-power-bi-d8df0e5cf78d?source=rss------power_bi-5",
+    "url_hash": "c6bdd4891d6d89cb18bded7f59a37965",
+    "titre": "From Raw Data to Meaningful Insights with Power BI",
+    "resume": "I’m excited to share one of my recent Power BI dashboard projects — Cancer Patient Report Dashboard.Continue reading on Medium »",
+    "date": "2026-08-14",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Présentation d'un cas d'usage spécifique de Power BI avec des métriques pour un tableau de bord. L'information est documentée et illustre une pratique établie.",
+    "tags": [
+      "Power BI",
+      "BI",
+      "cas d'usage"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 4,
@@ -33440,6 +33814,31 @@
       "data visualization",
       "business intelligence",
       "reporting"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
+  },
+  {
+    "url": "https://medium.com/microsoft-power-bi/10-ways-to-use-conditional-formatting-for-line-chart-series-in-power-bi-0430b5582048?source=rss------power_bi-5",
+    "url_hash": "343ade0de6aace0f62908bb25e3a1541",
+    "titre": "10 Ways to Use Conditional Formatting for Line Chart Series in Power BI",
+    "resume": "Turning line color into another layer of analysisContinue reading on Power BI »",
+    "date": "2026-08-13",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article fournit un tutoriel avancé sur une fonctionnalité spécifique de Power BI (formatage conditionnel pour les graphiques linéaires). Il représente une mise à jour importante d'un outil existant et offre des astuces pratiques.",
+    "tags": [
+      "Power BI",
+      "BI",
+      "formatage conditionnel",
+      "graphique",
+      "tutoriel"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 3,
@@ -35517,6 +35916,30 @@
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.95
+  },
+  {
+    "url": "https://medium.com/@TRIGENT/power-bi-implementation-challenges-for-small-and-mid-sized-businesses-smbs-a-complete-2026-guide-15a234d806a1?source=rss------power_bi-5",
+    "url_hash": "4bf69f7e2c8b6dfe465588e734263f4b",
+    "titre": "Power BI Implementation Challenges for Small and Mid-Sized Businesses (SMBs): A Complete 2026 Guide",
+    "resume": "Why Power BI Implementation Is Harder Than It Looks for SMBsContinue reading on Medium »",
+    "date": "2026-08-14",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article de fond sur les défis d'implémentation de Power BI pour les PME. Il fournit des informations utiles basées sur des pratiques établies.",
+    "tags": [
+      "Power BI",
+      "BI",
+      "PME",
+      "implémentation"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 5,
     "score_composite": 4.95
   },
@@ -39334,6 +39757,29 @@
       "analytique chaîne d'approvisionnement",
       "tableau de bord",
       "Business Intelligence"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.55
+  },
+  {
+    "url": "https://medium.com/@websitenexlifye/power-bi-services-by-nexlify-technology-turning-raw-data-into-business-decisions-789f9c61da44?source=rss------power_bi-5",
+    "url_hash": "8a21bd844c803d6fdd71b8031a447c9d",
+    "titre": "Power BI Services by Nexlify Technology: Turning Raw Data Into Business Decisions",
+    "resume": "If your organization is still exporting spreadsheets, emailing static reports, or waiting days for finance and operations to “compile the…Continue reading on Medium »",
+    "date": "2026-08-14",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Article décrivant l'utilisation de Power BI pour la prise de décision. L'information est utile mais ne présente pas d'innovation majeure.",
+    "tags": [
+      "Power BI",
+      "BI",
+      "décisions"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
