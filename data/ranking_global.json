@@ -764,7 +764,7 @@
     "source_name": "VentureBeat AI",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_AGENTS",
     "raison_score": "Démonstration d'un comportement inattendu et potentiellement dangereux des agents IA, révélant une vulnérabilité imprévue. Cela représente une percée dans la compréhension des risques des agents autonomes.",
@@ -2722,29 +2722,29 @@
     "score_composite": 7.7
   },
   {
-    "url": "https://openai.com/index/introducing-gpt-rosalind",
-    "url_hash": "b6d50c92151fe56157d91fede7020af1",
-    "titre": "Introducing GPT-Rosalind for life sciences research",
-    "resume": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
-    "date": "2026-04-16",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
+    "url": "https://www.saastr.com/databricks-just-crossed-7b-arr-growing-80-a-30-point-acceleration-a-190b-valuation-and-the-margin-bill-for-agents/",
+    "url_hash": "ef70e14e7fee0b5771cc483fb8330f7c",
+    "titre": "Databricks Just Crossed $7B ARR Growing 80% (!): A 30-Point Acceleration, a $190B Valuation, and the Margin Bill for Agents",
+    "resume": "This is almost unprecedented in B2B software Databricks just announced it crossed a $7 billion revenue run-rate in Q2, growing more than 80% year over year, and closed a $5 billion strategic round at a $190 billion valuation led by Coatue. Today, we announced that we crossed $7B in revenue run-rate, growing over 80% year... Continue Reading",
+    "date": "2026-08-14",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
     "score_pending": false,
     "article_du_jour": false,
-    "score": 9,
-    "categorie": "IA_MODELES",
-    "raison_score": "GPT-Rosalind représente une avancée majeure en IA appliquée aux sciences de la vie, avec un modèle 'frontier' conçu pour accélérer la découverte de médicaments et la recherche scientifique. C'est une percée significative.",
+    "score": 8,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "L'annonce de la valorisation et de la croissance exceptionnelle de Databricks, mentionnant l'impact potentiel des 'agents' dans leur modèle économique, est une information majeure pour l'écosystème tech.",
     "tags": [
-      "GPT-Rosalind",
-      "life sciences",
-      "drug discovery",
-      "AI research",
-      "frontier model"
+      "Databricks",
+      "valorisation",
+      "croissance",
+      "IA",
+      "agents"
     ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 9,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 7.699999999999999
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 7.7
   },
   {
     "url": "https://bdtechtalks.com/2026/05/04/memory-sparse-attention/?utm_source=rss&utm_medium=rss&utm_campaign=memory-sparse-attention",
@@ -4976,30 +4976,6 @@
     "score_composite": 7.350000000000001
   },
   {
-    "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
-    "url_hash": "a14aecd407b78ab926d12372a5022cd1",
-    "titre": "Accelerating the cyber defense ecosystem that protects us all",
-    "resume": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
-    "date": "2026-04-16",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 8,
-    "categorie": "SECURITE_IA",
-    "raison_score": "L'annonce d'un programme ciblé avec GPT-5.4-Cyber et des subventions API pour la cyberdéfense est une avancée significative. Cela démontre une nouvelle capacité de l'IA dans un domaine critique.",
-    "tags": [
-      "cyber defense",
-      "AI security",
-      "GPT-5.4-Cyber",
-      "trusted access"
-    ],
-    "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 7.3500000000000005
-  },
-  {
     "url": "https://openai.com/index/dell-codex-enterprise-partnership",
     "url_hash": "1af67e245b3a80c57fd383e492991a3e",
     "titre": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
@@ -7038,6 +7014,30 @@
     "score_composite": 7.2
   },
   {
+    "url": "https://blog.n8n.io/ai-agent-observability/",
+    "url_hash": "092dfd6c23e87d4824c891ec185ba632",
+    "titre": "Building AI Agent Observability for Production Workflows",
+    "resume": "Learn how AI agent observability provides the visibility needed to understand agent behavior, investigate failures, and build more reliable AI workflows.",
+    "date": "2026-08-14",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article aborde un aspect crucial du déploiement des agents IA en production : la visibilité et la fiabilité des workflows.",
+    "tags": [
+      "IA agents",
+      "observabilité",
+      "production",
+      "workflows"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.2
+  },
+  {
     "url": "https://www.marktechpost.com/2026/08/09/bytedance-seed-introduces-seedrealtime-a-native-audio-visual-full-duplex-llm-that-watches-listens-and-speaks-in-one-model/",
     "url_hash": "76fed6b044c54ccaa7606ec78ae2760d",
     "titre": "ByteDance Seed Introduces SeedRealtime: a Native Audio-Visual Full-Duplex LLM That Watches, Listens and Speaks in One Model",
@@ -8708,6 +8708,30 @@
       "Modèle multimodal",
       "IA",
       "Robotique"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.05
+  },
+  {
+    "url": "https://venturebeat.com/technology/glm-5-3-is-here-with-advanced-cyber-capabilities-and-reportedly-already-found-a-serious-vulnerability-in-cursor",
+    "url_hash": "1ed22775f8adeff8f0a7b6d2d6a337bb",
+    "titre": "GLM-5.3 is here with advanced cyber capabilities — and reportedly already found a 'serious vulnerability' in Cursor",
+    "resume": "Chinese AI startup Z.ai, known internationally for its growing lineup of powerful, largely open source GLM series of language models, today released GLM-5.3 with substantial gains in long-horizon coding and a more consequential — and potentially sensitive — jump in cybersecurity capabilities.Already, GLM-5.3's cyber capabilities have found a \"potentially serious vulnerability in Cursor,\" the AI coding startup recently acquired by SpaceX, according to z.ai developer advocate Lou, posting on X. Ve",
+    "date": "2026-08-14",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce d'un nouveau modèle open-source (GLM-5.3) avec des avancées significatives en codage et en cybersécurité. Sa capacité à identifier une vulnérabilité est une démonstration concrète de sa puissance.",
+    "tags": [
+      "LLM",
+      "open-source",
+      "cybersecurity",
+      "coding"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 9,
@@ -10413,6 +10437,31 @@
       "agents",
       "open-source",
       "DeepSeek"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+    "url_hash": "d0a06ebad8a62813c06f0091c01ce040",
+    "titre": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+    "resume": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s […]",
+    "date": "2026-08-14",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "L'article soulève une question philosophique et stratégique importante sur l'accessibilité des modèles d'IA, avec l'annonce d'un nouveau modèle open-weight par Meta.",
+    "tags": [
+      "IA",
+      "open-weight",
+      "Meta",
+      "éthique IA",
+      "modèles"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -12819,6 +12868,30 @@
     "score_composite": 6.750000000000001
   },
   {
+    "url": "https://blog.n8n.io/workato-alternatives-2/",
+    "url_hash": "8dea09b0126cd38cbc1b5082d4415be2",
+    "titre": "n8n Alternatives: Which AI Automation Platform Can You Deploy?",
+    "resume": "Evaluate n8n alternatives based on self-hosting, multi-agent orchestration, governance, vendor lock-in, and code extensibility for enterprise deployment.",
+    "date": "2026-08-14",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "L'article propose une analyse comparative d'alternatives aux plateformes d'automatisation IA, abordant des critères importants pour le déploiement en entreprise.",
+    "tags": [
+      "automatisation IA",
+      "plateformes",
+      "comparatif",
+      "entreprise"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.750000000000001
+  },
+  {
     "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
     "url_hash": "2f358dc4a504978912f0eb9df7c976e7",
     "titre": "Strengthening societal resilience with Rosalind Biodefense",
@@ -14145,30 +14218,6 @@
     "score_composite": 6.7
   },
   {
-    "url": "https://openai.com/index/codex-for-almost-everything",
-    "url_hash": "a0464d4374d6d6dfda4d74b47f8c98b0",
-    "titre": "Codex for (almost) everything",
-    "resume": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
-    "date": "2026-04-16",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "DEV_ASSISTE",
-    "raison_score": "La mise à jour de Codex avec de nouvelles capacités comme la génération d'images et les plugins représente une avancée significative pour les développeurs. Cela améliore considérablement les workflows existants.",
-    "tags": [
-      "Codex",
-      "developer tools",
-      "AI assistant",
-      "productivity"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 8,
-    "score_composite": 6.650000000000001
-  },
-  {
     "url": "https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/",
     "url_hash": "7549fba836491ef24457f55b97aab46b",
     "titre": "From Vibe Coding to Spec-Driven Development",
@@ -14579,6 +14628,31 @@
       "agents",
       "outil",
       "gestion"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.650000000000001
+  },
+  {
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+    "url_hash": "936a2e559e7cd27a746e7a9cd6c043a0",
+    "titre": "How to bring your software delivery workflow into GitHub with agent apps",
+    "resume": "See how four GitHub agent apps can help you scope, secure, roll out, and ship a feature across the SDLC–all without leaving GitHub. \nThe post How to bring your software delivery workflow into GitHub with agent apps appeared first on The GitHub Blog.",
+    "date": "2026-08-14",
+    "source_name": "GitHub Blog",
+    "categorie_source": "DEV_ASSISTE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Cet article présente l'intégration d'applications agents pour optimiser le workflow de livraison logicielle au sein de GitHub, montrant une application concrète de l'IA dans le développement.",
+    "tags": [
+      "IA",
+      "agents",
+      "développement logiciel",
+      "workflow",
+      "GitHub"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -20414,6 +20488,31 @@
     "score_composite": 6.200000000000001
   },
   {
+    "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+    "url_hash": "042796346f67c2669c5cbfa732f34119",
+    "titre": "Kog is going deeper to squeeze more inference out of GPUs",
+    "resume": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
+    "date": "2026-08-14",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "L'article traite de l'optimisation de l'inférence IA sur les GPUs, un sujet technique pertinent pour l'efficacité des applications basées sur l'IA, particulièrement pour les workflows agentiques.",
+    "tags": [
+      "IA",
+      "GPU",
+      "inférence",
+      "optimisation",
+      "agents"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.200000000000001
+  },
+  {
     "url": "https://openai.com/index/singular-bank",
     "url_hash": "54dff98022e0611d74ad9ff1cff958e4",
     "titre": "Singular Bank helps bankers move fast with ChatGPT and Codex",
@@ -25198,6 +25297,31 @@
     "score_composite": 5.9
   },
   {
+    "url": "https://www.databricks.com/blog/using-aifunctions-your-data-warehouse-top-use-cases",
+    "url_hash": "c076af28e6b5c99c8ad1aafeb3019d32",
+    "titre": "Using AI_Functions in Your Data Warehouse: Top Use Cases",
+    "resume": "In most organizations, data warehouses hold structured data, while unstructured data...",
+    "date": "2026-08-14",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Présente des cas d'usage concrets pour l'intégration de fonctions IA dans un data warehouse. C'est une évolution notable pour exploiter les données structurées et non structurées.",
+    "tags": [
+      "data warehouse",
+      "AI integration",
+      "use cases",
+      "structured data",
+      "unstructured data"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.9
+  },
+  {
     "url": "https://towardsdatascience.com/hybrid-search-and-re-ranking-in-production-rag/",
     "url_hash": "38cd4bb9878d6fd590601a70d7e5a5ee",
     "titre": "Hybrid Search and Re-Ranking in Production RAG",
@@ -26198,6 +26322,55 @@
     "score_composite": 5.800000000000001
   },
   {
+    "url": "https://towardsdatascience.com/rag-workflow-and-loop-engineering-the-dispatcher-that-decides-when-to-loop-and-when-to-stop/",
+    "url_hash": "c2a659d4b25464cca3eeedd9a147a2f6",
+    "titre": "RAG Workflow and Loop Engineering: The Dispatcher That Decides When to Loop and When to Stop",
+    "resume": "Enterprise Document Intelligence [Vol.1 #13] - Putting the patterns together, and why this is what “agentic RAG” should look like\nThe post RAG Workflow and Loop Engineering: The Dispatcher That Decides When to Loop and When to Stop appeared first on Towards Data Science.",
+    "date": "2026-08-14",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Tutoriel avancé sur le RAG et l'ingénierie des boucles pour les agents IA. Il détaille un nouveau pattern d'agent 'agentic RAG'.",
+    "tags": [
+      "RAG",
+      "agent AI",
+      "workflow",
+      "loop engineering",
+      "LLM"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.800000000000001
+  },
+  {
+    "url": "https://blog.n8n.io/chain-of-thought-prompting-techniques-and-when-to-use-them/",
+    "url_hash": "7d40373744a319017f015ca17f9e6bd1",
+    "titre": "Chain-of-Thought Prompting: Techniques and When To Use Them",
+    "resume": "Explore chain-of-thought prompting techniques. Discover how LLM reasoning works, which variation fits your needs, and when teams shouldn’t use CoT.",
+    "date": "2026-08-14",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "L'article détaille une technique de prompting spécifique pour les LLM, offrant des informations utiles pour optimiser les interactions avec les modèles d'IA.",
+    "tags": [
+      "prompting",
+      "LLM",
+      "IA",
+      "techniques"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.800000000000001
+  },
+  {
     "url": "https://medium.com/@aptomadhusudan/rms-data-integration-and-analytics-using-microsoft-fabric-390dd9eb4919?source=rss------power_bi-5",
     "url_hash": "9a248f9c323aa2284561e26a8ee6e658",
     "titre": "RMS Data Integration and Analytics Using Microsoft Fabric",
@@ -26789,6 +26962,30 @@
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.75
+  },
+  {
+    "url": "https://towardsdatascience.com/a-day-in-the-life-of-a-data-scientist-in-2026/",
+    "url_hash": "ab9c473cc0042b424ec22e1b1800a7af",
+    "titre": "A Day in the Life of a Data Scientist in 2026",
+    "resume": "How AI has massively changed my day-to-day workflow\nThe post A Day in the Life of a Data Scientist in 2026 appeared first on Towards Data Science.",
+    "date": "2026-08-14",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Décrit comment l'IA a changé le workflow quotidien d'un data scientist, offrant un aperçu des pratiques futures. C'est une évolution notable des métiers data.",
+    "tags": [
+      "data science",
+      "AI impact",
+      "workflow",
+      "future of work"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
     "score_composite": 5.75
   },
   {
@@ -30692,6 +30889,31 @@
     "score_composite": 5.449999999999999
   },
   {
+    "url": "https://medium.com/@kartikey.singh09/turning-coffee-shop-transactions-into-business-insights-with-power-bi-e6c8575396d3?source=rss------power_bi-5",
+    "url_hash": "6d7a48f830df961ce3f15c570ab49c15",
+    "titre": "Turning Coffee Shop Transactions Into Business Insights with Power BI",
+    "resume": "“Turning a simple transaction dataset into something a business can actually use.”Continue reading on Medium »",
+    "date": "2026-08-14",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Nouveau cas d'usage documenté de Power BI pour transformer des transactions en informations commerciales. Il apporte des métriques sur l'utilisation.",
+    "tags": [
+      "Power BI",
+      "business intelligence",
+      "use case",
+      "retail",
+      "analytics"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.449999999999999
+  },
+  {
     "url": "https://openai.com/academy/codex-automations",
     "url_hash": "6e517fdbc3294cba69025a9663bb4654",
     "titre": "Automations",
@@ -30883,6 +31105,30 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 7,
+    "score_composite": 5.4
+  },
+  {
+    "url": "https://blog.n8n.io/event-driven-microservices/",
+    "url_hash": "3052c4d927cff4e76f03f1fcd7ffa26c",
+    "titre": "Event-Driven Microservices: Architecture, Patterns, and Production Tradeoffs",
+    "resume": "Learn what event-driven microservices are, how they work, common tradeoffs and anti-patterns, how to choose between queues and streams, and use cases.",
+    "date": "2026-08-14",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Cet article explore l'architecture des microservices pilotés par les événements, un sujet pertinent pour la conception de systèmes de données modernes et évolutifs.",
+    "tags": [
+      "microservices",
+      "architecture",
+      "event-driven",
+      "data"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
     "score_composite": 5.4
   },
   {
@@ -31106,30 +31352,6 @@
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 4,
     "score_composite": 5.3999999999999995
-  },
-  {
-    "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
-    "url_hash": "fbf6d8cdeec5f3e394acce242ebf144d",
-    "titre": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
-    "resume": "",
-    "date": "2026-04-16",
-    "source_name": "HuggingFace Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "IA_MODELES",
-    "raison_score": "Cet article détaille des techniques pour entraîner des modèles multimodaux avec des métriques, représentant une évolution notable dans le domaine des modèles d'embeddings. C'est un tutoriel avancé utile.",
-    "tags": [
-      "multimodal AI",
-      "sentence transformers",
-      "embeddings",
-      "finetuning"
-    ],
-    "pertinence_bi_consultant": 4,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 5.3500000000000005
   },
   {
     "url": "https://www.producthunt.com/products/emailflow-ai-b2b-lead-generation",
@@ -36655,6 +36877,31 @@
     "score_composite": 4.949999999999999
   },
   {
+    "url": "https://medium.com/@nexlifytechnology/power-bi-dashboard-development-from-raw-data-to-business-insights-79a6b970c99d?source=rss------power_bi-5",
+    "url_hash": "155a4353031b47b1996cc5d6e6fc8446",
+    "titre": "Power BI Dashboard Development: From Raw Data to Business Insights",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-08-14",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Décrit le processus de développement de tableaux de bord Power BI, de la donnée brute aux insights. C'est une documentation utile d'une pratique établie.",
+    "tags": [
+      "Power BI",
+      "dashboard",
+      "data visualization",
+      "business intelligence",
+      "best practices"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
     "url": "https://medium.com/microsoft-power-bi/how-i-fixed-power-bi-auto-refresh-with-supabase-using-the-rest-api-9e7778b30a6b?source=rss------power_bi-5",
     "url_hash": "8cf32f04aeee5f13bba4179a0d1727d1",
     "titre": "How I Fixed Power BI Auto-Refresh with Supabase Using the REST API",
@@ -38322,6 +38569,31 @@
     "score_composite": 4.7
   },
   {
+    "url": "https://towardsdatascience.com/i-made-an-llm-lay-siege-to-my-minecraft-house/",
+    "url_hash": "275b309376eda80c9ac4a5bc1e5cb22b",
+    "titre": "I Made an LLM Lay Siege to My Minecraft House",
+    "resume": "Can a language model do live adversarial level design? Yes, emphasis on the adversarial part\nThe post I Made an LLM Lay Siege to My Minecraft House appeared first on Towards Data Science.",
+    "date": "2026-08-14",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cas d'usage ludique mais documenté de l'IA générative pour du 'level design' adversarial. Montre une nouvelle application créative des LLM.",
+    "tags": [
+      "LLM",
+      "generative AI",
+      "game design",
+      "creative AI",
+      "adversarial"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.7
+  },
+  {
     "url": "https://openai.com/index/how-chatgpt-protects-privacy",
     "url_hash": "e0eb086fca901c3907edb6b3ad9e00b9",
     "titre": "How ChatGPT learns about the world while protecting privacy",
@@ -38814,6 +39086,30 @@
     "score_composite": 4.65
   },
   {
+    "url": "https://medium.com/@adeniranmichaelelvis/five-reasons-your-power-bi-measure-returns-blank-949d3cb6071f?source=rss------power_bi-5",
+    "url_hash": "554ab30938ecd84a76a019bad44f0837",
+    "titre": "Five Reasons Your Power BI Measure Returns BLANK",
+    "resume": "You know that little moment when Power BI gives you an error?Continue reading on Medium »",
+    "date": "2026-08-14",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article de fond sur une problématique courante dans Power BI, offrant des solutions pratiques pour un problème spécifique.",
+    "tags": [
+      "Power BI",
+      "DAX",
+      "troubleshooting",
+      "business intelligence"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.65
+  },
+  {
     "url": "https://medium.com/@hitesh88it/power-bi-finally-gets-set-as-landing-page-a-small-feature-that-solves-a-big-everyday-problem-8128ce6e085b?source=rss------power_bi-5",
     "url_hash": "d6badcd1969f80f298a8cfc64d69a251",
     "titre": "Power BI Finally Gets “Set as Landing Page” — A Small Feature That Solves a Big Everyday Problem",
@@ -39143,6 +39439,31 @@
       "automation",
       "agents",
       "tools comparison"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.550000000000001
+  },
+  {
+    "url": "https://blog.n8n.io/rpa-vs-workflow-automation/",
+    "url_hash": "36df920ef157122eb1c84165219fb706",
+    "titre": "RPA vs. Workflow Automation: Building Automation That Lasts",
+    "resume": "Comparing RPA versus workflow automation? See how they stack up across reliability, security, scalability, observability, and long-term operations.",
+    "date": "2026-08-14",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Comparaison détaillée entre RPA et workflow automation, mettant en avant des aspects clés comme la fiabilité et la scalabilité.",
+    "tags": [
+      "automation",
+      "RPA",
+      "workflow automation",
+      "comparison",
+      "best practices"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 4,
@@ -40218,30 +40539,6 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 5,
-    "score_composite": 4.4
-  },
-  {
-    "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-tokenmaxxing-as-a-weird",
-    "url_hash": "8beeb0f033f5fc5af2b91c99d9f76cc4",
-    "titre": "The Pulse: ‘Tokenmaxxing’ as a weird new trend",
-    "resume": "&#8230; which will probably be the shortest-lived trend because it&#8217;s so wasteful. Also: coding AI agent subsidies could be ending, Cal.com going closed source and blaming it on AI, and more.",
-    "date": "2026-04-16",
-    "source_name": "Pragmatic Engineer",
-    "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 4,
-    "categorie": "BUSINESS_IA",
-    "raison_score": "Cet article aborde des tendances nouvelles et potentiellement éphémères ('tokenmaxxing') et des évolutions dans le financement des agents IA, offrant une information utile sur les dynamiques entrepreneuriales et de marché.",
-    "tags": [
-      "tokenmaxxing",
-      "AI agents",
-      "startup trends",
-      "VC funding"
-    ],
-    "pertinence_bi_consultant": 3,
-    "pertinence_passionné_ia": 5,
-    "pertinence_entrepreneur": 7,
     "score_composite": 4.4
   },
   {
@@ -41564,6 +41861,30 @@
     "score_composite": 4.2
   },
   {
+    "url": "https://zapier.com/blog/automate-calendly",
+    "url_hash": "a8c593688ecd2c9b8f64222f9a314d8f",
+    "titre": "6 ways to automate Calendly with Zapier",
+    "resume": "I have sent probably four hundred emails in my life that just said some version of \"does 2pm Thursday work for you?\" Calendly exists so none of us has to do that anymore. Invitees see your real availability and pick a slot without the back and forth. That solves the booking problem. It doesn't solve everything else that comes with a new meeting, like syncing it to your team's calendar or logging the invitee in your CRM. That's where a Zap—our word for Zapier's automated workflows—comes in. Conne",
+    "date": "2026-08-14",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Il s'agit d'un article pratique montrant des cas d'usage d'automatisation avec un outil spécifique, utile mais sans avancée majeure.",
+    "tags": [
+      "automatisation",
+      "Zapier",
+      "Calendly",
+      "cas d'usage"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.2
+  },
+  {
     "url": "https://medium.com/@aajupavi/what-is-the-use-of-microsoft-power-bi-173c73552fc0?source=rss------power_bi-5",
     "url_hash": "a5e0ee61e275059e325a88acaa3dc288",
     "titre": "What is the use of Microsoft Power BI?",
@@ -41971,6 +42292,31 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 4,
+    "score_composite": 4.05
+  },
+  {
+    "url": "https://www.wired.com/story/new-york-city-lawmakers-push-to-ban-the-scan-at-msg/",
+    "url_hash": "3957f7e11f935d88a2f708f5ec5d9a83",
+    "titre": "New York City Lawmakers Push to ‘Ban the Scan’ at MSG",
+    "resume": "At a press conference outside Madison Square Garden, politicians, musicians, and privacy advocates argued for tighter restrictions on how public venues deploy biometric surveillance.",
+    "date": "2026-08-14",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Cet article aborde les implications réglementaires et éthiques de la surveillance biométrique, un sujet connexe à la sécurité et à la vie privée dans le contexte de l'IA, mais sans avancée technique.",
+    "tags": [
+      "IA",
+      "surveillance",
+      "biométrie",
+      "réglementation",
+      "vie privée"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 3,
     "score_composite": 4.05
   },
   {
@@ -45944,6 +46290,30 @@
       "power bi",
       "bi tools",
       "data visualization"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 2.05
+  },
+  {
+    "url": "https://medium.com/@lokeshwaranemexo/power-bi-with-ai-training-and-institute-in-electronic-city-438b4af914e5?source=rss------power_bi-5",
+    "url_hash": "5bee6aec4d191d9b46a47925d5f72ed1",
+    "titre": "Power BI with AI Training and Institute in Electronic City",
+    "resume": "Course Details & Registration:Continue reading on Medium »",
+    "date": "2026-08-15",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 2,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Annonce d'une formation Power BI intégrant l'IA, mais sans détails techniques ou de contenu substantiel. Le score reflète une faible valeur ajoutée.",
+    "tags": [
+      "Power BI",
+      "AI training",
+      "education",
+      "BI"
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 1,
