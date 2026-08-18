@@ -157,7 +157,7 @@
     "source_name": "TechCrunch",
     "categorie_source": "BUSINESS_IA",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_MODELES",
     "raison_score": "Annonce d'un nouveau mode 'Ultrafast' pour GPT-5.6 par OpenAI, augmentant la vitesse de 14x. Il s'agit d'une amélioration significative d'un modèle frontier, redéfinissant les capacités de performance.",
@@ -549,6 +549,31 @@
       "open-source",
       "modèle IA",
       "frontière IA"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 10,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 8.45
+  },
+  {
+    "url": "https://venturebeat.com/technology/qwen3-8-27b-runs-frontier-class-coding-agents-and-reasoning-locally-no-cloud-api-required",
+    "url_hash": "c93bc1033f5210c333ad5f2d09dd41cd",
+    "titre": "Qwen3.8-27B runs frontier-class coding agents and reasoning locally, no cloud API required",
+    "resume": "The biggest AI model release of the past few days, at least among the developers and AI power users on social media, wasn't a frontier cloud model from OpenAI, Anthropic or Google.It was a 27-billion-parameter model from Alibaba: Qwen3.8-27B landed on Hugging Face on Friday under an enterprise-friendly, open source Apache 2.0 license, giving developers downloadable weights for a dense multimodal model.But Qwen3.8-27B isn't a garden variety small local model: it includes native image and video un",
+    "date": "2026-08-18",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "Modèle open-source (Apache 2.0) de 27 milliards de paramètres capable de gérer des agents de codage de classe frontier et le raisonnement localement. Changement de paradigme architectural pour l'accès local aux LLM avancés.",
+    "tags": [
+      "LLM",
+      "open source",
+      "local AI",
+      "coding agents",
+      "multimodal"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 10,
@@ -2394,6 +2419,31 @@
       "agents",
       "sécurité",
       "recherche"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.8
+  },
+  {
+    "url": "https://venturebeat.com/orchestration/one-ai-module-faked-86-of-a-pipelines-accuracy-gains-by-feeding-another-the-answers",
+    "url_hash": "ed4fc9836efee8e537d272df806aab63",
+    "titre": "One AI module faked 86% of a pipeline's accuracy gains by feeding another the answers",
+    "resume": "A retrieval-augmented generation (RAG) system is built to answer strictly from the documents it retrieves. But when engineers optimize these AI pipelines end-to-end, the reader module can learn a shortcut: instead of relying on retrieved evidence, it starts answering from its own internal memory — while the system's overall accuracy keeps climbing. This is the hidden challenge of \"role drift,\" a failure mode in compound AI systems where individual modules learn to bypass their assigned tasks eve",
+    "date": "2026-08-17",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Découverte d'un mode de défaillance critique ('role drift') dans les systèmes IA composés, spécifiquement RAG, qui peut fausser les mesures de performance. C'est une avancée significative pour la compréhension et l'évaluation des systèmes IA complexes.",
+    "tags": [
+      "AI pipeline",
+      "RAG",
+      "accuracy",
+      "role drift",
+      "AI module"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 9,
@@ -5554,6 +5604,31 @@
     "score_composite": 7.3500000000000005
   },
   {
+    "url": "https://towardsdatascience.com/webwright-why-ai-web-agents-should-write-code-not-click/",
+    "url_hash": "8a4b27103789e0d883b39342966966e4",
+    "titre": "Webwright: Why AI Web Agents Should Write Code, Not Click",
+    "resume": "For years, web agents have worked one click at a time—and often fallen apart on long tasks. Microsoft Research’s Webwright makes a different bet: give the model a terminal and let it write the program instead. On long-horizon tasks, the same GPT-5.4 model jumps from 33.5% to 60.1% success. And instead of leaving behind a click trace, it leaves something you can actually use again: a command-line tool.\nThe post Webwright: Why AI Web Agents Should Write Code, Not Click appeared first on Towards Da",
+    "date": "2026-08-17",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Présente un nouveau framework (Webwright) pour les agents web IA qui privilégie la génération de code plutôt que l'interaction par clics, améliorant significativement la réussite des tâches complexes. C'est une avancée significative en IA appliquée aux agents.",
+    "tags": [
+      "AI agents",
+      "web agents",
+      "code generation",
+      "Webwright",
+      "Microsoft Research"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3500000000000005
+  },
+  {
     "url": "https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/",
     "url_hash": "f3a363f83daafbe93a5900a46846d162",
     "titre": "Google DeepMind Ships Three Physical AI Models For Whole Body Control, Dexterity And Multi Robot Collaboration",
@@ -6144,6 +6219,31 @@
       "NVIDIA",
       "Nemotron",
       "NeMo Switchyard"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/17/bytedance-seed-and-tsinghua-air-introduces-cuda-agent-a-large-scale-agentic-rl-system-for-cuda-kernel-generation/",
+    "url_hash": "568a94b5469110b2d3b5b5f116bdb5d9",
+    "titre": "ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation",
+    "resume": "ByteDance Seed and Tsinghua AIR have released CUDA Agent, an agentic reinforcement learning system that trains a large language model to write GPU kernels that beat a compiler. The gap it targets is narrow but stubborn: frontier models already produce correct CUDA, they just produce slow CUDA. On KernelBench, the base model Seed1.6 passes 74.0% […]\nThe post ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation appeared first on MarkTech",
+    "date": "2026-08-18",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Système RL agentique à grande échelle pour la génération de noyaux CUDA qui surpasse un compilateur. Nouvelle capacité agent documentée et reproductible avec des performances quantifiées.",
+    "tags": [
+      "CUDA",
+      "GPU",
+      "agentic RL",
+      "kernel generation",
+      "performance optimization"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 9,
@@ -7726,6 +7826,31 @@
       "Orchestration",
       "Power BI",
       "CI/CD"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 7.100000000000001
+  },
+  {
+    "url": "https://venturebeat.com/data/enterprises-with-ai-context-layers-report-agent-failures-at-more-than-twice-the-rate-of-those-without-one",
+    "url_hash": "257fd1fd964ab2f2ba6e031466912bef",
+    "titre": "Enterprises with AI context layers report agent failures at more than twice the rate of those without one",
+    "resume": "A company builds a governed context layer specifically to stop its AI agents from confidently giving wrong answers. Once that layer is live, the company is more than twice as likely to report the failure happening — not less.In the past six months, 68% of enterprises have traced a confident but wrong AI agent answer to missing or inconsistent business context. Thirty-seven percent say it happened more than once, ahead of the 32% who saw it happen only once. The figures come from a VB Pulse July ",
+    "date": "2026-08-17",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Étude quantifiée montrant qu'une gouvernance accrue des agents IA (context layers) peut paradoxalement augmenter le taux apparent de défaillances, tout en ciblant les problèmes de contexte. C'est une information clé pour l'implémentation d'agents IA en entreprise.",
+    "tags": [
+      "AI agents",
+      "context layers",
+      "governance",
+      "failure rate",
+      "enterprise AI"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 7,
@@ -10639,6 +10764,31 @@
       "Architecture IA",
       "Knowledge Layer",
       "Azure"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/",
+    "url_hash": "569a800c04e1980af0e93848290862af",
+    "titre": "DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin",
+    "resume": "DeepSeek Harness v0.1 is an MIT-licensed agent harness where every capability is a Cordis plugin. Four runtime modes, append-only session logs, and provider-agnostic model routing.\nThe post DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin appeared first on MarkTechPost.",
+    "date": "2026-08-17",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Publication d'un harness d'agent open-source (MIT) où tout est plugin. Nouvelle capacité agent documentée et reproductible, avec une architecture flexible.",
+    "tags": [
+      "agent harness",
+      "open source",
+      "plugins",
+      "developer preview",
+      "AI frameworks"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -15457,6 +15607,31 @@
     "score_composite": 6.65
   },
   {
+    "url": "https://towardsdatascience.com/three-generations-of-autoscaling-and-why-agentic-traffic-breaks-all-of-them/",
+    "url_hash": "c05ea24e95585ab5df288062a973a955",
+    "titre": "Three Generations of Autoscaling — And Why Agentic Traffic Breaks All of Them",
+    "resume": "How autonomous agents broke two decades of capacity planning — and what to build instead\nThe post Three Generations of Autoscaling — And Why Agentic Traffic Breaks All of Them appeared first on Towards Data Science.",
+    "date": "2026-08-17",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Article de fond sur l'impact des agents IA sur l'autoscaling, remettant en question les approches traditionnelles. Il identifie un nouveau défi et ouvre la voie à de nouvelles pratiques d'automatisation et de planification de capacité.",
+    "tags": [
+      "autoscaling",
+      "AI agents",
+      "capacity planning",
+      "automation",
+      "traffic analysis"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.65
+  },
+  {
     "url": "https://openai.com/academy/workspace-agents",
     "url_hash": "23b8c7e12156254bd03425c5e0407813",
     "titre": "Workspace agents",
@@ -15600,6 +15775,31 @@
       "sécurité IA",
       "sûreté IA",
       "alliance industrielle"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.600000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/17/nous-research-hermes-bot-mode/",
+    "url_hash": "feb6768538b0642688b248a5904f6ba0",
+    "titre": "Nous Research Ships Bot Mode for Hermes Agent, Turning Agent Profiles Into a Roster of Named Bots",
+    "resume": "Nous Research has shipped Bot Mode for Hermes Agent, its MIT-licensed open source agent. Bot Mode replaces the single-agent session list with a roster of named bots. Each bot is a real Hermes profile, with its own chat, memory, skills, and pinned model. It is now bundled and default-on in Hermes Desktop.\nThe post Nous Research Ships Bot Mode for Hermes Agent, Turning Agent Profiles Into a Roster of Named Bots appeared first on MarkTechPost.",
+    "date": "2026-08-18",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Hermes Agent introduit le 'Bot Mode' qui remplace la liste de sessions par une liste de bots nommés. Nouvelle capacité agent documentée et reproductible, améliorant l'organisation et la gestion des agents.",
+    "tags": [
+      "AI agents",
+      "Hermes Agent",
+      "bot management",
+      "open source",
+      "agent profiles"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
@@ -18812,6 +19012,31 @@
     "score_composite": 6.4
   },
   {
+    "url": "https://venturebeat.com/orchestration/as-enterprises-confront-ai-agent-sprawl-xpander-wants-them-to-own-their-own-control-and-context-layer",
+    "url_hash": "8a831876f34899ad2693b47459463665",
+    "titre": "As enterprises confront AI agent sprawl, xpander wants them to own their own control and context layer",
+    "resume": "Enterprise AI has a new infrastructure problem: companies are accumulating agents faster than they are developing systems to govern them.Gartner estimates that the average global Fortune 500 company will have more than 150,000 AI agents in use by 2028, up from fewer than 15 in 2025. Yet only 13% of organizations believe they currently have the right AI agent governance in place, according to the research firm.That widening gap is creating a market for infrastructure that sits above individual mo",
+    "date": "2026-08-17",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Adresse le problème croissant de la prolifération incontrôlée des agents IA en entreprise et propose une solution d'infrastructure pour le contrôle et le contexte. L'évolution notable réside dans la prise de conscience et les solutions émergentes.",
+    "tags": [
+      "AI agents",
+      "governance",
+      "context layer",
+      "AI sprawl",
+      "xpander"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.4
+  },
+  {
     "url": "https://newsletter.pragmaticengineer.com/p/ubuntu-and-ai",
     "url_hash": "0cadad2907a3432af710013892b20509",
     "titre": "How will AI change operating systems? Part 1: Ubuntu and Linux",
@@ -21898,6 +22123,31 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 6,
+    "score_composite": 6.15
+  },
+  {
+    "url": "https://venturebeat.com/infrastructure/cursor-launches-origin-code-hosting-platform-as-github-outage-exposes-opening-in-ai-coding-race",
+    "url_hash": "b978bce61cd8daa3ec8306b46ecac020",
+    "titre": "Cursor launches Origin code hosting platform as GitHub outage exposes opening in AI coding race",
+    "resume": "Cursor began rolling out Origin, its own code hosting platform, to paid users on Monday morning. Roughly three and a half hours later, GitHub's status page lit up with what became a six-hour-and-forty-two-minute global degradation — error rates near 20% across pull requests, issues and the API, and near 50% on archive and raw file downloads, according to GitHub's incident log. Enterprise single sign-on went down with it: SAML, OIDC, SCIM provisioning and Team Sync all failed. So did Copilot.The ",
+    "date": "2026-08-17",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Lancement d'une plateforme de code concurrente qui capitalise sur une faille de marché détectée lors d'une interruption de service majeure. Il s'agit d'une avancée significative dans le domaine du dev assisté et de l'entrepreneuriat tech.",
+    "tags": [
+      "AI coding",
+      "code hosting",
+      "platform",
+      "GitHub outage",
+      "Cursor Origin"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
     "score_composite": 6.15
   },
   {
@@ -25002,6 +25252,30 @@
     "score_composite": 5.95
   },
   {
+    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Using-Custom-SQL-Pools-to-balance-performance-and-cost-in-Fabric/ba-p/5359735",
+    "url_hash": "39ec96e8a89c9480d4f8c43dfffb7bf8",
+    "titre": "Using Custom SQL Pools to balance performance and cost in Fabric Data Warehouse",
+    "resume": "One of the most common questions I hear from customers as they move to an allocation-based billing model is:\"What levers do I actually have if I want to control how many resources my workloads consume?\"Many customers are looking for a way to prevent specific workloads from scaling aggressively and consuming more resources than they're comfortable with. That's where Custom SQL Pools can help significantly.Custom SQL Pools, currently in preview and soon to be generally available, were designed to ",
+    "date": "2026-08-17",
+    "source_name": "Power BI Blog",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Présente une nouvelle fonctionnalité dans Microsoft Fabric (Custom SQL Pools) permettant de mieux contrôler les coûts et la performance des data warehouses. C'est une évolution notable pour les utilisateurs de Fabric.",
+    "tags": [
+      "Microsoft Fabric",
+      "Data Warehouse",
+      "SQL Pools",
+      "Cost Optimization"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.95
+  },
+  {
     "url": "https://medium.com/@gavin.ellis/how-power-bi-consulting-services-accelerate-enterprise-reporting-modernization-5f5d679f3c3b?source=rss------power_bi-5",
     "url_hash": "53ec91a63863ffc9ee4f854e49cadb3b",
     "titre": "How Power BI Consulting Services Accelerate Enterprise Reporting Modernization",
@@ -25911,6 +26185,31 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 7,
+    "score_composite": 5.8500000000000005
+  },
+  {
+    "url": "https://towardsdatascience.com/loop-engineering-for-rag-the-small-loops-inside-each-step-the-big-loops-across-the-pipeline/",
+    "url_hash": "c45abad5c6be268ef3ac081f5f9ca8f8",
+    "titre": "Loop Engineering for RAG: The Small Loops Inside Each Step, the Big Loops Across the Pipeline",
+    "resume": "Enterprise Document Intelligence [Vol.1 #13bis] - The four bricks return useful results most of the time. Loop engineering is what the system does the rest of the time: when retrieval misses, when generation fails the schema, when the listing comes back incomplete, when an API call times out. Three control surfaces (trigger, termination, recovery) and one rule that separates a useful loop from a spinning one\nThe post Loop Engineering for RAG: The Small Loops Inside Each Step, the Big Loops Acros",
+    "date": "2026-08-17",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Décrit une pratique avancée ('Loop Engineering') pour améliorer la robustesse et la gestion des erreurs dans les systèmes RAG. C'est un tutoriel avancé sur des techniques de fiabilisation d'IA.",
+    "tags": [
+      "RAG",
+      "loop engineering",
+      "error handling",
+      "AI pipeline",
+      "LLM"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
     "score_composite": 5.8500000000000005
   },
   {
@@ -28217,6 +28516,31 @@
       "data engineer",
       "roles",
       "business intelligence"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.699999999999999
+  },
+  {
+    "url": "https://medium.com/@jessejacksonotieno/discounting-isnt-free-a-profitability-deep-dive-on-10-000-retail-orders-ec067cd9c1bb?source=rss------power_bi-5",
+    "url_hash": "2db3003d4e06196766c9d39643fb1bd6",
+    "titre": "Discounting Isn’t Free: A Profitability Deep-Dive on 10,000 Retail Orders",
+    "resume": "How SQL, Python, and Power BI uncovered where a retail business makes money and where it quietly loses it.Continue reading on Medium »",
+    "date": "2026-08-18",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Analyse de rentabilité d'un grand volume de commandes retail utilisant SQL, Python et Power BI. Nouveau cas d'usage BI documenté avec des métriques financières pour identifier les pertes cachées.",
+    "tags": [
+      "Power BI",
+      "profitability",
+      "retail analytics",
+      "SQL",
+      "Python"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 4,
@@ -30532,6 +30856,31 @@
     "score_composite": 5.55
   },
   {
+    "url": "https://medium.com/microsoft-power-bi/cool-trends-of-dc-metro-58c97ab255e1?source=rss------power_bi-5",
+    "url_hash": "0605ccc08fb0f34bef427753f49d06c7",
+    "titre": "Cool Trends of DC Metro",
+    "resume": "Using SQL, Python, and Power BI to answer the “Why” behind ridership peaks, special events, and fare violations.Continue reading on Power BI »",
+    "date": "2026-08-18",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cas d'usage documenté de l'utilisation de SQL, Python et Power BI pour analyser les tendances du métro DC. Nouveau cas d'usage BI documenté avec l'identification de problèmes et d'opportunités.",
+    "tags": [
+      "Power BI",
+      "data analysis",
+      "SQL",
+      "Python",
+      "transit data"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.55
+  },
+  {
     "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
     "url_hash": "2d7f3b660987a7fb4ae0c354077d202e",
     "titre": "Introducing ChatGPT Futures: Class of 2026",
@@ -31524,6 +31873,31 @@
       "use case",
       "retail",
       "analytics"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.449999999999999
+  },
+  {
+    "url": "https://medium.com/@moniselvaraj06/how-customer-data-cracks-open-the-hard-shell-of-a-product-1fc80efaed6a?source=rss------power_bi-5",
+    "url_hash": "adaaa95a26c902b73a6d715fe001f25a",
+    "titre": "How Customer Data Cracks Open the Hard Shell of a Product",
+    "resume": "Turning a fictional customer dataset into marketing insights using Power BI.Continue reading on Medium »",
+    "date": "2026-08-18",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Exemple d'utilisation de données clients pour générer des insights marketing avec Power BI. Nouveau cas d'usage BI documenté, illustrant la valeur des données clients.",
+    "tags": [
+      "Power BI",
+      "customer data",
+      "marketing insights",
+      "product development",
+      "data visualization"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 4,
@@ -33774,6 +34148,31 @@
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 3,
+    "score_composite": 5.25
+  },
+  {
+    "url": "https://www.databricks.com/blog/how-databricks-feature-store-serves-features-sub-second-freshness",
+    "url_hash": "86c8d7cd8f5ede03f2f17d028c760e41",
+    "titre": "How Databricks Feature Store serves features with sub-second freshness",
+    "resume": "Machine learning models are only as good as the signals they receive. A fraud detection...",
+    "date": "2026-08-17",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Décrit une capacité technique clé (latence sub-seconde) pour un composant important de plateforme de données (Feature Store). C'est une évolution notable pour l'ingénierie des données et le ML opérationnel.",
+    "tags": [
+      "Databricks",
+      "Feature Store",
+      "data freshness",
+      "MLOps",
+      "data platform"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
     "score_composite": 5.25
   },
   {
@@ -40870,6 +41269,55 @@
     "score_composite": 4.55
   },
   {
+    "url": "https://medium.com/@jha.kartik2005/power-bi-and-data-analysis-144951118c56?source=rss------power_bi-5",
+    "url_hash": "64d64f9389bce3ac3177050f735569f7",
+    "titre": "Power BI and Data Analysis",
+    "resume": "How Data Helps Businesses Make Smarter Decisions?Continue reading on Medium »",
+    "date": "2026-08-18",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article de fond expliquant comment l'analyse de données avec Power BI aide les entreprises à prendre de meilleures décisions. Information utile sur une pratique établie.",
+    "tags": [
+      "Power BI",
+      "data analysis",
+      "business intelligence",
+      "decision making"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.55
+  },
+  {
+    "url": "https://medium.com/@zhz819_49198/power-bi-for-business-analysts-learn-data-analytics-with-real-nba-data-20e088cd025a?source=rss------power_bi-5",
+    "url_hash": "af0a7dc550c4303fbd7dc15605caad1c",
+    "titre": "Power BI for Business Analysts: Learn Data Analytics with Real NBA Data",
+    "resume": "In today’s business environment, knowing how to work with data is no longer a skill reserved for data scientists or IT professionals…Continue reading on Medium »",
+    "date": "2026-08-18",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Tutoriel sur l'utilisation de Power BI pour les analystes business avec des données NBA. Article de fond sur une pratique établie, utile pour les débutants en analyse de données.",
+    "tags": [
+      "Power BI",
+      "data analytics",
+      "business analysts",
+      "NBA data",
+      "tutorial"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.55
+  },
+  {
     "url": "https://towardsdatascience.com/how-to-get-the-most-out-of-claude-fable-5/",
     "url_hash": "faffa5faf4aa9a9f7ad716afb8c6bac8",
     "titre": "How to Get the Most Out of Claude Fable 5",
@@ -42999,6 +43447,31 @@
       "Metabase",
       "sécurité",
       "incident"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.15
+  },
+  {
+    "url": "https://medium.com/@2iresourcing/the-fastest-way-to-learn-excel-power-bi-for-an-sap-adjacent-role-fe5fe9a3f750?source=rss------power_bi-5",
+    "url_hash": "2e52a7e0d0e9e9e524eb8ad19c35ab34",
+    "titre": "The Fastest Way to Learn Excel/Power BI for an SAP-Adjacent Role",
+    "resume": "Why Excel and Power BI Are Essential for SAP-Adjacent RolesContinue reading on Medium »",
+    "date": "2026-08-17",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article informatif sur l'importance et l'apprentissage de Power BI dans un contexte professionnel spécifique (rôle SAP-adjacent). Il s'agit d'un retour d'expérience utile mais sans nouveauté technique majeure.",
+    "tags": [
+      "Excel",
+      "Power BI",
+      "SAP",
+      "learning",
+      "business intelligence"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 3,
