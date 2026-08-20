@@ -564,7 +564,7 @@
     "source_name": "VentureBeat AI",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_MODELES",
     "raison_score": "Modèle open-source (Apache 2.0) de 27 milliards de paramètres capable de gérer des agents de codage de classe frontier et le raisonnement localement. Changement de paradigme architectural pour l'accès local aux LLM avancés.",
@@ -1902,6 +1902,31 @@
     "score_composite": 7.949999999999999
   },
   {
+    "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+    "url_hash": "42bbaa081fc3b432b4a8e3bcfd809551",
+    "titre": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+    "resume": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason.",
+    "date": "2026-08-19",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "L'acquisition de OpenRouter par Stripe représente une levée de fonds (implicite via acquisition) qui pourrait redessiner un secteur (paiements + IA). L'article suggère une stratégie entrepreneuriale IA majeure.",
+    "tags": [
+      "stripe",
+      "openrouter",
+      "acquisition",
+      "ia",
+      "entrepreneuriat"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 10,
+    "score_composite": 7.949999999999999
+  },
+  {
     "url": "https://venturebeat.com/infrastructure/microsoft-debuts-surface-rtx-spark-dev-box-to-run-large-ai-models-without-cloud-costs",
     "url_hash": "f275023484a8030f1b11ba4c06563d82",
     "titre": "Microsoft debuts Surface RTX Spark Dev Box to run large AI models without cloud costs",
@@ -3039,6 +3064,30 @@
       "vidéo",
       "collaboration",
       "avancée scientifique"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.699999999999999
+  },
+  {
+    "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+    "url_hash": "7e1debc1bd0a37c49daf5b3a7eecee78",
+    "titre": "Offering Zero Data Retention for frontier models",
+    "resume": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+    "date": "2026-08-19",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Annonce d'une politique de rétention de données zéro pour les modèles de pointe, renforçant la confidentialité et la sécurité des données pour les clients API. Ceci est une évolution majeure pour l'adoption de l'IA dans les entreprises soucieuses de la protection des données.",
+    "tags": [
+      "IA",
+      "confidentialité",
+      "sécurité",
+      "API"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 9,
@@ -5648,6 +5697,31 @@
       "code generation",
       "Webwright",
       "Microsoft Research"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3500000000000005
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/18/meet-sam-sovereign-agent-mesh-a-zero-config-zero-trust-p2p-network-for-ai-agents/",
+    "url_hash": "be055c73469420ad194c38d529be2c91",
+    "titre": "Meet SAM (Sovereign Agent Mesh): A Zero-Config, Zero-Trust P2P Network for AI Agents",
+    "resume": "Google has open-sourced SAM (Sovereign Agent Mesh) under Apache-2.0 — and it has nothing to do with Segment Anything. SAM is a zero-config, zero-trust P2P overlay that lets autonomous agents discover and call each other's MCP tools across cloud, on-prem, laptop and edge environments, without exposing a single internal endpoint to the public internet. Identity flows from OIDC into Biscuit capability tokens, so nodes authorize every request offline under a strict default-deny model.\nThe post Meet ",
+    "date": "2026-08-18",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Publication open-source d'un nouveau framework pour les agents IA (SAM) qui aborde des problèmes critiques comme la découverte, l'interopérabilité et la sécurité (zero-trust, zero-config). C'est une avancée significative pour l'écosystème des agents.",
+    "tags": [
+      "IA",
+      "Agents IA",
+      "Réseau P2P",
+      "Sécurité",
+      "Open Source"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -13369,6 +13443,31 @@
     "score_composite": 6.750000000000001
   },
   {
+    "url": "https://venturebeat.com/orchestration/truefoundrys-open-source-ai-agent-harness-trueforge-boasts-30-75-cheaper-task-completion-than-claude-managed-agents",
+    "url_hash": "586970a0e3dea61695979a7d37ee878f",
+    "titre": "TrueFoundry's open source AI agent harness TrueForge boasts 30%-75% cheaper task completion than Claude Managed Agents",
+    "resume": "Another day, another new AI agent harness is released.Only this time, it's one that aims to solve a growing enterprise problem as AI agents proliferate: enabling greater developer control of agents and tools, while reducing cost. TrueFoundry, a San Francisco B2B machine learning startup co-founded in 2021 by former Meta engineers, has released its own custom TrueForge harness under the permissive MIT License on Github. Thus, it can be used with any of a developer (or their parent enterprise's) p",
+    "date": "2026-08-19",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Sortie de TrueForge, un nouvel agent IA open-source qui promet une réduction significative des coûts par rapport aux agents gérés. La documentation et la reproductibilité sont implicites dans un projet open-source de cette nature.",
+    "tags": [
+      "IA",
+      "agents",
+      "open-source",
+      "automatisation",
+      "coût"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.750000000000001
+  },
+  {
     "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
     "url_hash": "2f358dc4a504978912f0eb9df7c976e7",
     "titre": "Strengthening societal resilience with Rosalind Biodefense",
@@ -14818,6 +14917,30 @@
     "score_composite": 6.7
   },
   {
+    "url": "https://zapier.com/blog/chatgpt-work",
+    "url_hash": "e30ec69926784a58252b897d94a1486f",
+    "titre": "What is ChatGPT Work?",
+    "resume": "ChatGPT isn't really a chatbot anymore. Now, the focus is on agents, which is why the ChatGPT app suddenly looks very different. It's been rebuilt around a feature called ChatGPT Work. ChatGPT Work is basically Codex, OpenAI's coding tool, for regular people. It uses the same agentic foundation but in a friendlier package. You don't have to worry about git, the terminal, or actual code—unless you want to.  The idea is that ChatGPT Work can operate on its own for an extended period of time. You g",
+    "date": "2026-08-19",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article décrit une nouvelle capacité d'agent documentée et reproductible de ChatGPT (ChatGPT Work), marquant une évolution dans les interactions avec les LLM.",
+    "tags": [
+      "chatgpt",
+      "agents",
+      "ia",
+      "automatisation"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
     "url": "https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/",
     "url_hash": "7549fba836491ef24457f55b97aab46b",
     "titre": "From Vibe Coding to Spec-Driven Development",
@@ -16079,6 +16202,31 @@
     "score_composite": 6.6000000000000005
   },
   {
+    "url": "https://openai.com/index/replit",
+    "url_hash": "09f9dc1b5215ea73d9ea743c10c4931e",
+    "titre": "Replit expands access to software creation with GPT-5.6 Luna",
+    "resume": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+    "date": "2026-08-19",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Replit rend GPT-5.6 Luna disponible en mode gratuit pour la création logicielle, démocratisant l'accès à des outils avancés de développement assisté par IA. Cela représente une avancée significative pour les développeurs et les entrepreneurs.",
+    "tags": [
+      "IA",
+      "développement",
+      "GPT",
+      "accessibilité",
+      "open-source"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.6000000000000005
+  },
+  {
     "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
     "url_hash": "3a63ffe19879f864cf1c23da83b6adac",
     "titre": "Speeding up agentic workflows with WebSockets in the Responses API",
@@ -16218,31 +16366,6 @@
       "apprentissage non supervisé",
       "agents IA",
       "analyse IA"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 6.550000000000001
-  },
-  {
-    "url": "https://blog.n8n.io/how-to-evaluate-the-performance-of-ai-agents/",
-    "url_hash": "6ba1c2a8cd0b06b604077518f34a7ddb",
-    "titre": "How to evaluate the performance of AI agents?",
-    "resume": "Evaluate AI agents effectively: learn offline vs. online testing, key metrics, and methods like deterministic checks, LLM-as-a-judge, and human review to improve performance and reliability.",
-    "date": "2026-04-21",
-    "source_name": "n8n Blog",
-    "categorie_source": "AUTOMATISATION",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_AGENTS",
-    "raison_score": "Avancée significative dans le domaine des agents IA. L'article documente une nouvelle capacité reproductible : l'évaluation de la performance des agents IA avec des méthodes et métriques claires.",
-    "tags": [
-      "IA",
-      "Agents",
-      "Évaluation",
-      "Performance",
-      "LLM"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -19185,6 +19308,31 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 7,
+    "score_composite": 6.4
+  },
+  {
+    "url": "https://www.producthunt.com/products/shape-5",
+    "url_hash": "c0adf1e8029b508c213c82f3327c3221",
+    "titre": "Shape",
+    "resume": "\n            The agentic IDE for designers and programmers\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-08-19",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article présente un nouvel outil 'agentic IDE' qui est une capacité d'agent documentée et potentiellement reproductible pour les designers et programmeurs.",
+    "tags": [
+      "ia",
+      "agents",
+      "ide",
+      "design",
+      "developpement"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
     "score_composite": 6.4
   },
   {
@@ -26390,6 +26538,30 @@
     "score_composite": 5.8500000000000005
   },
   {
+    "url": "https://www.databricks.com/blog/designing-effective-genie-agents-single-prompt",
+    "url_hash": "76b7e68aed75809c2ac50bd55a0acf01",
+    "titre": "Designing effective Genie Agents from a single prompt",
+    "resume": "Ask a generic agent about revenue, and it’ll likely grab the first revenue table...",
+    "date": "2026-08-19",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article propose des directives pour concevoir des agents IA efficaces à partir d'une seule invite, offrant des conseils pratiques pour une nouvelle capacité d'agent documentée et reproductible.",
+    "tags": [
+      "IA",
+      "agents",
+      "prompt engineering",
+      "Databricks"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.8500000000000005
+  },
+  {
     "url": "https://medium.com/@angelvbenit/i-built-the-same-dashboard-in-excel-power-bi-and-tableau-79c782a367c9?source=rss------power_bi-5",
     "url_hash": "455db4f9071f345b84192a6b9abf710e",
     "titre": "I Built the Same Dashboard in Excel, Power BI, and Tableau.",
@@ -27384,6 +27556,31 @@
       "agent",
       "mémoire",
       "optimisation"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.800000000000001
+  },
+  {
+    "url": "https://towardsdatascience.com/kimi-k3s-1m-token-context-window-vs-rag-cost-latency-and-answer-quality/",
+    "url_hash": "6230424a7f97743568179616cadb2611",
+    "titre": "Kimi K3’s 1M Token Context Window vs. RAG: Cost, Latency and Answer Quality",
+    "resume": "A controlled comparison of a top-5 RAG pipeline and a full 127,000 token prompt on the same 12 questions, same system prompt and same model. Graded blind on correctness, completeness and grounding.\nThe post Kimi K3’s 1M Token Context Window vs. RAG: Cost, Latency and Answer Quality appeared first on Towards Data Science.",
+    "date": "2026-08-19",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Comparaison détaillée entre une fenêtre de contexte de 1M de tokens et RAG, analysant coûts, latence et qualité des réponses. Cela constitue un cas d'usage documenté avec des métriques potentielles.",
+    "tags": [
+      "IA",
+      "modèles",
+      "RAG",
+      "performance",
+      "comparaison"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -32741,6 +32938,31 @@
     "score_composite": 5.3500000000000005
   },
   {
+    "url": "https://www.saastr.com/5-interesting-learnings-from-atlassian-at-6-6-billion-in-arr-28-growth-44-rpo-growth-and-a-35-one-day-stock-pop/",
+    "url_hash": "46cade959d9e9d074f68b0347851371b",
+    "titre": "5 Interesting Learnings from Atlassian at $6.6 Billion in ARR: 28% Growth, 44% RPO Growth, and a 35% One-Day Stock Pop",
+    "resume": "Atlassian closed its fiscal year on June 30 and reported on August 6. Going in, it was one of the most doubted names in enterprise software. The bear case was simple: AI agents write the code, AI agents file the tickets, and the tools that track the work get squeezed out of the middle. The... Continue Reading",
+    "date": "2026-08-19",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "L'article documente des apprentissages d'une entreprise (Atlassian) à succès dans le domaine tech, incluant des réflexions sur l'impact potentiel de l'IA sur leurs métiers. Il présente un nouveau cas d'usage entrepreneurial.",
+    "tags": [
+      "atlassian",
+      "entrepreneuriat",
+      "ia",
+      "croissance",
+      "startup"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 5.3500000000000005
+  },
+  {
     "url": "https://zapier.com/blog/business-automation",
     "url_hash": "c3af96a1ceab65d8c48495a10e33af22",
     "titre": "Business automation: How to transform your operations",
@@ -35405,6 +35627,30 @@
     "score_composite": 5.199999999999999
   },
   {
+    "url": "https://medium.com/microsoft-power-bi/ux-mistakes-that-kill-report-adoption-and-how-they-show-up-in-real-power-bi-environments-cd84fd25d053?source=rss------power_bi-5",
+    "url_hash": "6eb795a2f1c55b4c285bbaa945ab968a",
+    "titre": "UX Mistakes That Kill Report Adoption and How They Show Up in Real Power BI Environments",
+    "resume": "Non-Members Can Read the Full Story HereContinue reading on Power BI »",
+    "date": "2026-08-19",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article aborde des problèmes d'UX concrets qui affectent l'adoption des rapports Power BI. Il documente un cas d'usage BI avec des problématiques réelles.",
+    "tags": [
+      "power bi",
+      "ux",
+      "adoption",
+      "rapports"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
+  },
+  {
     "url": "https://techcrunch.com/2026/05/15/indian-uber-rival-rapido-raises-240m-at-3b-valuation/",
     "url_hash": "397bfe6497a0257060974341c210a909",
     "titre": "Indian Uber rival Rapido raises $240M at $3B valuation",
@@ -35427,31 +35673,6 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 8,
-    "score_composite": 5.15
-  },
-  {
-    "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
-    "url_hash": "200ccf22b4732b199020e3e33ca2c538",
-    "titre": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
-    "resume": "",
-    "date": "2026-04-21",
-    "source_name": "HuggingFace Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "IA_MODELES",
-    "raison_score": "Évolution notable dans le domaine des modèles IA. La création d'un leaderboard pour les LLM arabes avec une approche axée sur la qualité est une contribution intéressante à l'évaluation des modèles.",
-    "tags": [
-      "IA",
-      "LLM",
-      "Leaderboard",
-      "Arabe",
-      "Évaluation"
-    ],
-    "pertinence_bi_consultant": 3,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 4,
     "score_composite": 5.15
   },
   {
@@ -36943,6 +37164,30 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 3,
+    "score_composite": 5.0
+  },
+  {
+    "url": "https://blog.n8n.io/soc-2-compliance-automation/",
+    "url_hash": "218460b75ebd96db55f08df7fd21fd51",
+    "titre": "SOC 2 Compliance Automation Across Heterogeneous Stacks",
+    "resume": "Learn how SOC 2 compliance automation streamlines evidence collection, monitoring, and remediation across complex systems without vendor lock-in.",
+    "date": "2026-08-19",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "L'article présente un cas d'usage concret et documenté de l'automatisation pour la conformité SOC 2, avec des métriques potentielles sur l'efficacité.",
+    "tags": [
+      "automatisation",
+      "soc 2",
+      "conformité",
+      "cybersécurité"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 7,
     "score_composite": 5.0
   },
   {
@@ -39442,6 +39687,79 @@
     "score_composite": 4.8
   },
   {
+    "url": "https://medium.com/@purithandayani/sales-pipeline-analysis-power-bi-dashboard-challenge-8702c8d71001?source=rss------power_bi-5",
+    "url_hash": "a4f435a77178f7a94c7bb48456b81085",
+    "titre": "Sales Pipeline Analysis: Power BI Dashboard Challenge",
+    "resume": "Phew! I’ve just finished Microsoft Power BI Desktop for Business Intelligence course by Maven Analytics. Another skill unlocked 🔓\nThe…Continue reading on Medium »",
+    "date": "2026-08-20",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un article décrivant un projet de création de tableau de bord Power BI pour l'analyse du pipeline de ventes. Il documente un cas d'usage BI et une pratique.",
+    "tags": [
+      "Power BI",
+      "BI",
+      "tableau de bord",
+      "ventes"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.8
+  },
+  {
+    "url": "https://medium.com/@abubakrioyekunleoyelude/from-retail-data-to-inventory-intelligence-building-a-power-bi-dashboard-for-smarter-inventory-4811fc50eaf5?source=rss------power_bi-5",
+    "url_hash": "fa2c2d5deb3c7a0ba67928b0c772c8ce",
+    "titre": "From Retail Data to Inventory Intelligence: Building a Power BI Dashboard for Smarter Inventory…",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-08-19",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article documente la création d'un tableau de bord Power BI pour l'intelligence d'inventaire à partir de données retail, présentant un nouveau cas d'usage BI avec des métriques potentielles.",
+    "tags": [
+      "Power BI",
+      "BI",
+      "tableau de bord",
+      "inventaire",
+      "retail"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.8
+  },
+  {
+    "url": "https://medium.com/microsoft-power-bi/when-to-use-tooltips-instead-of-extra-pages-in-power-bi-a-practical-ux-guide-for-better-reports-aada6a337ad5?source=rss------power_bi-5",
+    "url_hash": "fbf41d5dd4ba3de81c9317525da20ffb",
+    "titre": "When to Use Tooltips Instead of Extra Pages in Power BI: A Practical UX Guide for Better Reports",
+    "resume": "One of the most common Power BI design mistakes I still see, even in mature analytics teams, is the overuse of extra report pages to…Continue reading on Power BI »",
+    "date": "2026-08-19",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Un guide pratique sur l'utilisation des infobulles dans Power BI pour améliorer l'expérience utilisateur des rapports. Il s'agit d'un tutoriel avancé sur une pratique BI.",
+    "tags": [
+      "Power BI",
+      "BI",
+      "UX",
+      "design"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.8
+  },
+  {
     "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
     "url_hash": "15d2a96bac2bfe86f5d8e69a3c04bfec",
     "titre": "Introducing Trusted Contact in ChatGPT",
@@ -40762,6 +41080,30 @@
     "score_composite": 4.6000000000000005
   },
   {
+    "url": "https://medium.com/@simon.harrison_Select_Distinct/how-to-build-a-balance-sheet-in-power-bi-64f9619c2c60?source=rss------power_bi-5",
+    "url_hash": "76ba6c8b753551f2cd67bd84a86c30e5",
+    "titre": "How to Build a Balance Sheet in Power BI",
+    "resume": "If you followed last week’s guide on building a clean, executive-ready Profit & Loss statement, you already know that raw data exported…Continue reading on Medium »",
+    "date": "2026-08-19",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Il s'agit d'un tutoriel avancé sur une fonctionnalité spécifique de Power BI pour construire un rapport financier. Il offre une valeur utile pour les praticiens.",
+    "tags": [
+      "power bi",
+      "bilan",
+      "finance",
+      "tutoriel"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.6000000000000005
+  },
+  {
     "url": "https://openai.com/academy/codex-settings",
     "url_hash": "d363d492e8c4b2f01b785335d25b1a14",
     "titre": "Codex settings",
@@ -40899,6 +41241,30 @@
       "serverless",
       "cloud infrastructure",
       "VMs"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.6
+  },
+  {
+    "url": "https://www.therundown.ai/articles/cursor-origin-hits-github-on-its-worst-day",
+    "url_hash": "3740d2d97c7d6487abeb7e19f50c54f7",
+    "titre": "Cursor's Origin hits GitHub on its worst day",
+    "resume": "PLUS: How to set up ChatGPT to write in your voice",
+    "date": "2026-08-18",
+    "source_name": "The Rundown AI",
+    "categorie_source": "IA_APPLIQUEE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Mention d'un événement lié à Cursor et une suggestion sur l'utilisation de ChatGPT pour écrire dans un style personnalisé. Il s'agit plus d'un cas d'usage documenté que d'une nouveauté disruptive.",
+    "tags": [
+      "IA",
+      "Développement assisté",
+      "ChatGPT",
+      "Tutoriel"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 5,
@@ -42026,6 +42392,30 @@
     "score_composite": 4.449999999999999
   },
   {
+    "url": "https://www.producthunt.com/products/hermai-brand-api",
+    "url_hash": "d9e8af4ac7d72fb79bf32d68ff7f518c",
+    "titre": "Hermai Brand API",
+    "resume": "\n            White label your B2B SaaS with every customer's brand\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-08-20",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Lancement de Hermai Brand API, permettant de mettre du SaaS B2B en marque blanche. Bien que le résumé soit succinct, l'idée d'une API pour la personnalisation de marques représente une évolution notable dans le paysage des startups.",
+    "tags": [
+      "startup",
+      "API",
+      "SaaS",
+      "marque blanche"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.449999999999999
+  },
+  {
     "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
     "url_hash": "fce4054495654cee1984ffb313457e56",
     "titre": "Top 10 uses for Codex at work",
@@ -42534,6 +42924,55 @@
     "score_composite": 4.4
   },
   {
+    "url": "https://medium.com/@willywonkacreations/power-bi-vs-tableau-vs-excel-for-financial-analysis-the-2026-integration-guide-for-finance-teams-c5cb6e8d4e14?source=rss------power_bi-5",
+    "url_hash": "3bdb1c5dafc33c32de370ec6333b4dbe",
+    "titre": "Power BI vs. Tableau vs. Excel for Financial Analysis: The 2026 Integration Guide for Finance Teams",
+    "resume": "The financial department of 2026 is no longer a back-office function focused solely on historical reporting. It has evolved into a…Continue reading on Medium »",
+    "date": "2026-08-19",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Article comparatif entre Power BI, Tableau et Excel pour l'analyse financière, offrant une information utile sur les pratiques établies.",
+    "tags": [
+      "Power BI",
+      "Tableau",
+      "Excel",
+      "BI",
+      "finance"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.4
+  },
+  {
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
+    "url_hash": "95ae32515619f3dd22ef2fafcb6a0034",
+    "titre": "GitHub Copilot app for Beginners: Managing your work",
+    "resume": "If you’re juggling multiple Copilot sessions, use the My work pane to track what's in flight, what's done, and what's next.\nThe post GitHub Copilot app for Beginners: Managing your work appeared first on The GitHub Blog.",
+    "date": "2026-08-19",
+    "source_name": "GitHub Blog",
+    "categorie_source": "DEV_ASSISTE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Il s'agit d'un tutoriel avancé sur l'utilisation de GitHub Copilot pour la gestion du travail. Il documente un nouveau cas d'usage et une pratique pour les développeurs.",
+    "tags": [
+      "github copilot",
+      "ia",
+      "developpement",
+      "gestion de projet"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.4
+  },
+  {
     "url": "https://towardsdatascience.com/i-pitted-xgboost-against-logistic-regression-on-358-matches-the-boring-model-won/",
     "url_hash": "483fb02abcf730fdf6e4e14202e9b537",
     "titre": "I Pitted XGBoost Against Logistic Regression on 358 Matches. The Boring Model Won.",
@@ -42993,31 +43432,6 @@
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 4,
     "score_composite": 4.3
-  },
-  {
-    "url": "https://www.sqlbi.com/tv/parameter-types-in-dax-user-defined-functions-udf/",
-    "url_hash": "42115ada64a76538e4d75251fb3abcaf",
-    "titre": "Parameter types in DAX user defined functions UDF",
-    "resume": "Learn how to specify the parameter types in DAX user-defined functions using MEASUREREF, COLUMNREF, TABLEREF, and CALENDARREF.",
-    "date": "2026-04-21",
-    "source_name": "SQLBI",
-    "categorie_source": "BI_OUTILS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 4,
-    "categorie": "BI_PRATIQUES",
-    "raison_score": "Information utile sur une pratique établie en BI. L'article est un tutoriel avancé sur un aspect technique spécifique de DAX, utile pour les praticiens.",
-    "tags": [
-      "DAX",
-      "BI",
-      "UDF",
-      "Programmation",
-      "SQLBI"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 3,
-    "pertinence_entrepreneur": 2,
-    "score_composite": 4.25
   },
   {
     "url": "https://techcrunch.com/2026/05/31/this-is-fine-artist-kc-green-reaches-agreement-with-ai-startup-artisan/",
@@ -43868,6 +44282,30 @@
       "Business IA",
       "Modèle économique",
       "Monétisation"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.1
+  },
+  {
+    "url": "https://blog.n8n.io/workato-alternatives-for-enterprise-automation/",
+    "url_hash": "50f529f2056669240f6af1f459b1b073",
+    "titre": "6 Workato Alternatives for Enterprise Automation",
+    "resume": "Comparing RPA versus workflow automation? See how they stack up across reliability, security, scalability, observability, and long-term operations.",
+    "date": "2026-08-19",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Il s'agit d'un comparatif d'outils d'automatisation pour entreprises, fournissant des données chiffrées sur leurs caractéristiques. L'information est utile pour la prise de décision.",
+    "tags": [
+      "automatisation",
+      "rpa",
+      "workflow",
+      "enterprise"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 3,
@@ -45315,6 +45753,30 @@
       "flux de travail",
       "entreprise",
       "processus"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 3.6500000000000004
+  },
+  {
+    "url": "https://medium.com/@emergimentors/you-know-sql-and-power-bi-so-why-arent-you-getting-data-analyst-interviews-in-australia-d633a471539e?source=rss------power_bi-5",
+    "url_hash": "ede5e4d6bd9df1c9e83421b2810ebfac",
+    "titre": "You Know SQL and Power BI. So Why Aren’t You Getting Data Analyst Interviews in Australia?",
+    "resume": "There is a point in the data analyst job search where adding another skill to your resume stops helping very much.Continue reading on Medium »",
+    "date": "2026-08-19",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article offre un retour d'expérience sur la recherche d'emploi dans le domaine de l'analyse de données. Il est utile mais ne présente pas d'innovation technique majeure.",
+    "tags": [
+      "analyse de données",
+      "carrière",
+      "power bi",
+      "sql"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 3,
