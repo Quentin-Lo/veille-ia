@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stripe Buys OpenRouter for $7B, Anthropic Turns Its First Profit, and Silver Lake Circles Workday at $43B: 20VC x SaaStr — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>Stripe Buys OpenRouter for $7B, Anthropic Turns Its First Profit, and Silver Lake Circles Workday at $43B: 20VC x SaaStr</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-08-23</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-08-24 08:43 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>Le marché tech s'agite : Stripe, Anthropic et Silver Lake en vedette</h2>
+<blockquote>Les gros poissons s'activent. Acquisitions majeures et profits records redessinent le paysage technologique.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+<p>Stripe rachète OpenRouter pour 7 milliards de dollars. L'acquisition renforce la position de Stripe dans l'écosystème des développeurs AI. Anthropic, le concurrent d'OpenAI, annonce avoir atteint sa première rentabilité. Un signe fort pour le secteur des grands modèles linguistiques. Silver Lake, un fonds d'investissement, considère une offre pour Workday. L'évaluation est de 43 milliards de dollars. Le secteur du SaaS pour entreprises est sous les feux des projecteurs.</p>
+<blockquote>Anthropic a réalisé son premier profit.</blockquote>
+<h3>Pourquoi ca compte 🎯</h3>
+<p>Ces mouvements montrent une consolidation et une maturité accrues. Les entreprises qui construisent des infrastructures pour l'IA attirent de grosses sommes. La rentabilité devient un critère clé pour les acteurs majeurs de l'IA. Les investisseurs cherchent des paris sûrs dans un marché en pleine expansion.</p>
+<table>
+<tr><th>Acteur</th><th>Transaction</th><th>Montant</th><th>Focus</th></tr>
+<tr><td>Stripe</td><td>Acquisition OpenRouter</td><td>7 milliards</td><td>Infrastructure IA, API pour développeurs</td></tr>
+<tr><td>Anthropic</td><td>Premier profit</td><td>Non divulgué</td><td>Modèles linguistiques, IA responsable</td></tr>
+<tr><td>Silver Lake</td><td>Intérêt pour Workday (potentiel)</td><td>43 milliards</td><td>SaaS RH, gestion de la paie</td></tr>
+</table>
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Suivre les annonces de Stripe</strong> sur les nouvelles intégrations OpenRouter.</li>
+<li><strong>Analyser les stratégies de rentabilité</strong> des startups IA émergentes.</li>
+<li><strong>Expérimenter</strong> avec des API d'orchestration LLM open source pour comparer les coûts.</li>
+</ul>
+<blockquote>L'IA n'est plus une promesse, mais un moteur de croissance concret pour les entreprises.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>OpenRouter</strong> : Une plateforme qui simplifie l'accès et l'utilisation de différents modèles d'IA via une API unifiée.</li>
+<li><strong>Rentabilité</strong> : Le point où les revenus dépassent les dépenses. Crucial pour la viabilité à long terme d'une entreprise.</li>
+<li><strong>Silver Lake</strong> : Un fonds d'investissement spécialisé dans la technologie, connu pour ses opérations de private equity.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://www.saastr.com/stripe-buys-openrouter-for-7b-anthropic-turns-its-first-profit-and-silver-lake-circles-workday-at-43b-20vc-x-saastr/">Stripe Buys OpenRouter for $7B, Anthropic Turns Its First Profit, and Silver Lake Circles Workday at $43B: 20VC x SaaStr</a> — Comprendre les dynamiques d'investissement et les rachats stratégiques dans l'écosystème SaaS et IA.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<strong>Un chercheur d'OpenAI lance une startup en découverte de médicaments assistée par IA</strong> (9) : Miles Wang prépare le lancement d'une entreprise qui pourrait être valorisée 2 milliards de dollars, exploitant l'IA pour accélérer la recherche pharmaceutique.
+<strong>Google présente le framework Science One pour la recherche autonome vérifiable</strong> (9) : Ce cadre vise à rendre la recherche scientifique plus transparente et reproductible grâce à des chaînes de preuves automatisées.
+<strong>n8n s'associe à SAP pour l'orchestration visuelle de flux de travail IA</strong> (8) : L'intégration permettra aux entreprises d'automatiser des processus complexes en utilisant l'IA de manière plus accessible et visuelle.
+<strong>GPT-5.6 devient le modèle préféré de Microsoft 365 Copilot</strong> (8) : Cette mise à jour renforce la collaboration entre OpenAI et Microsoft, malgré les rumeurs de tensions.
+<strong>Classement des meilleurs agents IA pour le développement logiciel</strong> (8) : Une analyse basée sur des benchmarks révèle les performances actuelles des IA dans les tâches de codage.
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>Acquisition d'OpenRouter par Stripe</strong> — Stripe étend son offre en intégrant une plateforme d'agrégation de modèles IA. C'est une étape clé pour fournir une infrastructure complète aux développeurs exploitant l'IA générative.
+<strong>Profitabilité des entreprises d'IA</strong> — Anthropic atteint sa première rentabilité. Cela montre que l'IA commence à devenir un business viable et pas seulement un projet de recherche coûteux.
+<strong>A surveiller</strong> — Le rythme effréné des levées de fonds pour les startups IA spécialisées. Des valorisations très élevées apparaissent rapidement, comme pour le cas de Rillet.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-08-24 08:43 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
