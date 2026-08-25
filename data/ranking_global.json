@@ -360,7 +360,7 @@
     "source_name": "SaaStr",
     "categorie_source": "ENTREPRENEURIAT",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "ENTREPRENEURIAT",
     "raison_score": "Acquisition majeure (Stripe buys OpenRouter for $7B) qui redessine le secteur des APIs LLM. L'article aborde aussi la rentabilité d'Anthropic, un indicateur clé pour le secteur IA.",
@@ -2479,6 +2479,30 @@
     "score_composite": 7.8
   },
   {
+    "url": "https://www.marktechpost.com/2026/08/24/generalist-ai-releases-gen-1-5-a-robot-foundation-model-that-learns-new-tasks-from-one-3-12-second-demo/",
+    "url_hash": "487030103e1e6dc44ea90c4d811566cc",
+    "titre": "Generalist AI Releases GEN-1.5: A Robot Foundation Model That Learns New Tasks From One 3–12 Second Demo",
+    "resume": "Generalist AI has released GEN-1.5, a robot foundation model that learns a new physical task from a single demonstration. Drop 3–12 seconds of sensorimotor data into its 30-second context window, and the robot performs the task. No gradient updates, no fine-tuning, no task-specific programming. Across 10 diverse manipulation tasks, this one-shot in-context prompting averaged 59% […]\nThe post Generalist AI Releases GEN-1.5: A Robot Foundation Model That Learns New Tasks From One 3–12 Second Demo ",
+    "date": "2026-08-24",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "GEN-1.5, un modèle fondation de robot capable d'apprendre de nouvelles tâches en quelques secondes sans ré-entraînement, représente une avancée majeure dans l'apprentissage machine et la robotique. C'est une percée dans la manière dont les robots apprennent.",
+    "tags": [
+      "GEN-1.5",
+      "modèle fondation robotique",
+      "apprentissage one-shot",
+      "robotique"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 10,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.8
+  },
+  {
     "url": "https://openai.com/index/gpt-5-5-instant",
     "url_hash": "05d3c5cd4cae571dc8db4151dde76005",
     "titre": "GPT-5.5 Instant: smarter, clearer, and more personalized",
@@ -3792,6 +3816,31 @@
     "score_composite": 7.550000000000001
   },
   {
+    "url": "https://venturebeat.com/orchestration/anthropics-new-claude-tag-update-lets-its-slack-agent-read-the-full-conversation-and-jump-in-unprompted",
+    "url_hash": "721163ab5ac9fe783e619d9799152743",
+    "titre": "Anthropic’s new Claude Tag update lets its Slack agent read the full conversation — and jump in unprompted",
+    "resume": "Anthropic is making a calculated bet that the biggest bottleneck in enterprise AI isn't model intelligence — it's the fact that most people still use AI alone.In an exclusive interview with VentureBeat, Scott White, Anthropic's head of product for enterprise, laid out the company's thesis for what it calls \"multiplayer AI\": a shift away from the single-user chatbot paradigm toward AI agents that operate across teams, read organizational context, and proactively insert themselves into work — some",
+    "date": "2026-08-24",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'agent Slack de Claude, capable de lire l'intégralité d'une conversation et d'intervenir de manière proactive, représente une avancée significative pour les agents IA dans des contextes collaboratifs. C'est une nouvelle capacité agent documentée et potentiellement disruptive.",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "agent IA",
+      "Slack",
+      "multiplayer AI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.550000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/14/poetiqs-meta-system-automatically-builds-a-model-agnostic-harness-that-improved-every-llm-tested-on-livecodebench-pro-without-fine-tuning/",
     "url_hash": "b97292a0b3a3ac6e770fc40062cc9e82",
     "titre": "Poetiq’s Meta-System Automatically Builds a Model-Agnostic Harness That Improved Every LLM Tested on LiveCodeBench Pro Without Fine-Tuning",
@@ -4235,6 +4284,30 @@
       "IA frontier",
       "Kimi K3",
       "construction de modèles"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.55
+  },
+  {
+    "url": "https://towardsdatascience.com/ai-agents-dont-need-more-context-they-need-typed-context/",
+    "url_hash": "6459b78fa66217d6ad551301d436d0b2",
+    "titre": "AI Agents Don’t Need More Context — They Need Typed Context",
+    "resume": "AI agents don’t just have a context problem—they have a context typing problem. When instructions, memory, retrieved evidence, and tool outputs are flattened into one string, their semantic boundaries can disappear. I built a lightweight, zero-dependency Python runtime that keeps those boundaries explicit, tracks provenance, and rejects invalid context transformations before they reach the model. This article walks through the implementation, tests, and what this approach does—and does not—guara",
+    "date": "2026-08-24",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article propose une avancée significative dans la conception des agents IA en introduisant le concept de 'contexte typé'. Il décrit une nouvelle capacité documentée et reproductible pour améliorer la gestion et la compréhension du contexte par les agents.",
+    "tags": [
+      "IA agents",
+      "contexte typé",
+      "gestion contexte IA",
+      "architecture agent"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 9,
@@ -8506,6 +8579,30 @@
     "score_composite": 7.1000000000000005
   },
   {
+    "url": "https://openai.com/index/gpt-5-6-in-kiro",
+    "url_hash": "b4f331f2e15ca85e54054ef510a9acf3",
+    "titre": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+    "resume": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+    "date": "2026-08-24",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "La disponibilité de GPT-5.6 dans Kiro avec une meilleure performance prix pour les développeurs est une avancée significative. Cela suggère des améliorations de modèle et d'accessibilité qui peuvent impacter le développement logiciel.",
+    "tags": [
+      "GPT-5.6",
+      "Kiro",
+      "performance prix",
+      "développement logiciel"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.1000000000000005
+  },
+  {
     "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
     "url_hash": "3d30727982c4bbdd0de1072137ae3dda",
     "titre": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
@@ -9736,6 +9833,31 @@
       "power bi",
       "semantic models",
       "data governance"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.950000000000001
+  },
+  {
+    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Upgrade-Power-BI-Dataflows-Gen1-to-Fabric-Dataflows-Gen2-with/ba-p/5360422",
+    "url_hash": "1add00ac2dafce7676adb99c12fb5cc0",
+    "titre": "Upgrade Power BI Dataflows Gen1 to Fabric Dataflows Gen2 with the Upgrade Wizard (Preview)",
+    "resume": "Upgrading Power BI Dataflows Gen1 is now easier with the Dataflows Upgrade Wizard. Now in preview for eligible workspaces assigned to Fabric capacity, the wizard provides a guided experience to upgrade Power BI Dataflows Gen1 items to Fabric Dataflows Gen2 (CI/CD). The wizard preserves key properties of the existing dataflow and assesses each item before you begin, helping you understand the upgrade scope and expected follow-up actions. \nModernize at your own pace \nPower BI Dataflows Gen1 remain",
+    "date": "2026-08-24",
+    "source_name": "Power BI Blog",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Cet article annonce une mise à jour majeure de la plateforme Microsoft Fabric, facilitant la migration des Dataflows Gen1 vers Gen2 via un assistant. Cela représente une évolution significative pour les utilisateurs de Power BI et Fabric.",
+    "tags": [
+      "Power BI",
+      "Fabric",
+      "Dataflows",
+      "migration",
+      "mise à jour plateforme"
     ],
     "pertinence_bi_consultant": 9,
     "pertinence_passionné_ia": 5,
@@ -14014,6 +14136,30 @@
     "score_composite": 6.700000000000001
   },
   {
+    "url": "https://medium.com/@karthikrajashekaran/turn-your-power-bi-models-into-snowflake-semantic-views-4cf3d6c0328b?source=rss------power_bi-5",
+    "url_hash": "4f6afd1830f48c46bfa6d45662e8fac8",
+    "titre": "Turn Your Power BI Models Into Snowflake Semantic Views",
+    "resume": "Power BI ingestion for Semantic View Autopilot is now Generally Available — so the semantic layer you already built doesn’t have to be…Continue reading on Medium »",
+    "date": "2026-08-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "L'intégration de Power BI avec les vues sémantiques Snowflake est une avancée significative pour la gouvernance et la réutilisation des modèles de données. Cela améliore l'interopérabilité des plateformes.",
+    "tags": [
+      "Power BI",
+      "Snowflake",
+      "vue sémantique",
+      "data governance"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.700000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/14/cline-releases-cline-sdk-an-open-source-agent-runtime-now-powering-its-cli-and-kanban-with-ide-extensions-being-migrated/",
     "url_hash": "1ca3a93212b1663fe3f882154d53c262",
     "titre": "Cline Releases Cline SDK: An Open-Source Agent Runtime Now Powering Its CLI and Kanban, With IDE Extensions Being Migrated",
@@ -16336,6 +16482,31 @@
     "score_composite": 6.600000000000001
   },
   {
+    "url": "https://www.marktechpost.com/2026/08/24/google-research-introduces-me-pois-a-mobility-informed-framework-that-adds-how-a-place-is-used-to-text-based-poi-embeddings/",
+    "url_hash": "cf056b3d3b06d7a013b4e0b95a387e4f",
+    "titre": "Google Research Introduces ME-POIs: A Mobility-Informed Framework that Adds “How a Place Is Used” to Text-Based POI Embeddings",
+    "resume": "framework that folds aggregate human movement into text-based place embeddings. Language models describe what a place is; they miss how it is used. ME-POIs encodes each visit as a contextualized vector and aligns it with one learnable prototype per POI through contrastive learning, then transfers visit distributions from data-rich anchors to the long tail across three spatial scales. Across five map-enrichment tasks on Los Angeles and Houston mobility data, adding ME-POIs improved 34 of 35 model",
+    "date": "2026-08-24",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "ME-POIs est une avancée significative en intégrant la mobilité aux embeddings de POI. Cela enrichit considérablement les représentations de lieux pour les LLM et a montré des améliorations concrètes sur diverses tâches.",
+    "tags": [
+      "ME-POIs",
+      "Google Research",
+      "embeddings",
+      "POI",
+      "mobilité"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.600000000000001
+  },
+  {
     "url": "https://www.latent.space/p/railway",
     "url_hash": "d6bfb4c8476a81f44668d71a73d07a7e",
     "titre": "Railway: The Agent-Native Cloud — Jake Cooper",
@@ -16530,6 +16701,31 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 9,
+    "score_composite": 6.6000000000000005
+  },
+  {
+    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Direct-Lake-Calculated-Columns-Preview/ba-p/5357159",
+    "url_hash": "e9d6646138d984cd0f213e74f4380320",
+    "titre": "Direct Lake Calculated Columns (Preview)",
+    "resume": "Calculated columns are now available in preview for Direct Lake on OneLake semantic models. This has been one of the most requested capabilities since Direct Lake launched and closes a long-standing gap with Import and DirectQuery storage modes.You can define calculated columns directly in your semantic model using DAX in web modeling and Power BI Desktop, without changing the table storage mode or modifying data upstream.The problem this solvesDirect Lake combines Import-like performance with n",
+    "date": "2026-08-24",
+    "source_name": "Power BI Blog",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "BI_OUTILS",
+    "raison_score": "L'introduction des colonnes calculées en mode Direct Lake dans Power BI représente une mise à jour majeure pour l'outil, comblant un écart important avec les autres modes de stockage et améliorant la flexibilité des modèles de données.",
+    "tags": [
+      "Power BI",
+      "Direct Lake",
+      "colonnes calculées",
+      "DAX",
+      "mise à jour outil"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
     "score_composite": 6.6000000000000005
   },
   {
@@ -17988,6 +18184,30 @@
     "score_composite": 6.550000000000001
   },
   {
+    "url": "https://towardsdatascience.com/put-your-own-logic-inside-the-codex-agentic-loop/",
+    "url_hash": "c986d3e7bd07aba8094234e39ab3dd03",
+    "titre": "Put Your Own Logic Inside the Codex Agentic Loop",
+    "resume": "Understanding Codex hooks\nThe post Put Your Own Logic Inside the Codex Agentic Loop appeared first on Towards Data Science.",
+    "date": "2026-08-24",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article explore l'intégration de logique personnalisée dans les boucles d'agents Codex. Il offre une approche documentée et reproductible pour améliorer les capacités des agents IA en leur permettant d'exécuter des processus spécifiques.",
+    "tags": [
+      "IA agents",
+      "Codex",
+      "logique personnalisée",
+      "boucle agentique"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
     "url": "https://www.producthunt.com/products/idledev",
     "url_hash": "09a38a80865d743a758abfa141f20c28",
     "titre": "IdleDev",
@@ -19124,6 +19344,30 @@
     "pertinence_bi_consultant": 9,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 4,
+    "score_composite": 6.45
+  },
+  {
+    "url": "https://towardsdatascience.com/can-an-llm-forget-the-right-things/",
+    "url_hash": "f05a63cb25845a75b0acc68ec0cafd79",
+    "titre": "Can an LLM Forget the Right Things?",
+    "resume": "Most LLM inference runtimes have no idea a physical deadline exists. This one refuses admission rather than miss a 33ms robot control cycle, evicts KV cache by meaning instead of age, and is written entirely in hand-written CUDA — no cuBLAS, no libtorch.\nThe post Can an LLM Forget the Right Things? appeared first on Towards Data Science.",
+    "date": "2026-08-24",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Cet article aborde un aspect fascinant de la gestion de la mémoire des LLM, en proposant une approche innovante pour l'oubli sélectif des informations. Il présente une nouvelle capacité d'agent documentée et potentiellement reproductible.",
+    "tags": [
+      "LLM",
+      "gestion mémoire IA",
+      "oubli sélectif",
+      "performance IA"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
     "score_composite": 6.45
   },
   {
@@ -23254,6 +23498,30 @@
     "score_composite": 6.1000000000000005
   },
   {
+    "url": "https://towardsdatascience.com/10-positions-for-enterprise-rag-that-mainstream-tutorials-get-wrong/",
+    "url_hash": "c97088af8e875e5e414ef9599947dbc0",
+    "titre": "10 Positions for Enterprise RAG That Mainstream Tutorials Get Wrong",
+    "resume": "Enterprise Document Intelligence [Vol.1 #M3] - The ten positions the series argues from, and the map of every article that argues them\nThe post 10 Positions for Enterprise RAG That Mainstream Tutorials Get Wrong appeared first on Towards Data Science.",
+    "date": "2026-08-24",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "L'article identifie des erreurs communes dans les tutoriels RAG d'entreprise, offrant des aperçus utiles pour des implémentations plus efficaces. Il fournit un cas d'usage documenté avec une perspective critique.",
+    "tags": [
+      "RAG",
+      "IA d'entreprise",
+      "techniques RAG",
+      "meilleures pratiques"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.1000000000000005
+  },
+  {
     "url": "https://openai.com/index/what-parameter-golf-taught-us",
     "url_hash": "15ea451729b25046f47bd6a907cf7687",
     "titre": "What Parameter Golf taught us about AI-assisted research",
@@ -25044,6 +25312,31 @@
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 4,
+    "score_composite": 6.0
+  },
+  {
+    "url": "https://medium.com/@nael150571/never-export-a-csv-again-building-a-secure-kobo-toolbox-to-power-bi-pipeline-609838483fdf?source=rss------power_bi-5",
+    "url_hash": "563798cf1fab469432701cbe00e2db0f",
+    "titre": "Never export a CSV again: Building a secure Kobo Toolbox to Power BI pipeline",
+    "resume": "If you work in mobile survey data collection or international development, you know this scenario all too well:Continue reading on Medium »",
+    "date": "2026-08-24",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "L'article décrit la mise en place d'un pipeline sécurisé pour automatiser le transfert de données de Kobo Toolbox vers Power BI, évitant ainsi l'exportation manuelle de CSV. Il documente un cas d'usage d'automatisation avec des bénéfices clairs.",
+    "tags": [
+      "automatisation",
+      "Power BI",
+      "Kobo Toolbox",
+      "pipeline de données",
+      "intégration"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 7,
     "score_composite": 6.0
   },
   {
@@ -28197,6 +28490,30 @@
     "score_composite": 5.800000000000001
   },
   {
+    "url": "https://www.databricks.com/blog/how-databricks-uses-ai-accelerate-incident-investigation",
+    "url_hash": "66b04ff2d9111c2330c814931300d2d7",
+    "titre": "How Databricks Uses AI to Accelerate Incident Investigation",
+    "resume": "In our previous blog post, we shared how Databricks uses AI to debug thousands of...",
+    "date": "2026-08-24",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article décrit un cas d'usage documenté et quantifié de l'IA pour accélérer l'investigation d'incidents chez Databricks. Il illustre l'application concrète de l'IA dans un contexte opérationnel.",
+    "tags": [
+      "Databricks",
+      "IA",
+      "investigation d'incidents",
+      "cas d'usage"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.800000000000001
+  },
+  {
     "url": "https://medium.com/@aptomadhusudan/rms-data-integration-and-analytics-using-microsoft-fabric-390dd9eb4919?source=rss------power_bi-5",
     "url_hash": "9a248f9c323aa2284561e26a8ee6e658",
     "titre": "RMS Data Integration and Analytics Using Microsoft Fabric",
@@ -28811,6 +29128,31 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 7,
+    "score_composite": 5.75
+  },
+  {
+    "url": "https://medium.com/@jmwestendorp/solving-the-slicer-bottleneck-dynamic-bulk-searching-in-power-bi-e4006e96c50f?source=rss------power_bi-5",
+    "url_hash": "4f2b976f2e76c409d69852103ba6b7e1",
+    "titre": "Solving the Slicer Bottleneck: Dynamic Bulk Searching in Power BI",
+    "resume": "How pairing field parameters with the slicer “Paste” search transforms ad-hoc auditing and reporting.Continue reading on Medium »",
+    "date": "2026-08-24",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article présente une solution pratique pour optimiser les performances des 'slicers' dans Power BI en combinant les paramètres de champ avec la recherche en masse. Il documente un cas d'usage concret avec des bénéfices mesurables.",
+    "tags": [
+      "Power BI",
+      "optimisation performance",
+      "slicers",
+      "paramètres de champ",
+      "recherche en masse"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 5,
     "score_composite": 5.75
   },
   {
@@ -29524,6 +29866,30 @@
       "Python",
       "Playwright",
       "reporting"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.7
+  },
+  {
+    "url": "https://www.databricks.com/blog/run-debug-and-scale-databricks-workloads-your-local-ide",
+    "url_hash": "df34fda18d4f050f210df95b1a2ca955",
+    "titre": "Run, debug, and scale Databricks workloads from your local IDE",
+    "resume": "The Databricks workspace is purposefully built for data analysis and data engineering. However...",
+    "date": "2026-08-24",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "La possibilité d'exécuter, déboguer et mettre à l'échelle les workloads Databricks depuis un IDE local est une évolution notable pour les data engineers, améliorant l'efficacité du développement sur cette plateforme.",
+    "tags": [
+      "Databricks",
+      "IDE local",
+      "data engineering",
+      "développement"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 4,
@@ -36633,6 +36999,31 @@
     "score_composite": 5.199999999999999
   },
   {
+    "url": "https://medium.com/@gdeckler/the-dax-measure-that-explains-why-a-number-changed-d5a7cca14d15?source=rss------power_bi-5",
+    "url_hash": "f9c952fcb1a0e7bfd628cbaa77269170",
+    "titre": "The DAX Measure That Explains Why A Number Changed",
+    "resume": "Was bored the other day and decided I would write some DAX.Continue reading on Medium »",
+    "date": "2026-08-24",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article présente un tutoriel avancé sur la création d'une mesure DAX pour analyser les changements dans les chiffres. Il offre une information utile pour les professionnels de la BI travaillant avec Power BI.",
+    "tags": [
+      "DAX",
+      "Power BI",
+      "analyse de données",
+      "mesures",
+      "tutoriel"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
+  },
+  {
     "url": "https://techcrunch.com/2026/05/15/indian-uber-rival-rapido-raises-240m-at-3b-valuation/",
     "url_hash": "397bfe6497a0257060974341c210a909",
     "titre": "Indian Uber rival Rapido raises $240M at $3B valuation",
@@ -38269,6 +38660,29 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 7,
+    "score_composite": 5.0
+  },
+  {
+    "url": "https://medium.com/@potphodepraful/why-your-fabric-data-agent-gives-wrong-answers-and-how-data-enrichment-fixes-it-df02463c78ab?source=rss------power_bi-5",
+    "url_hash": "44e77f0776c91d078f704806e48eec9c",
+    "titre": "Why Your Fabric Data Agent Gives Wrong Answers (And How Data Enrichment Fixes It)",
+    "resume": "A practical look at descriptions and synonyms in Power BI semantic models — and what’s actually happening under the hoodContinue reading on Medium »",
+    "date": "2026-08-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article aborde un problème pratique courant avec les agents de données Fabric et propose une solution concrète par l'enrichissement des données. Il est utile pour ceux qui utilisent ces outils.",
+    "tags": [
+      "Power BI Fabric",
+      "data agent",
+      "data enrichment"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 3,
     "score_composite": 5.0
   },
   {
@@ -46155,6 +46569,31 @@
     "score_composite": 3.95
   },
   {
+    "url": "https://medium.com/@vidhi.gadge/adventure-works-data-analysis-a-power-bi-journey-1e4a53d578f2?source=rss------power_bi-5",
+    "url_hash": "63c8e74c07e192032f4206d1c0af64e7",
+    "titre": "Adventure Works Data Analysis: A Power BI Journey",
+    "resume": "Working with real sales data becomes much easier when the data is properly prepared first. For this practical, I used the Adventure Works…Continue reading on Medium »",
+    "date": "2026-08-24",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article de fond décrit un retour d'expérience sur l'analyse de données avec Power BI en utilisant le jeu de données Adventure Works. Il est utile pour comprendre un cas d'usage établi.",
+    "tags": [
+      "Power BI",
+      "analyse de données",
+      "retour d'expérience",
+      "Business Intelligence",
+      "Adventure Works"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.95
+  },
+  {
     "url": "https://techcrunch.com/2026/05/15/a-hotel-check-in-system-left-a-million-passports-and-drivers-licenses-open-for-anyone-to-see/",
     "url_hash": "d30c6e69e2fbf7bc194c6e757c81c96b",
     "titre": "A hotel check-in system left a million passports and driver’s licenses open for anyone to see",
@@ -48344,6 +48783,29 @@
     "score_composite": 3.45
   },
   {
+    "url": "https://medium.com/@chaitalibodke1289/what-skills-do-i-need-besides-power-bi-to-land-a-job-222c88c8e3fe?source=rss------power_bi-5",
+    "url_hash": "2c83b605154cd8c3fbe0b4230da0968a",
+    "titre": "What Skills Do I Need Besides Power BI to Land a Job?",
+    "resume": "Power BI is one of the most useful business intelligence tools for turning raw information into interactive reports and dashboards…Continue reading on Medium »",
+    "date": "2026-08-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un article informatif sur les compétences complémentaires à Power BI pour un emploi, mais il n'apporte pas d'innovation ou de développement technique majeur.",
+    "tags": [
+      "Power BI",
+      "compétences",
+      "emploi BI"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 3.45
+  },
+  {
     "url": "https://medium.com/powerbi-microsoft-fabric/why-i-created-a-99-power-bi-live-course-28f9b7e16499?source=rss------power_bi-5",
     "url_hash": "c36cf8183f9815f4a9966a53968426b4",
     "titre": "Why I Created a ₹99 Power BI Live Course",
@@ -50088,6 +50550,28 @@
     "pertinence_passionné_ia": 1,
     "pertinence_entrepreneur": 1,
     "score_composite": 2.4
+  },
+  {
+    "url": "https://www.therundown.ai/articles/a-mystery-challenger-at-the-ai-frontier",
+    "url_hash": "dd1fdbcfd4c1670feb4fa7fa3191b78b",
+    "titre": "A mystery challenger at the AI frontier",
+    "resume": "PLUS: Use Gemini Canvas to visualize Google Sheets",
+    "date": "2026-08-24",
+    "source_name": "The Rundown AI",
+    "categorie_source": "IA_APPLIQUEE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 2,
+    "categorie": "IA_MODELES",
+    "raison_score": "Cet article semble être une brève mention ou une introduction qui ne fournit pas de détails techniques ou d'impact suffisant pour être évalué plus haut.",
+    "tags": [
+      "AI frontier",
+      "nouvelles IA"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 2.2
   },
   {
     "url": "https://techcrunch.com/2026/07/10/phia-accused-of-cookie-stuffing-taking-affiliate-credit-on-purchases-it-didnt-earn/",
