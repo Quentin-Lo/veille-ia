@@ -2188,7 +2188,7 @@
     "source_name": "TechCrunch",
     "categorie_source": "BUSINESS_IA",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "ENTREPRENEURIAT",
     "raison_score": "Cette levée de fonds potentielle à 2 milliards de dollars pour une startup dans la découverte de médicaments par IA, fondée par un chercheur d'OpenAI, représente une avancée majeure dans l'application de l'IA aux sciences de la vie.",
@@ -2548,30 +2548,6 @@
       "codage",
       "automatisation",
       "impact"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 8,
-    "score_composite": 7.750000000000001
-  },
-  {
-    "url": "https://bdtechtalks.com/2026/04/27/claude-code-api-token-leak/?utm_source=rss&utm_medium=rss&utm_campaign=claude-code-api-token-leak",
-    "url_hash": "2eb43756616e752f73afb8ceb109eb77",
-    "titre": "Claude Code is leaking API keys into public package registries",
-    "resume": "A new study reveals how AI coding assistants like Claude Code are quietly hoarding and publishing sensitive API keys to code repositories.\nThe post Claude Code is leaking API keys into public package registries first appeared on TechTalks.",
-    "date": "2026-04-27",
-    "source_name": "BD Tech Talks",
-    "categorie_source": "IA_APPLIQUEE",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 8,
-    "categorie": "SECURITE_IA",
-    "raison_score": "Article signalant une vulnérabilité critique dans un outil d'IA de codage populaire, avec des implications directes sur la sécurité des données d'entreprise. La publication de ces informations est une avancée significative pour la sensibilisation et la correction.",
-    "tags": [
-      "IA sécurité",
-      "vulnérabilité",
-      "fuite de données",
-      "API keys"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 8,
@@ -6947,30 +6923,6 @@
     "score_composite": 7.200000000000001
   },
   {
-    "url": "https://openai.com/index/choco",
-    "url_hash": "329b8042445f727f281b63c28c4dfd12",
-    "titre": "Choco automates food distribution with AI agents",
-    "resume": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
-    "date": "2026-04-27",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_APPLIQUEE",
-    "raison_score": "Démontre un impact réel et mesurable de l'IA sur une chaîne d'approvisionnement, allant au-delà des simples exemples théoriques. L'étude de cas détaille l'utilisation d'agents pour optimiser des processus métier complexes.",
-    "tags": [
-      "IA agents",
-      "automatisation",
-      "chaîne d'approvisionnement",
-      "cas d'usage"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 7.2
-  },
-  {
     "url": "https://venturebeat.com/orchestration/claude-agents-can-finally-connect-to-enterprise-apis-without-leaking-credentials",
     "url_hash": "4daaeb0fd9142f9e86b9c2a5f45f934e",
     "titre": "Claude agents can finally connect to enterprise APIs without leaking credentials",
@@ -9071,6 +9023,31 @@
     "score_composite": 7.050000000000001
   },
   {
+    "url": "https://motherduck.com/blog/motherduck-acquires-tower",
+    "url_hash": "a3dbdabaacc6d7025dcaadda75b1ef54",
+    "titre": "MotherDuck Acquires Tower: Agents Can Answer. Now They Can Build.",
+    "resume": "I’m excited to announce that MotherDuck has acquired Tower Computing Inc. Tower provides runtime infrastructure for data engineering tasks, and is ideally situated to help AI agents and vibe-coded pipelines run data engineering tasks. Tower powers MotherDuck Flights, our mechanism that makes rich data pipelines only a prompt away. The acquisition will enable MotherDuck to give Flights wings, by turning them into Data APIs and orchestrating data agents.\n\nI’ve known Tower co-Founder Serhii Sokolen",
+    "date": "2026-08-25",
+    "source_name": "MotherDuck Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "L'acquisition de Tower par MotherDuck, axée sur l'infrastructure d'exécution pour les agents IA et les pipelines data, représente une avancée significative dans le domaine des agents capables de construire des tâches data.",
+    "tags": [
+      "acquisition",
+      "AI agents",
+      "data engineering",
+      "runtime infrastructure",
+      "MotherDuck"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 7.050000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/24/stepfun-releases-stepaudio-2-5-realtime-an-end-to-end-voice-model-with-roleplay-specific-rlhf-and-paralinguistic-comprehension/",
     "url_hash": "87b78dadfc9ea188a2de1363f34d77d3",
     "titre": "StepFun Releases StepAudio 2.5 Realtime: An End-to-End Voice Model with Roleplay-Specific RLHF and Paralinguistic Comprehension",
@@ -9882,56 +9859,6 @@
       "finance personnelle",
       "IA appliquée",
       "insights financiers"
-    ],
-    "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 6.95
-  },
-  {
-    "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
-    "url_hash": "6240d32042acaa86794b5390c7b8efdf",
-    "titre": "OpenAI available at FedRAMP Moderate",
-    "resume": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.",
-    "date": "2026-04-27",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 8,
-    "categorie": "SECURITE_IA",
-    "raison_score": "La disponibilité d'OpenAI à FedRAMP Moderate est une annonce réglementaire majeure pour les agences fédérales américaines, ouvrant la voie à une adoption sécurisée de l'IA à grande échelle.",
-    "tags": [
-      "Sécurité IA",
-      "IA",
-      "Réglementation",
-      "OpenAI",
-      "FedRAMP"
-    ],
-    "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 6.95
-  },
-  {
-    "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
-    "url_hash": "6cf5cb128beed571a774b274320c6999",
-    "titre": "An open-source spec for orchestration: Symphony",
-    "resume": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
-    "date": "2026-04-27",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_AGENTS",
-    "raison_score": "Symphony, une spécification open-source pour l'orchestration de Codex, transforme les outils de suivi des problèmes en systèmes d'agents actifs. C'est une nouvelle capacité d'agent documentée et reproductible.",
-    "tags": [
-      "IA",
-      "Agents IA",
-      "Open-source",
-      "Orchestration",
-      "Codex"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -20676,6 +20603,30 @@
     "score_composite": 6.35
   },
   {
+    "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
+    "url_hash": "3171b8e205ace109befda3393bf9f02e",
+    "titre": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
+    "resume": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
+    "date": "2026-08-26",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Levée de fonds significative pour une startup utilisant la voix IA pour des applications au-delà des appels téléphoniques. Indique une tendance forte dans le domaine de l'IA appliquée.",
+    "tags": [
+      "ia vocale",
+      "startup",
+      "investissement",
+      "ia appliquée"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.35
+  },
+  {
     "url": "https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/",
     "url_hash": "7db00b81e7f61859665fc7117f7e5e2a",
     "titre": "Data readiness for agentic AI in financial services",
@@ -21492,6 +21443,31 @@
     "score_composite": 6.300000000000001
   },
   {
+    "url": "https://towardsdatascience.com/one-document-type-a-million-files-structured-extraction-into-the-sql-table-rag-queries/",
+    "url_hash": "b4654869adb73b148206a49d355d6780",
+    "titre": "One Document Type, a Million Files: Structured Extraction into the SQL Table RAG Queries",
+    "resume": "Enterprise Document Intelligence [Vol.1 #14C] - One hour with two people, six to ten fields, and the two signals that separate a real column from one that will break a filter later\nThe post One Document Type, a Million Files: Structured Extraction into the SQL Table RAG Queries appeared first on Towards Data Science.",
+    "date": "2026-08-25",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Propose un nouveau cas d'usage documenté de RAG pour l'extraction structurée à partir de documents, avec des métriques potentielles. L'approche combinant RAG et extraction structurée est une évolution notable.",
+    "tags": [
+      "RAG",
+      "document intelligence",
+      "structured extraction",
+      "SQL",
+      "NLP"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.300000000000001
+  },
+  {
     "url": "https://www.producthunt.com/products/robinhood",
     "url_hash": "2a6a2deeccf7f2ddd0ca1c88fb336e28",
     "titre": "Robinhood Agentic Trading",
@@ -21878,6 +21854,31 @@
       "Python",
       "analyse RH",
       "cas d'usage"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 6.25
+  },
+  {
+    "url": "https://www.sqlbi.com/tv/testing-dax-measures-by-using-ai/",
+    "url_hash": "88c93693c71c36c58e304703dc344636",
+    "titre": "Testing DAX measures by using AI",
+    "resume": "How to use AI to identify relevant test cases in a semantic model and create repeatable DAX tests for a measure.",
+    "date": "2026-08-25",
+    "source_name": "SQLBI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Présente un cas d'usage pratique et documenté de l'IA pour les tests de mesures DAX. Il s'agit d'un tutoriel avancé sur l'utilisation de l'IA dans un domaine BI établi.",
+    "tags": [
+      "DAX",
+      "Power BI",
+      "AI",
+      "testing",
+      "BI development"
     ],
     "pertinence_bi_consultant": 9,
     "pertinence_passionné_ia": 5,
@@ -24013,6 +24014,30 @@
     "score_composite": 6.1
   },
   {
+    "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+    "url_hash": "032f5fcc6f778b718d5bed30fc6596d7",
+    "titre": "Robotics startup Generalist reaches $3B valuation, sources say",
+    "resume": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
+    "date": "2026-08-26",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Une startup en robotique atteint une valorisation très élevée, soulignant l'intérêt croissant et les investissements massifs dans l'IA incarnée et la robotique.",
+    "tags": [
+      "robotique",
+      "startup",
+      "valuation",
+      "ia incarnée"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.1
+  },
+  {
     "url": "https://openai.com/signals/research/2026q1-update",
     "url_hash": "45f994a154506ce019e1843247861ad0",
     "titre": "How ChatGPT adoption broadened in early 2026",
@@ -25340,6 +25365,31 @@
     "score_composite": 6.0
   },
   {
+    "url": "https://medium.com/@jamilqpr/power-bi-august-2026-update-a-deep-dive-into-reporting-modeling-and-ai-enhancements-ecf508f8ae43?source=rss------power_bi-5",
+    "url_hash": "0aa5aa1ab8508b06e3dd51c0f2ae02f5",
+    "titre": "Power BI August 2026 Update: A Deep Dive into Reporting, Modeling, and AI Enhancements",
+    "resume": "The August 2026 update for Power BI (Version: 2.157.879.0, published August 19, 2026) marks a significant milestone in the shift toward…Continue reading on Medium »",
+    "date": "2026-08-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "L'article détaille des mises à jour importantes d'un outil BI existant (Power BI), incluant des améliorations liées à l'IA. Il s'agit d'une évolution notable pour les utilisateurs de l'outil.",
+    "tags": [
+      "Power BI",
+      "update",
+      "reporting",
+      "modeling",
+      "AI enhancements"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 6.0
+  },
+  {
     "url": "https://openai.com/index/running-codex-safely",
     "url_hash": "09a84312cc4b2e231453d0d32d700da2",
     "titre": "Running Codex safely at OpenAI",
@@ -26051,6 +26101,29 @@
       "backend development",
       "data management",
       "tutorial"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.950000000000001
+  },
+  {
+    "url": "https://towardsdatascience.com/is-agentic-ai-just-automation/",
+    "url_hash": "2382b93b95b8271be3ce57ebc36c45e5",
+    "titre": "Is Agentic AI Just Automation?",
+    "resume": "Why most agents are just flowcharts in disguise, and what to build instead.\nThe post Is Agentic AI Just Automation? appeared first on Towards Data Science.",
+    "date": "2026-08-26",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Analyse critique de la différence entre l'IA agentique et l'automatisation, remettant en question la nouveauté de certains concepts d'agents. Fournit des pistes pour des architectures plus avancées.",
+    "tags": [
+      "ia agentique",
+      "automatisation",
+      "ia"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -27333,6 +27406,31 @@
       "humains",
       "confiance",
       "métriques"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.9
+  },
+  {
+    "url": "https://www.databricks.com/blog/modernizing-sql-etl-lakehouse-declarative-patterns",
+    "url_hash": "e59669c8e20d6e6a1e4a139d09909295",
+    "titre": "Modernizing SQL ETL in Lakehouse with Declarative Patterns",
+    "resume": "Databricks is bringing declarative ETL to data warehousing workflows in Lakehouse...",
+    "date": "2026-08-25",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Présentation de la modernisation des flux ETL SQL dans le Lakehouse avec des patterns déclaratifs. C'est une évolution notable apportant de nouvelles pratiques ETL.",
+    "tags": [
+      "ETL",
+      "SQL",
+      "Lakehouse",
+      "Databricks",
+      "déclaratif"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 5,
@@ -29897,6 +29995,30 @@
     "score_composite": 5.7
   },
   {
+    "url": "https://www.databricks.com/blog/introducing-governance-hub-intelligent-account-level-governance-over-your-databricks-estate",
+    "url_hash": "cb4caeef1889a1d4d914f5ad8913ed1a",
+    "titre": "Introducing Governance Hub: Intelligent, account-level governance over your Databricks estate",
+    "resume": "Your FinOps lead needs to easily drill-down into Databricks spend and identify what’s driving costs, ...",
+    "date": "2026-08-26",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Annonce d'une nouvelle fonctionnalité majeure pour la gouvernance des données au niveau du compte sur Databricks. Elle apporte des capacités de contrôle financier et de sécurité plus fines.",
+    "tags": [
+      "databricks",
+      "gouvernance",
+      "finops",
+      "securité"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.7
+  },
+  {
     "url": "https://websyn.medium.com/power-bi-dashboards-drive-real-time-decision-making-53f980ba2b85?source=rss------power_bi-5",
     "url_hash": "9faf50256facc4c30c95d10ad2596e61",
     "titre": "How Can Power BI Dashboards Drive Real-Time Decision-Making?",
@@ -32009,6 +32131,30 @@
     "score_composite": 5.550000000000001
   },
   {
+    "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
+    "url_hash": "1a3688bcba619c6e7c4cd4a820e5c3ca",
+    "titre": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+    "resume": "Human-Computer Interaction and Visualization",
+    "date": "2026-08-25",
+    "source_name": "Google Research Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Développement d'une nouvelle capacité pour les agents IA dans un contexte XR. Cela représente une évolution notable en ajoutant des interactions plus naturelles aux agents.",
+    "tags": [
+      "XR",
+      "agents",
+      "interaction",
+      "hand gestures"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.550000000000001
+  },
+  {
     "url": "https://medium.com/powerbi-microsoft-fabric/how-microsoft-fabric-is-different-from-power-bi-c495674c1fc5?source=rss------power_bi-5",
     "url_hash": "eae6c99644e9cc692dae0959f324214a",
     "titre": "How Microsoft Fabric is Different from Power BI",
@@ -33278,6 +33424,32 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.45
+  },
+  {
+    "url": "https://www.sqlbi.com/articles/testing-dax-measures-by-using-ai/",
+    "url_hash": "3bbc3d7f17443823ee93a917adfd446e",
+    "titre": "Testing DAX measures by using AI",
+    "resume": "This article describes how to use AI to identify relevant test cases in a semantic model and create repeatable DAX tests for a measure. A DAX measure is correct only when it produces the expected result in every situation of…",
+    "date": "2026-08-24",
+    "source_name": "SQLBI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Similaire à la version vidéo, cet article documente une nouvelle capacité IA appliquée aux pratiques BI, offrant une valeur pratique pour l'amélioration de la qualité des modèles DAX.",
+    "tags": [
+      "DAX",
+      "Power BI",
+      "AI",
+      "testing",
+      "semantic model",
+      "BI practices"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 3,
     "score_composite": 5.45
   },
   {
@@ -35548,6 +35720,30 @@
       "Logistique",
       "Analyse de données",
       "Cas d'usage"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3
+  },
+  {
+    "url": "https://www.databricks.com/blog/data-mesh-vs-data-fabric",
+    "url_hash": "98029c1b119eb66356110a32cf47e01b",
+    "titre": "Data Mesh vs. Data Fabric: Key Differences and How the Lakehouse Resolves the Debate",
+    "resume": "Executive Verdict: Organization vs. TechnologyData mesh vs. data fabric hinges on...",
+    "date": "2026-08-25",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "L'article compare deux architectures de données établies et positionne le Lakehouse comme une solution. Il s'agit d'une évolution notable plutôt que d'une rupture.",
+    "tags": [
+      "data mesh",
+      "data fabric",
+      "lakehouse",
+      "architecture"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 4,
@@ -38686,30 +38882,6 @@
     "score_composite": 5.0
   },
   {
-    "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
-    "url_hash": "100e890294240151866bab9a3a8b7382",
-    "titre": "How to build scalable web apps with OpenAI's Privacy Filter",
-    "resume": "",
-    "date": "2026-04-27",
-    "source_name": "HuggingFace Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 5,
-    "categorie": "IA_APPLIQUEE",
-    "raison_score": "Fournit des informations pratiques sur l'intégration d'un outil IA (filtre de confidentialité) dans une application web, avec un accent sur la scalabilité. Ce n'est pas une percée, mais une évolution notable pour les développeurs.",
-    "tags": [
-      "IA",
-      "développement web",
-      "sécurité IA",
-      "scalabilité"
-    ],
-    "pertinence_bi_consultant": 4,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 4.95
-  },
-  {
     "url": "https://www.producthunt.com/products/gradient-bang",
     "url_hash": "c438d3da28eecc64fa8d9139cad7587e",
     "titre": "Gradient Bang",
@@ -40096,6 +40268,29 @@
       "sales analytics",
       "customer engagement",
       "business intelligence"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
+    "url": "https://www.databricks.com/blog/data-governance-tools",
+    "url_hash": "0916566e99916896ab63c54305fbaf72",
+    "titre": "Choosing Data Governance Tools for Enterprise Data Governance",
+    "resume": "Data governance tools are software platforms that help organizations catalog, secure,...",
+    "date": "2026-08-25",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Guide sur le choix des outils de gouvernance de données pour les entreprises. Article de fond décrivant les fonctionnalités clés et les aspects à considérer.",
+    "tags": [
+      "gouvernance de données",
+      "outils",
+      "entreprise"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
@@ -41617,6 +41812,30 @@
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.75
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
+    "url_hash": "dac3a9d1e696ebcea2c6f5ded54457c3",
+    "titre": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
+    "resume": "Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodied AI—was a key facet of China’s latest five-year plan, and companies here are already world leaders in humanoids. Nearly 90% of the…",
+    "date": "2026-08-25",
+    "source_name": "MIT Tech Review AI",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Reportage sur la popularité des robots humanoïdes en Chine, illustrant l'intégration de l'IA dans la vie quotidienne. C'est une illustration concrète de l'IA appliquée.",
+    "tags": [
+      "robotique",
+      "humanoïde",
+      "chine",
+      "ia appliquée"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 5,
     "score_composite": 4.75
   },
@@ -44136,6 +44355,31 @@
     "score_composite": 4.45
   },
   {
+    "url": "https://towardsdatascience.com/i-deployed-my-data-pipeline-to-aws-then-everything-that-was-local-broke/",
+    "url_hash": "48e52c6cd3f60b1f47f409664824db58",
+    "titre": "I Deployed My Data Pipeline to AWS. Then Everything That Was “Local” Broke.",
+    "resume": "What moving a Dockerized pipeline off my laptop taught me about containers, networking, and hidden assumptions.\nThe post I Deployed My Data Pipeline to AWS. Then Everything That Was “Local” Broke. appeared first on Towards Data Science.",
+    "date": "2026-08-25",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Il s'agit d'un retour d'expérience utile sur les défis de déploiement de pipelines de données sur AWS. L'information est pertinente mais ne représente pas une avancée majeure.",
+    "tags": [
+      "data pipeline",
+      "AWS",
+      "deployment",
+      "containers",
+      "networking"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.45
+  },
+  {
     "url": "https://zapier.com/blog/zapier-vs-make",
     "url_hash": "5b9f748bda4ca0f3bb159871f2eb7b3c",
     "titre": "Zapier vs. Make comparison: Which is best? [2026]",
@@ -45228,6 +45472,30 @@
     "score_composite": 4.3
   },
   {
+    "url": "https://www.databricks.com/blog/leveraging-databricks-support-fisc-security-guidelines",
+    "url_hash": "657606c702fa0af1bbe710251889ffc9",
+    "titre": "Leveraging Databricks to Support FISC Security Guidelines",
+    "resume": "The FISC Security Guidelines on Computer Systems for Banking and Related Financial...",
+    "date": "2026-08-26",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Explique comment utiliser Databricks pour se conformer aux directives de sécurité FISC. Utile pour les entreprises réglementées mais pas une avancée technique majeure.",
+    "tags": [
+      "databricks",
+      "fisc",
+      "sécurité",
+      "conformité"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.3
+  },
+  {
     "url": "https://techcrunch.com/2026/05/31/this-is-fine-artist-kc-green-reaches-agreement-with-ai-startup-artisan/",
     "url_hash": "c1384759d49d34dd8de8755b1a2a9f2a",
     "titre": "‘This is fine’ artist KC Green reaches agreement with AI startup Artisan",
@@ -45669,6 +45937,30 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 5,
+    "score_composite": 4.2
+  },
+  {
+    "url": "https://medium.com/@tjawanm/power-bi-combining-multiple-sources-3bcd3a5c81e6?source=rss------power_bi-5",
+    "url_hash": "75a326a9fb4cc6771f8446cb8454f384",
+    "titre": "Power BI (Combining Multiple Sources)",
+    "resume": "Product DescriptionContinue reading on Medium »",
+    "date": "2026-08-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "L'article décrit une pratique BI courante (combinaison de sources de données dans Power BI). C'est une information utile pour ceux qui débutent ou cherchent des conseils.",
+    "tags": [
+      "Power BI",
+      "data integration",
+      "multiple sources",
+      "data preparation"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
     "score_composite": 4.2
   },
   {
@@ -49404,6 +49696,30 @@
     "score_composite": 3.3
   },
   {
+    "url": "https://medium.com/@tjawanm/power-bi-sales-trend-analysis-f6b687bedaa3?source=rss------power_bi-5",
+    "url_hash": "bd540210d0bb37ad8dfb018553d7140c",
+    "titre": "Power BI (Sales Trend Analysis)",
+    "resume": "Project DescriptionContinue reading on Medium »",
+    "date": "2026-08-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Décrit un projet d'analyse de tendance de ventes avec Power BI. C'est un cas d'usage BI documenté mais standard.",
+    "tags": [
+      "Power BI",
+      "sales analysis",
+      "trend analysis",
+      "dashboard"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.3
+  },
+  {
     "url": "https://medium.com/@lrjeevith/power-bi-transforming-data-into-smarter-business-decisions-b4688623307a?source=rss------power_bi-5",
     "url_hash": "55d8e0dc77b07c2746b75aab4b03ecc6",
     "titre": "Power BI: Transforming Data into Smarter Business Decisions",
@@ -49667,6 +49983,30 @@
       "formation",
       "compétences",
       "emploi"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 3.15
+  },
+  {
+    "url": "https://medium.com/@your-iot/watmonitor-integration-into-power-bi-59d3e0c53e81?source=rss------power_bi-5",
+    "url_hash": "efb477fb9677ab049ac09a556b6fa04b",
+    "titre": "Watmonitor integration into Power BI",
+    "resume": "Watmonitor is a web interface designed for On-premise deployment on hosting — local / paid. It allows you to visualize the level of water…Continue reading on Medium »",
+    "date": "2026-08-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Décrit l'intégration d'un outil spécifique (Watmonitor) dans Power BI. C'est une information utile pour les utilisateurs de cet outil, mais peu généralisable.",
+    "tags": [
+      "Power BI",
+      "integration",
+      "IoT",
+      "dashboard"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 2,
@@ -50215,6 +50555,30 @@
       "Power BI Course",
       "Business Intelligence",
       "Training"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 2.9
+  },
+  {
+    "url": "https://medium.com/@chisomchimezie/covid-19-global-impact-dashboard-power-bi-project-3a1e23584b73?source=rss------power_bi-5",
+    "url_hash": "af7ef42eeec9dceabecba1220dd63dba",
+    "titre": "COVID-19 Global Impact Dashboard | Power BI Project",
+    "resume": "I’m excited to share a new data analytics project I built using Microsoft Power BI.Continue reading on Medium »",
+    "date": "2026-08-25",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Présente un exemple de projet de tableau de bord BI (Power BI) sur un sujet spécifique. C'est un retour d'expérience sur un cas d'usage établi.",
+    "tags": [
+      "Power BI",
+      "dashboard",
+      "COVID-19",
+      "data visualization"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 2,
