@@ -132,7 +132,7 @@
     "source_name": "VentureBeat AI",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "BUSINESS_IA",
     "raison_score": "Cette intégration profonde de Salesforce dans Claude représente un changement de paradigme pour les applications d'entreprise. C'est une avancée majeure qui redéfinit l'interaction utilisateur avec les CRM et potentiellement l'ensemble des logiciels métiers.",
@@ -2346,6 +2346,31 @@
       "Microsoft Copilot",
       "AI integration",
       "business productivity"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.800000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/27/cohere-releases-parse-5-parse-v5-0-a-2-3b-vision-language-model-that-turns-enterprise-documents-into-markdown/",
+    "url_hash": "e2e8424543d3fe2d1dc9bdc7001d57c2",
+    "titre": "Cohere Releases Parse 5 (parse-v5.0): A 2.3B Vision Language Model That Turns Enterprise Documents Into Markdown",
+    "resume": "Cohere has released Parse (parse-v5.0), a 2.3B-parameter vision language model that converts PDFs, slides and images into Markdown with HTML tables, bounding boxes and image descriptions. It runs at $1.50 per 1,000 pages through the API, or on dedicated Model Vault instances from $2,500 a month. Cohere reports a ParseBench score of 79.2, ahead of Mistral OCR 4, Azure Document Intelligence and Databricks AI Parse — but that figure averages three of the benchmark's five dimensions and drops charts",
+    "date": "2026-08-27",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cohere lance Parse 5, un modèle vision-langage capable de convertir des documents d'entreprise (PDFs, images) en Markdown structuré. C'est une capacité appliquée très utile pour l'automatisation et l'extraction d'informations, avec une performance annoncée comme compétitive.",
+    "tags": [
+      "vision-language model",
+      "VLM",
+      "document AI",
+      "Markdown",
+      "Cohere"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 7,
@@ -4661,31 +4686,6 @@
     "score_composite": 7.450000000000001
   },
   {
-    "url": "https://blog.n8n.io/n8n-mcp-server/",
-    "url_hash": "371736bd7df50631da3644fa1f20ebe2",
-    "titre": "Build and Update Workflows with n8n's MCP Server",
-    "resume": "Describe what you want from Claude, ChatGPT, or your IDE, and get a ready-to-run workflow in a few minutes, built directly in n8n. No more copy-paste, no more back-and-forth.",
-    "date": "2026-04-29",
-    "source_name": "n8n Blog",
-    "categorie_source": "AUTOMATISATION",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 8,
-    "categorie": "AUTOMATISATION",
-    "raison_score": "Le MCP Server de n8n permet de générer des workflows complexes à partir de descriptions en langage naturel. C'est une avancée significative pour l'automatisation grâce à son approche agent-like.",
-    "tags": [
-      "Automatisation",
-      "n8n",
-      "Agents IA",
-      "NoCode",
-      "LowCode"
-    ],
-    "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 9,
-    "score_composite": 7.45
-  },
-  {
     "url": "https://www.saastr.com/magicalforecastai/",
     "url_hash": "2f0cfc768263b5b60d118e90dd074d6e",
     "titre": "Our AI VP of Marketing Updates Our Revenue Forecasts in Real Time, Without Bias. That Alone is Magical.",
@@ -5377,6 +5377,29 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 9,
+    "score_composite": 7.4
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages/",
+    "url_hash": "a93398dd2637dca891e711faf14b51a6",
+    "titre": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
+    "resume": "Google has released Gemini 3.5 Transcribe, a speech-to-text model that ships as two separate endpoints rather than one. The streaming endpoint delivers sub-second transcription but drops speaker diarization and word timestamps. The batch endpoint keeps both, at half the cost. Google reports 4.0% word error rate streaming and 2.6% non-streaming, with 70% faster finalization than Chirp 3. Here is what the split means for anyone building voice agents or transcription pipelines.\nThe post Google AI R",
+    "date": "2026-08-28",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Google sort Gemini 3.5 Transcribe, un modèle de parole-texte avec des performances impressionnantes (2.6% WER moyen sur 85+ langues). C'est une avancée significative dans la transcription audio.",
+    "tags": [
+      "Speech-to-Text",
+      "Gemini",
+      "IA"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
     "score_composite": 7.4
   },
   {
@@ -6971,6 +6994,31 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 6,
+    "score_composite": 7.25
+  },
+  {
+    "url": "https://www.saastr.com/when-agents-take-over-the-system-of-record-40gb-nobody-typed-a-renewal-agent-built-in-half-a-day-and-why-our-agents-love-clay-the-agents-013/",
+    "url_hash": "1209e4ea8e0a91a624cf4fd78c39fb62",
+    "titre": "When Agents Take Over the System of Record: 40GB Nobody Typed, a Renewal Agent Built in Half a Day, and Why Our Agents Love Clay: The Agents #013",
+    "resume": "Episode #013 of The Agents is here! Same setup as always: three humans, 20+ agents in production, an 8-figure B2B + AI business. This week was about what happens when agents take over the system of record. ServiceTitan just cut off Podium over exactly this question. Our own agents have written about 40GB into Salesforce,... Continue Reading",
+    "date": "2026-08-28",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article présente une nouvelle capacité d'agent documentée et reproductible, axée sur la prise de contrôle du 'system of record' par des agents IA. Il met en avant un cadre entrepreneurial pour le développement d'agents.",
+    "tags": [
+      "ai agents",
+      "system of record",
+      "automation",
+      "entrepreneurship",
+      "clay"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 9,
     "score_composite": 7.25
   },
   {
@@ -8744,6 +8792,29 @@
       "Kiro",
       "performance prix",
       "développement logiciel"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.1000000000000005
+  },
+  {
+    "url": "https://venturebeat.com/orchestration/meta-researchers-taught-an-8b-ai-model-to-match-claude-opus-4-5-without-the-frontier-price-tag",
+    "url_hash": "9e40a309f9ea7365b64bcaae41eca074",
+    "titre": "Meta researchers taught an 8B AI model to match Claude Opus 4.5 — without the frontier price tag",
+    "resume": "Consider an AI agent tasked with a complex enterprise workflow like migrating massive batches of customer records from a legacy CRM to a cloud database. The agent cannot rely solely on its internal context window for a job spanning hours and depends on the runtime layer, aka the harness.This harness provides execution feedback, like server logs, to help the agent maintain an accurate understanding of dynamic API connections. It also provides state trackers and control-flow mechanisms to manage c",
+    "date": "2026-08-28",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Meta a entraîné un modèle IA de 8 milliards de paramètres pour égaler les performances de Claude Opus 4.5 sans le coût associé. C'est une avancée significative en termes de modèles plus abordables et performants.",
+    "tags": [
+      "LLM",
+      "IA open-source",
+      "modèles IA"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -11980,6 +12051,29 @@
       "agent",
       "workspace",
       "open-source"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.900000000000001
+  },
+  {
+    "url": "https://venturebeat.com/security/the-three-layers-of-agentic-ai-security-a-defense-in-depth-architecture-for-autonomous-agents",
+    "url_hash": "5991f3bbe9ff10145dc3c54ce48024c9",
+    "titre": "The three layers of agentic AI security: A defense-in-depth architecture for autonomous agents",
+    "resume": "Presented by Nutanix Autonomous systems that can reason, make their own decisions, and execute actions across an environment introduce a category of risk that application-level controls were never built to contain. Treating that risk as a single problem produces incomplete architectures, says Oscar Wahlberg, senior director of product management at Nutanix.\"The guardrails to catch a malicious prompt won't stop an agent from hallucinating and doing something it never should have done, like accide",
+    "date": "2026-08-28",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Présente une architecture de sécurité en profondeur pour les agents autonomes, abordant un nouveau besoin critique et documentant une pratique importante dans le domaine des agents IA.",
+    "tags": [
+      "sécurité IA",
+      "agents autonomes",
+      "architecture"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
@@ -15653,30 +15747,6 @@
       "développement",
       "spécifications",
       "automatisation"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 8,
-    "score_composite": 6.650000000000001
-  },
-  {
-    "url": "https://newsletter.pragmaticengineer.com/p/building-pi-and-what-makes-self-modifying",
-    "url_hash": "28d766356b37471679c43710ae5dca90",
-    "titre": "Building Pi, and what makes self-modifying software so fascinating",
-    "resume": "Mario Zechner, creator of Pi, joins Armin Ronacher to explore AI coding&#8217;s limits, arguing that human judgment still matters most in an agent-driven world.",
-    "date": "2026-04-29",
-    "source_name": "Pragmatic Engineer",
-    "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "ENTREPRENEURIAT",
-    "raison_score": "L'article explore les limites du codage IA et souligne l'importance du jugement humain dans un monde piloté par les agents. Il offre un nouveau cadre entrepreneurial centré sur l'IA.",
-    "tags": [
-      "IA",
-      "Entrepreneuriat",
-      "Agents IA",
-      "Développement Logiciel"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -20204,6 +20274,31 @@
     "score_composite": 6.4
   },
   {
+    "url": "https://medium.com/linkit-intecs/turning-customer-data-into-retention-decisions-my-journey-into-churn-prediction-4e17bfabd16e?source=rss------power_bi-5",
+    "url_hash": "1a3328dcae573a0f73340d9d77b74bf6",
+    "titre": "Turning Customer Data into Retention Decisions: My Journey into Churn Prediction",
+    "resume": "How I used Python, SQL, machine learning, and Power BI to analyse customer churn and identify high-risk customer groups.Continue reading on LinkIT »",
+    "date": "2026-08-28",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Il s'agit d'un cas d'usage documenté sur la prédiction de churn, combinant Python, SQL, ML et Power BI. Il décrit un parcours entrepreneurial vers la prise de décision basée sur les données.",
+    "tags": [
+      "churn prediction",
+      "customer data",
+      "machine learning",
+      "power bi",
+      "business analytics"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.4
+  },
+  {
     "url": "https://www.databricks.com/blog/observability-any-agent-anywhere-production-ready-tracing-opentelemetry-unity-catalog",
     "url_hash": "d3d167c2fd17253a8c87796f6228fc10",
     "titre": "Observability for any agent, anywhere: Production-ready tracing with OpenTelemetry & Unity Catalog on Databricks",
@@ -22251,6 +22346,32 @@
     "score_composite": 6.25
   },
   {
+    "url": "https://www.sqlbi.com/tools/sqlbi-whiteboard/",
+    "url_hash": "93e160507144ca850d85812445706138",
+    "titre": "SQLBI Whiteboard",
+    "resume": "SQLBI Whiteboard is a free, open-source whiteboard for Windows 11 designed for teaching DAX, SQL, and data modeling, with pen ink, live application capture, and syntax-highlighted code on the same canvas. Pen-first ink — Low-latency, pressure-aware strokes with palm rejection,…",
+    "date": "2026-08-27",
+    "source_name": "SQLBI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "BI_OUTILS",
+    "raison_score": "SQLBI Whiteboard est un nouvel outil open-source gratuit conçu pour l'enseignement de DAX, SQL et de la modélisation de données, ce qui représente une avancée significative pour la communauté BI.",
+    "tags": [
+      "BI",
+      "SQLBI",
+      "DAX",
+      "SQL",
+      "modélisation de données",
+      "open-source"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 6.25
+  },
+  {
     "url": "https://zapier.com/blog/agentic-rag",
     "url_hash": "d232a3f5c33f8f1119cda350b7a76aba",
     "titre": "Agentic RAG: A complete guide",
@@ -23564,6 +23685,53 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 9,
+    "score_composite": 6.15
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/",
+    "url_hash": "6b361f2658a9df8b1b1f26e92beb3763",
+    "titre": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
+    "resume": "Z.ai and Qwen independently shipped near-identical architectures: 3:1 linear hybrids, compressed indexers, gated residuals, and Muon training.\nThe post GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture appeared first on MarkTechPost.",
+    "date": "2026-08-28",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Deux laboratoires d'IA chinois convergent indépendamment sur des architectures de modèles similaires. Cela suggère une avancée significative dans les architectures de modèles LLM.",
+    "tags": [
+      "LLM",
+      "architecture",
+      "IA"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.15
+  },
+  {
+    "url": "https://pub.towardsai.net/the-complete-production-guide-to-medallion-architecture-in-microsoft-fabric-6e113827b659?source=rss------power_bi-5",
+    "url_hash": "b454fb015a5fa9cbfcb9b487afe21b71",
+    "titre": "The Complete Production Guide to Medallion Architecture in Microsoft Fabric",
+    "resume": "When we set out to build modern analytical platforms, we frequently encounter a critical fork in the road regarding architectural design…Continue reading on Towards AI »",
+    "date": "2026-08-28",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Ceci est un guide de production sur l'architecture Medallion dans Microsoft Fabric, offrant des informations pratiques et un cas d'usage documenté dans un contexte de plateforme de données moderne.",
+    "tags": [
+      "microsoft fabric",
+      "medallion architecture",
+      "data platform",
+      "production guide"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
     "score_composite": 6.15
   },
   {
@@ -26520,6 +26688,52 @@
     "score_composite": 5.950000000000001
   },
   {
+    "url": "https://towardsdatascience.com/human-in-the-loop-without-killing-throughput/",
+    "url_hash": "ef68ac2652df769dabb92a0d489e651d",
+    "titre": "Human-in-the-Loop Without Killing Throughput",
+    "resume": "How we stopped reviewing every agent action and started routing human attention where it actually mattered\nThe post Human-in-the-Loop Without Killing Throughput appeared first on Towards Data Science.",
+    "date": "2026-08-28",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Tutoriel avancé sur la mise en œuvre du 'Human-in-the-Loop' pour les agents IA sans sacrifier le débit, offrant une pratique documentée et utile.",
+    "tags": [
+      "Human-in-the-Loop",
+      "agents IA",
+      "optimisation"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.950000000000001
+  },
+  {
+    "url": "https://towardsdatascience.com/from-one-agent-to-a-team-understanding-codex-subagents/",
+    "url_hash": "39157bb196d8b048dc29de9c8eb982a9",
+    "titre": "From One Agent to a Team: Understanding Codex Subagents",
+    "resume": "A hands-on guide to defining specialist agents and coordinating their work in the Codex CLI\nThe post From One Agent to a Team: Understanding Codex Subagents appeared first on Towards Data Science.",
+    "date": "2026-08-28",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Guide pratique sur la création d'une équipe d'agents IA à l'aide de sous-agents Codex, documentant un nouveau cas d'usage et une approche structurée pour les agents IA.",
+    "tags": [
+      "agents IA",
+      "Codex",
+      "orchestration"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.950000000000001
+  },
+  {
     "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
     "url_hash": "3938b1e238f6786e2166d8e6516eb0e3",
     "titre": "New ways to buy ChatGPT ads",
@@ -28289,6 +28503,30 @@
     "pertinence_bi_consultant": 9,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 4,
+    "score_composite": 5.85
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/",
+    "url_hash": "1ee5809f2355acb7d0662d0577da212c",
+    "titre": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
+    "resume": "Vercel has open-sourced vgpu, the WebGPU library it built to ship the shaders on vercel.com. It treats .wgsl files as importable TypeScript modules, runs the same shader in the browser, in headless Node.js via Dawn, and in a deterministic CI mock, and ships a fullscreen effect in 25 KB gzipped.\nThe post Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders appeared first on MarkTechPost.",
+    "date": "2026-08-28",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Vercel open-source sa bibliothèque WebGPU pour les shaders d'agents IA, offrant une nouvelle capacité reproductible pour le développement d'agents IA.",
+    "tags": [
+      "WebGPU",
+      "TypeScript",
+      "agents IA",
+      "open-source"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
     "score_composite": 5.85
   },
   {
@@ -30504,6 +30742,31 @@
     "score_composite": 5.7
   },
   {
+    "url": "https://muafzal.medium.com/unlock-microsoft-fabric-chargeback-data-from-built-in-reports-to-a-custom-lakehouse-and-finops-cdd8b449f3ac?source=rss------power_bi-5",
+    "url_hash": "3945a95f6ba986c46ce5c6bf2bdcc4e9",
+    "titre": "Unlock Microsoft Fabric Chargeback Data: From Built-In Reports to a Custom Lakehouse and FinOps…",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-08-28",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Il s'agit d'un nouveau cas d'usage documenté pour Microsoft Fabric, montrant comment extraire et utiliser des données de chargeback, avec des métriques potentielles liées au FinOps.",
+    "tags": [
+      "microsoft fabric",
+      "lakehouse",
+      "finops",
+      "chargeback",
+      "data analytics"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.7
+  },
+  {
     "url": "https://websyn.medium.com/power-bi-dashboards-drive-real-time-decision-making-53f980ba2b85?source=rss------power_bi-5",
     "url_hash": "9faf50256facc4c30c95d10ad2596e61",
     "titre": "How Can Power BI Dashboards Drive Real-Time Decision-Making?",
@@ -31713,6 +31976,31 @@
     "score_composite": 5.6
   },
   {
+    "url": "https://medium.com/@kanerika/power-bi-in-pharma-transforming-pharmaceutical-data-analytics-b67e10880092?source=rss------power_bi-5",
+    "url_hash": "34e931149363e005a1cbecac8e76cc27",
+    "titre": "Power BI in Pharma: Transforming Pharmaceutical Data Analytics",
+    "resume": "TL;DRContinue reading on Medium »",
+    "date": "2026-08-28",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article présente un cas d'usage documenté de Power BI dans le secteur pharmaceutique, démontrant l'application concrète de la BI pour transformer l'analyse de données avec des métriques potentielles.",
+    "tags": [
+      "power bi",
+      "pharmaceutical",
+      "data analytics",
+      "business intelligence",
+      "case study"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.6
+  },
+  {
     "url": "https://openai.com/index/building-codex-windows-sandbox",
     "url_hash": "49a108cb408a06b5fd249aef57187ddd",
     "titre": "Building a safe, effective sandbox to enable Codex on Windows",
@@ -31731,55 +32019,6 @@
       "Sécurité",
       "Développement",
       "OpenAI"
-    ],
-    "pertinence_bi_consultant": 4,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 5.550000000000001
-  },
-  {
-    "url": "https://openai.com/index/where-the-goblins-came-from",
-    "url_hash": "5425e3ec5ff916d0b47f51b2189c5ae8",
-    "titre": "Where the goblins came from",
-    "resume": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
-    "date": "2026-04-29",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "IA_MODELES",
-    "raison_score": "This article provides an important case study on understanding and fixing personality-driven quirks (like 'goblins') in large language models. It's an evolution in model alignment and reliability, with practical implications for AI development.",
-    "tags": [
-      "GPT-5",
-      "AI behavior",
-      "model alignment",
-      "debugging",
-      "LLM"
-    ],
-    "pertinence_bi_consultant": 4,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 5.550000000000001
-  },
-  {
-    "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
-    "url_hash": "59ef3aa9e68bf3fd0c96d21eb430f553",
-    "titre": "Granite 4.1 LLMs: How They’re Built",
-    "resume": "",
-    "date": "2026-04-29",
-    "source_name": "HuggingFace Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "IA_MODELES",
-    "raison_score": "Cet article détaille la construction des modèles LLM Granite 4.1. Bien que technique, il ne présente pas de rupture majeure mais une évolution importante dans la conception des modèles.",
-    "tags": [
-      "LLM",
-      "Modèles IA",
-      "IBM",
-      "Hugging Face"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
@@ -32613,6 +32852,54 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.550000000000001
+  },
+  {
+    "url": "https://venturebeat.com/data/cohere-parse-5-loses-the-benchmark-on-points-it-wins-on-cost-per-page",
+    "url_hash": "520465f69f638e25127c4a0900159061",
+    "titre": "Cohere Parse 5 loses the benchmark on points. It wins on cost per page.",
+    "resume": "Enterprises trying to feed PDFs, slides and scanned documents into AI pipelines keep running into the same wall: the tools either miss the structure — tables, charts, layout — or cost too much to run at scale.Cohere released Parse 5 on Thursday, positioning it on price-to-performance, not raw accuracy — the right cost-capability mix for enterprise scale. Parse 5 is a 2.3-billion-parameter vision language model built to convert PDFs, slides and images into structured Markdown at enterprise scale.",
+    "date": "2026-08-28",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cohere sort Parse 5, un modèle de vision-langage axé sur le rapport coût-performance pour la structuration de documents. C'est une évolution notable pour les cas d'usage de traitement de documents.",
+    "tags": [
+      "document processing",
+      "IA",
+      "cost optimization"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.550000000000001
+  },
+  {
+    "url": "https://towardsdatascience.com/connecting-my-langgraph-ai-agent-to-postgres/",
+    "url_hash": "329f0a7c23fb66d6fea9ba0571ab076d",
+    "titre": "Connecting My LangGraph AI Agent to Postgres",
+    "resume": "How to run the backend locally with Docker or in the cloud\nThe post Connecting My LangGraph AI Agent to Postgres appeared first on Towards Data Science.",
+    "date": "2026-08-28",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Il s'agit d'un tutoriel avancé sur la connexion d'un agent LangGraph à une base de données Postgres. Il démontre un cas d'usage appliqué avec des métriques implicites sur l'intégration.",
+    "tags": [
+      "langgraph",
+      "ai agent",
+      "postgres",
+      "docker",
+      "cloud"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
     "score_composite": 5.550000000000001
   },
   {
@@ -36235,6 +36522,31 @@
     "score_composite": 5.3
   },
   {
+    "url": "https://medium.com/@kiran_krishnakumar/50-essential-sales-business-analytics-formulas-every-power-bi-analyst-should-know-fd653843f4e7?source=rss------power_bi-5",
+    "url_hash": "3d6b5c19bbbe09dcc05df74a46636795",
+    "titre": "50+ Essential Sales & Business Analytics Formulas Every Power BI Analyst Should Know",
+    "resume": "From my experience one thing i understood is that Business Analytics is not just about creating dashboards or writing DAX formulas.Continue reading on Medium »",
+    "date": "2026-08-28",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Ceci est un tutoriel avancé sur les formules DAX essentielles pour les analystes Power BI, fournissant des informations utiles pour une pratique établie dans le domaine de la BI.",
+    "tags": [
+      "power bi",
+      "dax",
+      "sales analytics",
+      "business analytics",
+      "formulas"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 5.3
+  },
+  {
     "url": "https://www.producthunt.com/products/agentrail",
     "url_hash": "383248400623cce1dbe9b7c5471c47cc",
     "titre": "AgentRail",
@@ -38383,6 +38695,31 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.1000000000000005
+  },
+  {
+    "url": "https://towardsdatascience.com/why-claude-code-time-estimates-are-poor/",
+    "url_hash": "75d39724537ccb986de5631e329e6b8e",
+    "titre": "Why Claude Code Time Estimates Are Poor",
+    "resume": "Be a better communicator with LLM programming\nThe post Why Claude Code Time Estimates Are Poor appeared first on Towards Data Science.",
+    "date": "2026-08-28",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article offre une analyse utile sur les limites des LLM pour les estimations de temps de codage, fournissant des retours d'expérience sur l'application d'IA dans un contexte métier.",
+    "tags": [
+      "claude",
+      "llm",
+      "estimation de temps",
+      "codage",
+      "communication"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
     "score_composite": 5.1000000000000005
   },
   {
@@ -41413,6 +41750,31 @@
     "score_composite": 4.8999999999999995
   },
   {
+    "url": "https://techcrunch.com/2026/08/28/how-sweden-built-one-of-europes-hottest-startup-ecosystems/",
+    "url_hash": "a4e185da095218dc60bcd455fe779418",
+    "titre": "How Sweden built one of Europe’s hottest startup ecosystems",
+    "resume": "Sophia Bendz, general partner at Cherry Ventures, stopped by Equity to break down the latest in the Swedish tech ecosystem.",
+    "date": "2026-08-28",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article fournit des informations utiles sur la construction d'un écosystème de startups florissant, offrant un retour d'expérience sur les stratégies entrepreneuriales dans le secteur tech.",
+    "tags": [
+      "startup ecosystem",
+      "sweden",
+      "entrepreneurship",
+      "tech",
+      "venture capital"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 4.8999999999999995
+  },
+  {
     "url": "https://towardsdatascience.com/i-let-codespeak-take-over-my-repository/",
     "url_hash": "6be5c0037e07d59ccce52570ca584498",
     "titre": "I Let CodeSpeak Take Over My Repository",
@@ -41482,6 +41844,31 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 7,
+    "score_composite": 4.8500000000000005
+  },
+  {
+    "url": "https://medium.com/@codingmacawbootcamp/stop-freezing-your-dashboards-why-tableau-and-powerbi-are-not-data-warehouses-c86d3998cd78?source=rss------power_bi-5",
+    "url_hash": "78cd2da1d6cc1629391a233565310a30",
+    "titre": "Stop Freezing Your Dashboards: Why Tableau and PowerBI Are Not Data Warehouses",
+    "resume": "Every analytics lead has lived through this exact nightmare.Continue reading on Medium »",
+    "date": "2026-08-28",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article est une information utile sur les pratiques établies, expliquant la distinction entre les outils de BI et les data warehouses, avec un retour d'expérience implicite sur des déploiements.",
+    "tags": [
+      "tableau",
+      "power bi",
+      "data warehouse",
+      "dashboard",
+      "bi practices"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 3,
     "score_composite": 4.8500000000000005
   },
   {
@@ -44638,6 +45025,29 @@
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.55
+  },
+  {
+    "url": "https://www.databricks.com/blog/how-indra-unified-ev-charging-data-databricks",
+    "url_hash": "f72942ffb967afbb772939257cd6ee42",
+    "titre": "How Indra unified EV charging data on Databricks",
+    "resume": "When data grows faster than the systems around it, complexity becomes the default....",
+    "date": "2026-08-28",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Article de fond présentant un cas d'usage et un retour d'expérience sur l'unification de données EV sur Databricks.",
+    "tags": [
+      "Databricks",
+      "gestion de données",
+      "EV"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 4,
     "score_composite": 4.55
   },
@@ -51883,6 +52293,29 @@
       "Databricks",
       "Partner Awards",
       "Data Platform"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 1.8
+  },
+  {
+    "url": "https://www.therundown.ai/articles/every-machine-is-about-to-speak-claude",
+    "url_hash": "ebc2c1dee7c0d10af2414dd472cdc928",
+    "titre": "Every machine is about to speak Claude",
+    "resume": "PLUS: Use these AI skills to make better decisions quickly",
+    "date": "2026-08-28",
+    "source_name": "The Rundown AI",
+    "categorie_source": "IA_APPLIQUEE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 2,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Contenu marketing sur l'adoption potentielle de Claude, manquant de substance technique ou d'informations nouvelles sur des pratiques établies.",
+    "tags": [
+      "marketing",
+      "Claude",
+      "IA"
     ],
     "pertinence_bi_consultant": 2,
     "pertinence_passionné_ia": 1,
