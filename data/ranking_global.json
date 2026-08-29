@@ -2213,7 +2213,7 @@
     "source_name": "VentureBeat AI",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "AUTOMATISATION",
     "raison_score": "Annonce d'un système IA (Visa Vulnerability Agentic Harness) qui automatise la correction de code de production avant revue humaine. C'est une capacité d'automatisation disruptive et reproductible.",
@@ -7960,6 +7960,30 @@
     "score_composite": 7.150000000000001
   },
   {
+    "url": "https://www.producthunt.com/products/pluto-11",
+    "url_hash": "e31c1e86065707c3e63786dc242bc2f1",
+    "titre": "Pluto",
+    "resume": "\n            Your professional profile is now an AI agent\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-08-27",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Le lancement de Pluto transforme le profil professionnel en agent IA, offrant une nouvelle capacité documentée et reproductible pour la gestion de l'identité numérique et professionnelle.",
+    "tags": [
+      "IA",
+      "agents",
+      "profil professionnel",
+      "nouveau produit"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.150000000000001
+  },
+  {
     "url": "https://towardsdatascience.com/the-counterintuitive-networking-decisions-behind-openais-131000-gpu-training-fabric/",
     "url_hash": "3877a44c21f214f5faa67d4d4cb0c522",
     "titre": "The Counterintuitive Networking Decisions Behind OpenAI’s 131,000-GPU Training Fabric",
@@ -9338,6 +9362,31 @@
     "score_composite": 7.050000000000001
   },
   {
+    "url": "https://towardsdatascience.com/rag-is-not-the-whole-toolkit-the-nlp-techniques-real-problems-still-need/",
+    "url_hash": "6912748da933a17745d7b274d35a4243",
+    "titre": "RAG Is Not the Whole Toolkit: The NLP Techniques Real Problems Still Need",
+    "resume": "Enterprise Document Intelligence [Vol.1 #B00] - Retrieval answers one kind of question. Classifying a request, matching free text to a reference list, reading a table, cleaning OCR noise: each has a cheaper method that works, and the engineering is knowing which one to reach for\nThe post RAG Is Not the Whole Toolkit: The NLP Techniques Real Problems Still Need appeared first on Towards Data Science.",
+    "date": "2026-08-29",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Cet article propose une analyse nuancée sur les limites du RAG et souligne la nécessité de combiner différentes techniques NLP pour résoudre des problèmes réels en entreprise. Il met l'accent sur l'aspect pratique et ingénierie de la sélection des bonnes méthodes.",
+    "tags": [
+      "RAG",
+      "NLP",
+      "IA",
+      "Data Intelligence",
+      "Ingénierie"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 7.050000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/24/stepfun-releases-stepaudio-2-5-realtime-an-end-to-end-voice-model-with-roleplay-specific-rlhf-and-paralinguistic-comprehension/",
     "url_hash": "87b78dadfc9ea188a2de1363f34d77d3",
     "titre": "StepFun Releases StepAudio 2.5 Realtime: An End-to-End Voice Model with Roleplay-Specific RLHF and Paralinguistic Comprehension",
@@ -9711,6 +9760,30 @@
     "score_composite": 7.000000000000001
   },
   {
+    "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+    "url_hash": "a88aee5f66748cd232a65cf635db8fd1",
+    "titre": "Google’s AI Mode can now track flight prices, help book hotels, and more",
+    "resume": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process.",
+    "date": "2026-08-27",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cette mise à jour majeure de Google AI Mode le positionne comme un assistant de voyage IA, démontrant une nouvelle capacité appliquée de l'IA pour des tâches complexes de planification et de réservation.",
+    "tags": [
+      "IA",
+      "Google AI Mode",
+      "voyage",
+      "assistant IA"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.000000000000001
+  },
+  {
     "url": "https://www.latent.space/p/chatgpt-work",
     "url_hash": "5ffc818c10381ff8793085e1162028a9",
     "titre": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
@@ -9754,31 +9827,6 @@
       "API REST",
       "Microsoft Fabric",
       "BI"
-    ],
-    "pertinence_bi_consultant": 9,
-    "pertinence_passionné_ia": 5,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 6.950000000000001
-  },
-  {
-    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Deep-dive-into-composite-semantic-models-with-Direct-Lake-and/ba-p/5173943",
-    "url_hash": "2a7ea7fa07a458475666a2dd8079e0e2",
-    "titre": "Deep dive into composite semantic models with Direct Lake and import tables",
-    "resume": "Getting your data job done just got easier with composite semantic models, mixing Direct Lake tables with import tables, now available in public preview. Direct Lake on OneLake table storage mode already could mix tables from other Fabric data sources, such as lakehouses, warehouses, SQL databases in Fabric, and mirrored databases. And with this update, now that flexibility is extended much further with the ability to add in import tables from any data source, from 100s of connectors in Power Qu",
-    "date": "2026-04-30",
-    "source_name": "Power BI Blog",
-    "categorie_source": "BI_OUTILS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "BI_OUTILS",
-    "raison_score": "This is a major update for Power BI Fabric, introducing composite semantic models that mix Direct Lake and import tables. This significantly enhances data integration flexibility and performance, representing a key evolution in the BI tool's capabilities.",
-    "tags": [
-      "Power BI",
-      "Fabric",
-      "semantic models",
-      "Direct Lake",
-      "data integration"
     ],
     "pertinence_bi_consultant": 9,
     "pertinence_passionné_ia": 5,
@@ -10249,56 +10297,6 @@
       "Production",
       "Scalabilité",
       "N8n"
-    ],
-    "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 6.95
-  },
-  {
-    "url": "https://blog.n8n.io/tool-calling-llm/",
-    "url_hash": "03a3032ec9347d008f71e689c6dd23dc",
-    "titre": "LLM Tool Calling: How It Works and How To Implement It",
-    "resume": "Learn how LLM tool calling turns conversational AI into actionable agents. Discover execution steps and production reliability to create efficient systems.",
-    "date": "2026-04-30",
-    "source_name": "n8n Blog",
-    "categorie_source": "AUTOMATISATION",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_AGENTS",
-    "raison_score": "This article provides a detailed explanation and implementation guide for LLM tool calling, a crucial capability for building effective AI agents. It's a well-documented new capability that enables actionable AI.",
-    "tags": [
-      "LLM",
-      "tool calling",
-      "AI agents",
-      "automation",
-      "implementation"
-    ],
-    "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 6.95
-  },
-  {
-    "url": "https://blog.n8n.io/react-agent/",
-    "url_hash": "a1bdc56bdab50eb8c7ffe29416004f0b",
-    "titre": "ReAct Agent: Architecture, Implementation, and Tradeoffs",
-    "resume": "Discover what ReAct agents are how they work. Learn architecture and common constraints, and compare ReAct models against plan-first agents.",
-    "date": "2026-04-30",
-    "source_name": "n8n Blog",
-    "categorie_source": "AUTOMATISATION",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_AGENTS",
-    "raison_score": "The article offers a thorough exploration of the ReAct agent architecture, its implementation, and trade-offs. This is a significant development in agent design, providing practical insights for building more capable AI systems.",
-    "tags": [
-      "ReAct agent",
-      "AI agents",
-      "architecture",
-      "implementation",
-      "AI patterns"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -11534,6 +11532,55 @@
       "DNS",
       "contrôle",
       "vulnérabilité"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://www.producthunt.com/products/iq-routing",
+    "url_hash": "fc4774233e44dff0154107336df03283",
+    "titre": "IQ Routing",
+    "resume": "\n            Trajectory-aware LLM routing that cuts agent cost\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-08-27",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Présente une nouvelle approche pour le routing des LLM, axée sur la réduction des coûts d'agents. Cela représente une avancée significative dans l'optimisation des systèmes basés sur l'IA.",
+    "tags": [
+      "IA",
+      "LLM",
+      "agents",
+      "routing",
+      "optimisation"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://www.producthunt.com/products/staats-3",
+    "url_hash": "2bf90e371c31ed1b05f81c6e0aaee8df",
+    "titre": "Staats",
+    "resume": "\n            Ask your coding agent how your site is doing\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-08-28",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Staats se présente comme un agent de code conçu pour monitorer la performance d'un site web. La capacité à interroger un agent sur l'état d'un site et potentiellement à automatiser certaines réponses est une avancée intéressante dans le domaine des agents IA appliqués au développement.",
+    "tags": [
+      "IA Agent",
+      "Développement",
+      "Monitoring",
+      "Automatisation"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -14176,6 +14223,31 @@
       "Entreprise",
       "Open Source",
       "Agentic RL"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.750000000000001
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
+    "url_hash": "faa1a03b9722b98260d72708737a156c",
+    "titre": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
+    "resume": "Plaud's new 'agentic' earbuds are priced at $249.",
+    "date": "2026-08-27",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "La présentation de ces écouteurs avec un étui eSIM pour interagir avec des agents IA est une nouvelle capacité d'agent documentée et innovante, intégrant l'IA dans un objet du quotidien.",
+    "tags": [
+      "IA",
+      "agents",
+      "écouteurs",
+      "innovation",
+      "hardware"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
@@ -20271,6 +20343,31 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 8,
+    "score_composite": 6.4
+  },
+  {
+    "url": "https://medium.com/@jawhar.tk/a-comprehensive-guide-to-migrate-from-tableau-to-power-bi-without-third-party-tools-65e9eaab15f7?source=rss------power_bi-5",
+    "url_hash": "11c5b03df94c9bb0bdeb2c6d5bdbe1a3",
+    "titre": "A comprehensive guide to migrate from Tableau to Power BI without third party tools",
+    "resume": "An evidence-driven manual migration tutorial — from inventory and DAX to security keys, testing, CI/CD, scheduling, cutover and rollback.Continue reading on Medium »",
+    "date": "2026-08-27",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article propose un guide détaillé pour migrer de Tableau à Power BI sans outils tiers, couvrant des aspects techniques tels que le DAX, la sécurité et le déploiement. Il s'agit d'une documentation de cas d'usage BI pertinent avec des étapes concrètes.",
+    "tags": [
+      "Power BI",
+      "Tableau",
+      "Migration",
+      "BI",
+      "Guide"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
     "score_composite": 6.4
   },
   {
@@ -27224,6 +27321,31 @@
     "score_composite": 5.95
   },
   {
+    "url": "https://blog.n8n.io/workflow-versioning/",
+    "url_hash": "dd7abb0daf30ba7f6e11a010fa141087",
+    "titre": "Workflow Versioning for Reliable Automation and Maintenance",
+    "resume": "Learn how workflow versioning works with Git-based source control. Track changes, manage environments, and roll back safely in production.",
+    "date": "2026-08-27",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "L'article explique le concept de versioning de workflows, en particulier avec un contrôle de source basé sur Git. Cette pratique est essentielle pour une automatisation fiable et une maintenance efficace, offrant une approche structurée pour les outils d'automatisation.",
+    "tags": [
+      "Automatisation",
+      "Workflow",
+      "Versioning",
+      "Git",
+      "Maintenance"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.95
+  },
+  {
     "url": "https://medium.com/@gavin.ellis/how-power-bi-consulting-services-accelerate-enterprise-reporting-modernization-5f5d679f3c3b?source=rss------power_bi-5",
     "url_hash": "53ec91a63863ffc9ee4f854e49cadb3b",
     "titre": "How Power BI Consulting Services Accelerate Enterprise Reporting Modernization",
@@ -30167,6 +30289,56 @@
       "Modèles LLM",
       "Performance IA",
       "DeepSeek"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.700000000000001
+  },
+  {
+    "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+    "url_hash": "57a3b900535e942d6c25590b2b3aec3d",
+    "titre": "Our decision on Cursor following its acquisition by SpaceX",
+    "resume": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+    "date": "2026-08-28",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article officiel d'OpenAI explique leur décision de cesser le support de Cursor après son acquisition par SpaceX. Il s'agit d'une information importante sur les relations commerciales et stratégiques dans le secteur de l'IA.",
+    "tags": [
+      "OpenAI",
+      "Cursor",
+      "SpaceX",
+      "IA",
+      "Stratégie"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.700000000000001
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+    "url_hash": "bb97ef51907559fa430bf2ceeb2a6958",
+    "titre": "[AINews] OpenAI shuts off Cursor",
+    "resume": "Elon v Altman has a real consequence.",
+    "date": "2026-08-29",
+    "source_name": "Latent Space",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "L'arrêt du contrat d'OpenAI avec Cursor suite à son acquisition par SpaceX a des implications pour l'écosystème des outils IA axés sur le développement. Cela met en lumière les dynamiques de marché et les partenariats stratégiques.",
+    "tags": [
+      "OpenAI",
+      "Cursor",
+      "SpaceX",
+      "IA",
+      "Dévellopement"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
@@ -33959,6 +34131,30 @@
     "score_composite": 5.5
   },
   {
+    "url": "https://techcrunch.com/2026/08/27/this-former-pge-engineer-is-building-a-google-maps-for-the-underground/",
+    "url_hash": "30f6a0c163fb64967be3610183ec2ba5",
+    "titre": "This former PG&E engineer is building a ‘Google Maps for the underground’",
+    "resume": "The startup just raised a $26 million Series A to grow its customer base and help reduce red tape for utility and construction work.",
+    "date": "2026-08-27",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "L'article présente une startup innovante dans le domaine de la cartographie souterraine, appliquant un concept familier à un problème industriel complexe. Il s'agit d'un nouveau cas d'usage avec potentiel.",
+    "tags": [
+      "startup",
+      "innovation",
+      "cartographie",
+      "infrastructure"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.5
+  },
+  {
     "url": "https://openai.com/index/braintrust",
     "url_hash": "ce0322c55738d3a62c4969608d584eb8",
     "titre": "How Braintrust turns customer requests into code with Codex",
@@ -37280,6 +37476,30 @@
     "score_composite": 5.2
   },
   {
+    "url": "https://techcrunch.com/2026/08/27/fashion-startup-atorie-raises-9-5m-to-bring-consumers-luxury-goods-without-the-markup/",
+    "url_hash": "0b82431441f8f4ec4c8f87c62b81cdb5",
+    "titre": "Fashion startup Atorie raises $9.5M to bring consumers luxury goods without the markup",
+    "resume": "Shoppers can visit the Atorie website and buy handbags or clothes made from the same material — and coming from the same factory — that manufacturers use in high-end goods.",
+    "date": "2026-08-27",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "L'article rapporte une levée de fonds significative pour une startup dans le secteur de la mode. Cela démontre un nouveau modèle économique appliqué à un marché existant.",
+    "tags": [
+      "startup",
+      "levée de fonds",
+      "mode",
+      "business model"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 5.2
+  },
+  {
     "url": "https://www.sqlbi.com/tv/introducing-user-aware-calculated-columns-in-power-bi/",
     "url_hash": "bfca603b0a71dc946598a97690f8132d",
     "titre": "Introducing user-aware calculated columns in Power BI",
@@ -38310,28 +38530,29 @@
     "score_composite": 5.15
   },
   {
-    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Modern-Visual-Tooltips-in-Power-BI-Generally-Available/ba-p/5173946",
-    "url_hash": "784b16aa8f9bf21f4b1d131d7952aaa0",
-    "titre": "Modern Visual Tooltips in Power BI (Generally Available)",
-    "resume": "\n  Power BI’s latest update introduces an enhancement to how users interact with reports with the general availability of modern visual tooltips. All Power BI reports—from Power BI Desktop to Power BI reports in the web, in the mobile app, in Teams, and embedded in any website—now use the updated visual tooltips, making report interactions easier with the built-in actions footer and report creation faster with tooltip styling and colors coming from the report theme.\n\n\n\n  By default, visual toolt",
-    "date": "2026-04-30",
-    "source_name": "Power BI Blog",
-    "categorie_source": "BI_OUTILS",
+    "url": "https://www.wired.com/story/how-to-run-your-own-local-llm/",
+    "url_hash": "a220e1e92ffdd6fb9385adb790e6b4c1",
+    "titre": "How to Run a Chatbot on Your Own Computer",
+    "resume": "Installing a large language model on your personal computer gives you a handy digital assistant that won’t compromise your data privacy.",
+    "date": "2026-08-29",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
     "score_pending": false,
     "article_du_jour": false,
     "score": 5,
-    "categorie": "BI_OUTILS",
-    "raison_score": "The general availability of modern visual tooltips in Power BI is a notable improvement for user interaction and report creation. While valuable, it's an enhancement rather than a foundational shift.",
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "L'article offre un tutoriel pratique sur la manière d'exécuter un LLM localement, ce qui peut intéresser les passionnés d'IA et ceux soucieux de la confidentialité des données. Il aborde un cas d'usage concret et accessible.",
     "tags": [
-      "Power BI",
-      "tooltips",
-      "UI/UX",
-      "reporting"
+      "LLM",
+      "IA",
+      "Local",
+      "Confidentialité",
+      "Tutoriel"
     ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 4,
-    "pertinence_entrepreneur": 4,
-    "score_composite": 5.1499999999999995
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.15
   },
   {
     "url": "https://medium.com/@contact.kiran1997/power-bi-bar-visuals-that-people-actually-love-354b09e43643?source=rss------power_bi-5",
@@ -39307,6 +39528,30 @@
       "données",
       "sécurité",
       "plateforme"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.05
+  },
+  {
+    "url": "https://blog.n8n.io/etl-pipeline/",
+    "url_hash": "6cd47a43c26c1dc26f241254b75a093b",
+    "titre": "ETL Pipeline Patterns for Reliable, Scalable Automation",
+    "resume": "Learn how an ETL pipeline works and when ETL or ELT makes sense. Discover design patterns that keep workflows reliable and easy to maintain at scale.",
+    "date": "2026-08-27",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "L'article détaille des patterns pour les pipelines ETL, utiles pour l'automatisation et la gestion de données. Il fournit des informations pratiques mais ne propose pas de rupture majeure ou d'outil révolutionnaire.",
+    "tags": [
+      "ETL",
+      "automatisation",
+      "data pipeline",
+      "patterns"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 4,
@@ -42606,31 +42851,6 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 5,
-    "score_composite": 4.75
-  },
-  {
-    "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-github-breaks",
-    "url_hash": "199f920312818b64eb201b140b9562ed",
-    "titre": "The Pulse: AI load breaks GitHub – why not other vendors?",
-    "resume": "Also: Anthropic&#8217;s speed run to break devs&#8217; goodwill, big price increases from GitHub Copilot, Mitchell Hashimoto on the &#8220;building block economy,&#8221; and more",
-    "date": "2026-04-30",
-    "source_name": "Pragmatic Engineer",
-    "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 4,
-    "categorie": "BUSINESS_IA",
-    "raison_score": "This article discusses a significant operational issue at GitHub related to AI load, raising questions about vendor resilience. While informative for business context, it doesn't introduce new technical breakthroughs or business models.",
-    "tags": [
-      "GitHub Copilot",
-      "AI load",
-      "vendor issues",
-      "resilience",
-      "business impact"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 5,
-    "pertinence_entrepreneur": 6,
     "score_composite": 4.75
   },
   {
@@ -46551,6 +46771,54 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 4,
+    "score_composite": 4.3
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/28/friend-focused-photo-sharing-app-retro-snags-21m/",
+    "url_hash": "ada7823ec4352b704b61bab34565fc7c",
+    "titre": "Friend-focused photo-sharing app Retro snags $21M",
+    "resume": "Retro, a friend-focused photo-sharing app built by former Instagram employees, has raised more than $21 million in Series A funding.",
+    "date": "2026-08-28",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Il s'agit d'une annonce de levée de fonds pour une application de partage de photos. Bien qu'intéressante pour le monde des startups, elle n'a pas d'impact direct sur les domaines de l'IA, du Data Engineering ou de la BI dans un sens technologique profond.",
+    "tags": [
+      "Startup",
+      "Financement",
+      "Application Mobile",
+      "Réseaux Sociaux"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 4.3
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/28/as-electric-two-wheelers-gain-a-foothold-belgian-startup-any-bets-on-cargo-space/",
+    "url_hash": "0b585507a6bb95a122e1bec34f21a079",
+    "titre": "As electric two-wheelers gain a foothold, Belgian startup Any bets on cargo space",
+    "resume": "Launched by Belgian startup Any, LUV1 is a modular electric motorcycle with 120 liters of cargo space that can be used to carry bags, work equipment, or even pets.",
+    "date": "2026-08-28",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article décrit une nouvelle startup dans le domaine des deux-roues électriques et de l'innovation en matière d'espace de chargement. C'est une nouvelle entrepreneuriale pertinente, mais sans lien direct avec les technologies IA/Data.",
+    "tags": [
+      "Startup",
+      "Véhicules Électriques",
+      "Innovation",
+      "Entreprenariat"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 8,
     "score_composite": 4.3
   },
   {
@@ -51334,6 +51602,30 @@
     "score_composite": 3.05
   },
   {
+    "url": "https://zapier.com/blog/add-zoom-to-google-calendar-as-default",
+    "url_hash": "32bec65e427f4c21a40a2c8991179ba0",
+    "titre": "How to add Zoom to Google Calendar (and make it the default option)",
+    "resume": "Google Meet is baked into just about everything Google makes—including Google Calendar, where it's the default video conferencing option on every event you create. If Meet isn't your thing, though, you're not stuck with it. Here's how to add Zoom to Google Calendar (and make it the default meeting option).  Table of contents:  How to add Zoom to Google Calendar How to make Zoom the default in Google Calendar  Automate Google Calendar and Zoom with Zapier How to add Zoom to Google Calendar To get",
+    "date": "2026-08-27",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Cet article propose un tutoriel spécifique pour une intégration d'outils courants. Bien qu'utile pour un cas d'usage précis, sa valeur est limitée en dehors de cette situation.",
+    "tags": [
+      "automatisation",
+      "Google Calendar",
+      "Zoom",
+      "tutoriel"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.05
+  },
+  {
     "url": "https://techcrunch.com/2026/06/03/the-worlds-largest-privately-owned-laser-just-turned-on/",
     "url_hash": "c3ba441ec6ca7ecac4d80d7fead3eb94",
     "titre": "The world’s largest privately owned laser just turned on",
@@ -51450,6 +51742,30 @@
     "pertinence_bi_consultant": 2,
     "pertinence_passionné_ia": 1,
     "pertinence_entrepreneur": 7,
+    "score_composite": 2.95
+  },
+  {
+    "url": "https://www.producthunt.com/products/the-ticket-fairy",
+    "url_hash": "8fc22d925dffcae7c09580308b85d583",
+    "titre": "Ticket Fairy CLI",
+    "resume": "\n            Ticket Fairy event ticketing CLI & MCP server\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-08-27",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Il s'agit d'un outil CLI pour la gestion d'événements, utile pour des cas d'automatisation spécifiques dans le domaine du ticketing. Sa portée est assez ciblée.",
+    "tags": [
+      "automatisation",
+      "CLI",
+      "ticketing",
+      "événement"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 4,
     "score_composite": 2.95
   },
   {
@@ -52547,6 +52863,28 @@
     "tags": [
       "actualités IA",
       "faible valeur"
+    ],
+    "pertinence_bi_consultant": 1,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 1,
+    "score_composite": 1.4
+  },
+  {
+    "url": "https://medium.com/@sarahreynolds664/power-bi-assignment-help-get-10-off-on-all-assignments-5d0dd8a7bd66?source=rss------power_bi-5",
+    "url_hash": "a6285fd8856017c2a502bcd1952acb1b",
+    "titre": "Power BI Assignment Help — Get 10% OFF on All Assignments!",
+    "resume": "Finding it difficult to manage statistics assignments that involve data visualization, interactive dashboards, charts, reports, and Power…Continue reading on Medium »",
+    "date": "2026-08-29",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 2,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article est purement promotionnel et n'apporte aucune substance technique ou information pertinente sur Power BI au-delà d'une offre commerciale.",
+    "tags": [
+      "Power BI",
+      "Marketing"
     ],
     "pertinence_bi_consultant": 1,
     "pertinence_passionné_ia": 1,
