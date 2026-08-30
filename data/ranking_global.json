@@ -908,6 +908,30 @@
     "score_composite": 8.35
   },
   {
+    "url": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/",
+    "url_hash": "5a1940db7ff81192b3ab03000145112c",
+    "titre": "OpenAI Is Developing a ‘Persistent’ AI Agent",
+    "resume": "Code reviewed by WIRED reveals the company is developing a feature that enables Codex to continue working proactively until it is “put to sleep.”",
+    "date": "2026-08-27",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Le développement d'agents IA persistants par OpenAI représente un changement de paradigme potentiel, permettant des tâches autonomes et continues.",
+    "tags": [
+      "OpenAI",
+      "IA",
+      "agents",
+      "autonomie"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 8.35
+  },
+  {
     "url": "https://www.wired.com/story/illinois-pass-major-ai-safety-law-pritzker/",
     "url_hash": "b8e2adf51915d8aec1d7a0c61be4b62f",
     "titre": "Illinois Lawmakers Just Passed America’s Strongest AI Safety Bill",
@@ -2286,7 +2310,7 @@
     "source_name": "n8n Blog",
     "categorie_source": "AUTOMATISATION",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "AUTOMATISATION",
     "raison_score": "Ce partenariat stratégique entre n8n et SAP intègre l'orchestration de workflows IA visuels dans le SAP Business AI Platform, offrant une nouvelle capacité majeure pour les entreprises en matière d'automatisation IA.",
@@ -6649,6 +6673,31 @@
     "score_composite": 7.3
   },
   {
+    "url": "https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices/",
+    "url_hash": "51aa9f2e1c5ca491ae7ac2745099dbd2",
+    "titre": "Anthropic Opens a Research Preview of the Model Hardware Standard (MHS): A Shared Specification for AI Agents to Safely Operate Physical Devices",
+    "resume": "Anthropic has opened a research preview of the Model Hardware Standard (MHS), a shared driver specification that lets AI agents discover and safely operate physical devices. Instrument integration that normally takes weeks or months drops to hours: Carnegie Mellon went from raw equipment to a finished dose-response curve in eight, and QuEra's laser relock improved from 58% to 99.3% across 700 trials. MHS is model-agnostic, reachable over MCP, and enforces safety limits in the driver rather than ",
+    "date": "2026-08-30",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Le MHS est une spécification ouverte pour l'intégration d'agents IA avec des appareils physiques, promettant une réduction drastique des temps d'intégration et une amélioration de la sécurité. Cela représente une avancée significative dans l'application des agents IA dans le monde réel.",
+    "tags": [
+      "IA agents",
+      "matériel",
+      "spécification",
+      "sécurité",
+      "automatisation physique"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3
+  },
+  {
     "url": "https://blog.n8n.io/production-ai-playbook-evaluation-and-monitoring/",
     "url_hash": "f40e1553d5f8182e5c09eba824af690f",
     "titre": "Production AI Playbook: Evaluation and Monitoring",
@@ -9683,6 +9732,31 @@
     "score_composite": 7.05
   },
   {
+    "url": "https://www.marktechpost.com/2026/08/29/google-ai-releases-gemini-omni-1-1-flash-40-second-scene-extension-first-last-frame-control-and-4k-upscaling/",
+    "url_hash": "07b5c7ec7f626c69bcd7901068005460",
+    "titre": "Google AI Releases Gemini Omni 1.1 Flash: 40-Second Scene Extension, First/Last Frame Control, and 4K Upscaling",
+    "resume": "We look at Gemini Omni 1.1 Flash, Google's production update to its native multimodal video generation and editing model. We break down what changed: scene extension now reads up to 10 seconds of prior context instead of a single final frame, first and last frames can be pinned to control camera movement, and video clips can be passed as references for character consistency.\nThe post Google AI Releases Gemini Omni 1.1 Flash: 40-Second Scene Extension, First/Last Frame Control, and 4K Upscaling a",
+    "date": "2026-08-29",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "La mise à jour de Gemini Omni 1.1 Flash apporte des améliorations significatives à la génération et à l'édition vidéo multimodale, notamment une extension de scène plus longue, un meilleur contrôle sur les mouvements et une résolution accrue. Il s'agit d'une avancée significative dans les capacités des modèles IA pour le contenu vidéo.",
+    "tags": [
+      "IA",
+      "modèles",
+      "vidéo",
+      "multimodal",
+      "Google Gemini"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.05
+  },
+  {
     "url": "https://openai.com/index/gpt-5-5-instant-system-card",
     "url_hash": "2fd4f4a9abde82640b1a491424dfd439",
     "titre": "GPT-5.5 Instant System Card",
@@ -9831,31 +9905,6 @@
     "pertinence_bi_consultant": 9,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 6,
-    "score_composite": 6.950000000000001
-  },
-  {
-    "url": "https://blog.n8n.io/deploy-n8n-agents-that-show-up-as-members-of-the-team-inside-microsoft-apps/",
-    "url_hash": "9514dceedb9d83f1c326e72ac55b45c9",
-    "titre": "Deploy n8n agents that show up as members of the team inside Microsoft apps",
-    "resume": "With the general availability of Microsoft Agent 365, n8n users can now build AI agents that show up inside the Microsoft 365 applications where people get work done. Now you can @mention agents built in n8n from Microsoft Teams, add them to emails in Outlook, or tag them in Word",
-    "date": "2026-05-01",
-    "source_name": "n8n Blog",
-    "categorie_source": "AUTOMATISATION",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "AUTOMATISATION",
-    "raison_score": "This article details a practical and impactful integration of AI agents within the Microsoft 365 ecosystem via n8n. The ability to @mention agents in Teams and use them in Outlook/Word offers a significant new capability for workflow automation.",
-    "tags": [
-      "n8n",
-      "AI agents",
-      "Microsoft 365",
-      "automation",
-      "workflow"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 8,
     "score_composite": 6.950000000000001
   },
   {
@@ -10222,31 +10271,6 @@
       "finance personnelle",
       "IA appliquée",
       "insights financiers"
-    ],
-    "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 6.95
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-agents-for-everything-else",
-    "url_hash": "6cc63c5093d432c87e1345579d88c8ba",
-    "titre": "[AINews] Agents for Everything Else: Codex for Knowledge Work, Claude for Creative Work",
-    "resume": "a quiet day lets us reflect on coding agents \"breaking containment\"",
-    "date": "2026-05-01",
-    "source_name": "Latent Space",
-    "categorie_source": "IA_AGENTS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_AGENTS",
-    "raison_score": "The article discusses the significant evolution of AI agents, framing them as specialized tools for knowledge work and creative tasks. It highlights a growing trend and potential paradigm shift in how we interact with AI for productivity.",
-    "tags": [
-      "AI agents",
-      "codex",
-      "claude",
-      "knowledge work",
-      "creative work"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -11561,6 +11585,30 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+    "url_hash": "dff9dc0737a40c9b66085c013be8bd01",
+    "titre": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
+    "resume": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
+    "date": "2026-08-27",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Une levée de fonds majeure et une valorisation très élevée pour une startup IA en un an, signalant une tendance forte du marché et un potentiel d'impact sectoriel.",
+    "tags": [
+      "IA",
+      "startup",
+      "financement",
+      "valorisation"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
     "score_composite": 6.95
   },
   {
@@ -14571,6 +14619,53 @@
     "score_composite": 6.700000000000001
   },
   {
+    "url": "https://medium.com/@peterjohnbeck/microsoft-changes-the-rules-for-fabric-7acf7116ccaf?source=rss------power_bi-5",
+    "url_hash": "4fa78fbca5590cde5bb953a29586446d",
+    "titre": "Microsoft Changes The Rules For Fabric",
+    "resume": "It Shouldn’t Be This HardContinue reading on Medium »",
+    "date": "2026-08-27",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "L'article traite des changements apportés par Microsoft à Fabric, ce qui est une mise à jour majeure d'une plateforme de données influente.",
+    "tags": [
+      "Microsoft Fabric",
+      "Data Platform",
+      "mise à jour"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.700000000000001
+  },
+  {
+    "url": "https://medium.com/code-insight/from-power-bi-developer-to-fabric-engineer-9e96d38b719d?source=rss------power_bi-5",
+    "url_hash": "84a8fbf8ce81d62d0d64e3d5d276f0ba",
+    "titre": "From Power BI Developer to Fabric Engineer",
+    "resume": "Part 1 — Subscription, License & Your First WorkspaceContinue reading on Code & Insight »",
+    "date": "2026-08-29",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Cet article marque le passage de développeur Power BI à ingénieur Fabric, indiquant une évolution significative des plateformes de données et des rôles associés. Il détaille les premières étapes dans cet écosystème.",
+    "tags": [
+      "Power BI",
+      "Fabric",
+      "plateforme de données",
+      "ingénierie"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.700000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/14/cline-releases-cline-sdk-an-open-source-agent-runtime-now-powering-its-cli-and-kanban-with-ide-extensions-being-migrated/",
     "url_hash": "1ca3a93212b1663fe3f882154d53c262",
     "titre": "Cline Releases Cline SDK: An Open-Source Agent Runtime Now Powering Its CLI and Kanban, With IDE Extensions Being Migrated",
@@ -15795,6 +15890,30 @@
       "audit tool",
       "free tool",
       "web auditing"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
+    "url": "https://www.producthunt.com/products/omlx",
+    "url_hash": "7bd8181e8a257e9ee624daab5de6b3e9",
+    "titre": "oMLX",
+    "resume": "\n            Mac LLM server that cuts agent wait times from 90s to 5s\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-08-29",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Ce produit propose une optimisation significative des temps d'attente pour les LLM sur Mac, une avancée concrète pour l'utilisation locale d'IA.",
+    "tags": [
+      "IA",
+      "LLM",
+      "optimisation",
+      "performance"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -25577,6 +25696,31 @@
     "score_composite": 6.050000000000001
   },
   {
+    "url": "https://www.marktechpost.com/2026/08/29/mirros-code-as-world-executable-world-representations/",
+    "url_hash": "5ef60064bda1ecee4c1c3e9a1ba32559",
+    "titre": "Meet ‘Code-as-World’: An Agentic Loop That Rewrites Real Videos Into Executable MuJoCo Physics Programs",
+    "resume": "Code-as-World recovers editable MuJoCo scene code from real video, then uses those verified worlds to train physical reasoning.\nThe post Meet ‘Code-as-World’: An Agentic Loop That Rewrites Real Videos Into Executable MuJoCo Physics Programs appeared first on MarkTechPost.",
+    "date": "2026-08-30",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article présente une nouvelle approche pour entraîner des agents IA dans des simulations physiques réalistes en générant du code exécutable à partir de vidéos. Le concept de 'Code-as-World' est une capacité agent nouvelle et reproductible pour la raison physique.",
+    "tags": [
+      "IA agents",
+      "physique",
+      "simulation",
+      "vidéo",
+      "apprentissage"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.050000000000001
+  },
+  {
     "url": "https://medium.com/@simon.buchi.sb/how-power-bi-quietly-became-one-of-the-most-valuable-business-skills-695f56b9110b?source=rss------power_bi-5",
     "url_hash": "60d95ab64e3919f4dd8fc99d1562249d",
     "titre": "How Power BI Quietly Became One of the Most Valuable Business Skills",
@@ -28212,6 +28356,30 @@
     "score_composite": 5.9
   },
   {
+    "url": "https://towardsdatascience.com/noisy-text-in-rag-typos-ocr-and-the-gap-classical-spell-check-leaves/",
+    "url_hash": "10028d836293ce83c73e885c48a75bf6",
+    "titre": "Noisy Text in RAG: Typos, OCR, and the Gap Classical Spell-Check Leaves",
+    "resume": "Enterprise Document Intelligence [Vol.1 #B1] - Three sources of one problem. User typos, fast-typing transcription noise, OCR character errors. Classical spell-check handles one of them. Embeddings carry the rest\nThe post Noisy Text in RAG: Typos, OCR, and the Gap Classical Spell-Check Leaves appeared first on Towards Data Science.",
+    "date": "2026-08-30",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article aborde un problème pratique et commun dans l'implémentation de RAG (Retrieval Augmented Generation) : la gestion du texte bruyant. Il propose une solution avancée au-delà de la correction orthographique classique, ce qui est une évolution notable pour l'application des LLMs.",
+    "tags": [
+      "RAG",
+      "traitement du langage naturel",
+      "nettoyage de données",
+      "LLM"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.9
+  },
+  {
     "url": "https://towardsdatascience.com/hybrid-search-and-re-ranking-in-production-rag/",
     "url_hash": "38cd4bb9878d6fd590601a70d7e5a5ee",
     "titre": "Hybrid Search and Re-Ranking in Production RAG",
@@ -30339,6 +30507,30 @@
       "SpaceX",
       "IA",
       "Dévellopement"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.700000000000001
+  },
+  {
+    "url": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents",
+    "url_hash": "065d817047ed3a3f8f65e4f58abc2a24",
+    "titre": "Superagent",
+    "resume": "\n            Claude Code for the rest of us\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-08-29",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Lancement d'un outil axé sur la gestion d'agents IA, promettant une meilleure organisation et potentiellement de nouveaux cas d'usage.",
+    "tags": [
+      "IA",
+      "agents",
+      "gestion",
+      "outil"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
@@ -34203,6 +34395,31 @@
     "score_composite": 5.450000000000001
   },
   {
+    "url": "https://towardsdatascience.com/when-to-use-claude-code-and-when-to-use-codex/",
+    "url_hash": "d859c8029fa446a5b376fd6a7a0bf7fc",
+    "titre": "When to Use Claude Code and When to Use Codex",
+    "resume": "Learn where which coding agent is best\nThe post When to Use Claude Code and When to Use Codex appeared first on Towards Data Science.",
+    "date": "2026-08-29",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "L'article fournit des conseils pratiques sur le choix entre Claude Code et Codex, deux outils d'assistance au codage par IA. C'est un tutoriel avancé sur l'utilisation d'outils d'IA pour le développement.",
+    "tags": [
+      "IA",
+      "codage",
+      "Claude",
+      "Codex",
+      "développement assisté"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.450000000000001
+  },
+  {
     "url": "https://towardsdatascience.com/how-to-build-a-claude-code-powered-knowledge-base/",
     "url_hash": "1eb4a6cdf5c63782936cfe222fd39216",
     "titre": "How to Build a Claude Code-Powered Knowledge Base",
@@ -34711,6 +34928,31 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 6,
+    "score_composite": 5.449999999999999
+  },
+  {
+    "url": "https://medium.com/@erkantahaguney/pazar-sava%C5%9F%C3%A7%C4%B1lar%C4%B1-3-bulut-veritaban%C4%B1ndan-crm-dashboarduna-a01508ec3dc4?source=rss------power_bi-5",
+    "url_hash": "1f71bc81563342a272399a4776354015",
+    "titre": "Pazar Savaşçıları #3: Bulut Veritabanından CRM Dashboard’una",
+    "resume": "Azure SQL’de sıfırdan bir CRM veri seti kurdum ve sekiz KPI’lık bir dashboard’a çevirdim. En çok zorlandığım kısım sorgu yazmak değildi —…Continue reading on Medium »",
+    "date": "2026-08-29",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article documente un cas d'usage concret de création d'un tableau de bord CRM à partir d'une base de données cloud (Azure SQL), en se concentrant sur la construction de requêtes. Il s'agit d'un nouveau cas d'usage BI documenté avec des métriques potentielles.",
+    "tags": [
+      "BI",
+      "dashboard",
+      "CRM",
+      "cloud",
+      "base de données"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
     "score_composite": 5.449999999999999
   },
   {
@@ -35351,6 +35593,31 @@
     "score_composite": 5.3500000000000005
   },
   {
+    "url": "https://www.marktechpost.com/2026/08/29/building-custom-batched-ensemble-weather-forecasting-with-nvidia-earth2studio/",
+    "url_hash": "544ed80ee1bf387303a8dc04f984b6b8",
+    "titre": "Building Custom Batched Ensemble Weather Forecasting with NVIDIA Earth2Studio",
+    "resume": "In this tutorial, we build an ensemble weather forecasting workflow with NVIDIA Earth2Studio. We install the required Earth2Studio components while preserving Colab’s existing CUDA-enabled PyTorch environment, load the FCN prognostic model, and retrieve atmospheric initial conditions from GFS. We then implement a custom wind-power diagnostic that converts 10-meter wind components into turbine capacity factors, along […]\nThe post Building Custom Batched Ensemble Weather Forecasting with NVIDIA Ea",
+    "date": "2026-08-29",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Le tutoriel détaille la création d'un flux de travail de prévisions météorologiques en utilisant NVIDIA Earth2Studio, incluant l'intégration de modèles et l'application de diagnostics personnalisés. C'est un nouveau cas d'usage documenté avec des métriques d'application potentielles.",
+    "tags": [
+      "IA",
+      "météorologie",
+      "NVIDIA Earth2Studio",
+      "tutoriel",
+      "prévisions"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3500000000000005
+  },
+  {
     "url": "https://zapier.com/blog/business-automation",
     "url_hash": "c3af96a1ceab65d8c48495a10e33af22",
     "titre": "Business automation: How to transform your operations",
@@ -35763,6 +36030,31 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 6,
+    "score_composite": 5.35
+  },
+  {
+    "url": "https://towardsdatascience.com/4-claude-skills-every-data-scientist-needs-in-2026/",
+    "url_hash": "f9630d23fc893a37042c085f1426e9b7",
+    "titre": "4 Claude Skills Every Data Scientist Needs in 2026",
+    "resume": "Four skills worth adding to your workflow today if you don't want to be left behind\nThe post 4 Claude Skills Every Data Scientist Needs in 2026 appeared first on Towards Data Science.",
+    "date": "2026-08-29",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article met en avant des compétences liées à Claude, un modèle IA, pour les data scientists. Il s'agit d'une information utile sur l'évolution des pratiques liées à l'IA dans les métiers de la donnée.",
+    "tags": [
+      "IA",
+      "Claude",
+      "data science",
+      "compétences",
+      "analyste"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
     "score_composite": 5.35
   },
   {
@@ -39971,6 +40263,29 @@
     "score_composite": 5.0
   },
   {
+    "url": "https://medium.com/@sultan.jamshed10/dax-calculated-columns-vs-calculated-tables-in-power-bi-5c696f9db1d3?source=rss------power_bi-5",
+    "url_hash": "c63390eb770edbabfdb8b437c8c48421",
+    "titre": "DAX Calculated Columns vs. Calculated Tables in Power BI",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-08-29",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article aborde une distinction technique importante dans DAX, pertinente pour optimiser les modèles Power BI.",
+    "tags": [
+      "Power BI",
+      "DAX",
+      "calcul"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 5.0
+  },
+  {
     "url": "https://www.producthunt.com/products/gradient-bang",
     "url_hash": "c438d3da28eecc64fa8d9139cad7587e",
     "titre": "Gradient Bang",
@@ -42825,6 +43140,30 @@
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.8
+  },
+  {
+    "url": "https://medium.com/@richuemexo/power-bi-course-for-data-analyst-roles-in-electronic-city-what-aspiring-analysts-actually-need-to-4f6ba810479b?source=rss------power_bi-5",
+    "url_hash": "cd2db7388211a44266d5727a5947f8e7",
+    "titre": "Power BI Course for Data Analyst Roles in Electronic City: What Aspiring Analysts Actually Need to…",
+    "resume": "A few years ago, “knowing Excel” was enough to get noticed in a job interview. That’s no longer true. Recruiters across Bangalore —…Continue reading on Medium »",
+    "date": "2026-08-30",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article discute de l'évolution des compétences requises pour les analystes de données avec Power BI, soulignant qu'Excel ne suffit plus. Il s'agit d'une information utile sur une pratique établie et ses évolutions.",
+    "tags": [
+      "Power BI",
+      "analyse de données",
+      "formation",
+      "compétences"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 4,
     "score_composite": 4.8
   },
@@ -52265,6 +52604,29 @@
     "score_composite": 2.5
   },
   {
+    "url": "https://medium.com/@dgp.tapu/power-bi-course-in-durgapur-data-analytics-training-93f370f2310a?source=rss------power_bi-5",
+    "url_hash": "796fb8c075d14c9015bd0679bde27557",
+    "titre": "Power BI Course in Durgapur | Data Analytics Training",
+    "resume": "Educational Excellence offers a practical Power BI Course in Durgapur, designed for learners who want to progress from the fundamentals of…Continue reading on Medium »",
+    "date": "2026-08-29",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un article promotionnel pour une formation locale, offrant peu de valeur technique ou stratégique au-delà de son annonce.",
+    "tags": [
+      "Power BI",
+      "formation",
+      "Durgapur"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 2.45
+  },
+  {
     "url": "https://techcrunch.com/2026/06/09/anker-backed-evotrex-raises-30m-to-build-its-off-grid-rv/",
     "url_hash": "4dc79fbeefad9647ce76ee4e67ef7212",
     "titre": "Evotrex raises $30M to build the RV that doesn’t need a charging station",
@@ -52310,6 +52672,29 @@
     "pertinence_passionné_ia": 1,
     "pertinence_entrepreneur": 1,
     "score_composite": 2.4
+  },
+  {
+    "url": "https://medium.com/@rautchaturthi4/pbix-and-pbit-powerbi-7afaf453e765?source=rss------power_bi-5",
+    "url_hash": "df80be8bcf9fcac1cf12f9d9dac607ee",
+    "titre": "PBIX and PBIT : PowerBI",
+    "resume": "The File Types We Usually Use to Save Power BI Reports.Continue reading on Medium »",
+    "date": "2026-08-29",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_OUTILS",
+    "raison_score": "L'article explique les types de fichiers de Power BI, une information basique peu impactante pour les professionnels expérimentés.",
+    "tags": [
+      "Power BI",
+      "fichier",
+      "format"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 1,
+    "score_composite": 2.3000000000000003
   },
   {
     "url": "https://www.therundown.ai/articles/a-mystery-challenger-at-the-ai-frontier",
@@ -53119,5 +53504,24 @@
     "pertinence_passionné_ia": 1,
     "pertinence_entrepreneur": 1,
     "score_composite": 1.0
+  },
+  {
+    "url": "https://www.wired.com/gallery/posture-correctors/",
+    "url_hash": "c509981ee9e71813fd55843f4bf1751f",
+    "titre": "Best Posture Correctors for Better Body Alignment (2026)",
+    "resume": "You’re hunched over your desk and phone for hours. I rounded up gadgets, a DIY trick, and even some yoga advice to help you straighten up.",
+    "date": "2026-08-27",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 1,
+    "categorie": "NON_APPLICABLE",
+    "raison_score": "Cet article concerne des correcteurs de posture et n'a aucun lien avec l'IA, le Data Engineering, la BI, l'automatisation ou l'entrepreneuriat tech.",
+    "tags": [],
+    "pertinence_bi_consultant": 0,
+    "pertinence_passionné_ia": 0,
+    "pertinence_entrepreneur": 0,
+    "score_composite": 0.4
   }
 ]
