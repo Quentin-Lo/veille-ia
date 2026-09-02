@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-07-10</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-09-02 12:30 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>OpenAI confirme GPT-5.6 pour Copilot 365 face aux rumeurs de séparation</h2>
+<blockquote>Microsoft confirme sa dépendance à GPT-5.6 pour Copilot 365, malgré les bruits de rupture.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+OpenAI a annoncé que sa nouvelle famille de modèles, GPT-5.6, sera le moteur privilégié de Microsoft Copilot 365. Cette décision maintient une forte intégration entre les deux géants technologiques. Cela arrive alors que des rumeurs circulent sur des tensions entre OpenAI et Microsoft. Malgré ces murmures, la collaboration sur les applications de productivité semble s'approfondir.
+<blockquote>OpenAI affirme que GPT-5.6 est le modèle choisi pour propulser Microsoft Copilot 365.</blockquote>
+<h3>Pourquoi ca compte 🎯</h3>
+Pour les utilisateurs de Microsoft 365, cela signifie une continuité dans l'amélioration des outils d'IA intégrés. Les fonctions de Copilot devraient continuer à bénéficier des avancées d'OpenAI. L'accord renforce la stratégie de Microsoft d'intégrer l'IA au cœur de ses offres professionnelles. Il confirme aussi l'importance stratégique d'OpenAI pour Microsoft.
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Tester les nouvelles fonctionnalités de Copilot 365</strong> : reste à l'affût des mises à jour.</li>
+<li><strong>Analyser les performances des IA dans vos outils pro</strong> : évaluez l'impact sur votre productivité.</li>
+<li><strong>Defi rapide</strong> : liste 3 tâches que Copilot 365 pourrait automatiser pour toi.</li>
+</ul>
+<blockquote>L'IA d'OpenAI continue de façonner les outils de productivité de Microsoft.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>GPT-5.6</strong> : la dernière génération de modèles d'IA d'OpenAI, optimisée pour la performance.</li>
+<li><strong>Copilot 365</strong> : l'assistant IA de Microsoft intégré à la suite d'applications Office.</li>
+<li><strong>Partenariat stratégique</strong> : la collaboration à long terme entre deux leaders de la tech.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/">OpenAI-Microsoft : une collaboration qui tient le choc</a> — comprendre les enjeux du partenariat dans le contexte actuel.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<strong>Cohere lance Parse 5 pour transformer les documents d'entreprise en Markdown</strong> (8/10). Ce modèle vision-langage de 2.3 milliards de paramètres gère les documents complexes et génère du Markdown. Il facilite la structuration des données pour les applications IA.
+<strong>Les meilleurs agents IA pour le développement logiciel classés par benchmarks</strong> (8/10). Une analyse comparative des agents IA actuels, basée sur des performances concrètes. Utile pour choisir l'outil adapté à vos projets de développement.
+<strong>L'architecture de contexte remplace le RAG pour les agents IA d'entreprise</strong> (8/10). Les limites du RAG sont atteintes. Les architectures de contexte émergent pour une meilleure gestion de la récupération d'information par les agents IA.
+<strong>Google présente Gemini 3.5 Flash : plus rapide et moins cher pour les agents IA et le codage</strong> (8/10). Une nouvelle version optimisée pour la vitesse et le coût. Idéale pour les applications nécessitant des réponses rapides et économiques.
+<strong>Cohere lance Command A+ : premier modèle open source sous licence Apache 2.0 avec quantification sans perte et citations natives</strong> (8/10). Ce modèle promet une meilleure efficacité et transparence, avec des citations directes. Un pas important vers des modèles IA ouverts et performants.
+<strong>PixelRAG dépasse les parseurs texte et réduit les coûts de tokens des agents IA par 10x</strong> (8/10). Une solution qui améliore la précision tout en diminuant drastiquement les dépenses de calcul. Un atout économique pour les utilisateurs d'agents IA.
+<strong>Salesforce intègre son CRM complet dans Claude et promet de rendre son application obsolète</strong> (9/10). Une intégration profonde qui vise à simplifier l'accès aux données CRM via une IA conversationnelle. L'application traditionnelle pourrait devenir superflue.
+<strong>OpenAI développe un agent IA "persistant"</strong> (9/10). Un agent IA conçu pour maintenir sa "mémoire" et son contexte sur le long terme. Potentiel pour des interactions plus fluides et une meilleure continuité des tâches.
+<strong>Identité et permissions ne suffisent pas à gouverner le comportement des agents IA</strong> (8/10). Les mécanismes de contrôle actuels sont insuffisants. Il faut de nouvelles approches pour gérer et sécuriser les agents IA autonomes.
+<strong>Visa déploie une IA de sécurité qui corrige le code en production avant validation humaine</strong> (8/10). Une automatisation poussée pour la correction des bugs critiques. Accélère le cycle de développement et renforce la sécurité.
+<strong>Le vrai risque de l'IA d'entreprise n'est pas les agents autonomes, mais la complexité entre eux</strong> (7/10). La difficulté réside dans l'orchestration et la communication des différents agents IA. La gestion de ces interactions est le principal défi.
+<strong>La première puce IA d'OpenAI fait sensation</strong> (8/10). Une nouvelle étape pour OpenAI dans le hardware dédié à l'IA. Potentiel d'optimisation des performances et de réduction des coûts.
+<strong>AfterQuery devient l'une des licornes les plus rapides de Y Combinator, valorisée à 3.2 milliards de dollars</strong> (9/10). Une croissance fulgurante dans le domaine des outils pour développeurs. Reflète la demande forte pour des solutions de productivité innovantes.
+<strong>Claude Fable 5.1 est disponible</strong> (8/10). La dernière version de ce modèle IA est sortie. Elle propose des améliorations pour le traitement et la génération de texte.
+<strong>Google AI publie Gemini 3.5 Transcribe : un modèle de parole-à-texte avec 2.6% de WER moyen sur plus de 85 langues</strong> (8/10). Une amélioration significative de la transcription vocale. Rend la conversion audio-texte plus précise et accessible globalement.
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>Agents IA d'entreprise</strong> — Le développement d'agents IA autonomes et persistants est en plein essor. Ces outils visent à automatiser des tâches complexes, mais leur gouvernance et leur intégration soulèvent de nouveaux défis.
+<strong>Optimisation des modèles IA pour le coût et la vitesse</strong> — Des modèles comme Gemini 3.5 Flash se concentrent sur l'efficacité, rendant l'IA plus accessible pour les applications à grande échelle. La réduction des coûts de calcul devient un facteur clé.
+<strong>A surveiller</strong> — L'évolution des architectures de contexte remplace le RAG. Cela pourrait impacter la manière dont les agents IA accèdent et traitent l'information dans les environnements d'entreprise.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-09-02 12:30 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>

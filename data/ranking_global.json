@@ -1303,33 +1303,6 @@
     "score_composite": 8.1
   },
   {
-    "url": "https://openai.com/index/openai-pwc-finance-collaboration",
-    "url_hash": "c41f5455f6cb403e0dcd3c81cf8d6d86",
-    "titre": "OpenAI and PwC collaborate to reimagine the office of the CFO",
-    "resume": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
-    "date": "2026-05-04",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": true,
-    "score": 8,
-    "categorie": "BUSINESS_IA",
-    "raison_score": "La collaboration entre OpenAI et PwC pour réimaginer la fonction du CFO avec des agents IA pour automatiser les flux financiers représente une nouvelle capacité d'agent documentée et reproductible avec un impact métier concret.",
-    "tags": [
-      "IA",
-      "finance",
-      "CFO",
-      "automatisation",
-      "agents",
-      "PwC",
-      "OpenAI"
-    ],
-    "pertinence_bi_consultant": 9,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 8,
-    "score_composite": 8.05
-  },
-  {
     "url": "https://www.saastr.com/two-ai-vps-for-257-a-website-became-our-21st-agent-killed-a-4k-saas-app-in-60-minutes-the-agents-005-is-out/",
     "url_hash": "27d22d6f40bc3a91b51477be2e084c65",
     "titre": "Two AI VPs for $257. A Website Became Our 21st Agent. Killed a $4K SaaS App in 60 Minutes: The Agents #005 Is Out!!",
@@ -2361,7 +2334,7 @@
     "source_name": "OpenAI Blog",
     "categorie_source": "IA_MODELES",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "IA_APPLIQUEE",
     "raison_score": "Annonce officielle d'OpenAI sur la sélection de GPT-5.6 comme modèle préféré pour Microsoft 365 Copilot. Cela confirme une avancée significative dans l'application de modèles IA de pointe dans des suites logicielles mainstream.",
@@ -3075,30 +3048,6 @@
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 9,
     "score_composite": 7.7
-  },
-  {
-    "url": "https://bdtechtalks.com/2026/05/04/memory-sparse-attention/?utm_source=rss&utm_medium=rss&utm_campaign=memory-sparse-attention",
-    "url_hash": "d7cb78ef84f029757e934ff51f8abbd5",
-    "titre": "How Memory Sparse Attention scales LLM memory to 100 million tokens",
-    "resume": "Memory Sparse Attention (MSA) scales LLM context windows to an unprecedented 100 million tokens while preserving accuracy.\nThe post How Memory Sparse Attention scales LLM memory to 100 million tokens first appeared on TechTalks.",
-    "date": "2026-05-04",
-    "source_name": "BD Tech Talks",
-    "categorie_source": "IA_APPLIQUEE",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 9,
-    "categorie": "IA_MODELES",
-    "raison_score": "This article presents a significant advancement in LLM capabilities by scaling memory to an unprecedented 100 million tokens while maintaining accuracy. This represents a major architectural shift in how LLMs handle context and could redefine their potential.",
-    "tags": [
-      "LLM",
-      "context window",
-      "AI models",
-      "scaling"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 9,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 7.699999999999999
   },
   {
     "url": "https://venturebeat.com/technology/anthropic-blocks-all-public-access-to-claude-fable-5-mythos-5-following-us-government-order-what-enterprises-should-do",
@@ -4637,6 +4586,31 @@
     "score_composite": 7.5
   },
   {
+    "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+    "url_hash": "a6c4d5f8283c92ff113deea646817b17",
+    "titre": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
+    "resume": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.",
+    "date": "2026-09-01",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Il s'agit d'une levée de fonds majeure qui redéfinit potentiellement un segment du marché (IA pour l'entraînement de modèles), symbolisant une croissance et une valorisation exceptionnelles pour une startup tech.",
+    "tags": [
+      "startup",
+      "IA",
+      "levée de fonds",
+      "Y Combinator",
+      "technologie"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 10,
+    "score_composite": 7.5
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/19/best-enterprise-level-agentic-ai-platforms-for-2026/",
     "url_hash": "7be2bc5c70a29358bd6bcef821afe834",
     "titre": "Best Enterprise Level Agentic AI Platforms for 2026",
@@ -5077,6 +5051,30 @@
       "kimi k3",
       "legal tech",
       "large language model"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.45
+  },
+  {
+    "url": "https://www.producthunt.com/products/claude-fable-5-1",
+    "url_hash": "f476df6be9589009b8d67724fce98030",
+    "titre": "Claude Fable 5.1",
+    "resume": "\n            Claude’s most advanced models for coding and knowledge work\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-09-01",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Il s'agit d'une avancée significative avec le lancement d'un nouveau modèle IA (Claude Fable 5.1) présenté comme plus avancé pour le travail de codage et de connaissances.",
+    "tags": [
+      "IA",
+      "modèles de langage",
+      "Claude",
+      "AI coding"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 9,
@@ -6153,6 +6151,31 @@
     "score_composite": 7.300000000000001
   },
   {
+    "url": "https://venturebeat.com/orchestration/your-files-stay-put-perplexitys-hybrid-ai-keeps-confidential-data-off-the-cloud",
+    "url_hash": "856b6bc996917799a13d184ca22a8c0a",
+    "titre": "Your files stay put: Perplexity’s hybrid AI keeps confidential data off the cloud",
+    "resume": "Perplexity today launched hybrid compute for its agentic platform, Computer, a system that lets a single AI agent split its work between frontier models running in the cloud and smaller open-weight models running locally on Apple silicon Macs — routing sensitive data to the local machine so it never leaves the device.The company says it is the first time an AI agent can begin a task in the cloud and dynamically hand off the confidential portions of that same task to a model running on the user's",
+    "date": "2026-09-01",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Lancement d'une capacité d'IA hybride par Perplexity, permettant aux agents de répartir leur travail entre le cloud et localement pour sécuriser les données sensibles. Ceci représente une nouvelle capacité agent documentée et reproductible.",
+    "tags": [
+      "Perplexity",
+      "IA hybride",
+      "agents",
+      "sécurité",
+      "données"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.300000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/06/12/zyphra-release-zamba2-vl-hybrid-mamba2-transformer-vision-language-models-that-cut-time-to-first-token-by-about-an-order-of-magnitude/",
     "url_hash": "edf0f955f95a42b033bc8500ffd0392e",
     "titre": "Zyphra Release Zamba2-VL: Hybrid Mamba2–Transformer Vision-Language Models That Cut Time-to-First-Token by About an Order of Magnitude",
@@ -7073,6 +7096,31 @@
     "score_composite": 7.250000000000001
   },
   {
+    "url": "https://pub.towardsai.net/stop-staring-at-dashboards-building-automated-action-loops-with-microsoft-fabric-data-activator-00733d390c3c?source=rss------power_bi-5",
+    "url_hash": "ff7877fc13e0d3deb805af437d8d2eb2",
+    "titre": "Stop Staring at Dashboards: Building Automated Action Loops with Microsoft Fabric Data Activator",
+    "resume": "A dashboard can tell us that our inventory is falling. A brilliantly designed dashboard can even tell us that our inventory has fallen…Continue reading on Towards AI »",
+    "date": "2026-09-01",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Cet article décrit une capacité d'automatisation documentée et reproductible qui va au-delà des tableaux de bord traditionnels, en créant des boucles d'action automatisées.",
+    "tags": [
+      "automatisation",
+      "Microsoft Fabric",
+      "Data Activator",
+      "BI",
+      "actionnable"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.250000000000001
+  },
+  {
     "url": "https://venturebeat.com/security/cisco-ai-supply-chain-provenance-explorer-fingerprints-900-open-models-replaces-self-reported-tags",
     "url_hash": "0891c470d2dafcef4e0f3e1e2a0cec53",
     "titre": "The lineage behind 69% of open models was never verified. Cisco just fingerprinted almost 900 for free",
@@ -7807,6 +7855,30 @@
       "observabilité",
       "production",
       "workflows"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.2
+  },
+  {
+    "url": "https://www.databricks.com/blog/how-we-eliminated-1-million-year-wasted-ai-agent-spend-one-hour",
+    "url_hash": "34f821da1d0f08c67b51a842da176099",
+    "titre": "How we eliminated $1 million a year of wasted AI agent spend in one hour",
+    "resume": "Databricks engineers rely heavily on AI agents to streamline and accelerate their work. In turn...",
+    "date": "2026-09-01",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article présente une avancée significative dans l'optimisation des coûts liés aux agents IA, démontrant une application pratique de l'IA pour réduire les dépenses opérationnelles.",
+    "tags": [
+      "IA",
+      "optimisation des coûts",
+      "agents IA",
+      "Databricks"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 8,
@@ -8939,6 +9011,56 @@
       "LLM",
       "IA open-source",
       "modèles IA"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.1000000000000005
+  },
+  {
+    "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+    "url_hash": "cb896342e73390ec9b9d3acc23f51119",
+    "titre": "Introducing agentic video understanding with Gemini",
+    "resume": "",
+    "date": "2026-09-01",
+    "source_name": "DeepMind Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Lancement d'une nouvelle capacité pour Gemini, permettant la compréhension vidéo agentique. C'est une nouvelle fonctionnalité majeure et potentiellement reproductible pour les agents.",
+    "tags": [
+      "Gemini",
+      "DeepMind",
+      "IA",
+      "vidéo",
+      "agents"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.1000000000000005
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+    "url_hash": "be7c65afeb758d5e8ccaa74f7c7e2c72",
+    "titre": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
+    "resume": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
+    "date": "2026-09-01",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce de la prochaine sortie d'un nouveau modèle IA d'OpenAI (Astra), avec des capacités potentiellement significatives, notamment dans le domaine de la sécurité informatique. C'est une nouvelle capacité documentée et potentiellement disruptive.",
+    "tags": [
+      "OpenAI",
+      "IA",
+      "Modèle",
+      "Sécurité",
+      "Cybersecurity"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -12270,6 +12392,31 @@
       "sécurité IA",
       "agents autonomes",
       "architecture"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.900000000000001
+  },
+  {
+    "url": "https://www.databricks.com/blog/announcing-databricks-big-book-agentops",
+    "url_hash": "4b50e35ecf47af5de8a12880de3e9507",
+    "titre": "Announcing the Databricks Big Book of AgentOps",
+    "resume": "What is AgentOps?AgentOps is the operating discipline for building, deploying and...",
+    "date": "2026-09-02",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Publication d'une ressource complète sur 'AgentOps', une discipline opérationnelle pour la création et le déploiement d'agents IA. Cela établit de nouvelles pratiques documentées et reproductibles.",
+    "tags": [
+      "AgentOps",
+      "Databricks",
+      "IA",
+      "gestion",
+      "déploiement"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
@@ -16489,6 +16636,30 @@
     "score_composite": 6.650000000000001
   },
   {
+    "url": "https://www.producthunt.com/products/stitch-ai-by-dynamic-mockups",
+    "url_hash": "41a3fe9d2c46851101de4f60f5f72cb3",
+    "titre": "Stitch AI by Dynamic Mockups",
+    "resume": "\n            The first embroidery digitizing agent\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-09-01",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article présente le lancement d'un nouvel outil d'automatisation agent, décrivant une nouvelle capacité agent documentée et potentiellement reproductible dans son domaine.",
+    "tags": [
+      "IA",
+      "agents IA",
+      "automatisation",
+      "broderie"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.650000000000001
+  },
+  {
     "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
     "url_hash": "e3d1e8ca7a4ba78c0dc51bc32387a6db",
     "titre": "How enterprises are scaling AI",
@@ -18979,6 +19150,56 @@
       "agents",
       "search",
       "IA"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
+    "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
+    "url_hash": "b4bd4af601a4f2d3730cfbdf13ab2d21",
+    "titre": "Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads",
+    "resume": "It's only the first day of September 2026, but the month and fall season are already off to the races in AI land, as Anthropic has just released its latest and most powerful large language models yet — Claude Fable 5.1 and Claude Mythos 5.1. The two names refer to the same underlying model. Fable 5.1 is the generally available version, with Anthropic’s production safeguards in place. Mythos 5.1 is available through restricted-access programs for vetted cybersecurity and life-sciences organizatio",
+    "date": "2026-09-01",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce des nouveaux modèles Claude Fable/Mythos 5.1 avec une réduction de coût significative pour les lectures de cache. C'est une avancée notable en termes de coût-efficacité et de performance.",
+    "tags": [
+      "Claude",
+      "LLM",
+      "coût",
+      "performance",
+      "Anthropic"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
+    "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+    "url_hash": "8c55ca81fd6f852ad1df31d3d7a55f26",
+    "titre": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+    "resume": "Queue the usual rush of model launches...",
+    "date": "2026-09-02",
+    "source_name": "Latent Space",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce d'un nouveau modèle SOTA avec une réduction significative des coûts et une augmentation des tokens de sortie. Cela représente une avancée notable dans les capacités des LLMs.",
+    "tags": [
+      "Claude",
+      "LLM",
+      "SOTA",
+      "performance",
+      "coût"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -24274,6 +24495,30 @@
     "score_composite": 6.15
   },
   {
+    "url": "https://medium.com/@natarajan.manivasagan/who-can-see-what-a-complete-power-bi-access-audit-solution-in-microsoft-fabric-d49f0f895344?source=rss------power_bi-5",
+    "url_hash": "e2087728079d8d96ac9d2aad7b8b3961",
+    "titre": "Who Can See What? A Complete Power BI Access Audit Solution in Microsoft Fabric",
+    "resume": "Fabric notebooks harvest RLS/OLS definitions, role memberships, AD group members, and workspace roles into a lakehouse — and a Power BI…Continue reading on Medium »",
+    "date": "2026-09-01",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Il s'agit d'une évolution notable, présentant un nouveau cas d'usage documenté avec des métriques implicites sur la gestion des accès dans Power BI via Microsoft Fabric.",
+    "tags": [
+      "Power BI",
+      "Microsoft Fabric",
+      "sécurité des données",
+      "audit"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.15
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/28/a-coding-guide-to-implement-a-pgvector-powered-semantic-hybrid-sparse-and-quantized-vector-search-system/",
     "url_hash": "d8bb637c41516941092103c864e318e4",
     "titre": "A Coding Guide to Implement a pgvector-Powered Semantic, Hybrid, Sparse, and Quantized Vector Search System",
@@ -26117,6 +26362,54 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 8,
+    "score_composite": 6.050000000000001
+  },
+  {
+    "url": "https://venturebeat.com/security/azure-openai-agent-passed-every-evaluation-served-files-user-couldnt-open",
+    "url_hash": "41622923bc292717897a462fc8fddfe5",
+    "titre": "Closing an Azure OpenAI assistant's retrieval gap didn't take a new identity platform. It took one filter and a narrower assistant.",
+    "resume": "Egiziago Cioffi is the IT and Enterprise Architect and CEO of SynSphere Italia, a Microsoft partner based in Milan. He built an agent himself. He wrote the indexing job, configured the Azure OpenAI retrieval pipeline, connected it to SharePoint, and watched it pass every evaluation his team ran.His Azure OpenAI email assistant auto-resolves about 60% of inbound customer email, Cioffi told VentureBeat in written responses to our interview questions. The evaluation scores were clean, and the unit ",
+    "date": "2026-09-01",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Décrit une approche pratique et un cas d'usage documenté pour améliorer la fiabilité d'un agent Azure OpenAI. Bien que ne révolutionnant pas l'IA, c'est une évolution notable en termes de déploiement et de performance.",
+    "tags": [
+      "Azure OpenAI",
+      "agent",
+      "sécurité",
+      "retrieval"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.050000000000001
+  },
+  {
+    "url": "https://towardsdatascience.com/your-json-is-valid-but-your-data-is-wrong-five-failure-modes-llm-structured-outputs-wont-catch/",
+    "url_hash": "788cdb24f6e1bdfc56215878e3649d84",
+    "titre": "Your JSON Is Valid but Your Data Is Wrong: Five Failure Modes LLM Structured Outputs Won't Catch",
+    "resume": "Five failure modes that survive constrained decoding, and why your schema validator will never catch them.\nThe post Your JSON Is Valid but Your Data Is Wrong: Five Failure Modes LLM Structured Outputs Won't Catch appeared first on Towards Data Science.",
+    "date": "2026-09-01",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Il s'agit d'une évolution notable offrant une information utile sur les limites des sorties structurées des LLM et les problèmes de qualité des données sous-jacentes.",
+    "tags": [
+      "LLM",
+      "qualité des données",
+      "structuration des données",
+      "gestion des erreurs"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
     "score_composite": 6.050000000000001
   },
   {
@@ -28777,6 +29070,31 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 7,
+    "score_composite": 5.9
+  },
+  {
+    "url": "https://www.databricks.com/blog/how-fda-building-secure-ai-ready-data-foundation-databricks-government",
+    "url_hash": "0d51b4362db6fdb5c7f3d44cfbb42aa7",
+    "titre": "How the FDA is building a secure, AI-ready data foundation on Databricks for Government",
+    "resume": "Modernizing a federal data platform is a little like steering an aircraft carrier while rebuilding the engine mid-ocean...",
+    "date": "2026-09-01",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Cas d'usage de la FDA construisant une fondation de données sécurisée et prête pour l'IA sur Databricks. Documente un cas d'usage avec des métriques de sécurité et de préparation pour l'IA.",
+    "tags": [
+      "FDA",
+      "Databricks",
+      "data foundation",
+      "sécurité",
+      "IA"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
     "score_composite": 5.9
   },
   {
@@ -32666,6 +32984,32 @@
     "score_composite": 5.6000000000000005
   },
   {
+    "url": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
+    "url_hash": "62b6270ed2a9e933229cb44dd56b96bb",
+    "titre": "Google’s Android update tackles motion sickness, accessibility, and more",
+    "resume": "While some of the features see Google playing catch-up to Apple, which already offers similar features for iPhone users, others specifically leverage Gemini to provide various improvements.",
+    "date": "2026-09-01",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Il s'agit d'une évolution notable, montrant l'intégration de l'IA (Gemini) dans un outil mainstream (Android) pour améliorer des fonctionnalités existantes et en apporter de nouvelles.",
+    "tags": [
+      "IA",
+      "Android",
+      "Google",
+      "Gemini",
+      "accessibilité",
+      "expérience utilisateur"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.6000000000000005
+  },
+  {
     "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Tenant-Migration-Trade-offs-risks-and-realities/ba-p/5187013",
     "url_hash": "b4436a58f9c25acc0f56084b98591b98",
     "titre": "Power BI Tenant Migration: Trade-offs, risks, and realities",
@@ -33716,6 +34060,30 @@
     "score_composite": 5.550000000000001
   },
   {
+    "url": "https://huggingface.co/blog/allenai/benchmirt",
+    "url_hash": "c0fa2da8b87bd26790ea65ff4b21dcae",
+    "titre": "BenchMIRT: What are LLM benchmarks actually measuring?",
+    "resume": "",
+    "date": "2026-09-01",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Article qui questionne la pertinence et la mesure des benchmarks LLM, proposant une analyse approfondie. Il s'agit d'une information utile pour comprendre l'évaluation des modèles.",
+    "tags": [
+      "LLM",
+      "benchmarks",
+      "évaluation",
+      "analyse"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.550000000000001
+  },
+  {
     "url": "https://medium.com/powerbi-microsoft-fabric/how-microsoft-fabric-is-different-from-power-bi-c495674c1fc5?source=rss------power_bi-5",
     "url_hash": "eae6c99644e9cc692dae0959f324214a",
     "titre": "How Microsoft Fabric is Different from Power BI",
@@ -34181,6 +34549,31 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 8,
+    "score_composite": 5.55
+  },
+  {
+    "url": "https://medium.com/@cseprs_54978/whats-new-this-month-ai-weekly-in-bi-every-wednesday-6a49310abf17?source=rss------power_bi-5",
+    "url_hash": "b90fd1473c0b0d45e99427b47069ef58",
+    "titre": "What’s New This Month: AI Weekly in BI, Every Wednesday",
+    "resume": "If you’ve been following along, you know this space has grown around a few steady pillars: Fabric Mondays for fabric deep dives, Behind…Continue reading on Medium »",
+    "date": "2026-09-02",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article récapitulant les nouveautés mensuelles en IA pour la BI, mentionnant des piliers comme Fabric Mondays. Il s'agit d'une mise à jour importante sur les tendances et pratiques.",
+    "tags": [
+      "BI",
+      "IA",
+      "actualités",
+      "Power BI",
+      "Fabric"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
     "score_composite": 5.55
   },
   {
@@ -43121,6 +43514,29 @@
       "data warehouse",
       "dashboard",
       "bi practices"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.8500000000000005
+  },
+  {
+    "url": "https://medium.com/@jamilqpr/the-importance-of-power-bi-in-data-analytics-why-it-matters-for-modern-data-analysis-e5ad0dd973a4?source=rss------power_bi-5",
+    "url_hash": "c8f1fef2722c1ceb2e9a5a6058dae25d",
+    "titre": "The Importance of Power BI in Data Analytics: Why It Matters for Modern Data Analysis",
+    "resume": "Data is everywhere. Businesses collect information from sales, customers, finance, marketing, operations, websites, and many other sources…Continue reading on Medium »",
+    "date": "2026-09-01",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article est une information utile, présentant un cas d'usage établi sur l'importance de Power BI pour l'analyse de données moderne.",
+    "tags": [
+      "Power BI",
+      "analyse de données",
+      "business intelligence"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 4,
@@ -52566,6 +52982,30 @@
     "pertinence_bi_consultant": 2,
     "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 7,
+    "score_composite": 3.1500000000000004
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
+    "url_hash": "4799c2fe4d23fd74ab64148c6f4bda32",
+    "titre": "OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting",
+    "resume": "Edelson PC is filing 30 new lawsuits against OpenAI over the Tumbler Ridge shooting, escalating claims to aiding and abetting and naming Chris Lehane, though evidence remains unconfirmed.",
+    "date": "2026-09-02",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Nouvelles poursuites judiciaires contre OpenAI liées à des allégations d'assistance dans une fusillade. Bien qu'important dans le contexte réglementaire et éthique, le contenu n'est pas une avancée technique.",
+    "tags": [
+      "OpenAI",
+      "juridique",
+      "éthique",
+      "sécurité"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
     "score_composite": 3.1500000000000004
   },
   {
