@@ -632,32 +632,6 @@
     "score_composite": 8.45
   },
   {
-    "url": "https://www.latent.space/p/lupsasca",
-    "url_hash": "3e058a6c077c9eedc7f3737d967a9991",
-    "titre": "🔬Doing Vibe Physics — Alex Lupsasca, OpenAI",
-    "resume": "The full story of how GPT&#8209;5.x derived new results in theoretical physics and quantum gravity.",
-    "date": "2026-05-05",
-    "source_name": "Latent Space",
-    "categorie_source": "IA_AGENTS",
-    "score_pending": false,
-    "article_du_jour": true,
-    "score": 9,
-    "categorie": "IA_APPLIQUEE",
-    "raison_score": "Cet article détaille comment GPT-5.x a dérivé de nouveaux résultats en physique théorique et en gravité quantique. C'est une percée scientifique vérifiée qui démontre une capacité inédite et disruptive de l'IA.",
-    "tags": [
-      "IA",
-      "science",
-      "physique",
-      "GPT-5",
-      "recherche",
-      "découverte"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 9,
-    "pertinence_entrepreneur": 8,
-    "score_composite": 8.35
-  },
-  {
     "url": "https://www.marktechpost.com/2026/06/04/nvidia-ai-releases-nemotron-3-ultra-an-open-550b-mixture-of-experts-hybrid-mamba-transformer-for-long-running-agents/",
     "url_hash": "0206b03edc2619e10785191b46032a6f",
     "titre": "NVIDIA AI Releases Nemotron 3 Ultra: An Open 550B Mixture-of-Experts Hybrid Mamba-Transformer for Long-Running Agents",
@@ -1526,6 +1500,31 @@
     "score_composite": 8.049999999999999
   },
   {
+    "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+    "url_hash": "bca238597ca31c9a3994513716e361b3",
+    "titre": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+    "resume": "an epic comeback story for Meta",
+    "date": "2026-09-03",
+    "source_name": "Latent Space",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "L'affirmation qu'un nouveau modèle (Muse Spark 1.3) égale les performances de modèles de pointe comme GPT-5.6-Sol, et la mention de 'Meta Superintelligence' comme un laboratoire de pointe, suggère une rupture majeure dans le domaine des modèles IA.",
+    "tags": [
+      "AI models",
+      "performance benchmark",
+      "frontier AI",
+      "Meta AI",
+      "GPT"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 10,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 8.049999999999999
+  },
+  {
     "url": "https://venturebeat.com/infrastructure/merck-and-mastercard-are-seeing-real-agentic-ai-results-both-say-the-plumbing-came-first",
     "url_hash": "be4155ef5d892c2b301ac089f177587e",
     "titre": "Merck and Mastercard are seeing real agentic AI results. Both say the plumbing came first.",
@@ -2253,6 +2252,55 @@
     "score_composite": 7.9
   },
   {
+    "url": "https://www.marktechpost.com/2026/09/01/perplexity-releases-hybrid-compute-on-mac-cloud-agents-orchestrate-down-to-a-local-model-gated-on-device/",
+    "url_hash": "e99b6e34e4b53d96f6ee8763b2458fbe",
+    "titre": "Perplexity Releases Hybrid Compute on Mac: Cloud Agents Orchestrate Down to a Local Model, Gated On Device",
+    "resume": "Agentic assistants have a structural problem: the context that makes them useful — deal documents, privileged files, client records — is exactly the context users cannot send to a cloud endpoint. This week, Perplexity shipped its answer for Mac. Hybrid compute splits a single Perplexity Computer task between frontier models in the cloud and a […]\nThe post Perplexity Releases Hybrid Compute on Mac: Cloud Agents Orchestrate Down to a Local Model, Gated On Device appeared first on MarkTechPost.",
+    "date": "2026-09-02",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Perplexity innove avec le 'Hybrid Compute' sur Mac, permettant aux agents cloud de s'appuyer sur des modèles locaux. Cette architecture hybride résout des problèmes de confidentialité et de performance, ouvrant de nouvelles possibilités pour les agents IA dans des environnements sensibles.",
+    "tags": [
+      "Perplexity",
+      "agents IA",
+      "modèles locaux",
+      "hybrid compute",
+      "confidentialité"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 7.9
+  },
+  {
+    "url": "https://motherduck.com/blog/agents-dont-query-like-humans-do",
+    "url_hash": "e398916a52c0622ffaf2354dbe96e7a6",
+    "titre": "Agents Don’t Query Like Humans Do",
+    "resume": "We analyzed a slice of MotherDuck query history and found agents ran 29 times more queries than humans last month, a gap that has roughly doubled every month. The average organization now has twice as many agents as human users. Agents are the dominant consumers of the data platform, and our systems can't afford to stay the same.",
+    "date": "2026-09-02",
+    "source_name": "MotherDuck Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "L'article fournit une étude quantifiée et significative sur l'impact de l'adoption des agents IA sur la consommation des plateformes de données (29x plus de requêtes). C'est une avancée significative documentant l'évolution des usages dans un secteur clé.",
+    "tags": [
+      "agents IA",
+      "plateforme de données",
+      "usage des données",
+      "performance"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.9
+  },
+  {
     "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
     "url_hash": "28e622f5401555d0458c66b11cd728ab",
     "titre": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
@@ -2359,7 +2407,7 @@
     "source_name": "TechCrunch",
     "categorie_source": "BUSINESS_IA",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "BUSINESS_IA",
     "raison_score": "Confirme l'intégration majeure de GPT-5.6 dans Microsoft Copilot, soulignant son rôle clé pour les applications de productivité. Représente une avancée significative dans l'application des modèles IA dans le monde professionnel.",
@@ -2599,32 +2647,6 @@
     "pertinence_passionné_ia": 10,
     "pertinence_entrepreneur": 8,
     "score_composite": 7.8
-  },
-  {
-    "url": "https://openai.com/index/gpt-5-5-instant",
-    "url_hash": "05d3c5cd4cae571dc8db4151dde76005",
-    "titre": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-    "resume": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
-    "date": "2026-05-05",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 8,
-    "categorie": "IA_MODELES",
-    "raison_score": "L'annonce de GPT-5.5 Instant, avec des améliorations notables en termes d'intelligence, de clarté et de personnalisation, représente une avancée significative pour les modèles d'IA d'OpenAI.",
-    "tags": [
-      "IA",
-      "modèles",
-      "GPT-5.5",
-      "ChatGPT",
-      "performance",
-      "personnalisation"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 8,
-    "score_composite": 7.750000000000001
   },
   {
     "url": "https://deepmind.google/blog/alphaevolve-impact/",
@@ -3165,6 +3187,31 @@
       "confidentialité",
       "sécurité",
       "API"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.699999999999999
+  },
+  {
+    "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+    "url_hash": "43c527ed827d2ff37deab0f682ba0f15",
+    "titre": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+    "resume": "",
+    "date": "2026-09-02",
+    "source_name": "DeepMind Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce d'une nouvelle génération de modèle Gemini, potentiellement un modèle frontier redéfinissant les capacités avec une spécialisation pour la cybersécurité.",
+    "tags": [
+      "Gemini",
+      "IA",
+      "modèle",
+      "cybersécurité",
+      "DeepMind"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 9,
@@ -3714,6 +3761,31 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 10,
+    "score_composite": 7.6000000000000005
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/09/02/anthropic-enterprise-frontier-safeguards-efs/",
+    "url_hash": "a74404bc73b954793f60b2370e942de0",
+    "titre": "Anthropic Introduces Enterprise Frontier Safeguards (EFS): Zero-Data-Retention Privacy Plus Cross-Session Misuse Detection",
+    "resume": "Anthropic announced Enterprise Frontier Safeguards on September 1, 2026, an architecture that stores monitoring data in the customer's own cloud account rather than Anthropic's. Detection stays automated and Anthropic-run; custody, encryption keys, and flag review stay with the customer. Built with more than 100 enterprises and rolling out in phases this fall.\nThe post Anthropic Introduces Enterprise Frontier Safeguards (EFS): Zero-Data-Retention Privacy Plus Cross-Session Misuse Detection appea",
+    "date": "2026-09-02",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Anthropic lance Enterprise Frontier Safeguards (EFS), une approche innovante pour la confidentialité des données et la détection des abus, essentielle pour l'adoption de l'IA en entreprise. Le stockage des données de monitoring côté client est une avancée majeure en matière de sécurité et de conformité.",
+    "tags": [
+      "Anthropic",
+      "sécurité IA",
+      "confidentialité",
+      "entreprise",
+      "data retention"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 8,
     "score_composite": 7.6000000000000005
   },
   {
@@ -4455,6 +4527,32 @@
       "data agents",
       "coding agents",
       "AI efficiency"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.500000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/09/02/qwen-developers-open-sources-zg-zvec-grep-a-local-first-search-layer-unifying-ripgrep-bm25-and-vector-search/",
+    "url_hash": "d3f1aefcf4e4035e93ac7c7c8413d956",
+    "titre": "Qwen Developers Open-Sources zg (zvec-grep): A Local-First Search Layer Unifying ripgrep, BM25, and Vector Search",
+    "resume": "We look at zg (zvec-grep), the local-first search layer that Qwen Developers just open-sourced under Apache 2.0. We explain how it puts ripgrep, BM25, and vector search behind a single interface, so an agent can move from a plain-language description to an exact line span without switching tools. We cover the deliberately small MCP surface, the on-device embedding catalog, and the authorization gate that stands between local content and remote models.\nThe post Qwen Developers Open-Sources zg (zv",
+    "date": "2026-09-02",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Ce projet open-source permet d'unifier plusieurs méthodes de recherche (texte, vectorielle) localement, ce qui est une avancée pour la construction d'agents plus performants et autonomes. La capacité à passer d'une description en langage naturel à une correspondance exacte est cruciale.",
+    "tags": [
+      "open-source",
+      "agents IA",
+      "recherche",
+      "vectorielle",
+      "BM25",
+      "ripgrep"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -6027,6 +6125,31 @@
     "score_composite": 7.3500000000000005
   },
   {
+    "url": "https://venturebeat.com/security/googles-gemini-3-8-flash-is-built-for-agents-while-its-cyber-twin-hunts-vulnerabilities",
+    "url_hash": "caebf3b4dadabb3bbdf40d2767e97e92",
+    "titre": "Google’s Gemini 3.8 Flash is built for agents, while its Cyber twin hunts vulnerabilities",
+    "resume": "Google keeps cranking out Flash models: the company on Wednesday announced two versions of a new 3.8 Flash. The variants include a standard Flash, a “workhorse” model for agentic tasks, software development, and multi-step reasoning, and Flash Cyber optimized for vulnerability detection and mitigation.Google CEO Sundar Pichai said in an X post that 3.8 Flash delivers “significant leaps” from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning. For instance, it outperfo",
+    "date": "2026-09-03",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'annonce de nouvelles capacités pour Gemini 3.8 Flash, spécifiquement optimisées pour les agents et la cybersécurité, représente une avancée significative. Cela apporte de nouvelles fonctionnalités agentiques documentées.",
+    "tags": [
+      "Gemini",
+      "Google AI",
+      "agents",
+      "cybersecurity",
+      "AI models"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3500000000000005
+  },
+  {
     "url": "https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/",
     "url_hash": "f3a363f83daafbe93a5900a46846d162",
     "titre": "Google DeepMind Ships Three Physical AI Models For Whole Body Control, Dexterity And Multi Robot Collaboration",
@@ -6772,30 +6895,29 @@
     "score_composite": 7.3
   },
   {
-    "url": "https://blog.n8n.io/production-ai-playbook-evaluation-and-monitoring/",
-    "url_hash": "f40e1553d5f8182e5c09eba824af690f",
-    "titre": "Production AI Playbook: Evaluation and Monitoring",
-    "resume": "An AI workflow that works today can silently degrade tomorrow. This post covers how to evaluate AI performance with built-in metrics, set up LLM-as-a-Judge scoring, and build monitoring that catches drift before your users do.",
-    "date": "2026-05-05",
-    "source_name": "n8n Blog",
-    "categorie_source": "AUTOMATISATION",
+    "url": "https://www.marktechpost.com/2026/09/02/google-deepmind-releases-gemini-3-8-flash-and-gemini-3-8-flash-cyber-one-core-model-two-access-envelopes/",
+    "url_hash": "e1de7b83c193f09f05e3aec33a279009",
+    "titre": "Google DeepMind Releases Gemini 3.8 Flash and Gemini 3.8 Flash Cyber: One Core Model, Two Access Envelopes",
+    "resume": "Google released Gemini 3.8 Flash and Gemini 3.8 Flash Cyber on September 2, 2026. Both variants run on the same foundational intelligence, split by safety mitigations rather than model size. Gemini 3.8 Flash is generally available at $0.75 and $3.75 per 1M tokens, introductory through December 31, 2026. Flash Cyber reaches 47.2% pass@1 on CWE-Bench and is restricted to vetted defenders through the Fairwind Program. This article covers the benchmarks, the token-for-accuracy tradeoff, and what dep",
+    "date": "2026-09-02",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
     "score_pending": false,
     "article_du_jour": false,
-    "score": 7,
-    "categorie": "AUTOMATISATION",
-    "raison_score": "Ce playbook sur l'évaluation et le monitoring des IA en production offre des pratiques et des métriques quantifiées pour le déploiement réussi d'IA, ce qui est une avancée significative pour l'industrialisation de l'IA.",
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce de nouvelles versions des modèles Gemini, avec des optimisations pour différents cas d'usage (performance, sécurité). L'approche 'one core model, two access envelopes' est une évolution intéressante dans la manière de déployer et d'utiliser des modèles avancés.",
     "tags": [
-      "IA",
-      "automatisation",
-      "production",
-      "monitoring",
-      "évaluation",
-      "playbook"
+      "Gemini",
+      "Google DeepMind",
+      "modèles IA",
+      "performance",
+      "sécurité"
     ],
-    "pertinence_bi_consultant": 8,
-    "pertinence_passionné_ia": 7,
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
     "pertinence_entrepreneur": 7,
-    "score_composite": 7.250000000000001
+    "score_composite": 7.3
   },
   {
     "url": "https://www.databricks.com/blog/stop-rogue-ai-how-unity-catalog-secures-your-agent-actions",
@@ -8502,6 +8624,30 @@
     "score_composite": 7.100000000000001
   },
   {
+    "url": "https://towardsdatascience.com/a-rag-that-says-not-in-this-document-has-to-show-four-kinds-of-evidence/",
+    "url_hash": "57c34f2f4ac432a7eb92eea822f51e7b",
+    "titre": "A RAG That Says “Not in This Document” Has to Show Four Kinds of Evidence",
+    "resume": "Enterprise Document Intelligence [Vol.1 #B3] - A confident wrong answer is a bug. A bare “no answer” with no justification is almost as bad. Each of the four bricks has one piece of evidence to show\nThe post A RAG That Says “Not in This Document” Has to Show Four Kinds of Evidence appeared first on Towards Data Science.",
+    "date": "2026-09-02",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article introduit une amélioration notable pour les systèmes RAG (Retrieval-Augmented Generation) en exigeant une justification des réponses négatives. C'est une nouvelle capacité documentée et améliorant la fiabilité des systèmes IA appliqués.",
+    "tags": [
+      "RAG",
+      "génération augmentée",
+      "fiabilité IA",
+      "document intelligence"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 7.100000000000001
+  },
+  {
     "url": "https://www.producthunt.com/products/nimbus-10",
     "url_hash": "48940da03ca1e76b486d4b0dd490e142",
     "titre": "Nimbus",
@@ -9978,31 +10124,6 @@
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 9,
     "score_composite": 7.05
-  },
-  {
-    "url": "https://openai.com/index/gpt-5-5-instant-system-card",
-    "url_hash": "2fd4f4a9abde82640b1a491424dfd439",
-    "titre": "GPT-5.5 Instant System Card",
-    "resume": "",
-    "date": "2026-05-05",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_MODELES",
-    "raison_score": "Bien que ce soit une 'system card', l'annonce de GPT-5.5 Instant suggère une mise à jour de modèle majeure et significative avec des améliorations potentiellement compétitives dans le domaine des LLM.",
-    "tags": [
-      "IA",
-      "modèles",
-      "GPT-5.5",
-      "ChatGPT",
-      "amélioration"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 7.000000000000001
   },
   {
     "url": "https://towardsdatascience.com/parse-pdfs-for-rag-locally-with-docling-rich-tables-no-cloud-upload/",
@@ -14551,6 +14672,32 @@
     "score_composite": 6.750000000000001
   },
   {
+    "url": "https://www.marktechpost.com/2026/09/02/nvidia-releases-switchyard-rust-proxy-llm-traffic-openai-anthropic-api-translation/",
+    "url_hash": "f4f32c43cdaefbf3aa31dd0b53b978d6",
+    "titre": "Meet Switchyard: A Rust Proxy and Library That Routes and Translates LLM Traffic Across OpenAI and Anthropic APIs",
+    "resume": "NVIDIA has released Switchyard, an Apache-2.0 Rust proxy and library for LLM traffic. It decodes requests into provider-neutral types, routes them with passthrough, random, LLM-classifier, or stage-router algorithms, and translates responses back into the client's format, so Claude Code or Codex CLI can run against vLLM, NIM, or Ollama unchanged. The project is pre-alpha and not for production.\nThe post Meet Switchyard: A Rust Proxy and Library That Routes and Translates LLM Traffic Across OpenA",
+    "date": "2026-09-02",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "NVIDIA lance Switchyard, un proxy pour gérer le trafic LLM entre différentes API (OpenAI, Anthropic). Cela offre une flexibilité et une interopérabilité significatives pour les développeurs qui cherchent à intégrer et orchestrer divers modèles d'IA.",
+    "tags": [
+      "NVIDIA",
+      "LLM",
+      "proxy",
+      "API",
+      "automatisation",
+      "interopérabilité"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.750000000000001
+  },
+  {
     "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
     "url_hash": "2f358dc4a504978912f0eb9df7c976e7",
     "titre": "Strengthening societal resilience with Rosalind Biodefense",
@@ -16653,6 +16800,29 @@
       "agents IA",
       "automatisation",
       "broderie"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.650000000000001
+  },
+  {
+    "url": "https://venturebeat.com/orchestration/forward-deployed-engineering-is-how-enterprise-ai-learns",
+    "url_hash": "052d40858e5e84fb806a3108955c948b",
+    "titre": "Forward-deployed engineering is how enterprise AI learns",
+    "resume": "Presented by ZetaEvery forward-deployed engineering (FDE) pitch sounds identical for the first ten minutes: an engineer embedded on-site, a workflow encoded within weeks, a demo that finally works on the customer's real data. What differs is what happens in the following months, and most vendors will not tell you until you ask directly.FDE has become one of enterprise AI’s most consequential operating models. Vendors are building entire go-to-market motions around engineers who embed with custom",
+    "date": "2026-09-02",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article décrit un nouveau modèle opérationnel (FDE) pour l'IA en entreprise. Il documente une pratique entrepreneuriale émergente avec des implications concrètes pour le déploiement et l'adoption de l'IA.",
+    "tags": [
+      "IA entreprise",
+      "ingénierie embarquée",
+      "stratégie IA"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -19207,6 +19377,31 @@
     "score_composite": 6.550000000000001
   },
   {
+    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Modern-Power-BI-architecture-choices-for-reporting-on-Azure/ba-p/5364286",
+    "url_hash": "f0e0375e790e565d82bad5e485810728",
+    "titre": "Modern Power BI architecture choices for reporting on Azure Databricks: A performance benchmark for Power BI storage modes",
+    "resume": "Many enterprise Power BI semantic models use Azure Databricks as a data source. When building these models, developers and architects face an early and consequential decision: which storage mode to use. Cost, security, and ease of development and tuning all factor in — but report performance is probably the most important of them, because reports that are slow to load are one of the most common causes of end-user dissatisfaction.\nIn practice, that decision is often made on intuition rather than ",
+    "date": "2026-09-03",
+    "source_name": "Power BI Blog",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'une étude quantifiée sur l'impact de différentes architectures Power BI sur les performances, en particulier avec Azure Databricks. C'est un cas d'usage documenté avec des métriques.",
+    "tags": [
+      "Power BI",
+      "Azure Databricks",
+      "architecture",
+      "performance benchmark",
+      "data reporting"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
     "url": "https://www.producthunt.com/products/idledev",
     "url_hash": "09a38a80865d743a758abfa141f20c28",
     "titre": "IdleDev",
@@ -19996,6 +20191,30 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 6,
+    "score_composite": 6.450000000000001
+  },
+  {
+    "url": "https://www.producthunt.com/products/nex-4",
+    "url_hash": "4f97ceccff714c9adb16cdd2a2bd57a9",
+    "titre": "Nex",
+    "resume": "\n            Claude Cowork for high-volume GTM workflows\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-09-03",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Le lancement de 'Nex' sur Product Hunt, décrit comme un outil 'Claude Cowork for high-volume GTM workflows', suggère un outil d'automatisation potentiellement disruptif pour les flux de travail Go-To-Market.",
+    "tags": [
+      "automation",
+      "GTM workflows",
+      "AI tools",
+      "Product Hunt"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 8,
     "score_composite": 6.450000000000001
   },
   {
@@ -21010,6 +21229,30 @@
     "score_composite": 6.4
   },
   {
+    "url": "https://towardsdatascience.com/how-to-solve-the-right-problem-in-the-age-of-agentic-ai/",
+    "url_hash": "1a18c551c1d486d878817b604b92235a",
+    "titre": "How to Solve the Right Problem in the Age of Agentic AI",
+    "resume": "A practical framework for reducing uncertainty before agents accelerate implementation\nThe post How to Solve the Right Problem in the Age of Agentic AI appeared first on Towards Data Science.",
+    "date": "2026-09-03",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article propose un cadre pratique et des métriques pour résoudre le bon problème à l'ère des IA agentiques. C'est un cas d'usage documenté et applicable dans le domaine des IA appliquées.",
+    "tags": [
+      "agentic AI",
+      "problem solving",
+      "AI strategy",
+      "framework"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.4
+  },
+  {
     "url": "https://www.databricks.com/blog/observability-any-agent-anywhere-production-ready-tracing-opentelemetry-unity-catalog",
     "url_hash": "d3d167c2fd17253a8c87796f6228fc10",
     "titre": "Observability for any agent, anywhere: Production-ready tracing with OpenTelemetry & Unity Catalog on Databricks",
@@ -21646,6 +21889,33 @@
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.3500000000000005
+  },
+  {
+    "url": "https://venturebeat.com/data/enterprises-put-non-nvidia-chips-14-points-ahead-of-nvidias-next-gen-gpus-on-their-evaluation-lists",
+    "url_hash": "0f494a6636640088092884893e1bb29c",
+    "titre": "Enterprises put non-Nvidia chips 14 points ahead of Nvidia's next-gen GPUs on their evaluation lists",
+    "resume": "When enterprise buyers build out their next AI accelerator evaluation list this cycle, they're more likely to put a non-Nvidia chip on it than Nvidia's own next-generation GPU. According to VentureBeat's July VB Pulse survey of 170 AI infrastructure respondents, 39.4% said they're likely to evaluate non-Nvidia accelerators — AWS Trainium, Google TPU, AMD Instinct, Intel Gaudi or in-house ASICs — over the next 12 months, compared with 25.3% for Nvidia Blackwell (GB300) or other next-generation Nv",
+    "date": "2026-09-02",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Étude quantifiée montrant une tendance d'adoption accrue des puces non-Nvidia pour les infrastructures IA, indiquant un changement potentiel de paradigme matériel.",
+    "tags": [
+      "IA",
+      "matériel",
+      "infrastructure",
+      "entreprise",
+      "Nvidia",
+      "TPU",
+      "GPU"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 7,
     "score_composite": 6.3500000000000005
   },
@@ -24840,6 +25110,30 @@
     "score_composite": 6.1000000000000005
   },
   {
+    "url": "https://motherduck.com/blog/context-layer-vs-semantic-layer-ontology",
+    "url_hash": "07a9bfd94596d5c385151c9a4571dfb8",
+    "titre": "Context, Semantics, and Ontology: A Primer for the Agentic Era",
+    "resume": "A primer on the context layer, semantic layer, and ontology: what each term means, how they fit together, and why AI agents still need a human to decide what's true.",
+    "date": "2026-09-02",
+    "source_name": "MotherDuck Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Il s'agit d'un tutoriel avancé expliquant des concepts clés (context, semantics, ontology) essentiels pour l'ère des agents IA. Bien que fondamental, il n'apporte pas de nouvelle fonctionnalité mais clarifie des pratiques établies.",
+    "tags": [
+      "agents IA",
+      "sémantique",
+      "ontologie",
+      "gestion des données"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.1000000000000005
+  },
+  {
     "url": "https://openai.com/index/what-parameter-golf-taught-us",
     "url_hash": "15ea451729b25046f47bd6a907cf7687",
     "titre": "What Parameter Golf taught us about AI-assisted research",
@@ -27641,31 +27935,6 @@
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 6,
     "score_composite": 5.950000000000001
-  },
-  {
-    "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
-    "url_hash": "3938b1e238f6786e2166d8e6516eb0e3",
-    "titre": "New ways to buy ChatGPT ads",
-    "resume": "OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools—built to protect privacy and keep conversations separate from ads.",
-    "date": "2026-05-05",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "BUSINESS_IA",
-    "raison_score": "L'expansion des publicités ChatGPT avec un gestionnaire publicitaire en libre-service, des enchères CPC et des outils de mesure améliorés constitue une intégration IA dans un outil commercial grand public, bien que moins disruptive qu'une nouvelle technologie fondamentale.",
-    "tags": [
-      "IA",
-      "publicité",
-      "ChatGPT",
-      "monétisation",
-      "outils commerciaux"
-    ],
-    "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 5,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 5.95
   },
   {
     "url": "https://www.producthunt.com/products/mia-8",
@@ -30986,6 +31255,56 @@
     "score_composite": 5.75
   },
   {
+    "url": "https://venturebeat.com/security/stolen-claude-session-cookies-can-reach-corporate-gmail-through-grants-no-it-admin-can-revoke",
+    "url_hash": "1a633ae57ee70920a67be8d21956e799",
+    "titre": "Stolen Claude session cookies can reach corporate Gmail through grants no IT admin can revoke",
+    "resume": "Infostealers replayed stolen Claude session cookies into paid accounts without ever touching the login page two-factor authentication guards.The accounts Anthropic flagged were card-billed, self-serve accounts, which is the population no corporate identity provider governs, and no admin console can sign out. Session-cookie replay bypasses SSO as thoroughly as it bypasses 2FA. What SSO provides here is revocation and visibility, not prevention. The company disclosed the campaign in notification e",
+    "date": "2026-09-02",
+    "source_name": "VentureBeat AI",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Information utile sur une vulnérabilité de sécurité liée aux cookies de session pour les modèles IA, avec des implications pour les entreprises.",
+    "tags": [
+      "IA",
+      "sécurité",
+      "vulnérabilité",
+      "cookies",
+      "entreprise",
+      "Claude"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.75
+  },
+  {
+    "url": "https://towardsdatascience.com/avoiding-entity-key-drift-in-a-data-lake-step-2-when-fuzzy-matching-stops-working/",
+    "url_hash": "89e16ae92a7e24999eec1a9ebaddbb21",
+    "titre": "Avoiding Entity Key Drift in a Data Lake: Step 2, When Fuzzy Matching Stops Working",
+    "resume": "I built a matcher meant to finish the cleanup that normalization left behind. Testing it against real data showed that no version of it could be made safe. What follows is the architecture that was left once the matcher was set aside.\nThe post Avoiding Entity Key Drift in a Data Lake: Step 2, When Fuzzy Matching Stops Working appeared first on Towards Data Science.",
+    "date": "2026-09-02",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "L'article décrit une approche spécifique et avancée (étape 2) pour résoudre un problème courant et complexe de la gestion des données ('entity key drift') dans un data lake. Il présente une solution architecturale documentée avec des métriques implicites sur la robustesse.",
+    "tags": [
+      "data lake",
+      "gestion de données",
+      "qualité des données",
+      "architecture de données"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.75
+  },
+  {
     "url": "https://zapier.com/blog/agent-harness",
     "url_hash": "65ee11f48dca6566d04d6a3fefbec380",
     "titre": "What is an agent harness?",
@@ -33010,6 +33329,31 @@
     "score_composite": 5.6000000000000005
   },
   {
+    "url": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/",
+    "url_hash": "20a8d82f657000e0951d05c958a9b73b",
+    "titre": "Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing",
+    "resume": "The company is reducing pressure on workers to use artificial intelligence tools while encouraging them to experiment with Hatch, its most advanced AI project yet.",
+    "date": "2026-09-03",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article détaille l'approche de Meta concernant ses agents IA internes. Bien qu'il ne s'agisse pas d'une avancée technologique majeure, il offre un aperçu intéressant de l'adoption et de la gestion des agents IA dans un grand environnement d'entreprise.",
+    "tags": [
+      "Meta",
+      "agents IA",
+      "entreprise",
+      "adoption IA",
+      "ressources humaines"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.6000000000000005
+  },
+  {
     "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Tenant-Migration-Trade-offs-risks-and-realities/ba-p/5187013",
     "url_hash": "b4436a58f9c25acc0f56084b98591b98",
     "titre": "Power BI Tenant Migration: Trade-offs, risks, and realities",
@@ -34077,6 +34421,31 @@
       "benchmarks",
       "évaluation",
       "analyse"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.550000000000001
+  },
+  {
+    "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+    "url_hash": "980824ac6d3d02a2b00766b70bfe593a",
+    "titre": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+    "resume": "",
+    "date": "2026-09-03",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Cet article décrit une mise à jour importante dans le fine-tuning de modèles IA. Il présente une technique spécifique (GRPO) pour améliorer la sortie structurée des modèles, documentée avec des métriques.",
+    "tags": [
+      "fine-tuning",
+      "LLM",
+      "structured output",
+      "GRPO",
+      "trl"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
@@ -43204,6 +43573,30 @@
     "score_composite": 4.9
   },
   {
+    "url": "https://www.wired.com/story/face-recognition-is-becoming-the-norm-for-dating-apps/",
+    "url_hash": "bbab784876b00a6c78fdf8e2fa69f44e",
+    "titre": "Face Recognition Is Becoming the Norm for Dating Apps",
+    "resume": "To keep scammers at bay, dating apps are embracing biometric scanning tools and “verified human” badges. These moves are sparking concerns about surveillance and privacy.",
+    "date": "2026-09-03",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article documente un nouveau cas d'usage pour la reconnaissance faciale dans le secteur des applications de rencontre, soulignant son adoption croissante. Il s'agit d'une évolution notable dans l'application de l'IA.",
+    "tags": [
+      "face recognition",
+      "dating apps",
+      "AI ethics",
+      "biometrics"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.9
+  },
+  {
     "url": "https://medium.com/microsoft-power-bi/imputing-nulls-with-median-values-in-power-query-pbix-included-bd63100492df?source=rss------power_bi-5",
     "url_hash": "42a9254d75d9e2598af4696708fd64ea",
     "titre": "Imputing Nulls With Median Values in Power Query(.pbix included)",
@@ -43421,6 +43814,30 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 9,
+    "score_composite": 4.8999999999999995
+  },
+  {
+    "url": "https://www.sqlbi.com/tv/matrix-totals-the-whiteboard-13/",
+    "url_hash": "67e1e7224698ffaf6dd79e8c334d93dc",
+    "titre": "Matrix Totals – The Whiteboard #13",
+    "resume": "Let’s talk about matrix totals in this episode of The Whiteboard! Special guest: the SQLBI Whiteboard! Learn abstract DAX concepts in a more interactive way with “The Whiteboard” series. Read more: https://www.sqlbi.com/blog/marco/2022/07/14/the-whiteboard-video-series-on-sqlbi-youtube-channel/ #thewhiteboard",
+    "date": "2026-09-02",
+    "source_name": "SQLBI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un tutoriel avancé sur un aspect spécifique de DAX (Matrix Totals). Bien qu'utile pour les professionnels du BI, cela représente une évolution notable dans la maîtrise des outils et pratiques établies plutôt qu'une nouvelle percée.",
+    "tags": [
+      "DAX",
+      "Power BI",
+      "modélisation de données",
+      "tutoriel"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 2,
     "score_composite": 4.8999999999999995
   },
   {
@@ -46764,6 +47181,31 @@
       "Databricks",
       "gestion de données",
       "EV"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.55
+  },
+  {
+    "url": "https://medium.com/@mydata_insights/power-bi-vs-excel-for-manufacturing-reporting-complete-comparison-8a0f5984a5e2?source=rss------power_bi-5",
+    "url_hash": "e3aa155fcc916c38abb9d1e4f0a43cf5",
+    "titre": "Power BI vs Excel for Manufacturing Reporting: Complete Comparison",
+    "resume": "Most comparison articles open by treating Excel as a failure. That framing is wrong, and every experienced operations leader knows it…Continue reading on Medium »",
+    "date": "2026-09-03",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article compare Power BI et Excel pour le reporting de fabrication. Bien qu'utile, il s'agit d'une information sur une pratique établie et d'un comparatif d'outils plutôt qu'une avancée majeure.",
+    "tags": [
+      "Power BI",
+      "Excel",
+      "reporting",
+      "manufacturing",
+      "comparison"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
@@ -51802,6 +52244,30 @@
     "score_composite": 3.55
   },
   {
+    "url": "https://medium.com/@sakshidigitalmarketingitaccura/what-is-power-bi-and-why-should-every-data-analyst-learn-it-1ec1cf3f5dbb?source=rss------power_bi-5",
+    "url_hash": "0471ccbcfcf26fc48400170152267217",
+    "titre": "What Is Power BI and Why Should Every Data Analyst Learn It?",
+    "resume": "In today’s data-driven business world, companies generate huge amounts of information every day. From customer behaviour and sales…Continue reading on Medium »",
+    "date": "2026-09-03",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Ceci est un article d'information fondamentale expliquant les bases de Power BI et son importance pour les analystes de données. C'est une information utile sur une pratique établie.",
+    "tags": [
+      "Power BI",
+      "data analyst",
+      "business intelligence",
+      "data visualization"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.55
+  },
+  {
     "url": "https://medium.com/@pofojak884/why-power-bi-skills-matter-for-todays-data-careers-a8e7e1e36018?source=rss------power_bi-5",
     "url_hash": "d1dc1cb35e519ec1bca545235910ace2",
     "titre": "Why Power BI Skills Matter for Today’s Data Careers",
@@ -54516,6 +54982,29 @@
       "IA",
       "divertissement",
       "outil IA"
+    ],
+    "pertinence_bi_consultant": 1,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 1,
+    "score_composite": 1.6
+  },
+  {
+    "url": "https://www.wired.com/story/scientists-find-most-convincing-evidence-yet-dark-matter-particle/",
+    "url_hash": "dfe0b069a2606903498bf39d5d3765b4",
+    "titre": "Scientists Have Found the Most Convincing Evidence Yet of a Dark Matter Particle",
+    "resume": "An underground detector recorded a strange interaction pointing to a particle with some properties that signify dark matter. The detection is small but promising.",
+    "date": "2026-09-03",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 2,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Bien qu'intéressante d'un point de vue scientifique, cette découverte n'a pas d'impact direct sur l'IA, le Data Engineering ou la BI dans le contexte demandé. Elle est de faible valeur ajoutée pour ces domaines.",
+    "tags": [
+      "dark matter",
+      "physics",
+      "science discovery"
     ],
     "pertinence_bi_consultant": 1,
     "pertinence_passionné_ia": 2,
