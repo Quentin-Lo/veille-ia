@@ -490,7 +490,7 @@
     "source_name": "Latent Space",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_MODELES",
     "raison_score": "Annonce d'un nouveau modèle frontier (GPT-6 Astra) redéfinissant les capacités en termes d'utilisation informatique et de codage. Il s'agit d'une avancée majeure qui potentiellement redéfinit le paysage des LLM.",
@@ -2354,6 +2354,31 @@
     "score_composite": 7.9
   },
   {
+    "url": "https://www.marktechpost.com/2026/09/04/nvidia-releases-personal-ai-router-pair-an-open-source-virtual-inference-router-that-distributes-local-ai-requests-across-rtx-dgx-spark-and-mac-nodes/",
+    "url_hash": "bb6121431109444a17b079e283259788",
+    "titre": "NVIDIA Releases Personal AI Router (PAIR): An Open Source Virtual Inference Router that Distributes Local AI Requests Across RTX, DGX Spark, and Mac Nodes",
+    "resume": "We look at NVIDIA Personal AI Router (PAIR), an open source virtual inference router that spreads local AI requests across the machines already on a home network. We cover how PAIR proxies existing Ollama and LM Studio endpoints so agent harnesses need no changes, and how its scheduler filters nodes on readiness, engine state, exact model presence, job load, and GPU utilization. We walk through NVIDIA's five-subagent demonstration, which averaged 18 minutes on one RTX Spark laptop against 8 minu",
+    "date": "2026-09-05",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "PAIR de NVIDIA est un routeur d'inférence virtuel open-source qui distribue les requêtes IA locales sur différents nœuds. Cette solution disruptive améliore l'utilisation des ressources IA à domicile et pour les petites équipes.",
+    "tags": [
+      "IA",
+      "NVIDIA",
+      "open-source",
+      "inférence",
+      "routeur"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 7.9
+  },
+  {
     "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
     "url_hash": "28e622f5401555d0458c66b11cd728ab",
     "titre": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
@@ -3519,6 +3544,32 @@
     "score_composite": 7.65
   },
   {
+    "url": "https://www.saastr.com/california-is-taxing-saas-and-ai-tools-and-is-about-to-make-your-software-8-10-more-expensive-heres-what-sb-122-does-to-buyers-and-vendors/",
+    "url_hash": "ae3b83d42d98696cadaaf3b0487912df",
+    "titre": "California Is Taxing SaaS and AI Tools and Is About to Make Your Software 8-10% More Expensive. Here’s What SB 122 Does to Buyers and Vendors",
+    "resume": "On June 29, 2026, Gavin Newsom signed SB 122. Effective January 1, 2027, California sales and use tax applies to prewritten software and SaaS, however it’s delivered. Downloaded, streamed, accessed in a browser. All of it. California was the last giant holdout. For three decades the state taxed software on a disc and not software... Continue Reading",
+    "date": "2026-09-05",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "L'article rapporte une annonce réglementaire majeure (loi SB 122 en Californie) qui impacte directement les modèles économiques des entreprises SaaS et IA, potentiellement rendant les logiciels 8-10% plus chers. C'est une information cruciale pour l'écosystème entrepreneurial tech.",
+    "tags": [
+      "IA",
+      "SaaS",
+      "réglementation",
+      "fiscalité",
+      "Californie",
+      "entrepreneuriat"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 10,
+    "score_composite": 7.65
+  },
+  {
     "url": "https://venturebeat.com/infrastructure/aws-nabs-white-hot-gen-ai-media-creation-startup-fal-becoming-its-preferred-cloud-provider",
     "url_hash": "bd9ed39d5c0614d5b567a187046ff87f",
     "titre": "AWS nabs white hot gen AI media creation startup fal, becoming its preferred cloud provider",
@@ -3981,6 +4032,30 @@
       "IA générative",
       "vidéo",
       "multimodal",
+      "modèle frontier"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.6
+  },
+  {
+    "url": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human/",
+    "url_hash": "cf59892fa8b2fc9c9da099c87c64691d",
+    "titre": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era",
+    "resume": "OpenAI leaders think the company’s next generation model, which excels at computer use and coding, may mark a major milestone in AI development.",
+    "date": "2026-09-03",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce d'un modèle IA (GPT-6) aux capacités potentiellement révolutionnaires pour l'utilisation d'ordinateurs et le codage, ouvrant la voie à l'AGI. Représente une percée scientifique et un changement potentiel de paradigme.",
+    "tags": [
+      "GPT-6",
+      "AGI",
+      "OpenAI",
       "modèle frontier"
     ],
     "pertinence_bi_consultant": 4,
@@ -12227,6 +12302,31 @@
     "score_composite": 6.95
   },
   {
+    "url": "https://www.marktechpost.com/2026/09/04/google-agentic-video-understanding-gemini-flash-models/",
+    "url_hash": "51a4c943d1cf214ca1240d0462dc8ff1",
+    "titre": "Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88%",
+    "resume": "Gemini now navigates video instead of ingesting it at 1 FPS, loading only the segments a prompt needs.\nThe post Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88% appeared first on MarkTechPost.",
+    "date": "2026-09-05",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Google a lancé une compréhension vidéo agentique pour Gemini Flash, réduisant considérablement les tokens vidéo nécessaires. Cette nouvelle capacité améliore l'efficacité et la performance des modèles d'IA sur le contenu vidéo.",
+    "tags": [
+      "IA",
+      "vidéo",
+      "agents",
+      "Gemini",
+      "Google"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
     "url": "https://www.latent.space/p/the-coolest-diffusion-research-isnt",
     "url_hash": "3b215a1e99445682fed1507d14824aee",
     "titre": "🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
@@ -12810,6 +12910,31 @@
       "Développement IA",
       "Code",
       "Optimisation"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.900000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/",
+    "url_hash": "82b1a470656d97a89ef669c405ea8470",
+    "titre": "GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI",
+    "resume": "We look at Project HydraFusion, GitHub's research preview that treats workflow selection as an optimization problem rather than a model picker. We break down the three execution patterns it routes between — Single, Cascade with a quality gate, and Critique with a read-only cross-family reviewer.\nThe post GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI appeared first on MarkTechPost.",
+    "date": "2026-09-05",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Project HydraFusion de GitHub introduit une orchestration multi-modèles au runtime pour Copilot CLI, optimisant les flux de travail par tâche de codage. C'est une avancée significative dans l'assistance au développement basée sur l'IA.",
+    "tags": [
+      "IA",
+      "développement",
+      "assistance",
+      "orchestration",
+      "GitHub"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
@@ -15426,32 +15551,6 @@
       "évaluation",
       "open-source",
       "développement"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 6.7
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-gpt-realtime-2-translate-and",
-    "url_hash": "4972b43d1322864ecc14957117f632f5",
-    "titre": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs",
-    "resume": "OpenAI continues deploying GPT-5 everywhere",
-    "date": "2026-05-08",
-    "source_name": "Latent Space",
-    "categorie_source": "IA_AGENTS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_MODELES",
-    "raison_score": "L'annonce de nouvelles APIs vocales en temps réel, prétendument 'SOTA' (State-Of-The-Art), pour la traduction et le traitement de la voix par OpenAI représente une avancée significative dans la communication homme-machine et l'application de l'IA.",
-    "tags": [
-      "OpenAI",
-      "GPT",
-      "IA vocale",
-      "Temps réel",
-      "API",
-      "SOTA"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -22018,6 +22117,56 @@
     "score_composite": 6.350000000000001
   },
   {
+    "url": "https://www.producthunt.com/products/gemini-3-8-flash-2",
+    "url_hash": "8f2178ce006907c627afa6d2b0c8dc1a",
+    "titre": "Gemini 3.8 Flash",
+    "resume": "\n            Most intelligent workhorse yet for coding and agents\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-09-03",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Lancement d'une nouvelle version du modèle Gemini, positionnée comme un 'workhorse' pour le codage et les agents. L'aspect 'Flash' suggère une optimisation de performance ou de coût, indiquant une avancée significative.",
+    "tags": [
+      "Gemini",
+      "IA",
+      "modèle open-source",
+      "codage",
+      "agents"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.350000000000001
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+    "url_hash": "939cb98685e5e469fc4c9c52cb0f0a99",
+    "titre": "Meta is paying to peek at how you use their latest AI model",
+    "resume": "For its new Muse Spark model, intended for operating coding and other agents, Meta is offering an explicit discount averaging out to about 95% for users who \"contribute\" to the development of future models by sharing their prompts and model outputs.",
+    "date": "2026-09-03",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Annonce d'un nouveau modèle IA (Muse Spark) pour les agents et le codage, avec une stratégie d'incitation à l'amélioration continue par le partage des interactions. Ce type de modèle et sa méthode de développement sont des avancées importantes.",
+    "tags": [
+      "Meta",
+      "Muse Spark",
+      "agents",
+      "modèle IA",
+      "amélioration continue"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.350000000000001
+  },
+  {
     "url": "https://medium.datadriveninvestor.com/power-bi-is-finally-code-automating-semantic-model-governance-via-tmdl-eb7ba10d707c?source=rss------power_bi-5",
     "url_hash": "5a12a267218fbecfe4da26b670b442f4",
     "titre": "Power BI is Finally Code: Automating Semantic Model Governance via TMDL",
@@ -23302,6 +23451,31 @@
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.300000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/",
+    "url_hash": "6e14c88174a91aa4907ec99a366be4e0",
+    "titre": "UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents",
+    "resume": "Training and benchmarking a computer-use agent needs four things — agents, environments, traces, and a framework to evaluate and train them — and all four ship in incompatible formats today. CUA-Lite, from a UC Berkeley led team, puts them behind one action space and one data schema, and replaces OSWorld's per-task virtual machine with a plain Docker container at 0.9 GB instead of 4.1 GB.\nThe post UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and",
+    "date": "2026-09-06",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "CUA-Lite est une nouvelle plateforme open-source qui standardise et unifie les composants essentiels pour l'entraînement et l'évaluation des agents d'utilisation d'ordinateur. Cela représente une avancée significative pour la reproductibilité et la comparaison des recherches dans ce domaine.",
+    "tags": [
+      "IA",
+      "agents",
+      "open-source",
+      "plateforme",
+      "recherche"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 6,
     "score_composite": 6.300000000000001
   },
@@ -27546,31 +27720,6 @@
     "score_composite": 6.0
   },
   {
-    "url": "https://openai.com/index/running-codex-safely",
-    "url_hash": "09a84312cc4b2e231453d0d32d700da2",
-    "titre": "Running Codex safely at OpenAI",
-    "resume": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
-    "date": "2026-05-08",
-    "source_name": "OpenAI Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "IA_APPLIQUEE",
-    "raison_score": "Cet article détaille les pratiques de sécurité mises en place par OpenAI pour déployer Codex, un modèle d'IA pour la génération de code. Il apporte des informations utiles sur l'intégration sécurisée de l'IA dans un flux de développement.",
-    "tags": [
-      "OpenAI",
-      "Codex",
-      "Sécurité IA",
-      "DevOps",
-      "IA"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 5.950000000000001
-  },
-  {
     "url": "https://towardsdatascience.com/i-built-the-same-b2b-document-extractor-twice-rules-vs-llm/",
     "url_hash": "7e393c27f77da71ed63828143718d283",
     "titre": "I Built the Same B2B Document Extractor Twice: Rules vs. LLM",
@@ -28325,6 +28474,55 @@
       "agents IA",
       "Codex",
       "orchestration"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.950000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/09/05/perplexity-details-its-gpu-embedding-stack-how-ivy-tulip-and-rose-serve-pplx-embed/",
+    "url_hash": "0ceb24e10cbb694caa6b2d6e7228984f",
+    "titre": "Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed",
+    "resume": "Retrieval quality in an AI search product is bounded by two things: how good the embedding model is, and how cheaply you can run it across an index. This week, Perplexity Engineering team published Fast Embeddings on GPUs, an under-the-hood account of the second — the serving infrastructure behind pplx-embed and the ranking models used […]\nThe post Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed appeared first on MarkTechPost.",
+    "date": "2026-09-06",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article détaille l'infrastructure de service GPU de Perplexity pour ses modèles d'embedding, offrant une compréhension des optimisations techniques pour des performances accrues. C'est une évolution notable dans la mise en œuvre d'IA pour la recherche.",
+    "tags": [
+      "IA",
+      "embedding",
+      "GPU",
+      "infrastructure",
+      "Perplexity"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.950000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/09/05/nous-research-hermes-desktop-one-click-local-model-setup/",
+    "url_hash": "14ce067fa15145dcbcbb2c4c337f3d26",
+    "titre": "Nous Research Adds One-Click Local Model Setup to Hermes Desktop",
+    "resume": "Nous Research has collapsed local model setup into a single click in Hermes Desktop. The app reads your hardware, fit-checks the catalog against your GPU, picks the highest-quality build that fits, downloads it, and configures llama.cpp — with a hard 4-bit floor and a 64K minimum context window.\nThe post Nous Research Adds One-Click Local Model Setup to Hermes Desktop appeared first on MarkTechPost.",
+    "date": "2026-09-05",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Hermes Desktop de Nous Research simplifie l'installation de modèles IA locaux en un clic, avec une détection matérielle et une configuration automatisées. C'est une évolution notable pour l'accessibilité des modèles IA.",
+    "tags": [
+      "IA",
+      "modèles locaux",
+      "simplification",
+      "Nous Research"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -32562,6 +32760,31 @@
     "score_composite": 5.7
   },
   {
+    "url": "https://techcrunch.com/2026/09/03/startup-arr-is-less-secure-than-ever-new-research-shows/",
+    "url_hash": "55ec973ecaa7b62111f229ef40ea0287",
+    "titre": "Startup ARR is less secure than ever, new research shows",
+    "resume": "The AI era has completely broken enterprise buying patterns, and startups haven't yet figured out how to navigate.",
+    "date": "2026-09-03",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Publication de recherche quantifiée sur l'impact de l'IA sur la sécurité des revenus récurrents annuels des startups. Ce type d'étude fournit des métriques clés pour les entrepreneurs dans le contexte actuel.",
+    "tags": [
+      "startup",
+      "ARR",
+      "IA",
+      "entreprise",
+      "recherche"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 5.7
+  },
+  {
     "url": "https://data-mozart.com/implementing-scd-type-2-in-microsoft-fabric-the-definitive-guide/?utm_source=rss&utm_medium=rss&utm_campaign=implementing-scd-type-2-in-microsoft-fabric-the-definitive-guide",
     "url_hash": "08d9c10f9b5b2a452f98139d08a2d1f9",
     "titre": "Implementing SCD Type 2 in Microsoft Fabric – The Definitive Guide!",
@@ -35340,6 +35563,31 @@
     "score_composite": 5.55
   },
   {
+    "url": "https://medium.com/@subhradipta2025/hr-workforce-employee-attrition-analytics-using-power-bi-d276e0269a83?source=rss------power_bi-5",
+    "url_hash": "ec17ddd328208e7f1f7fe24cc88f0145",
+    "titre": "HR Workforce & Employee Attrition Analytics Using Power BI",
+    "resume": "Employee attrition is more than just a percentage.Continue reading on Medium »",
+    "date": "2026-09-05",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article documente un cas d'usage concret d'analyse de l'attrition des employés via Power BI. Il présente une application pratique de la BI pour les ressources humaines avec des métriques potentiellement chiffrées.",
+    "tags": [
+      "BI",
+      "Power BI",
+      "RH",
+      "analytique",
+      "attrition"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.55
+  },
+  {
     "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
     "url_hash": "5cc6e708b103168586a5ee9992ac2c2b",
     "titre": "OpenAI says Codex is coming to your phone",
@@ -37778,6 +38026,31 @@
       "workflows",
       "réglementation",
       "conformité"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.35
+  },
+  {
+    "url": "https://www.saastr.com/5-interesting-learnings-from-salesforce-at-45-billion-arr-14-crpo-growth-6-organic-growth-and-2-53-of-eps-from-its-anthropic-stake/",
+    "url_hash": "f0559c67477d022ca8806dc0f6cdafff",
+    "titre": "5 Interesting Learnings from Salesforce at $45 Billion ARR: 14% cRPO Growth, 6% Organic Growth, and $2.53 of EPS From Its Anthropic Stake",
+    "resume": "Salesforce reported Q2 FY27 on August 26 and the stock went up a stunning 23%. And almost every other B2B stock went up along with it, Is the SaaSpocolypse … over?  Well, it may be past the panic selling of earlier in the year at least at least. Salesforce did re-accelerate on bookings, and that... Continue Reading",
+    "date": "2026-09-03",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Article analysant la performance financière de Salesforce, incluant l'impact de leur participation dans Anthropic. Il offre des cas d'usage et des métriques quantifiées de l'intégration de l'IA dans une entreprise mainstream.",
+    "tags": [
+      "Salesforce",
+      "IA",
+      "finances",
+      "entreprise",
+      "métriques"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 4,
@@ -41035,6 +41308,31 @@
     "score_composite": 5.1000000000000005
   },
   {
+    "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+    "url_hash": "28be3fafd1e3c2c95e6c1c4f19699b54",
+    "titre": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+    "resume": "The high-profile startup's annual revenue run rate stands at over $100 million.",
+    "date": "2026-09-03",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Information sur une levée de fonds potentielle d'un montant très élevé pour une startup IA (Thinking Machines). Bien que ce ne soit pas une acquisition redessinant un secteur, une telle valorisation représente une évolution notable du marché.",
+    "tags": [
+      "startup",
+      "levée de fonds",
+      "IA",
+      "valorisation",
+      "venture capital"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 5.1000000000000005
+  },
+  {
     "url": "https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/",
     "url_hash": "edca86a2d564c1abb0ab22c0398a6af8",
     "titre": "RAG Is Not Machine Learning, and the ML Toolkit Solves the Wrong Problem",
@@ -44087,6 +44385,31 @@
     "score_composite": 4.9
   },
   {
+    "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
+    "url_hash": "9ebf8f5d0ca3e1b21f94175fc36828af",
+    "titre": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
+    "resume": "WeatherNext 3 is the latest wave of a sea change in meteorology brought out by deep learning techniques. Google says it will start feeding into weather information users see in search, Google Maps, and Gemini.",
+    "date": "2026-09-03",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Lancement d'un nouveau modèle IA de prévision météorologique (WeatherNext 3) intégrant des techniques de deep learning et destiné à être intégré dans des produits grand public (Search, Maps, Gemini). Il s'agit d'une évolution notable dans l'application de l'IA.",
+    "tags": [
+      "Google",
+      "IA",
+      "météo",
+      "modèle IA",
+      "application"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.9
+  },
+  {
     "url": "https://medium.com/microsoft-power-bi/imputing-nulls-with-median-values-in-power-query-pbix-included-bd63100492df?source=rss------power_bi-5",
     "url_hash": "42a9254d75d9e2598af4696708fd64ea",
     "titre": "Imputing Nulls With Median Values in Power Query(.pbix included)",
@@ -46111,6 +46434,31 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 4,
+    "score_composite": 4.699999999999999
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
+    "url_hash": "4d0be1d61b00620c1da64f3b8e832faa",
+    "titre": "Ollie is betting its focus on privacy can help it win the AI assistant race",
+    "resume": "The family-focused AI assistant wants access to the details of your everyday life, but says it won’t use that data to train AI models or share it with others.",
+    "date": "2026-09-03",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Présentation d'un nouvel assistant IA (Ollie) qui mise sur la confidentialité. Bien que ne représentant pas une avancée technique majeure, c'est un nouveau cas d'usage documenté avec une stratégie claire pour un produit mainstream.",
+    "tags": [
+      "Ollie",
+      "IA",
+      "assistant IA",
+      "confidentialité",
+      "cas d'usage"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
     "score_composite": 4.699999999999999
   },
   {
@@ -49327,6 +49675,31 @@
     "score_composite": 4.3
   },
   {
+    "url": "https://www.therundown.ai/articles/apple-vision-pro-scrubs-into-surgery",
+    "url_hash": "501aeab1932fd6f14c12075e6698f32a",
+    "titre": "Apple Vision Pro scrubs into surgery",
+    "resume": "PLUS: AI futurist Ray Kurzweil joins neurotech startup Subsense",
+    "date": "2026-09-04",
+    "source_name": "The Rundown AI",
+    "categorie_source": "IA_APPLIQUEE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Mention de l'utilisation de l'Apple Vision Pro dans un contexte chirurgical. Ce type d'intégration, même si l'article est court, illustre un nouveau cas d'usage appliqué de la technologie IA dans un domaine critique.",
+    "tags": [
+      "Apple Vision Pro",
+      "IA",
+      "chirurgie",
+      "application",
+      "VR/AR"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.3
+  },
+  {
     "url": "https://techcrunch.com/2026/05/31/this-is-fine-artist-kc-green-reaches-agreement-with-ai-startup-artisan/",
     "url_hash": "c1384759d49d34dd8de8755b1a2a9f2a",
     "titre": "‘This is fine’ artist KC Green reaches agreement with AI startup Artisan",
@@ -50302,6 +50675,31 @@
     "score_composite": 4.05
   },
   {
+    "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+    "url_hash": "f774e48a95a86006c0fa7702a7894421",
+    "titre": "Hikers rescued after using Google Gemini for planning",
+    "resume": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
+    "date": "2026-09-05",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article relate un cas où l'utilisation de Google Gemini pour la planification a mené à une situation dangereuse pour des randonneurs. Il met en lumière les risques et la nécessité de validation dans l'application de l'IA, offrant une information utile mais aussi un avertissement.",
+    "tags": [
+      "IA",
+      "Gemini",
+      "sécurité",
+      "application",
+      "cas d'usage"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.05
+  },
+  {
     "url": "https://towardsdatascience.com/whats-the-best-way-to-brainwash-an-llm/",
     "url_hash": "555f2f4173b2cacaacc900bd6121b71e",
     "titre": "What’s the Best Way to Brainwash an LLM?",
@@ -50419,31 +50817,6 @@
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 3,
     "score_composite": 4.0
-  },
-  {
-    "url": "https://github.blog/news-insights/policy-news-and-insights/why-age-assurance-laws-matter-for-developers/",
-    "url_hash": "b3f69f37cbee157c9170ea8cc0088124",
-    "titre": "Why age assurance laws matter for developers",
-    "resume": "Youth safety requirements are moving down the tech stack to operating systems and app stores—raising new questions for open source developers. \nThe post Why age assurance laws matter for developers appeared first on The GitHub Blog.",
-    "date": "2026-05-08",
-    "source_name": "GitHub Blog",
-    "categorie_source": "DEV_ASSISTE",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 4,
-    "categorie": "SECURITE_IA",
-    "raison_score": "Cet article traite d'un sujet réglementaire important pour les développeurs, axé sur la protection des jeunes utilisateurs. Bien qu'utile pour la conformité et la prise de conscience, il ne s'agit pas d'une percée technologique ou d'une révolution.",
-    "tags": [
-      "Réglementation",
-      "Sécurité",
-      "Développeurs",
-      "Lois",
-      "Jeunesse"
-    ],
-    "pertinence_bi_consultant": 4,
-    "pertinence_passionné_ia": 3,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 3.95
   },
   {
     "url": "https://medium.com/@ritaaggelou/the-same-data-4-different-stories-understanding-power-bi-column-charts-7481a99c8829?source=rss------power_bi-5",
@@ -54390,6 +54763,30 @@
     "score_composite": 2.95
   },
   {
+    "url": "https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/",
+    "url_hash": "f87265b96c88d23a2bc5be7089845b75",
+    "titre": "Why China Is the Bogeyman Data Center Enthusiasts Just Can't Quit",
+    "resume": "Polls show that overwhelming majorities of Americans hate data centers. China makes a perfect scapegoat for tech leaders and their allies—the only problem is a lack of evidence.",
+    "date": "2026-09-06",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "L'article aborde la perception et l'utilisation de la Chine comme bouc émissaire dans le discours sur les data centers. Bien qu'intéressant, son contenu est plus axé sur la sociologie et la politique que sur des avancées techniques ou d'affaires concrètes.",
+    "tags": [
+      "data center",
+      "Chine",
+      "géopolitique",
+      "perception"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 2.95
+  },
+  {
     "url": "https://medium.com/@2020ec0712/perspectives-and-personalization-in-power-bi-ba0c3fc545e5?source=rss------power_bi-5",
     "url_hash": "9a0c85c5c72bbcd9bf0296ce2f0fce21",
     "titre": "Perspectives and Personalization in Power BI",
@@ -54814,6 +55211,31 @@
     "pertinence_passionné_ia": 1,
     "pertinence_entrepreneur": 5,
     "score_composite": 2.6500000000000004
+  },
+  {
+    "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
+    "url_hash": "d625c42542cadc9e302e14395968cd84",
+    "titre": "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today",
+    "resume": "ChatGPT, Claude, and Grok all suffered outages at nearly the exact same time for reasons that remain murky.",
+    "date": "2026-09-03",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Article rapportant des pannes simultanées des services d'OpenAI et Anthropic. C'est une information utile sur la fiabilité actuelle des systèmes IA majeurs, mais n'apporte pas de nouveauté technique majeure ou de solution.",
+    "tags": [
+      "OpenAI",
+      "Anthropic",
+      "pannes",
+      "fiabilité",
+      "IA"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 2.6
   },
   {
     "url": "https://www.producthunt.com/products/slack",
