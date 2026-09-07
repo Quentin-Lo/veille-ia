@@ -515,7 +515,7 @@
     "source_name": "The Rundown AI",
     "categorie_source": "IA_APPLIQUEE",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_MODELES",
     "raison_score": "Cet article décrit GPT-6 Astra comme un 'saut générationnel' d'OpenAI, impliquant une avancée significative dans les capacités des modèles d'IA. Il s'agit d'une annonce majeure dans le domaine.",
@@ -1998,6 +1998,31 @@
       "Gouvernance",
       "Permissions",
       "Comportement"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.95
+  },
+  {
+    "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "url_hash": "2b36e6dbb8e700ebe515a535d2592691",
+    "titre": "Research acceleration: The view inside OpenAI",
+    "resume": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+    "date": "2026-09-06",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article présente l'utilisation d'agents de codage par OpenAI pour accélérer la recherche. Il fournit des données précoces sur l'utilisation des agents, la vélocité des expériences et la complexité des tâches, indiquant une avancée significative dans l'application pratique des agents.",
+    "tags": [
+      "openai",
+      "agents",
+      "research",
+      "acceleration",
+      "coding"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 9,
@@ -6375,6 +6400,54 @@
     "score_composite": 7.3500000000000005
   },
   {
+    "url": "https://www.saastr.com/our-newest-ai-agent-is-a-renewal-agent-it-builds-a-better-renewal-deck-than-any-human-could-for-every-single-account-not-just-the-big-ones/",
+    "url_hash": "c89b950a3b0e85af67a0f336a1fa6eda",
+    "titre": "Our Newest AI Agent Is a Renewal Agent. It Builds a Better Renewal Deck Than Any Human Could, For Every Single Account. Not Just the Big Ones.",
+    "resume": "Every company cuts the same corner on renewals. You go top down. Your biggest accounts get a real custom deck with their actual results in it. Everyone else gets a templated follow-up email. Not because you don’t care about them. Because nobody has a week to build 25 custom decks, and the week you’d spend... Continue Reading",
+    "date": "2026-09-02",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article décrit un agent IA innovant pour les renouvellements commerciaux, démontrant une nouvelle capacité documentée et reproductible pour automatiser des tâches complexes et améliorer la performance business.",
+    "tags": [
+      "agents IA",
+      "renouvellement",
+      "automatisation commerciale",
+      "ventes"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.3500000000000005
+  },
+  {
+    "url": "https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/",
+    "url_hash": "4cc1e632bbb67658e97c95e2aef99716",
+    "titre": "Nvidia RTX Spark ‘Superchip’: The First AI PCs Are Here",
+    "resume": "At IFA 2026, Nvidia and its partners showed off the first RTX Spark-powered laptops and mini PCs, designed to run AI models right on your computer.",
+    "date": "2026-09-03",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Il s'agit du lancement des premiers PC intégrant des puces dédiées à l'IA pour une exécution locale des modèles. C'est une avancée significative dans l'application de l'IA directement sur les appareils grand public.",
+    "tags": [
+      "Nvidia",
+      "AI PC",
+      "matériel IA",
+      "IA locale"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3500000000000005
+  },
+  {
     "url": "https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/",
     "url_hash": "f3a363f83daafbe93a5900a46846d162",
     "titre": "Google DeepMind Ships Three Physical AI Models For Whole Body Control, Dexterity And Multi Robot Collaboration",
@@ -8303,6 +8376,30 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 7,
+    "score_composite": 7.2
+  },
+  {
+    "url": "https://www.saastr.com/the-cpos-of-harvey-glean-and-rubrik-on-what-it-actually-takes-to-ship-a-category-winning-agent/",
+    "url_hash": "4ebed85aea66e1f89bbc5c9e584fc378",
+    "titre": "The CPOs of Harvey, Glean and Rubrik on What It Actually Takes To Ship a Category-Winning Agent",
+    "resume": "For about ten years, chief product officer was the best job in B2B. You brought your mug to the office, told the team what you were shipping this year, moved a few things to next quarter, and when an investor asked for a feature you said it was coming. And sometime, later, it was coming.... Continue Reading",
+    "date": "2026-09-02",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article présente des retours d'expérience de leaders produits sur le développement d'agents IA qui redéfinissent leur catégorie. Il documente un nouveau framework ou une pratique entrepreneuriale IA prometteuse.",
+    "tags": [
+      "agents IA",
+      "entrepreneuriat",
+      "stratégie produit",
+      "leadership"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
     "score_composite": 7.2
   },
   {
@@ -12302,6 +12399,30 @@
     "score_composite": 6.95
   },
   {
+    "url": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/",
+    "url_hash": "b1a49d842e918b433a18bdd7c5c8adce",
+    "titre": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
+    "resume": "OpenAI recently estimated its Cursor partnership would make more than $1 billion in revenue a year, WIRED has learned. It still walked away after Elon Musk’s SpaceX acquired the AI coding startup.",
+    "date": "2026-09-03",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article révèle une décision stratégique majeure d'OpenAI impactant un partenariat potentiel à un milliard de dollars, influencée par des considérations externes. Cela représente une avancée significative dans la compréhension des dynamiques de pouvoir et de décision dans l'écosystème IA.",
+    "tags": [
+      "OpenAI",
+      "Cursor",
+      "partenariat",
+      "stratégie IA"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.95
+  },
+  {
     "url": "https://www.marktechpost.com/2026/09/04/google-agentic-video-understanding-gemini-flash-models/",
     "url_hash": "51a4c943d1cf214ca1240d0462dc8ff1",
     "titre": "Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88%",
@@ -12320,6 +12441,30 @@
       "agents",
       "Gemini",
       "Google"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://towardsdatascience.com/why-most-multi-agent-systems-fail-even-when-evaluation-passes/",
+    "url_hash": "ff133f1fad4ab7101734d5404362d0c0",
+    "titre": "Why Most Multi-Agent Systems Fail Even When Evaluation Passes",
+    "resume": "How to catch a payload that looks correct but isn't, using a watchdog pattern with working Python.\nThe post Why Most Multi-Agent Systems Fail Even When Evaluation Passes appeared first on Towards Data Science.",
+    "date": "2026-09-07",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article aborde les raisons de l'échec des systèmes multi-agents, même lors de l'évaluation. Il propose une solution concrète avec un 'watchdog pattern' et du code Python, ce qui le rend documenté et reproductible.",
+    "tags": [
+      "multi-agent systems",
+      "ia agents",
+      "python",
+      "evaluation"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -12885,6 +13030,30 @@
       "IA",
       "gestion",
       "déploiement"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.900000000000001
+  },
+  {
+    "url": "https://www.producthunt.com/products/fillo-native-forms-without-the-backend",
+    "url_hash": "c34e1b147402f5f874d68f5e28ef69c9",
+    "titre": "Fillo",
+    "resume": "\n            Build forms into your product with your coding agent\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-09-02",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Ce produit permet de créer des formulaires avec un agent de codage, ouvrant la voie à des solutions d'automatisation plus accessibles et puissantes. Il s'agit d'une nouvelle capacité d'agent documentée pour l'automatisation.",
+    "tags": [
+      "agents IA",
+      "automatisation",
+      "formulaires",
+      "développement low-code"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
@@ -16762,6 +16931,30 @@
     "score_composite": 6.7
   },
   {
+    "url": "https://www.producthunt.com/products/grove-8",
+    "url_hash": "43d3a131380adbb5649e8af18e1c0f76",
+    "titre": "Grove",
+    "resume": "\n            One terminal for you and your AI agent\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-09-02",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Présentation d'un terminal unique pour les utilisateurs et leurs agents IA, ce qui représente une nouvelle capacité d'agent documentée et potentiellement reproductible pour simplifier l'interaction avec l'IA.",
+    "tags": [
+      "agents IA",
+      "interface utilisateur",
+      "productivité",
+      "terminal"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
     "url": "https://huggingface.co/blog/Hcompany/neomme",
     "url_hash": "aad76210e0dcff1a0c1499c000a6fd2e",
     "titre": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
@@ -16780,6 +16973,29 @@
       "Multilingue",
       "Encoder",
       "Open-source"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
+    "url": "https://www.saastr.com/jasons-takes-on-this-weeks-20vc-locks-beat-guardrails-agents-pick-your-software-and-building-with-448-open-tasks/",
+    "url_hash": "022732eacddb35a61750e4f0fcc08790",
+    "titre": "Jason’s Takes on This Week’s 20VC: Locks Beat Guardrails, Agents Pick Your Software, and Building With 448 Open Tasks",
+    "resume": "Ten things from this week’s episode that changed what I’m doing in my own build. Harry, Rory and I covered a lot on Thursday: Nvidia’s 70% guide, the $12.9B Hugging Face deal, OpenAI cutting off Cursor, Cognition at $46B. #1. Hugging Face + OpenAI? The agents ran long, found the holes, and … that was... Continue Reading",
+    "date": "2026-09-06",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article aborde l'évolution des agents IA dans la sélection de logiciels et discute de leur potentiel disruptif. Il se positionne comme une avancée notable dans la manière dont les agents IA pourraient être utilisés.",
+    "tags": [
+      "agents IA",
+      "sélection logicielle",
+      "entrepreneuriat"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -19818,6 +20034,29 @@
     ],
     "pertinence_bi_consultant": 9,
     "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
+    "url": "https://www.therundown.ai/articles/another-openai-agent-swarm-surfaces",
+    "url_hash": "a5b139afc5ce179e3e7faf832b27d3c7",
+    "titre": "Another OpenAI agent swarm surfaces",
+    "resume": "PLUS: Build a Lindy Agent that never drops a follow-up",
+    "date": "2026-09-07",
+    "source_name": "The Rundown AI",
+    "categorie_source": "IA_APPLIQUEE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article traite de l'émergence de nouveaux essaims d'agents OpenAI. Bien que les détails spécifiques ne soient pas fournis, cela indique une avancée dans la capacité et la reproductibilité des agents.",
+    "tags": [
+      "openai",
+      "agents",
+      "swarm"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 6,
     "score_composite": 6.550000000000001
   },
@@ -25679,6 +25918,30 @@
     "score_composite": 6.1000000000000005
   },
   {
+    "url": "https://www.producthunt.com/products/tucky",
+    "url_hash": "5d645167132c95a7216bb53bda3f3dfa",
+    "titre": "Tucky",
+    "resume": "\n            Notes docked to your screen edge, with an AI agent inside\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-09-06",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Tucky est un nouvel outil qui intègre un agent IA pour des notes épinglées à l'écran. L'intégration d'agents IA dans des outils mainstream représente une évolution notable.",
+    "tags": [
+      "tucky",
+      "ai agent",
+      "productivity",
+      "notes"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.1000000000000005
+  },
+  {
     "url": "https://openai.com/index/what-parameter-golf-taught-us",
     "url_hash": "15ea451729b25046f47bd6a907cf7687",
     "titre": "What Parameter Golf taught us about AI-assisted research",
@@ -29020,6 +29283,30 @@
     "score_composite": 5.95
   },
   {
+    "url": "https://pub.towardsai.net/your-semantic-model-can-now-power-a-fabric-app-that-is-bigger-than-another-dashboard-e298b485fbd6?source=rss------power_bi-5",
+    "url_hash": "8e4a7b4bb88b49a083f00aec933519d5",
+    "titre": "Your Semantic Model Can Now Power a Fabric App. That Is Bigger Than Another Dashboard.",
+    "resume": "Microsoft introduced Fabric Apps in preview in 2026, with Rayfin providing the SDK and CLI used to build and deploy them. One command…Continue reading on Towards AI »",
+    "date": "2026-09-02",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Cet article met en avant une nouvelle capacité de Microsoft Fabric permettant aux modèles sémantiques de directement alimenter des applications, une évolution notable dans l'intégration et l'utilisation des données.",
+    "tags": [
+      "Microsoft Fabric",
+      "modèles sémantiques",
+      "applications de données",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.95
+  },
+  {
     "url": "https://medium.com/@gavin.ellis/how-power-bi-consulting-services-accelerate-enterprise-reporting-modernization-5f5d679f3c3b?source=rss------power_bi-5",
     "url_hash": "53ec91a63863ffc9ee4f854e49cadb3b",
     "titre": "How Power BI Consulting Services Accelerate Enterprise Reporting Modernization",
@@ -29932,6 +30219,30 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.9
+  },
+  {
+    "url": "https://medium.com/@kartikbhaskarx/power-bi-is-more-than-a-dashboard-tool-why-it-became-my-go-to-tool-for-business-analytics-68f70b8732bf?source=rss------power_bi-5",
+    "url_hash": "32406fdcf45d2a5160558dbd88549d1c",
+    "titre": "Power BI Is More Than a Dashboard Tool: Why It Became My Go-To Tool for Business Analytics",
+    "resume": "A practical look at how Power BI connects data preparation, data modeling, DAX, visualization, and business decisions.Continue reading on Medium »",
+    "date": "2026-09-07",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article explique l'utilisation de Power BI au-delà des tableaux de bord, couvrant la préparation des données, la modélisation, DAX et la visualisation. C'est un retour d'expérience sur une pratique établie.",
+    "tags": [
+      "power bi",
+      "business analytics",
+      "dax",
+      "data modeling"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
     "score_composite": 5.9
   },
   {
@@ -32135,6 +32446,30 @@
       "agents",
       "gestion",
       "outil"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.700000000000001
+  },
+  {
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+    "url_hash": "7717815be07e12105384ca425d27b83a",
+    "titre": "How we make AI coding more cost efficient without sacrificing task quality",
+    "resume": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task.\nThe post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog.",
+    "date": "2026-09-02",
+    "source_name": "GitHub Blog",
+    "categorie_source": "DEV_ASSISTE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "L'article détaille des pratiques pour optimiser le coût des outils d'aide au codage par IA comme GitHub Copilot sans compromettre la qualité. C'est une évolution notable dans l'optimisation des solutions d'IA pour le développement.",
+    "tags": [
+      "GitHub Copilot",
+      "IA pour le code",
+      "optimisation",
+      "développement"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
@@ -36175,6 +36510,30 @@
     "score_composite": 5.5
   },
   {
+    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-sample-reports-refreshed-with-modern-visual-defaults/ba-p/5363807",
+    "url_hash": "698f007b56f0b61ac489d95ff37760f3",
+    "titre": "Power BI sample reports, refreshed with modern visual defaults",
+    "resume": "Microsoft has refreshed its Power BI sample reports with modern visual defaults, stronger semantic models, mobile-optimized layouts, and newer authoring features to help creators build clearer, more effective reports.",
+    "date": "2026-09-02",
+    "source_name": "Power BI Blog",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Mise à jour importante de l'outil Power BI avec des améliorations notables dans les rapports d'exemple, les modèles sémantiques et la conception mobile. Cela représente une évolution significative pour les utilisateurs de l'outil.",
+    "tags": [
+      "Power BI",
+      "visualisation",
+      "modèles sémantiques",
+      "design"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 5.5
+  },
+  {
     "url": "https://openai.com/index/braintrust",
     "url_hash": "ce0322c55738d3a62c4969608d584eb8",
     "titre": "How Braintrust turns customer requests into code with Codex",
@@ -38058,6 +38417,30 @@
     "score_composite": 5.35
   },
   {
+    "url": "https://medium.com/@technoexceltv/power-platform-training-a-practical-skill-for-modern-business-automation-f5adb396189e?source=rss------power_bi-5",
+    "url_hash": "3c9bd41204c115a2513dc7651912afee",
+    "titre": "Power Platform Training: A Practical Skill for Modern Business Automation",
+    "resume": "Many businesses still spend hours managing repetitive tasks, updating Excel files, and moving information between different applications…Continue reading on Medium »",
+    "date": "2026-09-07",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "L'article présente la formation Power Platform comme une compétence essentielle pour l'automatisation des tâches répétitives. Il met en avant un cas d'usage pertinent pour l'automatisation.",
+    "tags": [
+      "power platform",
+      "automation",
+      "business",
+      "training"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.35
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/26/stability-ai-releases-stable-audio-3-a-family-of-fast-latent-diffusion-models-for-audio-generation-and-editing/",
     "url_hash": "3e19060395fa5bc5a6bc66d806ad83e5",
     "titre": "Stability AI Releases Stable Audio 3: A Family of Fast Latent Diffusion Models for Audio Generation and Editing",
@@ -39057,6 +39440,30 @@
     "pertinence_bi_consultant": 9,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 3,
+    "score_composite": 5.3
+  },
+  {
+    "url": "https://medium.com/@adeniranmichaelelvis/how-a-power-bi-sales-dashboard-actually-works-49e2b4e66ac9?source=rss------power_bi-5",
+    "url_hash": "5b1d6dd57dc4f9ef4135a6ea30e92729",
+    "titre": "How a Power BI Sales Dashboard Actually Works",
+    "resume": "A Power BI dashboard can make a business look simple.Continue reading on Medium »",
+    "date": "2026-09-07",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "L'article décrit le fonctionnement d'un tableau de bord Power BI pour les ventes. Il documente un cas d'usage BI avec une explication de son fonctionnement, mais sans métriques quantifiées.",
+    "tags": [
+      "power bi",
+      "dashboard",
+      "sales",
+      "business intelligence"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
     "score_composite": 5.3
   },
   {
@@ -51786,6 +52193,77 @@
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.8
+  },
+  {
+    "url": "https://medium.com/@work.learnmoretechnology/power-bi-training-in-bangalore-learnmore-technologies-a0d021b8c16d?source=rss------power_bi-5",
+    "url_hash": "630ec02f95e2dc64d6cf5dd8b1a9275c",
+    "titre": "Power BI Training in Bangalore | Learnmore Technologies",
+    "resume": "In today’s data-driven business environment, organizations rely on data to make smarter decisions, identify trends, and improve…Continue reading on Medium »",
+    "date": "2026-09-07",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un article promotionnel pour une formation Power BI. Il informe sur une pratique établie (la formation BI) mais n'apporte pas de contenu technique nouveau.",
+    "tags": [
+      "power bi",
+      "formation",
+      "bangalore"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.8
+  },
+  {
+    "url": "https://medium.com/@pofojak884/power-bi-course-hyderabad-how-to-download-analytics-benchmarks-brochure-d5de5a5d2989?source=rss------power_bi-5",
+    "url_hash": "3bb7132d78a06dd7b89c92494b8dfd8f",
+    "titre": "Power BI Course Hyderabad: How to Download Analytics Benchmark’s Brochure",
+    "resume": "Choosing the right Power BI training program becomes easier when you have all the course information in one place. A brochure or course…Continue reading on Medium »",
+    "date": "2026-09-07",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un article informatif sur l'accès à une brochure de formation Power BI, ce qui le classe comme une information utile sur une pratique établie.",
+    "tags": [
+      "power bi",
+      "training",
+      "hyderabad",
+      "analytics"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.8
+  },
+  {
+    "url": "https://medium.com/@pofojak884/power-bi-training-in-hyderabad-analytics-benchmarks-upcoming-batch-calendar-1f12d3335949?source=rss------power_bi-5",
+    "url_hash": "008784bbee3d6cc0eeeeca4f5c06b90a",
+    "titre": "Power BI Training in Hyderabad: Analytics Benchmark’s Upcoming Batch Calendar",
+    "resume": "Choosing the right time to start a Power BI course can be difficult, especially for students and working professionals with different…Continue reading on Medium »",
+    "date": "2026-09-07",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article est une annonce d'informations pratiques (calendrier de formation) relatives à Power BI, le classant comme une information utile sur une pratique établie.",
+    "tags": [
+      "power bi",
+      "training",
+      "hyderabad",
+      "calendar"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 3,
     "score_composite": 3.8
   },
