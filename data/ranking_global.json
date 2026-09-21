@@ -1280,6 +1280,31 @@
     "score_composite": 8.1
   },
   {
+    "url": "https://www.marktechpost.com/2026/09/20/stepfun-launches-step-5-preview/",
+    "url_hash": "bfca9547feca852641738a2335e9fe42",
+    "titre": "StepFun Launches Step 5 Preview: A 600B-Total, 27B-Active MoE Model With 1M Context for Long-Horizon Agentic Work",
+    "resume": "StepFun has released Step 5 Preview, a sparse Mixture-of-Experts model with 600B total parameters and 27B active per token. It supports a 1M-token context window and accepts text, image, and video input. The model targets long-horizon agentic work in software engineering, professional knowledge work, and finance. API access is live at $1.00 per 1M input tokens and $2.70 per 1M output tokens, and open weights are scheduled for October 15, 2026.\nThe post StepFun Launches Step 5 Preview: A 600B-Tot",
+    "date": "2026-09-21",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "Ce modèle, avec ses 600B de paramètres et une fenêtre de contexte de 1M, représente une avancée majeure dans la puissance et la capacité des modèles IA pour le travail agentique de longue durée. L'annonce d'un modèle open-weight le rend potentiellement disruptif.",
+    "tags": [
+      "MoE",
+      "modèle IA",
+      "agentic work",
+      "large contexte",
+      "open-weight"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 8.1
+  },
+  {
     "url": "https://venturebeat.com/data/aws-enters-the-context-layer-race-with-a-graph-that-learns-from-agents-not-manual-curation",
     "url_hash": "2d3705b270cafd1df0bb5f4938bac376",
     "titre": "AWS enters the context layer race with a graph that learns from agents, not manual curation",
@@ -2361,7 +2386,7 @@
     "source_name": "OpenAI Blog",
     "categorie_source": "IA_MODELES",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_MODELES",
     "raison_score": "Annonce d'un nouveau modèle IA de génération de pointe (GPT-6 Astra) promettant des capacités accrues, potentiellement un changement de paradigme dans l'intelligence artificielle.",
@@ -9912,6 +9937,30 @@
     "score_composite": 7.050000000000001
   },
   {
+    "url": "https://towardsdatascience.com/graphrag-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+    "url_hash": "3caa027bb48f5f26e17362d27994498b",
+    "titre": "GraphRAG: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+    "resume": "Beyond basic graph retrieval: six production-oriented architectures for combining semantic search, knowledge graphs, and LLM reasoning.\nThe post GraphRAG: A Practitioner's Guide to 6 Advanced Architectural Patterns appeared first on Towards Data Science.",
+    "date": "2026-09-20",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Guide pratique documentant de nouvelles capacités et architectures pour des agents RAG avancés. Il propose des solutions reproductibles pour des cas d'usage complexes.",
+    "tags": [
+      "IA",
+      "RAG",
+      "architecture",
+      "ingénierie IA"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 7.050000000000001
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/24/stepfun-releases-stepaudio-2-5-realtime-an-end-to-end-voice-model-with-roleplay-specific-rlhf-and-paralinguistic-comprehension/",
     "url_hash": "87b78dadfc9ea188a2de1363f34d77d3",
     "titre": "StepFun Releases StepAudio 2.5 Realtime: An End-to-End Voice Model with Roleplay-Specific RLHF and Paralinguistic Comprehension",
@@ -10777,31 +10826,6 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 7,
-    "score_composite": 6.95
-  },
-  {
-    "url": "https://www.saastr.com/saastr-ai-app-of-the-week-helply-the-bootstrapped-b2b-support-platform-thats-free-forever-charges-only-when-ai-actually-resolves-a-ticket-and-showed-up-to-saastr-ai-2026-with-giant-pandas/",
-    "url_hash": "4321c0ed4778d91d317ade8c8f355e13",
-    "titre": "SaaStr AI App of the Week: Helply. The Bootstrapped B2B Support Platform That’s Free Forever, Charges Only When AI Actually Resolves a Ticket, and Showed Up to SaaStr AI 2026 With Giant Pandas",
-    "resume": "The Bottom Line: Alex Turnbull bootstrapped Groove from $0 to $5M ARR as a solo founder over a decade. Then he bet against his own playbook. Helply is the AI-native B2B support platform he’s building in public. The support platform itself is free forever. No seats, no caps. You only pay when AI delivers a... Continue Reading",
-    "date": "2026-05-23",
-    "source_name": "SaaStr",
-    "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 8,
-    "categorie": "ENTREPRENEURIAT",
-    "raison_score": "Présente un modèle économique disruptif pour une plateforme IA de support B2B, avec un focus sur le bootstrapping et un modèle pay-per-resolution. C'est une avancée entrepreneuriale documentée et intéressante.",
-    "tags": [
-      "IA appliquée",
-      "entrepreneuriat",
-      "modèle économique",
-      "support client",
-      "bootstrapped"
-    ],
-    "pertinence_bi_consultant": 4,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 9,
     "score_composite": 6.95
   },
   {
@@ -12801,28 +12825,28 @@
     "score_composite": 6.900000000000001
   },
   {
-    "url": "https://www.marktechpost.com/2026/05/23/tencent-open-sources-tencentdb-agent-memory-a-4-tier-local-memory-pipeline-for-ai-agents/",
-    "url_hash": "c2281cfbffa6560a8565d09c1cc788c5",
-    "titre": "Tencent Open-Sources TencentDB Agent Memory: A 4-Tier Local Memory Pipeline for AI Agents",
-    "resume": "Tencent has open-sourced TencentDB Agent Memory, a fully local memory system for AI agents released under the MIT license. The project pairs symbolic short-term memory, which offloads verbose tool logs into a compact Mermaid task canvas, with a 4-tier long-term memory pyramid (L0 Conversation → L1 Atom → L2 Scenario → L3 Persona). It ships as an OpenClaw plugin and a Hermes Docker image, runs on local SQLite + sqlite-vec by default, and uses hybrid BM25 + vector retrieval with RRF fusion. Tencen",
-    "date": "2026-05-23",
-    "source_name": "MarkTechPost",
-    "categorie_source": "IA_MODELES",
+    "url": "https://www.producthunt.com/products/jev-2",
+    "url_hash": "5fa8e80c93957b526901d869ffc9a48d",
+    "titre": "Jev",
+    "resume": "\n            Fast, structured AI decisions for software automation\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-09-21",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
     "score_pending": false,
     "article_du_jour": false,
     "score": 7,
-    "categorie": "IA_AGENTS",
-    "raison_score": "La mise à disposition open-source d'un système de mémoire locale multi-niveaux pour les agents IA est une avancée significative pour le développement de ces agents.",
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Lancement d'un nouvel outil d'automatisation basé sur l'IA, promettant des décisions structurées et rapides. Son positionnement comme disruptif et sa disponibilité potentielle le rendent significatif.",
     "tags": [
-      "AI agents",
-      "memory",
-      "open-source",
-      "Tencent"
+      "IA",
+      "automatisation",
+      "logiciel",
+      "productivité"
     ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 9,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 6.9
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.900000000000001
   },
   {
     "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
@@ -13294,31 +13318,6 @@
     "score_composite": 6.850000000000001
   },
   {
-    "url": "https://www.databricks.com/blog/scaling-mhhs-how-octopus-energy-achieved-50x-cost-reduction-margin-data-engineering",
-    "url_hash": "6201d9491d01f2d43909f49e8c9af496",
-    "titre": "Scaling for MHHS: how Octopus Energy achieved a 50x cost reduction in margin data engineering",
-    "resume": "The energy transition has a data problemThe UK's energy grid is in the middle of...",
-    "date": "2026-05-23",
-    "source_name": "Databricks Blog",
-    "categorie_source": "DATA_PLATFORM",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "DATA_PLATFORM",
-    "raison_score": "Octopus Energy a réalisé une réduction des coûts de 50x dans l'ingénierie des données de marge grâce à l'optimisation de leur plateforme. C'est un cas d'usage significatif et quantifié d'optimisation Data Engineering.",
-    "tags": [
-      "Data Engineering",
-      "optimisation des coûts",
-      "plateforme de données",
-      "énergie",
-      "études de cas"
-    ],
-    "pertinence_bi_consultant": 8,
-    "pertinence_passionné_ia": 5,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 6.8500000000000005
-  },
-  {
     "url": "https://venturebeat.com/security/datagrail-report-finds-your-vendor-may-be-sending-data-to-ai-models-you-never-approved",
     "url_hash": "5758a5a97635ed9e319625af712349cc",
     "titre": "DataGrail report finds your vendor may be sending data to AI models you never approved",
@@ -13668,6 +13667,30 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 7,
+    "score_composite": 6.8500000000000005
+  },
+  {
+    "url": "https://www.saastr.com/20vc-x-saastr-pacing-the-frontier-meta-ships-muse-and-its-great-and-miro-sells-for-1-35b-after-a-17-5b-mark/",
+    "url_hash": "dac3a07c5028729642858ce7fa256559",
+    "titre": "20VC x SaaStr: Pacing the Frontier, Meta Ships Muse And It’s Great, and Miro Sells for $1.35B After a $17.5B Mark",
+    "resume": "20VC x SaaStr: Pacing the Frontier, Meta Ships Muse, and Miro Sells for $1.35B After a $17.5B Mark Plus: a $1B round at $10B for Instinct, Discovery Loop from $10B to $50B in weeks, and Mistral’s €3B sovereignty round #1. Dario Called for Pacing the Frontier, and the Market Moved 0.1% Dario Amodei published a... Continue Reading",
+    "date": "2026-09-20",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Analyse de tendances entrepreneuriales et de marchés IA majeurs (Meta Muse, Mistral). Le sujet de 'Pacing the Frontier' et les valorisations mentionnées en font une avancée significative dans la compréhension du secteur.",
+    "tags": [
+      "IA",
+      "entrepreneuriat",
+      "capital-risque",
+      "stratégie"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 9,
     "score_composite": 6.8500000000000005
   },
   {
@@ -14483,31 +14506,6 @@
     "pertinence_passionné_ia": 9,
     "pertinence_entrepreneur": 7,
     "score_composite": 6.8
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/23/perplexity-open-sources-bumblebee-a-read-only-supply-chain-scanner-for-developer-endpoints/",
-    "url_hash": "eb18f8dd4b0572a4856eaf108ea0be2e",
-    "titre": "Perplexity Open-Sources Bumblebee: A Read-Only Supply-Chain Scanner for Developer Endpoints",
-    "resume": "Perplexity has open-sourced Bumblebee, an internal security tool it uses to protect the developer systems behind its search product, Comet, and Computer. Bumblebee is a read-only inventory collector for macOS and Linux developer endpoints. It scans npm, PyPI, Go modules, MCP configs, editor extensions, and browser extensions — without invoking any package manager or running any code.\nThe post Perplexity Open-Sources Bumblebee: A Read-Only Supply-Chain Scanner for Developer Endpoints appeared fir",
-    "date": "2026-05-23",
-    "source_name": "MarkTechPost",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "SECURITE_IA",
-    "raison_score": "Perplexity open-source Bumblebee, un outil de sécurité pour les endpoints de développeurs, offrant une analyse de la chaîne d'approvisionnement sans exécuter de code. C'est une avancée significative en matière de sécurité pour les développeurs.",
-    "tags": [
-      "sécurité",
-      "open-source",
-      "chaîne d'approvisionnement",
-      "développeurs",
-      "endpoints"
-    ],
-    "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 6.750000000000001
   },
   {
     "url": "https://www.marktechpost.com/2026/05/25/best-authentication-platforms-for-ai-agents-and-mcp-servers-in-2026/",
@@ -15387,30 +15385,6 @@
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 6,
     "score_composite": 6.700000000000001
-  },
-  {
-    "url": "https://towardsdatascience.com/from-prototype-to-profit-solving-the-agentic-token-burn-problem/",
-    "url_hash": "246b4db1db2b8cf6481732de4e34fd21",
-    "titre": "From Prototype to Profit: Solving the Agentic Token-Burn Problem",
-    "resume": "Engineer token-efficient, self-adapting workflows for production\nThe post From Prototype to Profit: Solving the Agentic Token-Burn Problem appeared first on Towards Data Science.",
-    "date": "2026-05-23",
-    "source_name": "Towards Data Science",
-    "categorie_source": "DATA_PLATFORM",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_AGENTS",
-    "raison_score": "Aborde un problème pratique et significatif dans le déploiement d'agents IA en production. Propose une approche documentée et reproductible pour une capacité d'agent.",
-    "tags": [
-      "agents IA",
-      "coût",
-      "production",
-      "optimisation"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 6.7
   },
   {
     "url": "https://www.marktechpost.com/2026/05/24/build-a-complete-langfuse-observability-and-evaluation-pipeline-for-tracing-prompt-management-scoring-and-experiments/",
@@ -16711,6 +16685,30 @@
       "cloud",
       "automatisation",
       "Anthropic"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
+    "url": "https://openai.com/index/v7",
+    "url_hash": "07a9efb9a15596c54ef1f4a992326fe8",
+    "titre": "How V7 gives AI agents institutional memory",
+    "resume": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+    "date": "2026-09-21",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article décrit une nouvelle capacité d'agents IA, en se basant sur une version avancée de GPT. Le concept de 'mémoire institutionnelle' pour les agents est une avancée notable pour les applications d'IA.",
+    "tags": [
+      "GPT",
+      "IA agents",
+      "mémoire",
+      "entreprise"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 8,
@@ -18143,31 +18141,6 @@
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 9,
     "score_composite": 6.6000000000000005
-  },
-  {
-    "url": "https://medium.com/@suddh123/i-built-a-power-bi-dashboard-from-a-plain-english-prompt-3bb1d8c9556b?source=rss------power_bi-5",
-    "url_hash": "a4561efb804367fed2679e9d2a72484e",
-    "titre": "I Built a Power BI Dashboard From a Plain-English Prompt.",
-    "resume": "No drag-and-drop. No chart configuration. No empty canvas staring back at me. Just a CSV, a sentence, and a working dashboard.Continue reading on Medium »",
-    "date": "2026-05-23",
-    "source_name": "Medium Power BI",
-    "categorie_source": "BI_OUTILS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "BUSINESS_IA",
-    "raison_score": "Article documentant un nouveau cas d'usage où un tableau de bord Power BI a été créé à partir d'une invite en langage naturel. Ceci illustre l'intégration de l'IA dans des outils de business mainstream avec des métriques implicites (rapidité).",
-    "tags": [
-      "Power BI",
-      "IA générative",
-      "langage naturel",
-      "tableaux de bord",
-      "cas d'usage"
-    ],
-    "pertinence_bi_consultant": 9,
-    "pertinence_passionné_ia": 5,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 6.550000000000001
   },
   {
     "url": "https://www.marktechpost.com/2026/05/27/nvidia-releases-polar-a-token-faithful-rollout-framework-for-grpo-training-across-codex-claude-code-and-qwen-code/",
@@ -22510,30 +22483,6 @@
     "score_composite": 6.35
   },
   {
-    "url": "https://www.marktechpost.com/2026/05/23/nous-research-releases-contrastive-neuron-attribution-cna-sparse-mlp-circuit-steering-without-sae-training-or-weight-modification/",
-    "url_hash": "7393f2ea709bdc6683fefa4bcd2d60e6",
-    "titre": "Nous Research Releases Contrastive Neuron Attribution (CNA): Sparse MLP Circuit Steering Without SAE Training or Weight Modification",
-    "resume": "Nous Research releases Contrastive Neuron Attribution (CNA), a method that identifies and ablates sparse MLP neuron circuits to steer LLM behavior — no sparse autoencoder training, no weight modification, and no degradation of general capability benchmarks.\nThe post Nous Research Releases Contrastive Neuron Attribution (CNA): Sparse MLP Circuit Steering Without SAE Training or Weight Modification appeared first on MarkTechPost.",
-    "date": "2026-05-23",
-    "source_name": "MarkTechPost",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_MODELES",
-    "raison_score": "La méthode CNA développée par Nous Research propose une nouvelle approche pour piloter le comportement des LLM sans entraînement ou modification de poids, marquant une avancée notable dans l'interprétabilité et le contrôle des modèles.",
-    "tags": [
-      "IA",
-      "LLM",
-      "modèles",
-      "recherche"
-    ],
-    "pertinence_bi_consultant": 4,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 6.300000000000001
-  },
-  {
     "url": "https://www.marktechpost.com/2026/05/29/hermes-agent-ships-tool-search-for-mcp-anthropic-evals-show-49-to-74-accuracy-gain-on-opus-4/",
     "url_hash": "4cbae2d24f902bd385a1d97ea0ce0c2e",
     "titre": "Hermes Agent Ships Tool Search for MCP: Anthropic Evals Show 49% to 74% Accuracy Gain on Opus 4",
@@ -24925,6 +24874,30 @@
     "score_composite": 6.15
   },
   {
+    "url": "https://medium.com/@kehindeazeez49/power-bi-mcp-server-the-bridge-between-ai-and-your-data-model-efe81f815713?source=rss------power_bi-5",
+    "url_hash": "bed3aee4947ad363418aec21439fd5b8",
+    "titre": "Power BI MCP Server: The Bridge Between AI and Your Data Model",
+    "resume": "What exactly is Power BI MCP Server?Continue reading on Medium »",
+    "date": "2026-09-21",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "L'article aborde le rôle d'un 'Power BI MCP Server' comme connecteur entre l'IA et les modèles de données. Cela suggère une intégration ou une fonctionnalité émergente qui mérite d'être explorée par les professionnels BI.",
+    "tags": [
+      "Power BI",
+      "IA",
+      "modèle de données",
+      "intégration"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 6.15
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/28/a-coding-guide-to-implement-a-pgvector-powered-semantic-hybrid-sparse-and-quantized-vector-search-system/",
     "url_hash": "d8bb637c41516941092103c864e318e4",
     "titre": "A Coding Guide to Implement a pgvector-Powered Semantic, Hybrid, Sparse, and Quantized Vector Search System",
@@ -25927,30 +25900,6 @@
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 9,
     "score_composite": 6.1
-  },
-  {
-    "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
-    "url_hash": "503a5ba4d23d9b3ce6928d77fe64e054",
-    "titre": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
-    "resume": "",
-    "date": "2026-05-23",
-    "source_name": "HuggingFace Blog",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_MODELES",
-    "raison_score": "Annonce de nouveaux modèles de langage de diffusion par Nemotron-Labs, promettant une génération de texte plus rapide. Bien qu'il ne s'agisse pas d'une percée révolutionnaire, c'est une avancée significative dans la performance des modèles.",
-    "tags": [
-      "LLM",
-      "generation de texte",
-      "performance",
-      "Nemotron-Labs"
-    ],
-    "pertinence_bi_consultant": 3,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 6.050000000000001
   },
   {
     "url": "https://www.databricks.com/blog/reliable-llm-inference-scale",
@@ -27448,30 +27397,6 @@
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 4,
     "score_composite": 6.0
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-all-model-labs-are-now-agent",
-    "url_hash": "4a8fcbecd9018b065d04d924faa4ce4a",
-    "titre": "[AINews] All Model Labs are now Agent Labs",
-    "resume": "a quiet day lets us tie together a few quotes as all model labs become agent labs",
-    "date": "2026-05-23",
-    "source_name": "Latent Space",
-    "categorie_source": "IA_AGENTS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "IA_AGENTS",
-    "raison_score": "Cet article suggère un changement de paradigme où les laboratoires de modèles se transforment en laboratoires d'agents. Il s'agit d'une évolution notable de la recherche et du développement en IA.",
-    "tags": [
-      "IA",
-      "agents",
-      "modèles",
-      "laboratoires de recherche"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 5.950000000000001
   },
   {
     "url": "https://www.marktechpost.com/2026/06/05/microsoft-fara-tutorial-run-a-browser-use-agent-in-google-colab-with-a-mock-openai-compatible-endpoint/",
@@ -30760,6 +30685,30 @@
     "score_composite": 5.800000000000001
   },
   {
+    "url": "https://www.producthunt.com/products/google-labs",
+    "url_hash": "e6b9cee054ea43940be2ce743132d2d7",
+    "titre": "CC",
+    "resume": "\n            Shared agent that helps keep your family in sync\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-09-20",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Lancement d'un agent partagé destiné à la synchronisation familiale, représentant un nouveau cas d'usage documenté dans le domaine des agents IA. Bien que spécifique, il montre une évolution dans les applications d'agents.",
+    "tags": [
+      "IA",
+      "agents",
+      "collaboration",
+      "nouvel outil"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.800000000000001
+  },
+  {
     "url": "https://medium.com/@aptomadhusudan/rms-data-integration-and-analytics-using-microsoft-fabric-390dd9eb4919?source=rss------power_bi-5",
     "url_hash": "9a248f9c323aa2284561e26a8ee6e658",
     "titre": "RMS Data Integration and Analytics Using Microsoft Fabric",
@@ -32458,6 +32407,30 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.7
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+    "url_hash": "ce68e248589d5c2885a5b70c09993a0f",
+    "titre": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
+    "resume": "Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets and other parts of the desktop experience.",
+    "date": "2026-09-21",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Intégration de l'IA (Gemini) dans un nouveau matériel grand public. Cela représente une évolution notable dans la manière dont l'IA sera accessible et utilisée au quotidien.",
+    "tags": [
+      "IA",
+      "hardware",
+      "Gemini",
+      "écosystème"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
     "score_composite": 5.7
   },
   {
@@ -34669,29 +34642,28 @@
     "score_composite": 5.550000000000001
   },
   {
-    "url": "https://medium.com/@suddh123/how-i-used-claudes-mcp-server-to-compile-a-power-bi-pbit-4432195a62f4?source=rss------power_bi-5",
-    "url_hash": "d10618255ca7933ccccfd06d9aa259a8",
-    "titre": "How I Used Claude’s MCP Server to Compile a Power BI .pbit",
-    "resume": "The lazy person’s guide to getting a working dashboard in under two minutes from a CSV fileContinue reading on Medium »",
-    "date": "2026-05-23",
-    "source_name": "Medium Power BI",
-    "categorie_source": "BI_OUTILS",
+    "url": "https://towardsdatascience.com/gpt-6-astra-just-hit-openais-highest-cybersecurity-risk-level/",
+    "url_hash": "7105db27a33b0ebf145d23e1db3f2193",
+    "titre": "GPT-6 Astra Just Hit OpenAI's Highest Cybersecurity Risk Level",
+    "resume": "Why this matters less for what Astra can do and more for what every other model hasn't been tested for\nThe post GPT-6 Astra Just Hit OpenAI's Highest Cybersecurity Risk Level appeared first on Towards Data Science.",
+    "date": "2026-09-21",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
     "score_pending": false,
     "article_du_jour": false,
-    "score": 5,
-    "categorie": "BI_OUTILS",
-    "raison_score": "Un tutoriel avancé montrant comment utiliser le serveur MCP de Claude pour compiler un fichier Power BI (.pbit). Il s'agit d'un cas d'usage documenté d'intégration d'IA dans un flux de travail BI.",
+    "score": 6,
+    "categorie": "SECURITE_IA",
+    "raison_score": "L'article met en lumière les enjeux de sécurité liés à des modèles IA très avancés comme GPT-6 Astra. Bien que ne décrivant pas une nouvelle capacité, il aborde un aspect critique de leur adoption et soulève des questions importantes.",
     "tags": [
-      "Power BI",
-      "Claude AI",
-      "MCP",
-      "automatisation",
-      "tutoriel"
+      "sécurité IA",
+      "GPT-6",
+      "risque",
+      "cybersécurité"
     ],
-    "pertinence_bi_consultant": 8,
-    "pertinence_passionné_ia": 4,
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 5,
-    "score_composite": 5.55
+    "score_composite": 5.550000000000001
   },
   {
     "url": "https://medium.com/@teminabitemplates/top-10-real-world-uses-of-power-bi-in-business-a81e1b5ada5d?source=rss------power_bi-5",
@@ -35874,6 +35846,30 @@
     "score_composite": 5.5
   },
   {
+    "url": "https://medium.com/@kanerika/ontology-vs-semantic-layer-differences-use-cases-and-why-ai-needs-both-02d87d20937d?source=rss------power_bi-5",
+    "url_hash": "57dc0476f02845afba530f13a8e764bf",
+    "titre": "Ontology vs Semantic Layer: Differences, Use Cases, and Why AI Needs Both",
+    "resume": "TL;DRContinue reading on Medium »",
+    "date": "2026-09-21",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "L'article détaille les différences et l'utilité des ontologies et des couches sémantiques, particulièrement dans le contexte de l'IA. C'est une discussion utile pour comprendre comment structurer les données pour des applications IA plus sophistiquées.",
+    "tags": [
+      "ontologie",
+      "couche sémantique",
+      "data governance",
+      "IA"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.5
+  },
+  {
     "url": "https://openai.com/index/braintrust",
     "url_hash": "ce0322c55738d3a62c4969608d584eb8",
     "titre": "How Braintrust turns customer requests into code with Codex",
@@ -36161,6 +36157,30 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.45
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests/",
+    "url_hash": "36c67a847c696766ee8ecadef96d9349",
+    "titre": "You too Google! Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+    "resume": "Google says Gemini accessed 3 real companies in May by guessing a password and reusing credentials from a public repository. Irregular told 4 labs in late July. Google spoke on September 18, after the WSJ asked. The misconfiguration is fixable. The staggered disclosure is the harder problem.\nThe post You too Google! Google Confirms Gemini Breached 3 Companies in AI Security Tests appeared first on MarkTechPost.",
+    "date": "2026-09-20",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "SECURITE_IA",
+    "raison_score": "Information utile concernant une faille de sécurité sur un modèle IA majeur (Gemini). Bien que non disruptive, elle souligne des enjeux importants pour l'adoption de l'IA en production.",
+    "tags": [
+      "IA",
+      "sécurité",
+      "Gemini",
+      "vulnérabilité"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 4,
     "score_composite": 5.45
   },
   {
@@ -37876,6 +37896,30 @@
     "score_composite": 5.35
   },
   {
+    "url": "https://medium.com/@lowcodeaisolutions/canvas-power-apps-dashboard-build-interactive-business-dashboards-with-low-code-ed2fb95038bb?source=rss------power_bi-5",
+    "url_hash": "9a5e2e1f1c754e9b50b0e8f4483107b2",
+    "titre": "Canvas Power Apps Dashboard: Build Interactive Business Dashboards with Low-Code",
+    "resume": "Canvas Power Apps Dashboard: Build Interactive Business Dashboards with Low-CodeContinue reading on Medium »",
+    "date": "2026-09-21",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "NOCODE_LOWCODE",
+    "raison_score": "L'article présente un cas d'usage documenté pour la création de tableaux de bord interactifs avec Power Apps en utilisant une approche low-code. Il illustre l'application pratique de ces outils pour des besoins métier.",
+    "tags": [
+      "Power Apps",
+      "low-code",
+      "tableaux de bord",
+      "business intelligence"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.35
+  },
+  {
     "url": "https://www.marktechpost.com/2026/05/26/stability-ai-releases-stable-audio-3-a-family-of-fast-latent-diffusion-models-for-audio-generation-and-editing/",
     "url_hash": "3e19060395fa5bc5a6bc66d806ad83e5",
     "titre": "Stability AI Releases Stable Audio 3: A Family of Fast Latent Diffusion Models for Audio Generation and Editing",
@@ -39486,30 +39530,6 @@
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 9,
     "score_composite": 5.25
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/05/23/build-a-superclaude-framework-workflow-with-commands-agents-modes-and-session-memory/",
-    "url_hash": "86abcef855f4303eb64f826a656a962b",
-    "titre": "Build a SuperClaude Framework Workflow with Commands, Agents, Modes, and Session Memory",
-    "resume": "In this tutorial, we build an advanced workflow using the SuperClaude Framework as a structured layer on top of the Anthropic API.\nThe post Build a SuperClaude Framework Workflow with Commands, Agents, Modes, and Session Memory appeared first on MarkTechPost.",
-    "date": "2026-05-23",
-    "source_name": "MarkTechPost",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 5,
-    "categorie": "IA_APPLIQUEE",
-    "raison_score": "Ce tutoriel propose une approche structurée pour construire des workflows avancés avec des agents IA, impliquant des concepts comme la mémoire de session.",
-    "tags": [
-      "AI agents",
-      "framework",
-      "tutorial",
-      "SuperClaude"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 5.2
   },
   {
     "url": "https://www.marktechpost.com/2026/05/26/design-a-complete-multimodal-rlvr-pipeline-with-open-mm-rl-vision-language-prompting-reward-scoring-and-grpo-export/",
@@ -41958,6 +41978,30 @@
     "score_composite": 5.05
   },
   {
+    "url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
+    "url_hash": "8e19f4707dbf1752fe16ebdefd488c32",
+    "titre": "ScrollEd wants to turn textbooks into TikTok",
+    "resume": "ScrollEd turns textbooks into a scrollable, Instagram-like feed with video, audio, and quizzes. The Palo Alto startup, founded by student co-founders (and spouses) Utsav Gupta and Rebecca Neff, pitches at TechCrunch Disrupt.",
+    "date": "2026-09-20",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Présentation d'une startup (ScrollEd) qui utilise l'IA pour transformer le contenu éducatif. C'est un nouveau cas d'usage innovant dans le domaine de l'EdTech, documenté avec une proposition de valeur claire.",
+    "tags": [
+      "IA",
+      "éducation",
+      "startup",
+      "contenu"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.05
+  },
+  {
     "url": "https://medium.com/@sirinebouksila_28590/understanding-calculate-the-dax-function-every-power-bi-developer-must-master-1b07d8919210?source=rss------power_bi-5",
     "url_hash": "f2809aa4d736cca64d24a4565e8fcb49",
     "titre": "Understanding CALCULATE(): The DAX Function Every Power BI Developer Must Master",
@@ -42973,6 +43017,30 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 8,
+    "score_composite": 4.95
+  },
+  {
+    "url": "https://zapier.com/blog/ai-coding-survey",
+    "url_hash": "0ceaee19b56731c9401617e1332b87bd",
+    "titre": "63% of developers have more work since non-devs began coding with AI, but most say it's good for the industry",
+    "resume": "Every labor-saving device ever invented came with the same promise and the same catch. The robot vacuum, for example, will clean your floors while you relax, and it does—right after you spend 15 minutes moving chair legs and coiling phone chargers so it doesn't eat them. The work didn't disappear. It changed shape and moved upstream. AI coding tools do the same thing. The pitch was that AI would handle the tedious parts of software development and hand developers back their afternoons. The first",
+    "date": "2026-09-21",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Article documentant un nouveau cas d'usage de l'IA pour le développement, avec des métriques sur son impact. L'étude quantifie les changements dans le travail des développeurs.",
+    "tags": [
+      "IA",
+      "développement",
+      "productivité",
+      "tendances"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
     "score_composite": 4.95
   },
   {
@@ -44411,6 +44479,31 @@
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.9
+  },
+  {
+    "url": "https://medium.com/@datawithnivetha/which-skills-will-matter-tomorrow-a75eae3f8569?source=rss------power_bi-5",
+    "url_hash": "ec63f2354f4cc6b2218b4f214d931342",
+    "titre": "Which Skills Will Matter Tomorrow?",
+    "resume": "An end-to-end data analytics case study exploring employment growth, occupational trends and skill demand using Python and Power BI.Continue reading on Medium »",
+    "date": "2026-09-21",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "L'article examine les compétences futures dans le domaine de la data analytics en utilisant Python et Power BI. Il offre une perspective sur les tendances du marché du travail, pertinente pour l'évolution des carrières et des compétences.",
+    "tags": [
+      "compétences data",
+      "analyse de données",
+      "Python",
+      "Power BI",
+      "tendances marché"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 5,
     "score_composite": 4.9
   },
@@ -46589,6 +46682,30 @@
     "score_composite": 4.699999999999999
   },
   {
+    "url": "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/",
+    "url_hash": "4c292615ef53e08cf4f99af2a8829688",
+    "titre": "Vocci’s ring adds a new form factor to meeting note-taking",
+    "resume": "Vocci's lightweight ring costs $249, and might pose some privacy questions.",
+    "date": "2026-09-20",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Présentation d'un nouveau produit (Vocci's ring) visant à automatiser la prise de notes lors de réunions. Bien qu'il ne s'agisse pas d'une rupture, c'est un cas d'usage documenté avec un nouveau format.",
+    "tags": [
+      "automatisation",
+      "prise de notes",
+      "réunions",
+      "nouveau produit"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.699999999999999
+  },
+  {
     "url": "https://www.wired.com/story/vertu-alphafold-folding-phone-powered-by-hermes-agent-ai/",
     "url_hash": "ea744a427a5a2fb1a859646f19c71917",
     "titre": "Vertu Is Back With a Folding Phone Powered by—Surprise—an AI Agent",
@@ -46932,29 +47049,6 @@
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 3,
     "score_composite": 4.65
-  },
-  {
-    "url": "https://medium.com/@hitesh88it/power-bi-finally-gets-set-as-landing-page-a-small-feature-that-solves-a-big-everyday-problem-8128ce6e085b?source=rss------power_bi-5",
-    "url_hash": "d6badcd1969f80f298a8cfc64d69a251",
-    "titre": "Power BI Finally Gets “Set as Landing Page” — A Small Feature That Solves a Big Everyday Problem",
-    "resume": "For anyone building reports in Microsoft Power BI, this update will feel surprisingly satisfying.Continue reading on Medium »",
-    "date": "2026-05-23",
-    "source_name": "Medium Power BI",
-    "categorie_source": "BI_OUTILS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 5,
-    "categorie": "BI_OUTILS",
-    "raison_score": "Met en avant une mise à jour importante d'un outil BI existant, améliorant une fonctionnalité du quotidien pour les utilisateurs.",
-    "tags": [
-      "Power BI",
-      "mise à jour",
-      "fonctionnalité"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 2,
-    "pertinence_entrepreneur": 3,
-    "score_composite": 4.6000000000000005
   },
   {
     "url": "https://medium.com/@robertchelala/stop-using-static-date-filters-for-readmission-rates-heres-the-right-way-in-power-bi-97e4cd73758e?source=rss------power_bi-5",
@@ -48222,29 +48316,6 @@
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 3,
     "score_composite": 4.500000000000001
-  },
-  {
-    "url": "https://www.producthunt.com/products/dockflow",
-    "url_hash": "4f8acc75d3892aeb67e8dbd96eed9925",
-    "titre": "DockFlow",
-    "resume": "\n            Save, switch, and automate Dock layouts for every workflow\n          \n          \n            Discussion\n            |\n            Link\n          ",
-    "date": "2026-05-23",
-    "source_name": "Product Hunt",
-    "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 5,
-    "categorie": "AUTOMATISATION",
-    "raison_score": "Présente un nouvel outil d'automatisation qui vise à améliorer les flux de travail par la gestion des layouts. C'est une évolution notable dans ce domaine.",
-    "tags": [
-      "automatisation",
-      "flux de travail",
-      "productivité"
-    ],
-    "pertinence_bi_consultant": 4,
-    "pertinence_passionné_ia": 3,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 4.5
   },
   {
     "url": "https://medium.com/microsoft-power-bi/easily-remove-outliers-in-power-query-pbix-included-9ca6d1943e39?source=rss------power_bi-5",
@@ -50842,6 +50913,30 @@
     "score_composite": 4.15
   },
   {
+    "url": "https://medium.com/microsoft-power-bi/calculating-department-wise-median-salary-in-power-bi-pbix-included-20cf10370182?source=rss------power_bi-5",
+    "url_hash": "bdd97020ddbbd2989dbd7530e1d5bc8d",
+    "titre": "Calculating Department Wise Median Salary in Power BI(.pbix included)",
+    "resume": "Analyzing salary distributions across departments is a common requirement in HR and finance reporting. While averages often mask…Continue reading on Power BI »",
+    "date": "2026-09-21",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article fournit un tutoriel pratique pour calculer la médiane des salaires par département dans Power BI, avec un fichier PBIX. Il s'agit d'une information utile pour un cas d'usage BI courant.",
+    "tags": [
+      "Power BI",
+      "DAX",
+      "analyse RH",
+      "médiane"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.15
+  },
+  {
     "url": "https://www.databricks.com/blog/azure-databricks-data-ai-summit-2026-featuring-industry-leaders-and-partners",
     "url_hash": "8d80e1ccfdfc460fd38a1487bd42e77e",
     "titre": "Azure Databricks at Data + AI Summit 2026 featuring Industry Leaders and Partners",
@@ -52865,30 +52960,6 @@
     "score_composite": 3.5500000000000003
   },
   {
-    "url": "https://medium.com/@ohikhuemeomogbera/how-i-built-my-first-power-bi-dashboard-using-pharmaceutical-sales-data-50b8261353ea?source=rss------power_bi-5",
-    "url_hash": "95be3c87fc438a7b1d2ff681b8f36c47",
-    "titre": "How I Built My First Power BI Dashboard Using Pharmaceutical Sales Data",
-    "resume": "INTRODUCTIONContinue reading on Medium »",
-    "date": "2026-05-23",
-    "source_name": "Medium Power BI",
-    "categorie_source": "BI_OUTILS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 3,
-    "categorie": "BI_PRATIQUES",
-    "raison_score": "Décrit un cas d'usage BI et le retour d'expérience d'une entreprise sur le déploiement d'un outil. Utile pour les débutants en BI.",
-    "tags": [
-      "Power BI",
-      "dashboard",
-      "pharmaceutique",
-      "cas d'usage"
-    ],
-    "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 2,
-    "pertinence_entrepreneur": 3,
-    "score_composite": 3.55
-  },
-  {
     "url": "https://medium.com/@contact.kiran1997/highlight-any-date-range-on-a-power-bi-line-chart-0c2e1bd48280?source=rss------power_bi-5",
     "url_hash": "5686a879f2b387519fd5b6cc8bf656e7",
     "titre": "Highlight Any Date Range on a Power BI Line Chart",
@@ -53290,6 +53361,30 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 3,
+    "score_composite": 3.55
+  },
+  {
+    "url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/",
+    "url_hash": "dd0d90e10973076d9811d71d59dee0ca",
+    "titre": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026",
+    "resume": "Meet the next wave of VCs judging the Startup Battlefield 200 contenders on the main stage at TechCrunch Disrupt 2026. Register by Sept 25, 11:59 p.m. PT, to save up to $200 and to get a front-row seat to one of the most intense startup pitch competition.",
+    "date": "2026-09-21",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Article d'information utile sur l'écosystème entrepreneurial tech et les tendances d'investissement. Pas de découverte technique mais un aperçu du marché.",
+    "tags": [
+      "entrepreneuriat",
+      "VC",
+      "startups",
+      "événements"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 8,
     "score_composite": 3.55
   },
   {
@@ -54315,6 +54410,54 @@
       "macOS",
       "VM",
       "Configuration"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.3
+  },
+  {
+    "url": "https://medium.com/@swarnaofficial03/power-bi-training-in-tamil-nadu-develop-practical-data-analytics-skills-8052b1a61099?source=rss------power_bi-5",
+    "url_hash": "a02779dad7f402d712e344e0ed277706",
+    "titre": "Power BI Training in Tamil Nadu — Develop Practical Data Analytics Skills",
+    "resume": "Data is an essential part of modern business, and organizations need professionals who can turn complex information into clear and useful…Continue reading on Medium »",
+    "date": "2026-09-21",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un article promotionnel pour une formation Power BI. Bien qu'il souligne l'importance des compétences en analyse de données, il n'apporte pas d'informations techniques nouvelles ou d'analyse approfondie.",
+    "tags": [
+      "Power BI",
+      "formation",
+      "analyse de données",
+      "compétences"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.3
+  },
+  {
+    "url": "https://medium.com/@venugopal.uniq/power-bi-training-in-tamil-nadu-learn-data-analytics-dax-dashboard-development-aa44ce2f906b?source=rss------power_bi-5",
+    "url_hash": "eb251293b1e493ec874af465a5967ab6",
+    "titre": "Power BI Training in Tamil Nadu: Learn Data Analytics, DAX & Dashboard Development",
+    "resume": "Learn Power BI in Tamil Nadu with practical training in Power Query, DAX, data modeling, interactive dashboards and real-world projects.Continue reading on Medium »",
+    "date": "2026-09-21",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Similaire à l'article précédent, celui-ci fait la promotion d'une formation Power BI, mentionnant les compétences à acquérir (DAX, développement de tableaux de bord). Il ne contient pas d'informations novatrices ou d'analyses techniques profondes.",
+    "tags": [
+      "Power BI",
+      "formation",
+      "DAX",
+      "tableaux de bord"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 2,
@@ -55378,30 +55521,6 @@
     "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 4,
     "score_composite": 2.7
-  },
-  {
-    "url": "https://techcrunch.com/2026/05/23/nuclear-startup-deep-fission-says-its-going-public-again-and-i-have-questions/",
-    "url_hash": "85b6e7147c4984fa773c2affb71551b2",
-    "titre": "Nuclear startup Deep Fission says it’s going public, again, and I have questions",
-    "resume": "Deep Fission is seeking an IPO that could raise $157 million, though investors may have trouble buying the nuclear startup's story.",
-    "date": "2026-05-23",
-    "source_name": "TechCrunch",
-    "categorie_source": "BUSINESS_IA",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 3,
-    "categorie": "ENTREPRENEURIAT",
-    "raison_score": "Couvre l'actualité d'une startup dans un secteur spécifique (nucléaire) avec une perspective critique. Offre des informations utiles sur le financement et les défis entrepreneuriaux.",
-    "tags": [
-      "startup",
-      "finance",
-      "technologie nucléaire",
-      "IPO"
-    ],
-    "pertinence_bi_consultant": 2,
-    "pertinence_passionné_ia": 1,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 2.6500000000000004
   },
   {
     "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
