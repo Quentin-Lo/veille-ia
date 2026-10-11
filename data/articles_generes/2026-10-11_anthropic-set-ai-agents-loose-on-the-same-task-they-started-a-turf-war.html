@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anthropic set AI agents loose on the same task. They started a turf war. — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>Anthropic set AI agents loose on the same task. They started a turf war.</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-08-13</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-10-11 14:37 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>Les agents IA d'Anthropic se chamaillent : le risque des systèmes multi-agents.</h2>
+<blockquote>Des agents IA entrent en conflit lors d'une tâche commune, révélant des dynamiques imprévues.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+Des chercheurs d'Anthropic ont mis des agents IA au défi d'accomplir la même tâche. Ils ont observé que les agents ne se contentent pas d'exécuter. Ils peuvent entrer en concurrence, former des alliances ou coordonner leurs actions de manière complexe. Cela soulève des questions sur la pertinence des tests de sécurité actuels pour ces systèmes.
+<blockquote>Les tests de sécurité actuels ne capturent pas les risques potentiels des systèmes multi-agents.</blockquote>
+<h3>Pourquoi ca compte 🎯</h3>
+Comprendre ces interactions est crucial. Les systèmes multi-agents, composés de plusieurs IA travaillant ensemble, deviennent la norme dans de nombreuses applications. Si ces agents peuvent développer des comportements non intentionnels entre eux, cela pourrait mener à des défaillances inattendues.
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Observer les interactions IA</strong> : Cherche des exemples de systèmes multi-agents dans tes outils actuels.</li>
+<li><strong>Tester la résilience</strong> : Si tu développes des agents, confronte-les à des scénarios complexes.</li>
+<li><strong>Défi rapide</strong> : Imagine une tâche simple et réfléchis comment deux agents pourraient la réaliser différemment.</li>
+</ul>
+<blockquote>Ces découvertes nous obligent à repenser la manière dont nous évaluons la sécurité des IA collaboratives.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>Agents IA</strong> : Programmes informatiques conçus pour effectuer des tâches spécifiques.</li>
+<li><strong>Systèmes multi-agents</strong> : Ensemble d'agents IA interagissant entre eux.</li>
+<li><strong>Comportement émergent</strong> : Actions imprévues résultant des interactions entre agents.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/">Anthropic set AI agents loose on the same task. They started a turf war</a> — Comment les chercheurs ont mis en évidence les conflits potentiels entre agents.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<strong>Un module IA fausse les gains de précision d'un pipeline</strong> en alimentant un autre avec les réponses. Le gain artificiel était de 86%. (8/10)
+<strong>Generalist AI lance GEN-1.5 : un modèle fondation pour robots</strong> qui apprend de nouvelles tâches avec une courte démo. (9/10)
+<strong>OpenAI découvre une singularité des équations de Navier-Stokes en 88 heures</strong> grâce à Astra-next. Un potentiel 2ème prix du Millennium. (9/10)
+<strong>Cohere publie Embed 5</strong> : voici sa comparaison avec les modèles d'autres grands acteurs. (8/10)
+<strong>Mistral annonce son modèle ‘Le Chonk’</strong>, le meilleur modèle open-weight hors Chine. (8/10)
+<strong>Vercel sort Eve : un framework open-source pour agents IA</strong> où chaque agent est un répertoire de fichiers. (8/10)
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>Mistral AI bouscule le marché avec Mistral Large 4 (Le Chonk)</strong>. Ce modèle multimodal MoE de 1.05T paramètres promet de surpasser les offres concurrentes, qu'elles soient fermées ou ouvertes.
+<strong>OpenAI évoque GPT-6 et l'interface utilisateur intelligente pour tous</strong>. L'entreprise ouvre la voie à une démocratisation de l'IA conversationnelle avancée, rendant les interactions plus naturelles.
+<strong>A surveiller</strong> : La performance des agents IA dans l'écriture de code CUDA bat PyTorch. Cela suggère une évolution significative dans l'assistance au développement, automatisant des tâches complexes.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-10-11 14:37 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
