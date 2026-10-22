@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-10-21</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-10-22 13:25 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>DeepSeek DeepInfer : l'IA open-source qui propulse l'inférence à 155T tokens/jour 🚀</h2>
+<blockquote>L'open-source chinois frappe fort avec une solution d'inférence IA ultra-performante et rentable.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+<p>DeepSeek, un laboratoire de recherche basé en Chine, a lancé DeepInfer. C'est une plateforme open-source pour l'inférence de modèles d'IA. Elle promet des débits exceptionnels. Un cluster peut traiter 155 téra-tokens par jour. C'est une avancée majeure pour l'accès à l'IA performante.</p>
+<p>Les chiffres avancés par Latent Space sont impressionnants. DeepInfer générerait 22 millions de dollars par jour de revenus. La marge brute serait d'environ 80%. Le retour sur investissement pour un cluster atteint 81 jours. C'est une proposition économique très attractive.</p>
+<blockquote>DeepSeek affirme que DeepInfer surpasse les solutions propriétaires sur 6 benchmarks sur 8.</blockquote>
+<h3>Pourquoi ca compte 🎯</h3>
+<p>Cette annonce a de quoi faire trembler le marché. En rendant une telle performance accessible en open-source, DeepSeek démocratise l'IA de pointe. Les entreprises n'ont plus besoin de développements coûteux ou de licences onéreuses. Elles peuvent déployer des systèmes d'inférence de haute volée à moindre coût.</p>
+<p>L'impact sur les coûts d'infrastructure est direct. L'optimisation des performances se traduit par une réduction des besoins matériels. La rentabilité annoncée ouvre la porte à de nouveaux modèles économiques pour les services IA. C'est une opportunité pour les startups comme pour les grandes entreprises.</p>
+<table>
+<tr><th>Caractéristique</th><th>DeepInfer (Open Source)</th><th>Solutions Propriétaires (Estimation)</th></tr>
+<tr><td>Coût d'acquisition</td><td>Faible (open source)</td><td>Élevé (licences, développement)</td></tr>
+<tr><td>Vitesse d'inférence</td><td>155T tokens/jour/cluster</td><td>Variable, souvent moins élevé</td></tr>
+<tr><td>Marge brute potentielle</td><td>~80%</td><td>Variable, potentiellement plus basse</td></tr>
+<tr><td>Délai de retour sur investissement</td><td>~81 jours</td><td>Plus long</td></tr>
+</table>
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Tester DeepInfer</strong> : exploration du dépôt GitHub pour intégration.</li>
+<li><strong>Analyser le modèle économique</strong> : comprendre comment atteindre la rentabilité annoncée.</li>
+<li><strong>Comparer avec les offres existantes</strong> : évaluer l'avantage compétitif dans ton cas d'usage.</li>
+</ul>
+<blockquote>La haute performance et la rentabilité de DeepInfer ouvrent de nouvelles perspectives pour ton infrastructure IA.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>Inférence IA</strong> : processus d'exécution d'un modèle d'IA entraîné pour générer des résultats.</li>
+<li><strong>Téra-token</strong> : une unité de mesure représentant un trillion de tokens (mots ou sous-mots) dans un texte.</li>
+<li><strong>Open Source</strong> : logiciel dont le code source est librement disponible et modifiable par tous.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://www.latent.space/p/ainews-deepseek-deepinfer-open-source">Latent Space - AINews: DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback</a> — une analyse détaillée des performances et du business model.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<ul><li><strong>Mach9 lève 34M$ pour son logiciel CAD basé sur l'IA</strong> (9). L'entreprise réoriente sa stratégie vers la conception assistée par ordinateur avec une forte composante IA.</li>
+<li><strong>Cohere lance Embed 5, comparé aux modèles concurrents</strong> (8). Cohere publie les performances de sa nouvelle génération d'embeddings et les compare à ceux de Voyage, Gemini et OpenAI.</li>
+<li><strong>Mistral lance 'Le Chonk', son nouveau modèle open-weight</strong> (8). Le spécialiste français de l'IA présente son dernier modèle, affirmant sa supériorité hors de Chine.</li>
+<li><strong>ALTK-Evolve d'IBM prend la tête du classement τ²-bench</strong> (8). Ce modèle utilise la mémoire apprise pour exceller dans le service client, sans recourir à un modèle de pointe.</li>
+<li><strong>Construire l'environnement d'entreprise pour l'IA agentique</strong> (8). Un éclairage sur les défis et solutions pour intégrer des agents IA autonomes dans les processus d'entreprise.</li>
+<li><strong>Réduction des prix de GPT 5.6 : jusqu'à -80%</strong> (8). L'optimisation récursive de GPT 5.6 a entraîné une chute des coûts d'utilisation de GPT 5.4 de 13x en 4 mois.</li>
+</ul>
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>L'IA débarque sur Google Cloud</strong> — OpenAI noue un partenariat avec Google Cloud, intégrant ses modèles sur la plateforme. Cela marque une nouvelle étape dans la démocratisation de l'accès aux IA de pointe.
+<strong>Nouvelle vision de l'IA</strong> — Une théorie émergente suggère que notre compréhension actuelle des mécanismes de l'IA pourrait être erronée. Cette idée pourrait bouleverser le développement futur.
+<strong>Puces conçues par IA pour résoudre la crise du calcul</strong> — Riccursive Intelligence mise sur des puces conçues par IA pour pallier la demande croissante en puissance de calcul.
+<strong>A surveiller</strong> — Le marché de l'IA générative continue de voir une concurrence féroce entre les modèles open-weight et les solutions propriétaires. L'impact sur les coûts et la performance est considérable.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-10-22 13:25 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
