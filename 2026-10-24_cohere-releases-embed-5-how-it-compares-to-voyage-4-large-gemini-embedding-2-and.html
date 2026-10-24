@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cohere Releases Embed 5: How It Compares to Voyage 4 Large, Gemini Embedding 2, and OpenAI — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>Cohere Releases Embed 5: How It Compares to Voyage 4 Large, Gemini Embedding 2, and OpenAI</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-10-01</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-10-24 12:27 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>Cohere lance Embed 5 : la nouvelle génération pour la recherche et les agents IA</h2>
+<blockquote>Des modèles plus performants pour comprendre le texte, les images et leurs combinaisons.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+<p>Cohere a sorti Embed 5, une nouvelle famille de modèles d'intégration. Ces modèles sont conçus pour des cas d'usage comme la recherche d'entreprise, la RAG (Retrieval-Augmented Generation) et les agents autonomes. La gamme se divise en deux versions : Embed 5 Pro pour la meilleure qualité de récupération et Embed 5 Fast pour une latence et un coût optimisés. Les deux acceptent le texte, les images et des combinaisons de ces deux formats.</p>
+<blockquote>Embed 5 Pro vise une précision de récupération 15% supérieure à Embed 4, selon Cohere.</blockquote>
+<p>Ces modèles transforment des données (texte, images) en vecteurs numériques. Ces vecteurs permettent de mesurer la similarité sémantique entre différents éléments. C'est essentiel pour que les systèmes IA trouvent l'information la plus pertinente rapidement.</p>
+<h3>Pourquoi ca compte 🎯</h3>
+<p>La capacité à comprendre et comparer des contenus multimédias (texte et image) simultanément ouvre de nouvelles possibilités. Cela rend les systèmes de recherche et les agents IA plus intelligents. Ils pourront mieux saisir le contexte et la pertinence des informations. Pour les entreprises, cela signifie des systèmes de recherche interne plus efficaces et des assistants plus aptes à comprendre des requêtes complexes.</p>
+<table>
+<tr><th>Modèle</th><th>Usage principal</th><th>Format d'entrée</th><th>Performance estimée</th></tr>
+<tr><td>Embed 5 Pro</td><td>Qualité de récupération max</td><td>Texte, Image, Fusion</td><td>Élevée</td></tr>
+<tr><td>Embed 5 Fast</td><td>Latence et coût</td><td>Texte, Image, Fusion</td><td>Optimisée</td></tr>
+</table>
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Tester Embed 5</strong> : accès via l'API Cohere.</li>
+<li><strong>Expérimenter avec la RAG</strong> : intègre Embed 5 dans tes pipelines RAG pour des résultats plus précis.</li>
+<li><strong>Développer des agents IA</strong> : utilise Embed 5 pour améliorer la compréhension des agents dans des environnements complexes.</li>
+</ul>
+<blockquote>Améliore la pertinence de tes recherches et la compréhension de tes agents IA dès maintenant.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>Modèle d'intégration (Embedding Model)</strong> : transforme des données complexes en vecteurs numériques pour les comparaisons.</li>
+<li><strong>RAG (Retrieval-Augmented Generation)</strong> : technologie combinant recherche d'informations et génération de texte par IA.</li>
+<li><strong>Agents IA</strong> : programmes informatiques capables d'agir de manière autonome pour accomplir des tâches.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://www.marktechpost.com/2026/10/01/cohere-releases-embed-5/">Cohere releases Embed 5</a> — détail technique et benchmarks des nouveaux modèles.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<strong>Mistral AI déploie "Le Chonk" : un modèle open-weight pour rivaliser avec les leaders hors de Chine</strong> (8/10) Le nouveau modèle de Mistral se positionne comme une alternative performante et ouverte, visant à combler l'écart avec les modèles de pointe.
+<strong>ALTK-Evolve d'IBM Research domine le classement τ²-bench avec une mémoire apprenante</strong> (8/10) Ce système de gestion de la mémoire pour IA améliore les performances sur les tâches de service client sans nécessiter de modèle de frontière.
+<strong>Le futur de l'IA pour les entreprises : un environnement pour les agents IA</strong> (8/10) L'article explore la construction d'une infrastructure adaptée au déploiement et à la gestion d'agents IA dans des contextes professionnels.
+<strong>[AINews] Réduction significative des coûts de GPT 5.6</strong> (8/10) Le prix de GPT 5.6 Intelligence a chuté de 13 fois en 4 mois, rendant l'IA avancée plus accessible.
+<strong>OpenAI lance GPT-6.1 Sol : codage et usage informatique avancés à moindre coût</strong> (8/10) Ce nouveau modèle offre des capacités proches de GPT-Astra pour une fraction du prix, favorisant l'adoption.
+<strong>Google Cloud simplifie la gestion des agents IA avec l'Agent Compute Engine</strong> (8/10) Ce nouveau service fournit une MicroVM dédiée à chaque agent IA, facilitant le déploiement et la scalabilité.
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>OpenAI arrive sur Google Cloud</strong> — Les modèles d'OpenAI seront désormais disponibles via Google Cloud, élargissant l'accès à ces technologies et créant de nouvelles opportunités d'intégration.
+<strong>Une nouvelle perspective sur l'IA bouleverse le secteur</strong> — Une affirmation audacieuse remet en question les approches conventionnelles de l'IA, promettant de réorienter la recherche et le développement.
+<strong>A surveiller</strong> — L'influence croissante des modèles open-weight et les stratégies des entreprises pour les intégrer dans leurs stacks technologiques.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-10-24 12:27 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
