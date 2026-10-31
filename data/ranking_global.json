@@ -979,7 +979,7 @@
     "source_name": "Latent Space",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_MODELES",
     "raison_score": "Annonce d'un nouveau modèle frontier (Gemini 4 Carbon) qui domine les classements, indiquant une rupture majeure potentielle dans les capacités des LLM. L'accès limité à des défenseurs ciblés souligne son importance stratégique.",
@@ -3007,6 +3007,33 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 9,
     "pertinence_entrepreneur": 8,
+    "score_composite": 7.7
+  },
+  {
+    "url": "https://www.databricks.com/blog/databricks-and-sap-unleash-end-end-data-ai-capabilities-level-enterprise-ai-transformation",
+    "url_hash": "cc3db909809d1f915e027c3cf8cd7ca7",
+    "titre": "Databricks and SAP unleash end-to-end data & AI capabilities to level up enterprise AI transformation",
+    "resume": "Today's AI models are more capable than ever. What they still lack is the business...",
+    "date": "2026-10-30",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "L'intégration entre deux acteurs majeurs comme Databricks et SAP pour des capacités de données et d'IA de bout en bout est une avancée significative pour la transformation IA des entreprises.",
+    "tags": [
+      "IA",
+      "données",
+      "plateforme de données",
+      "Databricks",
+      "SAP",
+      "entreprise",
+      "transformation digitale"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
     "score_composite": 7.7
   },
   {
@@ -8147,6 +8174,31 @@
     "score_composite": 7.199999999999999
   },
   {
+    "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+    "url_hash": "0071adadbf072bbf30653dc92274045f",
+    "titre": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+    "resume": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+    "date": "2026-10-31",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article décrit une percée scientifique majeure où un agent IA a réalisé une intervention médicale complexe sur un sujet vivant, démontrant des capacités quasi autonomes dans un domaine critique.",
+    "tags": [
+      "IA",
+      "médecine",
+      "recherche",
+      "agents autonomes",
+      "biotechnologie"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.199999999999999
+  },
+  {
     "url": "https://www.databricks.com/blog/scaling-security-alert-triage-specialized-agents-databricks",
     "url_hash": "3115da0c3d4fbd61c7217ba1b3fa1f0e",
     "titre": "Scaling Security Alert Triage With Specialized Agents on Databricks",
@@ -10560,31 +10612,6 @@
     "score_composite": 7.0
   },
   {
-    "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Deep-dive-into-visual-calculations-Adding-calculations-directly/ba-p/5255359",
-    "url_hash": "fa1b8380c184f71c0721a5ad498b716b",
-    "titre": "Deep dive into visual calculations: Adding calculations directly to your Power BI visuals (Generally Available)",
-    "resume": "Visual calculations (Generally Available) in Power BI, making it easier to add DAX calculations directly to the visual where they’re used.",
-    "date": "2026-07-02",
-    "source_name": "Power BI Blog",
-    "categorie_source": "BI_OUTILS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "BI_OUTILS",
-    "raison_score": "Mise à jour majeure de Power BI avec la disponibilité générale des calculs visuels (Visual Calculations), permettant d'ajouter directement des calculs DAX aux visuels. Améliore significativement la flexibilité et la puissance de l'outil BI.",
-    "tags": [
-      "BI",
-      "Power BI",
-      "DAX",
-      "Calculs visuels",
-      "Outil"
-    ],
-    "pertinence_bi_consultant": 9,
-    "pertinence_passionné_ia": 5,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 6.950000000000001
-  },
-  {
     "url": "https://zapier.com/blog/ai-workflows",
     "url_hash": "38211f3c71dae75cd052fc9e039d2701",
     "titre": "AI workflow automation: What it is and how to get started",
@@ -10952,31 +10979,6 @@
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 6,
     "score_composite": 6.950000000000001
-  },
-  {
-    "url": "https://venturebeat.com/orchestration/new-alibaba-ai-framework-skips-loading-every-tool-cutting-agent-token-use-99",
-    "url_hash": "5320db2f0d88a233a38608b70f58792b",
-    "titre": "New Alibaba AI framework skips loading every tool, cutting agent token use 99%",
-    "resume": "As enterprise AI systems scale to handle complex workflows, practitioners face the challenge of routing subtasks to the right tools and skills. Agents can have hundreds of tools and skills and get confused on which one to use for each step of a workflow.To address this challenge, researchers at Alibaba developed SkillWeaver, a framework that creates an execution graph for a given task and chooses the right skills for each of the nodes. They also introduce Skill-Aware Decomposition (SAD), a novel",
-    "date": "2026-07-02",
-    "source_name": "VentureBeat AI",
-    "categorie_source": "IA_AGENTS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_AGENTS",
-    "raison_score": "Développement d'un nouveau framework IA (SkillWeaver) qui optimise l'utilisation des tokens pour les agents, réduisant ainsi les coûts et améliorant l'efficacité. Introduit une nouvelle méthode de décomposition (SAD).",
-    "tags": [
-      "IA",
-      "Agents",
-      "Framework",
-      "Optimisation",
-      "Coût"
-    ],
-    "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 6.95
   },
   {
     "url": "https://blog.n8n.io/context-engineering-llm/",
@@ -12402,6 +12404,55 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 9,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
+    "url_hash": "ef99f5546e3d9262bafad7552c298419",
+    "titre": "Vercel Labs Open-Sources agent-desktop for Agent Computer Use",
+    "resume": "Vercel Labs released agent-desktop, an Apache-2.0 Rust CLI that gives any AI agent computer use on macOS, Windows and Linux by reading OS accessibility trees and acting on stable refs instead of pixels.\nThe post Vercel Labs Open-Sources agent-desktop for Agent Computer Use appeared first on MarkTechPost.",
+    "date": "2026-10-31",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "La publication open-source d'agent-desktop, une CLI Rust qui permet aux agents IA d'interagir avec le système d'exploitation sur macOS, Windows et Linux, représente une nouvelle capacité d'agent reproductible et significative.",
+    "tags": [
+      "agent IA",
+      "open-source",
+      "CLI",
+      "automatisation",
+      "système d'exploitation"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://zapier.com/blog/best-ai-agent-builder",
+    "url_hash": "26507d409e67abc0c0db86088efeabab",
+    "titre": "The best AI agent builder software in 2026",
+    "resume": "AI agents have matured fast, and I've been in the weeds the whole time. These days, AI agents are running a lot of my processes in the background. And it's not just me or the Zapier team: 84% of enterprises plan to boost AI agent investments.  Agents can run complex, org-wide workflows across your entire app stack. I work at Zapier, and I think it's the best option to make that happen, but I also know that's not a universal truth—and I'd rather help you figure out which one actually fits than ju",
+    "date": "2026-10-30",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article documente une nouvelle capacité agent reproductible en présentant les meilleurs constructeurs de logiciels d'agents IA et leurs applications.",
+    "tags": [
+      "IA",
+      "Agents IA",
+      "Logiciel",
+      "Automatisation"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
     "score_composite": 6.95
   },
   {
@@ -14601,6 +14652,30 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 6,
+    "score_composite": 6.800000000000001
+  },
+  {
+    "url": "https://zapier.com/blog/ai-transformation",
+    "url_hash": "65ac19f84bb8168f9e03cf87cec3d550",
+    "titre": "What is AI transformation in 2027? How to build a strategy for your business",
+    "resume": "It can feel impossible to escape the pressure to \"do something\" with AI. Maybe your CEO just asked about your AI strategy in an all-hands, or your competitors are shipping faster thanks to automation. Or maybe you're just tired of watching your team lose hours every week to tasks a bot could easily handle. You know AI is a big deal—but figuring out where to start is where most teams get stuck. You don't need another one-off pilot project that fizzles out after a few weeks, or a massive consultin",
+    "date": "2026-10-30",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article propose un nouveau framework entrepreneurial pour l'IA, se concentrant sur la stratégie et l'implémentation pour les entreprises.",
+    "tags": [
+      "IA",
+      "Stratégie IA",
+      "Transformation digitale",
+      "Entrepreneuriat"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 9,
     "score_composite": 6.800000000000001
   },
   {
@@ -17531,6 +17606,32 @@
     "score_composite": 6.7
   },
   {
+    "url": "https://www.marktechpost.com/2026/10/30/microsoft-tokeneconomizer-coding-agent-cost-control/",
+    "url_hash": "97fe9454d90523e9d5fb59950f160ac5",
+    "titre": "Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9%",
+    "resume": "Microsoft Research and UC Berkeley released TokenEconomizer, an open-source plugin that learns from past sessions to cut coding agent token costs by 18.4% to 30.9% on SWE-Bench, with no change to the agent.\nThe post Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9% appeared first on MarkTechPost.",
+    "date": "2026-10-30",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Il s'agit d'une avancée significative pour les agents IA, proposant une solution open-source vérifiable pour réduire les coûts opérationnels, un problème majeur dans l'adoption des LLM.",
+    "tags": [
+      "IA",
+      "agents",
+      "coût",
+      "optimisation",
+      "open-source",
+      "Microsoft"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
     "url": "https://towardsdatascience.com/stop-ranking-agent-configs-by-average-score/",
     "url_hash": "f1f74cdb5d9a09a6002a9acf9bfb92f2",
     "titre": "Stop Ranking Agent Configs by Average Score",
@@ -19046,6 +19147,54 @@
       "Entrepreneuriat",
       "IA",
       "Growth Hacking",
+      "Data"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.6000000000000005
+  },
+  {
+    "url": "https://www.ycombinator.com/blog/how-harsh-vardhan-goenka-became-founding-engineer-1-at-kalpa-labs/",
+    "url_hash": "92148e6b1dd9ff25a5d46eed657317a5",
+    "titre": "How Harsh Vardhan Goenka became founding engineer #1 at Kalpa Labs",
+    "resume": "From ICPC World Finals to competitive programming clubs to building generalist audio models as the first engineer at a YC startup.",
+    "date": "2026-10-30",
+    "source_name": "Y Combinator",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Il documente un nouveau framework ou pratique entrepreneuriale IA en décrivant le parcours d'un ingénieur fondateur dans une startup IA de pointe.",
+    "tags": [
+      "IA",
+      "Entrepreneuriat",
+      "Startup",
+      "Ingénieur IA"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 9,
+    "score_composite": 6.6000000000000005
+  },
+  {
+    "url": "https://www.ycombinator.com/blog/how-max-friedlander-became-founding-operations-at-petrarch/",
+    "url_hash": "c91cbd93b3397afc05204f8f7edcb650",
+    "titre": "How Max Friedlander became founding operations at Petrarch",
+    "resume": "A math major who turned down safe internships to lead high-stakes deals at a YC S26 startup supplying data for frontier AI labs.",
+    "date": "2026-10-30",
+    "source_name": "Y Combinator",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article documente un nouveau framework ou pratique entrepreneuriale IA, mettant en lumière le rôle des opérations dans une startup fournissant des données pour les laboratoires d'IA avancés.",
+    "tags": [
+      "IA",
+      "Entrepreneuriat",
+      "Startup",
       "Data"
     ],
     "pertinence_bi_consultant": 5,
@@ -20602,6 +20751,30 @@
     "score_composite": 6.550000000000001
   },
   {
+    "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
+    "url_hash": "5d1b06fdf7dd752eac5b96ac792fae5e",
+    "titre": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
+    "resume": "Factory released Droid 1.0, a model-independent coding agent harness that makes programmatic tool calling the default. On Factory’s own Terminal-Bench 4 runs, Droid scores 65.2% with Claude Opus 5.5 at $4.73 per passed task.\nThe post Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode appeared first on MarkTechPost.",
+    "date": "2026-10-31",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Ce projet introduit un 'agent de codage indépendant du modèle' qui rend l'appel de fonction programmatique par défaut. L'intégration avec Claude Opus et la performance sur des benchmarks indiquent une avancée significative dans la flexibilité et la capacité des agents IA.",
+    "tags": [
+      "agent IA",
+      "codage",
+      "indépendant du modèle",
+      "outil"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
     "url": "https://techcrunch.com/2026/10/07/bloom-raises-3-6m-to-become-the-alibaba-of-american-manufacturing/",
     "url_hash": "fca05aa5adff5b2660ce1512962ba6e6",
     "titre": "Bloom raises $3.6M to become the Alibaba of American manufacturing",
@@ -21961,31 +22134,6 @@
     "score_composite": 6.45
   },
   {
-    "url": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding",
-    "url_hash": "1563835bd122f7ee9fbeff71c3caad0e",
-    "titre": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
-    "resume": "Z.ai, the Beijing-based artificial intelligence lab formerly known as Zhipu AI, on Wednesday officially launched ZCode, a free desktop application it describes as an \"Agentic Development Environment\" purpose-built for its flagship GLM-5.2 large language model. The move marks the company's most aggressive push yet into the fast-growing AI-powered coding tool market, where it now competes directly with Cursor, Claude Code, GitHub Copilot, and Google's Antigravity.\"Introducing ZCode, the official d",
-    "date": "2026-07-02",
-    "source_name": "VentureBeat AI",
-    "categorie_source": "IA_AGENTS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "DEV_ASSISTE",
-    "raison_score": "Lancement de ZCode, un environnement de développement agentique gratuit, visant à concurrencer les leaders du marché de l'assistance au codage par IA. Ce produit est spécifiquement conçu pour leur modèle LLM phare.",
-    "tags": [
-      "IA",
-      "Développement",
-      "Codage",
-      "Outil",
-      "Concurrence"
-    ],
-    "pertinence_bi_consultant": 4,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 8,
-    "score_composite": 6.4
-  },
-  {
     "url": "https://pub.towardsai.net/the-python-library-that-reads-your-power-bi-models-like-data-a8aa1408f2cd?source=rss------power_bi-5",
     "url_hash": "9385b0f6e93aa1f8f36156d68bf934f0",
     "titre": "The Python Library That Reads Your Power BI Models Like Data.",
@@ -23122,6 +23270,31 @@
     "score_composite": 6.350000000000001
   },
   {
+    "url": "https://zapier.com/blog/automate-grok",
+    "url_hash": "e992ee8e0abaca27babe87f1fa9f079f",
+    "titre": "Grok automation: How to use the Zapier Grok integration (Grok 4.7, Grok Bot, and more)",
+    "resume": "Grok has a very specific edge over other AI models: live access to X, so your agents can keep their finger on the pulse a little more easily. But outside of that, Grok models and agents are still solid alternatives to what OpenAI, Anthropic, and Google have on offer. And if you're using Grok for work, you'll want to connect it to the rest of your tech stack. The most secure and easiest way to do that is with Zapier. There are two main ways to automate Grok with Zapier. You can add Grok to the wo",
+    "date": "2026-10-30",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Il documente une nouvelle capacité agent reproductible (automatisation de Grok via Zapier) et discute de son intégration et de ses cas d'usage.",
+    "tags": [
+      "IA",
+      "Automatisation",
+      "Agents IA",
+      "Zapier",
+      "Grok"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.350000000000001
+  },
+  {
     "url": "https://medium.datadriveninvestor.com/power-bi-is-finally-code-automating-semantic-model-governance-via-tmdl-eb7ba10d707c?source=rss------power_bi-5",
     "url_hash": "5a12a267218fbecfe4da26b670b442f4",
     "titre": "Power BI is Finally Code: Automating Semantic Model Governance via TMDL",
@@ -23742,31 +23915,6 @@
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 9,
     "score_composite": 6.35
-  },
-  {
-    "url": "https://towardsdatascience.com/time-series-llms-explained-with-t0-alpha/",
-    "url_hash": "71066d31408e35114742da11b2694a3a",
-    "titre": "Time-Series LLMs, Explained with t0-alpha",
-    "resume": "t0-alpha is a decoder-style patch transformer for probabilistic time-series forecasting. Raw series are split into 32-step patches, embedded, processed through causal time-attention and group-attention layers, and decoded into future quantiles rather than a single point forecast.\nThe post Time-Series LLMs, Explained with t0-alpha appeared first on Towards Data Science.",
-    "date": "2026-07-02",
-    "source_name": "Towards Data Science",
-    "categorie_source": "DATA_PLATFORM",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "IA_MODELES",
-    "raison_score": "Présentation d'un nouveau modèle (t0-alpha) pour la prévision probabiliste de séries temporelles, utilisant une architecture de transformer avec une approche par patchs. Explique son fonctionnement en détail.",
-    "tags": [
-      "IA",
-      "LLM",
-      "Séries temporelles",
-      "Prévision",
-      "Modèle"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 6.300000000000001
   },
   {
     "url": "https://www.storytellingwithdata.com/blog/ai-data-storytelling-editable-powerpoint-charts",
@@ -26456,31 +26604,6 @@
     "score_composite": 6.15
   },
   {
-    "url": "https://towardsdatascience.com/the-untaught-lessons-of-rag-question-parsing-structure-before-you-search/",
-    "url_hash": "f5d04e861cef9aeb9f5d782f4a92d85e",
-    "titre": "The Untaught Lessons of RAG Question Parsing: Structure Before You Search",
-    "resume": "Enterprise Document Intelligence [Vol.1 #6ter] - Six positions on the question-parsing brick that contradict the mainstream RAG playbook\nThe post The Untaught Lessons of RAG Question Parsing: Structure Before You Search appeared first on Towards Data Science.",
-    "date": "2026-07-02",
-    "source_name": "Towards Data Science",
-    "categorie_source": "DATA_PLATFORM",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "IA_APPLIQUEE",
-    "raison_score": "Article de fond proposant une approche avancée pour le parsing de questions dans les systèmes RAG, suggérant une réorganisation de la structure avant la recherche pour améliorer les résultats. Offre des leçons importantes pour la mise en œuvre.",
-    "tags": [
-      "IA",
-      "RAG",
-      "NLP",
-      "Recherche",
-      "Implémentation"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 6.1000000000000005
-  },
-  {
     "url": "https://www.databricks.com/blog/automatic-upgrades-best-practice-features-your-lakehouse-tables",
     "url_hash": "9e8560969b85356b1364f58c84f05d10",
     "titre": "Automatic Upgrades: best practice features for your lakehouse tables",
@@ -27597,6 +27720,32 @@
       "LLM",
       "IA open-source",
       "Modèle de langage"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.1
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/10/30/ai-security-agents-claude-codex-mantis-cloudflare/",
+    "url_hash": "2bf5c46f4e29a619256e5b401674d749",
+    "titre": "AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare",
+    "resume": "Anthropic, OpenAI, Cloudflare and Google each released an AI agent that hunts security bugs in source code. All 4 use the same find, disprove, then patch loop. Here is how they differ, plus 12 more tools.\nThe post AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare appeared first on MarkTechPost.",
+    "date": "2026-10-30",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article présente une comparaison approfondie de plusieurs agents IA dédiés à la sécurité du code, offrant une vue d'ensemble des capacités actuelles et des différences notables.",
+    "tags": [
+      "IA",
+      "agents",
+      "sécurité",
+      "cybersecurity",
+      "comparatif",
+      "outils"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
@@ -29129,54 +29278,30 @@
     "score_composite": 6.0
   },
   {
-    "url": "https://www.producthunt.com/products/osloq",
-    "url_hash": "3204c651b68f17f7157029ed6dad0edb",
-    "titre": "Osloq",
-    "resume": "\n            An AI agent that reproduces GitHub issues for you\n          \n          \n            Discussion\n            |\n            Link\n          ",
-    "date": "2026-07-02",
-    "source_name": "Product Hunt",
-    "categorie_source": "ENTREPRENEURIAT",
+    "url": "https://docs.getdbt.com/blog/do-coding-agents-still-need-dbt-skills",
+    "url_hash": "35c61ae60e8415fe75701f236c2cc4a3",
+    "titre": "Have dbt skills been bitter lesson’d?",
+    "resume": "Models have improved a lot since we shipped dbt agent skills, so I ran Claude Opus, Sonnet, and Haiku 5.5, and then Sonnet 4.5, through a Formula 1 dbt project with and without them. The 5.5 models already knew dbt, run-to-run noise was bigger than any skills effect, and what separated good runs from bad ones was process.",
+    "date": "2026-10-30",
+    "source_name": "dbt Blog",
+    "categorie_source": "DATA_PLATFORM",
     "score_pending": false,
     "article_du_jour": false,
     "score": 6,
-    "categorie": "IA_AGENTS",
-    "raison_score": "Présentation d'un agent IA capable de reproduire les problèmes GitHub, offrant une nouvelle fonctionnalité pour la gestion de projets et le développement logiciel. Cas d'usage documenté pour l'automatisation des tâches de développement.",
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article documente un nouveau cas d'usage IA appliqué aux pratiques Data/BI en évaluant la pertinence des compétences dbt face aux agents IA, avec des observations quantifiées.",
     "tags": [
       "IA",
-      "Agents",
-      "Développement",
-      "GitHub",
-      "Automatisation"
+      "dbt",
+      "agents",
+      "pratiques data",
+      "BI",
+      "transformation"
     ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 5.950000000000001
-  },
-  {
-    "url": "https://www.producthunt.com/products/scritty",
-    "url_hash": "48287247c658e3d41b994959cc24cdcf",
-    "titre": "scritty",
-    "resume": "\n            Shared, searchable memory for every AI coding agent\n          \n          \n            Discussion\n            |\n            Link\n          ",
-    "date": "2026-07-02",
-    "source_name": "Product Hunt",
-    "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "IA_AGENTS",
-    "raison_score": "Lancement de scritty, un outil offrant une mémoire partagée et interrogeable pour les agents de codage IA. Améliore la collaboration et la traçabilité dans les projets de développement assisté par IA.",
-    "tags": [
-      "IA",
-      "Agents",
-      "Développement",
-      "Mémoire",
-      "Collaboration"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 5.950000000000001
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 6.0
   },
   {
     "url": "https://venturebeat.com/security/evals-are-the-new-prd-expedia-ai-chief-tells-vb-transform-2026",
@@ -32773,6 +32898,56 @@
     "score_composite": 5.800000000000001
   },
   {
+    "url": "https://towardsdatascience.com/we-taught-ai-to-answer-questions-who-taught-it-to-change-its-mind/",
+    "url_hash": "d83d716c0dab7312cf4495963f5c47a8",
+    "titre": "We Taught AI to Answer Questions. Who Taught It to Change Its Mind?",
+    "resume": "When new evidence kills one conclusion, do the decisions built on it change too? I tested six update strategies, then a local model.\nThe post We Taught AI to Answer Questions. Who Taught It to Change Its Mind? appeared first on Towards Data Science.",
+    "date": "2026-10-31",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article explore comment l'IA peut être amenée à changer d'avis face à de nouvelles preuves, en testant différentes stratégies de mise à jour et modèles locaux. C'est un tutoriel avancé sur un aspect clé du comportement des modèles IA.",
+    "tags": [
+      "IA",
+      "modification de décision",
+      "apprentissage",
+      "modèles locaux",
+      "tutoriel"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.800000000000001
+  },
+  {
+    "url": "https://towardsdatascience.com/i-told-an-ai-agent-that-its-wrong-answers-were-right-one-model-believed-me/",
+    "url_hash": "a3d6eef6fed2e26ab2c5816515419185",
+    "titre": "I Told an AI Agent That Its Wrong Answers Were Right. One Model Believed Me.",
+    "resume": "A research paper claims reward labels barely change how agents learn. I tested that on three models, and one of them did exactly what the wrong labels told it to.\nThe post I Told an AI Agent That Its Wrong Answers Were Right. One Model Believed Me. appeared first on Towards Data Science.",
+    "date": "2026-10-31",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "L'article présente des tests sur des agents IA qui croient des informations incorrectes, illustrant des vulnérabilités potentielles. C'est un cas d'usage intéressant documenté avec des métriques comportementales sur les modèles IA.",
+    "tags": [
+      "agent IA",
+      "biais",
+      "apprentissage par renforcement",
+      "fiabilité IA",
+      "cas d'usage"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.800000000000001
+  },
+  {
     "url": "https://levelup.gitconnected.com/how-i-hacked-power-bi-to-let-users-copy-paste-data-directly-to-excel-709386b1fd4a?source=rss------power_bi-5",
     "url_hash": "4144c22bc75d457ea8496f06064f9127",
     "titre": "How I Hacked Power BI to Let Users Copy-Paste Data Directly to Excel",
@@ -35325,6 +35500,31 @@
     "score_composite": 5.65
   },
   {
+    "url": "https://medium.com/@kolla.trivenii/optimizing-sales-performance-through-power-bi-predictive-analytics-aec46a7e1690?source=rss------power_bi-5",
+    "url_hash": "f17e09ebb535549eddf9a6a2a13bd5dc",
+    "titre": "Optimizing Sales Performance Through Power BI Predictive Analytics",
+    "resume": "AbstractContinue reading on Medium »",
+    "date": "2026-10-31",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "L'article documente un nouveau cas d'usage pour l'optimisation des performances commerciales à l'aide de l'analytique prédictive dans Power BI.",
+    "tags": [
+      "Power BI",
+      "analytique prédictive",
+      "ventes",
+      "performance",
+      "cas d'usage"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.65
+  },
+  {
     "url": "https://medium.com/@enosislearning/why-power-bi-is-the-most-valuable-skill-you-can-learn-in-2026-and-how-to-master-it-9c681e0b0e00?source=rss------power_bi-5",
     "url_hash": "61f9d04f863c6a158c503f9fa75ca29f",
     "titre": "Why Power BI is the Most Valuable Skill You Can Learn in 2026 — And How to Master It",
@@ -37852,31 +38052,6 @@
     "score_composite": 5.55
   },
   {
-    "url": "https://www.latent.space/p/the-website-of-the-future",
-    "url_hash": "6b7d105c1ebccc10d9285653979e1645",
-    "titre": "The website of the future may assemble itself for every visitor",
-    "resume": "Adobe is experimenting with “agentic sites” that generate pages around an individual user’s intent. At AIEWF, we talked to Carlos Sanchez about the Web's future.",
-    "date": "2026-07-02",
-    "source_name": "Latent Space",
-    "categorie_source": "IA_AGENTS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 5,
-    "categorie": "IA_APPLIQUEE",
-    "raison_score": "Exploration d'un nouveau cas d'usage IA pour la création de sites web dynamiques et personnalisés pour chaque visiteur. Met en avant le potentiel des 'agentic sites' pour l'expérience utilisateur.",
-    "tags": [
-      "IA",
-      "Web",
-      "Personnalisation",
-      "Agents",
-      "Expérience utilisateur"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 5.5
-  },
-  {
     "url": "https://www.databricks.com/blog/how-imperial-college-london-accelerating-dementia-research-modern-data-platform",
     "url_hash": "b511735732d62dc30ac2f5971d55f701",
     "titre": "How Imperial College London is accelerating dementia research with a modern data platform",
@@ -38820,6 +38995,31 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 7,
+    "score_composite": 5.45
+  },
+  {
+    "url": "https://turkiyeyayini.com/microsoft-fabric-iq-ile-kurumsal-zeka-ve-ontoloji-mimarisi-f488faa0d5f8?source=rss------power_bi-5",
+    "url_hash": "d33d4f5547532cdcffc62b46ab792e77",
+    "titre": "Microsoft Fabric IQ ile Kurumsal Zeka ve Ontoloji Mimarisi",
+    "resume": "Kurumsal veri dünyasında yıllardır süregelen en büyük paradoks şudur: İşletmeler süreçlerini “Müşteri”, “Sevkiyat”, “Soğuk Zincir İhlali”…Continue reading on Türkiye UP »",
+    "date": "2026-10-30",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Il s'agit d'une mise à jour importante concernant un outil BI existant (Microsoft Fabric) et son intégration avec des concepts avancés comme l'ontologie pour l'intelligence d'entreprise.",
+    "tags": [
+      "BI",
+      "Microsoft Fabric",
+      "intelligence d'entreprise",
+      "ontologie",
+      "architecture de données"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
     "score_composite": 5.45
   },
   {
@@ -39793,6 +39993,31 @@
       "Santé",
       "Analyse",
       "Cas d'usage"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.3999999999999995
+  },
+  {
+    "url": "https://medium.com/@farooqumer845/power-bi-aggregations-how-to-speed-up-reports-without-losing-analytical-detail-f061cf73dca5?source=rss------power_bi-5",
+    "url_hash": "7abc25a46efc438c33729ef3854762fa",
+    "titre": "Power BI Aggregations: How to Speed Up Reports Without Losing Analytical Detail",
+    "resume": "Learn how aggregation tables work, when Power BI uses them, and how to avoid the mistakes that silently send queries back to the slow path.Continue reading on Medium »",
+    "date": "2026-10-31",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article explique en détail le fonctionnement des tables d'agrégation dans Power BI et comment les utiliser pour améliorer les performances des rapports, ce qui constitue une mise à jour importante sur une pratique établie.",
+    "tags": [
+      "Power BI",
+      "agrégations",
+      "performance",
+      "optimisation",
+      "rapports"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 4,
@@ -44269,6 +44494,31 @@
       "Attrition",
       "Business Intelligence",
       "Tableau de Bord"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.1499999999999995
+  },
+  {
+    "url": "https://medium.com/@aulianajmina.n/why-do-employees-leave-exploring-workforce-attrition-with-power-bi-ea896da6cf56?source=rss------power_bi-5",
+    "url_hash": "a95accafc9b2d76d1e50ca22b1c7b3ac",
+    "titre": "Why Do Employees Leave? Exploring Workforce Attrition with Power BI",
+    "resume": "Hi . . . this is my first time ever building a dashboard in Power BI, hehe.Continue reading on Medium »",
+    "date": "2026-10-31",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un cas d'usage documenté d'exploration de l'attrition des effectifs à l'aide de Power BI, démontrant comment un outil BI existant peut être utilisé pour des analyses métiers spécifiques.",
+    "tags": [
+      "Power BI",
+      "RH",
+      "attrition",
+      "analyse",
+      "cas d'usage"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 4,
@@ -49851,6 +50101,31 @@
     "score_composite": 4.7
   },
   {
+    "url": "https://medium.com/@Modi_Rohan/can-apache-ossie-connect-snowflake-and-power-bi-a-reality-check-c71fb445f3e2?source=rss------power_bi-5",
+    "url_hash": "d1d8ede3b4c42a04253e3d18fad51934",
+    "titre": "Can Apache Ossie connect Snowflake and Power BI? A reality check",
+    "resume": "We built a working pipeline to test whether one KPI definition can serve both Snowflake and Microsoft Fabric. Here is what held up, where…Continue reading on Medium »",
+    "date": "2026-10-31",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "L'article évalue la capacité d'Apache Ossie à connecter Snowflake et Power BI, présentant un retour d'expérience sur le déploiement d'une intégration de données.",
+    "tags": [
+      "Snowflake",
+      "Power BI",
+      "Apache Ossie",
+      "intégration de données",
+      "plateforme de données"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.7
+  },
+  {
     "url": "https://medium.com/@allison.claramunt/microsoft-fabric-enabling-near-real-time-with-mirrored-database-mlvs-f2ccfb98d2c8?source=rss------power_bi-5",
     "url_hash": "b0ee88f94cff7851e6d27687ef7f3f03",
     "titre": "[Microsoft Fabric] Enabling Near Real-Time with Mirrored Database + MLVs (pt.1)",
@@ -54978,6 +55253,31 @@
     "score_composite": 4.15
   },
   {
+    "url": "https://www.saastr.com/saas-isnt-dead-old-saas-is-dead-sierra-adds-150m-arr-in-one-quarter-while-servicenow-drops-27-in-a-day/",
+    "url_hash": "da86ea2766411f069738dc0eb5f4a646",
+    "titre": "SaaS Isn’t Dead. Old SaaS Is Dead: Sierra Adds $150M ARR in One Quarter While ServiceNow Drops 27% in a Day",
+    "resume": "Two things happened within 24 hours this week. Together they say more about where B2B is going than most of the “SaaS is dead” takes from the past 18 months. On Thursday, shares of ServiceNow fell 26.9%, while the S&P 500 slipped 0.3%, after its October 28 Q3 report. On Friday morning, Bret Taylor and... Continue Reading",
+    "date": "2026-10-31",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article offre une analyse pertinente du marché SaaS, comparant des succès et des échecs avec des données chiffrées, ce qui est une information utile pour les entrepreneurs.",
+    "tags": [
+      "SaaS",
+      "entrepreneuriat",
+      "marché",
+      "analyse financière",
+      "startup"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 4.15
+  },
+  {
     "url": "https://blog.n8n.io/workato-alternatives-for-enterprise-automation/",
     "url_hash": "50f529f2056669240f6af1f459b1b073",
     "titre": "6 Workato Alternatives for Enterprise Automation",
@@ -55219,6 +55519,31 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 4,
+    "score_composite": 4.05
+  },
+  {
+    "url": "https://www.producthunt.com/products/pluto-door",
+    "url_hash": "8c994da0aca74104ba23820889d0b36f",
+    "titre": "Pluto Door",
+    "resume": "\n            SSH client with an AI agent and a desktop for every server\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-10-30",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "Il s'agit d'une intégration d'IA dans un outil mainstream (SSH client) pour offrir une nouvelle capacité (agent IA), démontrant une évolution notable des outils de développement.",
+    "tags": [
+      "IA",
+      "SSH",
+      "agent",
+      "développement",
+      "outil"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
     "score_composite": 4.05
   },
   {
@@ -59573,6 +59898,30 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 1,
     "pertinence_entrepreneur": 2,
+    "score_composite": 2.95
+  },
+  {
+    "url": "https://www.producthunt.com/products/ac-bridge",
+    "url_hash": "0afa8ca0049e7da21cbec32215a2b691",
+    "titre": "AC Bridge",
+    "resume": "\n            Your smart lights show when Claude Code or Codex needs you.\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-10-31",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "AC Bridge semble être un outil de connexion pour les lumières connectées, potentiellement lié à des assistants IA comme Claude Code ou Codex. Bien qu'il s'agisse d'une forme d'automatisation, l'information manque de substance technique.",
+    "tags": [
+      "automatisation",
+      "domotique",
+      "assistant IA",
+      "connexion"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 3,
     "score_composite": 2.95
   },
   {
