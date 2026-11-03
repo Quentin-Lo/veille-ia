@@ -1775,7 +1775,7 @@
     "source_name": "Towards Data Science",
     "categorie_source": "DATA_PLATFORM",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "IA_MODELES",
     "raison_score": "Propose des patterns architecturaux avancés pour les agents IA en entreprise, allant au-delà de RAG pour une contextualisation précise et économique. C'est une avancée significative dans les pratiques d'ingénierie et d'architecture pour les IA.",
@@ -2331,6 +2331,30 @@
       "LLM",
       "IA Générative",
       "Coût"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.85
+  },
+  {
+    "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+    "url_hash": "9d05e5498b5694112a8728b516d78b8d",
+    "titre": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+    "resume": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
+    "date": "2026-11-03",
+    "source_name": "Latent Space",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "Le LLM peut lire et écrire les poids du réseau neuronal, une percée scientifique publiée et vérifiée dans la manipulation directe des modèles.",
+    "tags": [
+      "LLMs",
+      "neural network weights",
+      "weight space programming",
+      "AI research"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 9,
@@ -7699,6 +7723,30 @@
       "Sécurité",
       "Cybersécurité",
       "Cadre de préparation"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 7.200000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/11/02/deep-principle-hydrogen-1-0-open-weight-scientific-model/",
+    "url_hash": "6d7af2962386232136fcecbc7dedb937",
+    "titre": "Deep Principle Releases Hydrogen-1.0: A 753B Open-Weight Model for Scientific Discovery",
+    "resume": "Deep Principle has released Hydrogen-1.0, an open-weight scientific model for chemistry, materials science and life sciences. It is built by post-training Z.ai’s GLM-5.3 on domain data, laboratory records and agent discovery trajectories. For developers, it offers open weights that report a FrontierScience-Research win over GPT-6-Astra. The weights ship under the MIT License. TL;DR What is […]\nThe post Deep Principle Releases Hydrogen-1.0: A 753B Open-Weight Model for Scientific Discovery appear",
+    "date": "2026-11-02",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "La sortie de Hydrogen-1.0, un modèle open-weight de 753 milliards de paramètres pour la découverte scientifique, est une avancée significative. Son caractère open-weight le rend compétitif et potentiellement très impactant.",
+    "tags": [
+      "Modèle IA",
+      "Open-Weight",
+      "Découverte Scientifique",
+      "IA"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
@@ -18444,6 +18492,31 @@
     "score_composite": 6.650000000000001
   },
   {
+    "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+    "url_hash": "30470ccd04740effe5eaa997a3b07696",
+    "titre": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+    "resume": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
+    "date": "2026-11-03",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Cet article rapporte un nouveau framework entrepreneurial documenté : l'utilisation intensive d'agents IA avec un coût significatif, illustrant une pratique émergente et son impact financier.",
+    "tags": [
+      "IA Agents",
+      "Entrepreneurship",
+      "Y Combinator",
+      "Coût",
+      "Pratique"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.650000000000001
+  },
+  {
     "url": "https://www.saastr.com/how-gamma-hit-100m-arr-with-a-team-of-50-grant-lees-4-lessons-at-saastr-ai-2026/",
     "url_hash": "e755464955938eb9d8a3ff3cc9eef76a",
     "titre": "How Gamma Hit $100M ARR With a Team of 50: CEO Grant Lee’s Top 4 Lessons. And Top 5 Mistakes",
@@ -23643,6 +23716,30 @@
     "score_composite": 6.350000000000001
   },
   {
+    "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
+    "url_hash": "beb08669a8c68590f69d31ac8bd8eac7",
+    "titre": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+    "resume": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies...",
+    "date": "2026-11-02",
+    "source_name": "Latent Space",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article présente une nouvelle capacité d'agent IA documentée et reproductible : la construction d'agents légaux dans un contexte de données sensibles. Il aborde un défi technique et propose une solution.",
+    "tags": [
+      "Agent IA",
+      "Domaine Légal",
+      "Données Sensibles",
+      "RAG"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.350000000000001
+  },
+  {
     "url": "https://medium.com/microsoft-power-bi/i-connected-claude-mcp-to-power-bi-and-it-completely-changed-my-bi-development-workflow-b405775bfb4d?source=rss------power_bi-5",
     "url_hash": "981f6bf9fea425da2b04abe374dd2110",
     "titre": "I Connected Claude MCP to Power BI — And It Completely Changed My BI Development Workflow",
@@ -25840,6 +25937,31 @@
       "open source",
       "minimax",
       "coding"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.25
+  },
+  {
+    "url": "https://www.producthunt.com/products/nana-2",
+    "url_hash": "77afef12a618e6704661b2bcbe8feeaf",
+    "titre": "nana",
+    "resume": "\n            One terminal for every coding agent, on Windows\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-11-03",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Nana se présente comme un terminal unique pour les agents de codage sur Windows. L'annonce d'un nouvel outil d'automatisation pour les développeurs, surtout s'il est prometteur, peut être considéré comme une avancée significative.",
+    "tags": [
+      "Agent IA",
+      "Développement",
+      "Automatisation",
+      "Code",
+      "Outil"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
@@ -28119,6 +28241,30 @@
       "cybersecurity",
       "comparatif",
       "outils"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.1
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/11/02/letter-letterpress-1-growth-engineering-coding-agent/",
+    "url_hash": "0bc29b27332c9c0dee400c9604b3aa2c",
+    "titre": "The Letter Company Releases Letterpress-1: A Coding Agent Built for Growth Engineering",
+    "resume": "Letter has released the beta of Letterpress-1, a coding agent, harness and IDE for growth engineering. It reads a git-based site and its market, then opens pull requests for SEO, GEO and conversion work.\nThe post The Letter Company Releases Letterpress-1: A Coding Agent Built for Growth Engineering appeared first on MarkTechPost.",
+    "date": "2026-11-03",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Lancement d'un agent de codage pour l'ingénierie de croissance. Cet article décrit une nouvelle capacité d'agent documentée et reproductible pour un domaine spécifique.",
+    "tags": [
+      "coding agent",
+      "growth engineering",
+      "SEO",
+      "conversion"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
@@ -38524,6 +38670,54 @@
     "score_composite": 5.55
   },
   {
+    "url": "https://towardsdatascience.com/your-agent-works-in-the-demo-now-make-it-survive-monday/",
+    "url_hash": "1269c1e536e477021a7714c81b4a0bec",
+    "titre": "Your Agent Works in the Demo. Now Make It Survive Monday.",
+    "resume": "The demo is the easy part\nThe post Your Agent Works in the Demo. Now Make It Survive Monday. appeared first on Towards Data Science.",
+    "date": "2026-11-03",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article aborde la mise en production et les défis de faire fonctionner un agent IA dans un environnement réel, un cas d'usage documenté avec des métriques implicites sur la robustesse.",
+    "tags": [
+      "AI agents",
+      "production",
+      "real-world challenges",
+      "demo vs production"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.55
+  },
+  {
+    "url": "https://medium.com/@siarhei.semiankou/power-bi-service-on-clickhouse-without-an-odbc-driver-on-your-gateway-c5254c38696a?source=rss------power_bi-5",
+    "url_hash": "5ad18f4d54ccb9341c768f67002ae87b",
+    "titre": "Power BI Service on ClickHouse, without an ODBC driver on your gateway",
+    "resume": "As of November 2026. You need Power BI Desktop, a Power BI account and a Windows machine for the on-premises data gateway.Continue reading on Medium »",
+    "date": "2026-11-03",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Integration de Power BI Service avec ClickHouse sans pilote ODBC, une évolution notable indiquant de nouvelles possibilités d'intégration de données.",
+    "tags": [
+      "Power BI",
+      "ClickHouse",
+      "data integration",
+      "gateway"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.55
+  },
+  {
     "url": "https://www.databricks.com/blog/how-imperial-college-london-accelerating-dementia-research-modern-data-platform",
     "url_hash": "b511735732d62dc30ac2f5971d55f701",
     "titre": "How Imperial College London is accelerating dementia research with a modern data platform",
@@ -40886,6 +41080,79 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.3500000000000005
+  },
+  {
+    "url": "https://openai.com/index/lifeval",
+    "url_hash": "1468543483a0cb43fba47cdcf59ebb03",
+    "titre": "LifeVal",
+    "resume": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+    "date": "2026-11-02",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "LifeVal est un nouveau benchmark qui mesure l'aide apportée par l'IA pour les tâches quotidiennes. Il s'agit d'un nouveau cas d'usage documenté avec un objectif mesurable, ajoutant de la valeur à l'évaluation des IA.",
+    "tags": [
+      "IA",
+      "Benchmark",
+      "Tâches Quotidiennes",
+      "Évaluation"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3500000000000005
+  },
+  {
+    "url": "https://www.producthunt.com/products/scrawl-2",
+    "url_hash": "cfcc5fbebe1f0461d9214691b8b3e772",
+    "titre": "Scrawl",
+    "resume": "\n            Show your AI agent the problem with a visual frame\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-11-02",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Scrawl permet de contextualiser un agent IA avec une interface visuelle. Il s'agit d'une nouvelle capacité pour améliorer la compréhension et l'interaction des agents, documentée par sa présence sur Product Hunt.",
+    "tags": [
+      "IA",
+      "Agents",
+      "Interface",
+      "Développement"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3500000000000005
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/03/yvonne-bajela-is-bringing-17m-in-fresh-capital-to-europes-startup-scene/",
+    "url_hash": "e25f63209aaf3a587a76cb628bda69a5",
+    "titre": "Yvonne Bajela is bringing $17M in fresh capital to Europe’s startup scene",
+    "resume": "Evertrue Capital announces $17M debut fund to back early stage AI and fintech.",
+    "date": "2026-11-03",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Une levée de fonds de 17 millions de dollars pour investir dans des startups IA et fintech en Europe. Cela représente une évolution notable dans le financement de l'écosystème tech, sans pour autant redessiner un secteur entier.",
+    "tags": [
+      "Financement",
+      "Startup",
+      "IA",
+      "Fintech",
+      "Europe"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 8,
     "score_composite": 5.3500000000000005
   },
   {
@@ -44253,6 +44520,54 @@
       "data preparation",
       "BI practices",
       "data engineering"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
+  },
+  {
+    "url": "https://medium.com/@farooqumer845/power-bi-field-parameters-and-dynamic-titles-build-reports-that-adapt-to-the-user-c34fc2d52266?source=rss------power_bi-5",
+    "url_hash": "85caf37c0dd1736a657eed76b9b35cc9",
+    "titre": "Power BI Field Parameters and Dynamic Titles: Build Reports That Adapt to the User",
+    "resume": "Learn how to let readers switch measures and dimensions inside one visual, and how to keep every chart title accurate as the report…Continue reading on Medium »",
+    "date": "2026-11-03",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Nouvelle technique pour rendre les rapports Power BI adaptatifs avec les paramètres de champ et les titres dynamiques, un nouveau cas d'usage documenté avec métriques implicites sur l'utilisabilité.",
+    "tags": [
+      "Power BI",
+      "field parameters",
+      "dynamic titles",
+      "interactive reports"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.199999999999999
+  },
+  {
+    "url": "https://medium.com/@farooqumer845/dax-calculation-groups-5d932f517c87?source=rss------power_bi-5",
+    "url_hash": "96cccc11c4b55d5a9591a1f6c8ca8cff",
+    "titre": "DAX Calculation Groups",
+    "resume": "in Power BI: Stop Writing the Same Measure Five Times\nLearn how calculation items, SELECTEDMEASURE, and precedence let you reuse time…Continue reading on Medium »",
+    "date": "2026-11-03",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Utilisation des groupes de calcul DAX pour réutiliser le code des mesures, un tutoriel avancé sur une fonctionnalité DAX pour améliorer l'efficacité.",
+    "tags": [
+      "DAX",
+      "Power BI",
+      "calculation groups",
+      "measure optimization"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 3,
@@ -48350,6 +48665,55 @@
     "score_composite": 4.949999999999999
   },
   {
+    "url": "https://medium.com/@eliasmarvilaa/como-constru%C3%AD-um-dashboard-de-sac-no-power-bi-para-otimizar-a-gest%C3%A3o-de-atendimento-ao-cliente-38cae97f924c?source=rss------power_bi-5",
+    "url_hash": "5ac8c40d7722484a3e848a60a85ee576",
+    "titre": "Como construí um Dashboard de SAC no Power BI para otimizar a gestão de atendimento ao cliente",
+    "resume": "No cenário competitivo atual, a qualidade do atendimento ao cliente é um dos principais diferenciais de uma empresa. Para colocar em…Continue reading on Medium »",
+    "date": "2026-11-03",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article décrit la création d'un tableau de bord spécifique dans Power BI pour l'optimisation du service client. Il s'agit d'un cas d'usage documenté avec des métriques potentielles.",
+    "tags": [
+      "Power BI",
+      "Service Client",
+      "Tableau de Bord",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
+    "url": "https://medium.com/@CasmirUdeme/from-1-998-gym-members-to-a-clear-revenue-plan-building-a-fitness-analytics-dashboard-in-power-bi-b1560ff01381?source=rss------power_bi-5",
+    "url_hash": "70dc3f2c39949cee12afe88416a9ff40",
+    "titre": "FROM 1,998 GYM MEMBERS TO A CLEAR REVENUE PLAN: BUILDING A FITNESS ANALYTICS DASHBOARD IN POWER BI",
+    "resume": "IntroductionContinue reading on Medium »",
+    "date": "2026-11-02",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Ce cas d'usage documenté montre comment construire un tableau de bord d'analyse de données dans Power BI pour le secteur du fitness, avec des métriques potentielles liées aux revenus et aux membres.",
+    "tags": [
+      "Power BI",
+      "Fitness",
+      "Tableau de Bord",
+      "Analytics",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.949999999999999
+  },
+  {
     "url": "https://blog.n8n.io/should-i-use-claude-code-or-n8n/",
     "url_hash": "b32e3731fc282c49dad0a9eb2ea2dd73",
     "titre": "Should I use Claude Code or n8n?",
@@ -48763,6 +49127,30 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 5,
+    "score_composite": 4.9
+  },
+  {
+    "url": "https://towardsdatascience.com/three-techniques-to-understand-your-codebase-when-coding-agents-write-the-code/",
+    "url_hash": "fd98a03dea57650d5f2746ff593f7a6c",
+    "titre": "Three Techniques to Understand Your Codebase When Coding Agents Write the Code",
+    "resume": "Learn how to use Claude Code to write feature memos, review pull requests, and build visual HTML explainers, so you understand what your agents ship\nThe post Three Techniques to Understand Your Codebase When Coding Agents Write the Code appeared first on Towards Data Science.",
+    "date": "2026-11-03",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DEV_ASSISTE",
+    "raison_score": "L'article propose des techniques pour maintenir la compréhension d'un codebase généré par des agents IA, un nouveau cas d'usage documenté pour le développement assisté par IA.",
+    "tags": [
+      "AI agents",
+      "codebase",
+      "developer tools",
+      "Claude Code"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
     "score_composite": 4.9
   },
   {
@@ -51329,6 +51717,30 @@
     "score_composite": 4.65
   },
   {
+    "url": "https://www.producthunt.com/products/prism-40",
+    "url_hash": "073b9e4e0e1b96aa71d7c42a59ac3028",
+    "titre": "Prism",
+    "resume": "\n            Cursor for hardware engineering\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-11-02",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Prism est présenté comme un 'cursor' pour l'ingénierie matérielle, suggérant une intégration IA pour une tâche spécifique. C'est un nouveau cas d'usage documenté.",
+    "tags": [
+      "IA",
+      "Hardware Engineering",
+      "Outil",
+      "Applicatif"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.65
+  },
+  {
     "url": "https://medium.com/@powerbicourses/stop-turning-your-power-bi-measures-into-text-db6e6bdd0bec?source=rss------power_bi-5",
     "url_hash": "5fa05b6931b8d8e0a76537e9937fad5f",
     "titre": "Stop Turning Your Power BI Measures Into Text",
@@ -51545,6 +51957,30 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 7,
+    "score_composite": 4.6000000000000005
+  },
+  {
+    "url": "https://medium.com/@pubududewagama/how-to-display-statistical-information-in-power-bi-datacafe-tutorial-97c1402e2cb6?source=rss------power_bi-5",
+    "url_hash": "441027badb172053a64f075ee1527ebb",
+    "titre": "How to Display Statistical Information in Power BI | DataCafe Tutorial",
+    "resume": "Learn how to create meaningful statistical visualizations in Microsoft Power BI and transform raw data into actionable insights.Continue reading on Medium »",
+    "date": "2026-11-02",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "L'article est un tutoriel expliquant comment créer des visualisations statistiques significatives dans Power BI. Il couvre des techniques utiles pour transformer des données brutes en insights.",
+    "tags": [
+      "Power BI",
+      "BI",
+      "Visualisation",
+      "Statistiques"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
     "score_composite": 4.6000000000000005
   },
   {
@@ -54029,6 +54465,78 @@
     "score_composite": 4.4
   },
   {
+    "url": "https://medium.com/@Santhanalakshmip/think-twice-before-adding-non-native-elements-to-your-power-bi-reports-267cb3d44a49?source=rss------power_bi-5",
+    "url_hash": "ad95cecb1ab3ad4e2efed5e5bb95fe7f",
+    "titre": "Think Twice Before Adding Non-Native Elements to Your Power BI Reports",
+    "resume": "We’ve all seen those Power BI reports that make us stop scrolling.Continue reading on Medium »",
+    "date": "2026-11-03",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Conseils utiles sur l'optimisation des rapports Power BI en évitant les éléments non natifs, un article de fond sur une pratique établie.",
+    "tags": [
+      "Power BI",
+      "reporting",
+      "performance optimization",
+      "best practices"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.4
+  },
+  {
+    "url": "https://medium.com/@technoexceltv/how-to-build-a-manufacturing-dashboard-in-power-bi-c95017997701?source=rss------power_bi-5",
+    "url_hash": "d8cd91383605c037f6e687c24916dd47",
+    "titre": "How to Build a Manufacturing Dashboard in Power BI",
+    "resume": "Manufacturing teams generate a huge amount of data every day — production output, machine performance, downtime, defects, inventory levels…Continue reading on Medium »",
+    "date": "2026-11-03",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Guide pratique pour construire un tableau de bord de fabrication dans Power BI, un retour d'expérience sur le déploiement d'une solution BI.",
+    "tags": [
+      "Power BI",
+      "dashboard",
+      "manufacturing",
+      "business intelligence"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.4
+  },
+  {
+    "url": "https://medium.com/@aulianajmina.n/more-than-just-sales-a-retail-performance-dashboard-040c3bcaab91?source=rss------power_bi-5",
+    "url_hash": "faafd6a227e377fdac3999138f57709c",
+    "titre": "More Than Just Sales: A Retail Performance Dashboard",
+    "resume": "In this project, I built an interactive retail sales dashboard using Power BI to explore sales performance, monitor revenue against…Continue reading on Medium »",
+    "date": "2026-11-03",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Présentation d'un tableau de bord de performance retail construit avec Power BI, un cas d'usage BI documenté sur l'analyse de la performance.",
+    "tags": [
+      "Power BI",
+      "dashboard",
+      "retail performance",
+      "sales analysis"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.4
+  },
+  {
     "url": "https://medium.com/microsoft-power-bi/why-bidirectional-relationships-cause-unexpected-filters-in-power-bi-and-how-to-fix-them-622cc1633b78?source=rss------power_bi-5",
     "url_hash": "fd50cbfef114a5f734a054241d93d9f4",
     "titre": "Why Bidirectional Relationships Cause Unexpected Filters in Power BI and How to Fix Them",
@@ -55067,6 +55575,30 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 5,
+    "score_composite": 4.25
+  },
+  {
+    "url": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
+    "url_hash": "0dc7935267a9e5f42502406aa449fcf2",
+    "titre": "Here's Why You Shouldn't Use AI to Vote",
+    "resume": "From hallucinations to partisan bias, artificial intelligence chatbots like ChatGPT and Claude are not helpful when it comes to Election Day.",
+    "date": "2026-11-03",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article de fond discute des limites et des risques de l'utilisation de l'IA pour le vote. C'est une information utile sur les pratiques responsables en matière d'IA.",
+    "tags": [
+      "IA",
+      "Vote",
+      "Éthique IA",
+      "Limites"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
     "score_composite": 4.25
   },
   {
@@ -59439,6 +59971,30 @@
     "pertinence_bi_consultant": 2,
     "pertinence_passionné_ia": 1,
     "pertinence_entrepreneur": 7,
+    "score_composite": 3.3500000000000005
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them/",
+    "url_hash": "245a9ef26d7ea6cb9c42d063f6f59b22",
+    "titre": "Ukraine’s new pocket-sized gadget turns Russian drones’ cameras against them",
+    "resume": "A Kyiv startup’s pocket-sized, 10-ounce receiver lets Ukrainian troops watch the video feeds of Russian drones, though Russian moves toward digital video and AI-guided drones that emit no signals could make the victory short-lived.",
+    "date": "2026-11-03",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article décrit un cas d'usage appliqué de la technologie (probablement IA pour l'analyse vidéo/traitement d'image) dans un contexte militaire. C'est une information utile sur des applications concrètes, mais sans annonce de rupture.",
+    "tags": [
+      "IA",
+      "Drones",
+      "Application militaire",
+      "Technologie"
+    ],
+    "pertinence_bi_consultant": 2,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 3,
     "score_composite": 3.3500000000000005
   },
   {
