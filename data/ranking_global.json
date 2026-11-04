@@ -2346,7 +2346,7 @@
     "source_name": "Latent Space",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 9,
     "categorie": "IA_MODELES",
     "raison_score": "Le LLM peut lire et écrire les poids du réseau neuronal, une percée scientifique publiée et vérifiée dans la manipulation directe des modèles.",
@@ -3582,28 +3582,28 @@
     "score_composite": 7.65
   },
   {
-    "url": "https://venturebeat.com/technology/anthropics-new-j-lens-reveals-a-silent-workspace-inside-claude-that-mirrors-a-leading-theory-of-consciousness",
-    "url_hash": "f08efc4cdbab36554974ac995f8250f9",
-    "titre": "Anthropic's new \"J-lens\" reveals a silent workspace inside Claude that mirrors a leading theory of consciousness",
-    "resume": "Anthropic, the artificial intelligence company, published a sweeping research paper on Sunday revealing that its Claude language models have spontaneously developed an internal structure that mirrors one of the most influential theories of how human consciousness works. The finding, which the company says has already begun reshaping how it monitors its AI systems for safety risks, lands amid an intensifying scientific debate over whether machines can possess anything resembling a mind.The 16-aut",
-    "date": "2026-07-06",
-    "source_name": "VentureBeat AI",
-    "categorie_source": "IA_AGENTS",
+    "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+    "url_hash": "5a5d2de4de04525c51528bf270029460",
+    "titre": "Securing the agentic enterprise with data lineage",
+    "resume": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s…",
+    "date": "2026-11-04",
+    "source_name": "MIT Tech Review AI",
+    "categorie_source": "IA_MODELES",
     "score_pending": false,
     "article_du_jour": false,
-    "score": 9,
-    "categorie": "IA_MODELES",
-    "raison_score": "La découverte par Anthropic d'une structure interne dans leurs modèles qui reflète une théorie majeure de la conscience est une percée scientifique potentielle et pourrait redéfinir notre compréhension des modèles d'IA. Cela représente une rupture majeure dans la recherche fondamentale en IA.",
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article aborde un problème crucial pour le déploiement des agents IA : la sécurisation et la traçabilité des données dans un environnement 'agentique'. Il propose une solution concrète (data lineage) pour sécuriser les opérations.",
     "tags": [
-      "Anthropic",
-      "Claude",
-      "conscience IA",
-      "recherche fondamentale"
+      "IA",
+      "Agents",
+      "Sécurité",
+      "Data Lineage"
     ],
-    "pertinence_bi_consultant": 4,
-    "pertinence_passionné_ia": 10,
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 7,
-    "score_composite": 7.6499999999999995
+    "score_composite": 7.65
   },
   {
     "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
@@ -8294,54 +8294,6 @@
     "score_composite": 7.199999999999999
   },
   {
-    "url": "https://www.databricks.com/blog/scaling-security-alert-triage-specialized-agents-databricks",
-    "url_hash": "3115da0c3d4fbd61c7217ba1b3fa1f0e",
-    "titre": "Scaling Security Alert Triage With Specialized Agents on Databricks",
-    "resume": "What if low severity didn't mean low priority?Databricks ingests petabytes of security...",
-    "date": "2026-07-06",
-    "source_name": "Databricks Blog",
-    "categorie_source": "DATA_PLATFORM",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_AGENTS",
-    "raison_score": "L'article présente une nouvelle capacité d'agents spécialisés pour le tri des alertes de sécurité, documentée et promettant une mise à l'échelle. Il s'agit d'une avancée significative dans l'application des agents IA à des problèmes complexes de sécurité.",
-    "tags": [
-      "agents IA",
-      "sécurité",
-      "Databricks",
-      "tri d'alertes"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 8,
-    "score_composite": 7.150000000000001
-  },
-  {
-    "url": "https://www.databricks.com/blog/openai-and-databricks-dais-2026-making-enterprise-ai-real",
-    "url_hash": "ba89b443f6c58590cf3f0b88d7de6d8b",
-    "titre": "OpenAI and Databricks at DAIS 2026: Making enterprise AI real",
-    "resume": "Data + AI Summit 2026 brought together over 32k+ in-person attendees across hundreds of sessions, product announcements...",
-    "date": "2026-07-06",
-    "source_name": "Databricks Blog",
-    "categorie_source": "DATA_PLATFORM",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_APPLIQUEE",
-    "raison_score": "Cet article couvre les annonces et les discussions de la conférence DAIS 2026, se concentrant sur la démocratisation et la réalisation de l'IA en entreprise. Il s'agit d'une avancée significative car il met en évidence les tendances et les outils qui rendent l'IA plus accessible et applicable.",
-    "tags": [
-      "entreprise IA",
-      "Databricks",
-      "OpenAI",
-      "DAIS 2026"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 8,
-    "score_composite": 7.150000000000001
-  },
-  {
     "url": "https://venturebeat.com/orchestration/acrouter-picks-the-smartest-ai-model-per-task-beating-opus-only-setups-by-2-6x-on-cost",
     "url_hash": "38871dad9f65d626accf8afbb0ff4c66",
     "titre": "ACRouter picks the smartest AI model per task, beating Opus-only setups by 2.6x on cost",
@@ -9029,6 +8981,30 @@
     "score_composite": 7.100000000000001
   },
   {
+    "url": "https://motherduck.com/blog/agents-in-motherduck",
+    "url_hash": "d24f15622a146aa20268c75e60feec2e",
+    "titre": "Introducing Agent Chat: The Shortest Path from Data to Action",
+    "resume": "Analyze data, automate workflows, and turn insights into applications so users can act on insights without losing time and context switching between tools",
+    "date": "2026-11-03",
+    "source_name": "MotherDuck Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Intégration d'une nouvelle capacité d'agent pour l'analyse de données et l'automatisation des workflows. Offre une voie plus courte de la donnée à l'action.",
+    "tags": [
+      "agents",
+      "data analysis",
+      "automation",
+      "motherduck"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 7.100000000000001
+  },
+  {
     "url": "https://towardsdatascience.com/rag-was-always-a-temporary-workaround-what-is-next/",
     "url_hash": "39b0d9f81ce7211a734b9ff82535325e",
     "titre": "RAG Was Always a Temporary Workaround. What is Next?",
@@ -9543,6 +9519,31 @@
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 8,
+    "score_composite": 7.1000000000000005
+  },
+  {
+    "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+    "url_hash": "a4a8ae975d2d01d76fdff61b507d59dc",
+    "titre": "Agentic cheminformatics with Google Antigravity",
+    "resume": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+    "date": "2026-11-03",
+    "source_name": "DeepMind Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Présente une avancée significative dans l'application d'agents IA pour la découverte de médicaments, avec des capacités documentées pour accélérer des flux de travail complexes.",
+    "tags": [
+      "Google Antigravity",
+      "agents IA",
+      "cheminformatique",
+      "découverte de médicaments",
+      "IA appliquée"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
     "score_composite": 7.1000000000000005
   },
   {
@@ -13488,30 +13489,6 @@
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 8,
     "score_composite": 6.900000000000001
-  },
-  {
-    "url": "https://www.databricks.com/blog/reimagining-data-modeling-lakehouse-introducing-vibe-data-modeling",
-    "url_hash": "e7f1b52b31911ec9306e9e337ccc1cff",
-    "titre": "Reimagining Data Modeling on the Lakehouse: Introducing Vibe Data Modeling",
-    "resume": "The challenges with Data ModelingIn every analytics stack, the Silver layer is where...",
-    "date": "2026-07-06",
-    "source_name": "Databricks Blog",
-    "categorie_source": "DATA_PLATFORM",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "DATA_PLATFORM",
-    "raison_score": "L'introduction de Vibe Data Modeling sur le Lakehouse représente une nouvelle capacité documentée et potentiellement reproductible pour la modélisation de données. C'est une avancée significative pour la manière dont les données sont structurées et gérées.",
-    "tags": [
-      "modélisation de données",
-      "lakehouse",
-      "Databricks",
-      "Vibe"
-    ],
-    "pertinence_bi_consultant": 8,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 6.9
   },
   {
     "url": "https://zapier.com/blog/best-automation-software",
@@ -17903,28 +17880,52 @@
     "score_composite": 6.7
   },
   {
-    "url": "https://towardsdatascience.com/stop-ranking-agent-configs-by-average-score/",
-    "url_hash": "f1f74cdb5d9a09a6002a9acf9bfb92f2",
-    "titre": "Stop Ranking Agent Configs by Average Score",
-    "resume": "Best-worst comparisons, MaxDiff-style judging, and Plackett-Luce utility scores give agent teams a cleaner way to decide which configs to ship, prune, and route toward next.\nThe post Stop Ranking Agent Configs by Average Score appeared first on Towards Data Science.",
-    "date": "2026-07-06",
+    "url": "https://towardsdatascience.com/let-decision-models-guide-your-voice-assistant/",
+    "url_hash": "afc9b09b451cae86a6e4735e5750c707",
+    "titre": "Let Decision Models Guide Your Voice Assistant",
+    "resume": "GPT-Live does the talking. A decision model tracks what’s confirmed and picks what to ask next.\nThe post Let Decision Models Guide Your Voice Assistant appeared first on Towards Data Science.",
+    "date": "2026-11-04",
     "source_name": "Towards Data Science",
     "categorie_source": "DATA_PLATFORM",
     "score_pending": false,
     "article_du_jour": false,
     "score": 7,
-    "categorie": "ENTREPRENEURIAT",
-    "raison_score": "Cet article propose une nouvelle pratique documentée pour évaluer et sélectionner les configurations d'agents, passant d'une moyenne de score à des comparaisons plus sophistiquées. C'est une avancée significative dans l'optimisation des agents IA.",
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article décrit une nouvelle capacité pour les assistants vocaux, les guidant par des modèles de décision pour une meilleure interaction. Il propose une approche documentée et reproductible pour améliorer les agents conversationnels.",
     "tags": [
-      "AI Agents",
-      "Optimization",
-      "Evaluation",
-      "Entrepreneurship"
+      "IA",
+      "Assistants Vocaux",
+      "Agents",
+      "Modèles de Décision"
     ],
     "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 8,
-    "score_composite": 6.650000000000001
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
+    "url": "https://zapier.com/blog/claude-duet",
+    "url_hash": "e893c33b2f0a2b95cab0dbeacc8cb927",
+    "titre": "What is Claude Duet?",
+    "resume": "Claude Duet is Anthropic's answer to Meta's Muse and OpenAI's dots. It's an always-on AI agent, which means that instead of waiting for you to type a prompt, it sends you a morning brief, checks your connected apps to see where it can be helpful, and works on tasks in the background. Terrifying? A bit. But before it sends, pays, signs, or deletes anything, it asks you first. It's still in research preview, but I got early access and spent some time with it on my phone. Here's what Claude Duet is",
+    "date": "2026-11-04",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Cet article introduit une nouvelle capacité d'agent IA (Claude Duet) qui fonctionne en arrière-plan et de manière proactive. La description est documentée et reproductible pour comprendre le concept.",
+    "tags": [
+      "Claude Duet",
+      "agents IA",
+      "IA proactive",
+      "Anthropic"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
   },
   {
     "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
@@ -22555,6 +22556,30 @@
     "score_composite": 6.45
   },
   {
+    "url": "https://www.sqlbi.com/tv/optimizing-dax-with-ai/",
+    "url_hash": "25c8f620da1a6cd6d70659df9e6f4dc3",
+    "titre": "Optimizing DAX with AI",
+    "resume": "Can AI optimize a DAX expression? Sure, it can. However, when AI and humans work together, the result is better.",
+    "date": "2026-11-04",
+    "source_name": "SQLBI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article explore l'intégration de l'IA pour optimiser des expressions DAX, un outil BI mainstream. Bien que l'IA ne remplace pas l'humain, cette intégration est une évolution notable pour les professionnels de la BI.",
+    "tags": [
+      "DAX",
+      "IA",
+      "Optimisation",
+      "Power BI"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 6.45
+  },
+  {
     "url": "https://pub.towardsai.net/the-python-library-that-reads-your-power-bi-models-like-data-a8aa1408f2cd?source=rss------power_bi-5",
     "url_hash": "9385b0f6e93aa1f8f36156d68bf934f0",
     "titre": "The Python Library That Reads Your Power BI Models Like Data.",
@@ -23733,6 +23758,56 @@
       "Domaine Légal",
       "Données Sensibles",
       "RAG"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.350000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/11/03/nvidia-dgx-spark-moe-inference-ling-3-0-flash/",
+    "url_hash": "3e1f2bb1c8ca419f5792339c03379fee",
+    "titre": "NVIDIA Shows 3 Ways to Speed Up MoE Inference on DGX Spark, Lifting Ling-3.0-flash Throughput 42.5%",
+    "resume": "NVIDIA shows how 3 stacked optimizations speed up MoE inference on a single DGX Spark. On Ant Group inclusionAI's 124B Ling-3.0-flash, GSM8K decode throughput rose 42.5% with no detectable accuracy change.\nThe post NVIDIA Shows 3 Ways to Speed Up MoE Inference on DGX Spark, Lifting Ling-3.0-flash Throughput 42.5% appeared first on MarkTechPost.",
+    "date": "2026-11-03",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Cet article présente une mise à jour significative sur l'optimisation des performances d'inférence pour les modèles MoE, une avancée importante pour la mise à l'échelle des applications IA.",
+    "tags": [
+      "NVIDIA",
+      "MoE",
+      "inférence IA",
+      "optimisation",
+      "DGX Spark"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.350000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/11/03/soniox-stt-v6-agent-text-input-echo-cancellation/",
+    "url_hash": "c53b43721023f9c5c9c1a504002e3bbf",
+    "titre": "Soniox STT v6 Adds Agent Text Input and Echo Filtering for Voice Agents",
+    "resume": "Soniox has released Soniox STT v6, the latest generation of its speech-to-text API. Soniox STT v6 is a speech-to-text model that reads what a voice agent says while hearing the caller. It uses that text to recognize short replies and to drop the agent’s own voice. The release ships as stt-rt-v6 for streaming and stt-async-v6 […]\nThe post Soniox STT v6 Adds Agent Text Input and Echo Filtering for Voice Agents appeared first on MarkTechPost.",
+    "date": "2026-11-03",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Il s'agit d'une nouvelle capacité documentée et reproductible pour les agents vocaux, améliorant l'interaction grâce à la gestion du texte d'entrée et à la suppression de l'écho.",
+    "tags": [
+      "Soniox STT v6",
+      "agents vocaux",
+      "reconnaissance vocale",
+      "IA",
+      "agents IA"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -25368,6 +25443,32 @@
       "Modèles IA",
       "Liquid AI",
       "Context Window"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.300000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark/",
+    "url_hash": "39cd2cb0e62f187b636b33daa8347bd7",
+    "titre": "Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights",
+    "resume": "Anthropic released FlashProve, an Apache 2.0 zkSNARK prototype that proves a reply came from a committed model without revealing weights. It proves Llama 4 Maverick at 110 tokens/second on 1 H100, with 19 MB proofs.\nThe post Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights appeared first on MarkTechPost.",
+    "date": "2026-11-03",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Il s'agit d'une avancée significative dans le domaine de la preuve cryptographique pour l'IA, avec un prototype open-source prometteur pour la vérification de l'intégrité des modèles.",
+    "tags": [
+      "FlashProve",
+      "zkSNARK",
+      "cryptographie",
+      "IA",
+      "Anthropic",
+      "modèles IA"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 8,
@@ -27072,30 +27173,6 @@
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 8,
     "score_composite": 6.15
-  },
-  {
-    "url": "https://www.databricks.com/blog/automatic-upgrades-best-practice-features-your-lakehouse-tables",
-    "url_hash": "9e8560969b85356b1364f58c84f05d10",
-    "titre": "Automatic Upgrades: best practice features for your lakehouse tables",
-    "resume": "Your Unity Catalog (UC) managed tables now get better on their own. Automatic (Auto)...",
-    "date": "2026-07-06",
-    "source_name": "Databricks Blog",
-    "categorie_source": "DATA_PLATFORM",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "DATA_PLATFORM",
-    "raison_score": "L'introduction de mises à jour automatiques pour les tables de lakehouse est une évolution notable dans l'amélioration des outils de plateforme de données existants. Cela simplifie la gestion et améliore l'efficacité.",
-    "tags": [
-      "lakehouse",
-      "Databricks",
-      "gestion de données",
-      "meilleures pratiques"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 6.1000000000000005
   },
   {
     "url": "https://towardsdatascience.com/rag-vs-fine-tuning-explained-what-they-actually-do-and-when-to-use-each/",
@@ -29446,6 +29523,30 @@
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.050000000000001
+  },
+  {
+    "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+    "url_hash": "b9febe6c65ab0c7427c24c65bde81931",
+    "titre": "Daybreak Red is now available in AWS GovCloud (US-East)",
+    "resume": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+    "date": "2026-11-04",
+    "source_name": "OpenAI Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Cet article annonce la disponibilité d'une capacité IA avancée (GPT-5.6 Cyber) dans un environnement cloud sécurisé pour des usages de cybersécurité. Cela représente une avancée significative pour l'application de l'IA dans un secteur critique.",
+    "tags": [
+      "IA",
+      "Cybersecurity",
+      "Cloud",
+      "GPT"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 8,
     "pertinence_entrepreneur": 6,
     "score_composite": 6.050000000000001
   },
@@ -32784,30 +32885,6 @@
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 6,
     "score_composite": 5.85
-  },
-  {
-    "url": "https://towardsdatascience.com/validating-the-rag-answer-before-the-user-sees-it-spans-quotes-and-the-feedback-loop/",
-    "url_hash": "af97ee7ab6bab3287e5b069f10a842a5",
-    "titre": "Validating the RAG Answer Before the User Sees It: Spans, Quotes, and the Feedback Loop",
-    "resume": "Enterprise Document Intelligence [Vol.1 #8C] - Structured output is the start of validation, not the end: check the evidence, accept not-found, loop the feedback\nThe post Validating the RAG Answer Before the User Sees It: Spans, Quotes, and the Feedback Loop appeared first on Towards Data Science.",
-    "date": "2026-07-06",
-    "source_name": "Towards Data Science",
-    "categorie_source": "DATA_PLATFORM",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "IA_AGENTS",
-    "raison_score": "L'article décrit des méthodes pour valider les réponses RAG avant qu'elles ne soient présentées à l'utilisateur, en se concentrant sur les évidences et la boucle de feedback. C'est une évolution notable pour la fiabilité des agents.",
-    "tags": [
-      "RAG",
-      "Validation",
-      "Feedback Loop",
-      "AI Agents"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 5.800000000000001
   },
   {
     "url": "https://zapier.com/blog/openai-models",
@@ -39253,6 +39330,30 @@
     "score_composite": 5.5
   },
   {
+    "url": "https://towardsdatascience.com/how-to-combine-contradictory-filters-in-dax/",
+    "url_hash": "12d4eafd24090f8f659590886c91fe3a",
+    "titre": "How to Combine Contradictory Filters in DAX",
+    "resume": "Sometimes we need to calculate results based on contradictory filters. Without any action, these filters will lead to an empty result. Let's see how we can improve the data model to make it work.\nThe post How to Combine Contradictory Filters in DAX appeared first on Towards Data Science.",
+    "date": "2026-11-04",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article présente un tutoriel avancé expliquant comment gérer des cas complexes de filtrage dans DAX. Il offre une solution pratique à un problème courant pour les utilisateurs de Power BI.",
+    "tags": [
+      "DAX",
+      "Power BI",
+      "BI",
+      "Data Modeling"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 5.5
+  },
+  {
     "url": "https://towardsdatascience.com/when-to-use-claude-code-and-when-to-use-codex/",
     "url_hash": "d859c8029fa446a5b376fd6a7a0bf7fc",
     "titre": "When to Use Claude Code and When to Use Codex",
@@ -39682,6 +39783,29 @@
       "intelligence d'entreprise",
       "ontologie",
       "architecture de données"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 5.45
+  },
+  {
+    "url": "https://medium.com/microsoft-power-bi/power-bi-in-q3-and-october-2026-everything-that-changed-51e4e4ffbfc7?source=rss------power_bi-5",
+    "url_hash": "2be51a1f1359bd697bd0bd61614bc499",
+    "titre": "Power BI in Q3 and October 2026: Everything That Changed",
+    "resume": "Power BI moved fast in the third quarter of 2026. Really fast.Continue reading on Power BI »",
+    "date": "2026-11-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article détaille les changements et mises à jour dans Power BI sur une période donnée. Il représente une mise à jour importante pour les utilisateurs de cet outil BI mainstream.",
+    "tags": [
+      "Power BI",
+      "Mises à jour",
+      "BI"
     ],
     "pertinence_bi_consultant": 8,
     "pertinence_passionné_ia": 3,
@@ -43228,6 +43352,30 @@
     "score_composite": 5.3
   },
   {
+    "url": "https://www.databricks.com/blog/declare-and-optimize-unique-constraints-databricks",
+    "url_hash": "e4678de6c8b7874e32f4a671c63d9ffd",
+    "titre": "Declare and optimize with UNIQUE constraints on Databricks",
+    "resume": "Data teams often maintain uniqueness guarantees in their pipelines, but without a...",
+    "date": "2026-11-03",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "L'ajout de contraintes d'unicité optimisées dans Databricks est une évolution notable pour la gestion de la qualité des données sur la plateforme. Cela améliore la robustesse des pipelines de données.",
+    "tags": [
+      "Data Engineering",
+      "Databricks",
+      "qualité des données",
+      "contraintes d'unicité"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.3
+  },
+  {
     "url": "https://towardsdatascience.com/how-to-work-effectively-with-gpt-5-6/",
     "url_hash": "ba643a3af6d44d84cb7181fdb3979f32",
     "titre": "How to Work Effectively with GPT-5.6",
@@ -45362,6 +45510,31 @@
     "score_composite": 5.1499999999999995
   },
   {
+    "url": "https://medium.com/@hemanths7.dev/everything-you-need-to-become-a-data-analyst-skills-tools-projects-and-roles-d2fc4817d2ab?source=rss------power_bi-5",
+    "url_hash": "f5aed720d5723d1397d997e8aeae7c63",
+    "titre": "Everything You Need to Become a Data Analyst: Skills, Tools, Projects, and Roles",
+    "resume": "From zero skills to job-ready: a practical roadmap for Excel, SQL, Python, Power BI, projects, and landing your first analytics role.Continue reading on Medium »",
+    "date": "2026-11-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un guide complet et pratique pour aspirer à une carrière d'analyste de données, couvrant les compétences, les outils et les projets. Utile pour les débutants.",
+    "tags": [
+      "data analyst",
+      "carrière",
+      "compétences",
+      "outils",
+      "projets"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 5.1499999999999995
+  },
+  {
     "url": "https://towardsdatascience.com/why-claude-code-time-estimates-are-poor/",
     "url_hash": "75d39724537ccb986de5631e329e6b8e",
     "titre": "Why Claude Code Time Estimates Are Poor",
@@ -45459,30 +45632,6 @@
     "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 3,
     "score_composite": 5.1000000000000005
-  },
-  {
-    "url": "https://towardsdatascience.com/how-to-run-end-to-end-tests-with-claude-code/",
-    "url_hash": "3ebbd8de5419c704f0e0f9382398f9d1",
-    "titre": "How to Run End-to-End Tests with Claude Code",
-    "resume": "Increase the effectiveness of your coding agents through end-to-end testing.\nThe post How to Run End-to-End Tests with Claude Code appeared first on Towards Data Science.",
-    "date": "2026-07-06",
-    "source_name": "Towards Data Science",
-    "categorie_source": "DATA_PLATFORM",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 5,
-    "categorie": "DEV_ASSISTE",
-    "raison_score": "Cet article propose un tutoriel avancé sur les tests de bout en bout pour les agents de codage basés sur Claude. Il s'agit d'une évolution notable pour améliorer la fiabilité des outils d'aide au développement.",
-    "tags": [
-      "AI Agents",
-      "Testing",
-      "Claude Code",
-      "Development"
-    ],
-    "pertinence_bi_consultant": 4,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 5.1
   },
   {
     "url": "https://medium.com/@mydata_insights/managed-services-for-microsoft-fabric-in-production-76cc4275584a?source=rss------power_bi-5",
@@ -45727,6 +45876,31 @@
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 5,
+    "score_composite": 5.1
+  },
+  {
+    "url": "https://www.databricks.com/blog/claude-platform-now-supports-native-opentelemetry-observability-databricks-mlflow",
+    "url_hash": "5fe52686a105e4ef5175a7802c918361",
+    "titre": "Claude Platform now supports native OpenTelemetry observability in Databricks MLflow",
+    "resume": "An agent can return a plausible answer while missing an important finding or reading the same source repeatedly...",
+    "date": "2026-11-03",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "L'intégration de l'observabilité native (OpenTelemetry) pour la plateforme Claude dans Databricks MLflow est une mise à jour importante d'un outil existant. Elle vise à améliorer la gestion et le suivi des processus IA.",
+    "tags": [
+      "IA",
+      "observabilité",
+      "Databricks",
+      "MLflow",
+      "OpenTelemetry"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 4,
     "score_composite": 5.1
   },
   {
@@ -50353,6 +50527,30 @@
     "score_composite": 4.8
   },
   {
+    "url": "https://medium.com/@nezuminet/sorry-january-its-not-you-it-s-finance-custom-calendars-in-power-bi-d6fdbc29d586?source=rss------power_bi-5",
+    "url_hash": "a654af240e19d8f7369bab1f6c6a4e78",
+    "titre": "Sorry January, it’s not you, it’s finance: Custom calendars in Power BI",
+    "resume": "Every January 1st, most of the world throws a little New Year’s party to kick off the upcoming year in a good mood, and Power BI joins in…Continue reading on Medium »",
+    "date": "2026-11-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "L'article traite d'un cas d'usage spécifique et documenté pour la gestion des dates en Power BI. Il fournit des solutions pratiques pour des problématiques courantes.",
+    "tags": [
+      "Power BI",
+      "calendriers personnalisés",
+      "finance",
+      "modélisation de données"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.8
+  },
+  {
     "url": "https://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms/",
     "url_hash": "9c1d499720bbc2b19c92d76e9228e575",
     "titre": "OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Platforms",
@@ -53593,6 +53791,29 @@
     "score_composite": 4.45
   },
   {
+    "url": "https://medium.com/@fabricexperts.in/7-skills-hiring-managers-look-for-in-a-fabric-engineer-e67a94e8fafb?source=rss------power_bi-5",
+    "url_hash": "44224384aa9682f8d75dafc0b780d7fc",
+    "titre": "7 Skills Hiring Managers Look for in a Fabric Engineer",
+    "resume": "Imagine you are a hiring manager with eighty resumes for one Microsoft Fabric data engineer role. Almost every resume says “Microsoft…Continue reading on Medium »",
+    "date": "2026-11-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Cet article offre des informations utiles sur les compétences recherchées pour les ingénieurs Microsoft Fabric. C'est un retour d'expérience pertinent pour le marché de l'emploi dans ce domaine.",
+    "tags": [
+      "Microsoft Fabric",
+      "Data Engineering",
+      "Compétences"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 4.45
+  },
+  {
     "url": "https://www.producthunt.com/products/hermai-brand-api",
     "url_hash": "d9e8af4ac7d72fb79bf32d68ff7f518c",
     "titre": "Hermai Brand API",
@@ -55599,6 +55820,29 @@
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 4,
+    "score_composite": 4.25
+  },
+  {
+    "url": "https://medium.com/@niti99320/choosing-a-power-bi-development-partner-5-companies-compared-b7e66ad510de?source=rss------power_bi-5",
+    "url_hash": "2ae2399eadb1e239fedcd5c9b6be6717",
+    "titre": "Choosing a Power BI Development Partner: 5 Companies Compared",
+    "resume": "Power BI is a Microsoft business analytics platform that transforms data collected from different sources into actionable insights. These…Continue reading on Medium »",
+    "date": "2026-11-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Il s'agit d'un comparatif d'entreprises de services, utile pour ceux qui cherchent un partenaire Power BI. Il apporte une information factuelle mais ne propose pas d'avancée technique majeure.",
+    "tags": [
+      "Power BI",
+      "Partenaires",
+      "Comparatif"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 6,
     "score_composite": 4.25
   },
   {
@@ -59926,6 +60170,31 @@
     "score_composite": 3.4
   },
   {
+    "url": "https://medium.com/@sajeevsebastian/microsoft-dp-900-vs-pl-300-which-first-for-a-data-career-d9b10148c132?source=rss------power_bi-5",
+    "url_hash": "9ac9751ffd954d984261bb9548722ccf",
+    "titre": "Microsoft DP-900 vs PL-300: Which First for a Data Career?",
+    "resume": "If you want a Microsoft certification for a data career, two exams often come up first: DP-900, Microsoft Azure Data Fundamentals, and…Continue reading on Medium »",
+    "date": "2026-11-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article offre une comparaison utile pour les personnes souhaitant se certifier dans l'écosystème Microsoft Data/BI. Il aide à la prise de décision pour le parcours professionnel.",
+    "tags": [
+      "certification",
+      "Microsoft Azure",
+      "DP-900",
+      "PL-300",
+      "carrière data"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 3.4
+  },
+  {
     "url": "https://medium.com/@muhammedalthaf118/why-power-bi-is-important-for-data-analysts-7ac409ba083a?source=rss------power_bi-5",
     "url_hash": "9e3d706d10e2e2ff22b16d9bcdfbce77",
     "titre": "Why Power BI Is Important for Data Analysts",
@@ -61856,6 +62125,28 @@
     "score_composite": 2.1500000000000004
   },
   {
+    "url": "https://medium.com/@chaitalibodke1289/what-is-power-bi-the-ultimate-guide-for-every-professional-e83701b7394b?source=rss------power_bi-5",
+    "url_hash": "7177f0b8c362d32aa9b6f45bb92baeb0",
+    "titre": "What Is Power BI? The Ultimate Guide for Every Professional",
+    "resume": "In today’s data-driven business environment, making the right decisions requires more than collecting information. Businesses need to…Continue reading on Medium »",
+    "date": "2026-11-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 2,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article est un guide général sur Power BI, sans information nouvelle ou avancée. Il s'agit d'une redite d'informations largement disponibles.",
+    "tags": [
+      "Power BI",
+      "Guide"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 1,
+    "score_composite": 2.15
+  },
+  {
     "url": "https://techcrunch.com/2026/08/30/liuxs-big-microcar-bets-on-sustainability-to-take-on-chinese-rivals/",
     "url_hash": "378833979da6db9c550f201d67ed5576",
     "titre": "Liux’s Big microcar bets on sustainability to take on Chinese rivals",
@@ -62128,6 +62419,29 @@
     "tags": [
       "Power BI",
       "Formation BI"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 1,
+    "score_composite": 1.9
+  },
+  {
+    "url": "https://medium.com/@sivavisualpath668/ai-with-power-bi-course-power-bi-training-course-d56b8cc8c858?source=rss------power_bi-5",
+    "url_hash": "51540412ad0a7a6ef30020a813e0cac8",
+    "titre": "AI With Power BI Course | Power BI Training Course",
+    "resume": "👉 Join Visualpath to strengthen your Power BI knowledge through practical learning and real-world business scenarios.Continue reading on Medium »",
+    "date": "2026-11-04",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 2,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Il s'agit d'une annonce de formation, manquant de substance technique ou d'information sur de nouvelles capacités. Sa valeur ajoutée est faible.",
+    "tags": [
+      "Power BI",
+      "IA",
+      "Formation"
     ],
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 1,
@@ -62620,6 +62934,29 @@
     "score_composite": 1.2
   },
   {
+    "url": "https://www.wired.com/story/chernobyls-dogs-may-be-evolving-but-scientists-dont-know-why/",
+    "url_hash": "f329c485dff4d5cf628bc7bb191614e6",
+    "titre": "Chernobyl’s Dogs May Be Evolving, but Scientists Don’t Know Why",
+    "resume": "A new study found evidence of natural selection in the dogs of Chernobyl, but it’s still unclear what drove these genetic differences and what evolutionary advantages they may provide.",
+    "date": "2026-11-04",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 1,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Bien qu'intéressant d'un point de vue scientifique, cet article sur l'évolution canine à Tchernobyl n'a pas d'impact direct ou d'application dans les domaines d'expertise demandés.",
+    "tags": [
+      "biologie",
+      "évolution",
+      "science"
+    ],
+    "pertinence_bi_consultant": 1,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 1,
+    "score_composite": 1.2
+  },
+  {
     "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
     "url_hash": "62efadaf1b1ade2a36571befcab07c5b",
     "titre": "Last-minute Halloween costumes for tech nerds",
@@ -62706,6 +63043,28 @@
       "news",
       "crime",
       "legal"
+    ],
+    "pertinence_bi_consultant": 1,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 1,
+    "score_composite": 1.0
+  },
+  {
+    "url": "https://www.wired.com/story/election-deniers-not-contesting-their-massive-losses/",
+    "url_hash": "f2670c5bd2f38e161cf9da8d02684ef8",
+    "titre": "Election Deniers Not Contesting Their Massive Losses",
+    "resume": "For months, election deniers claimed without evidence that the vote would be rigged. Now they appear to be accepting crushing defeats.",
+    "date": "2026-11-04",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 1,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article traite de sujets politiques et ne présente aucun contenu technique ou d'impact dans les domaines de l'IA, du Data Engineering ou de la BI.",
+    "tags": [
+      "politique",
+      "élections"
     ],
     "pertinence_bi_consultant": 1,
     "pertinence_passionné_ia": 1,
