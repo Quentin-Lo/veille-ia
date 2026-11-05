@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-11-05</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-11-05 16:03 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>Dropbox renforce son infrastructure IA avec l'acquisition de Tigris Data</h2>
+<blockquote>Dropbox rachète Tigris Data pour 350M$ afin de développer sa plateforme pour les développeurs d'IA.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+<p>Dropbox a annoncé l'acquisition de Tigris Data pour 350 millions de dollars. Le but est de muscler son infrastructure pour l'intelligence artificielle. Cette opération vise à soutenir le développement de DBX Agent Cloud. C'est une nouvelle plateforme de stockage conçue pour les développeurs qui créent des modèles et des agents IA. L'intégration permettra à Dropbox d'offrir des outils plus performants pour la gestion des données liées à l'IA.</p>
+<blockquote>L'acquisition de Tigris Data s'élève à 350 millions de dollars.</blockquote>
+<h3>Pourquoi ca compte 🎯</h3>
+<p>Cette acquisition positionne Dropbox comme un acteur clé pour les développeurs d'IA. Ils pourront bénéficier d'une infrastructure de stockage optimisée pour leurs besoins spécifiques. Cela signifie moins de contraintes techniques pour la gestion des données volumineuses et complexes nécessaires aux modèles d'apprentissage. Dropbox s'affirme ainsi dans la course aux solutions IA.</p>
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Explorer les nouvelles capacités de stockage IA</strong> : Renseigne-toi sur les annonces futures de Dropbox concernant DBX Agent Cloud.</li>
+<li><strong>Tester des plateformes IA pour développeurs</strong> : Commence à regarder du côté des outils comme Google Cloud Agent Compute Engine pour comprendre les tendances.</li>
+<li><strong>Defi rapide</strong> : Identifie une tâche répétitive dans ton workflow de développement IA et réfléchis à comment un agent pourrait l'automatiser.</li>
+</ul>
+<blockquote>Simplifie la gestion de tes données IA grâce à une infrastructure dédiée.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>DBX Agent Cloud</strong> : Plateforme de stockage conçue par Dropbox pour les développeurs d'IA.</li>
+<li><strong>Tigris Data</strong> : Entreprise spécialisée dans les bases de données et l'infrastructure, acquise par Dropbox.</li>
+<li><strong>Infrastructure IA</strong> : Ensemble des outils et technologies nécessaires pour construire et déployer des applications d'intelligence artificielle.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/">Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure</a> — Comprends les motivations stratégiques derrière cette acquisition.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<strong>OpenAI lance GPT-6.1 Sol : une avancée majeure pour le codage et l'utilisation informatique IA.</strong> Ce nouveau modèle offre des performances quasi astronomiques pour le codage, tout en coûtant un cinquième du prix de son prédécesseur. (8)
+<strong>Google Cloud lance Agent Compute Engine : une solution par MicroVM pour chaque agent IA.</strong> Cette offre vise à fournir une isolation et une performance accrues pour les agents IA, une avancée significative pour la scalabilité. (8)
+<strong>Comment Anthropic assure la sécurité de son LLM numéro 1 mondial : séparer le cerveau des mains.</strong> L'article détaille la stratégie d'Anthropic pour un déploiement sécurisé de ses modèles, en distinguant la partie raisonnement de la partie action. (8)
+<strong>Partage des progrès de l'IA en mathématiques par OpenAI.</strong> La recherche montre comment les modèles d'IA font des percées significatives dans la résolution de problèmes mathématiques complexes. (9)
+<strong>[AINews] TypeSafe/Jev atteint 100M$ d'ARR et une valorisation de 7.5B$ trois semaines après son lancement.</strong> Une croissance fulgurante qui souligne l'énorme appétit pour les solutions de sécurité et de développement dans l'IA. (9)
+<strong>Claude devient notre VP Produit IA, nous automatisant 10 ans de travail pour 14$ : notre agent a tué une application à 10K$ en une heure.</strong> Cet article illustre la puissance concrète des agents IA pour transformer les opérations d'entreprise et générer des économies massives. (8)
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>Les modèles IA atteignent des sommets en performance et en sécurité.</strong> Les annonces de GPT-6.1 Sol et les méthodes de détection de désalignement chez OpenAI montrent une double préoccupation : pousser les limites tout en assurant une utilisation responsable.
+<strong>Les agents IA envahissent l'entreprise, de la création d'applications à la gestion de données.</strong> Des startups comme Wabi atteignent des valorisations records, tandis que des géants comme NVIDIA et Databricks déploient des solutions pour l'intégration des agents dans les processus existants.
+<strong>A surveiller</strong> : La démocratisation des "context layers" d'entreprise, une approche architecturale pour gérer efficacement les données et les agents IA à grande échelle.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-11-05 16:03 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
