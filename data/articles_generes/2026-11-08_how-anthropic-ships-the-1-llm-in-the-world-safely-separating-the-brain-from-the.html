@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands — Veille IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.85;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    color: white;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .site-header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px; }
+  .site-header .tagline { font-size: 0.8rem; opacity: 0.65; margin-left: auto; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    max-width: 720px;
+    margin: 0 auto 20px;
+  }
+  .hero .date-line {
+    font-size: 0.82rem;
+    opacity: 0.7;
+    margin-top: 16px;
+  }
+
+  /* Container */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* Blockquote accroche */
+  blockquote {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 5px solid #2563eb;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 28px 22px 32px;
+    margin: 36px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: italic;
+    font-size: 1.18rem;
+    color: #1e3a8a;
+    line-height: 1.7;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+    position: relative;
+  }
+  blockquote::before {
+    content: 'C';
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    font-size: 3rem;
+    color: #93c5fd;
+    font-family: Georgia, serif;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  blockquote strong { color: #1d4ed8; }
+
+  /* Sections */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 52px 0 22px;
+    padding: 14px 18px 14px 20px;
+    background: linear-gradient(90deg, #eff6ff 0%, rgba(239,246,255,0) 90%);
+    border-left: 6px solid #2563eb;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -0.3px;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.22rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 38px 0 16px;
+    padding-bottom: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(90deg, #60a5fa 0%, #93c5fd 60%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 3px;
+    letter-spacing: -0.2px;
+    width: auto;
+  }
+
+  p {
+    margin: 0 0 18px;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+    padding: 24px 28px;
+    margin: 20px 0;
+    border: 1px solid #f1f5f9;
+  }
+
+  /* Lists */
+  ul, ol {
+    padding-left: 26px;
+    margin: 16px 0 22px;
+  }
+  li {
+    margin: 10px 0;
+    color: #1e293b;
+    padding-left: 6px;
+    line-height: 1.75;
+  }
+  li::marker {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  li strong:first-child { color: #1d4ed8; }
+
+  /* Links */
+  a { color: #2563eb; text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; color: #1d4ed8; }
+
+  /* Code */
+  code {
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-size: 0.88em;
+    font-family: 'Fira Code', 'Cascadia Code', monospace;
+    color: #0f172a;
+  }
+  pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 20px 24px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  pre code { background: none; border: none; color: inherit; padding: 0; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(15,23,42,0.06);
+    font-size: 0.98rem;
+  }
+  th {
+    background: linear-gradient(135deg, #1e3a5f 0%, #1d4ed8 100%);
+    color: white;
+    padding: 14px 18px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.7;
+  }
+  td strong { color: #1d4ed8; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8fafc; }
+
+  /* Strong */
+  strong { color: #1d4ed8; font-weight: 700; }
+  h2 strong, h3 strong { color: inherit; }
+  em { color: #475569; font-style: italic; }
+
+  /* HR */
+  hr {
+    border: none;
+    border-top: 2px dashed #e2e8f0;
+    margin: 44px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 28px 20px;
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  .footer a { color: #60a5fa; font-weight: 400; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body { font-size: 16px; line-height: 1.78; }
+    .hero { padding: 36px 16px 32px; }
+    .container { padding: 0 12px 40px; }
+    h2 { font-size: 1.3rem; padding: 12px 14px 12px 16px; border-left-width: 5px; }
+    h3 { font-size: 1.12rem; }
+    blockquote { font-size: 1.05rem; padding: 18px 22px 18px 26px; margin: 28px 0; }
+    p { margin-bottom: 16px; }
+    li { margin: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">⚡ Veille IA</span>
+  <span class="tagline">Ta dose quotidienne d'actu tech</span>
+</header>
+
+<div class="hero">
+  <div class="badge">Article du jour</div>
+  <h1>How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands</h1>
+  <div class="date-line">
+    📅 Article source du <strong style="color:white">2026-10-27</strong>
+    &nbsp;·&nbsp; Veille generee le 2026-11-08 14:45 UTC
+    &nbsp;·&nbsp; <a href="index.html" style="color:rgba(255,255,255,0.75)">Tous les articles</a>
+  </div>
+</div>
+
+<div class="container">
+<h2>Anthropic separe cerveau et mains pour sécuriser ses IA avancées</h2>
+<blockquote>Anthropic répond aux problèmes de contrôle des IA avec une nouvelle architecture.</blockquote>
+<h3>Ce qui s'est passe 🔍</h3>
+<p>Anthropic a lancé Opus 5.5, leur dernier modèle, en adoptant une approche inédite pour le contrôler. Ils séparent le "cerveau" du modèle (sa capacité de raisonnement) de ses "mains" (les outils et actions qu'il peut exécuter). Cette découpe permet de mieux contrôler ce que l'IA fait et comment elle le fait.</p>
+<p>Cette architecture est essentielle pour déployer des agents IA robustes et fiables dans des environnements complexes. Elle est déjà au cœur de leur plateforme API.</p>
+<blockquote>L'architecture sépare le raisonnement de l'action pour une meilleure contrôle.</blockquote>
+<h3>Pourquoi ca compte 🎯</h3>
+<p>Ce modèle de séparation est une étape cruciale pour la sécurité des IA. Il réduit les risques d'actions indésirées ou imprévisibles de la part des modèles. Pour les développeurs, cela signifie une plus grande confiance dans l'utilisation de ces IA pour des tâches critiques. Cela ouvre la voie à des agents capables d'opérer sur des applications réelles, en toute sécurité.</p>
+<table>
+<tr><th>Composant</th><th>Fonction principale</th><th>Exemple d'outil</th></tr>
+<tr><td>Le Cerveau (LLM)</td><td>Raisonnement, planification, compréhension</td><td>Claude Opus 5.5</td></tr>
+<tr><td>Les Mains (Agent)</td><td>Exécution des actions, interaction avec l'extérieur</td><td>Outils externes, APIs</td></tr>
+</table>
+<h3>Ce que tu peux en faire 🛠️</h3>
+<ul><li><strong>Explorer l'architecture de Claude</strong> : comprendre comment le "cerveau" et les "mains" interagissent.</li>
+<li><strong>Utiliser l'API Anthropic</strong> : intégrer des agents IA plus contrôlés dans tes projets.</li>
+<li><strong>Defi rapide</strong> : imagine une application où cette séparation serait indispensable et pourquoi.</li>
+</ul>
+<blockquote>Une IA plus sûre pour des applications plus ambitieuses.</blockquote>
+<h3>A retenir 📖</h3>
+<ul><li><strong>"Cerveau" (Brain)</strong> : la partie de l'IA responsable de la compréhension et de la prise de décision.</li>
+<li><strong>"Mains" (Hands)</strong> : les outils et mécanismes que l'IA utilise pour interagir avec son environnement et exécuter des actions.</li>
+<li><strong>Agent IA</strong> : un programme d'IA capable d'agir de manière autonome dans un environnement pour atteindre un objectif.</li>
+</ul>
+<h3>Pour aller plus loin</h3>
+<ul><li><a href="https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/">How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands</a> — détails techniques sur l'architecture et le lancement d'Opus 5.5.</li>
+</ul>
+<hr>
+<h2>Autres actus du jour 📰</h2>
+<strong>Le problème de la matématique avec les IA est présent mais des progrès sont partagés</strong> (9) - OpenAI partage comment les LLM abordent et créent des démonstrations mathématiques, ouvrant de nouvelles voies pour la recherche et l'éducation en IA.
+<strong>TypeSafe/Jev atteint une valorisation de 7.5 milliards de dollars</strong> (9) - La plateforme de développement signe une performance remarquable, atteignant plus de 100 millions de dollars de revenu récurrent annuel, trois semaines après son lancement.
+<strong>Claude devient VP Produit et réduit les coûts</strong> (8) - Une entreprise a intégré Claude comme VP Produit virtuel, réduisant drastiquement les dépenses marketing et même développant une application rapidement.
+<strong>Qwen3.8-Max affirme dépasser GPT-5.6 Sol Max</strong> (8) - Le nouveau modèle de Qwen revendique des performances supérieures sur les tâches d'utilisation d'ordinateurs par des agents IA.
+<strong>SpaceXAI lance Grok Bot pour des employés virtuels persistants</strong> (8) - Pour 120$ par mois, Grok Bot permet à des agents IA d'opérer vos applications, agissant comme des collaborateurs numériques constants.
+<strong>Skan AI lève 63 millions pour observer le travail des employés</strong> (8) - La startup parie sur l'observation directe du fonctionnement des salariés pour améliorer l'IA d'entreprise.
+<hr>
+<h2>Ce qui monte 📈</h2>
+<strong>Le "Weight Space Programming" pour que les LLM manipulent les poids des réseaux neuronaux</strong> — Cette technique permet aux LLMs de lire et écrire directement dans les poids des modèles, court-circuitant certaines étapes de recherche. C'est une approche révolutionnaire pour l'auto-recherche en IA.
+<strong>NVIDIA lance Auto Ontology pour unifier les agents IA et SQL</strong> — La nouvelle couche sémantique ouverte de NVIDIA améliore l'interprétabilité et la sécurité des agents IA qui interagissent avec des bases de données SQL.
+<strong>Dropbox investit massivement dans son infrastructure IA</strong> — L'acquisition de Tigris Data pour 350 millions de dollars montre l'importance croissante de la donnée et de l'IA pour les services de stockage cloud.
+<strong>A surveiller</strong> : L'intégration de plus en plus profonde des agents IA dans la sécurité numérique et la gestion des entreprises, avec des mouvements d'acquisition significatifs dans ce secteur.
+</div>
+
+<footer class="footer">
+  Genere automatiquement par <strong style="color:#e2e8f0">Veille IA Bot</strong> le 2026-11-08 14:45 UTC<br>
+  <a href="index.html">← Retour a l'index</a>
+</footer>
+
+</body>
+</html>
