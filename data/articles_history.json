@@ -193634,8 +193634,20 @@
     "date": "2026-11-10",
     "source_name": "Wired",
     "categorie_source": "BUSINESS_IA",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "IA_MODELES",
+    "raison_score": "Article de fond abordant les débats sur la sécurité de l'IA, mais sans présenter de nouvelle technologie ou de percée majeure. Il s'agit d'une discussion sur des pratiques établies.",
+    "tags": [
+      "sécurité IA",
+      "éthique IA",
+      "débat IA"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.05
   },
   {
     "url": "https://www.wired.com/review/huupe-mini-2/",
@@ -194604,8 +194616,21 @@
     "date": "2026-11-10",
     "source_name": "n8n Blog",
     "categorie_source": "AUTOMATISATION",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Tutoriel avancé sur des patterns d'automatisation par traitement par lots, expliquant des pratiques techniques pour des workflows à grande échelle.",
+    "tags": [
+      "automatisation",
+      "workflows",
+      "traitement par lots",
+      "n8n"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.05
   },
   {
     "url": "https://blog.n8n.io/build-safer-n8n-agents-and-workflows-with-google-gemini-4-carbon/",
@@ -194615,8 +194640,22 @@
     "date": "2026-11-10",
     "source_name": "n8n Blog",
     "categorie_source": "AUTOMATISATION",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Annonce d'une nouvelle capacité avec Gemini 4 Carbon intégré à n8n, offrant des gains significatifs en automatisation et en sécurité pour les agents et workflows, avec des métriques quantifiées.",
+    "tags": [
+      "agents IA",
+      "workflows",
+      "Google Gemini",
+      "automatisation",
+      "sécurité IA"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
   },
   {
     "url": "https://zapier.com/blog/coda-vs-notion",
@@ -194703,8 +194742,20 @@
     "date": "2026-11-10",
     "source_name": "Product Hunt",
     "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Lancement d'un nouvel outil (Mitra MCP) permettant de donner accès à des agents IA à des lignes téléphoniques personnelles, présentant un nouveau cas d'usage documenté.",
+    "tags": [
+      "agents IA",
+      "communication IA",
+      "nouvel outil"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.1
   },
   {
     "url": "https://www.producthunt.com/products/n8n-io",
@@ -194714,8 +194765,21 @@
     "date": "2026-11-10",
     "source_name": "Product Hunt",
     "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Lancement d'un agent personnel open-source avec des capacités informatiques autonomes, représentant une évolution notable dans les outils d'agents IA.",
+    "tags": [
+      "agents IA",
+      "open source",
+      "automatisation",
+      "n8n"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.1000000000000005
   },
   {
     "url": "https://www.producthunt.com/products/elevenlabs",
@@ -194951,8 +195015,21 @@
     "date": "2026-11-10",
     "source_name": "TechCrunch",
     "categorie_source": "BUSINESS_IA",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Acquisition d'une startup par OpenAI, indiquant une potentielle nouvelle orientation stratégique ou une intégration de technologie, bien que le détail soit limité.",
+    "tags": [
+      "acquisition",
+      "OpenAI",
+      "startup",
+      "stratégie"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 5.45
   },
   {
     "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
@@ -196150,8 +196227,21 @@
     "date": "2026-11-11",
     "source_name": "SaaStr",
     "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Article présentant des retours d'expérience concrets et des apprentissages sur l'adoption et l'utilisation des agents IA dans un contexte entrepreneurial, avec des métriques implicites sur leur efficacité.",
+    "tags": [
+      "agents IA",
+      "entrepreneuriat",
+      "adoption IA",
+      "tarification agents"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.500000000000001
   },
   {
     "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
@@ -196285,8 +196375,19 @@
     "date": "2026-11-11",
     "source_name": "TechCrunch",
     "categorie_source": "BUSINESS_IA",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 1,
+    "categorie": "ENTREPRENEURIAT",
+    "raison_score": "Article à faible valeur ajoutée technique ou business concernant l'IA ou la data, se concentrant sur des rumeurs personnelles. Ne correspond à aucun domaine d'expertise.",
+    "tags": [
+      "rumeurs",
+      "personnel"
+    ],
+    "pertinence_bi_consultant": 1,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 1,
+    "score_composite": 1.0
   },
   {
     "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
@@ -196599,8 +196700,21 @@
     "date": "2026-11-11",
     "source_name": "Wired",
     "categorie_source": "BUSINESS_IA",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Présente un nouveau cas d'usage innovant et potentiellement disruptif de l'IA pour la cybersécurité biologique, avec une approche documentée par une startup.",
+    "tags": [
+      "cybersécurité",
+      "biotechnologie",
+      "IA appliquée",
+      "startup"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.8500000000000005
   },
   {
     "url": "https://www.wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors/",
@@ -197653,8 +197767,21 @@
     "date": "2026-11-12",
     "source_name": "TechCrunch",
     "categorie_source": "BUSINESS_IA",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "L'intégration de Gemini 4 Hydrogen dans Google Search représente une mise à jour majeure de la capacité de traitement des requêtes complexes, avec des réponses visuelles plus riches. C'est une avancée significative dans l'application de l'IA à un outil grand public.",
+    "tags": [
+      "Google Search",
+      "Gemini 4 Hydrogen",
+      "LLM",
+      "AI features"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.1000000000000005
   },
   {
     "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
@@ -197664,8 +197791,21 @@
     "date": "2026-11-12",
     "source_name": "TechCrunch",
     "categorie_source": "BUSINESS_IA",
-    "score_pending": true,
-    "article_du_jour": false
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Lancement d'un agent IA spécifiquement conçu pour automatiser la découverte et la prospection de créateurs pour les marques. Il apporte une nouvelle capacité documentée pour le marketing d'influence.",
+    "tags": [
+      "marketing d'influence",
+      "automatisation",
+      "découverte de créateurs",
+      "prospection"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.500000000000001
   },
   {
     "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
@@ -198824,6 +198964,510 @@
     "titre": "Jensen Huang and the End of the Founder Fairy Tale",
     "resume": "The former tech CEO is obsessed with the power of storytelling. But he hasn't spun his way out of his sex scandals.",
     "date": "2026-11-13",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/",
+    "url_hash": "64acc21befdc5cfd06cebb52b9e6d52f",
+    "titre": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
+    "resume": "Bland has released Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes phone calls. It is in enterprise research preview, with no published benchmarks, size or pricing yet.\nThe post Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls appeared first on MarkTechPost.",
+    "date": "2026-11-15",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
+    "url_hash": "6e07345b4f8e2f644e50c0ea10c91ee7",
+    "titre": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
+    "resume": "Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming. A frontier LLM reads a small model’s weights, edits them in a sandbox, and tests each change, with no gradients and about $5 to $10 per run.\nThe post Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy appeared first on MarkTechPost.",
+    "date": "2026-11-14",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": true,
+    "score": 9,
+    "categorie": "IA_MODELES",
+    "raison_score": "Cet article présente une percée significative avec dspy-wsp, qui applique la programmation en espace de poids aux LLMs via DSPy. C'est une approche potentiellement révolutionnaire pour l'optimisation des modèles sans gradients.",
+    "tags": [
+      "DSPy",
+      "Weight-Space Programming",
+      "LLM optimization",
+      "frontier AI"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.85
+  },
+  {
+    "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+    "url_hash": "d3009b468fe3fba64b7495b7bd85cc7f",
+    "titre": "Understanding Positional Embeddings in Modern LLMs",
+    "resume": "The Methods Behind How LLMs Represent Token Positions",
+    "date": "2026-11-15",
+    "source_name": "Sebastian Raschka",
+    "categorie_source": "IA_AGENTS",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://towardsdatascience.com/a-practitioners-guide-to-6-agentic-graphrag-patterns/",
+    "url_hash": "b6a1f14c553e6b357c4533168b58c1d5",
+    "titre": "A Practitioner's Guide to 6 Agentic GraphRAG Patterns",
+    "resume": "How autonomous agents turn static knowledge graphs into living Context Graphs that remember decisions, user intent, and operational history\nThe post A Practitioner's Guide to 6 Agentic GraphRAG Patterns appeared first on Towards Data Science.",
+    "date": "2026-11-15",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "L'article documente des patterns reproductibles pour des agents autonomes, une capacité clé de l'IA moderne. Il s'agit d'une avancée significative dans l'application pratique des agents.",
+    "tags": [
+      "agents autonomes",
+      "GraphRAG",
+      "context graphs",
+      "LLM"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
+  },
+  {
+    "url": "https://towardsdatascience.com/computing-effective-dimension-for-quantum-ml-models-in-pytorch/",
+    "url_hash": "dd0c9e5b94336ca0dad998997028ae5d",
+    "titre": "Computing Effective Dimension for Quantum ML Models in PyTorch",
+    "resume": "Local and global variants, Fisher estimation, epsilon-ball sampling, and log-space stability, with PennyLane code and a time-series experiment.\nThe post Computing Effective Dimension for Quantum ML Models in PyTorch appeared first on Towards Data Science.",
+    "date": "2026-11-15",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://towardsdatascience.com/how-to-build-a-markov-chain-in-python-with-numpy/",
+    "url_hash": "3f5afeb15a9b325d97cb94497e3818d2",
+    "titre": "How to Build a Markov Chain in Python With NumPy",
+    "resume": "A step-by-step guide to transition matrices, the Chapman–Kolmogorov equation, and stationary distributions, built around a three-state writing example.\nThe post How to Build a Markov Chain in Python With NumPy appeared first on Towards Data Science.",
+    "date": "2026-11-14",
+    "source_name": "Towards Data Science",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://medium.com/@contentqueensdigital/business-analytics-skills-in-nepal-how-students-can-start-with-excel-sql-and-power-bi-993be7c5a28f?source=rss------power_bi-5",
+    "url_hash": "afff509c6a67dfba1feb1c93da686a47",
+    "titre": "Business Analytics Skills in Nepal: How Students Can Start with Excel, SQL and Power BI",
+    "resume": "Businesses collect information every day, from customer purchases and website visits to inventory records and financial transactions…Continue reading on Medium »",
+    "date": "2026-11-15",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article fournit des informations utiles sur les compétences de base en BI pour les étudiants au Népal. Il s'agit d'un retour d'expérience sur le déploiement de compétences établies.",
+    "tags": [
+      "business analytics",
+      "compétences",
+      "formation",
+      "Excel",
+      "SQL",
+      "Power BI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 3.8
+  },
+  {
+    "url": "https://medium.com/@farooqumer845/what-if-your-best-selling-product-is-actually-costing-your-business-money-b210a9d28e46?source=rss------power_bi-5",
+    "url_hash": "6e9596fdcaa972b4ef1a0cb7cc335a1a",
+    "titre": "WHAT IF YOUR BEST-SELLING PRODUCT IS ACTUALLY COSTING YOUR BUSINESS MONEY?",
+    "resume": "The Hidden Profitability Mystery Every Data Analyst Should Know — And How to Uncover It With DataContinue reading on Medium »",
+    "date": "2026-11-15",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://medium.com/@suddh123/automatic-power-bi-report-creation-with-code-python-libraries-pbir-scripts-and-llm-generators-1157a87430a8?source=rss------power_bi-5",
+    "url_hash": "7ca249ab1be77af909512a57cfb39d26",
+    "titre": "Automatic Power BI Report Creation With Code: Python Libraries, PBIR Scripts, and LLM Generators…",
+    "resume": "Three ways to automate Power BI reports in 2026: Python that writes PBIR, scripted PBIP deploys with fabric-cicd, and LLM generators.Continue reading on Medium »",
+    "date": "2026-11-15",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "BI_OUTILS",
+    "raison_score": "L'article décrit trois méthodes pour automatiser la création de rapports Power BI en utilisant du code, des scripts et des LLM. C'est une avancée significative pour l'automatisation dans le domaine de la BI.",
+    "tags": [
+      "Power BI",
+      "automatisation",
+      "Python",
+      "LLM",
+      "PBIR"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.050000000000001
+  },
+  {
+    "url": "https://medium.com/@swetha.mb4/power-query-errors-explained-part-2-0845168c949a?source=rss------power_bi-5",
+    "url_hash": "1311569b5a007468627099682e7d5d10",
+    "titre": "Power Query Errors Explained (Part 2)",
+    "resume": "How to use try…otherwise without hiding bad data.Continue reading on Medium »",
+    "date": "2026-11-15",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://medium.com/@berke_datanalyzer3/power-bida-yapay-zekan%C4%B1n-bile-aylarca-atlad%C4%B1%C4%9F%C4%B1-o-k%C3%BC%C3%A7%C3%BCk-detay-k%C3%BCm%C3%BClatif-toplam-neden-zikzak-%C3%A7izer-f88cc872673b?source=rss------power_bi-5",
+    "url_hash": "272925e7b9598b4d6f99a06b5b6654ee",
+    "titre": "Power BI’da Yapay Zekanın Bile Aylarca Atladığı O Küçük Detay: Kümülatif Toplam Neden Zikzak Çizer?",
+    "resume": "DAX formülünüz kâğıt üzerinde kusursuz görünmesine rağmen grafikte birikimli artış yerine anlamsız iniş çıkışlar görüyorsanız, çözüm…Continue reading on Medium »",
+    "date": "2026-11-14",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Cet article explique un problème subtil mais courant dans Power BI lié aux cumuls, même avec l'IA. C'est une évolution notable pour les utilisateurs rencontrant ce type de souci.",
+    "tags": [
+      "Power BI",
+      "DAX",
+      "cumulative sum",
+      "BI troubleshooting"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 5.05
+  },
+  {
+    "url": "https://medium.com/@farooqumer845/what-if-your-dashboard-is-full-of-data-but-nobody-understands-it-375852827fd9?source=rss------power_bi-5",
+    "url_hash": "b374395f3c4421b01c1b46efc173c606",
+    "titre": "WHAT IF YOUR DASHBOARD IS FULL OF DATA… BUT NOBODY UNDERSTANDS IT?",
+    "resume": "The Art of Data Storytelling: How Great Analysts Turn Numbers Into DecisionsContinue reading on Medium »",
+    "date": "2026-11-14",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://medium.com/@olubunmithelma/learning-to-like-power-bi-after-years-of-excel-8e1b2b2830a7?source=rss------power_bi-5",
+    "url_hash": "22132a256798e0d15a95cb5ab39e48f0",
+    "titre": "Learning to Like Power BI After Years of Excel",
+    "resume": "Continue reading on Medium »",
+    "date": "2026-11-14",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 3,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un retour d'expérience personnel sur la transition d'Excel à Power BI. L'information est utile pour ceux qui font une transition similaire.",
+    "tags": [
+      "Power BI",
+      "Excel",
+      "transition",
+      "BI journey"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 2,
+    "score_composite": 3.2
+  },
+  {
+    "url": "https://medium.com/@mohamedaasir1992/every-qlik-set-analysis-pattern-i-actually-use-and-the-three-that-quietly-give-wrong-numbers-d1e2537f57df?source=rss------qlik-5",
+    "url_hash": "304da9de5e3bae94ac87bfa1cbd526e7",
+    "titre": "Every Qlik Set Analysis Pattern I Actually Use — and the Three That Quietly Give Wrong Numbers",
+    "resume": "Seven patterns I trust in real dashboards, three that pass a glance test and still mislead, and the checklist I run before any set…Continue reading on Medium »",
+    "date": "2026-11-15",
+    "source_name": "Medium Qlik",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un article utile pour les praticiens de Qlik, décrivant des patterns de Set Analysis et signalant les pièges potentiels. C'est une évolution notable par son aspect pratique.",
+    "tags": [
+      "Qlik",
+      "Set Analysis",
+      "BI practices",
+      "DAX"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 5.3
+  },
+  {
+    "url": "https://www.producthunt.com/products/privacyboard",
+    "url_hash": "b8e20632178c64c92b835b1d26545d9f",
+    "titre": "Privacyboard",
+    "resume": "\n            Privacy compliance on autopilot\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-11-14",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Privacyboard se présente comme une solution pour automatiser la conformité à la vie privée. Si sa description est effectivement validée par une démonstration, cela pourrait être une évolution notable dans ce domaine.",
+    "tags": [
+      "privacy compliance",
+      "automatisation",
+      "SaaS",
+      "GDPR"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 2,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 4.8500000000000005
+  },
+  {
+    "url": "https://www.producthunt.com/products/byteask-cloud-agents",
+    "url_hash": "7580d175d9ea786f3ce9fb46ea62dc55",
+    "titre": "ByteAsk Cloud Agents",
+    "resume": "\n            Find the fix in big codebases. Ship it from Slack.\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-11-14",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.producthunt.com/products/perit-marketplace",
+    "url_hash": "8bec3e2066b5c242d5a38697af312262",
+    "titre": "Perit Marketplace",
+    "resume": "\n            Sell your data and RL tasks to frontier AI labs\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-11-15",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.producthunt.com/products/huntmonitor",
+    "url_hash": "bb3f1ac410a2045040acf005e8287fbf",
+    "titre": "HuntMonitor",
+    "resume": "\n            Watch today's hunt live: points, speed, rank moves\n          \n          \n            Discussion\n            |\n            Link\n          ",
+    "date": "2026-11-14",
+    "source_name": "Product Hunt",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.saastr.com/hubspot-is-refounding-as-the-customer-harness-company-heres-what-that-means-for-us-right-now-in-november-2026/",
+    "url_hash": "8ec80565ef849e8d4a1615767e61e07b",
+    "titre": "HubSpot Is Refounding as the “Customer Harness Company.” Here’s What That Means for Us, Right Now, in November 2026",
+    "resume": "Yesterday Brian Halligan said he and Dharmesh Shah are refounding HubSpot as the “Customer Harness Company.” I'm back as CEO of @HubSpot today.@dharmesh and I are completely re-founding the company. Its day 1. We're now the Customer Harness Company. In the next few days, I'll post about why I'm coming back and what my plans... Continue Reading",
+    "date": "2026-11-15",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.saastr.com/come-meet-us-live-at-granola-hq-in-sf-granolas-vp-of-sales-and-i-will-be-there-to-talk-agents-for-gtm-whats-working-and-what-isnt/",
+    "url_hash": "b1d1bbb62820aced466725d348da1ca2",
+    "titre": "Come Meet Us Live at Granola HQ in SF: Granola’s VP of Sales and I Will Be There to Talk Agents for GTM, What’s Working and What Isn’t",
+    "resume": "We’re doing something a bit different. No stage, no 5,000 people, no badge line. Just a room at Granola’s HQ in San Francisco on December 8, a real conversation about agents for GTM, and time to hang out after. I’ll be there in person with Bardia Shahali, VP of Sales at Granola, for GTM Series... Continue Reading",
+    "date": "2026-11-14",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.saastr.com/our-ai-vp-of-revenue-cant-close-a-deal-yet-it-co-closed-two-six-figure-deals-in-one-week/",
+    "url_hash": "3283255b09d8bdd685518984f4662ffd",
+    "titre": "Our AI VP of Revenue Can’t Close a Deal Yet. But It Co-Closed Two Six-Figure Deals in One Week.",
+    "resume": "In September I wrote that there still isn’t a good AI account executive. Agents had taken over most of our SDR work, much of first-line support and a lot of CSM work, but none of them could close. We Run 21 AI Agents and They’ve Closed Millions. But There Still Isn’t a Good AI Account... Continue Reading",
+    "date": "2026-11-14",
+    "source_name": "SaaStr",
+    "categorie_source": "ENTREPRENEURIAT",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+    "url_hash": "0cbac1debe315f54963baeba52c7c878",
+    "titre": "Where was Nvidia’s security team?",
+    "resume": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+    "date": "2026-11-15",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+    "url_hash": "7502b262d99d4b3c1b2447af54965c47",
+    "titre": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+    "resume": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+    "date": "2026-11-14",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+    "url_hash": "05f1becd89505e40e398e4ab450c1581",
+    "titre": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
+    "resume": "Even Elon Musk said the monthly fee is \"too high.\"",
+    "date": "2026-11-14",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/",
+    "url_hash": "6741c7c310ea0bda2c48170501c1ae6a",
+    "titre": "Got an iPhone Duo? These 9 settings make it easier to use",
+    "resume": "From Touch ID shortcuts to smarter volume buttons and camera tricks, these tweaks make Apple's foldable iPhone easier to use every day.",
+    "date": "2026-11-14",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
+    "url_hash": "0f30e45374721d53135bc0b5744aa975",
+    "titre": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
+    "resume": "FAA administrator Bryan Bedford also said there's \"zero evidence of anything AI-related.\"",
+    "date": "2026-11-14",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 2,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "L'article mentionne que l'incident n'est pas lié à l'IA, ce qui le rend de faible valeur ajoutée pour les domaines d'expertise demandés, malgré le contexte tech général.",
+    "tags": [
+      "transportation",
+      "system failure",
+      "AI non-relation"
+    ],
+    "pertinence_bi_consultant": 1,
+    "pertinence_passionné_ia": 1,
+    "pertinence_entrepreneur": 1,
+    "score_composite": 1.4
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "url_hash": "17dd6d164624ae18cd2f30bad64f1813",
+    "titre": "The AI graveyard: a running list of projects and startups that didn’t make it",
+    "resume": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+    "date": "2026-11-14",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+    "url_hash": "4392222fa3b074034e9ed7af3a872589",
+    "titre": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+    "resume": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+    "date": "2026-11-14",
+    "source_name": "TechCrunch",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
+    "url_hash": "9d1a7829765fcb5589381e9a62a05059",
+    "titre": "AI DJs Completely Kill My Groove",
+    "resume": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe.",
+    "date": "2026-11-15",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/review/evercade-nexus/",
+    "url_hash": "7efe7ddabb29ae4cca23bcc8e962540b",
+    "titre": "Evercade Nexus Review: The Best Retro Handheld Yet",
+    "resume": "Evercade’s best handheld yet is a major level-up for the retro specialist.",
+    "date": "2026-11-15",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/review/logitech-yeti-2/",
+    "url_hash": "98a04f2a978cf73ae75be5d81ad51c1a",
+    "titre": "Logitech Yeti 2 Review: An All-In-One Studio Setup",
+    "resume": "The follow-up to the iconic Yeti microphone is here, and its upgrades make it worthy of the legacy.",
+    "date": "2026-11-15",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+    "url_hash": "7c551984ba303a824b699096d46b709d",
+    "titre": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+    "resume": "A Carnegie Mellon student’s tiny E Ink gadgets, called OATs, give houseplants, skateboards, and dumbbells expressive personalities to nudge you toward better habits.",
+    "date": "2026-11-15",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/story/droughts-are-getting-too-extreme-even-for-cactuses/",
+    "url_hash": "629538c3ae6a50c1ebab808f63498026",
+    "titre": "It’s Getting Too Dry for Even Cactuses to Survive",
+    "resume": "As droughts worsen due to climate change, new research shows that hundreds of cactus species could lose the majority of their habitats by 2100.",
+    "date": "2026-11-15",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/story/mac-mini-deal-11-13-2026/",
+    "url_hash": "6be577b7f137293454133f732cb4e3fd",
+    "titre": "M6 Mac Mini Early Black Friday Sale (2026)",
+    "resume": "Not only is it the best mini computer you can buy, but it’s currently on sale, starting at just $779.",
+    "date": "2026-11-15",
+    "source_name": "Wired",
+    "categorie_source": "BUSINESS_IA",
+    "score_pending": true,
+    "article_du_jour": false
+  },
+  {
+    "url": "https://www.wired.com/story/new-species-of-giant-fungus-discovered-in-china-grows-up-to-20-inches-tall/",
+    "url_hash": "84b3b2485345060bba783302f126c7c4",
+    "titre": "New Species of Giant Fungus Discovered in China Grows up to 20 Inches Tall",
+    "resume": "Dubbed Dianjunus rex, the huge fungus emerged shortly after the mass extinction that wiped out the dinosaurs.",
+    "date": "2026-11-15",
     "source_name": "Wired",
     "categorie_source": "BUSINESS_IA",
     "score_pending": true,
