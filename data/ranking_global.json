@@ -2291,7 +2291,7 @@
     "source_name": "VentureBeat AI",
     "categorie_source": "IA_AGENTS",
     "score_pending": false,
-    "article_du_jour": false,
+    "article_du_jour": true,
     "score": 8,
     "categorie": "IA_MODELES",
     "raison_score": "Cet article annonce un nouveau modèle transformer open-weights capable de fonctionner localement sur des ordinateurs portables. C'est une avancée significative car cela rend les modèles d'IA plus accessibles et réduit la dépendance au cloud.",
@@ -6902,6 +6902,31 @@
     "score_composite": 7.3
   },
   {
+    "url": "https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/",
+    "url_hash": "6b8c419f9b258c8f11c94d704b47a30f",
+    "titre": "Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice",
+    "resume": "Z.ai released GLM-5.4, its first Loop Transformer flagship. The 750B-scale model runs 28 GLM-5 layers twice for deeper reasoning, with API access and open weights planned after safety work.\nThe post Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice appeared first on MarkTechPost.",
+    "date": "2026-11-23",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_MODELES",
+    "raison_score": "Annonce d'un nouveau modèle à grande échelle avec une architecture 'Loop Transformer', représentant une avancée significative dans les modèles IA open-source.",
+    "tags": [
+      "IA",
+      "Modèles",
+      "Transformer",
+      "Open Source",
+      "LLM"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 7.3
+  },
+  {
     "url": "https://motherduck.com/blog/figma-for-agents-airflow-creator-maxime-beauchemin",
     "url_hash": "5a94137c053a8887f757e482785d7b4b",
     "titre": "Figma for Agents: How Airflow's Creator Coordinates AI ft. Maxime Beauchemin",
@@ -9092,6 +9117,31 @@
     "score_composite": 7.1000000000000005
   },
   {
+    "url": "https://zapier.com/blog/email-automation",
+    "url_hash": "8859583a71e18d91fda3f97fdd8f2874",
+    "titre": "A guide to email automation with your AI agent and Zapier",
+    "resume": "Your AI agent can already draft replies, summarize a long thread, and flag what's urgent. But when the chat ends, so does the help. Someone still has to save the attachment, log the new lead, and send the follow-up after the meeting. Now you can set up email automation from the AI tool you already use. Install Zapier in Claude, ChatGPT, or Cursor, tell your agent what should happen to your email, and it builds the automation for you. Zapier runs it from there, even after you close the chat. And",
+    "date": "2026-11-23",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Cet article présente une nouvelle capacité d'agent IA documentée et reproductible qui permet de générer des automatisations Zapier pour l'email. Il combine IA et automatisation de manière concrète.",
+    "tags": [
+      "IA",
+      "agent IA",
+      "automatisation",
+      "email",
+      "Zapier"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 7.1000000000000005
+  },
+  {
     "url": "https://www.saastr.com/nues-guided-selling-playbook-took-2-minutes-to-build-the-implementation-still-takes-90-days/",
     "url_hash": "ade0276562273df6e6ccd89f16d7af08",
     "titre": "Nue’s Guided Selling Playbook Took 2 Minutes to Build. The Full Implementation Still Takes 90 Days.",
@@ -9831,31 +9881,6 @@
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 7,
     "score_composite": 7.050000000000001
-  },
-  {
-    "url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
-    "url_hash": "9d402f9b3a11bf26da124fbbc5a85082",
-    "titre": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
-    "resume": "ain't nobody beats Anthropic at distilling Fable!",
-    "date": "2026-07-25",
-    "source_name": "Latent Space",
-    "categorie_source": "IA_AGENTS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 8,
-    "categorie": "IA_MODELES",
-    "raison_score": "Annonce d'un nouveau modèle IA (Claude Opus 5) qui offre des performances de pointe à un coût réduit. Cela représente une avancée significative dans la démocratisation de modèles performants pour des usages variés comme les agents et les workflows d'entreprise.",
-    "tags": [
-      "Claude Opus 5",
-      "IA",
-      "modèles linguistiques",
-      "performance",
-      "coût"
-    ],
-    "pertinence_bi_consultant": 4,
-    "pertinence_passionné_ia": 9,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 7.05
   },
   {
     "url": "https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction/",
@@ -12191,28 +12216,29 @@
     "score_composite": 6.95
   },
   {
-    "url": "https://www.producthunt.com/products/opencomputer",
-    "url_hash": "ea36c9efa0105c600f09aeb33a7db0c2",
-    "titre": "OpenComputer",
-    "resume": "\n            The easiest way to deploy a managed agent.\n          \n          \n            Discussion\n            |\n            Link\n          ",
-    "date": "2026-07-25",
-    "source_name": "Product Hunt",
-    "categorie_source": "ENTREPRENEURIAT",
+    "url": "https://zapier.com/blog/automate-gmail-with-zapier",
+    "url_hash": "e35473adf17c646c00616c6dc23805b4",
+    "titre": "How to automate Gmail with your AI agent and Zapier",
+    "resume": "Your AI assistant is good at reading an inbox. It can summarize a long thread, draft a reply, and flag what needs your attention. Then you close the tab, and Gmail goes back to being a pile. The invoice is still sitting in an attachment, the new lead is still waiting on an answer, and nobody has turned that \"can you send me the deck?\" email into a task. You can change that without leaving the AI tool you already use. Install Zapier in Claude, ChatGPT, or Cursor, describe what should happen when",
+    "date": "2026-11-23",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
     "score_pending": false,
     "article_du_jour": false,
     "score": 7,
-    "categorie": "IA_AGENTS",
-    "raison_score": "Présente un nouvel outil visant à simplifier le déploiement d'agents gérés. Il s'agit d'une nouvelle capacité de gestion d'agents documentée et potentiellement reproductible, ouvrant la voie à des applications plus larges.",
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Cet article explique comment les agents IA, intégrés via Zapier, peuvent automatiser des flux de travail liés à Gmail. Il représente une nouvelle capacité d'agent IA documentée et reproductible.",
     "tags": [
-      "agents IA",
-      "déploiement",
-      "gestion",
-      "automatisation"
+      "IA",
+      "agent IA",
+      "automatisation",
+      "Gmail",
+      "Zapier"
     ],
     "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 8,
-    "score_composite": 6.900000000000001
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.95
   },
   {
     "url": "https://openai.com/index/avatarin",
@@ -12901,6 +12927,30 @@
       "agents",
       "Zapier",
       "Google Forms"
+    ],
+    "pertinence_bi_consultant": 6,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.900000000000001
+  },
+  {
+    "url": "https://zapier.com/blog/automate-youtube",
+    "url_hash": "322ec740b3a3f6620c41ad7e5281faf5",
+    "titre": "How to automate YouTube with your AI agent and Zapier",
+    "resume": "Your AI agent already helps you brainstorm video ideas, tighten scripts, and write descriptions. But when the chat ends, so does the help. Someone still has to share the new video in Slack, log it in a spreadsheet, and dig through the comments. Now you can automate YouTube from the AI tool you already use. Install Zapier in Claude, ChatGPT, or Cursor, tell your agent what should happen, and it builds the automation for you. Zapier runs it from there, even after you close the chat. Prefer to buil",
+    "date": "2026-11-23",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Nouvelle capacité d'automatisation documentée : intégration d'un agent IA avec Zapier pour automatiser les tâches YouTube. Offre une nouvelle solution concrète pour les créateurs.",
+    "tags": [
+      "Zapier",
+      "IA",
+      "automatisation",
+      "YouTube"
     ],
     "pertinence_bi_consultant": 6,
     "pertinence_passionné_ia": 7,
@@ -17149,6 +17199,31 @@
     "score_composite": 6.7
   },
   {
+    "url": "https://huggingface.co/blog/agentic-evals",
+    "url_hash": "6c63040381afedb9662adbfecaee584d",
+    "titre": "How to build and maintain an agentic evaluation",
+    "resume": "",
+    "date": "2026-11-23",
+    "source_name": "HuggingFace Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Documente une nouvelle capacité d'évaluation pour les agents IA, offrant une approche reproductible pour améliorer leur performance.",
+    "tags": [
+      "IA",
+      "Agents",
+      "Évaluation",
+      "Performance",
+      "Hugging Face"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.7
+  },
+  {
     "url": "https://venturebeat.com/technology/kimi-k3s-full-weights-are-here-but-theyre-open-with-a-caveat-what-enterprises-should-know",
     "url_hash": "e7a02af3a4f6c69feee755aa60b655cc",
     "titre": "Kimi K3's full weights are here, but they're 'open' with a caveat: What enterprises should know",
@@ -17935,6 +18010,31 @@
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 7,
+    "score_composite": 6.65
+  },
+  {
+    "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+    "url_hash": "39d193b8654c5d0a79e1ae8b39f90957",
+    "titre": "Finding faster quantum algorithms with agents and formal verification",
+    "resume": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+    "date": "2026-11-23",
+    "source_name": "DeepMind Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 8,
+    "categorie": "IA_AGENTS",
+    "raison_score": "Utilisation d'équipes d'agents pour une percée dans les algorithmes quantiques, démontrant une nouvelle capacité reproductible et significative pour la recherche scientifique.",
+    "tags": [
+      "IA",
+      "Agents",
+      "Quantique",
+      "Recherche",
+      "Algorithmes"
+    ],
+    "pertinence_bi_consultant": 3,
+    "pertinence_passionné_ia": 9,
+    "pertinence_entrepreneur": 6,
     "score_composite": 6.65
   },
   {
@@ -18793,33 +18893,6 @@
     "pertinence_passionné_ia": 6,
     "pertinence_entrepreneur": 9,
     "score_composite": 6.6000000000000005
-  },
-  {
-    "url": "https://towardsdatascience.com/optimizing-vector-search-on-disk-vs-in-memory-ann-indexes-when-ram-gets-too-expensive/",
-    "url_hash": "13926c5c7f50baab7c98878144cf5df6",
-    "titre": "How to Optimize Vector Search When RAM Gets Too Expensive: On-Disk vs. In-Memory ANN Indexes",
-    "resume": "Architecting cost-effective infrastructure by navigating the latency and storage trade-offs of HNSW, SPANN, and DiskANN\nThe post How to Optimize Vector Search When RAM Gets Too Expensive: On-Disk vs. In-Memory ANN Indexes appeared first on Towards Data Science.",
-    "date": "2026-07-25",
-    "source_name": "Towards Data Science",
-    "categorie_source": "DATA_PLATFORM",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_MODELES",
-    "raison_score": "Aborde un problème technique crucial dans le déploiement d'index vectoriels à grande échelle, offrant des solutions pratiques pour gérer les coûts de mémoire. La comparaison on-disk vs in-memory est une avancée significative pour l'optimisation des performances et des coûts.",
-    "tags": [
-      "vector search",
-      "ANN",
-      "HNSW",
-      "SPANN",
-      "DiskANN",
-      "optimisation",
-      "coût"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 8,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 6.550000000000001
   },
   {
     "url": "https://blog.n8n.io/rag-vs-agentic-rag-architecture-tradeoffs-and-how-to-choose/",
@@ -20240,6 +20313,56 @@
     "score_composite": 6.550000000000001
   },
   {
+    "url": "https://www.therundown.ai/articles/claude-helps-solve-math-s-biggest-open-problem",
+    "url_hash": "2343a6e17c06dfde71ceb6c5cd1a8671",
+    "titre": "Claude helps solve math's biggest open problem",
+    "resume": "PLUS: Test Gemini 4 Neon on finding billing errors",
+    "date": "2026-11-23",
+    "source_name": "The Rundown AI",
+    "categorie_source": "IA_APPLIQUEE",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_APPLIQUEE",
+    "raison_score": "Exemple concret et impactant de l'application d'une IA pour résoudre un problème scientifique majeur, démontrant une nouvelle capacité appliquée significative.",
+    "tags": [
+      "IA",
+      "Appliquée",
+      "Mathématiques",
+      "Recherche",
+      "LLM"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.550000000000001
+  },
+  {
+    "url": "https://medium.com/@ornelas.tozato/de-planilhas-est%C3%A1ticas-a-agent-skills-como-estruturar-bi-e-monetizar-engenharia-na-agensi-36305ec4faf5?source=rss------power_bi-5",
+    "url_hash": "0e8e930090f1331b80ab72902ebc8dbd",
+    "titre": "De planilhas estáticas a Agent Skills: como estruturar BI e monetizar engenharia na Agensi",
+    "resume": "Dados comerciais perdem valor estratégico quando ficam presos em planilhas estáticas e análises manuais. Ao mesmo tempo, pedir para um…Continue reading on Medium »",
+    "date": "2026-11-23",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article présente un nouveau cas d'usage intéressant en structurant le BI avec des 'Agent Skills' et en le monétisant. Il documente une approche novatrice pour la création de valeur.",
+    "tags": [
+      "BI",
+      "IA",
+      "monétisation",
+      "Agent Skills",
+      "startup"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 6,
+    "pertinence_entrepreneur": 8,
+    "score_composite": 6.550000000000001
+  },
+  {
     "url": "https://techcrunch.com/2026/10/07/bloom-raises-3-6m-to-become-the-alibaba-of-american-manufacturing/",
     "url_hash": "fca05aa5adff5b2660ce1512962ba6e6",
     "titre": "Bloom raises $3.6M to become the Alibaba of American manufacturing",
@@ -20800,6 +20923,31 @@
       "Coût",
       "OpenAI",
       "Agents"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 7,
+    "score_composite": 6.500000000000001
+  },
+  {
+    "url": "https://zapier.com/blog/social-media-automation",
+    "url_hash": "3c0a7f746032c0e3274d1e87131e9d23",
+    "titre": "How to use Zapier for social media automation",
+    "resume": "Your AI agent can brainstorm captions, reword a post for LinkedIn, and sum up what people are saying about your launch. Then the chat ends, and the posting, the replying, and the resharing are back on your plate. Now you can start social media automation from the AI tool you already use. Install Zapier in Claude, ChatGPT, or Cursor, describe what should happen across your channels, and your agent builds it as a Zap. Zapier takes over from there and keeps it running long after the chat is closed.",
+    "date": "2026-11-23",
+    "source_name": "Zapier Blog",
+    "categorie_source": "AUTOMATISATION",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "AUTOMATISATION",
+    "raison_score": "Cet article détaille l'utilisation d'agents IA avec Zapier pour automatiser les tâches liées aux réseaux sociaux. Il s'agit d'une nouvelle capacité d'agent IA documentée et reproductible.",
+    "tags": [
+      "IA",
+      "agent IA",
+      "automatisation",
+      "réseaux sociaux",
+      "Zapier"
     ],
     "pertinence_bi_consultant": 5,
     "pertinence_passionné_ia": 7,
@@ -24564,6 +24712,31 @@
     "score_composite": 6.300000000000001
   },
   {
+    "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+    "url_hash": "4260980a42a076401b5c47ebf27825e8",
+    "titre": "Supercharging transformer residual connections",
+    "resume": "Algorithms & Theory",
+    "date": "2026-11-23",
+    "source_name": "Google Research Blog",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 7,
+    "categorie": "IA_MODELES",
+    "raison_score": "Propose une amélioration algorithmique pour les modèles Transformer, potentiellement une avancée significative pour les modèles de nouvelle génération.",
+    "tags": [
+      "IA",
+      "Modèles",
+      "Transformer",
+      "Algorithmes",
+      "Recherche"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 8,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 6.300000000000001
+  },
+  {
     "url": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
     "url_hash": "35a5abb5bb7ade5c8d6f63f1c95dbb5b",
     "titre": "After a deepfake voice fooled her grandfather, this founder sprang into action",
@@ -25230,31 +25403,6 @@
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 4,
     "score_composite": 6.25
-  },
-  {
-    "url": "https://www.marktechpost.com/2026/07/25/building-self-evolving-ai-agents-with-openspace-using-skills-mcp-lineage-and-low-cost-reuse/",
-    "url_hash": "b31dbc8f50a780e2232f5ef7cdbe1fb4",
-    "titre": "Building Self-Evolving AI Agents with OpenSpace Using Skills, MCP, Lineage, and Low-Cost Reuse",
-    "resume": "Discover how to create self-evolving AI agents using the OpenSpace framework. This tutorial guides you through the entire workflow—from environment setup and custom skill creation to MCP integration and using SQLite to manage agent lineage—empowering you to build more efficient, reusable agent systems.\nThe post Building Self-Evolving AI Agents with OpenSpace Using Skills, MCP, Lineage, and Low-Cost Reuse appeared first on MarkTechPost.",
-    "date": "2026-07-25",
-    "source_name": "MarkTechPost",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "IA_AGENTS",
-    "raison_score": "Il s'agit d'un tutoriel avancé sur la création d'agents IA auto-évolutifs avec le framework OpenSpace, en détaillant l'utilisation de compétences, MCP, lineage et la réutilisation. C'est une nouvelle capacité d'agent documentée et reproductible.",
-    "tags": [
-      "AI agents",
-      "self-evolving AI",
-      "OpenSpace",
-      "tutorial",
-      "MLOps"
-    ],
-    "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 7,
-    "pertinence_entrepreneur": 6,
-    "score_composite": 6.200000000000001
   },
   {
     "url": "https://www.marktechpost.com/2026/07/27/designing-skill-driven-financial-analysis-agents-with-claude-python-mcp-connectors-and-automated-deliverables/",
@@ -26383,32 +26531,6 @@
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 5,
     "score_composite": 6.15
-  },
-  {
-    "url": "https://medium.com/@NusratGulbarga_data_analyst/how-i-built-an-end-to-end-healthcare-analytics-platform-with-sql-ml-power-bi-fdb1170ae0d9?source=rss------power_bi-5",
-    "url_hash": "7451ff1c083c46993ecf5628db8647e1",
-    "titre": "How I Built an End-to-End Healthcare Analytics Platform with SQL, ML & Power BI",
-    "resume": "Turning 57,000+ patient records into predictive, decision-ready intelligence for hospitalsContinue reading on Medium »",
-    "date": "2026-07-25",
-    "source_name": "Medium Power BI",
-    "categorie_source": "BI_OUTILS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "BUSINESS_IA",
-    "raison_score": "Documente un nouveau cas d'usage BI/Data/Startup impliquant SQL, ML et Power BI dans le domaine de la santé. Le caractère end-to-end et l'intégration de ML lui confèrent une évolution notable avec une orientation vers des métriques d'impact potentiel.",
-    "tags": [
-      "Power BI",
-      "SQL",
-      "ML",
-      "healthcare",
-      "analytics",
-      "data platform"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 6.1000000000000005
   },
   {
     "url": "https://towardsdatascience.com/put-the-agent-inside-the-workflow/",
@@ -30061,31 +30183,6 @@
     "score_composite": 5.950000000000001
   },
   {
-    "url": "https://medium.com/@dinmaagu6/how-i-built-a-global-hiv-analytics-report-in-power-bi-using-who-data-f7b7f449d43b?source=rss------power_bi-5",
-    "url_hash": "c618c130bea91278e894100d992d9af8",
-    "titre": "How I Built a Global HIV Analytics Report in Power BI Using WHO Data",
-    "resume": "From raw annual records to a four-page interactive report exploring HIV burden, treatment access, mortality and regional trends from…Continue reading on Medium »",
-    "date": "2026-07-25",
-    "source_name": "Medium Power BI",
-    "categorie_source": "BI_OUTILS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "BI_PRATIQUES",
-    "raison_score": "Décrit un cas d'usage BI concret avec des métriques quantifiées sur la création d'un rapport analytique. L'intégration de données WHO pour un sujet de santé publique est un exemple pertinent d'application métier.",
-    "tags": [
-      "Power BI",
-      "analyse de données",
-      "santé publique",
-      "rapport",
-      "WHO"
-    ],
-    "pertinence_bi_consultant": 8,
-    "pertinence_passionné_ia": 4,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 5.95
-  },
-  {
     "url": "https://www.databricks.com/blog/agentic-media-buying-cannot-scale-without-right-foundation-see-how-buyers-and-sellers-get",
     "url_hash": "9513fe268f5def3acc3bc70bf394e8af",
     "titre": "Agentic media buying cannot scale without the right foundation. See how buyers and sellers get there on Databricks.",
@@ -30722,29 +30819,53 @@
     "score_composite": 5.95
   },
   {
-    "url": "https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published/",
-    "url_hash": "b51db6ba2a4f64fd1ee1bd4b01790911",
-    "titre": "Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published",
-    "resume": "A small group of AI researchers (Reactor) have released Open Dreamer, an open implementation of the Dreamer 4 world-model pipeline written in JAX and Flax NNX. What actually shipped Two repositories were released. next-state/open-dreamer holds the training pipeline: a causal video tokenizer, an action-conditioned latent dynamics model, rollout generation, and FVD scoring. reactor-team/open-dreamer holds a […]\nThe post Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeli",
-    "date": "2026-07-25",
-    "source_name": "MarkTechPost",
-    "categorie_source": "IA_MODELES",
+    "url": "https://medium.com/@miguelocanasanjulian/el-futuro-de-la-visualizaci%C3%B3n-en-power-bi-onelake-vega-y-nuevas-posibilidades-efd0abfdbffe?source=rss------power_bi-5",
+    "url_hash": "d4bb6e3cfb517a0bb709b73f9a875277",
+    "titre": "El futuro de la visualización en Power BI: OneLake, Vega y nuevas posibilidades",
+    "resume": "Las novedades visuales de FabCon 2026 (Parte 4/4)Continue reading on Medium »",
+    "date": "2026-11-23",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
     "score_pending": false,
     "article_du_jour": false,
-    "score": 7,
-    "categorie": "IA_MODELES",
-    "raison_score": "Open Dreamer est une reproduction open-source du pipeline de modèle de monde Dreamer 4, avec la recette complète d'entraînement publiée. Cela représente une avancée significative pour la recherche et le développement de modèles de monde.",
+    "score": 6,
+    "categorie": "BI_OUTILS",
+    "raison_score": "L'article traite des évolutions futures de Power BI, mentionnant OneLake et Vega. Il s'agit d'une mise à jour importante sur les capacités émergentes de l'outil.",
     "tags": [
-      "world model",
-      "reinforcement learning",
-      "JAX",
-      "Flax",
-      "open-source"
+      "Power BI",
+      "visualisation",
+      "OneLake",
+      "Vega"
     ],
-    "pertinence_bi_consultant": 3,
-    "pertinence_passionné_ia": 8,
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 5,
-    "score_composite": 5.9
+    "score_composite": 5.95
+  },
+  {
+    "url": "https://medium.com/@mathieu.pelletier_26902/how-to-move-your-current-power-bi-report-to-unity-catalog-metric-views-without-a-rebuild-615d41da6a6d?source=rss------power_bi-5",
+    "url_hash": "07d1f70073f8822b05b002b166fc379d",
+    "titre": "How to move your current Power BI report to Unity Catalog metric views without a rebuild",
+    "resume": "Your Power BI report still points at the old modelContinue reading on Medium »",
+    "date": "2026-11-23",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Propose un tutoriel avancé sur l'intégration entre Power BI et Unity Catalog, démontrant un nouveau cas d'usage pour les outils BI existants.",
+    "tags": [
+      "BI",
+      "Power BI",
+      "Data Catalog",
+      "Unity Catalog",
+      "Migration"
+    ],
+    "pertinence_bi_consultant": 9,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 5.949999999999999
   },
   {
     "url": "https://www.databricks.com/blog/convert-proprietary-code-open-ansi-sql-genie-code",
@@ -31822,6 +31943,31 @@
       "AUTOMATISATION",
       "IA_AGENTS",
       "NOCODE_LOWCODE"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.9
+  },
+  {
+    "url": "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+    "url_hash": "ffecfa2950cce88c9706454d4b04f70f",
+    "titre": "Announcing General Availability of native Lakebase Postgres sink for Spark Structured Streaming",
+    "resume": "Low-latency use cases like fraud detection, live personalization, and real-time feature...",
+    "date": "2026-11-23",
+    "source_name": "Databricks Blog",
+    "categorie_source": "DATA_PLATFORM",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "DATA_PLATFORM",
+    "raison_score": "Annonce de la disponibilité générale d'un connecteur natif pour Spark Structured Streaming, une évolution notable pour les plateformes de données.",
+    "tags": [
+      "Data Platform",
+      "Streaming",
+      "Spark",
+      "Databricks",
+      "Data Engineering"
     ],
     "pertinence_bi_consultant": 7,
     "pertinence_passionné_ia": 5,
@@ -35889,30 +36035,6 @@
     "score_composite": 5.6499999999999995
   },
   {
-    "url": "https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers/",
-    "url_hash": "ccfb40d210976da279f054170cd9621e",
-    "titre": "Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers",
-    "resume": "OpenAI disclosed that its own models breached Hugging Face's production infrastructure while taking a public security benchmark. The models were not attacking a target — they were optimizing a score. Here is the mechanism, what the ExploitGym data showed two months earlier, and which widely repeated claims about the incident are not actually confirmed.\nThe post Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers appeared first on MarkTechPost.",
-    "date": "2026-07-25",
-    "source_name": "MarkTechPost",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "IA_AGENTS",
-    "raison_score": "Cet article explique un incident de sécurité impliquant un agent OpenAI, en le contextualisant comme un cas de 'reward hacking' plutôt que de malveillance. Il fournit une explication technique utile pour les ingénieurs.",
-    "tags": [
-      "AI agents",
-      "security",
-      "reward hacking",
-      "LLM incident"
-    ],
-    "pertinence_bi_consultant": 5,
-    "pertinence_passionné_ia": 6,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 5.6000000000000005
-  },
-  {
     "url": "https://towardsdatascience.com/how-i-reproduced-bm25-dense-retrieval-and-splade-on-a-16gb-macbook/",
     "url_hash": "abb96a04f2203ebab29669bc709b7fef",
     "titre": "How I Reproduced BM25, Dense Retrieval, and SPLADE on a 16GB MacBook",
@@ -36452,32 +36574,6 @@
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 8,
     "score_composite": 5.6000000000000005
-  },
-  {
-    "url": "https://medium.com/@dumoaby/transforming-retail-sales-data-into-actionable-insights-an-end-to-end-power-bi-case-study-4baa34a7c177?source=rss------power_bi-5",
-    "url_hash": "17b18e38898c2b7a3db7705fdfc37dfb",
-    "titre": "Transforming Retail Sales Data into Actionable Insights: An End-to-End Power BI Case Study",
-    "resume": "How I built an interactive Sales Performance Dashboard for BrightMart using Power BI to transform raw transactional data into strategic…Continue reading on Medium »",
-    "date": "2026-07-25",
-    "source_name": "Medium Power BI",
-    "categorie_source": "BI_OUTILS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 5,
-    "categorie": "BI_PRATIQUES",
-    "raison_score": "Présente un cas d'usage BI bien documenté avec Power BI pour transformer des données de vente. L'article apporte une valeur d'évolution notable en montrant un processus end-to-end et les métriques potentielles.",
-    "tags": [
-      "Power BI",
-      "BI",
-      "retail",
-      "cas d'usage",
-      "data analytics",
-      "tableau de bord"
-    ],
-    "pertinence_bi_consultant": 8,
-    "pertinence_passionné_ia": 5,
-    "pertinence_entrepreneur": 4,
-    "score_composite": 5.6
   },
   {
     "url": "https://pub.towardsai.net/power-bis-adbc-migration-has-started-0215fdb880d6?source=rss------power_bi-5",
@@ -37400,6 +37496,31 @@
       "Ollama",
       "Gemma",
       "tutoriel"
+    ],
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 7,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.550000000000001
+  },
+  {
+    "url": "https://www.marktechpost.com/2026/11/23/meta-tlx-triton-low-level-extensions/",
+    "url_hash": "3877947acaac7633503e10120021a087",
+    "titre": "Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD",
+    "resume": "Meta has detailed TLX, its Triton Low-Level Extensions that add warp-group, barrier, TMA and cluster control to Python Triton kernels. It runs Meta's ads and LLM workloads on Hopper, Blackwell and AMD MI350 GPUs.\nThe post Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD appeared first on MarkTechPost.",
+    "date": "2026-11-23",
+    "source_name": "MarkTechPost",
+    "categorie_source": "IA_MODELES",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 6,
+    "categorie": "IA_MODELES",
+    "raison_score": "Présente des extensions de bas niveau pour Triton, améliorant l'efficacité des modèles sur le matériel GPU. Il s'agit d'une évolution notable pour l'optimisation des modèles.",
+    "tags": [
+      "IA",
+      "GPU",
+      "Optimisation",
+      "Modèles",
+      "Hardware"
     ],
     "pertinence_bi_consultant": 4,
     "pertinence_passionné_ia": 7,
@@ -38537,6 +38658,31 @@
     "score_composite": 5.55
   },
   {
+    "url": "https://medium.com/@thebitoolbox/meet-model-cleaner-for-power-bi-review-choose-remove-restore-9a50051b8995?source=rss------power_bi-5",
+    "url_hash": "919abc234a9b721c8c37a9ff0325c12d",
+    "titre": "Meet Model Cleaner for Power BI: Review, Choose, Remove, Restore",
+    "resume": "A practical tour of the free theBItoolbox template for reviewing unused measures and columns in a saved Power BI project.Continue reading on Medium »",
+    "date": "2026-11-23",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_OUTILS",
+    "raison_score": "Présente un nouvel outil gratuit pour Power BI ('Model Cleaner'), offrant une nouvelle capacité pour la gestion des modèles, une évolution notable.",
+    "tags": [
+      "BI",
+      "Power BI",
+      "Outil",
+      "Modélisation",
+      "Gratuit"
+    ],
+    "pertinence_bi_consultant": 8,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 5,
+    "score_composite": 5.55
+  },
+  {
     "url": "https://www.producthunt.com/products/lamoom",
     "url_hash": "f90d5c629e788c7096f5ee038f9d6841",
     "titre": "Lamoom",
@@ -39194,30 +39340,6 @@
     "pertinence_passionné_ia": 2,
     "pertinence_entrepreneur": 6,
     "score_composite": 5.450000000000001
-  },
-  {
-    "url": "https://www.producthunt.com/products/localskills-sh",
-    "url_hash": "8a739d1f0791a38d944ce57c642d96df",
-    "titre": "localskills.sh",
-    "resume": "\n            AI Skill & MCP server management for teams & enterprises\n          \n          \n            Discussion\n            |\n            Link\n          ",
-    "date": "2026-07-25",
-    "source_name": "Product Hunt",
-    "categorie_source": "ENTREPRENEURIAT",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "AUTOMATISATION",
-    "raison_score": "Présentation d'un nouvel outil pour la gestion de compétences et de serveurs MCP pour les équipes. Bien que non disruptif, il représente une évolution notable dans les outils d'automatisation collaborative pour l'IA.",
-    "tags": [
-      "automatisation",
-      "gestion IA",
-      "plateforme collaborative",
-      "entrepreneuriat tech"
-    ],
-    "pertinence_bi_consultant": 4,
-    "pertinence_passionné_ia": 5,
-    "pertinence_entrepreneur": 7,
-    "score_composite": 5.45
   },
   {
     "url": "https://www.producthunt.com/products/ski",
@@ -41074,30 +41196,6 @@
     "score_composite": 5.3500000000000005
   },
   {
-    "url": "https://www.marktechpost.com/2026/07/24/datalab-marker-v2-vs-mineru-docling-and-liteparse-benchmark-breakdown/",
-    "url_hash": "e28ffacc9d0dea2f1feb78ef6735ad68",
-    "titre": "Datalab Marker v2 vs MinerU, Docling, and Liteparse: Benchmark Breakdown",
-    "resume": "Datalab rewrote Marker as a three-mode pipeline. Version 2 hits 76.0 on olmOCR-bench and sustains 2.9 pages per second on one B200 — over 5× MinerU's pipeline backend, while beating Docling on both accuracy and speed. Here's how it compares against MinerU, Docling and LiteParse, and which one fits your use case.\nThe post Datalab Marker v2 vs MinerU, Docling, and Liteparse: Benchmark Breakdown appeared first on MarkTechPost.",
-    "date": "2026-07-25",
-    "source_name": "MarkTechPost",
-    "categorie_source": "IA_MODELES",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 5,
-    "categorie": "DATA_PLATFORM",
-    "raison_score": "Cet article propose une comparaison de benchmarks entre Datalab Marker v2 et d'autres outils (MinerU, Docling, Liteparse), mettant en avant des améliorations de performance. C'est un nouveau cas d'usage documenté avec des métriques.",
-    "tags": [
-      "data extraction",
-      "OCR",
-      "benchmarking",
-      "document processing"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 5,
-    "pertinence_entrepreneur": 4,
-    "score_composite": 5.35
-  },
-  {
     "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
     "url_hash": "2d07bffab6eb83000bf07fd75057f782",
     "titre": "How the GitHub legal team used Copilot CLI to streamline their workflows",
@@ -41949,56 +42047,6 @@
     "pertinence_passionné_ia": 7,
     "pertinence_entrepreneur": 5,
     "score_composite": 5.300000000000001
-  },
-  {
-    "url": "https://medium.com/munchy-bytes/my-journey-researching-ai-in-power-bi-7f84f0f2e3af?source=rss------power_bi-5",
-    "url_hash": "ccaf92e0146f9357685989bfdb23faa3",
-    "titre": "My Journey Researching AI in Power BI",
-    "resume": "Continue reading on Tech Blog »",
-    "date": "2026-07-25",
-    "source_name": "Medium Power BI",
-    "categorie_source": "BI_OUTILS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 5,
-    "categorie": "BUSINESS_IA",
-    "raison_score": "Documente un nouveau cas d'usage concret de l'IA dans Power BI, décrivant une expérience personnelle. L'article est une évolution notable car il partage des apprentissages pratiques, même s'il ne présente pas de nouvelles capacités technologiques.",
-    "tags": [
-      "AI",
-      "Power BI",
-      "business intelligence",
-      "apprentissage",
-      "cas d'usage"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 4,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 5.3
-  },
-  {
-    "url": "https://medium.com/@stephenodeleye70/the-funnel-metric-that-surprised-me-when-every-channel-converts-exactly-the-same-00b1d474a37d?source=rss------power_bi-5",
-    "url_hash": "b9d6249087d3d62b7f9175acd9ea2656",
-    "titre": "The Funnel Metric That Surprised Me: When Every Channel Converts Exactly the Same",
-    "resume": "Building a Power BI marketing funnel that challenged my assumptions about customer behavior.Continue reading on Medium »",
-    "date": "2026-07-25",
-    "source_name": "Medium Power BI",
-    "categorie_source": "BI_OUTILS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 5,
-    "categorie": "BI_PRATIQUES",
-    "raison_score": "Documente un cas d'usage BI avec Power BI axé sur l'analyse de funnel marketing. L'article présente un nouveau cas d'usage avec des métriques et un retour d'expérience qui le rendent une évolution notable.",
-    "tags": [
-      "Power BI",
-      "marketing funnel",
-      "BI",
-      "métriques",
-      "analyse client"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 4,
-    "pertinence_entrepreneur": 5,
-    "score_composite": 5.3
   },
   {
     "url": "https://www.databricks.com/blog/backstage-lakebase-part-3",
@@ -44900,32 +44948,6 @@
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 4,
     "score_composite": 5.199999999999999
-  },
-  {
-    "url": "https://techcrunch.com/2026/07/25/elon-musks-boring-company-reportedly-raising-funding-at-a-20-billion-valuation/",
-    "url_hash": "9f1c697c2a57356fd8fab0b0444d8405",
-    "titre": "Elon Musk’s Boring Company reportedly raising funding at a $20 billion valuation",
-    "resume": "Elon Musk's tunneling startup is reportedly in talks for a major new funding round.",
-    "date": "2026-07-25",
-    "source_name": "TechCrunch",
-    "categorie_source": "BUSINESS_IA",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 6,
-    "categorie": "ENTREPRENEURIAT",
-    "raison_score": "Annonce une levée de fonds significative pour une entreprise tech à forte valorisation. Cela représente une évolution notable dans le paysage entrepreneurial tech, impactant le secteur de la mobilité et de l'infrastructure.",
-    "tags": [
-      "funding",
-      "startup",
-      "valuation",
-      "The Boring Company",
-      "entrepreneuriat",
-      "tech"
-    ],
-    "pertinence_bi_consultant": 3,
-    "pertinence_passionné_ia": 4,
-    "pertinence_entrepreneur": 8,
-    "score_composite": 5.15
   },
   {
     "url": "https://towardsdatascience.com/how-to-effectively-deploy-code-with-claude-code/",
@@ -49429,29 +49451,28 @@
     "score_composite": 4.9
   },
   {
-    "url": "https://medium.com/@ameen.ahmed/does-rising-electricity-demand-squeeze-ontario-households-6fbe4f16a3b9?source=rss------power_bi-5",
-    "url_hash": "62b6e16ede3cfb5ece6a8a2b1e16bcfb",
-    "titre": "Does Rising Electricity Demand Squeeze Ontario Households?",
-    "resume": "An Empirical Power BI Analysis Exploring the Relationship Between Electricity Demand and Household Welfare in OntarioContinue reading on Medium »",
-    "date": "2026-07-25",
-    "source_name": "Medium Power BI",
-    "categorie_source": "BI_OUTILS",
+    "url": "https://blog.n8n.io/the-monday-morning-incident-your-lead-routing-workflow-stopped-routing/",
+    "url_hash": "e9cdb88894d028a863ef9c302436e89b",
+    "titre": "The Monday morning incident: your “Lead Routing” workflow stopped routing",
+    "resume": "This post covers an incident with a lead routing workflow and how n8n’s access controls help: projects and roles, SSO, and 2FA enforcement. Each one stops the incident at a different point.",
+    "date": "2026-11-23",
+    "source_name": "n8n Blog",
+    "categorie_source": "AUTOMATISATION",
     "score_pending": false,
     "article_du_jour": false,
     "score": 5,
-    "categorie": "BI_PRATIQUES",
-    "raison_score": "Présente un cas d'usage BI avec Power BI pour analyser l'impact de la demande d'électricité sur les ménages. Le caractère empirique et l'utilisation de métriques pour répondre à une question spécifique en font une évolution notable.",
+    "categorie": "AUTOMATISATION",
+    "raison_score": "L'article documente un cas d'usage d'automatisation avec n8n, abordant la gestion d'incidents et les contrôles d'accès. Il s'agit d'un retour d'expérience concret sur le déploiement d'une automatisation.",
     "tags": [
-      "Power BI",
-      "BI",
-      "analyse économique",
-      "données énergétiques",
-      "cas d'usage"
+      "n8n",
+      "automatisation",
+      "workflow",
+      "gestion d'incident"
     ],
-    "pertinence_bi_consultant": 6,
-    "pertinence_passionné_ia": 4,
-    "pertinence_entrepreneur": 4,
-    "score_composite": 4.8999999999999995
+    "pertinence_bi_consultant": 4,
+    "pertinence_passionné_ia": 5,
+    "pertinence_entrepreneur": 6,
+    "score_composite": 4.9
   },
   {
     "url": "https://towardsdatascience.com/running-sql-concurrently-across-three-remote-duckdb-servers-with-quack/",
@@ -50747,6 +50768,30 @@
     "pertinence_bi_consultant": 3,
     "pertinence_passionné_ia": 5,
     "pertinence_entrepreneur": 7,
+    "score_composite": 4.8
+  },
+  {
+    "url": "https://medium.com/microsoft-power-bi/retrieving-top-product-quarterwise-using-advanced-topn-in-power-bi-30f7a3009147?source=rss------power_bi-5",
+    "url_hash": "fdbeb47c9a9b2391d85d924010f27556",
+    "titre": "Retrieving Top Product Quarterwise Using Advanced TopN in Power BI",
+    "resume": "When working with large product catalogs, identifying the top-performing product in each quarter can be more challenging than a simple Top…Continue reading on Power BI »",
+    "date": "2026-11-23",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 5,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Il s'agit d'un tutoriel avancé sur une fonction spécifique de Power BI (Advanced TopN). L'article est utile pour les praticiens mais ne présente pas de rupture technologique.",
+    "tags": [
+      "Power BI",
+      "TopN",
+      "analyse",
+      "DAX"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 3,
     "score_composite": 4.8
   },
   {
@@ -52506,34 +52551,6 @@
     "score_composite": 4.550000000000001
   },
   {
-    "url": "https://medium.com/@shubhankarbhan/5-data-visualization-bi-tools-compared-71ed1c9757ff?source=rss------power_bi-5",
-    "url_hash": "8ae30c933ad5829cdb2b26395ba3289b",
-    "titre": "5 Data Visualization & BI Tools, Compared",
-    "resume": "A hands-on look at Tableau, Power BI, Looker Studio, Excel, and Google Charts — with a real chart built in eachContinue reading on Medium »",
-    "date": "2026-07-25",
-    "source_name": "Medium Power BI",
-    "categorie_source": "BI_OUTILS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 4,
-    "categorie": "BI_OUTILS",
-    "raison_score": "Offre un comparatif d'outils BI avec une approche 'hands-on' et des exemples concrets de graphiques. Il s'agit d'une information utile pour les professionnels qui cherchent à évaluer différentes solutions.",
-    "tags": [
-      "BI",
-      "Data Visualization",
-      "Tableau",
-      "Power BI",
-      "Looker Studio",
-      "Excel",
-      "Google Charts",
-      "comparatif"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 3,
-    "pertinence_entrepreneur": 4,
-    "score_composite": 4.55
-  },
-  {
     "url": "https://towardsdatascience.com/how-to-efficiently-prompt-claude-code/",
     "url_hash": "d13c31d1296aa56ebf7a1d08aafbdc19",
     "titre": "How to Efficiently Prompt Claude Code",
@@ -53365,6 +53382,54 @@
     "score_composite": 4.55
   },
   {
+    "url": "https://medium.com/@mekinci605/i%CC%87%C5%9F-zekas%C4%B1-nedir-veri-analiti%C4%9Fi-sql-ve-power-bi-ile-veriden-karara-giden-yol-9179ba6fbdae?source=rss------power_bi-5",
+    "url_hash": "1c5fb5edd91ff0173b5d3c891f0418e3",
+    "titre": "İş Zekası Nedir? Veri Analitiği, SQL ve Power BI ile Veriden Karara Giden Yol",
+    "resume": "İş zekası (Business Intelligence) ve veri analitiği, şirketlerin verilerini anlamlı bilgilere dönüştürerek daha bilinçli kararlar almasına…Continue reading on Medium »",
+    "date": "2026-11-23",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Article de fond expliquant les bases de la Business Intelligence, de l'analyse de données et l'utilisation de SQL et Power BI.",
+    "tags": [
+      "BI",
+      "Business Intelligence",
+      "Data Analytics",
+      "SQL",
+      "Power BI"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.55
+  },
+  {
+    "url": "https://medium.com/@tech_28326/excel-sql-or-power-bi-which-should-you-learn-first-as-a-data-analyst-0ea138920db6?source=rss------power_bi-5",
+    "url_hash": "b8bfcffa8d7682b120a463075b1690bc",
+    "titre": "Excel, SQL or Power BI: Which Should You Learn First as a Data Analyst?",
+    "resume": "If you look at data analyst job descriptions, three tools appear again and again: Excel, SQL and Power BI.Continue reading on Medium »",
+    "date": "2026-11-23",
+    "source_name": "Medium Power BI",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BI_PRATIQUES",
+    "raison_score": "Cet article offre des conseils utiles sur l'apprentissage des outils de données pour les analystes. Il compare des outils établis sans présenter de nouveautés majeures.",
+    "tags": [
+      "data analyst",
+      "apprentissage",
+      "outils data"
+    ],
+    "pertinence_bi_consultant": 7,
+    "pertinence_passionné_ia": 3,
+    "pertinence_entrepreneur": 4,
+    "score_composite": 4.55
+  },
+  {
     "url": "https://www.saastr.com/jasons-takes-on-this-weeks-20vc-the-toggle-is-a-permission-grant-the-blame-test-decides-the-deal-and-why-five-years-of-price-increases-is-a-countdown/",
     "url_hash": "5cc5cc0b3d7de548b202cd9a327a7aa6",
     "titre": "Jason’s Takes on This Week’s 20VC: The Toggle Is a Permission Grant, The Blame Test Decides the Deal, and Why Five Years of Price Increases Is a Countdown",
@@ -53966,31 +54031,6 @@
     "pertinence_passionné_ia": 4,
     "pertinence_entrepreneur": 6,
     "score_composite": 4.449999999999999
-  },
-  {
-    "url": "https://medium.com/@sultan.jamshed10/star-schema-vs-snowflake-schema-in-power-bi-a-beginner-friendly-guide-93a1ca8a53db?source=rss------power_bi-5",
-    "url_hash": "e2f09a619ee1973f4e10c86680415afe",
-    "titre": "Star Schema vs Snowflake Schema in Power BI: A Beginner-Friendly Guide",
-    "resume": "Star Schema vs Snowflake Schema: Which Data Model Should You Use?Continue reading on Medium »",
-    "date": "2026-07-25",
-    "source_name": "Medium Power BI",
-    "categorie_source": "BI_OUTILS",
-    "score_pending": false,
-    "article_du_jour": false,
-    "score": 4,
-    "categorie": "BI_PRATIQUES",
-    "raison_score": "Fournit un guide d'introduction sur les schémas étoile et flocon dans Power BI. Cet article est une information utile car il traite d'une pratique BI établie, rendue accessible aux débutants.",
-    "tags": [
-      "Power BI",
-      "data modeling",
-      "star schema",
-      "snowflake schema",
-      "BI"
-    ],
-    "pertinence_bi_consultant": 7,
-    "pertinence_passionné_ia": 3,
-    "pertinence_entrepreneur": 3,
-    "score_composite": 4.4
   },
   {
     "url": "https://medium.com/@polestaranalytics/how-polestar-analytics-accelerates-microsoft-power-bi-deployment-5ca51d58a629?source=rss------power_bi-5",
@@ -56657,6 +56697,30 @@
     "pertinence_passionné_ia": 3,
     "pertinence_entrepreneur": 3,
     "score_composite": 4.15
+  },
+  {
+    "url": "https://medium.com/@venicacurren/qlik-ai-specialist-certification-b46dced64a4c?source=rss------qlik-5",
+    "url_hash": "ba4089d64637ed11d53c001cc86bb5a9",
+    "titre": "Qlik AI Specialist Certification for BI Developers: Study the 60% That Isn't Qlik First",
+    "resume": "If you already build Qlik apps for a living, study the general AI topics first for the Qlik AI Specialist certification (QAIS). Qlik gives…Continue reading on Medium »",
+    "date": "2026-11-23",
+    "source_name": "Medium Qlik",
+    "categorie_source": "BI_OUTILS",
+    "score_pending": false,
+    "article_du_jour": false,
+    "score": 4,
+    "categorie": "BUSINESS_IA",
+    "raison_score": "Cet article donne des conseils pour une certification Qlik IA, mais se concentre sur la préparation à l'examen plutôt que sur de nouvelles avancées IA ou BI. Il s'agit d'une information utile pour un public ciblé.",
+    "tags": [
+      "Qlik",
+      "IA",
+      "certification",
+      "BI"
+    ],
+    "pertinence_bi_consultant": 5,
+    "pertinence_passionné_ia": 4,
+    "pertinence_entrepreneur": 3,
+    "score_composite": 4.1000000000000005
   },
   {
     "url": "https://blog.n8n.io/workato-alternatives-for-enterprise-automation/",
